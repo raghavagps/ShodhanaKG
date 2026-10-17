@@ -1,6 +1,6 @@
-﻿import { useQuery } from "@tanstack/react-query";
+import { useQuery } from "@tanstack/react-query";
 import { useState, useEffect } from "react";
-import type { ApiNode, ApiSearchResponse, ApiGraphResponse, ApiStatsResponse, ApiEdge, Domain, CategoryType, ProvenancePath, ProvenanceSubgraphResponse, CompoundProvenancePath, CompoundProvenanceResponse } from "./types";
+import type { ApiNode, ApiSearchResponse, ApiGraphResponse, ApiEdge, Domain, CategoryType, ProvenancePath, ProvenanceSubgraphResponse, CompoundProvenancePath, CompoundProvenanceResponse } from "./types";
 
 const API_BASE = import.meta.env.VITE_API_BASE || import.meta.env.BASE_URL.replace(/\/$/, "");
 
@@ -151,47 +151,6 @@ export function useKgStats() {
     queryKey: ["kg-stats"] as const,
     queryFn: kgStatsApi,
     staleTime: 300000, // 5 min â€” these change rarely
-    placeholderData: (prev) => prev,
-  });
-}
-
-export async function statsApi(
-  domain: Domain,
-  q: string = "",
-  sort: string = "name",
-  dir: "asc" | "desc" = "asc",
-  limit: number = 25,
-  offset: number = 0
-): Promise<{ rows: Record<string, unknown>[]; total: number; limit: number; offset: number }> {
-  const params = new URLSearchParams({
-    domain,
-    q,
-    sort,
-    dir,
-    limit: String(limit),
-    offset: String(offset),
-  });
-  const res = await fetchApi<ApiStatsResponse>(`stats.php?${params.toString()}`);
-  return {
-    rows: res.rows || [],
-    total: res.total ?? 0,
-    limit: res.limit ?? limit,
-    offset: res.offset ?? offset,
-  };
-}
-
-export function useStats(
-  domain: Domain,
-  q: string = "",
-  sort: string = "name",
-  dir: "asc" | "desc" = "asc",
-  limit: number = 25,
-  offset: number = 0
-) {
-  return useQuery({
-    queryKey: ["stats", domain, q, sort, dir, limit, offset] as const,
-    queryFn: async () => statsApi(domain, q, sort, dir, limit, offset),
-    staleTime: 30000,
     placeholderData: (prev) => prev,
   });
 }

@@ -330,7 +330,6 @@ export async function fetchApi<T>(path: string): Promise<T> {
 | `search.php?domain=&q=&limit=` | `useSearch()` | `["search", domain, query, limit]` | Autocomplete search (250ms debounce) |
 | `graph.php?domain=&seeds=&depth=&limitNodes=&limitEdges=&integratedMode=` | `useGraph()` | `["graph", domain, seeds, depth, ...]` | Subgraph for seed nodes |
 | `kg-stats.php` | `useKgStats()` | `["kg-stats"]` | Total nodes/relations/studies |
-| `stats.php?domain=&q=&sort=&dir=&limit=&offset=` | `useStats()` | `["stats", domain, q, sort, dir, limit, offset]` | Paginated entity list |
 | `counts.php?domain=` | `useCounts()` | `["counts", domain]` | Per-category counts |
 | `category-stats.php?domain=&category=...` | `useCategoryStats()` | `["category-stats", domain, category, ...]` | Relationship stats by category |
 | `provenance-subgraph.php?diseaseId=&pubmedId=&limit=` | `useProvenanceSubgraph()` | `["provenance-subgraph", diseaseId, ...]` | Disease provenance paths |
@@ -344,7 +343,6 @@ export async function fetchApi<T>(path: string): Promise<T> {
 | `useSearch` | 30s | placeholderData keeps previous results |
 | `useGraph` | 60s | placeholderData keeps previous results |
 | `useKgStats` | 5min | Rarely changes |
-| `useStats` | 30s | Paginated list |
 | `useCounts` | 60s | Category counts |
 | `useCategoryStats` | 30s | Paginated category stats |
 | `useProvenanceSubgraph` | 60s | Enabled only when diseaseId is truthy |

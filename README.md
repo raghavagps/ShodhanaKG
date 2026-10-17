@@ -152,7 +152,6 @@ api/                    # PHP Backend (17 files + tests)
   search.php            #   Full-text search across vertex types
   graph.php             #   Subgraph traversal (disease/compound/integrated)
   node.php              #   Single node + neighbors + evidence
-  stats.php             #   Paginated entity stats with relationship counts
   category-stats.php    #   Per-category stats with edge config
   kg-stats.php          #   Global KG node/relation/study counts
   counts.php            #   Per-category entity counts
