@@ -1,6 +1,6 @@
 # ShodhanaKG Explorer Suite
 
-![Integrated Graph View](./07-integrated-graph.png)
+![Integrated Graph View](./public/images/help/07-integrated-graph.png)
 
 ## Overview
 The **ShodhanaKG Explorer Suite** is an advanced Knowledge Graph platform dedicated to the visualization and analysis of Ayurvedic medical knowledge. It specifically focuses on the relationship between **Ayurvedic Diseases** and the **Shodhana (Purification)** of medicinal compounds.
@@ -122,11 +122,11 @@ npx playwright test --grep "Route smoke"
 
 | Homepage | Search Results |
 | :---: | :---: |
-| ![Homepage](./01-homepage.png) | ![Search](./02-search-results.png) |
+| ![Homepage](./public/images/help/01-homepage.png) | ![Search](./public/images/help/02-search-results.png) |
 
 | Disease Graph | Compound Graph |
 | :---: | :---: |
-| ![Disease Graph](./08-disease-graph.png) | ![Compound Graph](./06-compound-graph.png) |
+| ![Disease Graph](./public/images/help/08-disease-graph.png) | ![Compound Graph](./public/images/help/06-compound-graph.png) |
 
 ---
 

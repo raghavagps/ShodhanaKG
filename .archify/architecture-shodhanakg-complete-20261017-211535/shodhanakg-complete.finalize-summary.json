@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "architecture",
+  "quality": "showcase",
+  "specification": {
+    "path": "D:\\ShodhanaUI\\shodhanakg\\.archify\\architecture-shodhanakg-complete-20261017-211535\\candidate.json",
+    "sha256": "9748e03666ed8df1add243eac4807425d4f2e76b46794f877545965664933bae",
+    "bytes": 13771
+  },
+  "artifact": {
+    "path": "D:\\ShodhanaUI\\shodhanakg\\.archify\\architecture-shodhanakg-complete-20261017-211535\\shodhanakg-complete.html",
+    "sha256": "bdf5a5e853266caad2e12d93092b936fd115e8bbf6218a3af450acad1596c6cd",
+    "bytes": 858654
+  },
+  "gates": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "pass"
+  },
+  "diagnostics": [],
+  "diagnosticSummary": {
+    "total": 0,
+    "shown": 0,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "D:\\ShodhanaUI\\ShodhanaKG\\.archify\\architecture-shodhanakg-complete-20261017-211535\\shodhanakg-complete.finalize.json",
+    "summaryReceipt": "D:\\ShodhanaUI\\ShodhanaKG\\.archify\\architecture-shodhanakg-complete-20261017-211535\\shodhanakg-complete.finalize-summary.json",
+    "browserCheckReceipt": "D:\\ShodhanaUI\\shodhanakg\\.archify\\architecture-shodhanakg-complete-20261017-211535\\shodhanakg-complete.browser-check.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.1.0",
+    "availableVersion": "3.1.0",
+    "releaseNotes": null,
+    "checkedAt": "2026-10-17T15:51:01.677Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 3208,
+  "visualReviewRecommendation": {
+    "action": "inspect-route-readability",
+    "signals": {
+      "routesOverSuggestedBends": 3
+    },
+    "reason": "Automated gates passed, but crossings or detours still need perceptual review before claiming visual quality.",
+    "affectedRoutes": {
+      "crossings": [],
+      "detours": [
+        {
+          "relationship": {
+            "id": "chatengine-to-db",
+            "from": "chatbot_engine",
+            "to": "db_connector",
+            "label": "Graph Traversal",
+            "collectionIndex": 13,
+            "artifactIndex": 14
+          },
+          "bends": 3,
+          "stretch": 1
+        },
+        {
+          "relationship": {
+            "id": "chatengine-to-presenter",
+            "from": "chatbot_engine",
+            "to": "results_presenter",
+            "label": "Synthesize Facts",
+            "collectionIndex": 14,
+            "artifactIndex": 15
+          },
+          "bends": 3,
+          "stretch": 1.287
+        },
+        {
+          "relationship": {
+            "id": "presenter-to-pubmed",
+            "from": "results_presenter",
+            "to": "pubmed_ref",
+            "label": "PMID Citations",
+            "collectionIndex": 16,
+            "artifactIndex": 17
+          },
+          "bends": 3,
+          "stretch": 1
+        }
+      ],
+      "truncated": false
+    },
+    "hints": [
+      "chatbot_engine → db_connector needs 3 bends: move node chatbot_engine or db_connector so they share a row or column with matching centers, or sit diagonally with a clear corner.",
+      "chatbot_engine → results_presenter needs 3 bends: move node chatbot_engine or results_presenter so they share a row or column with matching centers, or sit diagonally with a clear corner.",
+      "results_presenter → pubmed_ref needs 3 bends: move node results_presenter or pubmed_ref so they share a row or column with matching centers, or sit diagonally with a clear corner."
+    ],
+    "repair": "Trace these relationships at the desktop viewport. For Architecture, use references/architecture-layout-repair.md: reflow a blocked main path or tangled connected scene, and repair an isolated defect locally only when the surrounding composition is accepted. Preserve all semantic content and user-fixed geometry. Rerun finalize once after the edit."
+  }
+}

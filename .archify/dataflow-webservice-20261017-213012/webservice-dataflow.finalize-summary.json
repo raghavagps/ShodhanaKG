@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "ok": true,
+  "command": "finalize",
+  "status": "pass",
+  "type": "dataflow",
+  "quality": "showcase",
+  "specification": {
+    "path": "D:\\ShodhanaUI\\shodhanakg\\.archify\\dataflow-webservice-20261017-213012\\candidate.json",
+    "sha256": "c4f44c213d29aca35470c540aa4ae95a24c3adf9f5dd2f10870b06c64548c0b2",
+    "bytes": 14936
+  },
+  "artifact": {
+    "path": "D:\\ShodhanaUI\\shodhanakg\\.archify\\dataflow-webservice-20261017-213012\\webservice-dataflow.html",
+    "sha256": "08e3075aca96021b4ae07b16ef5adb39f558716c7aee632e45b858e12554719c",
+    "bytes": 847131
+  },
+  "gates": {
+    "validate": "pass",
+    "deliver": "pass",
+    "check": "pass",
+    "browser-check": "pass"
+  },
+  "diagnostics": [],
+  "diagnosticSummary": {
+    "total": 0,
+    "shown": 0,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "D:\\ShodhanaUI\\ShodhanaKG\\.archify\\dataflow-webservice-20261017-213012\\webservice-dataflow.finalize.json",
+    "summaryReceipt": "D:\\ShodhanaUI\\ShodhanaKG\\.archify\\dataflow-webservice-20261017-213012\\webservice-dataflow.finalize-summary.json",
+    "browserCheckReceipt": "D:\\ShodhanaUI\\shodhanakg\\.archify\\dataflow-webservice-20261017-213012\\webservice-dataflow.browser-check.json"
+  },
+  "update": {
+    "status": "current",
+    "installedVersion": "3.1.0",
+    "availableVersion": "3.1.0",
+    "releaseNotes": null,
+    "checkedAt": "2026-10-17T15:51:01.677Z",
+    "source": "cache",
+    "noticeRequired": false,
+    "noticeText": null
+  },
+  "visualReview": "not-requested",
+  "durationMs": 3434
+}
