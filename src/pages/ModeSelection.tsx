@@ -2,7 +2,7 @@ import { uiLabels } from '@/data/uiLabels';
 import { entityGraphUrl } from '@/lib/entityNavigation';
 import { Link, useNavigate } from "react-router-dom";
 import { Activity, FlaskConical, Network, ArrowUpRight, Leaf, Sparkles, Database, GitBranch, BookOpen, Search, AlertCircle, ChevronDown } from "lucide-react";
-import { useKgStats, searchApi } from "@/lib/api";
+import { useKgStats, useSearch } from "@/lib/api";
 import type { ApiNode } from "@/lib/types";
 import { useState, useEffect, useRef } from "react";
 
@@ -186,14 +186,14 @@ const ModeSelection = () => {
   const { data: kgStats, isLoading: statsLoading } = useKgStats();
   
   const [searchQuery, setSearchQuery] = useState("");
-  const [suggestions, setSuggestions] = useState<ApiNode[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
-  const [isSearching, setIsSearching] = useState(false);
   const [searchMode, setSearchMode] = useState<"disease" | "compound" | "integrated">("disease");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const suggestionsCache = useRef<Map<string, ApiNode[]>>(new Map());
   const navigate = useNavigate();
+
+  const { data: searchResults = [], isFetching: isSearching } = useSearch(searchMode, searchQuery, 8);
+  const suggestions = searchQuery.trim() ? searchResults : [];
 
   const getPlaceholderText = () => {
     {
@@ -241,38 +241,7 @@ const ModeSelection = () => {
   };
 
   useEffect(() => {
-    const trimmed = searchQuery.trim();
-    if (!trimmed) {
-      setSuggestions([]);
-      setIsSearching(false);
-      return;
-    }
-
-    const cacheKey = `${searchMode}:${trimmed.toLowerCase()}`;
-    if (suggestionsCache.current.has(cacheKey)) {
-      setSuggestions(suggestionsCache.current.get(cacheKey)!);
-      setShowSuggestions(true);
-      setHighlightedIndex(-1);
-      setIsSearching(false);
-      return;
-    }
-
-    const delayDebounceFn = setTimeout(async () => {
-      setIsSearching(true);
-      try {
-        const results = await searchApi(searchMode, trimmed, 8);
-        suggestionsCache.current.set(cacheKey, results);
-        setSuggestions(results);
-        setShowSuggestions(true);
-        setHighlightedIndex(-1);
-      } catch (err) {
-        console.error("Suggestions fetch error:", err);
-      } finally {
-        setIsSearching(false);
-      }
-    }, 250);
-
-    return () => clearTimeout(delayDebounceFn);
+    setHighlightedIndex(-1);
   }, [searchQuery, searchMode]);
 
   useEffect(() => {
