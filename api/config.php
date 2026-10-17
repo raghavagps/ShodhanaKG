@@ -3,6 +3,7 @@ require_once __DIR__ . "/core/ModelConfig.php";
 
 // Central configuration for the PHP API.
 // Use environment variables in deployment; defaults are for local testing.
+ini_set('display_errors', '0');
 
 $ARCADE_URL = getenv('ARCADE_URL') ?: 'http://localhost:2480';
 $ARCADE_DB = getenv('ARCADE_DB') ?: 'IntegratedKG';

@@ -12,6 +12,14 @@ function api_ok($data, $status = 200) {
 }
 
 function api_fail($code, $message, $status = 400, $details = array()) {
+  if ($status >= 500) {
+    $logMsg = isset($details['message']) ? $details['message'] : (isset($details['error']) ? $details['error'] : $message);
+    error_log("ShodhanaKG API [$code] ($status): " . (is_string($logMsg) ? $logMsg : json_encode($logMsg)));
+    $details = array();
+    if (strpos($message, '[Query:') !== false || strpos($message, 'ArcadeDB') !== false) {
+      $message = 'Internal database query failed';
+    }
+  }
   api_send_json($status, array(
     'ok' => false,
     'error' => array(
