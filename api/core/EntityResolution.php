@@ -10,9 +10,53 @@ final class EntityResolution
     private $rawNodes = [];
     private $labels = [];
     private $broader = [];
-    public static function live()
+    public static function live($force = false)
     {
-        if (!self::$live) {
+        if (self::$live && !$force) {
+            return PhpCompatibility::value(self::$live, __CLASS__, false);
+        }
+
+        $apcuKey = 'shodhanakg_entity_resolution_v2';
+        if (!$force && function_exists('apcu_fetch')) {
+            $cached = apcu_fetch($apcuKey);
+            if ($cached instanceof self) {
+                self::$live = $cached;
+                return PhpCompatibility::value(self::$live, __CLASS__, false);
+            }
+        }
+
+        $cacheDir = getenv('API_CACHE_DIR') ?: (dirname(__DIR__) . '/storage/cache');
+        if (!is_dir($cacheDir)) {
+            @mkdir($cacheDir, 0777, true);
+        }
+        if (!is_writable($cacheDir)) {
+            $cacheDir = sys_get_temp_dir() . '/shodhanakg_cache';
+            if (!is_dir($cacheDir)) {
+                @mkdir($cacheDir, 0777, true);
+            }
+        }
+        $cacheFile = $cacheDir . '/entity_resolution_v2.cache';
+        $catalogPath = __DIR__ . '/terminology_catalog_v2.json';
+        $catalogMtime = is_file($catalogPath) ? filemtime($catalogPath) : 0;
+
+        if (!$force && is_file($cacheFile)) {
+            $cacheMtime = filemtime($cacheFile);
+            if ($cacheMtime > $catalogMtime && (time() - $cacheMtime < 3600)) {
+                $content = @file_get_contents($cacheFile);
+                if ($content !== false) {
+                    $cached = @unserialize($content);
+                    if ($cached instanceof self) {
+                        self::$live = $cached;
+                        if (function_exists('apcu_store')) {
+                            apcu_store($apcuKey, self::$live, 3600);
+                        }
+                        return PhpCompatibility::value(self::$live, __CLASS__, false);
+                    }
+                }
+            }
+        }
+
+        try {
             $nodes = [];
             foreach (get_schema_vertex_types() as $type) {
                 $rows = call_user_func(function () use (&$type) {
@@ -22,7 +66,30 @@ final class EntityResolution
                 $nodes = array_merge($nodes, $rows);
             }
             self::$live = new self($nodes);
+        } catch (Exception $e) {
+            if (is_file($cacheFile)) {
+                $content = @file_get_contents($cacheFile);
+                if ($content !== false) {
+                    $cached = @unserialize($content);
+                    if ($cached instanceof self) {
+                        self::$live = $cached;
+                        return PhpCompatibility::value(self::$live, __CLASS__, false);
+                    }
+                }
+            }
+            throw $e;
         }
+
+        if (function_exists('apcu_store')) {
+            apcu_store($apcuKey, self::$live, 3600);
+        }
+        if (is_dir($cacheDir) && is_writable($cacheDir)) {
+            $tmp = $cacheFile . '.' . uniqid('tmp', true);
+            if (@file_put_contents($tmp, serialize(self::$live)) !== false) {
+                @rename($tmp, $cacheFile);
+            }
+        }
+
         return PhpCompatibility::value(self::$live, __CLASS__, false);
     }
     public static function normalize($value)
