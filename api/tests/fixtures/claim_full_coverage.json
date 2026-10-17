@@ -1,0 +1,293 @@
+[
+  {
+    "id": "eval_traversal_therapy_formulation",
+    "named_reference_targets": [
+      "Jatyadi Taila",
+      "Jivantyadi Ghrita",
+      "Karpasastyadi Taila",
+      "Kottamchukkadi Taila",
+      "Ksheerbala Taila",
+      "Chinchadi Taila"
+    ],
+    "expected_unique_targets": 35,
+    "named_target_count": 6,
+    "missing_targets": [
+      "Arukaaladi Taila",
+      "Ashwagandha Taila",
+      "Bala Ashwagandha Taila",
+      "Bala Taila",
+      "Balaguduchyadi Taila",
+      "Chandan Bala Lakshadi Taila",
+      "Dashamoola Kwatha",
+      "Dashamoola Taila",
+      "Dhanvantara Taila",
+      "Dinesavalyadi Keram",
+      "Eladi Kera",
+      "Eladi Taila",
+      "Ghrita",
+      "Laghu Vishagarbha Taila",
+      "Maha Narayana Taila",
+      "Mahamasha Taila",
+      "Marichadi Taila",
+      "Murchita Taila",
+      "Murchita Tila Taila",
+      "Narayana Taila",
+      "Panchatikta Ghrita",
+      "Pinda Taila",
+      "Saindhava Lavana",
+      "Shirodhara Taila",
+      "Terminalia Chebula Retz. & Willd., Emblica Officinalis Gaertn., Cyperus Rotundus L. Oil",
+      "Tiktaka Ghrita",
+      "Tila Taila",
+      "Vatahar Taila",
+      "Vishagarbha Taila"
+    ],
+    "target_coverage": 0.17142857142857143,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_media_process",
+    "named_reference_targets": [
+      "Dhalana",
+      "Nirvapa",
+      "Urdhva Patana",
+      "Marana"
+    ],
+    "expected_unique_targets": 6,
+    "named_target_count": 4,
+    "missing_targets": [
+      "Nimajjana",
+      "Swedana"
+    ],
+    "target_coverage": 0.6666666666666666,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_shodhana_method_process",
+    "named_reference_targets": [
+      "Marana"
+    ],
+    "expected_unique_targets": 1,
+    "named_target_count": 1,
+    "missing_targets": [],
+    "target_coverage": 1.0,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_process_shodhana_method",
+    "named_reference_targets": [
+      "Nirvapa"
+    ],
+    "expected_unique_targets": 8,
+    "named_target_count": 1,
+    "missing_targets": [
+      "Bharjana",
+      "Bhavana",
+      "Bhavana with heating",
+      "Dhalana",
+      "Nimajjana",
+      "Nisechana",
+      "Swedana"
+    ],
+    "target_coverage": 0.125,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_purified_compound_process",
+    "named_reference_targets": [
+      "Bhavana"
+    ],
+    "expected_unique_targets": 2,
+    "named_target_count": 1,
+    "missing_targets": [
+      "Swedana"
+    ],
+    "target_coverage": 0.5,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_method_toxic_substance",
+    "named_reference_targets": [
+      "Phorbol Esters",
+      "Crotonoside",
+      "Phytoamines",
+      "Cerberin",
+      "Nerifolin",
+      "Thevetin A",
+      "Thevetin B",
+      "Peruvoside",
+      "Ruvoside",
+      "THC (Delata 9-tetrahydrocannabinol)"
+    ],
+    "expected_unique_targets": 40,
+    "named_target_count": 10,
+    "missing_targets": [
+      "Abrarnin",
+      "Abrin",
+      "Abrine",
+      "Abrussic acid",
+      "Aconitine",
+      "Adynerin",
+      "Arsenic",
+      "Atropine",
+      "Brucine",
+      "Cardenolides",
+      "Choline",
+      "Crotanoglobulin",
+      "Crotocaudin",
+      "Crotonic acid",
+      "Crotonolic acid",
+      "Fat-splitting enzyme",
+      "Hyoscyamine",
+      "Hypaconitine",
+      "Hypaphorine",
+      "Mesaconitine",
+      "Nerideinone A",
+      "Oleandrin",
+      "Phorbol Ester Myristate",
+      "Scopolamine",
+      "Steroidal oil",
+      "Strychnine",
+      "Trigonelline",
+      "Urease",
+      "Withanolides",
+      "beta-asarone"
+    ],
+    "target_coverage": 0.25,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_process_next_process",
+    "named_reference_targets": [
+      "Amritikarana"
+    ],
+    "expected_unique_targets": 2,
+    "named_target_count": 1,
+    "missing_targets": [
+      "Lohitikarana"
+    ],
+    "target_coverage": 0.5,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_next_process_process",
+    "named_reference_targets": [
+      "Jarana"
+    ],
+    "expected_unique_targets": 5,
+    "named_target_count": 1,
+    "missing_targets": [
+      "Dhanyabhraka",
+      "Dhavana",
+      "Prakshalana",
+      "Sthalipaka"
+    ],
+    "target_coverage": 0.2,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_provenance_compound_method_media",
+    "named_reference_targets": [
+      "Sour Gruel",
+      "Sesame Oil",
+      "Buttermilk",
+      "Horse Gram Decoction",
+      "Nirgundi Decoction"
+    ],
+    "expected_unique_targets": 10,
+    "named_target_count": 5,
+    "missing_targets": [
+      "Cow Urine",
+      "Lemon Juice",
+      "Oxalis Corniculata Juice",
+      "Rock Salt",
+      "Suveeraka"
+    ],
+    "target_coverage": 0.5,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_provenance_media_method_compound",
+    "named_reference_targets": [
+      "Biotite Mica",
+      "Sulphur"
+    ],
+    "expected_unique_targets": 20,
+    "named_target_count": 2,
+    "missing_targets": [
+      "Abrus Precatorious(Red variety)",
+      "Abrus precatorius Linn.",
+      "Aconitum carmichaelii Debx.",
+      "Aconitum chasmanthum Holmes ex Stapf.",
+      "Aconitum ferox",
+      "Aconitum heterophyllum Wall.",
+      "Aconitum kusnezoffii",
+      "Acorus calamus Linn.",
+      "Cannabis Sativa L.",
+      "Croton tiglium Linn.",
+      "Datura innoxia Mill.",
+      "Datura metel L.",
+      "Mica",
+      "Nerium indicum",
+      "Orpiment",
+      "Semecarpus anacardium",
+      "Strychnos nux-vomica Linn.",
+      "Thevetia Neriifolia Juss."
+    ],
+    "target_coverage": 0.1,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_provenance_disease_therapy_formulation",
+    "named_reference_targets": [],
+    "expected_unique_targets": 32,
+    "named_target_count": 0,
+    "missing_targets": [
+      "Anu Taila",
+      "Aragvadha Kashaya",
+      "Asana Vilwadi Taila",
+      "Bala Taila",
+      "Bhringaraja Asava",
+      "Bhringaraja Churna",
+      "Brimhana Basti",
+      "Chitrakadi Vati",
+      "Dashamoola Kwatha",
+      "Dhatri Rasayana",
+      "Dindayala Churna",
+      "Jatyadi Taila",
+      "Kaishora Guggulu",
+      "Khichdi",
+      "Madanphala Churna",
+      "Madhu",
+      "Mandanaphala Kalka",
+      "Nalpamaradi Keram",
+      "Nirgundi Patra",
+      "Nirgundi Patra + Japa Pushpa + Shrungi Bhasma",
+      "Panchatikta Ghrita",
+      "Patolakaturohinyadi Kashaya",
+      "Saindhav Yukta Jala",
+      "Saindhava Lavana",
+      "Samshamani Vati",
+      "Saraswatarishta",
+      "Shatavari Ksheerpaka",
+      "Triphala Kashaya",
+      "Triphaladi Ghrita",
+      "Trivrit Avaleha",
+      "Vacha Churna",
+      "Yavani Dhuma"
+    ],
+    "target_coverage": 0.0,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  },
+  {
+    "id": "eval_traversal_provenance_formulation_therapy_disease",
+    "named_reference_targets": [],
+    "expected_unique_targets": 1,
+    "named_target_count": 0,
+    "missing_targets": [
+      "Endometrioma"
+    ],
+    "target_coverage": 0.0,
+    "note": "AI-reviewed named target coverage, not claim recall, study coverage or scientific validity. Failures/refusals retain zero coverage."
+  }
+]

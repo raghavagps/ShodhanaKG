@@ -1,0 +1,2477 @@
+{
+  "status": "success",
+  "answer": "Symptoms associated with Psoriasis\n\nThe available records associate Psoriasis with the following symptoms:\n\n1. Pain [1]\n2. Rashes [2]\n3. Round Patches [3]\n4. Scaling [4, 5, 6, 7, 8]\n5. Sweating [9]\n6. Thickness [10]\n7. Anger [11]\n8. Anxiety [12]\n9. Auspitz Sign [13, 14]\n10. Burning Sensation [15]\n11. Desquamation [16]\n12. Discoloration [17, 18]\n13. Dryness [19, 20, 21]\n14. Erythema [22, 23, 24]\n15. Hypersomnia [25]\n16. Induration [26, 27]\n17. Itching [28, 29, 30, 31, 32, 33]\n18. Lack Of Perspiration [34]\n19. Lesions [35, 36, 37, 38]",
+  "answer_heading": "Symptoms associated with Psoriasis",
+  "answer_intro": "The available records associate Psoriasis with the following symptoms:",
+  "answer_results": [
+    {
+      "id": "f1",
+      "label": "Pain",
+      "fact_ids": [
+        "f1"
+      ],
+      "citation_ids": [
+        "1"
+      ],
+      "record_indices": [
+        0
+      ]
+    },
+    {
+      "id": "f2",
+      "label": "Rashes",
+      "fact_ids": [
+        "f2"
+      ],
+      "citation_ids": [
+        "2"
+      ],
+      "record_indices": [
+        1
+      ]
+    },
+    {
+      "id": "f3",
+      "label": "Round Patches",
+      "fact_ids": [
+        "f3"
+      ],
+      "citation_ids": [
+        "3"
+      ],
+      "record_indices": [
+        2
+      ]
+    },
+    {
+      "id": "f4",
+      "label": "Scaling",
+      "fact_ids": [
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8"
+      ],
+      "citation_ids": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "record_indices": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "f9",
+      "label": "Sweating",
+      "fact_ids": [
+        "f9"
+      ],
+      "citation_ids": [
+        "9"
+      ],
+      "record_indices": [
+        8
+      ]
+    },
+    {
+      "id": "f10",
+      "label": "Thickness",
+      "fact_ids": [
+        "f10"
+      ],
+      "citation_ids": [
+        "10"
+      ],
+      "record_indices": [
+        9
+      ]
+    },
+    {
+      "id": "f11",
+      "label": "Anger",
+      "fact_ids": [
+        "f11"
+      ],
+      "citation_ids": [
+        "11"
+      ],
+      "record_indices": [
+        10
+      ]
+    },
+    {
+      "id": "f12",
+      "label": "Anxiety",
+      "fact_ids": [
+        "f12"
+      ],
+      "citation_ids": [
+        "12"
+      ],
+      "record_indices": [
+        11
+      ]
+    },
+    {
+      "id": "f13",
+      "label": "Auspitz Sign",
+      "fact_ids": [
+        "f13",
+        "f14"
+      ],
+      "citation_ids": [
+        "13",
+        "14"
+      ],
+      "record_indices": [
+        12,
+        13
+      ]
+    },
+    {
+      "id": "f15",
+      "label": "Burning Sensation",
+      "fact_ids": [
+        "f15"
+      ],
+      "citation_ids": [
+        "15"
+      ],
+      "record_indices": [
+        14
+      ]
+    },
+    {
+      "id": "f16",
+      "label": "Desquamation",
+      "fact_ids": [
+        "f16"
+      ],
+      "citation_ids": [
+        "16"
+      ],
+      "record_indices": [
+        15
+      ]
+    },
+    {
+      "id": "f17",
+      "label": "Discoloration",
+      "fact_ids": [
+        "f17",
+        "f18"
+      ],
+      "citation_ids": [
+        "17",
+        "18"
+      ],
+      "record_indices": [
+        16,
+        17
+      ]
+    },
+    {
+      "id": "f19",
+      "label": "Dryness",
+      "fact_ids": [
+        "f19",
+        "f20",
+        "f21"
+      ],
+      "citation_ids": [
+        "19",
+        "20",
+        "21"
+      ],
+      "record_indices": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "f22",
+      "label": "Erythema",
+      "fact_ids": [
+        "f22",
+        "f23",
+        "f24"
+      ],
+      "citation_ids": [
+        "22",
+        "23",
+        "24"
+      ],
+      "record_indices": [
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "f25",
+      "label": "Hypersomnia",
+      "fact_ids": [
+        "f25"
+      ],
+      "citation_ids": [
+        "25"
+      ],
+      "record_indices": [
+        24
+      ]
+    },
+    {
+      "id": "f26",
+      "label": "Induration",
+      "fact_ids": [
+        "f26",
+        "f27"
+      ],
+      "citation_ids": [
+        "26",
+        "27"
+      ],
+      "record_indices": [
+        25,
+        26
+      ]
+    },
+    {
+      "id": "f28",
+      "label": "Itching",
+      "fact_ids": [
+        "f28",
+        "f29",
+        "f30",
+        "f31",
+        "f32",
+        "f33"
+      ],
+      "citation_ids": [
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "record_indices": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "id": "f34",
+      "label": "Lack Of Perspiration",
+      "fact_ids": [
+        "f34"
+      ],
+      "citation_ids": [
+        "34"
+      ],
+      "record_indices": [
+        33
+      ]
+    },
+    {
+      "id": "f35",
+      "label": "Lesions",
+      "fact_ids": [
+        "f35",
+        "f36",
+        "f37",
+        "f38"
+      ],
+      "citation_ids": [
+        "35",
+        "36",
+        "37",
+        "38"
+      ],
+      "record_indices": [
+        34,
+        35,
+        36,
+        37
+      ]
+    }
+  ],
+  "answer_blocks": [],
+  "citations": [
+    {
+      "id": "1",
+      "fact_ids": [
+        "f1"
+      ],
+      "record_indices": [
+        0
+      ],
+      "statement": "For Psoriasis, the available record lists Pain (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Pain"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Pain"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "2",
+      "fact_ids": [
+        "f2"
+      ],
+      "record_indices": [
+        1
+      ],
+      "statement": "For Psoriasis, the available record lists Rashes (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Rashes"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Rashes"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "3",
+      "fact_ids": [
+        "f3"
+      ],
+      "record_indices": [
+        2
+      ],
+      "statement": "For Psoriasis, the available record lists Round Patches (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Round Patches"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Round Patches"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "4",
+      "fact_ids": [
+        "f4"
+      ],
+      "record_indices": [
+        3
+      ],
+      "statement": "For Psoriasis, the available record lists Scaling (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Scaling"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Scaling"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "5",
+      "fact_ids": [
+        "f5"
+      ],
+      "record_indices": [
+        4
+      ],
+      "statement": "For Psoriasis, the available record lists Scaling (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Scaling"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Scaling"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "6",
+      "fact_ids": [
+        "f6"
+      ],
+      "record_indices": [
+        5
+      ],
+      "statement": "For Psoriasis, the available record lists Scaling (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Scaling"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Scaling"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "7",
+      "fact_ids": [
+        "f7"
+      ],
+      "record_indices": [
+        6
+      ],
+      "statement": "For Psoriasis, the available record lists Scaling (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Scaling"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Scaling"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "8",
+      "fact_ids": [
+        "f8"
+      ],
+      "record_indices": [
+        7
+      ],
+      "statement": "For Psoriasis, the available record lists Scaling (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "27114687",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "27114687",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Scaling"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Scaling"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "9",
+      "fact_ids": [
+        "f9"
+      ],
+      "record_indices": [
+        8
+      ],
+      "statement": "For Psoriasis, the available record lists Sweating (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Sweating"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Sweating"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "10",
+      "fact_ids": [
+        "f10"
+      ],
+      "record_indices": [
+        9
+      ],
+      "statement": "For Psoriasis, the available record lists Thickness (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Thickness"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Thickness"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "11",
+      "fact_ids": [
+        "f11"
+      ],
+      "record_indices": [
+        10
+      ],
+      "statement": "For Psoriasis, the available record lists Anger (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Anger"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Anger"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "12",
+      "fact_ids": [
+        "f12"
+      ],
+      "record_indices": [
+        11
+      ],
+      "statement": "For Psoriasis, the available record lists Anxiety (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Anxiety"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Anxiety"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "13",
+      "fact_ids": [
+        "f13"
+      ],
+      "record_indices": [
+        12
+      ],
+      "statement": "For Psoriasis, the available record lists Auspitz Sign (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Auspitz Sign"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Auspitz Sign"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "14",
+      "fact_ids": [
+        "f14"
+      ],
+      "record_indices": [
+        13
+      ],
+      "statement": "For Psoriasis, the available record lists Auspitz Sign (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "27114687",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "27114687",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Auspitz Sign"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Auspitz Sign"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "15",
+      "fact_ids": [
+        "f15"
+      ],
+      "record_indices": [
+        14
+      ],
+      "statement": "For Psoriasis, the available record lists Burning Sensation (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Burning Sensation"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Burning Sensation"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "16",
+      "fact_ids": [
+        "f16"
+      ],
+      "record_indices": [
+        15
+      ],
+      "statement": "For Psoriasis, the available record lists Desquamation (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Desquamation"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Desquamation"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "17",
+      "fact_ids": [
+        "f17"
+      ],
+      "record_indices": [
+        16
+      ],
+      "statement": "For Psoriasis, the available record lists Discoloration (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Discoloration"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Discoloration"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "18",
+      "fact_ids": [
+        "f18"
+      ],
+      "record_indices": [
+        17
+      ],
+      "statement": "For Psoriasis, the available record lists Discoloration (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Discoloration"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Discoloration"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "19",
+      "fact_ids": [
+        "f19"
+      ],
+      "record_indices": [
+        18
+      ],
+      "statement": "For Psoriasis, the available record lists Dryness (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Dryness"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Dryness"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "20",
+      "fact_ids": [
+        "f20"
+      ],
+      "record_indices": [
+        19
+      ],
+      "statement": "For Psoriasis, the available record lists Dryness (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Dryness"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Dryness"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "21",
+      "fact_ids": [
+        "f21"
+      ],
+      "record_indices": [
+        20
+      ],
+      "statement": "For Psoriasis, the available record lists Dryness (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Dryness"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Dryness"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "22",
+      "fact_ids": [
+        "f22"
+      ],
+      "record_indices": [
+        21
+      ],
+      "statement": "For Psoriasis, the available record lists Erythema (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Erythema"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Erythema"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "23",
+      "fact_ids": [
+        "f23"
+      ],
+      "record_indices": [
+        22
+      ],
+      "statement": "For Psoriasis, the available record lists Erythema (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Erythema"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Erythema"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "24",
+      "fact_ids": [
+        "f24"
+      ],
+      "record_indices": [
+        23
+      ],
+      "statement": "For Psoriasis, the available record lists Erythema (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Erythema"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Erythema"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "25",
+      "fact_ids": [
+        "f25"
+      ],
+      "record_indices": [
+        24
+      ],
+      "statement": "For Psoriasis, the available record lists Hypersomnia (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Hypersomnia"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Hypersomnia"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "26",
+      "fact_ids": [
+        "f26"
+      ],
+      "record_indices": [
+        25
+      ],
+      "statement": "For Psoriasis, the available record lists Induration (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Induration"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Induration"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "27",
+      "fact_ids": [
+        "f27"
+      ],
+      "record_indices": [
+        26
+      ],
+      "statement": "For Psoriasis, the available record lists Induration (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Induration"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Induration"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "28",
+      "fact_ids": [
+        "f28"
+      ],
+      "record_indices": [
+        27
+      ],
+      "statement": "For Psoriasis, the available record lists Itching (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Itching"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Itching"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "29",
+      "fact_ids": [
+        "f29"
+      ],
+      "record_indices": [
+        28
+      ],
+      "statement": "For Psoriasis, the available record lists Itching (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Itching"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Itching"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "30",
+      "fact_ids": [
+        "f30"
+      ],
+      "record_indices": [
+        29
+      ],
+      "statement": "For Psoriasis, the available record lists Itching (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Itching"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Itching"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "31",
+      "fact_ids": [
+        "f31"
+      ],
+      "record_indices": [
+        30
+      ],
+      "statement": "For Psoriasis, the available record lists Itching (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Itching"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Itching"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "32",
+      "fact_ids": [
+        "f32"
+      ],
+      "record_indices": [
+        31
+      ],
+      "statement": "For Psoriasis, the available record lists Itching (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Itching"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Itching"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "33",
+      "fact_ids": [
+        "f33"
+      ],
+      "record_indices": [
+        32
+      ],
+      "statement": "For Psoriasis, the available record lists Itching (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "27114687",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "27114687",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Itching"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Itching"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "34",
+      "fact_ids": [
+        "f34"
+      ],
+      "record_indices": [
+        33
+      ],
+      "statement": "For Psoriasis, the available record lists Lack Of Perspiration (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Lack Of Perspiration"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Lack Of Perspiration"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "35",
+      "fact_ids": [
+        "f35"
+      ],
+      "record_indices": [
+        34
+      ],
+      "statement": "For Psoriasis, the available record lists Lesions (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Lesions"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Lesions"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "36",
+      "fact_ids": [
+        "f36"
+      ],
+      "record_indices": [
+        35
+      ],
+      "statement": "For Psoriasis, the available record lists Lesions (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Lesions"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Lesions"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "37",
+      "fact_ids": [
+        "f37"
+      ],
+      "record_indices": [
+        36
+      ],
+      "statement": "For Psoriasis, the available record lists Lesions (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Lesions"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Lesions"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    },
+    {
+      "id": "38",
+      "fact_ids": [
+        "f38"
+      ],
+      "record_indices": [
+        37
+      ],
+      "statement": "For Psoriasis, the available record lists Lesions (symptom).",
+      "scopes": [
+        {
+          "description": "Properties",
+          "identifiers": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          },
+          "entities": [
+            {
+              "type": "Symptom",
+              "label": "Lesions"
+            }
+          ],
+          "relationship": "Disease → Symptom"
+        }
+      ],
+      "entities": [
+        {
+          "type": "Symptom",
+          "label": "Lesions"
+        }
+      ],
+      "attribution": "record",
+      "relationships": [
+        "Disease → Symptom"
+      ]
+    }
+  ],
+  "generation": {
+    "mode": "deterministic",
+    "fallback_reason": null,
+    "latency_ms": 0
+  },
+  "question": "What symptoms are associated with Psoriasis?",
+  "context": {
+    "status": "success",
+    "question": "What symptoms are associated with Psoriasis?",
+    "routing": {
+      "domain": "disease",
+      "intent": "disease_symptoms",
+      "entity": "Psoriasis",
+      "entity_type": "Disease",
+      "endpoint": "disease_symptoms",
+      "confidence": 0.9,
+      "needs_clarification": false
+    },
+    "retrieval": {
+      "status": "success",
+      "entity": {
+        "name": "Psoriasis",
+        "type": "Disease"
+      },
+      "path": [
+        "Disease",
+        "HAS_SYMPTOM",
+        "Symptom"
+      ],
+      "results": [
+        {
+          "symptom": "Pain",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Rashes",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Round Patches",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Scaling",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Scaling",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Scaling",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Scaling",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Scaling",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "27114687",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Sweating",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Thickness",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Anger",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Anxiety",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Auspitz Sign",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Auspitz Sign",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "27114687",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Burning Sensation",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Desquamation",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Discoloration",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Discoloration",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Dryness",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Dryness",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Dryness",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Erythema",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Erythema",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Erythema",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Hypersomnia",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Induration",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Induration",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Itching",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "23559794",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Itching",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Itching",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Itching",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Itching",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Itching",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "27114687",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Lack Of Perspiration",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Lesions",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39826302",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Lesions",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "34758243",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Lesions",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "39926829",
+            "doi": "",
+            "ayush_id": ""
+          }
+        },
+        {
+          "symptom": "Lesions",
+          "properties": {
+            "procedure": "",
+            "result": "",
+            "pubmed_id": "22661842",
+            "doi": "",
+            "ayush_id": ""
+          }
+        }
+      ]
+    },
+    "reason": null
+  }
+}

@@ -1,0 +1,275 @@
+[
+  {
+    "term": "Lou Gehrig Disease",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Lou Gehrig Disease",
+        "normalized": "lou gehrig disease",
+        "outcome": "unmatched",
+        "candidates": [],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Chronic Renal Insufficiency",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Chronic Renal Insufficiency",
+        "normalized": "chronic renal insufficiency",
+        "outcome": "unmatched",
+        "candidates": [],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "irritable colon",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "irritable colon",
+        "normalized": "irritable colon",
+        "outcome": "unmatched",
+        "candidates": [],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Eczematous Dermatitis",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Eczematous Dermatitis",
+        "normalized": "eczematous dermatitis",
+        "outcome": "unmatched",
+        "candidates": [],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Tamra",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Tamra",
+        "normalized": "tamra",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#5:24",
+            "label": "Copper",
+            "type": "Compound",
+            "mention": "Tamra",
+            "match_method": "exact",
+            "source": "KG label",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Gomutra",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Gomutra",
+        "normalized": "gomutra",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#65:646",
+            "label": "Go Mutra",
+            "type": "Formulation",
+            "mention": "Gomutra",
+            "match_method": "spelling",
+            "source": "KG label",
+            "distance": 1
+          }
+        ],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Vatsanabha",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Vatsanabha",
+        "normalized": "vatsanabha",
+        "outcome": "ambiguous",
+        "candidates": [
+          {
+            "id": "#5:13",
+            "label": "Aconitum chasmanthum Holmes ex Stapf.",
+            "type": "Compound",
+            "mention": "Vatsanabha",
+            "match_method": "exact",
+            "source": "KG label",
+            "distance": 0
+          },
+          {
+            "id": "#5:2",
+            "label": "Aconitum ferox",
+            "type": "Compound",
+            "mention": "Vatsanabha",
+            "match_method": "exact",
+            "source": "KG label",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Abhraka",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Abhraka",
+        "normalized": "abhraka",
+        "outcome": "ambiguous",
+        "candidates": [
+          {
+            "id": "#5:34",
+            "label": "Biotite Mica",
+            "type": "Compound",
+            "mention": "Abhraka",
+            "match_method": "exact",
+            "source": "KG label",
+            "distance": 0
+          },
+          {
+            "id": "#5:21",
+            "label": "Mica",
+            "type": "Compound",
+            "mention": "Abhraka",
+            "match_method": "exact",
+            "source": "KG label",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Ardraka Swarasa",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Ardraka Swarasa",
+        "normalized": "ardraka swarasa",
+        "outcome": "unmatched",
+        "candidates": [],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Cardiovascular Disorder",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Cardiovascular Disorder",
+        "normalized": "cardiovascular disorder",
+        "outcome": "unmatched",
+        "candidates": [],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Autoimmune Disorder",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Autoimmune Disorder",
+        "normalized": "autoimmune disorder",
+        "outcome": "unmatched",
+        "candidates": [],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Skin Disorder",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Skin Disorder",
+        "normalized": "skin disorder",
+        "outcome": "unmatched",
+        "candidates": [],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "ESCC",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "ESCC",
+        "normalized": "escc",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#45:39",
+            "label": "Esophageal Squamous Cell Carcinoma",
+            "type": "Disease",
+            "mention": "ESCC",
+            "match_method": "alias",
+            "source": "https://api-evsrest.nci.nih.gov/api/v1/concept/ncit/C4024?include=full",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "Copper",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "Copper",
+        "normalized": "copper",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#5:24",
+            "label": "Copper",
+            "type": "Compound",
+            "mention": "Copper",
+            "match_method": "exact",
+            "source": "KG label",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    }
+  },
+  {
+    "term": "zzzzunknown",
+    "response": {
+      "ok": true,
+      "resolution": {
+        "mention": "zzzzunknown",
+        "normalized": "zzzzunknown",
+        "outcome": "unmatched",
+        "candidates": [],
+        "suggestions": []
+      }
+    }
+  }
+]

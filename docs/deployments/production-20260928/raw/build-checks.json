@@ -1,0 +1,14 @@
+[
+  {
+    "suite": "lint",
+    "exit_code": 0
+  },
+  {
+    "suite": "build",
+    "exit_code": 0
+  },
+  {
+    "suite": "frontend",
+    "exit_code": 0
+  }
+]

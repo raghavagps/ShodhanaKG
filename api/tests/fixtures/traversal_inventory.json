@@ -1,0 +1,2381 @@
+{
+    "generated_at": "2026-09-23T13:03:55+00:00",
+    "public_endpoints": 52,
+    "new_endpoints": 12,
+    "aliases": 0,
+    "shared_traversal_pairs": {
+        "provenance_compound_method_media": "compound_shodhana_process",
+        "provenance_media_method_compound": "media_compound",
+        "provenance_disease_therapy_formulation": "disease_formulation",
+        "provenance_formulation_therapy_disease": "formulation_disease"
+    },
+    "coverage_missing": [],
+    "schema_failures": [],
+    "schema_snapshot": {
+        "USES_FORMULATION": [
+            {
+                "sourceType": "Therapy",
+                "targetType": "Formulation",
+                "total": 1898
+            }
+        ],
+        "USES_MEDIA": [
+            {
+                "sourceType": "Shodhana_Method",
+                "targetType": "Media",
+                "total": 519
+            },
+            {
+                "sourceType": "Process",
+                "targetType": "Media",
+                "total": 269
+            }
+        ],
+        "FOLLOWED_BY": [
+            {
+                "sourceType": "Shodhana_Method",
+                "targetType": "Process",
+                "total": 98
+            },
+            {
+                "sourceType": "Process",
+                "targetType": "Process",
+                "total": 58
+            }
+        ],
+        "PRODUCES": [
+            {
+                "sourceType": "Shodhana_Method",
+                "targetType": "Purified_Compound",
+                "total": 212
+            },
+            {
+                "sourceType": "Process",
+                "targetType": "Purified_Compound",
+                "total": 111
+            }
+        ],
+        "DETOXIFIES": [
+            {
+                "sourceType": "Shodhana_Method",
+                "targetType": "Toxic_Substance",
+                "total": 123
+            }
+        ],
+        "UNDERGOES": [
+            {
+                "sourceType": "Compound",
+                "targetType": "Shodhana_Method",
+                "total": 239
+            }
+        ],
+        "TREATED_BY": [
+            {
+                "sourceType": "Disease",
+                "targetType": "Therapy",
+                "total": 852
+            }
+        ],
+        "PRE_TREATED_BY": [
+            {
+                "sourceType": "Disease",
+                "targetType": "Therapy",
+                "total": 144
+            }
+        ],
+        "POST_TREATED_BY": [
+            {
+                "sourceType": "Disease",
+                "targetType": "Therapy",
+                "total": 159
+            }
+        ]
+    },
+    "entries": [
+        {
+            "endpoint": "compound_shodhana_process",
+            "function": "execute_compound_shodhana_process",
+            "callable": true,
+            "implementation": "api/compound_shodhana_process.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_035"
+            ],
+            "definition": {
+                "input": [
+                    "Compound"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "UNDERGOES"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Shodhana_Method"
+                        ]
+                    },
+                    {
+                        "edges": [
+                            "USES_MEDIA"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Media"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": true,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "compound_media",
+            "function": "execute_compound_media",
+            "callable": true,
+            "implementation": "api/compound_media.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_001",
+                "eval_033",
+                "eval_052"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "USES_MEDIA"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Media"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/compound_media.php",
+                "evidence_correlation": true,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Compound', 'UNDERGOES', 'Shodhana_Method', 'USES_MEDIA', 'Media']"
+            ],
+            "retrieval_tests": [
+                "api/tests/test_compound_media.php"
+            ],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "compound_validation",
+            "function": "execute_compound_validation",
+            "callable": true,
+            "implementation": "api/compound_validation.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_024"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "VALIDATED_BY"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Confirmation_Study"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "input": [
+                            "Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "FOLLOWED_BY"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Process"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "VALIDATED_BY"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Confirmation_Study"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/compound_validation.php",
+                "evidence_correlation": true,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records",
+                "optional_enrichment": {
+                    "input": [
+                        "Confirmation_Study"
+                    ],
+                    "steps": [
+                        {
+                            "edges": [
+                                "CONFIRMS_SAFETY_OF"
+                            ],
+                            "direction": "out",
+                            "types": [
+                                "Purified_Compound"
+                            ]
+                        }
+                    ],
+                    "evidence_correlation": true
+                }
+            },
+            "input_types_from_source": [
+                "Compound"
+            ],
+            "declared_paths_from_source": [],
+            "retrieval_tests": [
+                "api/tests/test_compound_validation.php"
+            ],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "compound_toxicity",
+            "function": "execute_compound_toxicity",
+            "callable": true,
+            "implementation": "api/compound_toxicity.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_002",
+                "eval_034"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "CONTAINS"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Toxic_Substance"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/compound_toxicity.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Compound', 'CONTAINS', 'Toxic_Substance']"
+            ],
+            "retrieval_tests": [
+                "api/tests/test_compound_toxicity.php"
+            ],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "compound_detoxification",
+            "function": "execute_compound_detoxification",
+            "callable": true,
+            "implementation": "api/compound_detoxification.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_010",
+                "eval_025"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "DETOXIFIES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Toxic_Substance"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/compound_detoxification.php",
+                "evidence_correlation": true,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Compound', 'UNDERGOES', 'Shodhana_Method', 'DETOXIFIES', 'Toxic_Substance']"
+            ],
+            "retrieval_tests": [
+                "api/tests/test_compound_detoxification.php"
+            ],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "compound_purification",
+            "function": "execute_compound_purification",
+            "callable": true,
+            "implementation": "api/compound_purification.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_007",
+                "eval_026"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "PRODUCES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Purified_Compound"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/compound_purification.php",
+                "evidence_correlation": true,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Compound', 'UNDERGOES', 'Shodhana_Method', 'PRODUCES', 'Purified_Compound']"
+            ],
+            "retrieval_tests": [
+                "api/tests/test_compound_purification.php"
+            ],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "compound_therapeutic_use",
+            "function": "execute_compound_therapeutic_use",
+            "callable": true,
+            "implementation": "api/compound_therapeutic_use.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_027"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "PRODUCES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Purified_Compound"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "TREATS"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Indication"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/compound_therapeutic_use.php",
+                "evidence_correlation": true,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Compound', 'UNDERGOES', 'Shodhana_Method', 'PRODUCES', 'Purified_Compound', 'TREATS', 'Indication']"
+            ],
+            "retrieval_tests": [
+                "api/tests/test_compound_therapeutic_use.php"
+            ],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "disease_symptoms",
+            "function": "execute_disease_symptoms",
+            "callable": true,
+            "implementation": "api/disease_symptoms.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_003",
+                "eval_031",
+                "eval_032",
+                "eval_053"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Disease"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "HAS_SYMPTOM"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Symptom"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/disease_symptoms.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Disease"
+            ],
+            "declared_paths_from_source": [
+                "['Disease', 'HAS_SYMPTOM', 'Symptom']"
+            ],
+            "retrieval_tests": [
+                "api/tests/test_disease_symptoms.php"
+            ],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "disease_therapy",
+            "function": "execute_disease_therapy",
+            "callable": true,
+            "implementation": "api/disease_therapy.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_028"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Disease"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "TREATED_BY",
+                                    "PRE_TREATED_BY",
+                                    "POST_TREATED_BY"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Therapy"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/disease_therapy.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Disease"
+            ],
+            "declared_paths_from_source": [
+                "['Disease', '[PRE/POST]_TREATED_BY', 'Therapy']"
+            ],
+            "retrieval_tests": [
+                "api/tests/test_disease_therapy.php"
+            ],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "disease_formulation",
+            "function": "execute_disease_formulation",
+            "callable": true,
+            "implementation": "api/disease_formulation.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_013",
+                "eval_036"
+            ],
+            "definition": {
+                "input": [
+                    "Disease"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "TREATED_BY",
+                            "PRE_TREATED_BY",
+                            "POST_TREATED_BY"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Therapy"
+                        ]
+                    },
+                    {
+                        "edges": [
+                            "USES_FORMULATION"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Formulation"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": true,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "integrated_compound_disease",
+            "function": "execute_integrated_compound_disease",
+            "callable": true,
+            "implementation": "api/integrated_compound_disease.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_029"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "PRODUCES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Purified_Compound"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "USED_FOR_TREATMENT"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Disease"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/integrated_compound_disease.php",
+                "evidence_correlation": true,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Compound', 'UNDERGOES', 'Shodhana_Method', 'PRODUCES', 'Purified_Compound', 'USED_FOR_TREATMENT', 'Disease']"
+            ],
+            "retrieval_tests": [
+                "api/tests/test_integrated_compound_disease.php"
+            ],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "process_media",
+            "function": "execute_process_media",
+            "callable": true,
+            "implementation": "api/process_media.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_021"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Shodhana_Method"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "USES_MEDIA"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Media"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/process_media.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Shodhana_Method"
+            ],
+            "declared_paths_from_source": [
+                "['Shodhana_Method', 'USES_MEDIA', 'Media']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "shodhana_method_validation",
+            "function": "execute_shodhana_method_validation",
+            "callable": true,
+            "implementation": "api/shodhana_method_validation.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_shodhana_method_validation"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Shodhana_Method"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "VALIDATED_BY"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Confirmation_Study"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "input": [
+                            "Shodhana_Method"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "FOLLOWED_BY"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Process"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "VALIDATED_BY"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Confirmation_Study"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/shodhana_method_validation.php",
+                "evidence_correlation": true,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [],
+            "declared_paths_from_source": [],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "indication_compound",
+            "function": "execute_indication_compound",
+            "callable": true,
+            "implementation": "api/indication_compound.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_030"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Indication"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "TREATS"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Purified_Compound"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "PRODUCES"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Compound"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/indication_compound.php",
+                "evidence_correlation": true,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Indication"
+            ],
+            "declared_paths_from_source": [
+                "[$entityType, $entityType === 'Disease' ? 'USED_FOR_TREATMENT' : 'TREATS', 'Purified_Compound', 'PRODUCES', 'Shodhana_Method', 'UNDERGOES', 'Compound']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "toxic_substance_compound",
+            "function": "execute_toxic_substance_compound",
+            "callable": true,
+            "implementation": "api/toxic_substance_compound.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_toxic_substance_compound"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Toxic_Substance"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "CONTAINS"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Compound"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/toxic_substance_compound.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Toxic_Substance"
+            ],
+            "declared_paths_from_source": [
+                "['Toxic_Substance', '<- CONTAINS', 'Compound']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "process_purified_compound",
+            "function": "execute_process_purified_compound",
+            "callable": true,
+            "implementation": "api/process_purified_compound.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_process_purified_compound"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Shodhana_Method"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "PRODUCES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Purified_Compound"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/process_purified_compound.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Shodhana_Method"
+            ],
+            "declared_paths_from_source": [
+                "['Shodhana_Method', 'PRODUCES', 'Purified_Compound']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "confirmation_study_method",
+            "function": "execute_confirmation_study_method",
+            "callable": true,
+            "implementation": "api/confirmation_study_method.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_confirmation_study_method"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Confirmation_Study"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "VALIDATED_BY"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Shodhana_Method",
+                                    "Process"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/confirmation_study_method.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Confirmation_Study"
+            ],
+            "declared_paths_from_source": [
+                "['Confirmation_Study', 'VALIDATED_BY', 'Shodhana_Method']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "confirmation_study_purified_compound",
+            "function": "execute_confirmation_study_purified_compound",
+            "callable": true,
+            "implementation": "api/confirmation_study_purified_compound.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_confirmation_study_purified_compound"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Confirmation_Study"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "CONFIRMS_SAFETY_OF"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Purified_Compound"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/confirmation_study_purified_compound.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Confirmation_Study"
+            ],
+            "declared_paths_from_source": [
+                "['Confirmation_Study', 'CONFIRMS_SAFETY_OF', 'Purified_Compound']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "compound_purified_forms",
+            "function": "execute_compound_purified_forms",
+            "callable": true,
+            "implementation": "api/compound_purified_forms.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_compound_purified_forms"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "DERIEVED_FROM"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Purified_Compound"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/compound_purified_forms.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Compound', 'DERIEVED_FROM', 'Purified_Compound']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "formulation_compound",
+            "function": "execute_formulation_compound",
+            "callable": true,
+            "implementation": "api/formulation_compound.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_formulation_compound"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Formulation",
+                            "Ayurvedic_Formulation"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "USED_IN_FORMULATION"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Purified_Compound"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/formulation_compound.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Formulation",
+                "Ayurvedic_Formulation"
+            ],
+            "declared_paths_from_source": [
+                "['Ayurvedic_Formulation', 'USED_IN_FORMULATION', 'Purified_Compound']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "ayurvedic_diagnosis_disease",
+            "function": "execute_ayurvedic_diagnosis_disease",
+            "callable": true,
+            "implementation": "api/ayurvedic_diagnosis_disease.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_ayurvedic_diagnosis_disease"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Ayurvedic_Diagnosis"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "HAS_AYURVEDIC_DIAGNOSIS"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Disease"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/ayurvedic_diagnosis_disease.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Ayurvedic_Diagnosis"
+            ],
+            "declared_paths_from_source": [
+                "['Ayurvedic_Diagnosis', 'HAS_AYURVEDIC_DIAGNOSIS', 'Disease']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "formulation_therapy",
+            "function": "execute_formulation_therapy",
+            "callable": true,
+            "implementation": "api/formulation_therapy.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_formulation_therapy"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Formulation"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "USES_FORMULATION"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Therapy"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/formulation_therapy.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Formulation"
+            ],
+            "declared_paths_from_source": [
+                "['Formulation', 'USES_FORMULATION', 'Therapy']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "assessment_disease",
+            "function": "execute_assessment_disease",
+            "callable": true,
+            "implementation": "api/assessment_disease.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_assessment_disease"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Assessment_Parameter"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "ASSESS"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Disease"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/assessment_disease.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Assessment_Parameter"
+            ],
+            "declared_paths_from_source": [
+                "['Assessment_Parameter', 'ASSESS', 'Disease']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "toxic_substance_method",
+            "function": "execute_toxic_substance_method",
+            "callable": true,
+            "implementation": "api/toxic_substance_method.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_toxic_substance_method"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Toxic_Substance"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "DETOXIFIES"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/toxic_substance_method.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Toxic_Substance"
+            ],
+            "declared_paths_from_source": [
+                "['Toxic_Substance', 'DETOXIFIES', 'Shodhana_Method']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "process_classification",
+            "function": "execute_process_classification",
+            "callable": true,
+            "implementation": "api/process_classification.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_process_classification"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Shodhana_Method"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "CLASSIFIED_AS"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Shodhana_Type"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/process_classification.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Shodhana_Method"
+            ],
+            "declared_paths_from_source": [
+                "['Shodhana_Method', 'CLASSIFIED_AS', 'Shodhana_Type']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "classification_process",
+            "function": "execute_classification_process",
+            "callable": true,
+            "implementation": "api/classification_process.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_classification_process"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Shodhana_Type"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "CLASSIFIED_AS"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/classification_process.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Shodhana_Type"
+            ],
+            "declared_paths_from_source": [
+                "['Shodhana_Type', 'CLASSIFIED_AS', 'Shodhana_Method']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "purified_compound_disease",
+            "function": "execute_purified_compound_disease",
+            "callable": true,
+            "implementation": "api/purified_compound_disease.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_009",
+                "eval_054"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Purified_Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "USED_FOR_TREATMENT"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Disease"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "input": [
+                            "Purified_Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "TREATS"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Indication"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/purified_compound_disease.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Purified_Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Purified_Compound', 'USED_FOR_TREATMENT/TREATS', 'Disease']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "purified_compound_formulation",
+            "function": "execute_purified_compound_formulation",
+            "callable": true,
+            "implementation": "api/purified_compound_formulation.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_022"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Purified_Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "USED_IN_FORMULATION"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Formulation",
+                                    "Ayurvedic_Formulation"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/purified_compound_formulation.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Purified_Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Purified_Compound', 'USED_IN_FORMULATION', 'Formulation']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "purified_compound_source",
+            "function": "execute_purified_compound_source",
+            "callable": true,
+            "implementation": "api/purified_compound_source.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_023"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Purified_Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "PRODUCES"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Compound"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/purified_compound_source.php",
+                "evidence_correlation": true,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Purified_Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Purified_Compound', '<- PRODUCES', 'Shodhana_Method', '<- UNDERGOES', 'Compound']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "purified_compound_validation",
+            "function": "execute_purified_compound_validation",
+            "callable": true,
+            "implementation": "api/purified_compound_validation.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_purified_compound_validation"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Purified_Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "CONFIRMS_SAFETY_OF"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Confirmation_Study"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/purified_compound_validation.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Purified_Compound"
+            ],
+            "declared_paths_from_source": [
+                "['Purified_Compound', 'CONFIRMS_SAFETY_OF', 'Confirmation_Study']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "integrated_disease_compound",
+            "function": "execute_integrated_disease_compound",
+            "callable": true,
+            "implementation": "api/integrated_disease_compound.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_018"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Disease"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "USED_FOR_TREATMENT",
+                                    "TREATS"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Purified_Compound"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "PRODUCES"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            },
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Compound"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/integrated_disease_compound.php",
+                "evidence_correlation": true,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Disease"
+            ],
+            "declared_paths_from_source": [
+                "['Disease', '<- USED_FOR_TREATMENT/TREATS', 'Purified_Compound', '<- PRODUCES', 'Shodhana_Method', '<- UNDERGOES', 'Compound']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "disease_dosha",
+            "function": "execute_disease_dosha",
+            "callable": true,
+            "implementation": "api/disease_dosha.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_015"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Disease"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "HAS_DOSHA_IMBALANCE"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Dosha"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/disease_dosha.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Disease"
+            ],
+            "declared_paths_from_source": [
+                "['Disease', 'HAS_DOSHA_IMBALANCE', 'Dosha']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "disease_diagnosis",
+            "function": "execute_disease_diagnosis",
+            "callable": true,
+            "implementation": "api/disease_diagnosis.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_016"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Disease"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "HAS_AYURVEDIC_DIAGNOSIS"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Ayurvedic_Diagnosis"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/disease_diagnosis.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Disease"
+            ],
+            "declared_paths_from_source": [
+                "['Disease', 'HAS_AYURVEDIC_DIAGNOSIS', 'Ayurvedic Diagnosis']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "disease_assessment",
+            "function": "execute_disease_assessment",
+            "callable": true,
+            "implementation": "api/disease_assessment.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_017"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Disease"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "ASSESS"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Assessment_Parameter"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/disease_assessment.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Disease"
+            ],
+            "declared_paths_from_source": [
+                "['Disease', 'ASSESS', 'Assessment Parameter']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "symptoms_disease",
+            "function": "execute_symptoms_disease",
+            "callable": true,
+            "implementation": "api/symptoms_disease.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_019"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Symptom"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "HAS_SYMPTOM"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Disease"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/symptoms_disease.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Symptom"
+            ],
+            "declared_paths_from_source": [
+                "['Symptom', '<- HAS_SYMPTOM', 'Disease']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "therapy_disease",
+            "function": "execute_therapy_disease",
+            "callable": true,
+            "implementation": "api/therapy_disease.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_004"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Therapy"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "TREATED_BY",
+                                    "PRE_TREATED_BY",
+                                    "POST_TREATED_BY"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Disease"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/therapy_disease.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Therapy"
+            ],
+            "declared_paths_from_source": [
+                "['Therapy', '<- TREATED_BY', 'Disease']"
+            ],
+            "retrieval_tests": [
+                "api/tests/test_therapy_disease.php"
+            ],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "formulation_disease",
+            "function": "execute_formulation_disease",
+            "callable": true,
+            "implementation": "api/formulation_disease.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_005"
+            ],
+            "definition": {
+                "input": [
+                    "Formulation"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "USES_FORMULATION"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Therapy"
+                        ]
+                    },
+                    {
+                        "edges": [
+                            "TREATED_BY",
+                            "PRE_TREATED_BY",
+                            "POST_TREATED_BY"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Disease"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": true,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "dosha_disease",
+            "function": "execute_dosha_disease",
+            "callable": true,
+            "implementation": "api/dosha_disease.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_020"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Dosha"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "HAS_DOSHA_IMBALANCE"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Disease"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/dosha_disease.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Dosha"
+            ],
+            "declared_paths_from_source": [
+                "['Dosha', '<- HAS_DOSHA_IMBALANCE', 'Disease']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "process_compound",
+            "function": "execute_process_compound",
+            "callable": true,
+            "implementation": "api/process_compound.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_008"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Shodhana_Method"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "in",
+                                "types": [
+                                    "Compound"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/process_compound.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [
+                "Shodhana_Method"
+            ],
+            "declared_paths_from_source": [
+                "['Shodhana_Method', '<- UNDERGOES', 'Compound']"
+            ],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
+        {
+            "endpoint": "media_compound",
+            "function": "execute_media_compound",
+            "callable": true,
+            "implementation": "api/media_compound.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_006",
+                "eval_055"
+            ],
+            "definition": {
+                "input": [
+                    "Media"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "USES_MEDIA"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Shodhana_Method"
+                        ]
+                    },
+                    {
+                        "edges": [
+                            "UNDERGOES"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Compound"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": true,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "therapy_formulation",
+            "function": "execute_therapy_formulation",
+            "callable": true,
+            "implementation": "api/therapy_formulation.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_therapy_formulation"
+            ],
+            "definition": {
+                "input": [
+                    "Therapy"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "USES_FORMULATION"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Formulation"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": false,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "media_process",
+            "function": "execute_media_process",
+            "callable": true,
+            "implementation": "api/media_process.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_media_process"
+            ],
+            "definition": {
+                "input": [
+                    "Media"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "USES_MEDIA"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Shodhana_Method",
+                            "Process"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": false,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "shodhana_method_process",
+            "function": "execute_shodhana_method_process",
+            "callable": true,
+            "implementation": "api/shodhana_method_process.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_shodhana_method_process"
+            ],
+            "definition": {
+                "input": [
+                    "Shodhana_Method"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "FOLLOWED_BY"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Process"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": false,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "process_shodhana_method",
+            "function": "execute_process_shodhana_method",
+            "callable": true,
+            "implementation": "api/process_shodhana_method.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_process_shodhana_method"
+            ],
+            "definition": {
+                "input": [
+                    "Process"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "FOLLOWED_BY"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Shodhana_Method"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": false,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "purified_compound_process",
+            "function": "execute_purified_compound_process",
+            "callable": true,
+            "implementation": "api/purified_compound_process.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_purified_compound_process"
+            ],
+            "definition": {
+                "input": [
+                    "Purified_Compound"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "PRODUCES"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Shodhana_Method",
+                            "Process"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": false,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "method_toxic_substance",
+            "function": "execute_method_toxic_substance",
+            "callable": true,
+            "implementation": "api/method_toxic_substance.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_method_toxic_substance"
+            ],
+            "definition": {
+                "input": [
+                    "Shodhana_Method"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "DETOXIFIES"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Toxic_Substance"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": false,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "process_next_process",
+            "function": "execute_process_next_process",
+            "callable": true,
+            "implementation": "api/process_next_process.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_process_next_process"
+            ],
+            "definition": {
+                "input": [
+                    "Process"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "FOLLOWED_BY"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Process"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": false,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "next_process_process",
+            "function": "execute_next_process_process",
+            "callable": true,
+            "implementation": "api/next_process_process.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_next_process_process"
+            ],
+            "definition": {
+                "input": [
+                    "Process"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "FOLLOWED_BY"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Process"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": false,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ]
+        },
+        {
+            "endpoint": "provenance_compound_method_media",
+            "function": "execute_provenance_compound_method_media",
+            "callable": true,
+            "implementation": "api/provenance_compound_method_media.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_provenance_compound_method_media"
+            ],
+            "definition": {
+                "input": [
+                    "Compound"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "UNDERGOES"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Shodhana_Method"
+                        ]
+                    },
+                    {
+                        "edges": [
+                            "USES_MEDIA"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Media"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": true,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ],
+            "shares_traversal_with": "compound_shodhana_process"
+        },
+        {
+            "endpoint": "provenance_media_method_compound",
+            "function": "execute_provenance_media_method_compound",
+            "callable": true,
+            "implementation": "api/provenance_media_method_compound.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_provenance_media_method_compound"
+            ],
+            "definition": {
+                "input": [
+                    "Media"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "USES_MEDIA"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Shodhana_Method"
+                        ]
+                    },
+                    {
+                        "edges": [
+                            "UNDERGOES"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Compound"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": true,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ],
+            "shares_traversal_with": "media_compound"
+        },
+        {
+            "endpoint": "provenance_disease_therapy_formulation",
+            "function": "execute_provenance_disease_therapy_formulation",
+            "callable": true,
+            "implementation": "api/provenance_disease_therapy_formulation.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_provenance_disease_therapy_formulation"
+            ],
+            "definition": {
+                "input": [
+                    "Disease"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "TREATED_BY",
+                            "PRE_TREATED_BY",
+                            "POST_TREATED_BY"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Therapy"
+                        ]
+                    },
+                    {
+                        "edges": [
+                            "USES_FORMULATION"
+                        ],
+                        "direction": "out",
+                        "types": [
+                            "Formulation"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": true,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ],
+            "shares_traversal_with": "disease_formulation"
+        },
+        {
+            "endpoint": "provenance_formulation_therapy_disease",
+            "function": "execute_provenance_formulation_therapy_disease",
+            "callable": true,
+            "implementation": "api/provenance_formulation_therapy_disease.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_traversal_provenance_formulation_therapy_disease"
+            ],
+            "definition": {
+                "input": [
+                    "Formulation"
+                ],
+                "steps": [
+                    {
+                        "edges": [
+                            "USES_FORMULATION"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Therapy"
+                        ]
+                    },
+                    {
+                        "edges": [
+                            "TREATED_BY",
+                            "PRE_TREATED_BY",
+                            "POST_TREATED_BY"
+                        ],
+                        "direction": "in",
+                        "types": [
+                            "Disease"
+                        ]
+                    }
+                ]
+            },
+            "evidence_correlation": true,
+            "retrieval_tests": [
+                "api/tests/test_traversal_expansion.php"
+            ],
+            "shares_traversal_with": "formulation_disease"
+        }
+    ]
+}

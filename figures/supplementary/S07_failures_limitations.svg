@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="792pt" height="360pt" viewBox="0 0 792 360" version="1.1">
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-09-28T21:31:23.918874</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 360  L 792 360  L 792 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 182.16 295.2  L 403.322264 295.2  L 403.322264 43.2  L 182.16 43.2  z " style="fill: #ffffff" />
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m46f1326aea" d="M 0 3  C 0.795609 3 1.55874 2.683901 2.12132 2.12132  C 2.683901 1.55874 3 0.795609 3 0  C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132  C 1.55874 -2.683901 0.795609 -3 0 -3  C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132  C -2.683901 -1.55874 -3 -0.795609 -3 0  C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132  C -1.55874 2.683901 -0.795609 3 0 3  z " style="stroke: #2166a0" />
+    </defs>
+    <g clip-path="url(#pfa14f5f526)">
+     <use ns4:href="#m46f1326aea" x="202.26566" y="54.654545" style="fill: #2166a0; stroke: #2166a0" />
+     <use ns4:href="#m46f1326aea" x="202.26566" y="111.927273" style="fill: #2166a0; stroke: #2166a0" />
+     <use ns4:href="#m46f1326aea" x="202.26566" y="169.2" style="fill: #2166a0; stroke: #2166a0" />
+     <use ns4:href="#m46f1326aea" x="202.26566" y="226.472727" style="fill: #2166a0; stroke: #2166a0" />
+     <use ns4:href="#m46f1326aea" x="202.26566" y="283.745455" style="fill: #2166a0; stroke: #2166a0" />
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m81a3b49c0a" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#m81a3b49c0a" x="202.26566" y="295.2" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle" x="202.26566" y="308.752246" transform="rotate(-0 202.26566 308.752246)">0.0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use ns4:href="#m81a3b49c0a" x="242.476981" y="295.2" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle" x="242.476981" y="308.752246" transform="rotate(-0 242.476981 308.752246)">0.2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use ns4:href="#m81a3b49c0a" x="282.688302" y="295.2" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle" x="282.688302" y="308.752246" transform="rotate(-0 282.688302 308.752246)">0.4</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use ns4:href="#m81a3b49c0a" x="322.899623" y="295.2" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle" x="322.899623" y="308.752246" transform="rotate(-0 322.899623 308.752246)">0.6</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use ns4:href="#m81a3b49c0a" x="363.110943" y="295.2" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle" x="363.110943" y="308.752246" transform="rotate(-0 363.110943 308.752246)">0.8</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use ns4:href="#m81a3b49c0a" x="403.322264" y="295.2" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle" x="403.322264" y="308.752246" transform="rotate(-0 403.322264 308.752246)">1.0</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle" x="292.741132" y="321.203633" transform="rotate(-0 292.741132 321.203633)">Observed events</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <defs>
+       <path id="m737f062104" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use ns4:href="#m737f062104" x="182.16" y="54.654545" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: end" x="175.16" y="57.930669" transform="rotate(-0 175.16 57.930669)">Conversation failures</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <g>
+       <use ns4:href="#m737f062104" x="182.16" y="111.927273" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: end" x="175.16" y="115.203396" transform="rotate(-0 175.16 115.203396)">Browser unexpected</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_9">
+      <g>
+       <use ns4:href="#m737f062104" x="182.16" y="169.2" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: end" x="175.16" y="172.476123" transform="rotate(-0 175.16 172.476123)">Browser flaky</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <g>
+       <use ns4:href="#m737f062104" x="182.16" y="226.472727" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: end" x="175.16" y="229.751399" transform="rotate(-0 175.16 229.751399)">False refusals (JSON)</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_11">
+      <g>
+       <use ns4:href="#m737f062104" x="182.16" y="283.745455" style="stroke: #000000; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: end" x="175.16" y="287.024126" transform="rotate(-0 175.16 287.024126)">False acceptances (JSON)</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 182.16 295.2  L 182.16 43.2  " style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 182.16 295.2  L 403.322264 295.2  " style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'Arial'; text-anchor: start" x="226.392453" y="56.983647" transform="rotate(-0 226.392453 56.983647)">0/108</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'Arial'; text-anchor: start" x="226.392453" y="114.256374" transform="rotate(-0 226.392453 114.256374)">0/328</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'Arial'; text-anchor: start" x="226.392453" y="171.529102" transform="rotate(-0 226.392453 171.529102)">0/328</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'Arial'; text-anchor: start" x="226.392453" y="228.801829" transform="rotate(-0 226.392453 228.801829)">0/39</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'Arial'; text-anchor: start" x="226.392453" y="286.074556" transform="rotate(-0 226.392453 286.074556)">0/13</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.8px; font-family: 'Arial'; text-anchor: middle" x="292.741132" y="37.2" transform="rotate(-0 292.741132 37.2)">a  Verified failure profile</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="547.077736" y="62.352246" transform="rotate(-0 547.077736 62.352246)">b  Scope limitations</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(547.077736 103.53041)">Chromium and WebKit only; Firefox</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(547.077736 118.678887)">excluded. English terminology and</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(547.077736 133.989785)">supported paths are bounded. Graph</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(547.077736 149.085527)">display caps remain. No clinical</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(547.077736 164.288848)">validity, institutional-server</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(547.077736 179.492168)">capacity or unrestricted production</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(547.077736 194.695488)">security established.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pfa14f5f526">
+   <rect x="182.16" y="43.2" width="221.162264" height="252" />
+  </clipPath>
+ </defs>
+<title>S07 failures limitations</title><desc>ShodhanaKG; native editable vectors. {}</desc></svg>

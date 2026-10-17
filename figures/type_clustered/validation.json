@@ -1,0 +1,51 @@
+{
+  "source_sha256": "5c2e14a602fec75aedfb7a02e97548ef8b5fae8850c1e3d906ebe80408442e03",
+  "script_sha256": "0dd65d149633c52dc1acf57e5f145905df53f3b3266022dd144b38fac4fa253a",
+  "nodes": 2534,
+  "edges": 10123,
+  "integration_edges": 75,
+  "protected_files_unchanged": 123,
+  "layout_quality": {
+    "minimum_node_spacing": 0.019999999999999574,
+    "straight_segment_crossing_proxy_before": 811023,
+    "straight_segment_crossing_proxy_after": 1458367
+  },
+  "checks": [
+    {
+      "figure": "core/C03_category_coloured_graph",
+      "vector_svg_pdf": true,
+      "editable_text": true,
+      "no_external_assets": true,
+      "identity_check": true
+    },
+    {
+      "figure": "supplementary/S00_complete_graph_large",
+      "vector_svg_pdf": true,
+      "editable_text": true,
+      "no_external_assets": true,
+      "identity_check": true
+    }
+  ],
+  "figures": [
+    {
+      "name": "core/C03_category_coloured_graph",
+      "caption": "Complete snapshot grouped by node type within the two fixed domains. Every node and directed edge is retained, including isolates and parallel records. Node colour identifies type; size is constant. Normal edges are grey; cross-domain edges orange. Type placement and within-type assignment are drawing choices, not communities or scientific similarity. Type labels show node counts. Dense links require zooming.",
+      "width_mm": 180.0,
+      "height_mm": 126.0,
+      "meta": {
+        "nodes": 2534,
+        "edges": 10123
+      }
+    },
+    {
+      "name": "supplementary/S00_complete_graph_large",
+      "caption": "Complete snapshot grouped by node type within the two fixed domains. Every node and directed edge is retained, including isolates and parallel records. Node colour identifies type; size is constant. Normal edges are grey; cross-domain edges orange. Type placement and within-type assignment are drawing choices, not communities or scientific similarity. Type labels show node counts. Dense links require zooming.",
+      "width_mm": 304.8,
+      "height_mm": 213.36,
+      "meta": {
+        "nodes": 2534,
+        "edges": 10123
+      }
+    }
+  ]
+}

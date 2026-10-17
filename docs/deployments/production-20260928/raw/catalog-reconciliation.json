@@ -1,0 +1,26 @@
+{
+  "source_snapshot_sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
+  "production_snapshot_sha256": "5c2e14a602fec75aedfb7a02e97548ef8b5fae8850c1e3d906ebe80408442e03",
+  "method": "Full vertex property equality, then directed endpoints and complete edge properties; multiplicities preserved",
+  "records_compared": 12657,
+  "inherited_query_views": {
+    "Node": 2534
+  },
+  "duplicate_edge_groups": [
+    {
+      "type": "USES_MEDIA",
+      "source_ids": [
+        "#75:2183",
+        "#75:2184"
+      ],
+      "production_ids": [
+        "#450:2191",
+        "#450:2192"
+      ]
+    }
+  ],
+  "issues": [],
+  "verified": true,
+  "catalog_entries": 410,
+  "edge_bindings": 10123
+}

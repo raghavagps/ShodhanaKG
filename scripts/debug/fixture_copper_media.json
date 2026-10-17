@@ -1,0 +1,500 @@
+{
+    "status": "success",
+    "entity": {
+        "name": "Copper",
+        "type": "Compound"
+    },
+    "path": [
+        "Compound",
+        "UNDERGOES",
+        "Shodhana_Method",
+        "USES_MEDIA",
+        "Media"
+    ],
+    "results": [
+        {
+            "method": "Swedana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Previously purified Tamra was boiled in Gomutra for 3 hours, then washed and dried.",
+                "result": "",
+                "pubmed_id": "23723677",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Samanya Shodhita Tamra was boiled in cow\u2019s urine for 3 hours, shade-dried, and used for further processing.",
+                "result": "",
+                "pubmed_id": "26730144",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Samanya-shodhita copper was subjected to boiling/sudation in cow\u2019s urine for a specified duration and then dried.",
+                "result": "",
+                "pubmed_id": "23661863",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Samanya Shodhita Tamra was boiled in cow\u2019s urine for 3 hours, shade-dried, and used for further processing.",
+                "result": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Samanya Shodhita Tamra was boiled in cow\u2019s urine.",
+                "result": "",
+                "pubmed_id": "29249635",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Sour Gruel",
+            "properties": {
+                "procedure": "Samanya Shodhita Tamra was boiled in Kanji.",
+                "result": "",
+                "pubmed_id": "29249635",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Samanya Shodhita Tamra was boiled in cow\u2019s urine for 3 hours, shade-dried, and used for further processing.",
+                "result": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Samanya Shodhita Tamra was boiled in cow\u2019s urine for 3 hours, washed with hot water and dried. ",
+                "result": "",
+                "pubmed_id": "25948961",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sour Gruel",
+            "properties": {
+                "procedure": "Red-hot copper pieces were quenched seven times in kanji.",
+                "result": "",
+                "pubmed_id": "23723677",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Buttermilk",
+            "properties": {
+                "procedure": "Red-hot copper pieces were quenched seven times in Buttermilk.",
+                "result": "",
+                "pubmed_id": "23723677",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Horse Gram Decoction",
+            "properties": {
+                "procedure": "Red-hot copper pieces were quenched seven times in Kulattha Kwatha.",
+                "result": "",
+                "pubmed_id": "23723677",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Red-hot copper scraps were quenched seven times in cow urine.",
+                "result": "",
+                "pubmed_id": "26730144",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sour Gruel",
+            "properties": {
+                "procedure": "Red-hot copper scraps were quenched seven times in kanji.",
+                "result": "",
+                "pubmed_id": "26730144",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Buttermilk",
+            "properties": {
+                "procedure": "Red-hot copper scraps were quenched seven times in buttermilk.",
+                "result": "",
+                "pubmed_id": "26730144",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Horse Gram Decoction",
+            "properties": {
+                "procedure": "Red-hot copper scraps were quenched seven times in Kulattha Kwatha.",
+                "result": "",
+                "pubmed_id": "26730144",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sesame Oil",
+            "properties": {
+                "procedure": "Red-hot copper scraps were quenched seven times in sesame oil.",
+                "result": "",
+                "pubmed_id": "26730144",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Copper wire was heated to red hot and quenched in cow urine.",
+                "result": "",
+                "pubmed_id": "23661863",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sour Gruel",
+            "properties": {
+                "procedure": "Copper wire was heated to red hot and quenched in kanji.",
+                "result": "",
+                "pubmed_id": "23661863",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Buttermilk",
+            "properties": {
+                "procedure": "Copper wire was heated to red hot and quenched in buttermilk.",
+                "result": "",
+                "pubmed_id": "23661863",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Horse Gram Decoction",
+            "properties": {
+                "procedure": "Copper wire was heated to red hot and quenched in Kulattha Kwatha.",
+                "result": "",
+                "pubmed_id": "23661863",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sesame Oil",
+            "properties": {
+                "procedure": "Copper wire was heated to red hot and quenched in sesame oil.",
+                "result": "",
+                "pubmed_id": "23661863",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Red-hot copper scraps were quenched seven times in cow urine.",
+                "result": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sour Gruel",
+            "properties": {
+                "procedure": "Red-hot copper scraps were quenched seven times in kanji.",
+                "result": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Buttermilk",
+            "properties": {
+                "procedure": "Red-hot copper scraps were quenched seven times in buttermilk.",
+                "result": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Horse Gram Decoction",
+            "properties": {
+                "procedure": "Red-hot copper scraps were quenched seven times in Kulattha Kwatha.",
+                "result": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sesame Oil",
+            "properties": {
+                "procedure": "Red-hot copper scraps were quenched seven times in sesame oil.",
+                "result": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Buttermilk",
+            "properties": {
+                "procedure": "Copper wire was heated to red hot and quenched in buttermilk.",
+                "result": "",
+                "pubmed_id": "29249635",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sesame Oil",
+            "properties": {
+                "procedure": "Copper wire was heated to red hot and quenched in sesame oil.",
+                "result": "",
+                "pubmed_id": "29249635",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Red-hot copper was quenched in Cow urine five times.",
+                "result": "",
+                "pubmed_id": "23105410",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sour Gruel",
+            "properties": {
+                "procedure": "Red-hot copper was quenched in Kanji five times.",
+                "result": "",
+                "pubmed_id": "23105410",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Buttermilk",
+            "properties": {
+                "procedure": "Red-hot copper was quenched in Buttermilk five times.",
+                "result": "",
+                "pubmed_id": "23105410",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Horse Gram Decoction",
+            "properties": {
+                "procedure": "Red-hot copper was quenched in Kulattha Kwatha five times.",
+                "result": "",
+                "pubmed_id": "23105410",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Oxalis Corniculata Juice",
+            "properties": {
+                "procedure": "Red-hot copper was quenched in Oxalis Corniculata Juice five times.",
+                "result": "",
+                "pubmed_id": "23105410",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sesame Oil",
+            "properties": {
+                "procedure": "Red-hot copper was quenched in Sesame oil five times.",
+                "result": "",
+                "pubmed_id": "23105410",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Copper flakes were heated to red hot and quenched in cow urine.",
+                "result": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sour Gruel",
+            "properties": {
+                "procedure": "Copper flakes were heated to red hot and quenched in kanji.",
+                "result": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Buttermilk",
+            "properties": {
+                "procedure": "Copper flakes were heated to red hot and quenched in buttermilk.",
+                "result": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Horse Gram Decoction",
+            "properties": {
+                "procedure": "Copper flakes were heated to red hot and quenched in Kulattha Kwatha.",
+                "result": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sesame Oil",
+            "properties": {
+                "procedure": "Copper flakes were heated to red hot and quenched in sesame oil.",
+                "result": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Copper scraps were heated to red hot and quenched in cow urine seven times.",
+                "result": "",
+                "pubmed_id": "25948961",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sour Gruel",
+            "properties": {
+                "procedure": "Copper scraps were heated to red hot and quenched in kanji seven times.",
+                "result": "",
+                "pubmed_id": "25948961",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Buttermilk",
+            "properties": {
+                "procedure": "Copper scraps were heated to red hot and quenched in buttermilk seven times.",
+                "result": "",
+                "pubmed_id": "25948961",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Horse Gram Decoction",
+            "properties": {
+                "procedure": "Copper scraps were heated to red hot and quenched in Kulattha Kwatha seven times.",
+                "result": "",
+                "pubmed_id": "25948961",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nirvapa",
+            "media": "Sesame Oil",
+            "properties": {
+                "procedure": "Copper scraps were heated to red hot and quenched in sesame oil seven times.",
+                "result": "",
+                "pubmed_id": "25948961",
+                "doi": "",
+                "ayush_id": ""
+            }
+        }
+    ]
+}

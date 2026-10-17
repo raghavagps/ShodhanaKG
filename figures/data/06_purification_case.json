@@ -1,0 +1,165 @@
+{
+  "nodes": [
+    {
+      "@rid": "#380:30",
+      "@type": "Compound",
+      "@cat": "v",
+      "Ayurvedic_Name": "Shankha",
+      "Compound_Type": "Mineral",
+      "Pharmacological_Activity": "anti-peroxidative effect, antispasmodic effect and anti-inflammatory activity",
+      "name": "Conch Shell",
+      "Chemical_Composition": "Calcium Carbonate (CaCO3)",
+      "id": "30",
+      "Source": "Shell of Turbinella rapha"
+    },
+    {
+      "@rid": "#388:1",
+      "@type": "Shodhana_Method",
+      "@cat": "v",
+      "name": "Swedana",
+      "Method_Description": "Swedana involves heating the raw material in a liquid medium using mild heat, usually by boiling or steaming (often in a Dolayantra setup). The process removes impurities, reduces toxicity, softens the material, and facilitates further purification or processing.",
+      "id": "110"
+    },
+    {
+      "@rid": "#396:1",
+      "@type": "Media",
+      "@cat": "v",
+      "Media_Type": "Amla Varga (Acidic Media)",
+      "name": "Lemon Juice",
+      "Sanskrit_Name": "Nimbu Swarasa",
+      "id": "124"
+    },
+    {
+      "@rid": "#396:5",
+      "@type": "Media",
+      "@cat": "v",
+      "Media_Type": "Amla Varga (Acidic Media)",
+      "Preparation": "Kanji is prepared by fermenting a mixture of rice (or rice gruel) with water and souring agents (such as mustard or spices) for a specific period until it becomes acidic.",
+      "name": "Sour Gruel",
+      "Sanskrit_Name": "Kanji",
+      "id": "128"
+    },
+    {
+      "@rid": "#396:56",
+      "@type": "Media",
+      "@cat": "v",
+      "name": "No Media",
+      "id": "179"
+    },
+    {
+      "@rid": "#400:41",
+      "@type": "Purified_Compound",
+      "@cat": "v",
+      "name": "Shankha Bhasma",
+      "id": "254"
+    },
+    {
+      "@rid": "#404:147",
+      "@type": "Confirmation_Study",
+      "@cat": "v",
+      "name": "Clinical Therapeutic Efficacy Test",
+      "id": "432"
+    },
+    {
+      "@rid": "#408:137",
+      "@type": "Indication",
+      "@cat": "v",
+      "name": "Gastroesophageal Reflux Disease (GERD)",
+      "id": "585"
+    },
+    {
+      "@rid": "#416:0",
+      "@type": "Process",
+      "@cat": "v",
+      "Process_Description": "Marana is the calcination of purified metals and minerals through repeated cycles of grinding with herbal media and controlled heating (Puta). This converts the material into fine, ash-like Bhasma that is non-toxic, stable, and bioavailable.",
+      "name": "Marana",
+      "id": "692"
+    }
+  ],
+  "edges": [
+    {
+      "@rid": "#448:185",
+      "@type": "UNDERGOES",
+      "@cat": "e",
+      "@in": "#388:1",
+      "@out": "#380:30",
+      "ref": "23633854"
+    },
+    {
+      "@rid": "#460:4109",
+      "@type": "CONFIRMS_SAFETY_OF",
+      "@cat": "e",
+      "@in": "#400:41",
+      "@out": "#404:147",
+      "ref": "23633854",
+      "Result": "Shankha Bhasma purified with lemon juice showed significantly higher symptom resolution (66 to 71% vs. 27 to 31%, P < 0.005) and more heartburn-free days, confirming improved therapeutic efficacy after proper Shodhana."
+    },
+    {
+      "@rid": "#454:15",
+      "@type": "FOLLOWED_BY",
+      "@cat": "e",
+      "@in": "#416:0",
+      "@out": "#388:1",
+      "ref": "23633854"
+    },
+    {
+      "@rid": "#450:50",
+      "@type": "USES_MEDIA",
+      "@cat": "e",
+      "@in": "#396:1",
+      "@out": "#388:1",
+      "ref": "23633854",
+      "Procedure": "Shankha pieces tied in a cloth bundle were boiled in lemon juice for 3 h, then washed with warm water."
+    },
+    {
+      "@rid": "#450:77",
+      "@type": "USES_MEDIA",
+      "@cat": "e",
+      "@in": "#396:5",
+      "@out": "#388:1",
+      "ref": "23633854",
+      "Procedure": "Shankha pieces tied in a cloth bundle were boiled in kanji for 3 h, then washed with warm water."
+    },
+    {
+      "@rid": "#456:236",
+      "@type": "DERIEVED_FROM",
+      "@cat": "e",
+      "@in": "#380:30",
+      "@out": "#400:41",
+      "ref": "23633854"
+    },
+    {
+      "@rid": "#457:537",
+      "@type": "TREATS",
+      "@cat": "e",
+      "@in": "#408:137",
+      "@out": "#400:41",
+      "ref": "23633854"
+    },
+    {
+      "@rid": "#453:284",
+      "@type": "PRODUCES",
+      "@cat": "e",
+      "@in": "#400:41",
+      "@out": "#416:0",
+      "ref": "23633854"
+    },
+    {
+      "@rid": "#450:2290",
+      "@type": "USES_MEDIA",
+      "@cat": "e",
+      "@in": "#396:56",
+      "@out": "#416:0",
+      "ref": "23633854",
+      "Procedure": "Purified Shankha was sealed in earthen containers and subjected to two cycles of calcination to obtain white Shankha Bhasma."
+    },
+    {
+      "@rid": "#451:614",
+      "@type": "VALIDATED_BY",
+      "@cat": "e",
+      "@in": "#404:147",
+      "@out": "#416:0",
+      "ref": "23633854"
+    }
+  ]
+}

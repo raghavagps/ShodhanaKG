@@ -1,0 +1,122 @@
+{
+  "total": 23,
+  "passed": 23,
+  "checks": [
+    {
+      "name": "json:typo_followup",
+      "passed": true
+    },
+    {
+      "name": "json:broader_choice",
+      "passed": true
+    },
+    {
+      "name": "json:broader_keeps_intent",
+      "passed": true
+    },
+    {
+      "name": "json:indication_exact_edges",
+      "passed": true,
+      "expected": [
+        "#82:124",
+        "#82:125",
+        "#82:348",
+        "#82:75"
+      ],
+      "actual": [
+        "#82:124",
+        "#82:125",
+        "#82:348",
+        "#82:75"
+      ]
+    },
+    {
+      "name": "json:indication_direction_properties",
+      "passed": true
+    },
+    {
+      "name": "json:forged_selection",
+      "passed": true
+    },
+    {
+      "name": "json:ambiguous_types",
+      "passed": true
+    },
+    {
+      "name": "json:selected_type_memory",
+      "passed": true
+    },
+    {
+      "name": "json:topic_change",
+      "passed": true
+    },
+    {
+      "name": "json:unknown_not_memory",
+      "passed": true
+    },
+    {
+      "name": "sse:typo_followup",
+      "passed": true
+    },
+    {
+      "name": "sse:broader_choice",
+      "passed": true
+    },
+    {
+      "name": "sse:broader_keeps_intent",
+      "passed": true
+    },
+    {
+      "name": "sse:indication_exact_edges",
+      "passed": true,
+      "expected": [
+        "#82:124",
+        "#82:125",
+        "#82:348",
+        "#82:75"
+      ],
+      "actual": [
+        "#82:124",
+        "#82:125",
+        "#82:348",
+        "#82:75"
+      ]
+    },
+    {
+      "name": "sse:indication_direction_properties",
+      "passed": true
+    },
+    {
+      "name": "sse:forged_selection",
+      "passed": true
+    },
+    {
+      "name": "sse:ambiguous_types",
+      "passed": true
+    },
+    {
+      "name": "sse:selected_type_memory",
+      "passed": true
+    },
+    {
+      "name": "sse:topic_change",
+      "passed": true
+    },
+    {
+      "name": "sse:unknown_not_memory",
+      "passed": true
+    },
+    {
+      "name": "search:compound:coper",
+      "passed": true
+    },
+    {
+      "name": "search:disease:ESCC",
+      "passed": true
+    },
+    {
+      "name": "search:integrated:coper",
+      "passed": true
+    }
+  ]
+}

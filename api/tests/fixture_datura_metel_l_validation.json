@@ -1,0 +1,473 @@
+{
+    "status": "success",
+    "entity": {
+        "name": "Datura metel L.",
+        "type": "Compound"
+    },
+    "path": [
+        "Compound",
+        "UNDERGOES",
+        "Shodhana_Method",
+        "...[Direct/Process]...",
+        "VALIDATED_BY",
+        "Confirmation_Study"
+    ],
+    "results": [
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "In vivo Toxicity Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "41220381",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Shodhana-treated samples showed absence of neurotoxicity, hepatotoxicity, hematological alterations, and organ damage compared to raw extract, confirming effective detoxification.",
+                "properties": {
+                    "pubmed_id": "41220381",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "Gas Chromatography-Mass Spectrometry (GC-MS) Analysis",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "41220381",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Shodhana reduced total tropane alkaloids by ~70% with complete removal of scopolamine, confirming chemical detoxification of Datura metel.",
+                "properties": {
+                    "pubmed_id": "41220381",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "High-Performance Layer Chromatography (HPLC)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.4103/jdras.jdras_45_21",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Complete depletion of scopolamine in processed seeds, with reduced peak areas compared to unprocessed samples.",
+                "properties": {
+                    "pubmed_id": "10.4103/jdras.jdras_45_21",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "Liquid Chromatography Mass Spectroscopic (LC/MS) Analysis ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.4103/jdras.jdras_45_21",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Significant decrease in scopolamine content after Shodhana.",
+                "properties": {
+                    "pubmed_id": "10.4103/jdras.jdras_45_21",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "High-Performance Thin Layer Chromatography (HPTLC)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.4103/jdras.jdras_45_21",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Noticeable changes in chromatographic profile indicating reduction of toxic constituents after Shodhana.",
+                "properties": {
+                    "pubmed_id": "10.4103/jdras.jdras_45_21",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "Gas Chromatography-Mass Spectrometry (GC-MS) Analysis",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.4103/jdras.jdras_45_21",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Significant decrease in scopolamine content after Shodhana.",
+                "properties": {
+                    "pubmed_id": "10.4103/jdras.jdras_45_21",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "UV Spectrophotometry Assay",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.4103/jdras.jdras_92_22",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Raw Dhattura seeds showed highest total alkaloid content (40.83 mg AE/100 g), which significantly reduced after Shodhana with cow urine  (26.45 mg AE/100 g) and was lowest with cow milk (20.46 mg AE/100 g), indicating milk as the more effective detoxifying medium.",
+                "properties": {
+                    "pubmed_id": "10.4103/jdras.jdras_92_22",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "30466809",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Haratala",
+                "result": "ICP-AES of the entire formulation confirms the presence of therapeutically important elements (Hg, S, Fe, Sn, Au, Cu, Ca, Mg etc.) with heavy metals (Cd, Pb, As) within permissible limits confirms controlled composition and safety.",
+                "properties": {
+                    "pubmed_id": "30466809",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "X-Ray Diffraction (XRD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "30466809",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Haratala",
+                "result": "Detection of stable crystalline phases in the entire formulation such as cinnabar (HgS), sulphur, cassiterite (SnO\u2082), orpiment (As\u2082S\u2083) and mica confirms conversion of toxic metals into stable sulphide/oxide mineral forms and long-term chemical stability.",
+                "properties": {
+                    "pubmed_id": "30466809",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "Histopathological Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "165494",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Raw drug caused liver, kidney and brain damage, while toxicity was markedly attenuated after Shodhana, confirming organ safety improvement.",
+                "properties": {
+                    "pubmed_id": "165494",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "Antipyretic Activity Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "165494",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Shodhit Dhatura significantly reduced fever, and the highest dose showed effect comparable or superior to paracetamol in later hours, confirming enhanced therapeutic efficacy after Shodhana.",
+                "properties": {
+                    "pubmed_id": "165494",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "Haematological Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "165494",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Inflammatory changes (increased lymphocytes, and decreased neutrophils) seen with raw drug were reduced in Shodhita Dhattura, confirming decreased inflammatory toxicity.",
+                "properties": {
+                    "pubmed_id": "165494",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "study": "Acute Toxicity Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "165494",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "No mortality observed with Shodhita Dhattura even at 2000 mg/kg, while Ashodhit Dhatura caused 33.33% mortality at 300 mg/kg and 66.66% mortality at 2000 mg/kg, confirming significant detoxification after Shodhana. Severe toxic signs (convulsions, inflammation, urinary retention, hyperthermia) seen in raw drug were markedly reduced and reversible in Shodhit Dhatura, confirming reduced acute toxicity.",
+                "properties": {
+                    "pubmed_id": "165494",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nimajjana",
+            "study": "In vivo Toxicity Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "41220381",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Shodhana-treated samples showed absence of neurotoxicity, hepatotoxicity, hematological alterations, and organ damage compared to raw extract, confirming effective detoxification.",
+                "properties": {
+                    "pubmed_id": "41220381",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nimajjana",
+            "study": "Gas Chromatography-Mass Spectrometry (GC-MS) Analysis",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "41220381",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Shodhana reduced total tropane alkaloids by ~70% with complete removal of scopolamine, confirming chemical detoxification of Datura metel.",
+                "properties": {
+                    "pubmed_id": "41220381",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nimajjana",
+            "study": "High-Performance Layer Chromatography (HPLC)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.4103/jdras.jdras_45_21",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Complete depletion of scopolamine in processed seeds, with reduced peak areas compared to unprocessed samples.",
+                "properties": {
+                    "pubmed_id": "10.4103/jdras.jdras_45_21",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nimajjana",
+            "study": "Liquid Chromatography Mass Spectroscopic (LC/MS) Analysis ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.4103/jdras.jdras_45_21",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Significant decrease in scopolamine content after Shodhana.",
+                "properties": {
+                    "pubmed_id": "10.4103/jdras.jdras_45_21",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nimajjana",
+            "study": "High-Performance Thin Layer Chromatography (HPTLC)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.4103/jdras.jdras_45_21",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Noticeable changes in chromatographic profile indicating reduction of toxic constituents after Shodhana.",
+                "properties": {
+                    "pubmed_id": "10.4103/jdras.jdras_45_21",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nimajjana",
+            "study": "Gas Chromatography-Mass Spectrometry (GC-MS) Analysis",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.4103/jdras.jdras_45_21",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Dhattura",
+                "result": "Significant decrease in scopolamine content after Shodhana.",
+                "properties": {
+                    "pubmed_id": "10.4103/jdras.jdras_45_21",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        }
+    ]
+}

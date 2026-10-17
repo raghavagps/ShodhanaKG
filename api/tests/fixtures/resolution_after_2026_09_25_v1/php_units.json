@@ -1,0 +1,66 @@
+[
+  {
+    "test": "test_traversal_expansion.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_evidence_answer_builder.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_evidence_correlator.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_response_validator.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_response_validator_regression.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_results_presentation.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_legacy_evidence_presentation.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_conversational_answer.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_chat_transport.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_conversation_memory.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_conversation_routing.php",
+    "exit_code": 255
+  },
+  {
+    "test": "test_evaluation_assertions.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_evaluation_export.php",
+    "exit_code": 0
+  },
+  {
+    "test": "test_context_immutability.php",
+    "exit_code": 0
+  },
+  {
+    "test": "reference_classification.test.php",
+    "exit_code": 0
+  },
+  {
+    "test": "provenance-subgraph.test.php",
+    "exit_code": 0
+  }
+]

@@ -1,0 +1,475 @@
+{
+  "version": 1,
+  "scope": "Hand-authored realistic English conversation expectations; frozen factual references; no production-derived expected responses",
+  "history_policy": "UI: user turns plus successful bot turns, latest 6 messages. API truncates each message to 500 characters.",
+  "scenarios": [
+    {
+      "id": "symptom_wording_1",
+      "turns": [
+        {
+          "question": "What symptoms are associated with Acute Renal Calculus?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "paraphrase"
+        }
+      ]
+    },
+    {
+      "id": "symptom_wording_2",
+      "turns": [
+        {
+          "question": "Could you list the symptoms linked to Acute Renal Calculus, please?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "paraphrase"
+        }
+      ]
+    },
+    {
+      "id": "symptom_wording_3",
+      "turns": [
+        {
+          "question": "For Acute Renal Calculus, what signs are recorded?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "paraphrase"
+        }
+      ]
+    },
+    {
+      "id": "symptom_wording_4",
+      "turns": [
+        {
+          "question": "Which symptoms does the graph list for Acute Renal Calculus?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "paraphrase"
+        }
+      ]
+    },
+    {
+      "id": "media_wording_1",
+      "turns": [
+        {
+          "question": "Which media are used to purify Copper?",
+          "reference_id": "expanded_compound_media_3",
+          "category": "paraphrase"
+        }
+      ]
+    },
+    {
+      "id": "media_wording_2",
+      "turns": [
+        {
+          "question": "What substances are used during the purification of Copper?",
+          "reference_id": "expanded_compound_media_3",
+          "category": "paraphrase"
+        }
+      ]
+    },
+    {
+      "id": "media_wording_3",
+      "turns": [
+        {
+          "question": "Show the purification media for Copper.",
+          "reference_id": "expanded_compound_media_3",
+          "category": "paraphrase"
+        }
+      ]
+    },
+    {
+      "id": "typing_1",
+      "turns": [
+        {
+          "question": "What symtoms are associated with Acute Renal Calculus?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "typo_or_formatting"
+        }
+      ]
+    },
+    {
+      "id": "typing_2",
+      "turns": [
+        {
+          "question": "What symptoms are associated with Acute Renal Calculs?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "typo_or_formatting"
+        }
+      ]
+    },
+    {
+      "id": "typing_3",
+      "turns": [
+        {
+          "question": "What symptoms are associated with acute renal calculus???",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "typo_or_formatting"
+        }
+      ]
+    },
+    {
+      "id": "typing_4",
+      "turns": [
+        {
+          "question": "What media are used to purify Coppr?",
+          "reference_id": "expanded_compound_media_3",
+          "category": "typo_or_formatting"
+        }
+      ]
+    },
+    {
+      "id": "typing_5",
+      "turns": [
+        {
+          "question": "Which media are used by method Swedna?",
+          "reference_id": "expanded_process_media_3",
+          "category": "typo_or_formatting"
+        }
+      ]
+    },
+    {
+      "id": "typing_6",
+      "turns": [
+        {
+          "question": "What media does method swedana use?",
+          "reference_id": "expanded_process_media_3",
+          "category": "typo_or_formatting"
+        }
+      ]
+    },
+    {
+      "id": "ambiguous_method",
+      "turns": [
+        {
+          "question": "What process follows Bhavana?",
+          "acceptable_statuses": [
+            "needs_clarification"
+          ],
+          "category": "ambiguous_name"
+        },
+        {
+          "question": "I mean the method method Bhavana. Which media does it use?",
+          "reference_id": "expanded_process_media_2",
+          "category": "clarification_followup"
+        }
+      ]
+    },
+    {
+      "id": "missing_entity",
+      "turns": [
+        {
+          "question": "What symptoms does it have?",
+          "acceptable_statuses": [
+            "needs_clarification"
+          ],
+          "category": "missing_context"
+        },
+        {
+          "question": "Acute Renal Calculus. What symptoms are recorded?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "clarification_followup"
+        }
+      ]
+    },
+    {
+      "id": "missing_intent",
+      "turns": [
+        {
+          "question": "Tell me about Copper.",
+          "category": "stored_node_properties",
+          "node_reference": {
+            "node_id": "#5:24",
+            "property": "*"
+          }
+        },
+        {
+          "question": "Its purification media, please.",
+          "reference_id": "expanded_compound_media_3",
+          "category": "clarification_followup"
+        }
+      ]
+    },
+    {
+      "id": "two_diseases",
+      "turns": [
+        {
+          "question": "What symptoms do Acute Renal Calculus and Acute Prolapsed Inter-Vertebral Disc have?",
+          "acceptable_statuses": [
+            "needs_clarification"
+          ],
+          "category": "multiple_entities"
+        }
+      ]
+    },
+    {
+      "id": "ambiguous_pronoun",
+      "turns": [
+        {
+          "question": "Which media are used by method Swedana?",
+          "reference_id": "expanded_process_media_3",
+          "category": "control"
+        },
+        {
+          "question": "Which media are used by method Bhavana?",
+          "reference_id": "expanded_process_media_2",
+          "category": "control"
+        },
+        {
+          "question": "Which compounds are processed by the former and the latter?",
+          "acceptable_statuses": [
+            "needs_clarification"
+          ],
+          "category": "multiple_entities"
+        }
+      ]
+    },
+    {
+      "id": "pronoun_chain",
+      "turns": [
+        {
+          "question": "What symptoms are associated with Acute Renal Calculus?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "control"
+        },
+        {
+          "question": "What therapies are used for it?",
+          "reference_id": "expanded_disease_therapy_2",
+          "category": "pronoun_followup"
+        },
+        {
+          "question": "What formulations are used for it?",
+          "reference_id": "expanded_disease_formulation_2",
+          "category": "pronoun_followup"
+        }
+      ]
+    },
+    {
+      "id": "elliptical_chain",
+      "turns": [
+        {
+          "question": "What symptoms are associated with Acute Renal Calculus?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "control"
+        },
+        {
+          "question": "And the therapies?",
+          "reference_id": "expanded_disease_therapy_2",
+          "category": "elliptical_followup"
+        },
+        {
+          "question": "What about formulations?",
+          "reference_id": "expanded_disease_formulation_2",
+          "category": "elliptical_followup"
+        }
+      ]
+    },
+    {
+      "id": "explicit_topic_override",
+      "turns": [
+        {
+          "question": "Which media are used to purify Copper?",
+          "reference_id": "expanded_compound_media_3",
+          "category": "control"
+        },
+        {
+          "question": "Now Acute Renal Calculus: what symptoms does it have?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "topic_change"
+        },
+        {
+          "question": "What therapies are used for it?",
+          "reference_id": "expanded_disease_therapy_2",
+          "category": "pronoun_followup"
+        }
+      ]
+    },
+    {
+      "id": "method_topic_override",
+      "turns": [
+        {
+          "question": "Which media are used by method Swedana?",
+          "reference_id": "expanded_process_media_3",
+          "category": "control"
+        },
+        {
+          "question": "Switch to method Bharjana. What media does it use?",
+          "reference_id": "expanded_process_media_1",
+          "category": "topic_change"
+        },
+        {
+          "question": "Which compounds are processed by it?",
+          "reference_id": "expanded_process_compound_1",
+          "category": "pronoun_followup"
+        }
+      ]
+    },
+    {
+      "id": "entity_only_switch",
+      "turns": [
+        {
+          "question": "Which media are used by method Swedana?",
+          "reference_id": "expanded_process_media_3",
+          "category": "control"
+        },
+        {
+          "question": "And Bharjana?",
+          "reference_id": "expanded_process_media_1",
+          "category": "elliptical_followup"
+        }
+      ]
+    },
+    {
+      "id": "history_window",
+      "turns": [
+        {
+          "question": "What symptoms are associated with Acute Renal Calculus?",
+          "reference_id": "expanded_disease_symptoms_2",
+          "category": "control"
+        },
+        {
+          "question": "Which media are used to purify Copper?",
+          "reference_id": "expanded_compound_media_3",
+          "category": "topic_change"
+        },
+        {
+          "question": "Which media are used by method Swedana?",
+          "reference_id": "expanded_process_media_3",
+          "category": "topic_change"
+        },
+        {
+          "question": "Which media are used by Bharjana?",
+          "reference_id": "expanded_process_media_1",
+          "category": "topic_change"
+        },
+        {
+          "question": "Which compounds are processed by it?",
+          "reference_id": "expanded_process_compound_1",
+          "category": "history_window"
+        }
+      ]
+    },
+    {
+      "id": "unsupported_price",
+      "turns": [
+        {
+          "question": "What is the price of Copper?",
+          "acceptable_statuses": [
+            "no_data"
+          ],
+          "category": "missing_node_property"
+        }
+      ]
+    },
+    {
+      "id": "unsupported_formula",
+      "turns": [
+        {
+          "question": "What is the chemical formula of Copper?",
+          "acceptable_statuses": [
+            "no_data"
+          ],
+          "category": "missing_node_property"
+        }
+      ]
+    },
+    {
+      "id": "unsupported_personal_dose",
+      "turns": [
+        {
+          "question": "What dosage of Copper should I take for my symptoms?",
+          "acceptable_statuses": [
+            "unsupported"
+          ],
+          "category": "unsupported_request"
+        }
+      ]
+    },
+    {
+      "id": "unsupported_off_topic",
+      "turns": [
+        {
+          "question": "Write a poem about the moon.",
+          "acceptable_statuses": [
+            "unsupported"
+          ],
+          "category": "unsupported_request"
+        }
+      ]
+    },
+    {
+      "id": "unsupported_guarantee",
+      "turns": [
+        {
+          "question": "Can Copper guarantee a cure for every disease?",
+          "acceptable_statuses": [
+            "unsupported"
+          ],
+          "category": "unsupported_request"
+        }
+      ]
+    },
+    {
+      "id": "unsupported_database_write",
+      "turns": [
+        {
+          "question": "Delete all evidence records about Copper.",
+          "acceptable_statuses": [
+            "unsupported"
+          ],
+          "category": "unsupported_request"
+        }
+      ]
+    },
+    {
+      "id": "unknown_entity",
+      "turns": [
+        {
+          "question": "What symptoms are associated with Zorblax Syndrome?",
+          "acceptable_statuses": [
+            "entity_not_found",
+            "unsupported"
+          ],
+          "category": "unknown_entity"
+        }
+      ]
+    },
+    {
+      "id": "empty_graph",
+      "turns": [
+        {
+          "question": "What symptoms are associated with Dyslipidemia?",
+          "reference_id": "expanded_disease_symptoms_3",
+          "category": "true_no_data"
+        }
+      ]
+    },
+    {
+      "id": "empty_to_answerable",
+      "turns": [
+        {
+          "question": "What media are used to purify Sodium Metaborate?",
+          "reference_id": "expanded_compound_media_4",
+          "category": "true_no_data"
+        },
+        {
+          "question": "Switch to Copper. Which purification media are recorded?",
+          "reference_id": "expanded_compound_media_3",
+          "category": "recovery"
+        }
+      ]
+    },
+    {
+      "id": "unsupported_to_answerable",
+      "turns": [
+        {
+          "question": "What is the price of Copper?",
+          "acceptable_statuses": [
+            "no_data"
+          ],
+          "category": "missing_node_property"
+        },
+        {
+          "question": "Okay, which media are used to purify it?",
+          "reference_id": "expanded_compound_media_3",
+          "category": "recovery"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "rows": [
+    {
+      "route": "/",
+      "status": 200,
+      "body_nonempty": true,
+      "not_found": false
+    },
+    {
+      "route": "/explorer/disease",
+      "status": 200,
+      "body_nonempty": true,
+      "not_found": false
+    },
+    {
+      "route": "/explorer/compound",
+      "status": 200,
+      "body_nonempty": true,
+      "not_found": false
+    },
+    {
+      "route": "/explorer/integrated",
+      "status": 200,
+      "body_nonempty": true,
+      "not_found": false
+    },
+    {
+      "graph": "disease",
+      "seed": "#420:82",
+      "nodes": 51,
+      "edges": 114
+    },
+    {
+      "graph": "compound",
+      "seed": "#380:24",
+      "nodes": 5,
+      "edges": 47
+    },
+    {
+      "graph": "integrated",
+      "seed": "#380:24",
+      "nodes": 7,
+      "edges": 40
+    },
+    {
+      "subdirectory_animation": true
+    },
+    {
+      "chatbot_answer": true
+    },
+    {
+      "subdirectory_404_return": true
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

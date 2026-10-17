@@ -1,0 +1,37 @@
+﻿metric,numerator,denominator,percent,unit,scope,source,notes
+Factual retrieval exact-match cases,168,168,100.0,cases,fixed_benchmark,release/benchmark/factual.json,Agreement with frozen independent KG reference; not clinical accuracy.
+Factual success controls,133,133,100.0,cases,fixed_benchmark,release/benchmark/factual.json,Subset of the 168 factual cases; not additional samples.
+Factual no_data controls,35,35,100.0,cases,fixed_benchmark,release/benchmark/factual.json,Subset of the 168 factual cases; not additional samples.
+Reference-tested retrieval endpoints,52,52,100.0,endpoints,fixed_benchmark,release/benchmark/factual.json,Endpoint coverage is not exhaustive entity/path coverage.
+Legacy evidence attribution,121,121,100.0,cases,fixed_benchmark,release/benchmark/attribution.json,40 legacy endpoints; exact stored edge identity/direction/properties.
+Results-first presentation contracts,24,24,100.0,answers,fixed_benchmark,release/benchmark/presentation.json,
+Deterministic results-first generation,24,24,100.0,answers,fixed_benchmark,release/benchmark/answers.json,Descriptive generation-mode count; not a quality score.
+Result entity occurrences retained,375,375,100.0,within-answer grouped entity occurrences,fixed_benchmark,release/benchmark/presentation.json,375 includes repeats across questions; matching identities checked by presentation contracts.
+Citation occurrences retained,1088,1088,100.0,citation occurrences,fixed_benchmark,release/benchmark/presentation.json,Repeated evidence across answers is counted again; not unique publications.
+Routing/status contracts,82,82,100.0,cases,fixed_benchmark,release/benchmark/routing.log,"Joint routing/status checks, not a standalone classifier accuracy estimate."
+Conversation turn executions,108,108,100.0,turn executions,fixed_benchmark,release/benchmark/conversation.json,"34 scenarios, 54 turns repeated through JSON and SSE."
+JSON/SSE semantic parity,54,54,100.0,paired turns,fixed_benchmark,release/benchmark/conversation.json,Model-attempt diagnostics reported separately; no differences observed.
+JSON false refusals,0,39,0.0,answerable turns,fixed_benchmark,release/benchmark/benchmark.json,Lower is better; two of 54 turns are outside these answerable/abstention denominators.
+JSON correct abstentions,13,13,100.0,expected abstention turns,fixed_benchmark,release/benchmark/benchmark.json,
+JSON false acceptances,0,13,0.0,expected abstention turns,fixed_benchmark,release/benchmark/benchmark.json,Lower is better.
+SSE false refusals,0,39,0.0,answerable turns,fixed_benchmark,release/benchmark/benchmark.json,Lower is better; two of 54 turns are outside these answerable/abstention denominators.
+SSE correct abstentions,13,13,100.0,expected abstention turns,fixed_benchmark,release/benchmark/benchmark.json,
+SSE false acceptances,0,13,0.0,expected abstention turns,fixed_benchmark,release/benchmark/benchmark.json,Lower is better.
+Structured context,30,30,100.0,checks,fixed_benchmark,release/benchmark/structured_context.json,
+Entity resolution,32,32,100.0,checks,fixed_benchmark,release/benchmark/entity_resolution.json,
+Resolution context,23,23,100.0,checks,fixed_benchmark,release/benchmark/resolution_context.json,
+Node properties,23,23,100.0,checks,fixed_benchmark,release/benchmark/node_properties.json,
+Terminology,39,39,100.0,checks,fixed_benchmark,release/benchmark/terminology.json,
+Method results,45,45,100.0,checks,fixed_benchmark,release/benchmark/method_results.json,
+Fragment methods,49,49,100.0,checks,fixed_benchmark,release/benchmark/fragment_methods.json,
+System consistency,242,242,100.0,checks,fixed_benchmark,release/benchmark/system_consistency.json,
+Stored edge property contract scan,10123,10123,100.0,stored edges,fixed_benchmark,release/benchmark/system_consistency.json,Normalization/property metadata scan; not every edge rendered in every browser answer.
+Treatment phase scan,1155,1155,100.0,phase edges,fixed_benchmark,release/benchmark/system_consistency.json,
+Frontend unit tests,95,95,100.0,tests,software,release/frontend_unit.log,25 files.
+Python evaluation/HTTP tests,73,73,100.0,tests,software,release/evaluation_unit.log,unittest discovery.
+Maintained PHP regressions,14,14,100.0,scripts,software,release/release.json,Scripts contain unequal numbers of assertions.
+PHP syntax,406,407,99.75,files,software,php_syntax.json,One malformed diagnostic script.
+Browser retry expected outcomes,489,489,100.0,browser test executions,software,browser_retry.json,Single worker; original two-worker run aborted. Skips/flakes reported separately.
+Therapeutic-use endpoint errors (post-hoc),15,52,28.85,compound seeds,post_hoc,compound_sweep.json,Lower is better. Non-errors are not independently scored as factually correct.
+Wrong purified-form route (post-hoc),50,52,96.15,compound-seeded questions,post_hoc,compound_sweep.json,Template requested diseases; remaining two require clarification. Not a random question sample.
+Supplemental scripts without unexpected failures,14,35,40.0,scripts,software,supplemental_php.json,One of the 14 includes five explicitly expected legacy-validator limitations. Three other scripts print failures but exit zero.

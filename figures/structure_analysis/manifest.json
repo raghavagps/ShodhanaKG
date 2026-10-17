@@ -1,0 +1,187 @@
+{
+  "input": "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\.audit-temp\\production-20260928\\production-records.json",
+  "input_sha256": "5c2e14a602fec75aedfb7a02e97548ef8b5fae8850c1e3d906ebe80408442e03",
+  "positions_sha256": "6214244761c23696a9fd9db5ac27512fb6ed58742134717d7c768d5d7c5665d6",
+  "script_sha256": "b1c7d370714c45ae25b597735a267397e35950c4e16640dc2c0bd420c6cad7b6",
+  "loader_sha256": "d4d200658d8001a2f7320a756f5451d7dccd9c2137c56250fb239faefee83305",
+  "guidelines_sha256": "904a8403eceb939daa8a53af678710bf719983a258526761621d8ecfb361d080",
+  "versions": {
+    "python": "3.12.9",
+    "matplotlib": "3.11.2",
+    "networkx": "3.6.1",
+    "numpy": "2.4.2",
+    "scipy": "1.18.1"
+  },
+  "arguments": {
+    "input": "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\.audit-temp\\production-20260928\\production-records.json",
+    "positions": "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\figures\\data\\S01_complete_instance_graph_positions.csv",
+    "output": "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\figures\\structure_analysis",
+    "seed": "42",
+    "label_mode": "auto",
+    "only": "chords"
+  },
+  "figures": [
+    {
+      "name": "core/C01_scale",
+      "caption": "Census counts of unique RIDs. The complete graph includes 75 cross-domain edges; Disease and Compound bars count internal edges only. The three bars are nested views, not disjoint domains. No sampling uncertainty or error bars.",
+      "width_mm": 180.0,
+      "height_mm": 104.14,
+      "meta": {}
+    },
+    {
+      "name": "core/C02_category_chord",
+      "caption": "Directed category chord; sectors ordered compound then disease. Ribbon widths count edge records, not clinical strength. Arrow tips identify target sectors. All 25 typed predicate combinations are separate ribbons; the three therapy phases are explicitly listed. Sector arc totals count incoming plus outgoing incidence (twice the edge total overall). Full counts in schema_counts.csv.",
+      "width_mm": 180.0,
+      "height_mm": 190.5,
+      "meta": {}
+    },
+    {
+      "name": "core/C03_category_coloured_graph",
+      "caption": "Complete instance graph: category-coloured nodes, quiet internal edges and amber integration edges. All RIDs, directions and properties preserved. Original saved positions reused; node size is constant, not a centrality measure. Dense overview uses metadata instead of full visible labels.",
+      "width_mm": 180.0,
+      "height_mm": 162.56,
+      "meta": {
+        "nodes": 2534,
+        "edges": 10123
+      }
+    },
+    {
+      "name": "core/C04_integration_heatmap",
+      "caption": "29 Purified Compounds \u00d7 17 Diseases; 75 stored treatment records occupy 56 distinct pairs. Zero cells are retained; colour is record count, not efficacy. The displayed participants are a subset of all 71 Purified Compounds and 134 Diseases.",
+      "width_mm": 180.0,
+      "height_mm": 213.36,
+      "meta": {}
+    },
+    {
+      "name": "core/C05_connectivity",
+      "caption": "Weak connectivity ignores edge direction only for component membership. Total multidegree counts incoming plus outgoing records; distinct neighbours ignore record multiplicity. Bridge coverage is direct USED_FOR_TREATMENT participation, not efficacy or absence of real-world associations.",
+      "width_mm": 180.0,
+      "height_mm": 96.52,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S00_complete_graph_large",
+      "caption": "Larger zoomable companion of C03 with identical positions, categories and complete graph membership. Isolates and parallel edges retained; zooming is required to inspect dense regions.",
+      "width_mm": 304.8,
+      "height_mm": 203.2,
+      "meta": {
+        "nodes": 2534,
+        "edges": 10123
+      }
+    },
+    {
+      "name": "supplementary/S01_semantic_sankey",
+      "caption": "Each KG edge contributes one unit through source category, predicate and target category. Both adjacent-column totals equal 10,123; do not add them. This is edge composition, not a causal sequence, patient flow or literal acyclic KG. Predicates keep exact stored spelling.",
+      "width_mm": 355.6,
+      "height_mm": 254.0,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S02_domain_chords",
+      "caption": "Internal edges only: Compound 4,123; Disease 5,925. Same category palette and directed predicate ribbon definition as C02; integration edges are excluded from these internal panels.",
+      "width_mm": 279.4,
+      "height_mm": 165.1,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S03a_category_counts",
+      "caption": "Directed category matrix; rows source, columns target; logarithmic colour scale with zero white. Diagonal Process cell represents same-type edges, not instance self-loops.",
+      "width_mm": 228.6,
+      "height_mm": 152.4,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S03b_category_percent",
+      "caption": "Percentage of outgoing edges per source category. Rows with no outgoing records remain zero, not missing; values are compositional, not probabilities of clinical outcomes.",
+      "width_mm": 228.6,
+      "height_mm": 152.4,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S04_property_coverage",
+      "caption": "Percentage of records containing a nonempty raw property. Denominator is all edges of each predicate, not known clinical eligibility. Zero means unpopulated in this snapshot; applicability is unknown. Exact numerators and denominators accompany the figure.",
+      "width_mm": 254.0,
+      "height_mm": 203.2,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S05_reference_concentration",
+      "caption": "410 distinct raw identifiers. Edges sharing a reference are repeated records, not independent publications or independent experiments. Concentration measures dataset composition, not publication quality.",
+      "width_mm": 228.6,
+      "height_mm": 101.6,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S06_complete_communities",
+      "caption": "Exploratory complete communities from the undirected unique-endpoint projection; Louvain resolution 1, medoid partition across seeds 0\u201319. Original directed multigraph is rendered, not collapsed. Weighted sensitivity and assignments supplied. Singleton isolates remain separate. Colours are community labels, not validated biological classes.",
+      "width_mm": 304.8,
+      "height_mm": 203.2,
+      "meta": {
+        "nodes": 2534,
+        "edges": 10123
+      }
+    },
+    {
+      "name": "supplementary/S06_compound_communities",
+      "caption": "Exploratory compound communities from the undirected unique-endpoint projection; Louvain resolution 1, medoid partition across seeds 0\u201319. Original directed multigraph is rendered, not collapsed. Weighted sensitivity and assignments supplied. Singleton isolates remain separate. Colours are community labels, not validated biological classes.",
+      "width_mm": 304.8,
+      "height_mm": 203.2,
+      "meta": {
+        "nodes": 702,
+        "edges": 4123
+      }
+    },
+    {
+      "name": "supplementary/S06_disease_communities",
+      "caption": "Exploratory disease communities from the undirected unique-endpoint projection; Louvain resolution 1, medoid partition across seeds 0\u201319. Original directed multigraph is rendered, not collapsed. Weighted sensitivity and assignments supplied. Singleton isolates remain separate. Colours are community labels, not validated biological classes.",
+      "width_mm": 304.8,
+      "height_mm": 203.2,
+      "meta": {
+        "nodes": 1832,
+        "edges": 5925
+      }
+    },
+    {
+      "name": "supplementary/S07a_community_stability",
+      "caption": "20 seeds per network per projection. Selected partition maximizes mean agreement; ties use lowest seed. Comparison with multiplicity-weighted projection is exploratory sensitivity, not evidence that communities are clinically valid. ARI is adjusted Rand index.",
+      "width_mm": 254.0,
+      "height_mm": 101.6,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S07b_community_composition",
+      "caption": "Node counts by exploratory complete-graph community and semantic category. Communities ordered by size, tie by stable RID; colours encode counts, not category identity.",
+      "width_mm": 254.0,
+      "height_mm": 127.0,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S07c_category_community_alluvial",
+      "caption": "Every node contributes once from its semantic entity category to an algorithm-derived community (2,534 total). This is a membership cross-tabulation, not a temporal or biological transition.",
+      "width_mm": 254.0,
+      "height_mm": 177.8,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S08_disease_therapy_similarity",
+      "caption": "Jaccard similarity of distinct Therapy neighbours for 134 Diseases; 0 empty-neighbour diseases excluded and listed. PRE_TREATED_BY, TREATED_BY and POST_TREATED_BY are pooled only for this declared similarity projection. Average linkage orders rows; indices map to full labels/RIDs in CSV. Neighbourhood similarity is not clinical similarity.",
+      "width_mm": 228.6,
+      "height_mm": 203.2,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S09_supported_paths",
+      "caption": "Exact path UNDERGOES \u2192 PRODUCES \u2192 USED_FOR_TREATMENT with Compound \u2192 Shodhana Method \u2192 Purified Compound \u2192 Disease node types. Structural paths may join different sources. A nonempty exact-reference intersection is reported separately; it still does not prove a single experimental context or clinical efficacy. No unsupported alternate path is inferred.",
+      "width_mm": 228.6,
+      "height_mm": 101.6,
+      "meta": {}
+    },
+    {
+      "name": "supplementary/S10_palette_assessment",
+      "caption": "Severe-condition colour-vision stress test using Machado matrices in linear sRGB, clipping and re-encoding for display. Tritan is an approximation, not a validated simulation of individual tritanopia. Some category colours converge: labels, abbreviations and domain placement are mandatory. This is not a claim of universal 17-colour accessibility. Source: https://colour.readthedocs.io/en/develop/_modules/colour/blindness/machado2009.html",
+      "width_mm": 254.0,
+      "height_mm": 152.4,
+      "meta": {}
+    }
+  ]
+}

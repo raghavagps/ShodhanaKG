@@ -1,0 +1,3075 @@
+{
+    "status": "success",
+    "answer": "Shodhana Methods associated with Copper\n\nThe available records associate Copper with the following shodhana methods:\n\n1. Swedana [1, 2, 3, 4, 5, 6, 7, 8]\n2. Nirvapa [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]",
+    "pagination": {
+        "offset": 0,
+        "limit": 1000,
+        "total": 20,
+        "has_more": false,
+        "next_offset": null
+    },
+    "query_plan": {
+        "version": 1,
+        "subject": {
+            "name": "Copper",
+            "type": "Compound"
+        },
+        "result_type": "Shodhana_Method",
+        "constraints": [],
+        "max_hops": 5,
+        "evidence_policy": "separate_treatment"
+    },
+    "answer_heading": "Shodhana Methods associated with Copper",
+    "answer_intro": "The available records associate Copper with the following shodhana methods:",
+    "answer_results": [
+        {
+            "id": "f1",
+            "label": "Swedana",
+            "fact_ids": [
+                "f1",
+                "f2",
+                "f3",
+                "f4",
+                "f5",
+                "f6",
+                "f7",
+                "f8"
+            ],
+            "citation_ids": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "record_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        },
+        {
+            "id": "f9",
+            "label": "Nirvapa",
+            "fact_ids": [
+                "f9",
+                "f10",
+                "f11",
+                "f12",
+                "f13",
+                "f14",
+                "f15",
+                "f16",
+                "f17",
+                "f18",
+                "f19",
+                "f20"
+            ],
+            "citation_ids": [
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20"
+            ],
+            "record_indices": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+            ]
+        }
+    ],
+    "answer_blocks": [],
+    "citations": [
+        {
+            "id": "1",
+            "fact_ids": [
+                "f1"
+            ],
+            "record_indices": [
+                0
+            ],
+            "statement": "Copper is recorded as undergoing Swedana.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Swedana.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "23723677",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "23723677",
+                                "identifier": "23723677",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Standard manufacturing procedure of Tamra Bhasma.; https://pubmed.ncbi.nlm.nih.gov/23723677/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "23723677"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:128",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:1",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Swedana"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Swedana",
+                    "id": "#388:1"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:128"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "23723677"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "fact_ids": [
+                "f2"
+            ],
+            "record_indices": [
+                1
+            ],
+            "statement": "Copper is recorded as undergoing Swedana.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Swedana.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "26730144",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "26730144",
+                                "identifier": "26730144",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Fourier transform infrared analysis of Tamra Bhasma at different levels: A preliminary study.; https://pubmed.ncbi.nlm.nih.gov/26730144/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=256281%2C256282%2C256285%2C256894%2C256996%2C257223%2C257229%2C257238%2C257348%2C25737612%2C257895%2C257918%2C258059%2C258077%2C258646%2C25948961%2C26120232%2C26195914%2C26261167%2C26283809%2C26600667%2C26600668%2C26664236%2C26664239%2C26664241%2C26730136%2C26730144%2C27011713%2C27011720%2C27011728%2C27114687%2C27143801%2C27143802%2C27297506%2C27297511%2C27377339%2C27450759%2C27473604%2C27621522%2C27833370%2C27890699%2C28285113%2C28302414%2C2840%2C28757226%2C28827952%2C28827953%2C2885%2C28867860%2C29200748&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "26730144"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:129",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:1",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Swedana"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Swedana",
+                    "id": "#388:1"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:129"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "26730144"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "fact_ids": [
+                "f3"
+            ],
+            "record_indices": [
+                2
+            ],
+            "statement": "Copper is recorded as undergoing Swedana.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Swedana.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "23661863",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "23661863",
+                                "identifier": "23661863",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Quality control parameters for Tamra (copper) Bhasma.; https://pubmed.ncbi.nlm.nih.gov/23661863/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "23661863"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:130",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:1",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Swedana"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Swedana",
+                    "id": "#388:1"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:130"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "23661863"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "fact_ids": [
+                "f4"
+            ],
+            "record_indices": [
+                3
+            ],
+            "statement": "Copper is recorded as undergoing Swedana.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Swedana.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "29249635",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "29249635",
+                                "identifier": "29249635",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Study on physical properties of Ayurvedic nanocrystalline Tamra Bhasma by employing modern scientific tools.; https://pubmed.ncbi.nlm.nih.gov/29249635/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29200749%2C29249635%2C29269968%2C29269973%2C29310904%2C29853328%2C29861586%2C29861590%2C29861595%2C29861596%2C30254392%2C30254398%2C30445775%2C30466809%2C30595628%2C30606464%2C30660453%2C30661945%2C30683497%2C30783359%2C30826258%2C30952470%2C30962052%2C31000965%2C31143747%2C31367149%2C31730889%2C31831966%2C31831967%2C32165016%2C32278669%2C32398907%2C32741654%2C32768345%2C32896437%2C33281395%2C33402266%2C33621615%2C33906452%2C33935438%2C33935442%2C33962505%2C33991078%2C34024690%2C34566381%2C34611387%2C34690042%2C34758243%2C34844840%2C34872806&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "29249635"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:131",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:1",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Swedana"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Swedana",
+                    "id": "#388:1"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:131"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "29249635"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "fact_ids": [
+                "f5"
+            ],
+            "record_indices": [
+                4
+            ],
+            "statement": "Copper is recorded as undergoing Swedana.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Swedana.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "38759538",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "38759538",
+                                "identifier": "38759538",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Product development and characterization of the Ayurvedic herbo-mineral-metallic compound- Hridayarnava Rasa.; https://pubmed.ncbi.nlm.nih.gov/38759538/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34908792%2C34908794%2C34908796%2C34961685%2C34980524%2C34996679%2C35240461%2C35255270%2C35277158%2C35348057%2C35370374%2C35370376%2C35370377%2C35444547%2C35661935%2C35868136%2C36384709%2C36403502%2C36455368%2C36604296%2C36743277%2C37076181%2C37141832%2C37230917%2C37244010%2C37303857%2C37494834%2C37506606%2C37554413%2C37651756%2C37678108%2C37738856%2C37738857%2C37741160%2C38006747%2C38070240%2C38075496%2C38237453%2C38241882%2C38262328%2C38507966%2C38527393%2C38537487%2C38759538%2C39182253%2C39210691%2C39216714%2C39237121%2C39244869%2C39303382&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "38759538"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:132",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:1",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Swedana"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Swedana",
+                    "id": "#388:1"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:132"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "38759538"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "fact_ids": [
+                "f6"
+            ],
+            "record_indices": [
+                5
+            ],
+            "statement": "Copper is recorded as undergoing Swedana.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Swedana.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "25948961",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "25948961",
+                                "identifier": "25948961",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Assessment of genotoxic potential of hridayarnava rasa (a herbo-mineralo-metallic ayurvedic formulation) using chromosomal aberration and sperm abnormality assays.; https://pubmed.ncbi.nlm.nih.gov/25948961/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=256281%2C256282%2C256285%2C256894%2C256996%2C257223%2C257229%2C257238%2C257348%2C25737612%2C257895%2C257918%2C258059%2C258077%2C258646%2C25948961%2C26120232%2C26195914%2C26261167%2C26283809%2C26600667%2C26600668%2C26664236%2C26664239%2C26664241%2C26730136%2C26730144%2C27011713%2C27011720%2C27011728%2C27114687%2C27143801%2C27143802%2C27297506%2C27297511%2C27377339%2C27450759%2C27473604%2C27621522%2C27833370%2C27890699%2C28285113%2C28302414%2C2840%2C28757226%2C28827952%2C28827953%2C2885%2C28867860%2C29200748&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "25948961"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:133",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:1",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Swedana"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Swedana",
+                    "id": "#388:1"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:133"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "25948961"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "fact_ids": [
+                "f7"
+            ],
+            "record_indices": [
+                6
+            ],
+            "statement": "Copper is recorded as undergoing Swedana.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Swedana.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "10.5005/jp-journals-10059-0037",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "10.5005/jp-journals-10059-0037",
+                                "identifier": "10.5005/jp-journals-10059-0037",
+                                "namespace": "DOI",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "Crossref: ['Analytical Specifications of Tamra Bhasma']; https://api.crossref.org/works/10.5005%2Fjp-journals-10059-0037",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "10.5005/jp-journals-10059-0037"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:134",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:1",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Swedana"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Swedana",
+                    "id": "#388:1"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:134"
+                    ],
+                    "reference": {
+                        "type": "doi",
+                        "value": "10.5005/jp-journals-10059-0037"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "fact_ids": [
+                "f8"
+            ],
+            "record_indices": [
+                7
+            ],
+            "statement": "Copper is recorded as undergoing Swedana.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Swedana.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "2201",
+                        "references": [
+                            {
+                                "raw": "2201",
+                                "identifier": "2201",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 2201(Ay) / ARP_AYU004337; A PREPARATIVE AND ANALYTICAL STUDY OF AYURVEDIC BHASMAS WITH REGARDS TO TAMRA BHASMA - PART-II; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=4337&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "2201(Ay)",
+                                    "arp_id": "ARP_AYU004337"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "2201"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:135",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:1",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Swedana"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Swedana",
+                    "id": "#388:1"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:135"
+                    ],
+                    "reference": {
+                        "type": "ayush_id",
+                        "value": "2201"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "fact_ids": [
+                "f9"
+            ],
+            "record_indices": [
+                8
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "23723677",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "23723677",
+                                "identifier": "23723677",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Standard manufacturing procedure of Tamra Bhasma.; https://pubmed.ncbi.nlm.nih.gov/23723677/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "23723677"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:136",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:136"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "23723677"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "fact_ids": [
+                "f10"
+            ],
+            "record_indices": [
+                9
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "26730144",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "26730144",
+                                "identifier": "26730144",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Fourier transform infrared analysis of Tamra Bhasma at different levels: A preliminary study.; https://pubmed.ncbi.nlm.nih.gov/26730144/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=256281%2C256282%2C256285%2C256894%2C256996%2C257223%2C257229%2C257238%2C257348%2C25737612%2C257895%2C257918%2C258059%2C258077%2C258646%2C25948961%2C26120232%2C26195914%2C26261167%2C26283809%2C26600667%2C26600668%2C26664236%2C26664239%2C26664241%2C26730136%2C26730144%2C27011713%2C27011720%2C27011728%2C27114687%2C27143801%2C27143802%2C27297506%2C27297511%2C27377339%2C27450759%2C27473604%2C27621522%2C27833370%2C27890699%2C28285113%2C28302414%2C2840%2C28757226%2C28827952%2C28827953%2C2885%2C28867860%2C29200748&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "26730144"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:137",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:137"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "26730144"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "fact_ids": [
+                "f11"
+            ],
+            "record_indices": [
+                10
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "23661863",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "23661863",
+                                "identifier": "23661863",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Quality control parameters for Tamra (copper) Bhasma.; https://pubmed.ncbi.nlm.nih.gov/23661863/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "23661863"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:138",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:138"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "23661863"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "fact_ids": [
+                "f12"
+            ],
+            "record_indices": [
+                11
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "29249635",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "29249635",
+                                "identifier": "29249635",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Study on physical properties of Ayurvedic nanocrystalline Tamra Bhasma by employing modern scientific tools.; https://pubmed.ncbi.nlm.nih.gov/29249635/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29200749%2C29249635%2C29269968%2C29269973%2C29310904%2C29853328%2C29861586%2C29861590%2C29861595%2C29861596%2C30254392%2C30254398%2C30445775%2C30466809%2C30595628%2C30606464%2C30660453%2C30661945%2C30683497%2C30783359%2C30826258%2C30952470%2C30962052%2C31000965%2C31143747%2C31367149%2C31730889%2C31831966%2C31831967%2C32165016%2C32278669%2C32398907%2C32741654%2C32768345%2C32896437%2C33281395%2C33402266%2C33621615%2C33906452%2C33935438%2C33935442%2C33962505%2C33991078%2C34024690%2C34566381%2C34611387%2C34690042%2C34758243%2C34844840%2C34872806&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "29249635"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:139",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:139"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "29249635"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "fact_ids": [
+                "f13"
+            ],
+            "record_indices": [
+                12
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "23105410",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "23105410",
+                                "identifier": "23105410",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Toxicology and free radicals scavenging property of Tamra bhasma.; https://pubmed.ncbi.nlm.nih.gov/23105410/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "23105410"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:140",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:140"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "23105410"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "fact_ids": [
+                "f14"
+            ],
+            "record_indices": [
+                13
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "38759538",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "38759538",
+                                "identifier": "38759538",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Product development and characterization of the Ayurvedic herbo-mineral-metallic compound- Hridayarnava Rasa.; https://pubmed.ncbi.nlm.nih.gov/38759538/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34908792%2C34908794%2C34908796%2C34961685%2C34980524%2C34996679%2C35240461%2C35255270%2C35277158%2C35348057%2C35370374%2C35370376%2C35370377%2C35444547%2C35661935%2C35868136%2C36384709%2C36403502%2C36455368%2C36604296%2C36743277%2C37076181%2C37141832%2C37230917%2C37244010%2C37303857%2C37494834%2C37506606%2C37554413%2C37651756%2C37678108%2C37738856%2C37738857%2C37741160%2C38006747%2C38070240%2C38075496%2C38237453%2C38241882%2C38262328%2C38507966%2C38527393%2C38537487%2C38759538%2C39182253%2C39210691%2C39216714%2C39237121%2C39244869%2C39303382&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "38759538"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:141",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:141"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "38759538"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "fact_ids": [
+                "f15"
+            ],
+            "record_indices": [
+                14
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "25948961",
+                        "doi": "",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "25948961",
+                                "identifier": "25948961",
+                                "namespace": "PMID",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "NCBI EFetch: Assessment of genotoxic potential of hridayarnava rasa (a herbo-mineralo-metallic ayurvedic formulation) using chromosomal aberration and sperm abnormality assays.; https://pubmed.ncbi.nlm.nih.gov/25948961/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=256281%2C256282%2C256285%2C256894%2C256996%2C257223%2C257229%2C257238%2C257348%2C25737612%2C257895%2C257918%2C258059%2C258077%2C258646%2C25948961%2C26120232%2C26195914%2C26261167%2C26283809%2C26600667%2C26600668%2C26664236%2C26664239%2C26664241%2C26730136%2C26730144%2C27011713%2C27011720%2C27011728%2C27114687%2C27143801%2C27143802%2C27297506%2C27297511%2C27377339%2C27450759%2C27473604%2C27621522%2C27833370%2C27890699%2C28285113%2C28302414%2C2840%2C28757226%2C28827952%2C28827953%2C2885%2C28867860%2C29200748&retmode=xml",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "25948961"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:142",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:142"
+                    ],
+                    "reference": {
+                        "type": "pubmed_id",
+                        "value": "25948961"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "fact_ids": [
+                "f16"
+            ],
+            "record_indices": [
+                15
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "10.5005/jp-journals-10059-0037",
+                        "ayush_id": "",
+                        "references": [
+                            {
+                                "raw": "10.5005/jp-journals-10059-0037",
+                                "identifier": "10.5005/jp-journals-10059-0037",
+                                "namespace": "DOI",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "Crossref: ['Analytical Specifications of Tamra Bhasma']; https://api.crossref.org/works/10.5005%2Fjp-journals-10059-0037",
+                                "aliases": []
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "10.5005/jp-journals-10059-0037"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:143",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:143"
+                    ],
+                    "reference": {
+                        "type": "doi",
+                        "value": "10.5005/jp-journals-10059-0037"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "fact_ids": [
+                "f17"
+            ],
+            "record_indices": [
+                16
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "12481",
+                        "references": [
+                            {
+                                "raw": "12481",
+                                "identifier": "12481",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 12481(Ay) / ARP_AYU005243; CONCEPT OF SHODHANA AND ITS EFFECTS WITH SPECIAL REFERENCE TO TAMRA (COPPER); https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=5243&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "12481(Ay)",
+                                    "arp_id": "ARP_AYU005243"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "12481"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:144",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:144"
+                    ],
+                    "reference": {
+                        "type": "ayush_id",
+                        "value": "12481"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "fact_ids": [
+                "f18"
+            ],
+            "record_indices": [
+                17
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "2201",
+                        "references": [
+                            {
+                                "raw": "2201",
+                                "identifier": "2201",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 2201(Ay) / ARP_AYU004337; A PREPARATIVE AND ANALYTICAL STUDY OF AYURVEDIC BHASMAS WITH REGARDS TO TAMRA BHASMA - PART-II; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=4337&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "2201(Ay)",
+                                    "arp_id": "ARP_AYU004337"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "2201"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:145",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:145"
+                    ],
+                    "reference": {
+                        "type": "ayush_id",
+                        "value": "2201"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "fact_ids": [
+                "f19"
+            ],
+            "record_indices": [
+                18
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "17572",
+                        "references": [
+                            {
+                                "raw": "17572",
+                                "identifier": "17572",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 17572(Ay) / ARP_AYU000092; TOXICITY STUDY OF TAMRA BHASMA; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=92&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "17572(Ay)",
+                                    "arp_id": "ARP_AYU000092"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "17572"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:146",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:146"
+                    ],
+                    "reference": {
+                        "type": "ayush_id",
+                        "value": "17572"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "fact_ids": [
+                "f20"
+            ],
+            "record_indices": [
+                19
+            ],
+            "statement": "Copper is recorded as undergoing Nirvapa.",
+            "scopes": [
+                {
+                    "description": "Copper is recorded as undergoing Nirvapa.",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "241564",
+                        "references": [
+                            {
+                                "raw": "241564",
+                                "identifier": "241564",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 241564(Ay) / ARP_AYU015719; TAMRA BHASMA PREPARATION BY TWO METHODS AND EVALUATING THEIR EFFECT ON THE LIVER FUNCTION TEST PRE-CLINICALLY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=15719&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "241564(Ay)",
+                                    "arp_id": "ARP_AYU015719"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "241564"
+                    },
+                    "relationship": "Compound → Shodhana Method",
+                    "edge_id": "#448:147",
+                    "edge_type": "UNDERGOES",
+                    "display_properties": [],
+                    "treatment_phase": null,
+                    "source_id": "#380:24",
+                    "target_id": "#388:6",
+                    "entities": [
+                        {
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "type": "Shodhana Method",
+                            "label": "Nirvapa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Compound",
+                    "label": "Copper",
+                    "id": "#380:24"
+                },
+                {
+                    "type": "Shodhana Method",
+                    "label": "Nirvapa",
+                    "id": "#388:6"
+                }
+            ],
+            "attribution": "per_edge",
+            "evidence_groups": [
+                {
+                    "edge_ids": [
+                        "#448:147"
+                    ],
+                    "reference": {
+                        "type": "ayush_id",
+                        "value": "241564"
+                    }
+                }
+            ]
+        }
+    ],
+    "generation": {
+        "mode": "deterministic",
+        "fallback_reason": null,
+        "latency_ms": 0
+    },
+    "conversation_context": {
+        "version": 2,
+        "subject": {
+            "id": "#380:24",
+            "name": "Copper",
+            "type": "Compound"
+        },
+        "last_question": "What are the methods to purify coper? for Copper",
+        "constraints": [],
+        "result_type": "Shodhana_Method",
+        "intent": "compound_methods",
+        "resolved_entities": [
+            {
+                "id": "#380:24",
+                "name": "Copper",
+                "type": "Compound"
+            }
+        ]
+    },
+    "resolution": [
+        {
+            "mention": "coper",
+            "normalized": "coper",
+            "outcome": "resolved",
+            "candidates": [
+                {
+                    "id": "#380:24",
+                    "label": "Copper",
+                    "type": "Compound",
+                    "mention": "coper",
+                    "match_method": "spelling",
+                    "source": "KG canonical label",
+                    "distance": 1
+                }
+            ],
+            "suggestions": []
+        }
+    ],
+    "understanding": {
+        "mode": "deterministic"
+    },
+    "question": "What are the methods to purify coper?",
+    "context": {
+        "status": "success",
+        "question": "What are the methods to purify coper?",
+        "routing": {
+            "domain": "compound",
+            "intent": "compound_methods",
+            "entity": "Copper",
+            "entity_id": "#380:24",
+            "entity_type": "Compound",
+            "endpoint": "compound_methods",
+            "requested_result_types": [],
+            "confidence": 0.9,
+            "needs_clarification": false
+        },
+        "retrieval": {
+            "status": "success",
+            "entity": {
+                "name": "Copper",
+                "type": "Compound"
+            },
+            "path": [
+                "Compound",
+                "validated path",
+                "Shodhana_Method"
+            ],
+            "results": [
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:1",
+                            "type": "Shodhana_Method",
+                            "label": "Swedana"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:128",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:1",
+                            "properties": {
+                                "ref": "23723677"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "23723677",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "23723677",
+                                        "identifier": "23723677",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Standard manufacturing procedure of Tamra Bhasma.; https://pubmed.ncbi.nlm.nih.gov/23723677/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:128"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "23723677"
+                            }
+                        }
+                    ],
+                    "related_entity": "Swedana",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:1",
+                            "type": "Shodhana_Method",
+                            "label": "Swedana"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:129",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:1",
+                            "properties": {
+                                "ref": "26730144"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "26730144",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "26730144",
+                                        "identifier": "26730144",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Fourier transform infrared analysis of Tamra Bhasma at different levels: A preliminary study.; https://pubmed.ncbi.nlm.nih.gov/26730144/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=256281%2C256282%2C256285%2C256894%2C256996%2C257223%2C257229%2C257238%2C257348%2C25737612%2C257895%2C257918%2C258059%2C258077%2C258646%2C25948961%2C26120232%2C26195914%2C26261167%2C26283809%2C26600667%2C26600668%2C26664236%2C26664239%2C26664241%2C26730136%2C26730144%2C27011713%2C27011720%2C27011728%2C27114687%2C27143801%2C27143802%2C27297506%2C27297511%2C27377339%2C27450759%2C27473604%2C27621522%2C27833370%2C27890699%2C28285113%2C28302414%2C2840%2C28757226%2C28827952%2C28827953%2C2885%2C28867860%2C29200748&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:129"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "26730144"
+                            }
+                        }
+                    ],
+                    "related_entity": "Swedana",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:1",
+                            "type": "Shodhana_Method",
+                            "label": "Swedana"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:130",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:1",
+                            "properties": {
+                                "ref": "23661863"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "23661863",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "23661863",
+                                        "identifier": "23661863",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Quality control parameters for Tamra (copper) Bhasma.; https://pubmed.ncbi.nlm.nih.gov/23661863/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:130"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "23661863"
+                            }
+                        }
+                    ],
+                    "related_entity": "Swedana",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:1",
+                            "type": "Shodhana_Method",
+                            "label": "Swedana"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:131",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:1",
+                            "properties": {
+                                "ref": "29249635"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "29249635",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "29249635",
+                                        "identifier": "29249635",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Study on physical properties of Ayurvedic nanocrystalline Tamra Bhasma by employing modern scientific tools.; https://pubmed.ncbi.nlm.nih.gov/29249635/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29200749%2C29249635%2C29269968%2C29269973%2C29310904%2C29853328%2C29861586%2C29861590%2C29861595%2C29861596%2C30254392%2C30254398%2C30445775%2C30466809%2C30595628%2C30606464%2C30660453%2C30661945%2C30683497%2C30783359%2C30826258%2C30952470%2C30962052%2C31000965%2C31143747%2C31367149%2C31730889%2C31831966%2C31831967%2C32165016%2C32278669%2C32398907%2C32741654%2C32768345%2C32896437%2C33281395%2C33402266%2C33621615%2C33906452%2C33935438%2C33935442%2C33962505%2C33991078%2C34024690%2C34566381%2C34611387%2C34690042%2C34758243%2C34844840%2C34872806&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:131"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "29249635"
+                            }
+                        }
+                    ],
+                    "related_entity": "Swedana",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:1",
+                            "type": "Shodhana_Method",
+                            "label": "Swedana"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:132",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:1",
+                            "properties": {
+                                "ref": "38759538"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "38759538",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "38759538",
+                                        "identifier": "38759538",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Product development and characterization of the Ayurvedic herbo-mineral-metallic compound- Hridayarnava Rasa.; https://pubmed.ncbi.nlm.nih.gov/38759538/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34908792%2C34908794%2C34908796%2C34961685%2C34980524%2C34996679%2C35240461%2C35255270%2C35277158%2C35348057%2C35370374%2C35370376%2C35370377%2C35444547%2C35661935%2C35868136%2C36384709%2C36403502%2C36455368%2C36604296%2C36743277%2C37076181%2C37141832%2C37230917%2C37244010%2C37303857%2C37494834%2C37506606%2C37554413%2C37651756%2C37678108%2C37738856%2C37738857%2C37741160%2C38006747%2C38070240%2C38075496%2C38237453%2C38241882%2C38262328%2C38507966%2C38527393%2C38537487%2C38759538%2C39182253%2C39210691%2C39216714%2C39237121%2C39244869%2C39303382&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:132"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "38759538"
+                            }
+                        }
+                    ],
+                    "related_entity": "Swedana",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:1",
+                            "type": "Shodhana_Method",
+                            "label": "Swedana"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:133",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:1",
+                            "properties": {
+                                "ref": "25948961"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "25948961",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "25948961",
+                                        "identifier": "25948961",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Assessment of genotoxic potential of hridayarnava rasa (a herbo-mineralo-metallic ayurvedic formulation) using chromosomal aberration and sperm abnormality assays.; https://pubmed.ncbi.nlm.nih.gov/25948961/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=256281%2C256282%2C256285%2C256894%2C256996%2C257223%2C257229%2C257238%2C257348%2C25737612%2C257895%2C257918%2C258059%2C258077%2C258646%2C25948961%2C26120232%2C26195914%2C26261167%2C26283809%2C26600667%2C26600668%2C26664236%2C26664239%2C26664241%2C26730136%2C26730144%2C27011713%2C27011720%2C27011728%2C27114687%2C27143801%2C27143802%2C27297506%2C27297511%2C27377339%2C27450759%2C27473604%2C27621522%2C27833370%2C27890699%2C28285113%2C28302414%2C2840%2C28757226%2C28827952%2C28827953%2C2885%2C28867860%2C29200748&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:133"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "25948961"
+                            }
+                        }
+                    ],
+                    "related_entity": "Swedana",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:1",
+                            "type": "Shodhana_Method",
+                            "label": "Swedana"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:134",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:1",
+                            "properties": {
+                                "ref": "10.5005/jp-journals-10059-0037"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "",
+                                "doi": "10.5005/jp-journals-10059-0037",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "10.5005/jp-journals-10059-0037",
+                                        "identifier": "10.5005/jp-journals-10059-0037",
+                                        "namespace": "DOI",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "Crossref: ['Analytical Specifications of Tamra Bhasma']; https://api.crossref.org/works/10.5005%2Fjp-journals-10059-0037",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:134"
+                            ],
+                            "reference": {
+                                "type": "doi",
+                                "value": "10.5005/jp-journals-10059-0037"
+                            }
+                        }
+                    ],
+                    "related_entity": "Swedana",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:1",
+                            "type": "Shodhana_Method",
+                            "label": "Swedana"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:135",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:1",
+                            "properties": {
+                                "ref": "2201"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "",
+                                "doi": "",
+                                "ayush_id": "2201",
+                                "references": [
+                                    {
+                                        "raw": "2201",
+                                        "identifier": "2201",
+                                        "namespace": "AYUSH",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "AYUSH 2201(Ay) / ARP_AYU004337; A PREPARATIVE AND ANALYTICAL STUDY OF AYURVEDIC BHASMAS WITH REGARDS TO TAMRA BHASMA - PART-II; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=4337&rptypeReport=0&rpreportname=0",
+                                        "aliases": {
+                                            "artid": "2201(Ay)",
+                                            "arp_id": "ARP_AYU004337"
+                                        }
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:135"
+                            ],
+                            "reference": {
+                                "type": "ayush_id",
+                                "value": "2201"
+                            }
+                        }
+                    ],
+                    "related_entity": "Swedana",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:136",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "23723677"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "23723677",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "23723677",
+                                        "identifier": "23723677",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Standard manufacturing procedure of Tamra Bhasma.; https://pubmed.ncbi.nlm.nih.gov/23723677/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:136"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "23723677"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:137",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "26730144"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "26730144",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "26730144",
+                                        "identifier": "26730144",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Fourier transform infrared analysis of Tamra Bhasma at different levels: A preliminary study.; https://pubmed.ncbi.nlm.nih.gov/26730144/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=256281%2C256282%2C256285%2C256894%2C256996%2C257223%2C257229%2C257238%2C257348%2C25737612%2C257895%2C257918%2C258059%2C258077%2C258646%2C25948961%2C26120232%2C26195914%2C26261167%2C26283809%2C26600667%2C26600668%2C26664236%2C26664239%2C26664241%2C26730136%2C26730144%2C27011713%2C27011720%2C27011728%2C27114687%2C27143801%2C27143802%2C27297506%2C27297511%2C27377339%2C27450759%2C27473604%2C27621522%2C27833370%2C27890699%2C28285113%2C28302414%2C2840%2C28757226%2C28827952%2C28827953%2C2885%2C28867860%2C29200748&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:137"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "26730144"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:138",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "23661863"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "23661863",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "23661863",
+                                        "identifier": "23661863",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Quality control parameters for Tamra (copper) Bhasma.; https://pubmed.ncbi.nlm.nih.gov/23661863/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:138"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "23661863"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:139",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "29249635"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "29249635",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "29249635",
+                                        "identifier": "29249635",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Study on physical properties of Ayurvedic nanocrystalline Tamra Bhasma by employing modern scientific tools.; https://pubmed.ncbi.nlm.nih.gov/29249635/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=29200749%2C29249635%2C29269968%2C29269973%2C29310904%2C29853328%2C29861586%2C29861590%2C29861595%2C29861596%2C30254392%2C30254398%2C30445775%2C30466809%2C30595628%2C30606464%2C30660453%2C30661945%2C30683497%2C30783359%2C30826258%2C30952470%2C30962052%2C31000965%2C31143747%2C31367149%2C31730889%2C31831966%2C31831967%2C32165016%2C32278669%2C32398907%2C32741654%2C32768345%2C32896437%2C33281395%2C33402266%2C33621615%2C33906452%2C33935438%2C33935442%2C33962505%2C33991078%2C34024690%2C34566381%2C34611387%2C34690042%2C34758243%2C34844840%2C34872806&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:139"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "29249635"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:140",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "23105410"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "23105410",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "23105410",
+                                        "identifier": "23105410",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Toxicology and free radicals scavenging property of Tamra bhasma.; https://pubmed.ncbi.nlm.nih.gov/23105410/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:140"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "23105410"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:141",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "38759538"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "38759538",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "38759538",
+                                        "identifier": "38759538",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Product development and characterization of the Ayurvedic herbo-mineral-metallic compound- Hridayarnava Rasa.; https://pubmed.ncbi.nlm.nih.gov/38759538/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=34908792%2C34908794%2C34908796%2C34961685%2C34980524%2C34996679%2C35240461%2C35255270%2C35277158%2C35348057%2C35370374%2C35370376%2C35370377%2C35444547%2C35661935%2C35868136%2C36384709%2C36403502%2C36455368%2C36604296%2C36743277%2C37076181%2C37141832%2C37230917%2C37244010%2C37303857%2C37494834%2C37506606%2C37554413%2C37651756%2C37678108%2C37738856%2C37738857%2C37741160%2C38006747%2C38070240%2C38075496%2C38237453%2C38241882%2C38262328%2C38507966%2C38527393%2C38537487%2C38759538%2C39182253%2C39210691%2C39216714%2C39237121%2C39244869%2C39303382&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:141"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "38759538"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:142",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "25948961"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "25948961",
+                                "doi": "",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "25948961",
+                                        "identifier": "25948961",
+                                        "namespace": "PMID",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "NCBI EFetch: Assessment of genotoxic potential of hridayarnava rasa (a herbo-mineralo-metallic ayurvedic formulation) using chromosomal aberration and sperm abnormality assays.; https://pubmed.ncbi.nlm.nih.gov/25948961/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=256281%2C256282%2C256285%2C256894%2C256996%2C257223%2C257229%2C257238%2C257348%2C25737612%2C257895%2C257918%2C258059%2C258077%2C258646%2C25948961%2C26120232%2C26195914%2C26261167%2C26283809%2C26600667%2C26600668%2C26664236%2C26664239%2C26664241%2C26730136%2C26730144%2C27011713%2C27011720%2C27011728%2C27114687%2C27143801%2C27143802%2C27297506%2C27297511%2C27377339%2C27450759%2C27473604%2C27621522%2C27833370%2C27890699%2C28285113%2C28302414%2C2840%2C28757226%2C28827952%2C28827953%2C2885%2C28867860%2C29200748&retmode=xml",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:142"
+                            ],
+                            "reference": {
+                                "type": "pubmed_id",
+                                "value": "25948961"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:143",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "10.5005/jp-journals-10059-0037"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "",
+                                "doi": "10.5005/jp-journals-10059-0037",
+                                "ayush_id": "",
+                                "references": [
+                                    {
+                                        "raw": "10.5005/jp-journals-10059-0037",
+                                        "identifier": "10.5005/jp-journals-10059-0037",
+                                        "namespace": "DOI",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "Crossref: ['Analytical Specifications of Tamra Bhasma']; https://api.crossref.org/works/10.5005%2Fjp-journals-10059-0037",
+                                        "aliases": []
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:143"
+                            ],
+                            "reference": {
+                                "type": "doi",
+                                "value": "10.5005/jp-journals-10059-0037"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:144",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "12481"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "",
+                                "doi": "",
+                                "ayush_id": "12481",
+                                "references": [
+                                    {
+                                        "raw": "12481",
+                                        "identifier": "12481",
+                                        "namespace": "AYUSH",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "AYUSH 12481(Ay) / ARP_AYU005243; CONCEPT OF SHODHANA AND ITS EFFECTS WITH SPECIAL REFERENCE TO TAMRA (COPPER); https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=5243&rptypeReport=0&rpreportname=0",
+                                        "aliases": {
+                                            "artid": "12481(Ay)",
+                                            "arp_id": "ARP_AYU005243"
+                                        }
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:144"
+                            ],
+                            "reference": {
+                                "type": "ayush_id",
+                                "value": "12481"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:145",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "2201"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "",
+                                "doi": "",
+                                "ayush_id": "2201",
+                                "references": [
+                                    {
+                                        "raw": "2201",
+                                        "identifier": "2201",
+                                        "namespace": "AYUSH",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "AYUSH 2201(Ay) / ARP_AYU004337; A PREPARATIVE AND ANALYTICAL STUDY OF AYURVEDIC BHASMAS WITH REGARDS TO TAMRA BHASMA - PART-II; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=4337&rptypeReport=0&rpreportname=0",
+                                        "aliases": {
+                                            "artid": "2201(Ay)",
+                                            "arp_id": "ARP_AYU004337"
+                                        }
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:145"
+                            ],
+                            "reference": {
+                                "type": "ayush_id",
+                                "value": "2201"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:146",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "17572"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "",
+                                "doi": "",
+                                "ayush_id": "17572",
+                                "references": [
+                                    {
+                                        "raw": "17572",
+                                        "identifier": "17572",
+                                        "namespace": "AYUSH",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "AYUSH 17572(Ay) / ARP_AYU000092; TOXICITY STUDY OF TAMRA BHASMA; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=92&rptypeReport=0&rpreportname=0",
+                                        "aliases": {
+                                            "artid": "17572(Ay)",
+                                            "arp_id": "ARP_AYU000092"
+                                        }
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:146"
+                            ],
+                            "reference": {
+                                "type": "ayush_id",
+                                "value": "17572"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                },
+                {
+                    "nodes": [
+                        {
+                            "id": "#380:24",
+                            "type": "Compound",
+                            "label": "Copper"
+                        },
+                        {
+                            "id": "#388:6",
+                            "type": "Shodhana_Method",
+                            "label": "Nirvapa"
+                        }
+                    ],
+                    "edges": [
+                        {
+                            "id": "#448:147",
+                            "type": "UNDERGOES",
+                            "source": "#380:24",
+                            "target": "#388:6",
+                            "properties": {
+                                "ref": "241564"
+                            },
+                            "evidence": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "",
+                                "doi": "",
+                                "ayush_id": "241564",
+                                "references": [
+                                    {
+                                        "raw": "241564",
+                                        "identifier": "241564",
+                                        "namespace": "AYUSH",
+                                        "status": "verified",
+                                        "resolution_status": "confirmed",
+                                        "catalog_version": "2026-09-24.v1",
+                                        "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                        "source": "AYUSH 241564(Ay) / ARP_AYU015719; TAMRA BHASMA PREPARATION BY TWO METHODS AND EVALUATING THEIR EFFECT ON THE LIVER FUNCTION TEST PRE-CLINICALLY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=15719&rptypeReport=0&rpreportname=0",
+                                        "aliases": {
+                                            "artid": "241564(Ay)",
+                                            "arp_id": "ARP_AYU015719"
+                                        }
+                                    }
+                                ]
+                            },
+                            "display_properties": [],
+                            "treatment_phase": null
+                        }
+                    ],
+                    "evidence_policy": "separate_treatment",
+                    "evidence_groups": [
+                        {
+                            "edge_ids": [
+                                "#448:147"
+                            ],
+                            "reference": {
+                                "type": "ayush_id",
+                                "value": "241564"
+                            }
+                        }
+                    ],
+                    "related_entity": "Nirvapa",
+                    "related_type": "Shodhana_Method"
+                }
+            ],
+            "query_plan": {
+                "version": 1,
+                "subject": {
+                    "name": "Copper",
+                    "type": "Compound"
+                },
+                "result_type": "Shodhana_Method",
+                "constraints": [],
+                "max_hops": 5,
+                "evidence_policy": "separate_treatment"
+            },
+            "pagination": {
+                "offset": 0,
+                "limit": 1000,
+                "total": 20,
+                "has_more": false,
+                "next_offset": null
+            }
+        },
+        "reason": null,
+        "resolution": [
+            {
+                "mention": "coper",
+                "normalized": "coper",
+                "outcome": "resolved",
+                "candidates": [
+                    {
+                        "id": "#380:24",
+                        "label": "Copper",
+                        "type": "Compound",
+                        "mention": "coper",
+                        "match_method": "spelling",
+                        "source": "KG canonical label",
+                        "distance": 1
+                    }
+                ],
+                "suggestions": []
+            }
+        ],
+        "understanding": {
+            "mode": "deterministic"
+        },
+        "conversation_context": {
+            "version": 2,
+            "subject": {
+                "id": "#380:24",
+                "name": "Copper",
+                "type": "Compound"
+            },
+            "last_question": "What are the methods to purify coper? for Copper",
+            "constraints": [],
+            "result_type": "Shodhana_Method",
+            "intent": "compound_methods",
+            "resolved_entities": [
+                {
+                    "id": "#380:24",
+                    "name": "Copper",
+                    "type": "Compound"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,860 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="864pt" height="864pt" viewBox="0 0 864 864" version="1.1">
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-09-28T21:31:03.425545</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 864  L 864 864  L 864 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 47.434172 730.144478  L 359.389669 730.144478  L 359.389669 146.751045  L 47.434172 146.751045  L 47.434172 730.144478  z " clip-path="url(#p9d3ff3a34c)" style="fill: none; stroke: #176b50; stroke-width: 0.6; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_3">
+    <path d="M 504.610331 730.144478  L 816.565828 730.144478  L 816.565828 146.751045  L 504.610331 146.751045  L 504.610331 730.144478  z " clip-path="url(#p9d3ff3a34c)" style="fill: none; stroke: #2166a0; stroke-width: 0.6; stroke-linejoin: miter" />
+   </g>
+   <g id="edge-18c46fefb721aee42e05">
+    <path d="M 323.052496 524.739907  Q 432.001589 526.818964 540.335875 528.886289  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.959207 527.640717  L 540.335875 528.886289  L 537.913417 530.04028  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:0", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:113", "@out": "#400:1", "ref": "34566381"}</title></g>
+   <g id="edge-24994d2e4255f14ffd56">
+    <path d="M 323.004239 593.032588  Q 432.000732 576.392895 540.389349 559.846001  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.835739 559.021939  L 540.389349 559.846001  L 538.197933 561.394451  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:1", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:2", "ref": "121728"}</title></g>
+   <g id="edge-47cfe81237f7c494737e">
+    <path d="M 323.052496 593.559794  Q 432.001589 591.480737 540.335875 589.413412  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.913417 588.259421  L 540.335875 589.413412  L 537.959207 590.658984  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:2", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:84", "@out": "#400:2", "ref": "121728"}</title></g>
+   <g id="edge-cdfe599a05bd96de1783">
+    <path d="M 319.632266 451.735924  Q 349.568856 254.37536 540.514733 198.326468  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.873912 197.851007  L 540.514733 198.326468  L 538.549872 200.153848  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:3", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:2", "@out": "#400:3", "ref": "24696580"}</title></g>
+   <g id="edge-bb0d072f1790bdd302fd">
+    <path d="M 320.421791 451.931526  Q 382.648359 283.264827 540.864858 199.197133  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.182399 199.263567  L 540.864858 199.197133  L 539.30853 201.382961  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:4", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:2", "@out": "#400:3", "ref": "23929989"}</title></g>
+   <g id="edge-e0194040bfc93beba138">
+    <path d="M 321.277501 452.365819  Q 415.573326 312.017482 541.49791 200.103168  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.906833 200.800535  L 541.49791 200.103168  L 540.501158 202.594449  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:5", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:2", "@out": "#400:3", "ref": "10.4103/jdras.jdras_10_21"}</title></g>
+   <g id="edge-fc592e2119faabb65bb0">
+    <path d="M 322.045808 453.036847  Q 448.429597 340.71367 542.382067 200.875377  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.047561 202.198285  L 542.382067 200.875377  L 542.039689 203.536726  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:6", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:2", "@out": "#400:3", "ref": "108950"}</title></g>
+   <g id="edge-760037772b63e6048894">
+    <path d="M 322.591293 453.826338  Q 481.351066 369.470331 543.365044 201.380759  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 541.408509 203.217052  L 543.365044 201.380759  L 543.660158 204.047762  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:7", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:2", "@out": "#400:3", "ref": "15670"}</title></g>
+   <g id="edge-6f7cb65655748ed8cec9">
+    <path d="M 322.891353 454.582364  Q 514.428896 398.361713 544.274902 201.610545  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 542.728527 203.803425  L 544.274902 201.610545  L 545.101381 204.163373  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:8", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:2", "@out": "#400:3", "ref": "132446"}</title></g>
+   <g id="edge-6d41982efeef219c4a13">
+    <path d="M 322.888895 456.808884  Q 448.864411 493.994268 541.680362 586.062319  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.821544 583.520188  L 541.680362 586.062319  L 539.131366 585.224096  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:10", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:84", "@out": "#400:3", "ref": "108950"}</title></g>
+   <g id="edge-415e74409af0358e8d01">
+    <path d="M 322.494091 457.727978  Q 431.99909 522.507607 540.974842 586.97415  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.520194 584.719378  L 540.974842 586.97415  L 538.298235 586.785006  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:11", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:84", "@out": "#400:3", "ref": "132446"}</title></g>
+   <g id="edge-7774d1b2a442f7ed461e">
+    <path d="M 321.878683 458.516569  Q 415.130434 551.018972 540.51542 588.031565  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.55335 586.201188  L 540.51542 588.031565  L 537.873876 588.502995  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:9", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:84", "@out": "#400:3", "ref": "25336846"}</title></g>
+   <g id="edge-e1185fd96fc2158292ff">
+    <path d="M 321.88743 458.505927  Q 431.997391 567.768839 541.670863 676.59862  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.812512 674.056331  L 541.670863 676.59862  L 539.122021 675.759927  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:12", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:105", "@out": "#400:3", "ref": "10.4103/jdras.jdras_10_21"}</title></g>
+   <g id="edge-0416e98e2f852adef9bb">
+    <path d="M 322.513148 388.721459  Q 442.901233 458.655974 541.668828 555.909557  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.800665 553.370602  L 541.668828 555.909557  L 539.116766 555.080715  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:13", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:5", "ref": "33621615"}</title></g>
+   <g id="edge-b44b1528f6072ad730b8">
+    <path d="M 321.895949 389.530037  Q 421.102016 487.214651 540.9587 556.83988  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.486203 554.596723  L 540.9587 556.83988  L 538.280676 556.671984  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:14", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:5", "ref": "10.4103/joa.joa_262_22"}</title></g>
+   <g id="edge-cb9098f111b3ade142ea">
+    <path d="M 322.025307 389.386292  Q 431.999177 488.021095 541.515274 586.245326  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.529834 583.749548  L 541.515274 586.245326  L 538.927388 585.536211  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:15", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:84", "@out": "#400:5", "ref": "33621615"}</title></g>
+   <g id="edge-ffd1772821793bc6efaa">
+    <path d="M 322.059777 573.751517  Q 432.003037 477.242195 541.484169 381.138535  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.888859 381.81998  L 541.484169 381.138535  L 540.472139 383.62365  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:16", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:33", "@out": "#400:6", "ref": "23741157"}</title></g>
+   <g id="edge-124662218177a1bbb6bd">
+    <path d="M 322.962875 575.571775  Q 432.000005 552.683666 540.435332 529.921882  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.840001 529.240519  L 540.435332 529.921882  L 538.333043 531.589329  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:17", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:113", "@out": "#400:6", "ref": "109899"}</title></g>
+   <g id="edge-4d0a2f7205e646548b14">
+    <path d="M 322.494091 337.025888  Q 431.99909 401.805517 540.974842 466.272061  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.520194 464.017288  L 540.974842 466.272061  L 538.298235 466.082916  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:18", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:64", "@out": "#400:7", "ref": "254155"}</title></g>
+   <g id="edge-19873498314a39690f36">
+    <path d="M 321.88743 337.803838  Q 431.997391 447.06675 541.670863 555.89653  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.812512 553.354241  L 541.670863 555.89653  L 539.122021 555.057838  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:19", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:7", "ref": "33991078"}</title></g>
+   <g id="edge-7af982163a41651392c2">
+    <path d="M 321.241128 338.332951  Q 431.998673 507.418359 542.419275 675.989379  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 542.108014 673.324212  L 542.419275 675.989379  L 540.100385 674.639287  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:20", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:105", "@out": "#400:7", "ref": "33991078"}</title></g>
+   <g id="edge-ad52b1e3a9153cf5ece1">
+    <path d="M 322.34932 349.965819  Q 432.000309 274.63757 541.144457 199.657512  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.486791 200.027396  L 541.144457 199.657512  L 539.845764 202.005575  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:21", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:2", "@out": "#400:9", "ref": "22125956"}</title></g>
+   <g id="edge-3fc96bc2a7d6d93b9f5a">
+    <path d="M 321.320408 355.52388  Q 431.99946 516.041179 542.329452 676.052236  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 541.955001 673.39521  L 542.329452 676.052236  L 539.97916 674.757581  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:22", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:105", "@out": "#400:9", "ref": "22125956"}</title></g>
+   <g id="edge-71674286fb0e81d392e8">
+    <path d="M 321.658208 487.14183  Q 431.999718 358.698495 541.940527 230.721596  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.466367 231.76012  L 541.940527 230.721596  L 541.28685 233.324038  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:23", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:11", "@out": "#400:10", "ref": "256996"}</title></g>
+   <g id="edge-74747ca9f812e6e187cc">
+    <path d="M 322.114928 492.750178  Q 432.000383 585.014906 541.414909 676.884221  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.348535 674.421936  L 541.414909 676.884221  L 538.805257 676.25995  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:24", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:105", "@out": "#400:10", "ref": "256996"}</title></g>
+   <g id="edge-10546b5b34718a1642dd">
+    <path d="M 322.114928 372.048088  Q 432.000383 464.312816 541.414909 556.182131  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.348535 553.719847  L 541.414909 556.182131  L 538.805257 555.55786  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:25", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:11", "ref": "24156713"}</title></g>
+   <g id="edge-2997ff9680d1ee85de81">
+    <path d="M 321.782298 320.664873  Q 431.998639 438.446307 541.794826 555.778747  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 541.031182 553.206423  L 541.794826 555.778747  L 539.278781 554.846268  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:26", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:12", "ref": "24156713"}</title></g>
+   <g id="edge-99e9a18459a7e45419c1">
+    <path d="M 322.68712 419.539121  Q 431.998747 369.475712 540.751301 319.668352  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.069585 319.57668  L 540.751301 319.668352  L 539.068934 321.758721  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:27", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:31", "@out": "#400:13", "ref": "39237121"}</title></g>
+   <g id="edge-510571f0dc20e926c4b4">
+    <path d="M 322.976663 420.455401  Q 431.99686 399.65126 540.413037 378.962384  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.830642 378.233524  L 540.413037 378.962384  L 538.280512 380.590984  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:28", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:33", "@out": "#400:13", "ref": "39237121"}</title></g>
+   <g id="edge-b6cd4b300e5200a7fa33">
+    <path d="M 322.466516 423.290539  Q 432.002063 490.178488 541.012804 556.745964  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.589905 554.471022  L 541.012804 556.745964  L 538.339111 556.519318  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:29", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:13", "ref": "39237121"}</title></g>
+   <g id="edge-d67239efe5c6dcbd6f5d">
+    <path d="M 321.682336 424.217869  Q 431.999999 550.528272 541.913159 676.375532  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 541.238217 673.778523  L 541.913159 676.375532  L 539.430587 675.357281  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:30", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:105", "@out": "#400:13", "ref": "39237121"}</title></g>
+   <g id="edge-23db0d84d678e819355b">
+    <path d="M 322.659545 422.926329  Q 431.998301 475.088657 540.782062 526.986211  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.132635 524.869754  L 540.782062 526.986211  L 538.09924 527.035879  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:31", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:113", "@out": "#400:13", "ref": "40471985"}</title></g>
+   <g id="edge-c2dc0010109b665a6ca0">
+    <path d="M 322.735377 471.387119  Q 431.999536 425.515589 540.696715 379.88209  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.019305 379.704665  L 540.696715 379.88209  L 538.948329 381.917563  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:32", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:33", "@out": "#400:14", "ref": "35370377"}</title></g>
+   <g id="edge-5204b9da70d418498c47">
+    <path d="M 322.9353 473.897777  Q 431.999525 500.954083 540.466923 527.862329  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.426465 526.119764  L 540.466923 527.862329  L 537.848596 528.449157  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:33", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:113", "@out": "#400:14", "ref": "10.4103/bjhs.bjhs_70_21"}</title></g>
+   <g id="edge-46dc9a3ba1067a247b96">
+    <path d="M 321.839172 268.889757  Q 432.00019 382.407701 541.732968 495.484355  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.922734 492.926325  L 541.732968 495.484355  L 539.200403 494.597724  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:34", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:71", "@out": "#400:21", "ref": "39210691"}</title></g>
+   <g id="edge-b6b193b10cfe72a7e160">
+    <path d="M 323.018027 197.573551  Q 432.000976 212.131474 540.37442 226.607979  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.154434 225.100775  L 540.37442 226.607979  L 537.836665 227.479645  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:35", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:11", "@out": "#400:23", "ref": "33402266"}</title></g>
+   <g id="edge-c01b8cd6492fe35a8453">
+    <path d="M 322.762953 198.53127  Q 431.999991 242.306862 540.666238 285.853715  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.884841 283.84707  L 540.666238 285.853715  L 537.992083 286.074846  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:36", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:23", "ref": "23723650"}</title></g>
+   <g id="edge-da5cb59d983c0200e262">
+    <path d="M 322.947316 282.342437  Q 432.5443 257.038185 540.502624 286.345635  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.500838 284.558778  L 540.502624 286.345635  L 537.872067 286.874949  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:37", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:26", "ref": "24799737"}</title></g>
+   <g id="edge-6ebef0a12a3b86949bc7">
+    <path d="M 323.052496 283.335728  Q 432.001589 285.414785 540.335875 287.48211  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.959207 286.236538  L 540.335875 287.48211  L 537.913417 288.636101  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:38", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:26", "ref": "38527393"}</title></g>
+   <g id="edge-83d89ded4137f17c4cdb">
+    <path d="M 322.909496 284.324283  Q 431.461287 313.791431 540.459144 288.62412  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.850697 287.99483  L 540.459144 288.62412  L 538.390644 290.333304  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:39", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:26", "ref": "19322"}</title></g>
+   <g id="edge-949424165e9c1ff8c2c4">
+    <path d="M 321.959929 286.007124  Q 449.538511 406.84483 542.503793 555.235455  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 542.246533 552.564534  L 542.503793 555.235455  L 540.2127 553.83871  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:40", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:26", "ref": "38527393"}</title></g>
+   <g id="edge-dac7d0de8fa83566fa5c">
+    <path d="M 321.170352 286.653629  Q 414.462211 435.565262 541.594457 555.980018  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.677189 553.458388  L 541.594457 555.980018  L 539.026792 555.200854  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:41", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:26", "ref": "10.4103/AYU.AYU_87_20"}</title></g>
+   <g id="edge-177840b9edda1e532302">
+    <path d="M 323.031814 248.393184  Q 432.00122 237.99596 540.358488 227.657143  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.855359 226.690527  L 540.358488 227.657143  L 538.083318 229.079676  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:42", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:11", "@out": "#400:27", "ref": "10465655"}</title></g>
+   <g id="edge-4ffa0c619ade2db11a31">
+    <path d="M 322.990451 249.449701  Q 431.997102 268.171101 540.397707 286.788416  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.23546 285.19949  L 540.397707 286.788416  L 537.829218 287.564859  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:43", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:27", "ref": "23723650"}</title></g>
+   <g id="edge-d9da18dddf8c75704c8c">
+    <path d="M 321.730594 625.156241  Q 431.998867 503.110849 541.8549 381.521727  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.355541 382.498049  L 541.8549 381.521727  L 541.136342 384.107007  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:44", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:33", "@out": "#400:30", "ref": "29249635"}</title></g>
+   <g id="edge-9d5e2969408884eca67c">
+    <path d="M 320.193494 658.777759  Q 384.09975 446.236824 541.660365 290.802692  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.109075 291.633906  L 541.660365 290.802692  L 540.794562 293.342452  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:45", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:32", "ref": "23723650"}</title></g>
+   <g id="edge-6a7d37c62cd23a6a3f50">
+    <path d="M 321.113591 659.183787  Q 431.999174 475.090839 542.567479 291.524635  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.301231 292.961339  L 542.567479 291.524635  L 542.357093 294.199657  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:46", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:32", "ref": "10.70066/jahm.v14i1.2407"}</title></g>
+   <g id="edge-a2807d0bcf808bc36978">
+    <path d="M 321.902704 659.807276  Q 479.900831 503.941146 543.62978 291.988938  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 541.789542 293.941763  L 543.62978 291.988938  L 544.087897 294.632824  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:47", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:32", "ref": "2840"}</title></g>
+   <g id="edge-d1d93eb55d2da976f1bc">
+    <path d="M 322.087352 660.001039  Q 432.000008 565.616027 541.446148 471.631626  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.843578 472.284793  L 541.446148 471.631626  L 540.40714 474.105582  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:48", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:64", "@out": "#400:32", "ref": "10.70066/jahm.v14i1.2407"}</title></g>
+   <g id="edge-e0ec73534c1c997da505">
+    <path d="M 320.837836 676.270853  Q 432.000231 453.53506 542.888032 231.34947  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.742596 232.961024  L 542.888032 231.34947  L 542.890013 234.032751  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:49", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:11", "@out": "#400:34", "ref": "240136"}</title></g>
+   <g id="edge-6c205ec5076702157291">
+    <path d="M 320.587738 676.157952  Q 406.944917 469.282543 542.154444 291.243046  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.747274 292.428597  L 542.154444 291.243046  L 541.658583 293.880113  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:50", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:34", "ref": "30962052"}</title></g>
+   <g id="edge-dcdd81a3f4d517a9dd8e">
+    <path d="M 321.473991 676.668308  Q 457.055358 498.139067 543.175598 291.831086  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 541.143681 293.583602  L 543.175598 291.831086  L 543.35846 294.50813  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:51", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:34", "ref": "40886520"}</title></g>
+   <g id="edge-fae7d3c372a03b375d83">
+    <path d="M 321.447944 676.649567  Q 432.000785 528.97328 542.18511 381.789256  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.786174 382.991382  L 542.18511 381.789256  L 541.70745 384.42968  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:52", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:33", "@out": "#400:34", "ref": "240136"}</title></g>
+   <g id="edge-01dad44b7a9941256204">
+    <path d="M 323.039485 300.821632  Q 434.977542 310.024719 540.586577 346.40881  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.708338 344.492506  L 540.586577 346.40881  L 537.926591 346.761618  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:53", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:32", "@out": "#400:38", "ref": "24461595"}</title></g>
+   <g id="edge-0133b6fb3c9b4d4229f1">
+    <path d="M 322.831115 301.814286  Q 429.021508 338.398791 540.34669 347.551612  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.053089 346.15899  L 540.34669 347.551612  L 537.856432 348.550919  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:54", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:32", "@out": "#400:38", "ref": "258059"}</title></g>
+   <g id="edge-23a44f358bf47cd52707">
+    <path d="M 322.367957 302.737307  Q 444.55269 385.349181 541.894719 495.337081  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 541.202742 492.74456  L 541.894719 495.337081  L 539.405516 494.33515  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:55", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:71", "@out": "#400:38", "ref": "24461595"}</title></g>
+   <g id="edge-63bb2dadb7b38548b975">
+    <path d="M 321.696445 303.502292  Q 419.445847 413.950856 541.121008 496.218492  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.804945 493.880121  L 541.121008 496.218492  L 538.460674 495.86832  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:56", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:71", "@out": "#400:38", "ref": "258059"}</title></g>
+   <g id="edge-a0a3d57bfcc54065cca9">
+    <path d="M 321.341089 607.601136  Q 431.99967 449.225205 542.306056 291.353342  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.947777 292.63339  L 542.306056 291.353342  L 541.915127 294.007994  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:57", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:42", "ref": "31730889"}</title></g>
+   <g id="edge-a114fc754dcb9763f459">
+    <path d="M 322.631969 609.102407  Q 431.997859 554.840124 540.812903 500.851146  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.129635 500.842876  L 540.812903 500.851146  L 539.196327 502.992799  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:58", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:71", "@out": "#400:42", "ref": "96953"}</title></g>
+   <g id="edge-5e1a024ea78fcf054011">
+    <path d="M 322.604031 609.050055  Q 425.493911 556.613821 540.334258 559.036145  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.960098 557.7858  L 540.334258 559.036145  L 537.909486 560.185267  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:59", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:42", "ref": "12007704"}</title></g>
+   <g id="edge-5aade9d878155a01364c">
+    <path d="M 322.949088 609.986587  Q 431.999765 585.014638 540.451038 560.179949  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.843734 559.545946  L 540.451038 560.179949  L 538.379452 561.885391  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:60", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:42", "ref": "31730889"}</title></g>
+   <g id="edge-dc28dd6fadba590840f7">
+    <path d="M 323.045965 610.97995  Q 438.501366 613.416429 540.843643 561.260591  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.16044 561.281166  L 540.843643 561.260591  L 539.250181 563.419498  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:61", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:83", "@out": "#400:42", "ref": "33906452"}</title></g>
+   <g id="edge-410e9dda2f588ef5968e">
+    <path d="M 322.9353 232.493598  Q 431.999525 259.549904 540.466923 286.45815  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.426465 284.715585  L 540.466923 286.45815  L 537.848596 287.044978  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:62", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:52", "ref": "30254398"}</title></g>
+   <g id="edge-58a44d16bc74eff84cc6">
+    <path d="M 320.892987 217.837699  Q 432.000675 431.98288 542.825167 645.582236  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 542.785026 642.899255  L 542.825167 645.582236  L 540.654697 644.00456  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:63", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:98", "@out": "#400:58", "ref": "39210691"}</title></g>
+   <g id="edge-cf2169ee801861928b19">
+    <path d="M 323.052496 438.447761  Q 432.001589 438.447761 540.335763 438.447761  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.935763 437.247761  L 540.335763 438.447761  L 537.935763 439.647761  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:64", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:59", "@out": "#400:59", "ref": "38075496"}</title></g>
+   <g id="edge-8079b08cf8208689f51a">
+    <path d="M 322.170079 440.947961  Q 431.997743 528.97252 541.345584 616.612509  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.223328 614.175186  L 541.345584 616.612509  L 538.722372 616.04792  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:65", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:86", "@out": "#400:59", "ref": "38075496"}</title></g>
+   <g id="edge-2ea90386f94324be15a6">
+    <path d="M 322.546546 557.202006  Q 426.304164 499.674597 540.479944 469.784699  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.85428 469.231629  L 540.479944 469.784699  L 538.462089 471.553388  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:66", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:64", "@out": "#400:65", "ref": "21785"}</title></g>
+   <g id="edge-08dc05c16bfe8d0be3ab">
+    <path d="M 322.924209 558.144421  Q 437.694908 528.098909 540.914783 470.869789  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.233935 470.984055  L 540.914783 470.869789  L 539.397687 473.083027  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:67", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:64", "@out": "#400:65", "ref": "257348"}</title></g>
+   <g id="edge-b3d946831ee0b18833af">
+    <path d="M 322.914618 560.182162  Q 431.999167 589.325151 540.489634 618.309425  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.480683 616.530628  L 540.489634 618.309425  L 537.861226 618.849307  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:68", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:86", "@out": "#400:65", "ref": "21785"}</title></g>
+   <g id="edge-abaec6f03e58fb81eaa8">
+    <path d="M 321.185977 641.983453  Q 431.99985 466.468127 542.48544 291.472759  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 540.189485 292.861496  L 542.48544 291.472759  L 542.218856 294.142766  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:69", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:26", "@out": "#400:66", "ref": "22822"}</title></g>
+   <g id="edge-1ec3087d4660a7820308">
+    <path d="M 322.404471 401.785401  Q 431.997731 330.679511 541.075138 259.908314  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.408637 260.207934  L 541.075138 259.908314  L 539.714933 262.221287  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:70", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:25", "@out": "#400:68", "ref": "31831967"}</title></g>
+   <g id="edge-1eaa9ce3b96c81cc6461">
+    <path d="M 323.052496 404.037817  Q 432.001589 406.116875 540.335875 408.1842  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 537.959207 406.938628  L 540.335875 408.1842  L 537.913417 409.338191  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:71", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:42", "@out": "#400:68", "ref": "5081"}</title></g>
+   <g id="edge-7d63eff258c3db69f382">
+    <path d="M 322.087352 539.298949  Q 432.000008 444.913938 541.446148 350.929536  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.843578 351.582703  L 541.446148 350.929536  L 540.40714 353.403493  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:72", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:32", "@out": "#400:69", "ref": "76448"}</title></g>
+   <g id="edge-c56e1c9203cfd445249b">
+    <path d="M 321.403134 504.188081  Q 431.998606 352.233899 542.232221 200.776893  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 539.849683 202.011199  L 542.232221 200.776893  L 541.790143 203.423508  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:73", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:2", "@out": "#400:70", "ref": "164215"}</title></g>
+   <g id="edge-ff6eee40d827efb8cc65">
+    <path d="M 323.031814 507.800248  Q 432.00122 518.197473 540.358488 528.53629  " clip-path="url(#p9d3ff3a34c)" style="fill: none; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+    <path d="M 538.083318 527.113757  L 540.358488 528.53629  L 537.855359 529.502906  z " clip-path="url(#p9d3ff3a34c)" style="fill: #a65e00; opacity: 0.65; stroke: #a65e00; stroke-width: 0.55; stroke-linecap: round" />
+   <title>{"@rid": "#458:74", "@type": "USED_FOR_TREATMENT", "@cat": "e", "@in": "#420:113", "@out": "#400:70", "ref": "164215"}</title></g>
+   <g id="text_1">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #176b50" x="203.411921" y="121.604776" transform="rotate(-0 203.411921 121.604776)">Compound Shodhana</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #2166a0" x="660.588079" y="121.604776" transform="rotate(-0 660.588079 121.604776)">Disease Shodhana</text>
+   </g>
+   <g id="node-886d8154ea34332d6057">
+    <defs>
+     <path id="me997fd60f8" d="M 0 3.082207  C 0.817411 3.082207 1.601453 2.757446 2.179449 2.179449  C 2.757446 1.601453 3.082207 0.817411 3.082207 0  C 3.082207 -0.817411 2.757446 -1.601453 2.179449 -2.179449  C 1.601453 -2.757446 0.817411 -3.082207 0 -3.082207  C -0.817411 -3.082207 -1.601453 -2.757446 -2.179449 -2.179449  C -2.757446 -1.601453 -3.082207 -0.817411 -3.082207 0  C -3.082207 0.817411 -2.757446 1.601453 -2.179449 2.179449  C -1.601453 2.757446 -0.817411 3.082207 0 3.082207  z " style="stroke: #176b50; stroke-width: 0.5" />
+    </defs>
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="524.663539" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:1", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Rakta-Snuhi", "id": "214"}</title></g>
+   <g id="node-c239160acc8971b85b6f">
+    <defs>
+     <path id="mde3b6bbe2b" d="M 0 3.082207  C 0.817411 3.082207 1.601453 2.757446 2.179449 2.179449  C 2.757446 1.601453 3.082207 0.817411 3.082207 0  C 3.082207 -0.817411 2.757446 -1.601453 2.179449 -2.179449  C 1.601453 -2.757446 0.817411 -3.082207 0 -3.082207  C -0.817411 -3.082207 -1.601453 -2.757446 -2.179449 -2.179449  C -2.757446 -1.601453 -3.082207 -0.817411 -3.082207 0  C -3.082207 0.817411 -2.757446 1.601453 -2.179449 2.179449  C -1.601453 2.757446 -0.817411 3.082207 0 3.082207  z " style="stroke: #2166a0; stroke-width: 0.5" />
+    </defs>
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="528.974328" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:113", "@type": "Disease", "@cat": "v", "Description": "Piles, also known as haemorrhoids, are swollen and enlarged veins in the lower rectum or anus. They may cause rectal bleeding, discomfort, itching, or a lump around the anal region.", "name": "Piles", "id": "815"}</title></g>
+   <g id="node-4f39bdfc890984b27f38">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="593.636162" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:2", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Vatsanabha", "id": "215"}</title></g>
+   <g id="node-ccd68b433df810fd903a">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="559.149851" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:83", "@type": "Disease", "@cat": "v", "Description": "Rheumatoid arthritis is a chronic autoimmune inflammatory disorder that primarily affects the joints. It commonly causes symmetrical joint pain, swelling, stiffness, and progressive joint damage.", "name": "Rheumatoid Arthritis", "id": "785"}</title></g>
+   <g id="node-b2f0e33e9ce503b85a4c">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="589.325373" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:84", "@type": "Disease", "@cat": "v", "Description": "Sciatica refers to pain along the distribution of the sciatic nerve, usually caused by irritation or compression of a nerve root in the lower spine. It commonly produces pain radiating from the lower back or buttock into the leg.", "name": "Sciatica", "id": "786"}</title></g>
+   <g id="node-8f2cd18f0ef52d624679">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="455.690917" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:3", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Gunja", "id": "216"}</title></g>
+   <g id="node-cf2832b30782d9336f47">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="197.043582" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:2", "@type": "Disease", "@cat": "v", "Description": "Alopecia is the medical term for hair loss. It can mean small round patches missing from the scalp (alopecia areata), total loss of head hair (alopecia totalis), or loss of all body hair (alopecia universalis).", "name": "Alopecia", "id": "704"}</title></g>
+   <g id="node-a99c82d906258addb093">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="679.85194" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:105", "@type": "Disease", "@cat": "v", "Description": "A wound is a disruption or injury to the normal structure and integrity of body tissue, usually involving the skin or underlying tissues. It may result from trauma, surgery, infection, or other pathological processes.", "name": "Wounds", "id": "807"}</title></g>
+   <g id="node-1d50b62963ef342de1ec">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="386.718294" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:5", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Bhallathaka", "id": "218"}</title></g>
+   <g id="node-7ad8d57b12066ecfe897">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="576.393006" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:6", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Vacha", "id": "219"}</title></g>
+   <g id="node-4589d858e048df26479f">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="378.096716" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:33", "@type": "Disease", "@cat": "v", "Description": "Eczema is a skin disorder characterized by Itching erythema, Scaling, Edema, vesiculation, and Discharge", "name": "Eczema", "id": "735"}</title></g>
+   <g id="node-20eaea60e7bd00ed4232">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="334.988827" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:7", "@type": "Purified_Compound", "@cat": "v", "name": "Purified Guggulu", "id": "220"}</title></g>
+   <g id="node-808192d4fdc2ec5d577a">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="468.623284" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:64", "@type": "Disease", "@cat": "v", "Description": "Obesity is a chronic condition characterized by excessive accumulation of body fat that may adversely affect health.", "name": "Obesity", "id": "766"}</title></g>
+   <g id="node-b9a7cf70ee7a990f8f29">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="352.231983" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:9", "@type": "Purified_Compound", "@cat": "v", "name": "Purified Nerium indicum", "id": "222"}</title></g>
+   <g id="node-6dd93617a26256eb20ea">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="490.177228" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:10", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Karavira", "id": "223"}</title></g>
+   <g id="node-667fdd8efc656e697d88">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="227.219104" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:11", "@type": "Disease", "@cat": "v", "Description": "Bronchial asthma is a long-term lung disease that inflames and narrows the airways. It causes recurring bouts of wheezing, chest tightness, shortness of breath, and coughing.", "name": "Bronchial Asthma", "id": "713"}</title></g>
+   <g id="node-fc795f2cb4264122d254">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="369.475139" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:11", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Ativisha", "id": "224"}</title></g>
+   <g id="node-83fc0aa3c77e039ba309">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="317.745672" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:12", "@type": "Purified_Compound", "@cat": "v", "name": "Purified Aconitum", "id": "225"}</title></g>
+   <g id="node-6d25f91f099ac5c16ee6">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="421.204606" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:13", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Chitraka", "id": "226"}</title></g>
+   <g id="node-03c78364a29cee705d46">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="317.745672" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:31", "@type": "Disease", "@cat": "v", "Description": "Dysmenorrhea refers to painful menstruation, typically characterized by cramping pain in the lower abdomen during the menstrual period. It may also be accompanied by symptoms such as backache, nausea, or fatigue.", "name": "Dysmenorrhea", "id": "733"}</title></g>
+   <g id="node-9734cabe7725aacf97ac">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="472.934072" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:14", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Haratala", "id": "227"}</title></g>
+   <g id="node-1b592bfe6c52c4584ede">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="266.016205" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:21", "@type": "Purified_Compound", "@cat": "v", "name": "Mukta Bhasma", "id": "234"}</title></g>
+   <g id="node-0b6ea310920ee4c6b661">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="498.798806" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:71", "@type": "Disease", "@cat": "v", "Description": "Osteoporosis is a skeletal disorder characterized by reduced bone strength and increased susceptibility to fractures. It commonly affects the spine, hip, and wrist.", "name": "Osteoporosis", "id": "773"}</title></g>
+   <g id="node-a27dfd298d3baa1a65dd">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="197.043582" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:23", "@type": "Purified_Compound", "@cat": "v", "name": "Abhraka Bhasma", "id": "236"}</title></g>
+   <g id="node-d73be51b2825bd8e18b3">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="287.570149" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:26", "@type": "Disease", "@cat": "v", "Description": "Diabetes mellitus is a chronic metabolic disorder characterized by elevated blood glucose levels resulting from inadequate insulin production, impaired insulin action, or a combination of both. Persistent hyperglycaemia can lead to complications affecting multiple organs.", "name": "Diabetes Mellitus", "id": "728"}</title></g>
+   <g id="node-4d56a848476bd5a13c75">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="283.25936" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:26", "@type": "Purified_Compound", "@cat": "v", "name": "Naga Bhasma", "id": "239"}</title></g>
+   <g id="node-2afba850579972d669c4">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="248.773049" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:27", "@type": "Purified_Compound", "@cat": "v", "name": "Lauha Bhasma", "id": "240"}</title></g>
+   <g id="node-38a1e4dd1bdf1d48a94e">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="628.122473" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:30", "@type": "Purified_Compound", "@cat": "v", "name": "Tamra Bhasma", "id": "243"}</title></g>
+   <g id="node-27e92db7d5f419fdb296">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="662.608785" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:32", "@type": "Purified_Compound", "@cat": "v", "name": "Vanga Bhasma", "id": "245"}</title></g>
+   <g id="node-cb17edd562a95a9ef23a">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="679.85194" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:34", "@type": "Purified_Compound", "@cat": "v", "name": "Yashada Bhasma", "id": "247"}</title></g>
+   <g id="node-5b47456b851635d46c93">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="300.502516" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:38", "@type": "Purified_Compound", "@cat": "v", "name": "Praval Bhasma", "id": "251"}</title></g>
+   <g id="node-d2509083a2e23887843a">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="347.921194" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:32", "@type": "Disease", "@cat": "v", "Description": "Dysuria refers to painful, burning, or uncomfortable urination. It is commonly associated with infections or inflammation of the urinary tract but may occur due to other urinary or genital conditions.", "name": "Dysuria", "id": "734"}</title></g>
+   <g id="node-4b4767e8b4545d91037c">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="610.879318" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:42", "@type": "Purified_Compound", "@cat": "v", "name": "Swarna Bhasma", "id": "255"}</title></g>
+   <g id="node-328b7a21fea804eea2df">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="231.529893" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:52", "@type": "Purified_Compound", "@cat": "v", "name": "Kukkutanda Twak Bhasma", "id": "265"}</title></g>
+   <g id="node-12ad00a2970946bfded1">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="214.286738" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:58", "@type": "Purified_Compound", "@cat": "v", "name": "Kapardika Bhasma", "id": "271"}</title></g>
+   <g id="node-7f10b5abe36108e9ce76">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="649.676418" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:98", "@type": "Disease", "@cat": "v", "Description": "Ulcerative colitis is a chronic inflammatory bowel disease characterized by inflammation and ulceration of the lining of the colon and rectum. It commonly causes abdominal pain, diarrhoea, rectal bleeding, and urgency.", "name": "Ulcerative Colitis", "id": "800"}</title></g>
+   <g id="node-6dd666e361a6be6c2f26">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="438.447761" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:59", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Gairika", "id": "272"}</title></g>
+   <g id="node-206c7860ef5d8682a1b6">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="438.447761" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:59", "@type": "Disease", "@cat": "v", "Description": "Migraine is a neurological disorder characterized by recurrent attacks of moderate to severe headache, often accompanied by nausea and sensitivity to light or sound.", "name": "Migraine", "id": "761"}</title></g>
+   <g id="node-4e2e35b6de3a6c545286">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="619.500896" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:86", "@type": "Disease", "@cat": "v", "Description": "Sinusitis is inflammation of the paranasal sinuses, often associated with nasal congestion, facial pressure or pain, nasal discharge, and reduced sense of smell.", "name": "Sinusitis", "id": "788"}</title></g>
+   <g id="node-b7316f031379b5b0219a">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="559.149851" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:65", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Tuttha", "id": "278"}</title></g>
+   <g id="node-0dd99e7f78f6a4f4e8a6">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="645.365629" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:66", "@type": "Purified_Compound", "@cat": "v", "name": "Tuttha Bhasma", "id": "279"}</title></g>
+   <g id="node-7a63eea969dcbc6167c7">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="403.96145" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:68", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Bhanga", "id": "281"}</title></g>
+   <g id="node-a634ea318498d8635186">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="257.394627" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:25", "@type": "Disease", "@cat": "v", "Description": "Depression is a mental health disorder characterized by persistent sadness or low mood, loss of interest or pleasure, and associated emotional, cognitive, behavioural, and physical symptoms that can interfere with daily functioning.", "name": "Depression", "id": "727"}</title></g>
+   <g id="node-c84ee673c617ba6430e8">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#mde3b6bbe2b" x="544.949404" y="408.272239" style="fill: #ffffff; stroke: #2166a0; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#420:42", "@type": "Disease", "@cat": "v", "Description": "Glaucoma is a group of eye disorders characterized by progressive damage to the optic nerve, often associated with elevated intraocular pressure.", "name": "Glaucoma", "id": "744"}</title></g>
+   <g id="node-cc2c5d400415d865fc91">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="541.906695" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:69", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Raktagunja", "id": "282"}</title></g>
+   <g id="node-8809701e41bd5fdeff2d">
+    <g clip-path="url(#p9d3ff3a34c)">
+     <use ns4:href="#me997fd60f8" x="319.050596" y="507.420384" style="fill: #ffffff; stroke: #176b50; stroke-width: 0.5" />
+    </g>
+   <title>{"@rid": "#400:70", "@type": "Purified_Compound", "@cat": "v", "name": "Shodhita Langali", "id": "283"}</title></g>
+   <g id="text_3">
+    <g id="patch_4">
+     <path d="M 232.826846 528.817446  L 311.450596 528.817446  L 311.450596 520.509633  L 232.826846 520.509633  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="526.733852" transform="rotate(-0 311.050596 526.733852)">Shodhita Rakta-Snuhi</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_5">
+     <path d="M 552.549404 533.128235  L 570.689404 533.128235  L 570.689404 524.820422  L 552.549404 524.820422  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="531.044641" transform="rotate(-0 552.949404 531.044641)">Piles</text>
+   </g>
+   <g id="text_5">
+    <g id="patch_6">
+     <path d="M 234.741846 597.790068  L 311.450596 597.790068  L 311.450596 589.482256  L 234.741846 589.482256  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="595.706475" transform="rotate(-0 311.050596 595.706475)">Shodhita Vatsanabha</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_7">
+     <path d="M 552.549404 563.303757  L 625.376904 563.303757  L 625.376904 554.995944  L 552.549404 554.995944  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="561.220163" transform="rotate(-0 552.949404 561.220163)">Rheumatoid Arthritis</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_8">
+     <path d="M 552.549404 593.479279  L 581.360654 593.479279  L 581.360654 585.171467  L 552.549404 585.171467  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="591.395686" transform="rotate(-0 552.949404 591.395686)">Sciatica</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_9">
+     <path d="M 255.501846 459.844901  L 311.450596 459.844901  L 311.450596 451.536932  L 255.501846 451.536932  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="457.761151" transform="rotate(-0 311.050596 457.761151)">Shodhita Gunja</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_10">
+     <path d="M 552.549404 201.197488  L 584.035654 201.197488  L 584.035654 192.889676  L 552.549404 192.889676  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="199.113895" transform="rotate(-0 552.949404 199.113895)">Alopecia</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_11">
+     <path d="M 552.549404 684.005847  L 582.550654 684.005847  L 582.550654 675.698034  L 552.549404 675.698034  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="681.922253" transform="rotate(-0 552.949404 681.922253)">Wounds</text>
+   </g>
+   <g id="text_11">
+    <g id="patch_12">
+     <path d="M 235.041846 390.8722  L 311.450596 390.8722  L 311.450596 382.564388  L 235.041846 382.564388  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="388.788607" transform="rotate(-0 311.050596 388.788607)">Shodhita Bhallathaka</text>
+   </g>
+   <g id="text_12">
+    <g id="patch_13">
+     <path d="M 254.759346 580.546913  L 311.450596 580.546913  L 311.450596 572.2391  L 254.759346 572.2391  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="578.463319" transform="rotate(-0 311.050596 578.463319)">Shodhita Vacha</text>
+   </g>
+   <g id="text_13">
+    <g id="patch_14">
+     <path d="M 552.549404 382.250623  L 582.246904 382.250623  L 582.246904 373.94281  L 552.549404 373.94281  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="380.167029" transform="rotate(-0 552.949404 380.167029)">Eczema</text>
+   </g>
+   <g id="text_14">
+    <g id="patch_15">
+     <path d="M 251.060596 339.142812  L 311.450596 339.142812  L 311.450596 330.834843  L 251.060596 330.834843  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="337.059062" transform="rotate(-0 311.050596 337.059062)">Purified Guggulu</text>
+   </g>
+   <g id="text_15">
+    <g id="patch_16">
+     <path d="M 552.549404 472.779534  L 580.469404 472.779534  L 580.469404 464.467034  L 552.549404 464.467034  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="470.695784" transform="rotate(-0 552.949404 470.695784)">Obesity</text>
+   </g>
+   <g id="text_16">
+    <g id="patch_17">
+     <path d="M 225.736846 356.385889  L 311.450596 356.385889  L 311.450596 348.078077  L 225.736846 348.078077  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="354.302295" transform="rotate(-0 311.050596 354.302295)">Purified Nerium indicum</text>
+   </g>
+   <g id="text_17">
+    <g id="patch_18">
+     <path d="M 247.060596 494.331134  L 311.450596 494.331134  L 311.450596 486.023322  L 247.060596 486.023322  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="492.247541" transform="rotate(-0 311.050596 492.247541)">Shodhita Karavira</text>
+   </g>
+   <g id="text_18">
+    <g id="patch_19">
+     <path d="M 552.549404 231.373011  L 615.600654 231.373011  L 615.600654 223.065198  L 552.549404 223.065198  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="229.289417" transform="rotate(-0 552.949404 229.289417)">Bronchial Asthma</text>
+   </g>
+   <g id="text_19">
+    <g id="patch_20">
+     <path d="M 249.278096 373.629045  L 311.450596 373.629045  L 311.450596 365.321232  L 249.278096 365.321232  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="371.545451" transform="rotate(-0 311.050596 371.545451)">Shodhita Ativisha</text>
+   </g>
+   <g id="text_20">
+    <g id="patch_21">
+     <path d="M 248.399346 321.899578  L 311.450596 321.899578  L 311.450596 313.591765  L 248.399346 313.591765  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="319.815984" transform="rotate(-0 311.050596 319.815984)">Purified Aconitum</text>
+   </g>
+   <g id="text_21">
+    <g id="patch_22">
+     <path d="M 247.060596 425.358512  L 311.450596 425.358512  L 311.450596 417.050699  L 247.060596 417.050699  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="423.274918" transform="rotate(-0 311.050596 423.274918)">Shodhita Chitraka</text>
+   </g>
+   <g id="text_22">
+    <g id="patch_23">
+     <path d="M 552.549404 321.899656  L 605.810654 321.899656  L 605.810654 313.591687  L 552.549404 313.591687  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="319.815906" transform="rotate(-0 552.949404 319.815906)">Dysmenorrhea</text>
+   </g>
+   <g id="text_23">
+    <g id="patch_24">
+     <path d="M 246.611846 477.087979  L 311.450596 477.087979  L 311.450596 468.780166  L 246.611846 468.780166  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="475.004385" transform="rotate(-0 311.050596 475.004385)">Shodhita Haratala</text>
+   </g>
+   <g id="text_24">
+    <g id="patch_25">
+     <path d="M 257.298096 270.170111  L 311.450596 270.170111  L 311.450596 261.862298  L 257.298096 261.862298  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="268.086517" transform="rotate(-0 311.050596 268.086517)">Mukta Bhasma</text>
+   </g>
+   <g id="text_25">
+    <g id="patch_26">
+     <path d="M 552.549404 502.954978  L 600.479404 502.954978  L 600.479404 494.642634  L 552.549404 494.642634  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="500.871384" transform="rotate(-0 552.949404 500.871384)">Osteoporosis</text>
+   </g>
+   <g id="text_26">
+    <g id="patch_27">
+     <path d="M 249.286846 201.197488  L 311.450596 201.197488  L 311.450596 192.889676  L 249.286846 192.889676  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="199.113895" transform="rotate(-0 311.050596 199.113895)">Abhraka Bhasma</text>
+   </g>
+   <g id="text_27">
+    <g id="patch_28">
+     <path d="M 552.549404 291.724056  L 614.260654 291.724056  L 614.260654 283.416243  L 552.549404 283.416243  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="289.640462" transform="rotate(-0 552.949404 289.640462)">Diabetes Mellitus</text>
+   </g>
+   <g id="text_28">
+    <g id="patch_29">
+     <path d="M 259.958096 287.413345  L 311.450596 287.413345  L 311.450596 279.105376  L 259.958096 279.105376  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="285.329595" transform="rotate(-0 311.050596 285.329595)">Naga Bhasma</text>
+   </g>
+   <g id="text_29">
+    <g id="patch_30">
+     <path d="M 256.838096 252.926955  L 311.450596 252.926955  L 311.450596 244.619143  L 256.838096 244.619143  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="250.843362" transform="rotate(-0 311.050596 250.843362)">Lauha Bhasma</text>
+   </g>
+   <g id="text_30">
+    <g id="patch_31">
+     <path d="M 256.856846 632.27638  L 311.450596 632.27638  L 311.450596 623.968567  L 256.856846 623.968567  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="630.192786" transform="rotate(-0 311.050596 630.192786)">Tamra Bhasma</text>
+   </g>
+   <g id="text_31">
+    <g id="patch_32">
+     <path d="M 256.544346 666.762769  L 311.450596 666.762769  L 311.450596 658.4548  L 256.544346 658.4548  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="664.679019" transform="rotate(-0 311.050596 664.679019)">Vanga Bhasma</text>
+   </g>
+   <g id="text_32">
+    <g id="patch_33">
+     <path d="M 248.095596 684.005847  L 311.450596 684.005847  L 311.450596 675.698034  L 248.095596 675.698034  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="681.922253" transform="rotate(-0 311.050596 681.922253)">Yashada Bhasma</text>
+   </g>
+   <g id="text_33">
+    <g id="patch_34">
+     <path d="M 256.406846 304.656422  L 311.450596 304.656422  L 311.450596 296.34861  L 256.406846 296.34861  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="302.572828" transform="rotate(-0 311.050596 302.572828)">Praval Bhasma</text>
+   </g>
+   <g id="text_34">
+    <g id="patch_35">
+     <path d="M 552.549404 352.075178  L 580.465654 352.075178  L 580.465654 343.76721  L 552.549404 343.76721  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="349.991428" transform="rotate(-0 552.949404 349.991428)">Dysuria</text>
+   </g>
+   <g id="text_35">
+    <g id="patch_36">
+     <path d="M 251.958096 615.033224  L 311.450596 615.033224  L 311.450596 606.725411  L 251.958096 606.725411  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="612.94963" transform="rotate(-0 311.050596 612.94963)">Swarna Bhasma</text>
+   </g>
+   <g id="text_36">
+    <g id="patch_37">
+     <path d="M 216.081846 235.6838  L 311.450596 235.6838  L 311.450596 227.375987  L 216.081846 227.375987  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="233.600206" transform="rotate(-0 311.050596 233.600206)">Kukkutanda Twak Bhasma</text>
+   </g>
+   <g id="text_37">
+    <g id="patch_38">
+     <path d="M 243.060596 218.440644  L 311.450596 218.440644  L 311.450596 210.132831  L 243.060596 210.132831  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="216.35705" transform="rotate(-0 311.050596 216.35705)">Kapardika Bhasma</text>
+   </g>
+   <g id="text_38">
+    <g id="patch_39">
+     <path d="M 552.549404 653.830324  L 612.918154 653.830324  L 612.918154 645.522512  L 552.549404 645.522512  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="651.74673" transform="rotate(-0 552.949404 651.74673)">Ulcerative Colitis</text>
+   </g>
+   <g id="text_39">
+    <g id="patch_40">
+     <path d="M 251.509346 442.601667  L 311.450596 442.601667  L 311.450596 434.293855  L 251.509346 434.293855  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="440.518074" transform="rotate(-0 311.050596 440.518074)">Shodhita Gairika</text>
+   </g>
+   <g id="text_40">
+    <g id="patch_41">
+     <path d="M 552.549404 442.601746  L 584.026904 442.601746  L 584.026904 434.293777  L 552.549404 434.293777  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="440.517996" transform="rotate(-0 552.949404 440.517996)">Migraine</text>
+   </g>
+   <g id="text_41">
+    <g id="patch_42">
+     <path d="M 552.549404 623.654802  L 583.138154 623.654802  L 583.138154 615.346989  L 552.549404 615.346989  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="621.571208" transform="rotate(-0 552.949404 621.571208)">Sinusitis</text>
+   </g>
+   <g id="text_42">
+    <g id="patch_43">
+     <path d="M 254.611846 563.303757  L 311.450596 563.303757  L 311.450596 554.995944  L 254.611846 554.995944  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="561.220163" transform="rotate(-0 311.050596 561.220163)">Shodhita Tuttha</text>
+   </g>
+   <g id="text_43">
+    <g id="patch_44">
+     <path d="M 256.700596 649.519535  L 311.450596 649.519535  L 311.450596 641.211723  L 256.700596 641.211723  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="647.435941" transform="rotate(-0 311.050596 647.435941)">Tuttha Bhasma</text>
+   </g>
+   <g id="text_44">
+    <g id="patch_45">
+     <path d="M 249.268096 408.115434  L 311.450596 408.115434  L 311.450596 399.807466  L 249.268096 399.807466  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="406.031684" transform="rotate(-0 311.050596 406.031684)">Shodhita Bhanga</text>
+   </g>
+   <g id="text_45">
+    <g id="patch_46">
+     <path d="M 552.549404 261.548533  L 593.811904 261.548533  L 593.811904 253.240721  L 552.549404 253.240721  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="259.464939" transform="rotate(-0 552.949404 259.464939)">Depression</text>
+   </g>
+   <g id="text_46">
+    <g id="patch_47">
+     <path d="M 552.549404 412.426145  L 589.808154 412.426145  L 589.808154 404.118333  L 552.549404 404.118333  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="552.949404" y="410.342551" transform="rotate(-0 552.949404 410.342551)">Glaucoma</text>
+   </g>
+   <g id="text_47">
+    <g id="patch_48">
+     <path d="M 236.378096 546.060679  L 311.450596 546.060679  L 311.450596 537.752711  L 236.378096 537.752711  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="543.976929" transform="rotate(-0 311.050596 543.976929)">Shodhita Raktagunja</text>
+   </g>
+   <g id="text_48">
+    <g id="patch_49">
+     <path d="M 251.049346 511.574368  L 311.450596 511.574368  L 311.450596 503.266399  L 251.049346 503.266399  z " style="fill: #ffffff" />
+    </g>
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="311.050596" y="509.490618" transform="rotate(-0 311.050596 509.490618)">Shodhita Langali</text>
+   </g>
+  </g>
+  <g id="text_49">
+   <text style="font-size: 9px; font-family: 'Arial'" transform="translate(323.601328 810.999316)">46 nodes | 75 directed edges | 75 cross-domain edges</text>
+   <text style="font-size: 9px; font-family: 'Arial'" transform="translate(259.771641 820.8)">Green: compound domain   Blue: disease domain   Amber: USED_FOR_TREATMENT</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9d3ff3a34c">
+   <rect x="25.92" y="86.4" width="812.16" height="673.92" />
+  </clipPath>
+ </defs>
+<title>03 integration</title><desc>ShodhanaKG; native editable vectors. {"kind": "instances", "nodes": 46, "edges": 75, "cross_edges": 75, "node_ids": ["#400:1", "#400:10", "#400:11", "#400:12", "#400:13", "#400:14", "#400:2", "#400:21", "#400:23", "#400:26", "#400:27", "#400:3", "#400:30", "#400:32", "#400:34", "#400:38", "#400:42", "#400:5", "#400:52", "#400:58", "#400:59", "#400:6", "#400:65", "#400:66", "#400:68", "#400:69", "#400:7", "#400:70", "#400:9", "#420:105", "#420:11", "#420:113", "#420:2", "#420:25", "#420:26", "#420:31", "#420:32", "#420:33", "#420:42", "#420:59", "#420:64", "#420:71", "#420:83", "#420:84", "#420:86", "#420:98"], "edge_ids": ["#458:0", "#458:1", "#458:10", "#458:11", "#458:12", "#458:13", "#458:14", "#458:15", "#458:16", "#458:17", "#458:18", "#458:19", "#458:2", "#458:20", "#458:21", "#458:22", "#458:23", "#458:24", "#458:25", "#458:26", "#458:27", "#458:28", "#458:29", "#458:3", "#458:30", "#458:31", "#458:32", "#458:33", "#458:34", "#458:35", "#458:36", "#458:37", "#458:38", "#458:39", "#458:4", "#458:40", "#458:41", "#458:42", "#458:43", "#458:44", "#458:45", "#458:46", "#458:47", "#458:48", "#458:49", "#458:5", "#458:50", "#458:51", "#458:52", "#458:53", "#458:54", "#458:55", "#458:56", "#458:57", "#458:58", "#458:59", "#458:6", "#458:60", "#458:61", "#458:62", "#458:63", "#458:64", "#458:65", "#458:66", "#458:67", "#458:68", "#458:69", "#458:7", "#458:70", "#458:71", "#458:72", "#458:73", "#458:74", "#458:8", "#458:9"], "label_mode": "auto"}</desc></svg>

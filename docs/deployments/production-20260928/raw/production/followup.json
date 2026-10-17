@@ -1,0 +1,3600 @@
+{
+    "status": "success",
+    "answer": "Formulations associated with Vipadika\n\nThe available records associate Vipadika with the following formulations:\n\n1. Sutshekhar Rasa [1]\n2. Nalpamaradi Keram [2]\n3. Mahatikta Ghrita [3]\n4. Bashpa Sweda [4]\n5. Kolakulathadi Churna [5]\n6. Trivrit Lehyam [6]\n7. Drakshadi Kashaya [7]\n8. Mahatikta Lepa [8]\n9. Aragvadhadi Kashaya [9]\n10. Gandhak Rasayan [10]\n11. Gandharvahastadi Eranda Taila [11]",
+    "pagination": null,
+    "query_plan": null,
+    "answer_heading": "Formulations associated with Vipadika",
+    "answer_intro": "The available records associate Vipadika with the following formulations:",
+    "answer_results": [
+        {
+            "id": "f1",
+            "label": "Sutshekhar Rasa",
+            "fact_ids": [
+                "f1"
+            ],
+            "citation_ids": [
+                "1"
+            ],
+            "record_indices": [
+                0
+            ]
+        },
+        {
+            "id": "f2",
+            "label": "Nalpamaradi Keram",
+            "fact_ids": [
+                "f2"
+            ],
+            "citation_ids": [
+                "2"
+            ],
+            "record_indices": [
+                1
+            ]
+        },
+        {
+            "id": "f3",
+            "label": "Mahatikta Ghrita",
+            "fact_ids": [
+                "f3"
+            ],
+            "citation_ids": [
+                "3"
+            ],
+            "record_indices": [
+                2
+            ]
+        },
+        {
+            "id": "f4",
+            "label": "Bashpa Sweda",
+            "fact_ids": [
+                "f4"
+            ],
+            "citation_ids": [
+                "4"
+            ],
+            "record_indices": [
+                3
+            ]
+        },
+        {
+            "id": "f5",
+            "label": "Kolakulathadi Churna",
+            "fact_ids": [
+                "f5"
+            ],
+            "citation_ids": [
+                "5"
+            ],
+            "record_indices": [
+                4
+            ]
+        },
+        {
+            "id": "f6",
+            "label": "Trivrit Lehyam",
+            "fact_ids": [
+                "f6"
+            ],
+            "citation_ids": [
+                "6"
+            ],
+            "record_indices": [
+                5
+            ]
+        },
+        {
+            "id": "f7",
+            "label": "Drakshadi Kashaya",
+            "fact_ids": [
+                "f7"
+            ],
+            "citation_ids": [
+                "7"
+            ],
+            "record_indices": [
+                6
+            ]
+        },
+        {
+            "id": "f8",
+            "label": "Mahatikta Lepa",
+            "fact_ids": [
+                "f8"
+            ],
+            "citation_ids": [
+                "8"
+            ],
+            "record_indices": [
+                7
+            ]
+        },
+        {
+            "id": "f9",
+            "label": "Aragvadhadi Kashaya",
+            "fact_ids": [
+                "f9"
+            ],
+            "citation_ids": [
+                "9"
+            ],
+            "record_indices": [
+                8
+            ]
+        },
+        {
+            "id": "f10",
+            "label": "Gandhak Rasayan",
+            "fact_ids": [
+                "f10"
+            ],
+            "citation_ids": [
+                "10"
+            ],
+            "record_indices": [
+                9
+            ]
+        },
+        {
+            "id": "f11",
+            "label": "Gandharvahastadi Eranda Taila",
+            "fact_ids": [
+                "f11"
+            ],
+            "citation_ids": [
+                "11"
+            ],
+            "record_indices": [
+                10
+            ]
+        }
+    ],
+    "answer_blocks": [],
+    "citations": [
+        {
+            "id": "1",
+            "fact_ids": [
+                "f1"
+            ],
+            "record_indices": [
+                0
+            ],
+            "statement": "For Vipadika, Sutshekhar Rasa is recorded in association with Oral Medication.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Oral Medication",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#465:806",
+                    "edge_type": "TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:52",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Oral Medication"
+                        }
+                    ]
+                },
+                {
+                    "description": "Oral Medication → Sutshekhar Rasa",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:795",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:52",
+                    "target_id": "#440:252",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "3 Days",
+                        "Dose": "2 tablets thrice daily, half an hour before food"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "3 Days"
+                        },
+                        {
+                            "key": "Dose",
+                            "label": "Dose",
+                            "value": "2 tablets thrice daily, half an hour before food"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Oral Medication"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Sutshekhar Rasa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Oral Medication"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Sutshekhar Rasa"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        },
+        {
+            "id": "2",
+            "fact_ids": [
+                "f2"
+            ],
+            "record_indices": [
+                1
+            ],
+            "statement": "For Vipadika, Nalpamaradi Keram is recorded in association with Sarvanga Abhyanga.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Sarvanga Abhyanga",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#465:807",
+                    "edge_type": "TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:77",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Sarvanga Abhyanga"
+                        }
+                    ]
+                },
+                {
+                    "description": "Sarvanga Abhyanga → Nalpamaradi Keram",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:2173",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:77",
+                    "target_id": "#440:394",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "3 Days"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "3 Days"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Sarvanga Abhyanga"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Nalpamaradi Keram"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Sarvanga Abhyanga"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Nalpamaradi Keram"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        },
+        {
+            "id": "3",
+            "fact_ids": [
+                "f3"
+            ],
+            "record_indices": [
+                2
+            ],
+            "statement": "For Vipadika, Mahatikta Ghrita is recorded in association with Snehapana.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Snehapana",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#465:808",
+                    "edge_type": "TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:93",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Snehapana"
+                        }
+                    ]
+                },
+                {
+                    "description": "Snehapana → Mahatikta Ghrita",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:2521",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:93",
+                    "target_id": "#440:31",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "4 Days",
+                        "Dose": "30 ml, 70 ml, 100 ml, 120 ml"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "4 Days"
+                        },
+                        {
+                            "key": "Dose",
+                            "label": "Dose",
+                            "value": "30 ml, 70 ml, 100 ml, 120 ml"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Snehapana"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Mahatikta Ghrita"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Snehapana"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Mahatikta Ghrita"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        },
+        {
+            "id": "4",
+            "fact_ids": [
+                "f4"
+            ],
+            "record_indices": [
+                3
+            ],
+            "statement": "For Vipadika, Bashpa Sweda is recorded in association with Swedana.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Swedana",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#465:809",
+                    "edge_type": "TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:94",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Swedana"
+                        }
+                    ]
+                },
+                {
+                    "description": "Swedana → Bashpa Sweda",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:2613",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:94",
+                    "target_id": "#440:528",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "3 Days"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "3 Days"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Swedana"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Bashpa Sweda"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Swedana"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Bashpa Sweda"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        },
+        {
+            "id": "5",
+            "fact_ids": [
+                "f5"
+            ],
+            "record_indices": [
+                4
+            ],
+            "statement": "For Vipadika, Kolakulathadi Churna is recorded in association with Udvartana.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Udvartana",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#465:810",
+                    "edge_type": "TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:99",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Udvartana"
+                        }
+                    ]
+                },
+                {
+                    "description": "Udvartana → Kolakulathadi Churna",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:2659",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:99",
+                    "target_id": "#440:2085",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "3 Days"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "3 Days"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Udvartana"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Kolakulathadi Churna"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Udvartana"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Kolakulathadi Churna"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        },
+        {
+            "id": "6",
+            "fact_ids": [
+                "f6"
+            ],
+            "record_indices": [
+                5
+            ],
+            "statement": "For Vipadika, Trivrit Lehyam is recorded in association with Virechana.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Virechana",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#465:811",
+                    "edge_type": "TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:107",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Virechana"
+                        }
+                    ]
+                },
+                {
+                    "description": "Virechana → Trivrit Lehyam",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:2755",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:107",
+                    "target_id": "#440:293",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "1 Day",
+                        "Dose": "80 ml"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "1 Day"
+                        },
+                        {
+                            "key": "Dose",
+                            "label": "Dose",
+                            "value": "80 ml"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Virechana"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Trivrit Lehyam"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Virechana"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Trivrit Lehyam"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        },
+        {
+            "id": "7",
+            "fact_ids": [
+                "f7"
+            ],
+            "record_indices": [
+                6
+            ],
+            "statement": "For Vipadika, Drakshadi Kashaya is recorded in association with Virechana.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Virechana",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#465:811",
+                    "edge_type": "TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:107",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Virechana"
+                        }
+                    ]
+                },
+                {
+                    "description": "Virechana → Drakshadi Kashaya",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:4119",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:107",
+                    "target_id": "#440:612",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "1 Day",
+                        "Dose": "150 ml"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "1 Day"
+                        },
+                        {
+                            "key": "Dose",
+                            "label": "Dose",
+                            "value": "150 ml"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Virechana"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Drakshadi Kashaya"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Virechana"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Drakshadi Kashaya"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        },
+        {
+            "id": "8",
+            "fact_ids": [
+                "f8"
+            ],
+            "record_indices": [
+                7
+            ],
+            "statement": "For Vipadika, Mahatikta Lepa is recorded in association with Shamana.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Shamana",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#466:151",
+                    "edge_type": "POST_TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:82",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "post-treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Shamana"
+                        }
+                    ]
+                },
+                {
+                    "description": "Shamana → Mahatikta Lepa",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:2210",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:82",
+                    "target_id": "#440:30",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "17 to 32 Days",
+                        "Dose": "External application"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "17 to 32 Days"
+                        },
+                        {
+                            "key": "Dose",
+                            "label": "Dose",
+                            "value": "External application"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Shamana"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Mahatikta Lepa"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Shamana"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Mahatikta Lepa"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        },
+        {
+            "id": "9",
+            "fact_ids": [
+                "f9"
+            ],
+            "record_indices": [
+                8
+            ],
+            "statement": "For Vipadika, Aragvadhadi Kashaya is recorded in association with Shamana.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Shamana",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#466:151",
+                    "edge_type": "POST_TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:82",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "post-treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Shamana"
+                        }
+                    ]
+                },
+                {
+                    "description": "Shamana → Aragvadhadi Kashaya",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:2363",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:82",
+                    "target_id": "#440:479",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "17 to 32 Days",
+                        "Dose": "5 tsp morning and evening, one hour before food"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "17 to 32 Days"
+                        },
+                        {
+                            "key": "Dose",
+                            "label": "Dose",
+                            "value": "5 tsp morning and evening, one hour before food"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Shamana"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Aragvadhadi Kashaya"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Shamana"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Aragvadhadi Kashaya"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        },
+        {
+            "id": "10",
+            "fact_ids": [
+                "f10"
+            ],
+            "record_indices": [
+                9
+            ],
+            "statement": "For Vipadika, Gandhak Rasayan is recorded in association with Shamana.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Shamana",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#466:151",
+                    "edge_type": "POST_TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:82",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "post-treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Shamana"
+                        }
+                    ]
+                },
+                {
+                    "description": "Shamana → Gandhak Rasayan",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:2424",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:82",
+                    "target_id": "#440:636",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "17 to 32 Days",
+                        "Adjuvant": "Aragvadhadi Kashaya",
+                        "Dose": "2 tablets"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "17 to 32 Days"
+                        },
+                        {
+                            "key": "Adjuvant",
+                            "label": "Adjuvant",
+                            "value": "Aragvadhadi Kashaya"
+                        },
+                        {
+                            "key": "Dose",
+                            "label": "Dose",
+                            "value": "2 tablets"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Shamana"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Gandhak Rasayan"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Shamana"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Gandhak Rasayan"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        },
+        {
+            "id": "11",
+            "fact_ids": [
+                "f11"
+            ],
+            "record_indices": [
+                10
+            ],
+            "statement": "For Vipadika, Gandharvahastadi Eranda Taila is recorded in association with Shamana.",
+            "scopes": [
+                {
+                    "description": "Vipadika → Shamana",
+                    "relationship": "Disease → Therapy",
+                    "edge_id": "#466:151",
+                    "edge_type": "POST_TREATED_BY",
+                    "source_id": "#420:124",
+                    "target_id": "#444:82",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965"
+                    },
+                    "display_properties": [],
+                    "treatment_phase": "post-treated",
+                    "entities": [
+                        {
+                            "type": "Disease",
+                            "label": "Vipadika"
+                        },
+                        {
+                            "type": "Therapy",
+                            "label": "Shamana"
+                        }
+                    ]
+                },
+                {
+                    "description": "Shamana → Gandharvahastadi Eranda Taila",
+                    "relationship": "Therapy → Formulation",
+                    "edge_id": "#468:2426",
+                    "edge_type": "USES_FORMULATION",
+                    "source_id": "#444:82",
+                    "target_id": "#440:638",
+                    "identifiers": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ]
+                    },
+                    "properties": {
+                        "ref": "253965",
+                        "Duration": "17 to 32 Days",
+                        "Adjuvant": "5 ml warm milk",
+                        "Dose": "2 tsp at bedtime"
+                    },
+                    "display_properties": [
+                        {
+                            "key": "Duration",
+                            "label": "Duration",
+                            "value": "17 to 32 Days"
+                        },
+                        {
+                            "key": "Adjuvant",
+                            "label": "Adjuvant",
+                            "value": "5 ml warm milk"
+                        },
+                        {
+                            "key": "Dose",
+                            "label": "Dose",
+                            "value": "2 tsp at bedtime"
+                        }
+                    ],
+                    "treatment_phase": null,
+                    "entities": [
+                        {
+                            "type": "Therapy",
+                            "label": "Shamana"
+                        },
+                        {
+                            "type": "Formulation",
+                            "label": "Gandharvahastadi Eranda Taila"
+                        }
+                    ]
+                }
+            ],
+            "entities": [
+                {
+                    "type": "Therapy",
+                    "label": "Shamana"
+                },
+                {
+                    "type": "Formulation",
+                    "label": "Gandharvahastadi Eranda Taila"
+                }
+            ],
+            "attribution": "per_edge",
+            "relationships": [
+                "Disease → Therapy",
+                "Therapy → Formulation"
+            ]
+        }
+    ],
+    "generation": {
+        "mode": "deterministic",
+        "fallback_reason": null,
+        "latency_ms": 0
+    },
+    "conversation_context": {
+        "version": 2,
+        "subject": {
+            "id": "#420:124",
+            "name": "Vipadika",
+            "type": "Disease"
+        },
+        "last_question": "What about its formulations? for Vipadika",
+        "constraints": [],
+        "result_type": "Formulation",
+        "intent": "disease_formulation",
+        "resolved_entities": [
+            {
+                "id": "#420:124",
+                "name": "Vipadika",
+                "type": "Disease"
+            }
+        ]
+    },
+    "resolution": [],
+    "understanding": {
+        "mode": "deterministic"
+    },
+    "question": "What about its formulations?",
+    "context": {
+        "status": "success",
+        "question": "What about its formulations?",
+        "routing": {
+            "domain": "disease",
+            "intent": "disease_formulation",
+            "entity": "Vipadika",
+            "entity_id": "#420:124",
+            "entity_type": "Disease",
+            "endpoint": "disease_formulation",
+            "requested_result_types": [],
+            "confidence": 0.9,
+            "needs_clarification": false
+        },
+        "retrieval": {
+            "status": "success",
+            "entity": {
+                "name": "Vipadika",
+                "type": "Disease"
+            },
+            "path": [
+                "Disease",
+                "[PRE/POST]_TREATED_BY",
+                "Therapy",
+                "USES_FORMULATION",
+                "Formulation"
+            ],
+            "results": [
+                {
+                    "therapy": "Oral Medication",
+                    "formulation": "Sutshekhar Rasa",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "3 Days",
+                        "Dose": "2 tablets thrice daily, half an hour before food",
+                        "phase": "TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#465:806": {
+                            "edge_id": "#465:806",
+                            "type": "TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:52",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "treated"
+                        },
+                        "#468:795": {
+                            "edge_id": "#468:795",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:52",
+                            "target": "#440:252",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "3 Days",
+                                "Dose": "2 tablets thrice daily, half an hour before food"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "3 Days"
+                                },
+                                {
+                                    "key": "Dose",
+                                    "label": "Dose",
+                                    "value": "2 tablets thrice daily, half an hour before food"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                },
+                {
+                    "therapy": "Sarvanga Abhyanga",
+                    "formulation": "Nalpamaradi Keram",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "3 Days",
+                        "phase": "TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#465:807": {
+                            "edge_id": "#465:807",
+                            "type": "TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:77",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "treated"
+                        },
+                        "#468:2173": {
+                            "edge_id": "#468:2173",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:77",
+                            "target": "#440:394",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "3 Days"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "3 Days"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                },
+                {
+                    "therapy": "Snehapana",
+                    "formulation": "Mahatikta Ghrita",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "4 Days",
+                        "Dose": "30 ml, 70 ml, 100 ml, 120 ml",
+                        "phase": "TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#465:808": {
+                            "edge_id": "#465:808",
+                            "type": "TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:93",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "treated"
+                        },
+                        "#468:2521": {
+                            "edge_id": "#468:2521",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:93",
+                            "target": "#440:31",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "4 Days",
+                                "Dose": "30 ml, 70 ml, 100 ml, 120 ml"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "4 Days"
+                                },
+                                {
+                                    "key": "Dose",
+                                    "label": "Dose",
+                                    "value": "30 ml, 70 ml, 100 ml, 120 ml"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                },
+                {
+                    "therapy": "Swedana",
+                    "formulation": "Bashpa Sweda",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "3 Days",
+                        "phase": "TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#465:809": {
+                            "edge_id": "#465:809",
+                            "type": "TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:94",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "treated"
+                        },
+                        "#468:2613": {
+                            "edge_id": "#468:2613",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:94",
+                            "target": "#440:528",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "3 Days"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "3 Days"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                },
+                {
+                    "therapy": "Udvartana",
+                    "formulation": "Kolakulathadi Churna",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "3 Days",
+                        "phase": "TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#465:810": {
+                            "edge_id": "#465:810",
+                            "type": "TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:99",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "treated"
+                        },
+                        "#468:2659": {
+                            "edge_id": "#468:2659",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:99",
+                            "target": "#440:2085",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "3 Days"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "3 Days"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                },
+                {
+                    "therapy": "Virechana",
+                    "formulation": "Trivrit Lehyam",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "1 Day",
+                        "Dose": "80 ml",
+                        "phase": "TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#465:811": {
+                            "edge_id": "#465:811",
+                            "type": "TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:107",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "treated"
+                        },
+                        "#468:2755": {
+                            "edge_id": "#468:2755",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:107",
+                            "target": "#440:293",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "1 Day",
+                                "Dose": "80 ml"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "1 Day"
+                                },
+                                {
+                                    "key": "Dose",
+                                    "label": "Dose",
+                                    "value": "80 ml"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                },
+                {
+                    "therapy": "Virechana",
+                    "formulation": "Drakshadi Kashaya",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "1 Day",
+                        "Dose": "150 ml",
+                        "phase": "TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#465:811": {
+                            "edge_id": "#465:811",
+                            "type": "TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:107",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "treated"
+                        },
+                        "#468:4119": {
+                            "edge_id": "#468:4119",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:107",
+                            "target": "#440:612",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "1 Day",
+                                "Dose": "150 ml"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "1 Day"
+                                },
+                                {
+                                    "key": "Dose",
+                                    "label": "Dose",
+                                    "value": "150 ml"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                },
+                {
+                    "therapy": "Shamana",
+                    "formulation": "Mahatikta Lepa",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "17 to 32 Days",
+                        "Dose": "External application",
+                        "phase": "POST_TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#466:151": {
+                            "edge_id": "#466:151",
+                            "type": "POST_TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:82",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "post-treated"
+                        },
+                        "#468:2210": {
+                            "edge_id": "#468:2210",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:82",
+                            "target": "#440:30",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "17 to 32 Days",
+                                "Dose": "External application"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "17 to 32 Days"
+                                },
+                                {
+                                    "key": "Dose",
+                                    "label": "Dose",
+                                    "value": "External application"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                },
+                {
+                    "therapy": "Shamana",
+                    "formulation": "Aragvadhadi Kashaya",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "17 to 32 Days",
+                        "Dose": "5 tsp morning and evening, one hour before food",
+                        "phase": "POST_TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#466:151": {
+                            "edge_id": "#466:151",
+                            "type": "POST_TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:82",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "post-treated"
+                        },
+                        "#468:2363": {
+                            "edge_id": "#468:2363",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:82",
+                            "target": "#440:479",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "17 to 32 Days",
+                                "Dose": "5 tsp morning and evening, one hour before food"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "17 to 32 Days"
+                                },
+                                {
+                                    "key": "Dose",
+                                    "label": "Dose",
+                                    "value": "5 tsp morning and evening, one hour before food"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                },
+                {
+                    "therapy": "Shamana",
+                    "formulation": "Gandhak Rasayan",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "17 to 32 Days",
+                        "Adjuvant": "Aragvadhadi Kashaya",
+                        "Dose": "2 tablets",
+                        "phase": "POST_TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#466:151": {
+                            "edge_id": "#466:151",
+                            "type": "POST_TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:82",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "post-treated"
+                        },
+                        "#468:2424": {
+                            "edge_id": "#468:2424",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:82",
+                            "target": "#440:636",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "17 to 32 Days",
+                                "Adjuvant": "Aragvadhadi Kashaya",
+                                "Dose": "2 tablets"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "17 to 32 Days"
+                                },
+                                {
+                                    "key": "Adjuvant",
+                                    "label": "Adjuvant",
+                                    "value": "Aragvadhadi Kashaya"
+                                },
+                                {
+                                    "key": "Dose",
+                                    "label": "Dose",
+                                    "value": "2 tablets"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                },
+                {
+                    "therapy": "Shamana",
+                    "formulation": "Gandharvahastadi Eranda Taila",
+                    "properties": {
+                        "procedure": "",
+                        "result": "",
+                        "pubmed_id": "",
+                        "doi": "",
+                        "ayush_id": "253965",
+                        "references": [
+                            {
+                                "raw": "253965",
+                                "identifier": "253965",
+                                "namespace": "AYUSH",
+                                "status": "verified",
+                                "resolution_status": "confirmed",
+                                "catalog_version": "2026-09-24.v1",
+                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                "aliases": {
+                                    "artid": "253965(Ay)",
+                                    "arp_id": "ARP_AYU016355"
+                                }
+                            }
+                        ],
+                        "Duration": "17 to 32 Days",
+                        "Adjuvant": "5 ml warm milk",
+                        "Dose": "2 tsp at bedtime",
+                        "phase": "POST_TREATED_BY"
+                    },
+                    "edge_properties": {
+                        "#466:151": {
+                            "edge_id": "#466:151",
+                            "type": "POST_TREATED_BY",
+                            "source": "#420:124",
+                            "target": "#444:82",
+                            "properties": {
+                                "ref": "253965"
+                            },
+                            "display_properties": [],
+                            "treatment_phase": "post-treated"
+                        },
+                        "#468:2426": {
+                            "edge_id": "#468:2426",
+                            "type": "USES_FORMULATION",
+                            "source": "#444:82",
+                            "target": "#440:638",
+                            "properties": {
+                                "ref": "253965",
+                                "Duration": "17 to 32 Days",
+                                "Adjuvant": "5 ml warm milk",
+                                "Dose": "2 tsp at bedtime"
+                            },
+                            "display_properties": [
+                                {
+                                    "key": "Duration",
+                                    "label": "Duration",
+                                    "value": "17 to 32 Days"
+                                },
+                                {
+                                    "key": "Adjuvant",
+                                    "label": "Adjuvant",
+                                    "value": "5 ml warm milk"
+                                },
+                                {
+                                    "key": "Dose",
+                                    "label": "Dose",
+                                    "value": "2 tsp at bedtime"
+                                }
+                            ],
+                            "treatment_phase": null
+                        }
+                    }
+                }
+            ],
+            "evidence_paths": [
+                {
+                    "result_index": 0,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:52",
+                                    "type": "Therapy",
+                                    "label": "Oral Medication"
+                                },
+                                {
+                                    "id": "#440:252",
+                                    "type": "Formulation",
+                                    "label": "Sutshekhar Rasa"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#465:806",
+                                    "type": "TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:52",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "treated"
+                                },
+                                {
+                                    "id": "#468:795",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:52",
+                                    "target": "#440:252",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "3 Days",
+                                        "Dose": "2 tablets thrice daily, half an hour before food"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "3 Days"
+                                        },
+                                        {
+                                            "key": "Dose",
+                                            "label": "Dose",
+                                            "value": "2 tablets thrice daily, half an hour before food"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                },
+                {
+                    "result_index": 1,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:77",
+                                    "type": "Therapy",
+                                    "label": "Sarvanga Abhyanga"
+                                },
+                                {
+                                    "id": "#440:394",
+                                    "type": "Formulation",
+                                    "label": "Nalpamaradi Keram"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#465:807",
+                                    "type": "TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:77",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "treated"
+                                },
+                                {
+                                    "id": "#468:2173",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:77",
+                                    "target": "#440:394",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "3 Days"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "3 Days"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                },
+                {
+                    "result_index": 2,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:93",
+                                    "type": "Therapy",
+                                    "label": "Snehapana"
+                                },
+                                {
+                                    "id": "#440:31",
+                                    "type": "Formulation",
+                                    "label": "Mahatikta Ghrita"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#465:808",
+                                    "type": "TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:93",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "treated"
+                                },
+                                {
+                                    "id": "#468:2521",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:93",
+                                    "target": "#440:31",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "4 Days",
+                                        "Dose": "30 ml, 70 ml, 100 ml, 120 ml"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "4 Days"
+                                        },
+                                        {
+                                            "key": "Dose",
+                                            "label": "Dose",
+                                            "value": "30 ml, 70 ml, 100 ml, 120 ml"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                },
+                {
+                    "result_index": 3,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:94",
+                                    "type": "Therapy",
+                                    "label": "Swedana"
+                                },
+                                {
+                                    "id": "#440:528",
+                                    "type": "Formulation",
+                                    "label": "Bashpa Sweda"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#465:809",
+                                    "type": "TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:94",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "treated"
+                                },
+                                {
+                                    "id": "#468:2613",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:94",
+                                    "target": "#440:528",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "3 Days"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "3 Days"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                },
+                {
+                    "result_index": 4,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:99",
+                                    "type": "Therapy",
+                                    "label": "Udvartana"
+                                },
+                                {
+                                    "id": "#440:2085",
+                                    "type": "Formulation",
+                                    "label": "Kolakulathadi Churna"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#465:810",
+                                    "type": "TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:99",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "treated"
+                                },
+                                {
+                                    "id": "#468:2659",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:99",
+                                    "target": "#440:2085",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "3 Days"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "3 Days"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                },
+                {
+                    "result_index": 5,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:107",
+                                    "type": "Therapy",
+                                    "label": "Virechana"
+                                },
+                                {
+                                    "id": "#440:293",
+                                    "type": "Formulation",
+                                    "label": "Trivrit Lehyam"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#465:811",
+                                    "type": "TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:107",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "treated"
+                                },
+                                {
+                                    "id": "#468:2755",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:107",
+                                    "target": "#440:293",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "1 Day",
+                                        "Dose": "80 ml"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "1 Day"
+                                        },
+                                        {
+                                            "key": "Dose",
+                                            "label": "Dose",
+                                            "value": "80 ml"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                },
+                {
+                    "result_index": 6,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:107",
+                                    "type": "Therapy",
+                                    "label": "Virechana"
+                                },
+                                {
+                                    "id": "#440:612",
+                                    "type": "Formulation",
+                                    "label": "Drakshadi Kashaya"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#465:811",
+                                    "type": "TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:107",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "treated"
+                                },
+                                {
+                                    "id": "#468:4119",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:107",
+                                    "target": "#440:612",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "1 Day",
+                                        "Dose": "150 ml"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "1 Day"
+                                        },
+                                        {
+                                            "key": "Dose",
+                                            "label": "Dose",
+                                            "value": "150 ml"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                },
+                {
+                    "result_index": 7,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:82",
+                                    "type": "Therapy",
+                                    "label": "Shamana"
+                                },
+                                {
+                                    "id": "#440:30",
+                                    "type": "Formulation",
+                                    "label": "Mahatikta Lepa"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#466:151",
+                                    "type": "POST_TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:82",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "post-treated"
+                                },
+                                {
+                                    "id": "#468:2210",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:82",
+                                    "target": "#440:30",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "17 to 32 Days",
+                                        "Dose": "External application"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "17 to 32 Days"
+                                        },
+                                        {
+                                            "key": "Dose",
+                                            "label": "Dose",
+                                            "value": "External application"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                },
+                {
+                    "result_index": 8,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:82",
+                                    "type": "Therapy",
+                                    "label": "Shamana"
+                                },
+                                {
+                                    "id": "#440:479",
+                                    "type": "Formulation",
+                                    "label": "Aragvadhadi Kashaya"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#466:151",
+                                    "type": "POST_TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:82",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "post-treated"
+                                },
+                                {
+                                    "id": "#468:2363",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:82",
+                                    "target": "#440:479",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "17 to 32 Days",
+                                        "Dose": "5 tsp morning and evening, one hour before food"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "17 to 32 Days"
+                                        },
+                                        {
+                                            "key": "Dose",
+                                            "label": "Dose",
+                                            "value": "5 tsp morning and evening, one hour before food"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                },
+                {
+                    "result_index": 9,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:82",
+                                    "type": "Therapy",
+                                    "label": "Shamana"
+                                },
+                                {
+                                    "id": "#440:636",
+                                    "type": "Formulation",
+                                    "label": "Gandhak Rasayan"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#466:151",
+                                    "type": "POST_TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:82",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "post-treated"
+                                },
+                                {
+                                    "id": "#468:2424",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:82",
+                                    "target": "#440:636",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "17 to 32 Days",
+                                        "Adjuvant": "Aragvadhadi Kashaya",
+                                        "Dose": "2 tablets"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "17 to 32 Days"
+                                        },
+                                        {
+                                            "key": "Adjuvant",
+                                            "label": "Adjuvant",
+                                            "value": "Aragvadhadi Kashaya"
+                                        },
+                                        {
+                                            "key": "Dose",
+                                            "label": "Dose",
+                                            "value": "2 tablets"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                },
+                {
+                    "result_index": 10,
+                    "paths": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#420:124",
+                                    "type": "Disease",
+                                    "label": "Vipadika"
+                                },
+                                {
+                                    "id": "#444:82",
+                                    "type": "Therapy",
+                                    "label": "Shamana"
+                                },
+                                {
+                                    "id": "#440:638",
+                                    "type": "Formulation",
+                                    "label": "Gandharvahastadi Eranda Taila"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#466:151",
+                                    "type": "POST_TREATED_BY",
+                                    "source": "#420:124",
+                                    "target": "#444:82",
+                                    "properties": {
+                                        "ref": "253965"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [],
+                                    "treatment_phase": "post-treated"
+                                },
+                                {
+                                    "id": "#468:2426",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#444:82",
+                                    "target": "#440:638",
+                                    "properties": {
+                                        "ref": "253965",
+                                        "Duration": "17 to 32 Days",
+                                        "Adjuvant": "5 ml warm milk",
+                                        "Dose": "2 tsp at bedtime"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "",
+                                        "doi": "",
+                                        "ayush_id": "253965",
+                                        "references": [
+                                            {
+                                                "raw": "253965",
+                                                "identifier": "253965",
+                                                "namespace": "AYUSH",
+                                                "status": "verified",
+                                                "resolution_status": "confirmed",
+                                                "catalog_version": "2026-09-24.v1",
+                                                "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                                                "source": "AYUSH 253965(Ay) / ARP_AYU016355; AYURVEDIC TREATMENT OF VIPADIKA (KSHUDRA KUSHTHA) - A CASE STUDY.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=16355&rptypeReport=0&rpreportname=0",
+                                                "aliases": {
+                                                    "artid": "253965(Ay)",
+                                                    "arp_id": "ARP_AYU016355"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "display_properties": [
+                                        {
+                                            "key": "Duration",
+                                            "label": "Duration",
+                                            "value": "17 to 32 Days"
+                                        },
+                                        {
+                                            "key": "Adjuvant",
+                                            "label": "Adjuvant",
+                                            "value": "5 ml warm milk"
+                                        },
+                                        {
+                                            "key": "Dose",
+                                            "label": "Dose",
+                                            "value": "2 tsp at bedtime"
+                                        }
+                                    ],
+                                    "treatment_phase": null
+                                }
+                            ],
+                            "correlation": "shared_study"
+                        }
+                    ]
+                }
+            ]
+        },
+        "reason": null,
+        "resolution": [],
+        "understanding": {
+            "mode": "deterministic"
+        },
+        "conversation_context": {
+            "version": 2,
+            "subject": {
+                "id": "#420:124",
+                "name": "Vipadika",
+                "type": "Disease"
+            },
+            "last_question": "What about its formulations? for Vipadika",
+            "constraints": [],
+            "result_type": "Formulation",
+            "intent": "disease_formulation",
+            "resolved_entities": [
+                {
+                    "id": "#420:124",
+                    "name": "Vipadika",
+                    "type": "Disease"
+                }
+            ]
+        }
+    }
+}

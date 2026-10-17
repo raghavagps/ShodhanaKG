@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "id": "#5:24",
+      "label": "Copper",
+      "type": "Compound",
+      "description": "",
+      "Ayurvedic_Name": "Tamra",
+      "Compound_Type": "Metal",
+      "Pharmacological_Activity": "Antimicrobial activity, Hepatoprotective activity, Cardioprotective activity, Anti-inflammatory activity, Antitumor activity, Hematinic activity, Appetite-stimulant activity, Anti-tubercular activity, Purgative action, Hypolipidemic activity, Wound healing activity, Rejuvenative effect",
+      "Adverse_Effect": "Copper toxicity leads to haematuria, glomerulonephritis, gastro-intestinal disturbances, peripheral neuritis, and circulatory collapse, paralysis of limbs and atrophy of muscles, Vomiting, Fainting, Hallucination, Spasmodic pain, Burning sensation, Delirium, Loss of appetite, coma and Severe toxicity may lead to death."
+    },
+    {
+      "id": "#13:1",
+      "label": "Swedana",
+      "type": "ShodhanaMethod",
+      "description": "Swedana involves heating the raw material in a liquid medium using mild heat, usually by boiling or steaming (often in a Dolayantra setup). The process removes impurities, reduces toxicity, softens the material, and facilitates further purification or processing.",
+      "Method_Description": "Swedana involves heating the raw material in a liquid medium using mild heat, usually by boiling or steaming (often in a Dolayantra setup). The process removes impurities, reduces toxicity, softens the material, and facilitates further purification or processing."
+    },
+    {
+      "id": "#25:29",
+      "label": "Shodhita Tamra",
+      "type": "PurifiedCompound",
+      "description": ""
+    }
+  ],
+  "edges": [
+    {
+      "id": "#73:128",
+      "source": "#5:24",
+      "target": "#13:1",
+      "type": "UNDERGOES",
+      "properties": {
+        "ref": "23723677"
+      },
+      "display_properties": [],
+      "raw_type": "UNDERGOES",
+      "treatment_phase": null,
+      "reference": "23723677",
+      "references": [
+        {
+          "raw": "23723677",
+          "identifier": "23723677",
+          "namespace": "PMID",
+          "status": "verified",
+          "resolution_status": "confirmed",
+          "catalog_version": "2026-09-24.v1",
+          "verified_at": "2026-09-24T13:17:55.895234+00:00",
+          "source": "NCBI EFetch: Standard manufacturing procedure of Tamra Bhasma.; https://pubmed.ncbi.nlm.nih.gov/23723677/; cached request https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=22455%2C22529653%2C22529660%2C22556471%2C22556497%2C22556879%2C22557218%2C22557361%2C22557364%2C22557426%2C22557432%2C22557464%2C22561344%2C22661842%2C22661850%2C22668%2C226987%2C227025%2C227062%2C22736901%2C22822%2C22827%2C23049184%2C23049187%2C23049188%2C23049194%2C23049196%2C23105410%2C23284206%2C23284208%2C23284213%2C23559794%2C23559796%2C23559797%2C23633854%2C23661863%2C23723650%2C23723667%2C23723672%2C23723674%2C23723677%2C23741157%2C237901%2C237938%2C237978%2C238386%2C238408%2C238414%2C238662%2C238755&retmode=xml",
+          "aliases": []
+        }
+      ],
+      "pubmedId": "23723677"
+    }
+  ],
+  "meta": {
+    "depth": 1,
+    "truncated": true,
+    "truncatedReason": "edge_cap",
+    "totalNodes": 3,
+    "totalEdges": 1,
+    "queryMs": 46,
+    "evidencePaths": [],
+    "continuations": []
+  }
+}

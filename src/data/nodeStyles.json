@@ -1,0 +1,70 @@
+{
+  "Indication": {
+    "normal": "hsl(4, 56%, 48%)",
+    "accessible": "#D55E00"
+  },
+  "AyurvedicFormulation": {
+    "normal": "hsl(320, 44%, 68%)",
+    "accessible": "#CC79A7"
+  },
+  "Disease": {
+    "normal": "hsl(4, 56%, 48%)",
+    "accessible": "#D55E00"
+  },
+  "AyurvedicDiagnosis": {
+    "normal": "hsl(266.5909090909, 35.2%, 49.0196078431%)",
+    "accessible": "#56B4E9"
+  },
+  "Therapy": {
+    "normal": "hsl(162, 45%, 42%)",
+    "accessible": "#009E73"
+  },
+  "Formulation": {
+    "normal": "hsl(320, 44%, 68%)",
+    "accessible": "#CC79A7"
+  },
+  "Symptom": {
+    "normal": "hsl(40, 90%, 62%)",
+    "accessible": "#F0E442"
+  },
+  "AssessmentParameter": {
+    "normal": "hsl(208, 54%, 48%)",
+    "accessible": "#0072B2"
+  },
+  "Dosha": {
+    "normal": "hsl(20, 53%, 37%)",
+    "accessible": "#000000"
+  },
+  "Compound": {
+    "normal": "hsl(120, 25%, 50%)",
+    "accessible": "#009E73"
+  },
+  "ShodhanaMethod": {
+    "normal": "hsl(28, 75%, 55%)",
+    "accessible": "#E69F00"
+  },
+  "ToxicSubstance": {
+    "normal": "hsl(0, 70%, 55%)",
+    "accessible": "#D55E00"
+  },
+  "PurifiedCompound": {
+    "normal": "hsl(205, 65%, 55%)",
+    "accessible": "#56B4E9"
+  },
+  "ShodhanaType": {
+    "normal": "hsl(270, 60%, 60%)",
+    "accessible": "#CC79A7"
+  },
+  "Media": {
+    "normal": "hsl(180, 40%, 50%)",
+    "accessible": "#0072B2"
+  },
+  "ConfirmationStudy": {
+    "normal": "hsl(48, 85%, 60%)",
+    "accessible": "#F0E442"
+  },
+  "Process": {
+    "normal": "hsl(35, 30%, 50%)",
+    "accessible": "#A68A59"
+  }
+}

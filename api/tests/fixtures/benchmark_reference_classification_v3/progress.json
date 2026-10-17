@@ -1,0 +1,71 @@
+[
+  {
+    "suite": "snapshot",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\capture_expanded_snapshot.php",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\benchmark_reference_classification_v3\\snapshot.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.39
+  },
+  {
+    "suite": "factual",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_expanded_factual.php",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\expanded_factual_cases_v3.json",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\benchmark_reference_classification_v3\\factual.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 19.53
+  },
+  {
+    "suite": "attribution",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_legacy_evidence.py",
+      "--answers",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\benchmark_reference_classification_v3\\factual.json",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\benchmark_reference_classification_v3\\attribution.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 2.36
+  },
+  {
+    "suite": "presentation",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_results_presentation.py",
+      "--capture",
+      "--answers",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\benchmark_reference_classification_v3\\answers.json",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\benchmark_reference_classification_v3\\presentation.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 23.34
+  },
+  {
+    "suite": "conversation",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_conversations.py",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\benchmark_reference_classification_v3\\conversation.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 132.94
+  },
+  {
+    "suite": "routing",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_evaluation_cases.php",
+      "--http"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 18.24
+  }
+]

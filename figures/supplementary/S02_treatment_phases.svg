@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="735pt" height="844pt" viewBox="0.00 0.00 735.00 844.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(18 826)">
+<polygon fill="white" stroke="none" points="-18,18 -18,-826 716.5,-826 716.5,18 -18,18" />
+
+<g id="node-a48bf335570c17c8bea1" class="node">
+<path fill="none" stroke="#2166a0" d="M97.75,-418C97.75,-418 12,-418 12,-418 6,-418 0,-412 0,-406 0,-406 0,-394 0,-394 0,-388 6,-382 12,-382 12,-382 97.75,-382 97.75,-382 103.75,-382 109.75,-388 109.75,-394 109.75,-394 109.75,-406 109.75,-406 109.75,-412 103.75,-418 97.75,-418" />
+<text xml:space="preserve" text-anchor="middle" x="54.88" y="-403.05" font-family="Arial" font-size="11.00">Vipadika</text>
+<text xml:space="preserve" text-anchor="middle" x="54.88" y="-389.55" font-family="Arial" font-size="11.00">Disease · #420:124</text>
+<title>{"@rid": "#420:124", "@type": "Disease", "@cat": "v", "Description": "Vipadika or Vaipadika is explained as one among Eleven Kshudra Kushtas (Minor skin ailments) which has the features of Paanipaada sputana (Cracking of palms and soles) associated with Teevravedana (Intense pain) as explained by Acharya Charaka.", "name": "Vipadika", "id": "826"}</title></g>
+
+<g id="node-71e69e476a12c6cec91b" class="node">
+<path fill="none" stroke="#2166a0" d="M371.5,-732C371.5,-732 285,-732 285,-732 279,-732 273,-726 273,-720 273,-720 273,-708 273,-708 273,-702 279,-696 285,-696 285,-696 371.5,-696 371.5,-696 377.5,-696 383.5,-702 383.5,-708 383.5,-708 383.5,-720 383.5,-720 383.5,-726 377.5,-732 371.5,-732" />
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-717.05" font-family="Arial" font-size="11.00">Virechana</text>
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-703.55" font-family="Arial" font-size="11.00">Therapy · #444:107</text>
+<title>{"@rid": "#444:107", "@type": "Therapy", "@cat": "v", "Description": "Therapeutic purgation for elimination of aggravated doshas.", "name": "Virechana", "id": "2501"}</title></g>
+
+<g id="edge-b0123b4cc417272106fe" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M60.47,-418.23C70.84,-456.34 99.17,-545.62 149.75,-603 184.97,-642.95 238.02,-673.53 276.95,-692.38" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="275.83,-694.36 282.67,-695.11 277.79,-690.26 275.83,-694.36" />
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-679.12" font-family="Arial" font-size="9.00">TREATED BY</text>
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-668.62" font-family="Arial" font-size="9.00">#465:811</text>
+<title>{"@rid": "#465:811", "@type": "TREATED_BY", "@cat": "e", "@in": "#444:107", "@out": "#420:124", "ref": "253965"}</title></g>
+
+<g id="node-33c416d77f08c656e8a6" class="node">
+<path fill="none" stroke="#2166a0" d="M368.5,-643C368.5,-643 288,-643 288,-643 282,-643 276,-637 276,-631 276,-631 276,-619 276,-619 276,-613 282,-607 288,-607 288,-607 368.5,-607 368.5,-607 374.5,-607 380.5,-613 380.5,-619 380.5,-619 380.5,-631 380.5,-631 380.5,-637 374.5,-643 368.5,-643" />
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-628.05" font-family="Arial" font-size="11.00">Oral Medication</text>
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-614.55" font-family="Arial" font-size="11.00">Therapy · #444:52</text>
+<title>{"@rid": "#444:52", "@type": "Therapy", "@cat": "v", "Description": "Administration of therapeutic medicine by mouth.", "name": "Oral Medication", "id": "2446"}</title></g>
+
+<g id="edge-8a7344f1acc286178243" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M67.94,-418.32C84.43,-442.43 115.86,-485.24 149.75,-515 191.09,-551.29 245.77,-583.2 283.47,-603.18" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="282.15,-605.06 288.96,-606.07 284.26,-601.03 282.15,-605.06" />
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-584.16" font-family="Arial" font-size="9.00">TREATED BY</text>
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-573.66" font-family="Arial" font-size="9.00">#465:806</text>
+<title>{"@rid": "#465:806", "@type": "TREATED_BY", "@cat": "e", "@in": "#444:52", "@out": "#420:124", "ref": "253965"}</title></g>
+
+<g id="node-23bdcccf4e91beabe04b" class="node">
+<path fill="none" stroke="#2166a0" d="M373,-554C373,-554 283.5,-554 283.5,-554 277.5,-554 271.5,-548 271.5,-542 271.5,-542 271.5,-530 271.5,-530 271.5,-524 277.5,-518 283.5,-518 283.5,-518 373,-518 373,-518 379,-518 385,-524 385,-530 385,-530 385,-542 385,-542 385,-548 379,-554 373,-554" />
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-539.05" font-family="Arial" font-size="11.00">Sarvanga Abhyanga</text>
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-525.55" font-family="Arial" font-size="11.00">Therapy · #444:77</text>
+<title>{"@rid": "#444:77", "@type": "Therapy", "@cat": "v", "Description": "Full-body therapeutic oil massage.", "name": "Sarvanga Abhyanga", "id": "2471"}</title></g>
+
+<g id="edge-32190f479bae3a947604" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M92.76,-418.48C142.51,-443.42 230.97,-487.75 283.86,-514.26" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="282.74,-516.24 289.57,-517.12 284.78,-512.17 282.74,-516.24" />
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-496.63" font-family="Arial" font-size="9.00">TREATED BY</text>
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-486.13" font-family="Arial" font-size="9.00">#465:807</text>
+<title>{"@rid": "#465:807", "@type": "TREATED_BY", "@cat": "e", "@in": "#444:77", "@out": "#420:124", "ref": "253965"}</title></g>
+
+<g id="node-e4ae4c37a240ab555372" class="node">
+<path fill="none" stroke="#2166a0" d="M368.5,-418C368.5,-418 288,-418 288,-418 282,-418 276,-412 276,-406 276,-406 276,-394 276,-394 276,-388 282,-382 288,-382 288,-382 368.5,-382 368.5,-382 374.5,-382 380.5,-388 380.5,-394 380.5,-394 380.5,-406 380.5,-406 380.5,-412 374.5,-418 368.5,-418" />
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-403.05" font-family="Arial" font-size="11.00">Shamana</text>
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-389.55" font-family="Arial" font-size="11.00">Therapy · #444:82</text>
+<title>{"@rid": "#444:82", "@type": "Therapy", "@cat": "v", "Description": "Palliative therapy aimed at balancing aggravated doshas.", "name": "Shamana", "id": "2476"}</title></g>
+
+<g id="edge-b567b1e73dbfc5d18304" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M110.14,-400C155.95,-400 221.4,-400 268.45,-400" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="268.35,-402.28 274.85,-400 268.35,-397.73 268.35,-402.28" />
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-412.45" font-family="Arial" font-size="9.00">POST TREATED BY</text>
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-401.95" font-family="Arial" font-size="9.00">#466:151</text>
+<title>{"@rid": "#466:151", "@type": "POST_TREATED_BY", "@cat": "e", "@in": "#444:82", "@out": "#420:124", "ref": "253965"}</title></g>
+
+<g id="node-b742f912f6ed83591b90" class="node">
+<path fill="none" stroke="#2166a0" d="M368.5,-322C368.5,-322 288,-322 288,-322 282,-322 276,-316 276,-310 276,-310 276,-298 276,-298 276,-292 282,-286 288,-286 288,-286 368.5,-286 368.5,-286 374.5,-286 380.5,-292 380.5,-298 380.5,-298 380.5,-310 380.5,-310 380.5,-316 374.5,-322 368.5,-322" />
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-307.05" font-family="Arial" font-size="11.00">Snehapana</text>
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-293.55" font-family="Arial" font-size="11.00">Therapy · #444:93</text>
+<title>{"@rid": "#444:93", "@type": "Therapy", "@cat": "v", "Description": "Internal administration of medicated oil or ghee.", "name": "Snehapana", "id": "2487"}</title></g>
+
+<g id="edge-8c2824f2c92bf9e41921" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M107.88,-381.6C153.94,-365.31 221.11,-341.55 268.97,-324.62" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="269.59,-326.81 274.96,-322.5 268.07,-322.52 269.59,-326.81" />
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-378.66" font-family="Arial" font-size="9.00">TREATED BY</text>
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-368.16" font-family="Arial" font-size="9.00">#465:808</text>
+<title>{"@rid": "#465:808", "@type": "TREATED_BY", "@cat": "e", "@in": "#444:93", "@out": "#420:124", "ref": "253965"}</title></g>
+
+<g id="node-31051ed9985b0548324d" class="node">
+<path fill="none" stroke="#2166a0" d="M368.5,-205C368.5,-205 288,-205 288,-205 282,-205 276,-199 276,-193 276,-193 276,-181 276,-181 276,-175 282,-169 288,-169 288,-169 368.5,-169 368.5,-169 374.5,-169 380.5,-175 380.5,-181 380.5,-181 380.5,-193 380.5,-193 380.5,-199 374.5,-205 368.5,-205" />
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-190.05" font-family="Arial" font-size="11.00">Swedana</text>
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-176.55" font-family="Arial" font-size="11.00">Therapy · #444:94</text>
+<title>{"@rid": "#444:94", "@type": "Therapy", "@cat": "v", "Description": "Therapeutic sudation or fomentation.", "name": "Swedana", "id": "2488"}</title></g>
+
+<g id="edge-1c98528fffb0d7cd1dcf" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M73.43,-381.52C91.73,-362.67 121.6,-333 149.75,-310 196.54,-271.76 254.77,-232.92 291.49,-209.39" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="292.56,-211.4 296.81,-205.99 290.11,-207.57 292.56,-211.4" />
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-322.45" font-family="Arial" font-size="9.00">TREATED BY</text>
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-311.95" font-family="Arial" font-size="9.00">#465:809</text>
+<title>{"@rid": "#465:809", "@type": "TREATED_BY", "@cat": "e", "@in": "#444:94", "@out": "#420:124", "ref": "253965"}</title></g>
+
+<g id="node-a776aff6bd82926c9f1a" class="node">
+<path fill="none" stroke="#2166a0" d="M368.5,-47C368.5,-47 288,-47 288,-47 282,-47 276,-41 276,-35 276,-35 276,-23 276,-23 276,-17 282,-11 288,-11 288,-11 368.5,-11 368.5,-11 374.5,-11 380.5,-17 380.5,-23 380.5,-23 380.5,-35 380.5,-35 380.5,-41 374.5,-47 368.5,-47" />
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-32.05" font-family="Arial" font-size="11.00">Udvartana</text>
+<text xml:space="preserve" text-anchor="middle" x="328.25" y="-18.55" font-family="Arial" font-size="11.00">Therapy · #444:99</text>
+<title>{"@rid": "#444:99", "@type": "Therapy", "@cat": "v", "Description": "Massage with herbal powders, generally in an upward direction.", "name": "Udvartana", "id": "2493"}</title></g>
+
+<g id="edge-4ccad0f613e7e766aa9e" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M63.41,-381.6C77.69,-347.8 110.75,-274.23 149.75,-219 196.41,-152.93 264.72,-86.26 301.5,-52.21" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="302.73,-54.17 305.97,-48.09 299.65,-50.82 302.73,-54.17" />
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-231.45" font-family="Arial" font-size="9.00">TREATED BY</text>
+<text xml:space="preserve" text-anchor="middle" x="190.62" y="-220.95" font-family="Arial" font-size="9.00">#465:810</text>
+<title>{"@rid": "#465:810", "@type": "TREATED_BY", "@cat": "e", "@in": "#444:99", "@out": "#420:124", "ref": "253965"}</title></g>
+
+<g id="node-9d93c118da64ceb53262" class="node">
+<path fill="none" stroke="#2166a0" d="M682.38,-36C682.38,-36 572.62,-36 572.62,-36 566.62,-36 560.62,-30 560.62,-24 560.62,-24 560.62,-12 560.62,-12 560.62,-6 566.62,0 572.62,0 572.62,0 682.38,0 682.38,0 688.38,0 694.38,-6 694.38,-12 694.38,-12 694.38,-24 694.38,-24 694.38,-30 688.38,-36 682.38,-36" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-21.05" font-family="Arial" font-size="11.00">Kolakulathadi Churna</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-7.55" font-family="Arial" font-size="11.00">Formulation · #440:2085</text>
+<title>{"@rid": "#440:2085", "@type": "Formulation", "@cat": "v", "name": "Kolakulathadi Churna", "id": "2349"}</title></g>
+
+<g id="node-b97d5799cc2aeae3ece9" class="node">
+<path fill="none" stroke="#2166a0" d="M679.38,-656C679.38,-656 575.62,-656 575.62,-656 569.62,-656 563.62,-650 563.62,-644 563.62,-644 563.62,-632 563.62,-632 563.62,-626 569.62,-620 575.62,-620 575.62,-620 679.38,-620 679.38,-620 685.38,-620 691.38,-626 691.38,-632 691.38,-632 691.38,-644 691.38,-644 691.38,-650 685.38,-656 679.38,-656" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-641.05" font-family="Arial" font-size="11.00">Sutshekhar Rasa</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-627.55" font-family="Arial" font-size="11.00">Formulation · #440:252</text>
+<title>{"@rid": "#440:252", "@type": "Formulation", "@cat": "v", "Description": "Ingredients of Tab Sutshekhar ras are Parad (Mercury), Gandhak (Sulfur), Dhatura (Datura metel), Shankh Bhasma (Conch shell ash, primarily calcium based compounds), Vatsanabha (Aconitum ferox or Aconitum napellus), Trikatu (a combination of Zingiber officinale - ginger, Piper nigrum - black pepper, and Piper longum - long pepper), Chaturjat (a blend of Cinnamomum zeylanicum - cinnamon, Cinnamomum tamala - Indian bay leaf, Elettaria cardamomum-cardamom, and Caryophyllus aromaticus - clove), Tankan Bhasma (Borax ash, Sodium borate), and Tamra Bhasma (Copper ash).", "name": "Sutshekhar Rasa", "id": "1863"}</title></g>
+
+<g id="node-ef419d6ced2ebb1e61ab" class="node">
+<path fill="none" stroke="#2166a0" d="M679.38,-808C679.38,-808 575.62,-808 575.62,-808 569.62,-808 563.62,-802 563.62,-796 563.62,-796 563.62,-784 563.62,-784 563.62,-778 569.62,-772 575.62,-772 575.62,-772 679.38,-772 679.38,-772 685.38,-772 691.38,-778 691.38,-784 691.38,-784 691.38,-796 691.38,-796 691.38,-802 685.38,-808 679.38,-808" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-793.05" font-family="Arial" font-size="11.00">Trivrit Lehyam</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-779.55" font-family="Arial" font-size="11.00">Formulation · #440:293</text>
+<title>{"@rid": "#440:293", "@type": "Formulation", "@cat": "v", "Description": "Trivrit Kashaya: 100 mL, Trivrit Churna: 25 g, Sugar: 50 g, Honey: 25 mL, Cinnamon: 5 g, Cardamom: 5 g, Cinnamon leaves powder: 5 g", "name": "Trivrit Lehyam", "id": "1904"}</title></g>
+
+<g id="node-fa71f64cc0b7a8445ed7" class="node">
+<path fill="none" stroke="#2166a0" d="M676.38,-504C676.38,-504 578.62,-504 578.62,-504 572.62,-504 566.62,-498 566.62,-492 566.62,-492 566.62,-480 566.62,-480 566.62,-474 572.62,-468 578.62,-468 578.62,-468 676.38,-468 676.38,-468 682.38,-468 688.38,-474 688.38,-480 688.38,-480 688.38,-492 688.38,-492 688.38,-498 682.38,-504 676.38,-504" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-489.05" font-family="Arial" font-size="11.00">Mahatikta Lepa</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-475.55" font-family="Arial" font-size="11.00">Formulation · #440:30</text>
+<title>{"@rid": "#440:30", "@type": "Formulation", "@cat": "v", "name": "Mahatikta Lepa", "id": "1641"}</title></g>
+
+<g id="node-7dfe25b008c1b25d5a08" class="node">
+<path fill="none" stroke="#2166a0" d="M676.38,-188C676.38,-188 578.62,-188 578.62,-188 572.62,-188 566.62,-182 566.62,-176 566.62,-176 566.62,-164 566.62,-164 566.62,-158 572.62,-152 578.62,-152 578.62,-152 676.38,-152 676.38,-152 682.38,-152 688.38,-158 688.38,-164 688.38,-164 688.38,-176 688.38,-176 688.38,-182 682.38,-188 676.38,-188" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-173.05" font-family="Arial" font-size="11.00">Mahatikta Ghrita</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-159.55" font-family="Arial" font-size="11.00">Formulation · #440:31</text>
+<title>{"@rid": "#440:31", "@type": "Formulation", "@cat": "v", "Description": "A medicated ghee with chief ingredients Saptaparna (Alstonia scholaris (L.) R.Br.), Aragvadha (Withania somnifera (L.) Dunal), Nimba Twak (Azardirachta indica A. Juss), Guduchi, (Tinospora cordifolia (Willd.) Miers)", "name": "Mahatikta Ghrita", "id": "1642"}</title></g>
+
+<g id="node-d0233a3b562dc675f018" class="node">
+<path fill="none" stroke="#2166a0" d="M679.38,-580C679.38,-580 575.62,-580 575.62,-580 569.62,-580 563.62,-574 563.62,-568 563.62,-568 563.62,-556 563.62,-556 563.62,-550 569.62,-544 575.62,-544 575.62,-544 679.38,-544 679.38,-544 685.38,-544 691.38,-550 691.38,-556 691.38,-556 691.38,-568 691.38,-568 691.38,-574 685.38,-580 679.38,-580" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-565.05" font-family="Arial" font-size="11.00">Nalpamaradi Keram</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-551.55" font-family="Arial" font-size="11.00">Formulation · #440:394</text>
+<title>{"@rid": "#440:394", "@type": "Formulation", "@cat": "v", "name": "Nalpamaradi Keram", "id": "2005"}</title></g>
+
+<g id="node-43dd6de0ef5c5e5f4271" class="node">
+<path fill="none" stroke="#2166a0" d="M679.38,-428C679.38,-428 575.62,-428 575.62,-428 569.62,-428 563.62,-422 563.62,-416 563.62,-416 563.62,-404 563.62,-404 563.62,-398 569.62,-392 575.62,-392 575.62,-392 679.38,-392 679.38,-392 685.38,-392 691.38,-398 691.38,-404 691.38,-404 691.38,-416 691.38,-416 691.38,-422 685.38,-428 679.38,-428" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-413.05" font-family="Arial" font-size="11.00">Aragvadhadi Kashaya</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-399.55" font-family="Arial" font-size="11.00">Formulation · #440:479</text>
+<title>{"@rid": "#440:479", "@type": "Formulation", "@cat": "v", "name": "Aragvadhadi Kashaya", "id": "2096"}</title></g>
+
+<g id="node-80dc3c9d25b1be60470e" class="node">
+<path fill="none" stroke="#2166a0" d="M679.38,-112C679.38,-112 575.62,-112 575.62,-112 569.62,-112 563.62,-106 563.62,-100 563.62,-100 563.62,-88 563.62,-88 563.62,-82 569.62,-76 575.62,-76 575.62,-76 679.38,-76 679.38,-76 685.38,-76 691.38,-82 691.38,-88 691.38,-88 691.38,-100 691.38,-100 691.38,-106 685.38,-112 679.38,-112" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-97.05" font-family="Arial" font-size="11.00">Bashpa Sweda</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-83.55" font-family="Arial" font-size="11.00">Formulation · #440:528</text>
+<title>{"@rid": "#440:528", "@type": "Formulation", "@cat": "v", "name": "Bashpa Sweda", "id": "2145"}</title></g>
+
+<g id="node-1adb9332633fed27ef5c" class="node">
+<path fill="none" stroke="#2166a0" d="M679.38,-732C679.38,-732 575.62,-732 575.62,-732 569.62,-732 563.62,-726 563.62,-720 563.62,-720 563.62,-708 563.62,-708 563.62,-702 569.62,-696 575.62,-696 575.62,-696 679.38,-696 679.38,-696 685.38,-696 691.38,-702 691.38,-708 691.38,-708 691.38,-720 691.38,-720 691.38,-726 685.38,-732 679.38,-732" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-717.05" font-family="Arial" font-size="11.00">Drakshadi Kashaya</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-703.55" font-family="Arial" font-size="11.00">Formulation · #440:612</text>
+<title>{"@rid": "#440:612", "@type": "Formulation", "@cat": "v", "name": "Drakshadi Kashaya", "id": "2229"}</title></g>
+
+<g id="node-0553cd99ee66dfe91ad0" class="node">
+<path fill="none" stroke="#2166a0" d="M679.38,-352C679.38,-352 575.62,-352 575.62,-352 569.62,-352 563.62,-346 563.62,-340 563.62,-340 563.62,-328 563.62,-328 563.62,-322 569.62,-316 575.62,-316 575.62,-316 679.38,-316 679.38,-316 685.38,-316 691.38,-322 691.38,-328 691.38,-328 691.38,-340 691.38,-340 691.38,-346 685.38,-352 679.38,-352" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-337.05" font-family="Arial" font-size="11.00">Gandhak Rasayan</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-323.55" font-family="Arial" font-size="11.00">Formulation · #440:636</text>
+<title>{"@rid": "#440:636", "@type": "Formulation", "@cat": "v", "name": "Gandhak Rasayan", "id": "2253"}</title></g>
+
+<g id="node-511473998b3fa1a02d82" class="node">
+<path fill="none" stroke="#2166a0" d="M686.5,-276.25C686.5,-276.25 568.5,-276.25 568.5,-276.25 562.5,-276.25 556.5,-270.25 556.5,-264.25 556.5,-264.25 556.5,-239.75 556.5,-239.75 556.5,-233.75 562.5,-227.75 568.5,-227.75 568.5,-227.75 686.5,-227.75 686.5,-227.75 692.5,-227.75 698.5,-233.75 698.5,-239.75 698.5,-239.75 698.5,-264.25 698.5,-264.25 698.5,-270.25 692.5,-276.25 686.5,-276.25" />
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-261.8" font-family="Arial" font-size="11.00">Gandharvahastadi Eranda</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-248.3" font-family="Arial" font-size="11.00">Taila</text>
+<text xml:space="preserve" text-anchor="middle" x="627.5" y="-234.8" font-family="Arial" font-size="11.00">Formulation · #440:638</text>
+<title>{"@rid": "#440:638", "@type": "Formulation", "@cat": "v", "Description": "This a special preparation in castor oil medium by using the ingredients of Gandharvahastadi kwatha", "name": "Gandharvahastadi Eranda Taila", "id": "2255"}</title></g>
+
+<g id="edge-ff15b7b5ab6a98246884" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M383.17,-732.43C396.75,-736.8 411.35,-741.27 425,-745 468.3,-756.82 517.44,-767.84 556.36,-776.02" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="555.71,-778.21 562.54,-777.31 556.64,-773.75 555.71,-778.21" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-779.05" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-768.55" font-family="Arial" font-size="9.00">#468:2755</text>
+<title>{"@rid": "#468:2755", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:293", "@out": "#444:107", "ref": "253965", "Duration": "1 Day", "Dose": "80 ml"}</title></g>
+
+<g id="edge-ea5d0fc8375f30c20a16" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M383.77,-714C432.19,-714 503.26,-714 555.99,-714" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="555.82,-716.28 562.32,-714 555.82,-711.73 555.82,-716.28" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-726.45" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-715.95" font-family="Arial" font-size="9.00">#468:4119</text>
+<title>{"@rid": "#468:4119", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:612", "@out": "#444:107", "ref": "253965", "Duration": "1 Day", "Dose": "150 ml"}</title></g>
+
+<g id="edge-6ca3f5bd3cb43bc8cde0" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M380.69,-627.25C429.09,-629.37 501.99,-632.55 555.84,-634.91" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="555.73,-637.18 562.32,-635.19 555.93,-632.64 555.73,-637.18" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-645.5" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-635" font-family="Arial" font-size="9.00">#468:795</text>
+<title>{"@rid": "#468:795", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:252", "@out": "#444:52", "ref": "253965", "Duration": "3 Days", "Dose": "2 tablets thrice daily, half an hour before food"}</title></g>
+
+<g id="edge-0ae207ac334eb5d853c0" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M385.16,-540.89C433.59,-545.13 503.88,-551.27 556.13,-555.84" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="555.72,-558.09 562.39,-556.39 556.12,-553.56 555.72,-558.09" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-564.54" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-554.04" font-family="Arial" font-size="9.00">#468:2173</text>
+<title>{"@rid": "#468:2173", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:394", "@out": "#444:77", "ref": "253965", "Duration": "3 Days"}</title></g>
+
+<g id="edge-cd6cb51dcdfdc3ba4bc3" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M373.16,-418.35C389.3,-424.72 407.82,-431.62 425,-437 469.15,-450.83 519.74,-463.12 559.19,-471.94" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="558.63,-474.14 565.47,-473.33 559.61,-469.7 558.63,-474.14" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-473.52" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-463.02" font-family="Arial" font-size="9.00">#468:2210</text>
+<title>{"@rid": "#468:2210", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:30", "@out": "#444:82", "ref": "253965", "Duration": "17 to 32 Days", "Dose": "External application"}</title></g>
+
+<g id="edge-dc75f95b5da4b8354c84" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M380.69,-401.73C429.09,-403.36 501.99,-405.81 555.84,-407.62" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="555.75,-409.9 562.32,-407.84 555.9,-405.35 555.75,-409.9" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-418.64" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-408.14" font-family="Arial" font-size="9.00">#468:2363</text>
+<title>{"@rid": "#468:2363", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:479", "@out": "#444:82", "ref": "253965", "Duration": "17 to 32 Days", "Dose": "5 tsp morning and evening, one hour before food"}</title></g>
+
+<g id="edge-c7ba9b56891a7bfefc62" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M380.68,-383.95C394.96,-379.77 410.52,-375.47 425,-372 468.34,-361.6 517.49,-352.29 556.39,-345.48" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="556.55,-347.76 562.57,-344.41 555.77,-343.28 556.55,-347.76" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-384.45" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-373.95" font-family="Arial" font-size="9.00">#468:2424</text>
+<title>{"@rid": "#468:2424", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:636", "@out": "#444:82", "ref": "253965", "Duration": "17 to 32 Days", "Adjuvant": "Aragvadhadi Kashaya", "Dose": "2 tablets"}</title></g>
+
+<g id="edge-66ec31420cc19e4af414" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M347.6,-381.72C365.88,-364.35 395.42,-338.51 425,-322 463.82,-300.34 510.53,-283.6 549.2,-271.93" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="549.8,-274.13 555.38,-270.09 548.5,-269.77 549.8,-274.13" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-334.45" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-323.95" font-family="Arial" font-size="9.00">#468:2426</text>
+<title>{"@rid": "#468:2426", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:638", "@out": "#444:82", "ref": "253965", "Duration": "17 to 32 Days", "Adjuvant": "5 ml warm milk", "Dose": "2 tsp at bedtime"}</title></g>
+
+<g id="edge-da2b939022b22f02c87d" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M342.24,-285.65C365.64,-252.85 413.52,-187 425,-181 465.85,-159.63 517.95,-157.32 558.94,-160.13" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="558.56,-162.38 565.22,-160.61 558.91,-157.85 558.56,-162.38" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-193.45" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-182.95" font-family="Arial" font-size="9.00">#468:2521</text>
+<title>{"@rid": "#468:2521", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:31", "@out": "#444:93", "ref": "253965", "Duration": "4 Days", "Dose": "30 ml, 70 ml, 100 ml, 120 ml"}</title></g>
+
+<g id="edge-5eac22537fe30b897b07" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M342.36,-168.75C358.87,-147.47 389.41,-113.38 425,-99 466.23,-82.34 516.19,-80.99 556.04,-83.85" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="555.72,-86.11 562.38,-84.36 556.08,-81.57 555.72,-86.11" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-111.45" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-100.95" font-family="Arial" font-size="9.00">#468:2613</text>
+<title>{"@rid": "#468:2613", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:528", "@out": "#444:94", "ref": "253965", "Duration": "3 Days"}</title></g>
+
+<g id="edge-9e379d8be54699b40294" class="edge">
+<path fill="none" stroke="#7c858d" stroke-width="0.65" d="M380.91,-25.4C395.19,-24.51 410.69,-23.63 425,-23 467.46,-21.14 514.98,-19.92 553.2,-19.15" />
+<polygon fill="#7c858d" stroke="#7c858d" stroke-width="0.65" points="552.79,-21.44 559.24,-19.03 552.7,-16.89 552.79,-21.44" />
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-35.45" font-family="Arial" font-size="9.00">USES FORMULATION</text>
+<text xml:space="preserve" text-anchor="middle" x="470.75" y="-24.95" font-family="Arial" font-size="9.00">#468:2659</text>
+<title>{"@rid": "#468:2659", "@type": "USES_FORMULATION", "@cat": "e", "@in": "#440:2085", "@out": "#444:99", "ref": "253965", "Duration": "3 Days"}</title></g>
+</g>
+<title>S02 treatment phases</title><desc>ShodhanaKG; native editable vectors. {"kind": "instances", "nodes": 19, "edges": 18}</desc></svg>

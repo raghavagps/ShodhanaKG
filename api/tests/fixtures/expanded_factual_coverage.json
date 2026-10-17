@@ -1,0 +1,972 @@
+[
+  {
+    "endpoint": "assessment_disease",
+    "positive_entities_available": 279,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "ASSESS"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "ASSESS"
+      ]
+    ]
+  },
+  {
+    "endpoint": "ayurvedic_diagnosis_disease",
+    "positive_entities_available": 107,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "HAS_AYURVEDIC_DIAGNOSIS"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "HAS_AYURVEDIC_DIAGNOSIS"
+      ]
+    ]
+  },
+  {
+    "endpoint": "classification_process",
+    "positive_entities_available": 2,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "CLASSIFIED_AS"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "CLASSIFIED_AS"
+      ]
+    ]
+  },
+  {
+    "endpoint": "compound_detoxification",
+    "positive_entities_available": 19,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "UNDERGOES",
+        "DETOXIFIES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "UNDERGOES",
+        "DETOXIFIES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "compound_media",
+    "positive_entities_available": 51,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "UNDERGOES",
+        "USES_MEDIA"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "UNDERGOES",
+        "USES_MEDIA"
+      ]
+    ]
+  },
+  {
+    "endpoint": "compound_purification",
+    "positive_entities_available": 48,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "UNDERGOES",
+        "PRODUCES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "UNDERGOES",
+        "PRODUCES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "compound_purified_forms",
+    "positive_entities_available": 52,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "DERIEVED_FROM"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "DERIEVED_FROM"
+      ]
+    ]
+  },
+  {
+    "endpoint": "compound_shodhana_process",
+    "positive_entities_available": 51,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "UNDERGOES",
+        "USES_MEDIA"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "UNDERGOES",
+        "USES_MEDIA"
+      ]
+    ]
+  },
+  {
+    "endpoint": "compound_therapeutic_use",
+    "positive_entities_available": 29,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "UNDERGOES",
+        "PRODUCES",
+        "TREATS"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "UNDERGOES",
+        "PRODUCES",
+        "TREATS"
+      ]
+    ]
+  },
+  {
+    "endpoint": "compound_toxicity",
+    "positive_entities_available": 23,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "CONTAINS"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "CONTAINS"
+      ]
+    ]
+  },
+  {
+    "endpoint": "compound_validation",
+    "positive_entities_available": 51,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "UNDERGOES",
+        "FOLLOWED_BY",
+        "VALIDATED_BY"
+      ],
+      [
+        "UNDERGOES",
+        "VALIDATED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "UNDERGOES",
+        "VALIDATED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "confirmation_study_method",
+    "positive_entities_available": 162,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "VALIDATED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "VALIDATED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "confirmation_study_purified_compound",
+    "positive_entities_available": 162,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "CONFIRMS_SAFETY_OF"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "CONFIRMS_SAFETY_OF"
+      ]
+    ]
+  },
+  {
+    "endpoint": "disease_assessment",
+    "positive_entities_available": 134,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "ASSESS"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "ASSESS"
+      ]
+    ]
+  },
+  {
+    "endpoint": "disease_diagnosis",
+    "positive_entities_available": 122,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "HAS_AYURVEDIC_DIAGNOSIS"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "HAS_AYURVEDIC_DIAGNOSIS"
+      ]
+    ]
+  },
+  {
+    "endpoint": "disease_dosha",
+    "positive_entities_available": 125,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "HAS_DOSHA_IMBALANCE"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "HAS_DOSHA_IMBALANCE"
+      ]
+    ]
+  },
+  {
+    "endpoint": "disease_formulation",
+    "positive_entities_available": 134,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "POST_TREATED_BY",
+        "USES_FORMULATION"
+      ],
+      [
+        "PRE_TREATED_BY",
+        "USES_FORMULATION"
+      ],
+      [
+        "TREATED_BY",
+        "USES_FORMULATION"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "POST_TREATED_BY",
+        "USES_FORMULATION"
+      ],
+      [
+        "PRE_TREATED_BY",
+        "USES_FORMULATION"
+      ],
+      [
+        "TREATED_BY",
+        "USES_FORMULATION"
+      ]
+    ]
+  },
+  {
+    "endpoint": "disease_symptoms",
+    "positive_entities_available": 130,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "HAS_SYMPTOM"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "HAS_SYMPTOM"
+      ]
+    ]
+  },
+  {
+    "endpoint": "disease_therapy",
+    "positive_entities_available": 134,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "POST_TREATED_BY"
+      ],
+      [
+        "PRE_TREATED_BY"
+      ],
+      [
+        "TREATED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "PRE_TREATED_BY"
+      ],
+      [
+        "TREATED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "dosha_disease",
+    "positive_entities_available": 3,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "HAS_DOSHA_IMBALANCE"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "HAS_DOSHA_IMBALANCE"
+      ]
+    ]
+  },
+  {
+    "endpoint": "formulation_compound",
+    "positive_entities_available": 56,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "USED_IN_FORMULATION"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USED_IN_FORMULATION"
+      ]
+    ]
+  },
+  {
+    "endpoint": "formulation_disease",
+    "positive_entities_available": 771,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "USES_FORMULATION",
+        "POST_TREATED_BY"
+      ],
+      [
+        "USES_FORMULATION",
+        "PRE_TREATED_BY"
+      ],
+      [
+        "USES_FORMULATION",
+        "TREATED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USES_FORMULATION",
+        "POST_TREATED_BY"
+      ],
+      [
+        "USES_FORMULATION",
+        "PRE_TREATED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "formulation_therapy",
+    "positive_entities_available": 777,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "USES_FORMULATION"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USES_FORMULATION"
+      ]
+    ]
+  },
+  {
+    "endpoint": "indication_compound",
+    "positive_entities_available": 136,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "TREATS",
+        "PRODUCES",
+        "UNDERGOES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "TREATS",
+        "PRODUCES",
+        "UNDERGOES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "integrated_compound_disease",
+    "positive_entities_available": 17,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "UNDERGOES",
+        "PRODUCES",
+        "USED_FOR_TREATMENT"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "UNDERGOES",
+        "PRODUCES",
+        "USED_FOR_TREATMENT"
+      ]
+    ]
+  },
+  {
+    "endpoint": "integrated_disease_compound",
+    "positive_entities_available": 14,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "USED_FOR_TREATMENT",
+        "PRODUCES",
+        "UNDERGOES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USED_FOR_TREATMENT",
+        "PRODUCES",
+        "UNDERGOES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "media_compound",
+    "positive_entities_available": 49,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "USES_MEDIA",
+        "UNDERGOES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USES_MEDIA",
+        "UNDERGOES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "media_process",
+    "positive_entities_available": 90,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "USES_MEDIA"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USES_MEDIA"
+      ]
+    ]
+  },
+  {
+    "endpoint": "method_toxic_substance",
+    "positive_entities_available": 5,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "DETOXIFIES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "DETOXIFIES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "next_process_process",
+    "positive_entities_available": 6,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "FOLLOWED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "FOLLOWED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "process_classification",
+    "positive_entities_available": 3,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "CLASSIFIED_AS"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "CLASSIFIED_AS"
+      ]
+    ]
+  },
+  {
+    "endpoint": "process_compound",
+    "positive_entities_available": 12,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "UNDERGOES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "UNDERGOES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "process_media",
+    "positive_entities_available": 12,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "USES_MEDIA"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USES_MEDIA"
+      ]
+    ]
+  },
+  {
+    "endpoint": "process_next_process",
+    "positive_entities_available": 8,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "FOLLOWED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "FOLLOWED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "process_purified_compound",
+    "positive_entities_available": 10,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "PRODUCES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "PRODUCES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "process_shodhana_method",
+    "positive_entities_available": 5,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "FOLLOWED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "FOLLOWED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "provenance_compound_method_media",
+    "positive_entities_available": 51,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "UNDERGOES",
+        "USES_MEDIA"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "UNDERGOES",
+        "USES_MEDIA"
+      ]
+    ]
+  },
+  {
+    "endpoint": "provenance_disease_therapy_formulation",
+    "positive_entities_available": 134,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "POST_TREATED_BY",
+        "USES_FORMULATION"
+      ],
+      [
+        "PRE_TREATED_BY",
+        "USES_FORMULATION"
+      ],
+      [
+        "TREATED_BY",
+        "USES_FORMULATION"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "POST_TREATED_BY",
+        "USES_FORMULATION"
+      ],
+      [
+        "PRE_TREATED_BY",
+        "USES_FORMULATION"
+      ],
+      [
+        "TREATED_BY",
+        "USES_FORMULATION"
+      ]
+    ]
+  },
+  {
+    "endpoint": "provenance_formulation_therapy_disease",
+    "positive_entities_available": 771,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "USES_FORMULATION",
+        "POST_TREATED_BY"
+      ],
+      [
+        "USES_FORMULATION",
+        "PRE_TREATED_BY"
+      ],
+      [
+        "USES_FORMULATION",
+        "TREATED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USES_FORMULATION",
+        "POST_TREATED_BY"
+      ],
+      [
+        "USES_FORMULATION",
+        "PRE_TREATED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "provenance_media_method_compound",
+    "positive_entities_available": 49,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "USES_MEDIA",
+        "UNDERGOES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USES_MEDIA",
+        "UNDERGOES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "purified_compound_disease",
+    "positive_entities_available": 45,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "TREATS"
+      ],
+      [
+        "USED_FOR_TREATMENT"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "TREATS"
+      ],
+      [
+        "USED_FOR_TREATMENT"
+      ]
+    ]
+  },
+  {
+    "endpoint": "purified_compound_formulation",
+    "positive_entities_available": 24,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "USED_IN_FORMULATION"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USED_IN_FORMULATION"
+      ]
+    ]
+  },
+  {
+    "endpoint": "purified_compound_process",
+    "positive_entities_available": 71,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "PRODUCES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "PRODUCES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "purified_compound_source",
+    "positive_entities_available": 46,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "PRODUCES",
+        "UNDERGOES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "PRODUCES",
+        "UNDERGOES"
+      ]
+    ]
+  },
+  {
+    "endpoint": "purified_compound_validation",
+    "positive_entities_available": 58,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "CONFIRMS_SAFETY_OF"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "CONFIRMS_SAFETY_OF"
+      ]
+    ]
+  },
+  {
+    "endpoint": "shodhana_method_process",
+    "positive_entities_available": 8,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "FOLLOWED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "FOLLOWED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "shodhana_method_validation",
+    "positive_entities_available": 11,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "FOLLOWED_BY",
+        "VALIDATED_BY"
+      ],
+      [
+        "VALIDATED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "FOLLOWED_BY",
+        "VALIDATED_BY"
+      ],
+      [
+        "VALIDATED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "symptoms_disease",
+    "positive_entities_available": 393,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "HAS_SYMPTOM"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "HAS_SYMPTOM"
+      ]
+    ]
+  },
+  {
+    "endpoint": "therapy_disease",
+    "positive_entities_available": 139,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "POST_TREATED_BY"
+      ],
+      [
+        "PRE_TREATED_BY"
+      ],
+      [
+        "TREATED_BY"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "POST_TREATED_BY"
+      ],
+      [
+        "PRE_TREATED_BY"
+      ],
+      [
+        "TREATED_BY"
+      ]
+    ]
+  },
+  {
+    "endpoint": "therapy_formulation",
+    "positive_entities_available": 129,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "USES_FORMULATION"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "USES_FORMULATION"
+      ]
+    ]
+  },
+  {
+    "endpoint": "toxic_substance_compound",
+    "positive_entities_available": 57,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "CONTAINS"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "CONTAINS"
+      ]
+    ]
+  },
+  {
+    "endpoint": "toxic_substance_method",
+    "positive_entities_available": 51,
+    "positive_entities_tested": 3,
+    "empty_entity_tested": true,
+    "observed_branches": [
+      [
+        "DETOXIFIES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "DETOXIFIES"
+      ]
+    ]
+  }
+]

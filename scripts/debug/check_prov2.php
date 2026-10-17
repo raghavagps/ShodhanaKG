@@ -1,0 +1,54 @@
+<?php
+require_once __DIR__ . '/../config.php';
+require_once __DIR__ . '/../db.php';
+require_once __DIR__ . '/../core/EvidenceCorrelator.php';
+
+// ... same setup as above
+$diseaseRid = '#45:94';
+$diseaseToTherapyEdges = [];
+$therapyRids = [];
+$edgeTypes1 = ['PRE_TREATED_BY', 'POST_TREATED_BY', 'TREATED_BY'];
+foreach ($edgeTypes1 as $edgeType) {
+    $sql = sprintf("SELECT FROM %s WHERE @out = '%s' LIMIT 150", $edgeType, $diseaseRid);
+    $res = arcade_command($sql, 'sql');
+    foreach ($res['result'] as $edge) {
+        $therapyRid = isset($edge['@in']) ? $edge['@in'] : '';
+        $props = EvidenceCorrelator::extractIdentifiers($edge);
+        if ($therapyRid && ($props['pubmed_id'] !== '' || $props['doi'] !== '' || $props['ayush_id'] !== '')) {
+            $diseaseToTherapyEdges[] = array(
+                'edge' => $edge,
+                'therapyRid' => $therapyRid,
+                'props' => $props,
+                'edgeType' => $edgeType,
+            );
+            $therapyRids[$therapyRid] = true;
+        }
+    }
+}
+
+$therapyToFormulationEdges = [];
+$formulationRids = [];
+if (!empty($therapyRids)) {
+    $ridsList = implode(',', array_keys($therapyRids));
+    $sql = sprintf("SELECT FROM USES_FORMULATION WHERE @out IN [%s] LIMIT 500", $ridsList);
+    $res = arcade_command($sql, 'sql');
+    foreach ($res['result'] as $edge) {
+        $therapyRid = isset($edge['@out']) ? $edge['@out'] : '';
+        $formRid = isset($edge['@in']) ? $edge['@in'] : '';
+        $props = EvidenceCorrelator::extractIdentifiers($edge);
+        
+        if ($therapyRid && $formRid && ($props['pubmed_id'] !== '' || $props['doi'] !== '' || $props['ayush_id'] !== '')) {
+            if (!isset($therapyToFormulationEdges[$therapyRid])) {
+                $therapyToFormulationEdges[$therapyRid] = [];
+            }
+            $therapyToFormulationEdges[$therapyRid][] = array(
+                'edge' => $edge,
+                'formRid' => $formRid,
+                'props' => $props,
+            );
+            $formulationRids[$formRid] = true;
+        }
+    }
+}
+echo "Therapies with formulations: " . count($therapyToFormulationEdges) . "\n";
+print_r(array_keys($therapyToFormulationEdges));

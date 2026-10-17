@@ -1,0 +1,222 @@
+{
+  "implementation_files": [
+    {
+      "path": "api/core/EntityResolution.php",
+      "sha256": "b9b7b51cf7319c7efe051d06205e7ac69cd11e1380fc7739bcdda5528f7b0a0b"
+    },
+    {
+      "path": "api/core/QuestionRouter.php",
+      "sha256": "d0685896e71f1308795926dd77325495a69d87bfebbdb092620c643810150c59"
+    },
+    {
+      "path": "api/core/terminology_catalog_v2.json",
+      "sha256": "0a9b0252b71fa12da15e9dbdae772d57d242cd868e3a2a88e07abf3c0894b18f"
+    },
+    {
+      "path": "api/tests/build_terminology_catalog.py",
+      "sha256": "da6e3543cd01595ba23dfe74a3b7a216f89e784efccb4c1d70cb0165cd58856f"
+    },
+    {
+      "path": "api/tests/verify_terminology_sources.py",
+      "sha256": "a943f0c87fad0d4c6306a87debe379a7ea822dffa8a1e45dc146b49140f10a56"
+    },
+    {
+      "path": "api/tests/test_build_terminology_catalog.py",
+      "sha256": "c42eee25c51f0863e11626e54bb3241bcd0913d3cfecc44e297e6dd5542704a8"
+    },
+    {
+      "path": "api/tests/test_terminology_expansion.php",
+      "sha256": "76a198dfaf011c2e8881a094bb72da1c75bcb1fd36ad123549fc79e994d43fab"
+    },
+    {
+      "path": "api/tests/evaluate_terminology_expansion.py",
+      "sha256": "74053f8434c0bfea23138de539ba3e2775200299a0f65af1c9245d919aa3efed"
+    },
+    {
+      "path": "api/tests/run_current_benchmark.py",
+      "sha256": "bd2ed554df414c6d4439f388a6572d54d622a3ae24e8cee5aa27cf7f3991d422"
+    },
+    {
+      "path": "api/tests/fixtures/chatbot_evaluation_cases_v7.json",
+      "sha256": "1ba5085d3208fd3f600749f7c0c42f0b54cafbc849fa7220d1aa2cc3b78ce38e"
+    },
+    {
+      "path": "tests/terminology-expansion.spec.ts",
+      "sha256": "1946f3313881af172ad0a3dae061be547e011fae31333115cd8d8ee1a5085ff4"
+    },
+    {
+      "path": "docs/chatbot/entity_resolution.md",
+      "sha256": "ed7cde9e16156e7673f09a870ca8f5392cbe2a54a116a85cb2af95c5c1efeb27"
+    }
+  ],
+  "audit_artifacts": [
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/after.json",
+      "sha256": "a5659d276963d41a86b13cb09c60495e083ebd606b2cab73790f02f20ccc91a5"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/baseline.json",
+      "sha256": "1b693121e4ac2a83d16e976aee14697b897c55672a0a3a46066956e7897c8b50"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/answers.json",
+      "sha256": "c17b40fda54e2133ab49a039b1ad55fde242de6c6c2b9ed59a088d1bd7d3b392"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/attribution.json",
+      "sha256": "3c65a7983103679b29172a95f1b5116199f76669d5aae262bd9520b7c9852421"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/attribution.log",
+      "sha256": "ccc6fe2ccb23f055987e5ff2b2647bf114f31acec3cacd7599ce83cd9dd8458e"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/benchmark.json",
+      "sha256": "2521d585c7dada895d07356590f408ccd737264a2428671863556470b17f8649"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/conversation.json",
+      "sha256": "564a0a46823a093bfe5a61735e64afb88dadb828454f436fe4a4108eb9e800ed"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/conversation.log",
+      "sha256": "b087025bd135e057a789c1ee8469a57390d22bfa648da72b46e49751516f9bfc"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/factual.json",
+      "sha256": "0352ed27a98cdabc0b9e6ec61d838d6463605ec9f788f62473012c0ff4115c94"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/factual.log",
+      "sha256": "c2a570ae34e709ae9d1c55c44139ac000db856ef0b32b19d2ae5a69e448dc93e"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/presentation.json",
+      "sha256": "ae4751c500442c2d1123ff9a3b060c790094ae2322221856b187dcd40c080dab"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/presentation.log",
+      "sha256": "c4c8ad6836aa89ca8af9f24245b4b8db7b6d69c8329a6f35c29c76335d96ef12"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/progress.json",
+      "sha256": "d1585ad045f75b8b354dd5e65ae805a0650a657ac4c240d188cfb4d9856a5847"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/routing.log",
+      "sha256": "cda76953d290470d80d23b57cf3c556ac398d0c70671ef2f67d0ca2df830879c"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/snapshot.json",
+      "sha256": "a9d3f36e452d78642ec15f76b1c450b45c46b36bb5e872ce35ad244d6a292174"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark/snapshot.log",
+      "sha256": "34acf3a39dc54ff7519ab17b12a307fc95591397da0a2047285cfc1d9b6b1e94"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/answers.json",
+      "sha256": "88256a850bec5ce46442e2760b54825568be17043c5a084e6a6ac7edc5492c72"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/attribution.json",
+      "sha256": "4ec24724fd856fe67c5ac202dd061428d28dec563d4cf5bbdd3d14490277fda0"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/attribution.log",
+      "sha256": "ccc6fe2ccb23f055987e5ff2b2647bf114f31acec3cacd7599ce83cd9dd8458e"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/benchmark.json",
+      "sha256": "4e632f0dbdd549c71a1542c4422af825133a3beb46bbeac6ddeb4100f8edebb1"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/conversation.json",
+      "sha256": "114068d730a00f02570d68a6d83adea14f1b34a3dc515aa6e83a64c786e3d19d"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/conversation.log",
+      "sha256": "42f8d9a9e2d1e3908e5e1ca8e43ccfefc9c8232761ef63f972d56c585c8af192"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/factual.json",
+      "sha256": "a12fc24d91346ef258451da58c22e72fcef2f6f1c8bc40ee73a0ee738b41b9a8"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/factual.log",
+      "sha256": "c2a570ae34e709ae9d1c55c44139ac000db856ef0b32b19d2ae5a69e448dc93e"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/presentation.json",
+      "sha256": "e101c2a813b82749753d562469d0d34af67cf16bc25353e3c239415e90f27746"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/presentation.log",
+      "sha256": "c4c8ad6836aa89ca8af9f24245b4b8db7b6d69c8329a6f35c29c76335d96ef12"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/progress.json",
+      "sha256": "07e76bc754caa13f610115b8b90b37fbf8ce2f8c2879c0185fc244b2a93ac58b"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/routing.log",
+      "sha256": "cda76953d290470d80d23b57cf3c556ac398d0c70671ef2f67d0ca2df830879c"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/snapshot.json",
+      "sha256": "2a89673570b25090724fd06c5923fa90f0e97d9e2d745843dce4c97223b617c2"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/benchmark_final/snapshot.log",
+      "sha256": "34acf3a39dc54ff7519ab17b12a307fc95591397da0a2047285cfc1d9b6b1e94"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/candidates.json",
+      "sha256": "f9d4ee45c0a00a9cc9146704ab69bc35cd46439f7cceb51fac12dbc5626166a9"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/catalog.json",
+      "sha256": "0a9b0252b71fa12da15e9dbdae772d57d242cd868e3a2a88e07abf3c0894b18f"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/contract_changes.json",
+      "sha256": "03c4f048dd805b970c8db6ae7a99d4fd3ba7a0ea5cfd24355653b97ac0c494a1"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/coverage.json",
+      "sha256": "07b8c536d333fea1a7f92fd2dd3dde502422ec3df108f34cd144b4c6d9d5a6ca"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/http.json",
+      "sha256": "99c0831db6bdea70af945466b344d4577cab4535592c9b8dea45a3c76500a7c4"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/http_complete.json",
+      "sha256": "17c4583b7c5fe82be2003cb0e260c0db0c0389a62b53b47986e8d73246397acc"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/http_final.json",
+      "sha256": "95fdd9e2f24df71242a76a0f68a3c191061bd8a3675d1a5fdd58b1b55dfdae20"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/SOURCE.md",
+      "sha256": "7b1bbbd32cc9d1a361517f48adcd70c93516954043ab83fb346299eebda5a18b"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/source_concepts.json",
+      "sha256": "27bd67f41c2a0f22f4286be066549b7ce7eef83e0d0e19580af2827d2d6dc333"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/source_verification.json",
+      "sha256": "74e2805f17b99243414f6fddc9627ee473530d69e8988b8b58f67a0751d7bd93"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/summary.json",
+      "sha256": "34b64b02e6774e34525a6ed551329c146c7bd3efde4c0ee4b55e8e5e8b05b0ab"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_expansion_2026_09_25_v1/Thesaurus_26.08e.FLAT.zip",
+      "sha256": "621eaf229a1351adb10946f9f76de10a1e917dbcc26880a7bf3e9b59e030de20"
+    }
+  ]
+}

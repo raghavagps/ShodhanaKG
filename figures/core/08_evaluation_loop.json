@@ -1,0 +1,7 @@
+{
+  "kind": "conceptual architecture; not quantitative results",
+  "editable_text": true,
+  "embedded_rasters": 0,
+  "svg_xml_valid": true,
+  "reproduce": ".audit-temp/figure-env/Scripts/python.exe -B plot_evaluation_workflow.py"
+}

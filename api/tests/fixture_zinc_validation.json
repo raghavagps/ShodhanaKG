@@ -1,0 +1,557 @@
+{
+    "status": "success",
+    "entity": {
+        "name": "Zinc",
+        "type": "Compound"
+    },
+    "path": [
+        "Compound",
+        "UNDERGOES",
+        "Shodhana_Method",
+        "...[Direct/Process]...",
+        "VALIDATED_BY",
+        "Confirmation_Study"
+    ],
+    "results": [
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "Antioxidant Assay ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Yashada Bhasma exhibits significant free-radical scavenging activity, indicating its ability to reduce oxidative stress and suggesting potential protective and therapeutic pharmaceutical value.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "Thermo-Gravimetric Analysis (TGA)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Thermal stability up to ~435\u00b0C confirmed high stability and long shelf life.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "Fourier Transform Infrared Spectroscopy (FTIR) ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Zn\u2013S bonds and organic functional groups confirmed organo-metallic nature contributing to therapeutic activity.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "Energy Dispersive X-Ray Spectroscopy (EDAX)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Major presence of Zn and S with only trace impurities confirmed purity and safe elemental composition.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "CAM Angiogenesis Assay",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Disrupted blood vessel formation confirmed anti-angiogenic and potential anticancer activity.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "X-Ray Diffraction (XRD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Complete conversion of raw zinc into pure cubic and hexagonal ZnS with no Zn or ZnO peaks confirmed detoxification and formation of safer chemical form.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "Scanning Electron Microscopy (SEM)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Particle size 250\u2013450 nm with uniform morphology confirmed size reduction and improved absorption potential.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "Antimicrobial Activity Test",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Time-dependent bactericidal activity against E. coli and S. aureus confirmed antimicrobial efficacy.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "Dynamic Light Scattering (DLS)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Mean particle size ~361 nm confirmed uniform dispersion and pharmaceutical stability in suspension.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "Transmission Electron Microscopy (TEM)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Cubic and spherical nanoparticles confirmed nanoscale morphology supporting enhanced bioavailability.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Dhalana",
+            "process": "Marana",
+            "study": "X-Ray Photoelectron Spectrum (XPS)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "40886520",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Zn 2p and S 2p peaks confirmed correct chemical state and stable ZnS phase supporting chemical safety and purity.",
+                "properties": {
+                    "pubmed_id": "40886520",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Biochemical Analysis ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "27377339",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Parameters remained within normal range indicating no liver toxicity or renal impairment.",
+                "properties": {
+                    "pubmed_id": "27377339",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Antioxidant Assay ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "27377339",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "SOD activity unchanged while GSH levels increased indicating no oxidative stress toxicity with enhanced antioxidant defense and pharmacological benefit.",
+                "properties": {
+                    "pubmed_id": "27377339",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "27377339",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "No accumulation of zinc in tissues and mercury below detection limit indicating safety and detoxification.",
+                "properties": {
+                    "pubmed_id": "27377339",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "CHNS Elemental Analysis",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "27377339",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Marked reduction of sulphur from intermediate to final bhasma confirming conversion to oxide and purification.",
+                "properties": {
+                    "pubmed_id": "27377339",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "X-Ray Diffraction (XRD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "27377339",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Final bhasma predominantly ZnO (~96%) while intermediate rich in ZnS (~66%) indicating chemical transformation during processing.",
+                "properties": {
+                    "pubmed_id": "27377339",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Cytokine analysis",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "27377339",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Increased IL-2 with reduced IL-6 and TNF\u03b1 indicating immunomodulatory activity with anti-inflammatory therapeutic effect.",
+                "properties": {
+                    "pubmed_id": "27377339",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Single Photon Emission Computed Tomography ( SPECT)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "27377339",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Hepatic clearance and Renal clearance remains unchanged indicating normal liver and kidney function.",
+                "properties": {
+                    "pubmed_id": "27377339",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Transmission Electron Microscopy (TEM)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "27377339",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Polycrystalline nano-to-micron particles observed with no size/shape difference between intermediate and final bhasma.",
+                "properties": {
+                    "pubmed_id": "27377339",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Haematological Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "27377339",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Yashada Bhasma",
+                "result": "Most blood parameters remained within normal range with minor platelet changes mainly in intermediate suggesting safety of final bhasma but incomplete processing may affect platelet turnover.",
+                "properties": {
+                    "pubmed_id": "27377339",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        }
+    ]
+}

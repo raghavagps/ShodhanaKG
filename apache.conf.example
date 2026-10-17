@@ -1,0 +1,43 @@
+<VirtualHost *:80>
+    ServerName yourdomain.com
+    DocumentRoot /usr1/gpsr/webserver/cgidocs/raghava/shodhanakg
+
+    # Backend API Alias (if needed, otherwise accessed via /api subdirectory)
+    # Alias /raghava/shodhanakg/api /usr1/gpsr/webserver/cgidocs/raghava/shodhanakg/api
+
+    <Directory /usr1/gpsr/webserver/cgidocs/raghava/shodhanakg>
+        Options -Indexes +FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    <Directory /usr1/gpsr/webserver/cgidocs/raghava/shodhanakg/api>
+        Options -Indexes +FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    # Compression (mod_deflate)
+    <IfModule mod_deflate.c>
+        AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript application/json
+    </IfModule>
+
+    # Environment Variables for Backend
+    SetEnv ARCADE_URL http://localhost:2480
+    SetEnv ARCADE_DB shodhana
+    SetEnv ARCADE_USER "root"
+    SetEnv ARCADE_PASS "playwithdata"
+    SetEnv ALLOWED_ORIGINS "*"
+
+    # LLM Settings for Chatbot (Optional)
+    SetEnv OLLAMA_URL "http://localhost:11434"
+    SetEnv OLLAMA_MODEL "llama3.2"
+
+    ErrorLog ${APACHE_LOG_DIR}/shodhanakg_error.log
+    CustomLog ${APACHE_LOG_DIR}/shodhanakg_access.log combined
+
+    # SSL (Managed by Certbot)
+    # SSLEngine on
+    # SSLCertificateFile /etc/letsencrypt/live/yourdomain.com/fullchain.pem
+    # SSLCertificateKeyFile /etc/letsencrypt/live/yourdomain.com/privkey.pem
+</VirtualHost>

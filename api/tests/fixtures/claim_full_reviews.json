@@ -1,0 +1,924 @@
+[
+  {
+    "id": "eval_traversal_therapy_formulation",
+    "answer_sha256": "c4f9df6cfeb82ce9c631c6d1c95c60c76ef78747a885e8708ba538bae6d76ac8",
+    "reference_sha256": "bdb4218421aea83afff7c861ea314501b463fa8e30337c2a011c0b1a30306366",
+    "question": "What formulations are used by Abhyanga?",
+    "answer": "Based on the provided data, the formulations used by Abhyanga are:\n\n1. Jatyadi Taila\n2. Jivantyadi Ghrita\n3. Karpasastyadi Taila\n4. Kottamchukkadi Taila\n5. Ksheerbala Taila\n6. Chinchadi Taila\n\nThese formulations are used in the context of Abhyanga therapy, which is a traditional Ayurvedic massage technique.",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [
+      {
+        "start": 71,
+        "end": 84,
+        "quote": "Jatyadi Taila",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#69:0",
+            "target": "#65:694",
+            "type": "USES_FORMULATION"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 88,
+        "end": 105,
+        "quote": "Jivantyadi Ghrita",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#69:0",
+            "target": "#65:2053",
+            "type": "USES_FORMULATION"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 109,
+        "end": 128,
+        "quote": "Karpasastyadi Taila",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#69:0",
+            "target": "#65:2073",
+            "type": "USES_FORMULATION"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 132,
+        "end": 152,
+        "quote": "Kottamchukkadi Taila",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#69:0",
+            "target": "#65:2086",
+            "type": "USES_FORMULATION"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 156,
+        "end": 172,
+        "quote": "Ksheerbala Taila",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#69:0",
+            "target": "#65:2098",
+            "type": "USES_FORMULATION"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 176,
+        "end": 191,
+        "quote": "Chinchadi Taila",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#69:0",
+            "target": "#65:2116",
+            "type": "USES_FORMULATION"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 266,
+        "end": 307,
+        "quote": "a traditional Ayurvedic massage technique",
+        "kind": "unresolved",
+        "notes": "General description is not established by the independent relationship reference."
+      }
+    ],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. ",
+    "node_identifier_checks": []
+  },
+  {
+    "id": "eval_traversal_media_process",
+    "answer_sha256": "e50a794112ec419d2790be3bc2ece3e63bc24bd5307fabc0b66973d0d9149249",
+    "reference_sha256": "6617082ca4b49eeb8bfaa6566d2b0e9064ee2c87ac70f97b0e8da6d5e66ccfe4",
+    "question": "Which methods use Cow Milk?",
+    "answer": "The methods that use Cow Milk are:\n\n1. Dhalana\n2. Nirvapa\n3. Urdhva Patana\n4. Marana",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [
+      {
+        "start": 39,
+        "end": 46,
+        "quote": "Dhalana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:5",
+            "target": "#21:0",
+            "type": "USES_MEDIA"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "quote": "Nirvapa",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#21:0",
+            "type": "USES_MEDIA"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 61,
+        "end": 74,
+        "quote": "Urdhva Patana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:7",
+            "target": "#21:0",
+            "type": "USES_MEDIA"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 78,
+        "end": 84,
+        "quote": "Marana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#41:0",
+            "target": "#21:0",
+            "type": "USES_MEDIA"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 0,
+        "end": 34,
+        "quote": "The methods that use Cow Milk are:",
+        "kind": "unresolved",
+        "notes": "Use-of-media relations are supported; heading groups Marana (Process) with Shodhana_Method nodes. Terminology requires review."
+      }
+    ],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. ",
+    "node_identifier_checks": []
+  },
+  {
+    "id": "eval_traversal_shodhana_method_process",
+    "answer_sha256": "843d861a3200623958ac731255019ce7ae2d4ae07a199cdca13848cda3c82425",
+    "reference_sha256": "2d796da9c162d66ad32435d6cd91a08682d383a27c6a06682c43c7f648fb5e34",
+    "question": "What process follows method Bhavana?",
+    "answer": "According to the provided Knowledge Context, the process that follows method Bhavana is Marana.",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [
+      {
+        "start": 88,
+        "end": 94,
+        "quote": "Marana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:0",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      }
+    ],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. ",
+    "node_identifier_checks": []
+  },
+  {
+    "id": "eval_traversal_process_shodhana_method",
+    "answer_sha256": "f9c2169a8e9c5b08be055cfcec53c6378d46a44f14b56b2ae4586cbce8385172",
+    "reference_sha256": "2f0b4baf9263d2d238e90ce35a861558fa50840f26290e33401f1357906483aa",
+    "question": "Which method precedes process Marana?",
+    "answer": "Based on the provided data, the method that precedes process Marana is:\n\n* Nirvapa (#13:6)\n\nThis is indicated by the following edges:\n\n* #79:69: Nirvapa precedes Marana\n* #79:70: Nirvapa precedes Marana\n* #79:71: Nirvapa precedes Marana\n* #79:72: Nirvapa precedes Marana\n* #79:73: Nirvapa precedes Marana\n* #79:74: Nirvapa precedes Marana\n* #79:75: Nirvapa precedes Marana\n* #79:76: Nirvapa precedes Marana\n\nAll of these edges have the same source node (#13:6) and target node (#41:0), indicating that Nirvapa is the method that precedes process Marana.",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [
+      {
+        "start": 75,
+        "end": 90,
+        "quote": "Nirvapa (#13:6)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 135,
+        "end": 168,
+        "quote": "* #79:69: Nirvapa precedes Marana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY",
+            "id": "#79:69"
+          }
+        ]
+      },
+      {
+        "start": 169,
+        "end": 202,
+        "quote": "* #79:70: Nirvapa precedes Marana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY",
+            "id": "#79:70"
+          }
+        ]
+      },
+      {
+        "start": 203,
+        "end": 236,
+        "quote": "* #79:71: Nirvapa precedes Marana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY",
+            "id": "#79:71"
+          }
+        ]
+      },
+      {
+        "start": 237,
+        "end": 270,
+        "quote": "* #79:72: Nirvapa precedes Marana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY",
+            "id": "#79:72"
+          }
+        ]
+      },
+      {
+        "start": 271,
+        "end": 304,
+        "quote": "* #79:73: Nirvapa precedes Marana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY",
+            "id": "#79:73"
+          }
+        ]
+      },
+      {
+        "start": 305,
+        "end": 338,
+        "quote": "* #79:74: Nirvapa precedes Marana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY",
+            "id": "#79:74"
+          }
+        ]
+      },
+      {
+        "start": 339,
+        "end": 372,
+        "quote": "* #79:75: Nirvapa precedes Marana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY",
+            "id": "#79:75"
+          }
+        ]
+      },
+      {
+        "start": 373,
+        "end": 406,
+        "quote": "* #79:76: Nirvapa precedes Marana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY",
+            "id": "#79:76"
+          }
+        ]
+      }
+    ],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. ",
+    "node_identifier_checks": [
+      {
+        "label": "Nirvapa",
+        "id": "#13:6",
+        "matches_reference": true
+      }
+    ]
+  },
+  {
+    "id": "eval_traversal_purified_compound_process",
+    "answer_sha256": "6b6a8127c97adb6257c0b3567abc8d21085f08b88a7b04212c0938d8d9a7106a",
+    "reference_sha256": "209cfa7c69f34457da97d74febae88393d1374fd870a7ffaa2fea13092ac48c7",
+    "question": "Which process produces Shodhita Jaypala?",
+    "answer": "Based on the provided Knowledge Context, the process that produces Shodhita Jaypala is Bhavana.",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [
+      {
+        "start": 87,
+        "end": 94,
+        "quote": "Bhavana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:0",
+            "target": "#25:0",
+            "type": "PRODUCES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 41,
+        "end": 66,
+        "quote": "the process that produces",
+        "kind": "unresolved",
+        "notes": "Bhavana is stored as Shodhana_Method, not Process. Use-of-word process may be generic; taxonomy distinction needs review."
+      }
+    ],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. ",
+    "node_identifier_checks": []
+  },
+  {
+    "id": "eval_traversal_method_toxic_substance",
+    "answer_sha256": "24d4cede0a34de5541e93c79af016b60b7492ffb6b6dfc743545f1156f171480",
+    "reference_sha256": "aa8f7546ec1eeb0234117406197ff03c28e231788c090545fe949d2ae10e1344",
+    "question": "What toxic substances does Swedana remove?",
+    "answer": "According to the provided data, Swedana (a Shodhana method) removes the following toxic substances:\n\n1. Phorbol Esters (#9:43)\n2. Crotonoside (#9:47)\n3. Phytoamines (#9:48)\n4. Cerberin (#9:49)\n5. Nerifolin (#9:50)\n6. Thevetin A (#9:51)\n7. Thevetin B (#9:52)\n8. Peruvoside (#9:53)\n9. Ruvoside (#9:54)\n10. THC (Delata 9-tetrahydrocannabinol) (#9:55)\n\nThese toxic substances are all related to the Shodhana method \"Swedana\".",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [
+      {
+        "start": 104,
+        "end": 126,
+        "quote": "Phorbol Esters (#9:43)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:1",
+            "target": "#9:43",
+            "type": "DETOXIFIES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 130,
+        "end": 149,
+        "quote": "Crotonoside (#9:47)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:1",
+            "target": "#9:47",
+            "type": "DETOXIFIES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 153,
+        "end": 172,
+        "quote": "Phytoamines (#9:48)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:1",
+            "target": "#9:48",
+            "type": "DETOXIFIES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 176,
+        "end": 192,
+        "quote": "Cerberin (#9:49)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:1",
+            "target": "#9:49",
+            "type": "DETOXIFIES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 196,
+        "end": 213,
+        "quote": "Nerifolin (#9:50)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:1",
+            "target": "#9:50",
+            "type": "DETOXIFIES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 217,
+        "end": 235,
+        "quote": "Thevetin A (#9:51)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:1",
+            "target": "#9:51",
+            "type": "DETOXIFIES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 239,
+        "end": 257,
+        "quote": "Thevetin B (#9:52)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:1",
+            "target": "#9:52",
+            "type": "DETOXIFIES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 261,
+        "end": 279,
+        "quote": "Peruvoside (#9:53)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:1",
+            "target": "#9:53",
+            "type": "DETOXIFIES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 283,
+        "end": 299,
+        "quote": "Ruvoside (#9:54)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:1",
+            "target": "#9:54",
+            "type": "DETOXIFIES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 304,
+        "end": 347,
+        "quote": "THC (Delata 9-tetrahydrocannabinol) (#9:55)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:1",
+            "target": "#9:55",
+            "type": "DETOXIFIES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      }
+    ],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. ",
+    "node_identifier_checks": [
+      {
+        "label": "Phorbol Esters",
+        "id": "#9:43",
+        "matches_reference": true
+      },
+      {
+        "label": "Crotonoside",
+        "id": "#9:47",
+        "matches_reference": true
+      },
+      {
+        "label": "Phytoamines",
+        "id": "#9:48",
+        "matches_reference": true
+      },
+      {
+        "label": "Cerberin",
+        "id": "#9:49",
+        "matches_reference": true
+      },
+      {
+        "label": "Nerifolin",
+        "id": "#9:50",
+        "matches_reference": true
+      },
+      {
+        "label": "Thevetin A",
+        "id": "#9:51",
+        "matches_reference": true
+      },
+      {
+        "label": "Thevetin B",
+        "id": "#9:52",
+        "matches_reference": true
+      },
+      {
+        "label": "Peruvoside",
+        "id": "#9:53",
+        "matches_reference": true
+      },
+      {
+        "label": "Ruvoside",
+        "id": "#9:54",
+        "matches_reference": true
+      },
+      {
+        "label": "THC (Delata 9-tetrahydrocannabinol)",
+        "id": "#9:55",
+        "matches_reference": true
+      }
+    ]
+  },
+  {
+    "id": "eval_traversal_process_next_process",
+    "answer_sha256": "5da5bfce7ecba6391e55b4673bef0370bca0872f5951a7306e40aec5b14b179c",
+    "reference_sha256": "5c31ac1f363a8b4fdf2a4706aa23dbf4e61742f8ad6bc0a18182b95eea205f16",
+    "question": "What process follows process Marana?",
+    "answer": "Based on the provided Knowledge Context, the process that follows process Marana is Amritikarana.",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [
+      {
+        "start": 84,
+        "end": 96,
+        "quote": "Amritikarana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#41:0",
+            "target": "#41:2",
+            "type": "FOLLOWED_BY"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      }
+    ],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. ",
+    "node_identifier_checks": []
+  },
+  {
+    "id": "eval_traversal_next_process_process",
+    "answer_sha256": "b7b30156987070b5a493a30ece9a63282b603c655217419990e148647477402b",
+    "reference_sha256": "10013b6face1ebeb8cdcd841b36b96247f752cdc02988876ec325b9b1c124997",
+    "question": "What process precedes process Marana?",
+    "answer": "Based on the provided data, the process that precedes process Marana is process Jarana.",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [
+      {
+        "start": 80,
+        "end": 86,
+        "quote": "Jarana",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#41:6",
+            "target": "#41:0",
+            "type": "FOLLOWED_BY"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      }
+    ],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. ",
+    "node_identifier_checks": []
+  },
+  {
+    "id": "eval_traversal_provenance_compound_method_media",
+    "answer_sha256": "0db408df7512e1c414e782952ab0961fe8c5e72ed440b91799d0aee6a00b3b16",
+    "reference_sha256": "7ab83be7588206735340b07cb8054d216632eb46dbb9ff2f59492496adfbfbd7",
+    "question": "What media are used for Copper with evidence?",
+    "answer": "Based on the provided data, the media used for Copper with evidence are:\n\n1. Sour Gruel\n2. Sesame Oil\n3. Buttermilk\n4. Horse Gram Decoction\n5. Nirgundi Decoction\n\nThese media are used in the process of Copper purification, as mentioned in the edges of the graph. The evidence for these media is linked to the same pubmed_id \"241564\".",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [
+      {
+        "start": 77,
+        "end": 87,
+        "quote": "Sour Gruel",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#5:24",
+            "target": "#13:6",
+            "type": "UNDERGOES"
+          },
+          {
+            "source": "#13:6",
+            "target": "#21:5",
+            "type": "USES_MEDIA"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question. Citation applied to all listed items by the final sentence.",
+        "citation": {
+          "type": "pubmed_id",
+          "value": "241564"
+        }
+      },
+      {
+        "start": 91,
+        "end": 101,
+        "quote": "Sesame Oil",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#5:24",
+            "target": "#13:6",
+            "type": "UNDERGOES"
+          },
+          {
+            "source": "#13:6",
+            "target": "#21:29",
+            "type": "USES_MEDIA"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question. Citation applied to all listed items by the final sentence.",
+        "citation": {
+          "type": "pubmed_id",
+          "value": "241564"
+        }
+      },
+      {
+        "start": 105,
+        "end": 115,
+        "quote": "Buttermilk",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#5:24",
+            "target": "#13:6",
+            "type": "UNDERGOES"
+          },
+          {
+            "source": "#13:6",
+            "target": "#21:30",
+            "type": "USES_MEDIA"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question. Citation applied to all listed items by the final sentence.",
+        "citation": {
+          "type": "pubmed_id",
+          "value": "241564"
+        }
+      },
+      {
+        "start": 119,
+        "end": 139,
+        "quote": "Horse Gram Decoction",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#5:24",
+            "target": "#13:6",
+            "type": "UNDERGOES"
+          },
+          {
+            "source": "#13:6",
+            "target": "#21:31",
+            "type": "USES_MEDIA"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question. Citation applied to all listed items by the final sentence.",
+        "citation": {
+          "type": "pubmed_id",
+          "value": "241564"
+        }
+      },
+      {
+        "start": 143,
+        "end": 161,
+        "quote": "Nirgundi Decoction",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#5:24",
+            "target": "#13:6",
+            "type": "UNDERGOES"
+          },
+          {
+            "source": "#13:6",
+            "target": "#21:42",
+            "type": "USES_MEDIA"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question. Citation applied to all listed items by the final sentence.",
+        "citation": {
+          "type": "pubmed_id",
+          "value": "241564"
+        }
+      }
+    ],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. ",
+    "node_identifier_checks": []
+  },
+  {
+    "id": "eval_traversal_provenance_media_method_compound",
+    "answer_sha256": "cdbb0e319761fb0d49a445649a1afc05dcc87ef27ac225e1beb6f58512272c7e",
+    "reference_sha256": "6412f08e112fb63a0182d606a580cc3bf85772deeb3bd9d6fbc0634acf8c499e",
+    "question": "Which compounds use Cow Milk in the same study?",
+    "answer": "Based on the provided data, the compounds that use Cow Milk in the same study are:\n\n* Biotite Mica (id: #5:34)\n* Sulphur (id: #5:16)\n\nBoth of these compounds are mentioned in the same study as using Cow Milk in the same procedure.",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [
+      {
+        "start": 86,
+        "end": 110,
+        "quote": "Biotite Mica (id: #5:34)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:6",
+            "target": "#21:0",
+            "type": "USES_MEDIA"
+          },
+          {
+            "source": "#5:34",
+            "target": "#13:6",
+            "type": "UNDERGOES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 113,
+        "end": 132,
+        "quote": "Sulphur (id: #5:16)",
+        "kind": "relationship",
+        "edges": [
+          {
+            "source": "#13:5",
+            "target": "#21:0",
+            "type": "USES_MEDIA"
+          },
+          {
+            "source": "#5:16",
+            "target": "#13:5",
+            "type": "UNDERGOES"
+          }
+        ],
+        "notes": "Read in the context of the complete answer heading/question."
+      },
+      {
+        "start": 134,
+        "end": 230,
+        "quote": "Both of these compounds are mentioned in the same study as using Cow Milk in the same procedure.",
+        "kind": "shared_study",
+        "paths": [
+          [
+            {
+              "source": "#13:6",
+              "target": "#21:0",
+              "type": "USES_MEDIA"
+            },
+            {
+              "source": "#5:34",
+              "target": "#13:6",
+              "type": "UNDERGOES"
+            }
+          ],
+          [
+            {
+              "source": "#13:5",
+              "target": "#21:0",
+              "type": "USES_MEDIA"
+            },
+            {
+              "source": "#5:16",
+              "target": "#13:5",
+              "type": "UNDERGOES"
+            }
+          ]
+        ]
+      },
+      {
+        "start": 208,
+        "end": 229,
+        "quote": "in the same procedure",
+        "kind": "unresolved",
+        "notes": "Reference paths use different methods (Nirvapa vs Dhalana/Urdhva Patana) and procedure texts; same-procedure assertion is not supported. No automated procedure-equivalence metric."
+      }
+    ],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. ",
+    "node_identifier_checks": [
+      {
+        "label": "Biotite Mica",
+        "id": "#5:34",
+        "matches_reference": true
+      },
+      {
+        "label": "Sulphur",
+        "id": "#5:16",
+        "matches_reference": true
+      }
+    ]
+  },
+  {
+    "id": "eval_traversal_provenance_disease_therapy_formulation",
+    "answer_sha256": "e0d4fc2bc75a2f84f2156c8ca0ad9e19e1ac9d4b5506ece90cddc71bf35be4b5",
+    "reference_sha256": "ac2b075e9a3a4dc71abe52d65ad33f49f3fb6cf73401f99924bc8f5ac02f4a1c",
+    "question": "What formulations treat Alopecia with evidence?",
+    "answer": "Error generating answer. HTTP: 500",
+    "review_status": "not_applicable",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": false,
+    "claims": [],
+    "notes": "HTTP 500; no generated answer available; retained without retry",
+    "node_identifier_checks": []
+  },
+  {
+    "id": "eval_traversal_provenance_formulation_therapy_disease",
+    "answer_sha256": "30195ec8de335a27780bc14b1fbb565dcd9ada7ca718f819f2f521cd2ec04ac0",
+    "reference_sha256": "c41c8c06e9d764a34a786e6267a199be1c256fb3bb75d7838581f9fa0664ca1f",
+    "question": "Which diseases use Laghu Sutshekhar with evidence?",
+    "answer": "Based on the provided Knowledge Context, it is not available information to determine which diseases use Laghu Sutshekhar with evidence.",
+    "review_status": "reviewed",
+    "reviewer": "Codex AI graph-evidence review",
+    "reviewer_kind": "ai",
+    "all_factual_claims_mapped": true,
+    "claims": [],
+    "notes": "AI-assisted semantic mapping, not expert scientific certification. Repeated assertions are deduplicated. Existential paths are evidence witnesses, not assertions of an unstated intermediate method. Answer text says information is unavailable despite two independent correlated paths to Endometrioma; backend status is success.",
+    "answer_behavior": "refusal",
+    "node_identifier_checks": []
+  }
+]

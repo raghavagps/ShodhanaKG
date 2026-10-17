@@ -1,0 +1,740 @@
+{
+  "scope": "Exact per-row edge attribution and complete raw properties against frozen KG; not scientific verification",
+  "fixture_sha256": "a56a68bfa7a90d61b54a1d6f75139e048e9912286cb1c5625459994c1e747ccd",
+  "snapshot_sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
+  "answers_sha256": "bd40d11257bf4e9f778de257e49aac4257920b06902c84c61aa13643b81ec607",
+  "summary": {
+    "endpoints": 40,
+    "cases": 121,
+    "passed": 121,
+    "failed": 0
+  },
+  "cases": [
+    {
+      "id": "expanded_assessment_disease_1",
+      "endpoint": "assessment_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_assessment_disease_2",
+      "endpoint": "assessment_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_ayurvedic_diagnosis_disease_1",
+      "endpoint": "ayurvedic_diagnosis_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_ayurvedic_diagnosis_disease_2",
+      "endpoint": "ayurvedic_diagnosis_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_classification_process_1",
+      "endpoint": "classification_process",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_classification_process_2",
+      "endpoint": "classification_process",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_detoxification_1",
+      "endpoint": "compound_detoxification",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_detoxification_2",
+      "endpoint": "compound_detoxification",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_detoxification_3",
+      "endpoint": "compound_detoxification",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_media_1",
+      "endpoint": "compound_media",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_media_2",
+      "endpoint": "compound_media",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_media_3",
+      "endpoint": "compound_media",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_media_4",
+      "endpoint": "compound_media",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_purification_1",
+      "endpoint": "compound_purification",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_purification_2",
+      "endpoint": "compound_purification",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_purification_3",
+      "endpoint": "compound_purification",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_purification_4",
+      "endpoint": "compound_purification",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_purified_forms_1",
+      "endpoint": "compound_purified_forms",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_purified_forms_2",
+      "endpoint": "compound_purified_forms",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_shodhana_process_1",
+      "endpoint": "compound_shodhana_process",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_shodhana_process_2",
+      "endpoint": "compound_shodhana_process",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_shodhana_process_3",
+      "endpoint": "compound_shodhana_process",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_shodhana_process_4",
+      "endpoint": "compound_shodhana_process",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_therapeutic_use_1",
+      "endpoint": "compound_therapeutic_use",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_therapeutic_use_2",
+      "endpoint": "compound_therapeutic_use",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_therapeutic_use_3",
+      "endpoint": "compound_therapeutic_use",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_toxicity_1",
+      "endpoint": "compound_toxicity",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_toxicity_2",
+      "endpoint": "compound_toxicity",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_toxicity_3",
+      "endpoint": "compound_toxicity",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_validation_1",
+      "endpoint": "compound_validation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_validation_2",
+      "endpoint": "compound_validation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_validation_3",
+      "endpoint": "compound_validation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_compound_validation_4",
+      "endpoint": "compound_validation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_confirmation_study_method_1",
+      "endpoint": "confirmation_study_method",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_confirmation_study_method_2",
+      "endpoint": "confirmation_study_method",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_confirmation_study_method_3",
+      "endpoint": "confirmation_study_method",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_confirmation_study_purified_compound_1",
+      "endpoint": "confirmation_study_purified_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_confirmation_study_purified_compound_2",
+      "endpoint": "confirmation_study_purified_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_confirmation_study_purified_compound_3",
+      "endpoint": "confirmation_study_purified_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_assessment_1",
+      "endpoint": "disease_assessment",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_assessment_2",
+      "endpoint": "disease_assessment",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_diagnosis_1",
+      "endpoint": "disease_diagnosis",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_diagnosis_2",
+      "endpoint": "disease_diagnosis",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_diagnosis_3",
+      "endpoint": "disease_diagnosis",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_dosha_1",
+      "endpoint": "disease_dosha",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_dosha_2",
+      "endpoint": "disease_dosha",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_dosha_3",
+      "endpoint": "disease_dosha",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_formulation_1",
+      "endpoint": "disease_formulation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_formulation_2",
+      "endpoint": "disease_formulation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_formulation_3",
+      "endpoint": "disease_formulation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_symptoms_1",
+      "endpoint": "disease_symptoms",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_symptoms_2",
+      "endpoint": "disease_symptoms",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_symptoms_3",
+      "endpoint": "disease_symptoms",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_therapy_1",
+      "endpoint": "disease_therapy",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_therapy_2",
+      "endpoint": "disease_therapy",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_disease_therapy_3",
+      "endpoint": "disease_therapy",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_dosha_disease_1",
+      "endpoint": "dosha_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_dosha_disease_2",
+      "endpoint": "dosha_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_compound_1",
+      "endpoint": "formulation_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_compound_2",
+      "endpoint": "formulation_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_compound_3",
+      "endpoint": "formulation_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_disease_1",
+      "endpoint": "formulation_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_disease_2",
+      "endpoint": "formulation_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_disease_3",
+      "endpoint": "formulation_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_disease_4",
+      "endpoint": "formulation_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_disease_5",
+      "endpoint": "formulation_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_therapy_1",
+      "endpoint": "formulation_therapy",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_therapy_2",
+      "endpoint": "formulation_therapy",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_formulation_therapy_3",
+      "endpoint": "formulation_therapy",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_indication_compound_1",
+      "endpoint": "indication_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_indication_compound_2",
+      "endpoint": "indication_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_indication_compound_3",
+      "endpoint": "indication_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_integrated_compound_disease_1",
+      "endpoint": "integrated_compound_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_integrated_compound_disease_2",
+      "endpoint": "integrated_compound_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_integrated_compound_disease_3",
+      "endpoint": "integrated_compound_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_integrated_disease_compound_1",
+      "endpoint": "integrated_disease_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_integrated_disease_compound_2",
+      "endpoint": "integrated_disease_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_integrated_disease_compound_3",
+      "endpoint": "integrated_disease_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_media_compound_1",
+      "endpoint": "media_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_media_compound_2",
+      "endpoint": "media_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_media_compound_3",
+      "endpoint": "media_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_media_compound_4",
+      "endpoint": "media_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_classification_1",
+      "endpoint": "process_classification",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_classification_2",
+      "endpoint": "process_classification",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_classification_3",
+      "endpoint": "process_classification",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_compound_1",
+      "endpoint": "process_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_compound_2",
+      "endpoint": "process_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_compound_3",
+      "endpoint": "process_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_media_1",
+      "endpoint": "process_media",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_media_2",
+      "endpoint": "process_media",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_media_3",
+      "endpoint": "process_media",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_purified_compound_1",
+      "endpoint": "process_purified_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_purified_compound_2",
+      "endpoint": "process_purified_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_purified_compound_3",
+      "endpoint": "process_purified_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_process_purified_compound_4",
+      "endpoint": "process_purified_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_disease_1",
+      "endpoint": "purified_compound_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_disease_2",
+      "endpoint": "purified_compound_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_disease_3",
+      "endpoint": "purified_compound_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_formulation_1",
+      "endpoint": "purified_compound_formulation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_formulation_2",
+      "endpoint": "purified_compound_formulation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_formulation_3",
+      "endpoint": "purified_compound_formulation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_source_1",
+      "endpoint": "purified_compound_source",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_source_2",
+      "endpoint": "purified_compound_source",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_source_3",
+      "endpoint": "purified_compound_source",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_validation_1",
+      "endpoint": "purified_compound_validation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_validation_2",
+      "endpoint": "purified_compound_validation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_purified_compound_validation_3",
+      "endpoint": "purified_compound_validation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_shodhana_method_validation_1",
+      "endpoint": "shodhana_method_validation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_shodhana_method_validation_2",
+      "endpoint": "shodhana_method_validation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_shodhana_method_validation_3",
+      "endpoint": "shodhana_method_validation",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_symptoms_disease_1",
+      "endpoint": "symptoms_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_symptoms_disease_2",
+      "endpoint": "symptoms_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_therapy_disease_1",
+      "endpoint": "therapy_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_therapy_disease_2",
+      "endpoint": "therapy_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_therapy_disease_3",
+      "endpoint": "therapy_disease",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_toxic_substance_compound_1",
+      "endpoint": "toxic_substance_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_toxic_substance_compound_2",
+      "endpoint": "toxic_substance_compound",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_toxic_substance_method_1",
+      "endpoint": "toxic_substance_method",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_toxic_substance_method_2",
+      "endpoint": "toxic_substance_method",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_toxic_substance_method_3",
+      "endpoint": "toxic_substance_method",
+      "passed": true,
+      "issues": []
+    },
+    {
+      "id": "expanded_toxic_substance_method_4",
+      "endpoint": "toxic_substance_method",
+      "passed": true,
+      "issues": []
+    }
+  ]
+}

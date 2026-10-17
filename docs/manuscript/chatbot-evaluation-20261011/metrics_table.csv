@@ -1,0 +1,11 @@
+Metric,Passed,Total,Pass rate (%),Unit/scope
+Factual retrieval (stored-KG agreement),168,168,100.0,endpoint/entity cases; 52 endpoints
+Per-edge attribution,121,121,100.0,cases; 40 endpoints
+Results-first presentation and citation mapping,24,24,100.0,HTTP questions
+Routing and response status,82,82,100.0,contract cases
+Conversation correctness,108,108,100.0,54 turns × JSON/SSE; 34 scenarios
+JSON/SSE semantic parity,54,54,100.0,paired turns
+Answerable turns returned success — JSON,40,40,100.0,answerable subset
+Answerable turns returned success — SSE,40,40,100.0,same subset repeated via SSE
+Expected abstention — JSON,12,12,100.0,acceptable-status subset
+Expected abstention — SSE,12,12,100.0,same subset repeated via SSE

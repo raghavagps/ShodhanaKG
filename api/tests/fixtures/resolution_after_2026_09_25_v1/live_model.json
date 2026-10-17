@@ -1,0 +1,15 @@
+{
+    "status": "entity_not_found",
+    "message": "The requested compound or disease could not be found in ShodhanaKG.",
+    "resolution": [],
+    "understanding": {
+        "mode": "model_fallback",
+        "result": "proposed",
+        "reason": null
+    },
+    "question": "I need the names of ways to make coper safe before use.",
+    "conversation_context": {
+        "version": 1
+    },
+    "retrieval": null
+}

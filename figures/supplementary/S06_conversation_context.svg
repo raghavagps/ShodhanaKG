@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="936pt" height="748.8pt" viewBox="0 0 936 748.8" version="1.1">
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-09-28T21:31:21.534177</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 748.8  L 936 748.8  L 936 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <g id="patch_2">
+     <path d="M 124.254 140.187498  L 252.31275 140.187498  Q 256.81275 140.187498 256.81275 135.687498  L 256.81275 116.096502  Q 256.81275 111.596502 252.31275 111.596502  L 124.254 111.596502  Q 119.754 111.596502 119.754 116.096502  L 119.754 135.687498  Q 119.754 140.187498 124.254 140.187498  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 123.323309)">ambiguous_method · turn 1</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 133.118895)">What process follows Bhavana?</text>
+   </g>
+   <g id="text_2">
+    <g id="patch_3">
+     <path d="M 515.97 154.880877  L 625.030313 154.880877  Q 629.530313 154.880877 629.530313 150.380877  L 629.530313 101.403123  Q 629.530313 96.903123 625.030313 96.903123  L 515.97 96.903123  Q 511.47 96.903123 511.47 101.403123  L 511.47 150.380877  Q 511.47 154.880877 515.97 154.880877  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 108.62993)">Active: No resolved subject</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 118.425516)">Type: Unresolved | ID: —</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 128.221102)">Intent: Clarification pending</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 138.016688)">Status: needs_clarification</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 147.812098)">Results: 0 | Citations: 0</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 474.447226 125.892  Q 486.95376 125.892 498.342261 125.892  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+    <path d="M 494.742261 124.092  L 498.342261 125.892  L 494.742261 127.692  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+   </g>
+   <g id="text_3">
+    <g id="patch_5">
+     <path d="M 124.254 217.157203  L 326.853844 217.157203  Q 331.353844 217.157203 331.353844 212.657203  L 331.353844 183.270797  Q 331.353844 178.770797 326.853844 178.770797  L 124.254 178.770797  Q 119.754 178.770797 119.754 183.270797  L 119.754 212.657203  Q 119.754 217.157203 124.254 217.157203  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 190.497604)">ambiguous_method · turn 2</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 200.293189)">I mean the method method Bhavana. Which media</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 210.0886)">does it use?</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_6">
+     <path d="M 515.97 226.952701  L 660.398906 226.952701  Q 664.898906 226.952701 664.898906 222.452701  L 664.898906 173.475299  Q 664.898906 168.975299 660.398906 168.975299  L 515.97 168.975299  Q 511.47 168.975299 511.47 173.475299  L 511.47 222.452701  Q 511.47 226.952701 515.97 226.952701  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 180.702105)">Active: Bhavana</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 190.497516)">Type: Shodhana_Method | ID: #13:0</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 200.293102)">Intent: process_media</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 210.088512)">Status: success</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 219.883922)">Results: 8 | Citations: 15</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 474.447226 197.964  Q 486.95376 197.964 498.342261 197.964  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+    <path d="M 494.742261 196.164  L 498.342261 197.964  L 494.742261 199.764  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+   </g>
+   <g id="text_5">
+    <g id="patch_8">
+     <path d="M 124.254 289.229203  L 319.330406 289.229203  Q 323.830406 289.229203 323.830406 284.729203  L 323.830406 255.342797  Q 323.830406 250.842797 319.330406 250.842797  L 124.254 250.842797  Q 119.754 250.842797 119.754 255.342797  L 119.754 284.729203  Q 119.754 289.229203 124.254 289.229203  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 262.569604)">pronoun_chain · turn 1</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 272.365014)">What symptoms are associated with Acute Renal</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 282.1606)">Calculus?</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_9">
+     <path d="M 515.97 299.024789  L 631.02375 299.024789  Q 635.52375 299.024789 635.52375 294.524789  L 635.52375 245.547211  Q 635.52375 241.047211 631.02375 241.047211  L 515.97 241.047211  Q 511.47 241.047211 511.47 245.547211  L 511.47 294.524789  Q 511.47 299.024789 515.97 299.024789  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 252.774018)">Active: Acute Renal Calculus</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 262.569428)">Type: Disease | ID: #45:107</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 272.365014)">Intent: disease_symptoms</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 282.1606)">Status: success</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 291.95601)">Results: 8 | Citations: 8</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 474.447226 270.036  Q 486.95376 270.036 498.342261 270.036  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+    <path d="M 494.742261 268.236  L 498.342261 270.036  L 494.742261 271.836  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+   </g>
+   <g id="text_7">
+    <g id="patch_11">
+     <path d="M 124.254 356.40341  L 247.309313 356.40341  Q 251.809313 356.40341 251.809313 351.90341  L 251.809313 332.31259  Q 251.809313 327.81259 247.309313 327.81259  L 124.254 327.81259  Q 119.754 327.81259 119.754 332.31259  L 119.754 351.90341  Q 119.754 356.40341 124.254 356.40341  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 339.539396)">pronoun_chain · turn 2</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 349.334807)">What therapies are used for it?</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_12">
+     <path d="M 515.97 371.096789  L 631.02375 371.096789  Q 635.52375 371.096789 635.52375 366.596789  L 635.52375 317.619211  Q 635.52375 313.119211 631.02375 313.119211  L 515.97 313.119211  Q 511.47 313.119211 511.47 317.619211  L 511.47 366.596789  Q 511.47 371.096789 515.97 371.096789  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 324.846018)">Active: Acute Renal Calculus</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 334.641428)">Type: Disease | ID: #45:107</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 344.437014)">Intent: disease_therapy</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 354.2326)">Status: success</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 364.02801)">Results: 6 | Citations: 6</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 474.447226 342.108  Q 486.95376 342.108 498.342261 342.108  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+    <path d="M 494.742261 340.308  L 498.342261 342.108  L 494.742261 343.908  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+   </g>
+   <g id="text_9">
+    <g id="patch_14">
+     <path d="M 124.254 428.47541  L 259.306031 428.47541  Q 263.806031 428.47541 263.806031 423.97541  L 263.806031 404.38459  Q 263.806031 399.88459 259.306031 399.88459  L 124.254 399.88459  Q 119.754 399.88459 119.754 404.38459  L 119.754 423.97541  Q 119.754 428.47541 124.254 428.47541  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 411.611396)">pronoun_chain · turn 3</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 421.406807)">What formulations are used for it?</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_15">
+     <path d="M 515.97 443.168701  L 631.02375 443.168701  Q 635.52375 443.168701 635.52375 438.668701  L 635.52375 389.691299  Q 635.52375 385.191299 631.02375 385.191299  L 515.97 385.191299  Q 511.47 385.191299 511.47 389.691299  L 511.47 438.668701  Q 511.47 443.168701 515.97 443.168701  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 396.918105)">Active: Acute Renal Calculus</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 406.713516)">Type: Disease | ID: #45:107</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 416.509102)">Intent: disease_formulation</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 426.304512)">Status: success</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 436.099922)">Results: 6 | Citations: 7</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 474.447226 414.18  Q 486.95376 414.18 498.342261 414.18  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+    <path d="M 494.742261 412.38  L 498.342261 414.18  L 494.742261 415.98  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+   </g>
+   <g id="text_11">
+    <g id="patch_17">
+     <path d="M 124.254 500.547498  L 285.324469 500.547498  Q 289.824469 500.547498 289.824469 496.047498  L 289.824469 476.456502  Q 289.824469 471.956502 285.324469 471.956502  L 124.254 471.956502  Q 119.754 471.956502 119.754 476.456502  L 119.754 496.047498  Q 119.754 500.547498 124.254 500.547498  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 483.683309)">explicit_topic_override · turn 1</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 493.478719)">Which media are used to purify Copper?</text>
+   </g>
+   <g id="text_12">
+    <g id="patch_18">
+     <path d="M 515.97 515.240701  L 628.365937 515.240701  Q 632.865937 515.240701 632.865937 510.740701  L 632.865937 461.763299  Q 632.865937 457.263299 628.365937 457.263299  L 515.97 457.263299  Q 511.47 457.263299 511.47 461.763299  L 511.47 510.740701  Q 511.47 515.240701 515.97 515.240701  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 468.990105)">Active: Copper</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 478.785516)">Type: Compound | ID: #5:24</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 488.581102)">Intent: compound_media</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 498.376512)">Status: success</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 508.171922)">Results: 10 | Citations: 70</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 474.447226 486.252  Q 486.95376 486.252 498.342261 486.252  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+    <path d="M 494.742261 484.452  L 498.342261 486.252  L 494.742261 488.052  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+   </g>
+   <g id="text_13">
+    <g id="patch_20">
+     <path d="M 124.254 577.517203  L 326.83275 577.517203  Q 331.33275 577.517203 331.33275 573.017203  L 331.33275 543.630797  Q 331.33275 539.130797 326.83275 539.130797  L 124.254 539.130797  Q 119.754 539.130797 119.754 543.630797  L 119.754 573.017203  Q 119.754 577.517203 124.254 577.517203  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 550.857604)">explicit_topic_override · turn 2</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 560.653014)">Now Acute Renal Calculus: what symptoms does it</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 570.4486)">have?</text>
+   </g>
+   <g id="text_14">
+    <g id="patch_21">
+     <path d="M 515.97 587.312789  L 631.02375 587.312789  Q 635.52375 587.312789 635.52375 582.812789  L 635.52375 533.835211  Q 635.52375 529.335211 631.02375 529.335211  L 515.97 529.335211  Q 511.47 529.335211 511.47 533.835211  L 511.47 582.812789  Q 511.47 587.312789 515.97 587.312789  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 541.062018)">Active: Acute Renal Calculus</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 550.857428)">Type: Disease | ID: #45:107</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 560.653014)">Intent: disease_symptoms</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 570.4486)">Status: success</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 580.24401)">Results: 8 | Citations: 8</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 474.447226 558.324  Q 486.95376 558.324 498.342261 558.324  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+    <path d="M 494.742261 556.524  L 498.342261 558.324  L 494.742261 560.124  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+   </g>
+   <g id="text_15">
+    <g id="patch_23">
+     <path d="M 124.254 644.69141  L 247.309313 644.69141  Q 251.809313 644.69141 251.809313 640.19141  L 251.809313 620.60059  Q 251.809313 616.10059 247.309313 616.10059  L 124.254 616.10059  Q 119.754 616.10059 119.754 620.60059  L 119.754 640.19141  Q 119.754 644.69141 124.254 644.69141  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 627.827396)">explicit_topic_override · turn 3</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(124.254 637.622807)">What therapies are used for it?</text>
+   </g>
+   <g id="text_16">
+    <g id="patch_24">
+     <path d="M 515.97 659.384789  L 631.02375 659.384789  Q 635.52375 659.384789 635.52375 654.884789  L 635.52375 605.907211  Q 635.52375 601.407211 631.02375 601.407211  L 515.97 601.407211  Q 511.47 601.407211 511.47 605.907211  L 511.47 654.884789  Q 511.47 659.384789 515.97 659.384789  z " style="fill: #ffffff; stroke: #2166a0; stroke-linejoin: miter" />
+    </g>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 613.134018)">Active: Acute Renal Calculus</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 622.929428)">Type: Disease | ID: #45:107</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 632.725014)">Intent: disease_therapy</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 642.5206)">Status: success</text>
+    <text style="font-size: 9px; font-family: 'Arial'" transform="translate(515.97 652.31601)">Results: 6 | Citations: 6</text>
+   </g>
+   <g id="patch_25">
+    <path d="M 474.447226 630.396  Q 486.95376 630.396 498.342261 630.396  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+    <path d="M 494.742261 628.596  L 498.342261 630.396  L 494.742261 632.196  " style="fill: none; stroke: #7c858d; stroke-linecap: round" />
+   </g>
+  </g>
+ </g>
+<title>S06 conversation context</title><desc>ShodhanaKG; native editable vectors. {}</desc></svg>

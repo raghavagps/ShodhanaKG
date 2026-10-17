@@ -1,0 +1,76 @@
+edge_id,source_id,source_label,predicate,target_id,target_label
+#458:0,#400:1,Shodhita Rakta-Snuhi,USED_FOR_TREATMENT,#420:113,Piles
+#458:1,#400:2,Shodhita Vatsanabha,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:2,#400:2,Shodhita Vatsanabha,USED_FOR_TREATMENT,#420:84,Sciatica
+#458:3,#400:3,Shodhita Gunja,USED_FOR_TREATMENT,#420:2,Alopecia
+#458:4,#400:3,Shodhita Gunja,USED_FOR_TREATMENT,#420:2,Alopecia
+#458:5,#400:3,Shodhita Gunja,USED_FOR_TREATMENT,#420:2,Alopecia
+#458:6,#400:3,Shodhita Gunja,USED_FOR_TREATMENT,#420:2,Alopecia
+#458:7,#400:3,Shodhita Gunja,USED_FOR_TREATMENT,#420:2,Alopecia
+#458:8,#400:3,Shodhita Gunja,USED_FOR_TREATMENT,#420:2,Alopecia
+#458:9,#400:3,Shodhita Gunja,USED_FOR_TREATMENT,#420:84,Sciatica
+#458:10,#400:3,Shodhita Gunja,USED_FOR_TREATMENT,#420:84,Sciatica
+#458:11,#400:3,Shodhita Gunja,USED_FOR_TREATMENT,#420:84,Sciatica
+#458:12,#400:3,Shodhita Gunja,USED_FOR_TREATMENT,#420:105,Wounds
+#458:13,#400:5,Shodhita Bhallathaka,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:14,#400:5,Shodhita Bhallathaka,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:15,#400:5,Shodhita Bhallathaka,USED_FOR_TREATMENT,#420:84,Sciatica
+#458:16,#400:6,Shodhita Vacha,USED_FOR_TREATMENT,#420:33,Eczema
+#458:17,#400:6,Shodhita Vacha,USED_FOR_TREATMENT,#420:113,Piles
+#458:18,#400:7,Purified Guggulu,USED_FOR_TREATMENT,#420:64,Obesity
+#458:19,#400:7,Purified Guggulu,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:20,#400:7,Purified Guggulu,USED_FOR_TREATMENT,#420:105,Wounds
+#458:21,#400:9,Purified Nerium indicum,USED_FOR_TREATMENT,#420:2,Alopecia
+#458:22,#400:9,Purified Nerium indicum,USED_FOR_TREATMENT,#420:105,Wounds
+#458:23,#400:10,Shodhita Karavira,USED_FOR_TREATMENT,#420:11,Bronchial Asthma
+#458:24,#400:10,Shodhita Karavira,USED_FOR_TREATMENT,#420:105,Wounds
+#458:25,#400:11,Shodhita Ativisha,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:26,#400:12,Purified Aconitum,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:27,#400:13,Shodhita Chitraka,USED_FOR_TREATMENT,#420:31,Dysmenorrhea
+#458:28,#400:13,Shodhita Chitraka,USED_FOR_TREATMENT,#420:33,Eczema
+#458:29,#400:13,Shodhita Chitraka,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:30,#400:13,Shodhita Chitraka,USED_FOR_TREATMENT,#420:105,Wounds
+#458:31,#400:13,Shodhita Chitraka,USED_FOR_TREATMENT,#420:113,Piles
+#458:32,#400:14,Shodhita Haratala,USED_FOR_TREATMENT,#420:33,Eczema
+#458:33,#400:14,Shodhita Haratala,USED_FOR_TREATMENT,#420:113,Piles
+#458:34,#400:21,Mukta Bhasma,USED_FOR_TREATMENT,#420:71,Osteoporosis
+#458:35,#400:23,Abhraka Bhasma,USED_FOR_TREATMENT,#420:11,Bronchial Asthma
+#458:36,#400:23,Abhraka Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:37,#400:26,Naga Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:38,#400:26,Naga Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:39,#400:26,Naga Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:40,#400:26,Naga Bhasma,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:41,#400:26,Naga Bhasma,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:42,#400:27,Lauha Bhasma,USED_FOR_TREATMENT,#420:11,Bronchial Asthma
+#458:43,#400:27,Lauha Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:44,#400:30,Tamra Bhasma,USED_FOR_TREATMENT,#420:33,Eczema
+#458:45,#400:32,Vanga Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:46,#400:32,Vanga Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:47,#400:32,Vanga Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:48,#400:32,Vanga Bhasma,USED_FOR_TREATMENT,#420:64,Obesity
+#458:49,#400:34,Yashada Bhasma,USED_FOR_TREATMENT,#420:11,Bronchial Asthma
+#458:50,#400:34,Yashada Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:51,#400:34,Yashada Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:52,#400:34,Yashada Bhasma,USED_FOR_TREATMENT,#420:33,Eczema
+#458:53,#400:38,Praval Bhasma,USED_FOR_TREATMENT,#420:32,Dysuria
+#458:54,#400:38,Praval Bhasma,USED_FOR_TREATMENT,#420:32,Dysuria
+#458:55,#400:38,Praval Bhasma,USED_FOR_TREATMENT,#420:71,Osteoporosis
+#458:56,#400:38,Praval Bhasma,USED_FOR_TREATMENT,#420:71,Osteoporosis
+#458:57,#400:42,Swarna Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:58,#400:42,Swarna Bhasma,USED_FOR_TREATMENT,#420:71,Osteoporosis
+#458:59,#400:42,Swarna Bhasma,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:60,#400:42,Swarna Bhasma,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:61,#400:42,Swarna Bhasma,USED_FOR_TREATMENT,#420:83,Rheumatoid Arthritis
+#458:62,#400:52,Kukkutanda Twak Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:63,#400:58,Kapardika Bhasma,USED_FOR_TREATMENT,#420:98,Ulcerative Colitis
+#458:64,#400:59,Shodhita Gairika,USED_FOR_TREATMENT,#420:59,Migraine
+#458:65,#400:59,Shodhita Gairika,USED_FOR_TREATMENT,#420:86,Sinusitis
+#458:66,#400:65,Shodhita Tuttha,USED_FOR_TREATMENT,#420:64,Obesity
+#458:67,#400:65,Shodhita Tuttha,USED_FOR_TREATMENT,#420:64,Obesity
+#458:68,#400:65,Shodhita Tuttha,USED_FOR_TREATMENT,#420:86,Sinusitis
+#458:69,#400:66,Tuttha Bhasma,USED_FOR_TREATMENT,#420:26,Diabetes Mellitus
+#458:70,#400:68,Shodhita Bhanga,USED_FOR_TREATMENT,#420:25,Depression
+#458:71,#400:68,Shodhita Bhanga,USED_FOR_TREATMENT,#420:42,Glaucoma
+#458:72,#400:69,Shodhita Raktagunja,USED_FOR_TREATMENT,#420:32,Dysuria
+#458:73,#400:70,Shodhita Langali,USED_FOR_TREATMENT,#420:2,Alopecia
+#458:74,#400:70,Shodhita Langali,USED_FOR_TREATMENT,#420:113,Piles

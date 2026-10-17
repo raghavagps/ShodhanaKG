@@ -1,0 +1,6359 @@
+[
+  {
+    "file": "chatbot-evidence.spec.ts",
+    "title": "Results-first answer groups symptoms and preserves every citation after reload",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3354,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot-evidence.spec.ts",
+    "title": "Conversational answer opens descriptive citations and restores them after reload",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2545,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot-evidence.spec.ts",
+    "title": "Chat evidence preserves access to the last record",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1920,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot-evidence.spec.ts",
+    "title": "Results-first answer groups symptoms and preserves every citation after reload",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 5296,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot-evidence.spec.ts",
+    "title": "Conversational answer opens descriptive citations and restores them after reload",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4065,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot-evidence.spec.ts",
+    "title": "Chat evidence preserves access to the last record",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3432,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot-evidence.spec.ts",
+    "title": "Results-first answer groups symptoms and preserves every citation after reload",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 9250,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot-evidence.spec.ts",
+    "title": "Conversational answer opens descriptive citations and restores them after reload",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 6521,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot-evidence.spec.ts",
+    "title": "Chat evidence preserves access to the last record",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4894,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot.spec.ts",
+    "title": "should open, display welcome message, and allow sending messages",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1514,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot.spec.ts",
+    "title": "should persist chat history after reload",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2467,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot.spec.ts",
+    "title": "should open, display welcome message, and allow sending messages",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2000,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot.spec.ts",
+    "title": "should persist chat history after reload",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3614,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot.spec.ts",
+    "title": "should open, display welcome message, and allow sending messages",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2533,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "chatbot.spec.ts",
+    "title": "should persist chat history after reload",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 5042,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "keeps elements stable and allows real dragging: Copper",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1665,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "keeps elements stable and allows real dragging: Lead",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1417,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "keeps elements stable and allows real dragging: filtered Copper",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1530,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "node and edge details use matching minimalist typography and rows",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1138,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "keeps elements stable and allows real dragging: Copper",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2272,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "keeps elements stable and allows real dragging: Lead",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2196,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "keeps elements stable and allows real dragging: filtered Copper",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2311,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "node and edge details use matching minimalist typography and rows",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2418,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "keeps elements stable and allows real dragging: Copper",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2321,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "keeps elements stable and allows real dragging: Lead",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2160,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "keeps elements stable and allows real dragging: filtered Copper",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2286,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "compound-interaction.spec.ts",
+    "title": "node and edge details use matching minimalist typography and rows",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2279,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "conversation-evaluation.spec.ts",
+    "title": "Explicit topic switch overrides the previous entity in a live conversation",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3231,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "conversation-evaluation.spec.ts",
+    "title": "Realistic conversation sends actual history through streaming and retains the disease topic",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4170,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "conversation-evaluation.spec.ts",
+    "title": "Explicit topic switch overrides the previous entity in a live conversation",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3968,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "conversation-evaluation.spec.ts",
+    "title": "Realistic conversation sends actual history through streaming and retains the disease topic",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4324,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "conversation-evaluation.spec.ts",
+    "title": "Explicit topic switch overrides the previous entity in a live conversation",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 5488,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "conversation-evaluation.spec.ts",
+    "title": "Realistic conversation sends actual history through streaming and retains the disease topic",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4763,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "entity-resolution.spec.ts",
+    "title": "typo asks for methods and displays the correction",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2460,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "entity-resolution.spec.ts",
+    "title": "Cancer alternative keeps Indication and returns supported purified compounds",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2965,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "entity-resolution.spec.ts",
+    "title": "Explorer typo suggestions preserve canonical identity",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 816,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "entity-resolution.spec.ts",
+    "title": "typo asks for methods and displays the correction",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2553,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "entity-resolution.spec.ts",
+    "title": "Cancer alternative keeps Indication and returns supported purified compounds",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3470,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "entity-resolution.spec.ts",
+    "title": "Explorer typo suggestions preserve canonical identity",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1475,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "entity-resolution.spec.ts",
+    "title": "typo asks for methods and displays the correction",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2852,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "entity-resolution.spec.ts",
+    "title": "Cancer alternative keeps Indication and returns supported purified compounds",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4995,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "entity-resolution.spec.ts",
+    "title": "Explorer typo suggestions preserve canonical identity",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1316,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "example.spec.ts",
+    "title": "local landing page exposes all three Explorer entry points",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 495,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "example.spec.ts",
+    "title": "local landing page exposes all three Explorer entry points",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 881,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "example.spec.ts",
+    "title": "local landing page exposes all three Explorer entry points",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 735,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Compound",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1333,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Disease",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 664,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Symptom",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 640,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: PurifiedCompound",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 726,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Media",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 602,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "same-view navigation and browser back retain the selected identity",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1092,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "hidden seed retains its KG label in selected filters",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 658,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Therapy",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3381,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Media",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1338,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ShodhanaMethod",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1548,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2459,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: PurifiedCompound",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1397,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ToxicSubstance",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1225,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Compound",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1203,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Disease",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1244,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Formulation",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1225,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Symptom",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1187,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Dosha",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2613,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: AyurvedicDiagnosis",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1197,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: AssessmentParameter",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1129,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ConfirmationStudy",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1254,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Indication",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1297,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: AyurvedicFormulation",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1230,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ShodhanaType",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1143,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "connected edges remain visible when provenance changes",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1248,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "edge property cards preserve the selected edge values",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1063,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "launcher animates once and never auto-opens",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 746,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "assistant remains accessible on graph routes",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1781,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "reduced motion skips launcher animation",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 478,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Compound",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2039,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Disease",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1354,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Symptom",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1459,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: PurifiedCompound",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1464,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Media",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1541,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "same-view navigation and browser back retain the selected identity",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1892,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "hidden seed retains its KG label in selected filters",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1506,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Therapy",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4217,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Media",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3537,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ShodhanaMethod",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3226,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4830,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: PurifiedCompound",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2725,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ToxicSubstance",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3304,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Compound",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3011,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Disease",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2960,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Formulation",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3059,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Symptom",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2722,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Dosha",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4531,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: AyurvedicDiagnosis",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3396,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: AssessmentParameter",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2831,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ConfirmationStudy",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3013,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Indication",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3075,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: AyurvedicFormulation",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3456,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ShodhanaType",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2871,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "connected edges remain visible when provenance changes",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2212,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "edge property cards preserve the selected edge values",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1627,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "launcher animates once and never auto-opens",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1548,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "assistant remains accessible on graph routes",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2385,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "reduced motion skips launcher animation",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 948,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Compound",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2461,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Disease",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1589,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Symptom",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1631,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: PurifiedCompound",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1635,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "Integrated typed selection: Media",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1644,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "same-view navigation and browser back retain the selected identity",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2162,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "hidden seed retains its KG label in selected filters",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1634,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Therapy",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3895,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Media",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3273,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ShodhanaMethod",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3402,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3892,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: PurifiedCompound",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3255,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ToxicSubstance",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3309,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Compound",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2767,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Disease",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2868,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Formulation",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3159,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Symptom",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2656,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Dosha",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3671,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: AyurvedicDiagnosis",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3236,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: AssessmentParameter",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3235,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ConfirmationStudy",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3167,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: Indication",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3399,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: AyurvedicFormulation",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2807,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "typed search selection: ShodhanaType",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3210,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "connected edges remain visible when provenance changes",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1779,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "edge property cards preserve the selected edge values",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2243,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "launcher animates once and never auto-opens",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1149,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "assistant remains accessible on graph routes",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2109,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "explorer-context-v2.spec.ts",
+    "title": "reduced motion skips launcher animation",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 819,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "edge visibility removes disconnected neighbors but retains the selected seed",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 870,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "new selection never displays the previous graph while its API request is pending",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 983,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "fragment requests methods for Lead",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1890,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "fragment requests methods for Copper",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1944,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "fragment requests methods for Sulphur",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1931,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "edge visibility removes disconnected neighbors but retains the selected seed",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1682,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "new selection never displays the previous graph while its API request is pending",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2130,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "fragment requests methods for Lead",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2604,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "fragment requests methods for Copper",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2621,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "fragment requests methods for Sulphur",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2706,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "edge visibility removes disconnected neighbors but retains the selected seed",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2057,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "new selection never displays the previous graph while its API request is pending",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1860,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "fragment requests methods for Lead",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3482,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "fragment requests methods for Copper",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2748,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "fragment-graph.spec.ts",
+    "title": "fragment requests methods for Sulphur",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2639,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "graph-placeholder.spec.ts",
+    "title": "disease: new selection never displays the previous graph while loading",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1407,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "graph-placeholder.spec.ts",
+    "title": "integrated: new selection never displays the previous graph while loading",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 965,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "graph-placeholder.spec.ts",
+    "title": "disease: new selection never displays the previous graph while loading",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1581,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "graph-placeholder.spec.ts",
+    "title": "integrated: new selection never displays the previous graph while loading",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1468,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "graph-placeholder.spec.ts",
+    "title": "disease: new selection never displays the previous graph while loading",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1825,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "graph-placeholder.spec.ts",
+    "title": "integrated: new selection never displays the previous graph while loading",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1677,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "legacy-evidence.spec.ts",
+    "title": "Legacy per-edge evidence stays attributed and hidden details remain accessible: compound_media",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2085,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "legacy-evidence.spec.ts",
+    "title": "Legacy per-edge evidence stays attributed and hidden details remain accessible: process_compound",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1975,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "legacy-evidence.spec.ts",
+    "title": "Legacy per-edge evidence stays attributed and hidden details remain accessible: compound_media",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3072,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "legacy-evidence.spec.ts",
+    "title": "Legacy per-edge evidence stays attributed and hidden details remain accessible: process_compound",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3151,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "legacy-evidence.spec.ts",
+    "title": "Legacy per-edge evidence stays attributed and hidden details remain accessible: compound_media",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 6769,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "legacy-evidence.spec.ts",
+    "title": "Legacy per-edge evidence stays attributed and hidden details remain accessible: process_compound",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 6390,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "local-ui-resources.spec.ts",
+    "title": "UI fonts and Hindi fallback work with external requests blocked",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 884,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "local-ui-resources.spec.ts",
+    "title": "UI fonts and Hindi fallback work with external requests blocked",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1362,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "local-ui-resources.spec.ts",
+    "title": "UI fonts and Hindi fallback work with external requests blocked",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1345,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "integrated supported categories switch together without rebuilding the graph or losing identity",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1999,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "compound supported categories switch together without rebuilding the graph or losing identity",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1943,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "disease real graph keeps shapes and fills on selection and hover",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1012,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "compound real graph keeps shapes and fills on selection and hover",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 949,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "integrated supported categories switch together without rebuilding the graph or losing identity",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2916,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "compound supported categories switch together without rebuilding the graph or losing identity",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2823,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "disease real graph keeps shapes and fills on selection and hover",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1483,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "compound real graph keeps shapes and fills on selection and hover",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1531,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "integrated supported categories switch together without rebuilding the graph or losing identity",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3344,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "compound supported categories switch together without rebuilding the graph or losing identity",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3970,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "disease real graph keeps shapes and fills on selection and hover",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2250,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-colors.spec.ts",
+    "title": "compound real graph keeps shapes and fills on selection and hover",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2053,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-properties.spec.ts",
+    "title": "Node properties: stored description and missing-field follow-up",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3127,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-properties.spec.ts",
+    "title": "Node properties: stored description and missing-field follow-up",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3247,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "node-properties.spec.ts",
+    "title": "Node properties: stored description and missing-field follow-up",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3749,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "provenance-subgraph.php preserves exact stored edges and references",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 107,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "compound-provenance.php preserves exact stored edges and references",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 204,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "AYUSH evidence remains AYUSH",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 68,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "missing disease gives 404",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 39,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "missing input gives 400",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 16,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "wrong node type cannot masquerade as a disease",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 32,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "disease graph renders with canonical seed ID",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 711,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "Integrated Explorer exposes copper treatment paths and exact sources",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2543,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "Integrated table graph links contain canonical record IDs",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 489,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "provenance-subgraph.php preserves exact stored edges and references",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 128,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "compound-provenance.php preserves exact stored edges and references",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 269,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "AYUSH evidence remains AYUSH",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 79,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "missing disease gives 404",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 32,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "missing input gives 400",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 11,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "wrong node type cannot masquerade as a disease",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 37,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "disease graph renders with canonical seed ID",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1233,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "Integrated Explorer exposes copper treatment paths and exact sources",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4688,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "Integrated table graph links contain canonical record IDs",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 957,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "provenance-subgraph.php preserves exact stored edges and references",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 103,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "compound-provenance.php preserves exact stored edges and references",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 229,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "AYUSH evidence remains AYUSH",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 57,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "missing disease gives 404",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 16,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "missing input gives 400",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 12,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "wrong node type cannot masquerade as a disease",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 13,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "disease graph renders with canonical seed ID",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1561,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "Integrated Explorer exposes copper treatment paths and exact sources",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 17920,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "provenance.spec.ts",
+    "title": "Integrated table graph links contain canonical record IDs",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 844,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: live Explorer AYUSH",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 461,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: live Explorer PMID",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 339,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: live Explorer DOI",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 202,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: chatbot citation uses live backend metadata",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2575,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: live Explorer AYUSH",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 540,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: live Explorer PMID",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 480,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: live Explorer DOI",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 249,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: chatbot citation uses live backend metadata",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3595,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: live Explorer AYUSH",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 621,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: live Explorer PMID",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 648,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: live Explorer DOI",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 303,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "reference-classification.spec.ts",
+    "title": "Reference classification: chatbot citation uses live backend metadata",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4388,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_therapy_formulation",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1964,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_media_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1900,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_shodhana_method_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1952,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_process_shodhana_method",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2209,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_purified_compound_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2031,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_method_toxic_substance",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2053,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_process_next_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1980,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_next_process_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1895,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_compound_method_media",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2096,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_media_method_compound",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2162,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_disease_therapy_formulation",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2024,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_formulation_therapy_disease",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1871,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_formulation_therapy",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2021,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_process_purified_compound",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2096,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_toxic_substance_method",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1976,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_process_compound",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2170,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_process_media",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2104,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_therapy_disease",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2052,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_compound_purification",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1968,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_compound_media",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2031,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_compound_shodhana_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2033,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_media_compound",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2073,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_disease_formulation",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1999,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_formulation_disease",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1973,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_therapy_formulation",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2596,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_media_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2909,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_shodhana_method_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2432,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_process_shodhana_method",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2920,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_purified_compound_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2355,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_method_toxic_substance",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2576,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_process_next_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2690,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_next_process_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2576,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_compound_method_media",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3103,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_media_method_compound",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2737,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_disease_therapy_formulation",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2628,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_formulation_therapy_disease",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2455,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_formulation_therapy",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2449,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_process_purified_compound",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2656,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_toxic_substance_method",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3123,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_process_compound",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3102,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_process_media",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3422,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_therapy_disease",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2695,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_compound_purification",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2387,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_compound_media",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2735,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_compound_shodhana_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2593,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_media_compound",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3368,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_disease_formulation",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2882,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_formulation_disease",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2684,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_therapy_formulation",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 5440,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_media_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4502,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_shodhana_method_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4073,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_process_shodhana_method",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4780,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_purified_compound_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3633,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_method_toxic_substance",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4960,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_process_next_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3833,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_next_process_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3570,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_compound_method_media",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4519,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_media_method_compound",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4690,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_disease_therapy_formulation",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 5015,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_traversal_provenance_formulation_therapy_disease",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3694,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_formulation_therapy",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3627,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_process_purified_compound",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4553,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_toxic_substance_method",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3788,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_process_compound",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4906,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_process_media",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 5046,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_therapy_disease",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4987,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_compound_purification",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3737,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_compound_media",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4698,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_compound_shodhana_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 5230,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_media_compound",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4826,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_disease_formulation",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4874,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "results-evaluation.spec.ts",
+    "title": "Independent results rendering: eval_legacy_factual_formulation_disease",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3783,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load disease table and show Ayurvedic Diagnosis column",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2272,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should navigate to graph view on row click",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4328,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should support column sorting",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2858,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load disease table and show Ayurvedic Diagnosis column",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2751,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should navigate to graph view on row click",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 5054,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should support column sorting",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3516,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load disease table and show Ayurvedic Diagnosis column",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2554,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should navigate to graph view on row click",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4837,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should support column sorting",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3260,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load graph view from URL with node param",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 519,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should sync filters to URL",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1402,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should show node visibility toggles",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3305,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should display DetailsPanel with edge properties when edge selected",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2390,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load graph view from URL with node param",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1230,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should sync filters to URL",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1484,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should show node visibility toggles",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3865,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should display DetailsPanel with edge properties when edge selected",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2951,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load graph view from URL with node param",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 770,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should sync filters to URL",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1831,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should show node visibility toggles",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3541,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should display DetailsPanel with edge properties when edge selected",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2628,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load compound graph from URL",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1298,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should show node visibility toggles",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 423,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should sync filters to URL",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 779,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load compound graph from URL",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1912,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should show node visibility toggles",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 996,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should sync filters to URL",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1423,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load compound graph from URL",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1506,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should show node visibility toggles",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 685,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should sync filters to URL",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1045,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load from URL with seeds and show bridge edge properties",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2299,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should sync depth and seeds to URL",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1272,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load from URL with seeds and show bridge edge properties",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2850,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should sync depth and seeds to URL",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1895,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should load from URL with seeds and show bridge edge properties",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2551,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should sync depth and seeds to URL",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1475,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "disease graph direct typed RID filter shows entity name and graph",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2266,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "compound graph direct ?node=177 shows chip and badge",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1781,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "integrated graph direct ?seeds=1155&depth=1 shows badge",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2257,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "disease graph direct typed RID filter shows entity name and graph",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2990,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "compound graph direct ?node=177 shows chip and badge",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2420,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "integrated graph direct ?seeds=1155&depth=1 shows badge",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2867,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "disease graph direct typed RID filter shows entity name and graph",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2560,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "compound graph direct ?node=177 shows chip and badge",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2115,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "integrated graph direct ?seeds=1155&depth=1 shows badge",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2502,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should navigate between tabs correctly",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 881,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should navigate between tabs correctly",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1796,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "should navigate between tabs correctly",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1721,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/ loads without crash",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1813,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease loads without crash",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1795,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/graph loads without crash",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1795,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/table loads without crash",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1821,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound loads without crash",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1784,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/graph loads without crash",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1794,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/table loads without crash",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1803,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated loads without crash",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1837,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/graph loads without crash",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1799,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/table loads without crash",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1815,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/ loads without crash",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2411,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease loads without crash",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2417,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/graph loads without crash",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2472,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/table loads without crash",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2484,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound loads without crash",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2452,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/graph loads without crash",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2416,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/table loads without crash",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2523,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated loads without crash",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2570,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/graph loads without crash",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2390,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/table loads without crash",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2523,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/ loads without crash",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2018,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease loads without crash",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2045,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/graph loads without crash",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2019,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/table loads without crash",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2023,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound loads without crash",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2063,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/graph loads without crash",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2016,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/table loads without crash",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2030,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated loads without crash",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2093,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/graph loads without crash",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2028,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/table loads without crash",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2052,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "disease home search for Eczema shows result cards with Open graph",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3959,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "compound home search for Croton shows result cards with Open graph",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3879,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "integrated home redirects to bridge table and opens a filtered compound graph",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2703,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "disease home search for Eczema shows result cards with Open graph",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4574,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "compound home search for Croton shows result cards with Open graph",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4573,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "integrated home redirects to bridge table and opens a filtered compound graph",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3929,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "disease home search for Eczema shows result cards with Open graph",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4455,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "compound home search for Croton shows result cards with Open graph",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4432,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "integrated home redirects to bridge table and opens a filtered compound graph",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4197,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease has no horizontal overflow",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2240,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/graph has no horizontal overflow",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2226,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/table has no horizontal overflow",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2245,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound has no horizontal overflow",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2244,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/graph has no horizontal overflow",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2261,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/table has no horizontal overflow",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2308,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated has no horizontal overflow",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2280,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/graph has no horizontal overflow",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2254,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/table has no horizontal overflow",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2260,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease has no horizontal overflow",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2882,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/graph has no horizontal overflow",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2869,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/table has no horizontal overflow",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2839,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound has no horizontal overflow",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2873,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/graph has no horizontal overflow",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2784,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/table has no horizontal overflow",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2806,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated has no horizontal overflow",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2915,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/graph has no horizontal overflow",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2828,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/table has no horizontal overflow",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2847,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease has no horizontal overflow",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2502,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/graph has no horizontal overflow",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2516,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/disease/table has no horizontal overflow",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2480,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound has no horizontal overflow",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2446,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/graph has no horizontal overflow",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2487,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/compound/table has no horizontal overflow",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2485,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated has no horizontal overflow",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2475,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/graph has no horizontal overflow",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2547,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "/explorer/integrated/table has no horizontal overflow",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2464,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "disease table row has visible Open graph link",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2290,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "compound table row has visible Open graph link",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2258,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "integrated table row has visible Open graph link",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2303,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "disease table row has visible Open graph link",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2928,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "compound table row has visible Open graph link",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2921,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "integrated table row has visible Open graph link",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2978,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "disease table row has visible Open graph link",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2534,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "compound table row has visible Open graph link",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2519,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "shodhanakg.spec.ts",
+    "title": "integrated table row has visible Open graph link",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2560,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "symptom-visibility.spec.ts",
+    "title": "Symptom visibility: graph API preserves the symptom relationship contract",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 131,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "symptom-visibility.spec.ts",
+    "title": "Symptom visibility: Disease Explorer actually displays connected symptoms",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 823,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "symptom-visibility.spec.ts",
+    "title": "Symptom visibility: graph API preserves the symptom relationship contract",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 149,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "symptom-visibility.spec.ts",
+    "title": "Symptom visibility: Disease Explorer actually displays connected symptoms",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1692,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "symptom-visibility.spec.ts",
+    "title": "Symptom visibility: graph API preserves the symptom relationship contract",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 134,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "symptom-visibility.spec.ts",
+    "title": "Symptom visibility: Disease Explorer actually displays connected symptoms",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1200,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "terminology-expansion.spec.ts",
+    "title": "broader category preserves the selected disease type",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3046,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "terminology-expansion.spec.ts",
+    "title": "a KG abbreviation does not manufacture a node description",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2981,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "terminology-expansion.spec.ts",
+    "title": "broader category preserves the selected disease type",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4457,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "terminology-expansion.spec.ts",
+    "title": "a KG abbreviation does not manufacture a node description",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3362,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "terminology-expansion.spec.ts",
+    "title": "broader category preserves the selected disease type",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4296,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "terminology-expansion.spec.ts",
+    "title": "a KG abbreviation does not manufacture a node description",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4774,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "therapy_formulation",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 130,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "media_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 84,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "shodhana_method_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 43,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "process_shodhana_method",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 96,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "purified_compound_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 36,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "method_toxic_substance",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 128,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "process_next_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 32,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "next_process_process",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 63,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_compound_method_media",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 262,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_media_method_compound",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 218,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_disease_therapy_formulation",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 399,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_formulation_therapy_disease",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 62,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "validates direct endpoint requests",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 21,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "chatbot JSON abstention",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 26,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "chatbot SSE abstention",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 25,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "therapy_formulation",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 167,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "media_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 105,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "shodhana_method_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 49,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "process_shodhana_method",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 109,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "purified_compound_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 60,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "method_toxic_substance",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 119,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "process_next_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 58,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "next_process_process",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 89,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_compound_method_media",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 280,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_media_method_compound",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 232,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_disease_therapy_formulation",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 419,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_formulation_therapy_disease",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 94,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "validates direct endpoint requests",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 26,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "chatbot JSON abstention",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 23,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "chatbot SSE abstention",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 29,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "therapy_formulation",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 151,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "media_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 72,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "shodhana_method_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 36,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "process_shodhana_method",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 101,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "purified_compound_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 48,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "method_toxic_substance",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 123,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "process_next_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 37,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "next_process_process",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 69,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_compound_method_media",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 273,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_media_method_compound",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 217,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_disease_therapy_formulation",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 403,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "provenance_formulation_therapy_disease",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 85,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "validates direct endpoint requests",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 21,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "chatbot JSON abstention",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 25,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "traversal.spec.ts",
+    "title": "chatbot SSE abstention",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 21,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "greeting once without opening panel; reduced motion=false",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 3004,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "greeting once without opening panel; reduced motion=true",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2984,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "all Disease edges stay opaque after selection and filtering",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1925,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "fresh browser methods: What Shodhana method is used to purify Copper?",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1927,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "fresh browser methods: Which purification technique is used for Copper?",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1870,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "fresh browser methods: Name the methods used to purify Copper.",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1868,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "schema lists 21 relationships and stored properties",
+    "project": "chromium",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 513,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "greeting once without opening panel; reduced motion=false",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4614,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "greeting once without opening panel; reduced motion=true",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4780,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "all Disease edges stay opaque after selection and filtering",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1997,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "fresh browser methods: What Shodhana method is used to purify Copper?",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2804,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "fresh browser methods: Which purification technique is used for Copper?",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2943,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "fresh browser methods: Name the methods used to purify Copper.",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2965,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "schema lists 21 relationships and stored properties",
+    "project": "firefox",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1368,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "greeting once without opening panel; reduced motion=false",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 5169,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "greeting once without opening panel; reduced motion=true",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 4490,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "all Disease edges stay opaque after selection and filtering",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2463,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "fresh browser methods: What Shodhana method is used to purify Copper?",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2710,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "fresh browser methods: Which purification technique is used for Copper?",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2477,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "fresh browser methods: Name the methods used to purify Copper.",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 2402,
+        "errors": []
+      }
+    ]
+  },
+  {
+    "file": "ui-result-contract.spec.ts",
+    "title": "schema lists 21 relationships and stored properties",
+    "project": "webkit",
+    "status": "expected",
+    "results": [
+      {
+        "status": "passed",
+        "duration_ms": 1380,
+        "errors": []
+      }
+    ]
+  }
+]

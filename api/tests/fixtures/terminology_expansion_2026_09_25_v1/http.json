@@ -1,0 +1,676 @@
+{
+  "total": 32,
+  "passed": 32,
+  "cases": [
+    {
+      "case": "resolve:Lou Gehrig Disease",
+      "passed": true
+    },
+    {
+      "case": "resolve:Chronic Renal Insufficiency",
+      "passed": true
+    },
+    {
+      "case": "resolve:irritable colon",
+      "passed": true
+    },
+    {
+      "case": "resolve:Eczematous Dermatitis",
+      "passed": true
+    },
+    {
+      "case": "resolve:Tamra",
+      "passed": true
+    },
+    {
+      "case": "resolve:Gomutra",
+      "passed": true
+    },
+    {
+      "case": "resolve:Vatsanabha",
+      "passed": true
+    },
+    {
+      "case": "resolve:Abhraka",
+      "passed": true
+    },
+    {
+      "case": "resolve:Ardraka Swarasa",
+      "passed": true
+    },
+    {
+      "case": "resolve:Cardiovascular Disorder",
+      "passed": true
+    },
+    {
+      "case": "resolve:Autoimmune Disorder",
+      "passed": true
+    },
+    {
+      "case": "resolve:Skin Disorder",
+      "passed": true
+    },
+    {
+      "case": "resolve:ESCC",
+      "passed": true
+    },
+    {
+      "case": "resolve:Copper",
+      "passed": true
+    },
+    {
+      "case": "resolve:zzzzunknown",
+      "passed": true
+    },
+    {
+      "case": "json:canonical factual equivalence:Lou Gehrig Disease",
+      "passed": true
+    },
+    {
+      "case": "json:canonical factual equivalence:irritable colon",
+      "passed": true
+    },
+    {
+      "case": "json:KG alternate name confirmation",
+      "passed": true
+    },
+    {
+      "case": "json:selected alias preserves evidence",
+      "passed": true
+    },
+    {
+      "case": "json:broader wording",
+      "passed": true
+    },
+    {
+      "case": "json:broader choice retains type and evidence",
+      "passed": true
+    },
+    {
+      "case": "json:node properties remain KG-only",
+      "passed": true
+    },
+    {
+      "case": "sse:canonical factual equivalence:Lou Gehrig Disease",
+      "passed": true
+    },
+    {
+      "case": "sse:canonical factual equivalence:irritable colon",
+      "passed": true
+    },
+    {
+      "case": "sse:KG alternate name confirmation",
+      "passed": true
+    },
+    {
+      "case": "sse:selected alias preserves evidence",
+      "passed": true
+    },
+    {
+      "case": "sse:broader wording",
+      "passed": true
+    },
+    {
+      "case": "sse:broader choice retains type and evidence",
+      "passed": true
+    },
+    {
+      "case": "sse:node properties remain KG-only",
+      "passed": true
+    },
+    {
+      "case": "explorer:disease",
+      "passed": true
+    },
+    {
+      "case": "explorer:compound",
+      "passed": true
+    },
+    {
+      "case": "explorer:integrated",
+      "passed": true
+    }
+  ],
+  "resolutions": [
+    {
+      "term": "Lou Gehrig Disease",
+      "resolution": {
+        "mention": "Lou Gehrig Disease",
+        "normalized": "lou gehrig disease",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#45:3",
+            "label": "Amyotrophic Lateral Sclerosis",
+            "type": "Disease",
+            "mention": "Lou Gehrig Disease",
+            "match_method": "alias",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "Chronic Renal Insufficiency",
+      "resolution": {
+        "mention": "Chronic Renal Insufficiency",
+        "normalized": "chronic renal insufficiency",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#45:114",
+            "label": "Chronic Kidney Disease",
+            "type": "Disease",
+            "mention": "Chronic Renal Insufficiency",
+            "match_method": "alias",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "irritable colon",
+      "resolution": {
+        "mention": "irritable colon",
+        "normalized": "irritable colon",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#45:111",
+            "label": "Irritable Bowel Syndrome",
+            "type": "Disease",
+            "mention": "irritable colon",
+            "match_method": "alias",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "Eczematous Dermatitis",
+      "resolution": {
+        "mention": "Eczematous Dermatitis",
+        "normalized": "eczematous dermatitis",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#45:33",
+            "label": "Eczema",
+            "type": "Disease",
+            "mention": "Eczematous Dermatitis",
+            "match_method": "alias",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "Tamra",
+      "resolution": {
+        "mention": "Tamra",
+        "normalized": "tamra",
+        "outcome": "ambiguous",
+        "candidates": [
+          {
+            "id": "#5:24",
+            "label": "Copper",
+            "type": "Compound",
+            "mention": "Tamra",
+            "match_method": "terminology_suggestion",
+            "source": "KG node #5:24",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "Gomutra",
+      "resolution": {
+        "mention": "Gomutra",
+        "normalized": "gomutra",
+        "outcome": "ambiguous",
+        "candidates": [
+          {
+            "id": "#21:3",
+            "label": "Cow Urine",
+            "type": "Media",
+            "mention": "Gomutra",
+            "match_method": "terminology_suggestion",
+            "source": "KG node #21:3",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "Vatsanabha",
+      "resolution": {
+        "mention": "Vatsanabha",
+        "normalized": "vatsanabha",
+        "outcome": "ambiguous",
+        "candidates": [
+          {
+            "id": "#5:13",
+            "label": "Aconitum chasmanthum Holmes ex Stapf.",
+            "type": "Compound",
+            "mention": "Vatsanabha",
+            "match_method": "terminology_suggestion",
+            "source": "KG node #5:13",
+            "distance": 0
+          },
+          {
+            "id": "#5:2",
+            "label": "Aconitum ferox",
+            "type": "Compound",
+            "mention": "Vatsanabha",
+            "match_method": "terminology_suggestion",
+            "source": "KG node #5:2",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "Abhraka",
+      "resolution": {
+        "mention": "Abhraka",
+        "normalized": "abhraka",
+        "outcome": "ambiguous",
+        "candidates": [
+          {
+            "id": "#5:34",
+            "label": "Biotite Mica",
+            "type": "Compound",
+            "mention": "Abhraka",
+            "match_method": "terminology_suggestion",
+            "source": "KG node #5:34",
+            "distance": 0
+          },
+          {
+            "id": "#5:21",
+            "label": "Mica",
+            "type": "Compound",
+            "mention": "Abhraka",
+            "match_method": "terminology_suggestion",
+            "source": "KG node #5:21",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "Ardraka Swarasa",
+      "resolution": {
+        "mention": "Ardraka Swarasa",
+        "normalized": "ardraka swarasa",
+        "outcome": "ambiguous",
+        "candidates": [
+          {
+            "id": "#21:90",
+            "label": "Ginger Juice",
+            "type": "Media",
+            "mention": "Ardraka Swarasa",
+            "match_method": "terminology_suggestion",
+            "source": "KG node #21:90",
+            "distance": 0
+          },
+          {
+            "id": "#21:6",
+            "label": "Trikshara:",
+            "type": "Media",
+            "mention": "Ardraka Swarasa",
+            "match_method": "terminology_suggestion",
+            "source": "KG node #21:6",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "Cardiovascular Disorder",
+      "resolution": {
+        "mention": "Cardiovascular Disorder",
+        "normalized": "cardiovascular disorder",
+        "outcome": "broader",
+        "candidates": [],
+        "suggestions": [
+          {
+            "id": "#45:92",
+            "label": "Takayasu Arteritis",
+            "type": "Disease",
+            "mention": "Cardiovascular Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C35062",
+              "C34399",
+              "C26912",
+              "C35117",
+              "C2931"
+            ]
+          },
+          {
+            "id": "#45:103",
+            "label": "Vasculitis",
+            "type": "Disease",
+            "mention": "Cardiovascular Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C26912",
+              "C35117",
+              "C2931"
+            ]
+          },
+          {
+            "id": "#33:177",
+            "label": "Ischemic Heart Disease",
+            "type": "Indication",
+            "mention": "Cardiovascular Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C50625",
+              "C35741",
+              "C3079",
+              "C2931"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "term": "Autoimmune Disorder",
+      "resolution": {
+        "mention": "Autoimmune Disorder",
+        "normalized": "autoimmune disorder",
+        "outcome": "broader",
+        "candidates": [],
+        "suggestions": [
+          {
+            "id": "#45:4",
+            "label": "Ankylosing Spondylitis",
+            "type": "Disease",
+            "mention": "Autoimmune disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C84564",
+              "C2889"
+            ]
+          },
+          {
+            "id": "#45:43",
+            "label": "Guillain-Barre Syndrome",
+            "type": "Disease",
+            "mention": "Autoimmune disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C116345",
+              "C99383",
+              "C2889"
+            ]
+          },
+          {
+            "id": "#45:83",
+            "label": "Rheumatoid Arthritis",
+            "type": "Disease",
+            "mention": "Autoimmune disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C2884",
+              "C2889"
+            ]
+          },
+          {
+            "id": "#33:27",
+            "label": "Rheumatoid Arthritis",
+            "type": "Indication",
+            "mention": "Autoimmune disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C2884",
+              "C2889"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "term": "Skin Disorder",
+      "resolution": {
+        "mention": "Skin Disorder",
+        "normalized": "skin disorder",
+        "outcome": "broader",
+        "candidates": [],
+        "suggestions": [
+          {
+            "id": "#45:2",
+            "label": "Alopecia",
+            "type": "Disease",
+            "mention": "Skin Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C50575",
+              "C35784",
+              "C34656",
+              "C3371"
+            ]
+          },
+          {
+            "id": "#45:33",
+            "label": "Eczema",
+            "type": "Disease",
+            "mention": "Skin Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C3001",
+              "C2983",
+              "C27554",
+              "C27555",
+              "C3371"
+            ]
+          },
+          {
+            "id": "#45:36",
+            "label": "Epidermolysis Bullosa",
+            "type": "Disease",
+            "mention": "Skin Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C67383",
+              "C27555",
+              "C3371"
+            ]
+          },
+          {
+            "id": "#45:82",
+            "label": "Psoriasis",
+            "type": "Disease",
+            "mention": "Skin Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C3346",
+              "C2983",
+              "C27554",
+              "C27555",
+              "C3371"
+            ]
+          },
+          {
+            "id": "#45:106",
+            "label": "Pityriasis Rubra Pilaris",
+            "type": "Disease",
+            "mention": "Skin Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C85014",
+              "C27555",
+              "C3371"
+            ]
+          },
+          {
+            "id": "#33:50",
+            "label": "Dermatitis",
+            "type": "Indication",
+            "mention": "Skin Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C2983",
+              "C27554",
+              "C27555",
+              "C3371"
+            ]
+          },
+          {
+            "id": "#33:96",
+            "label": "Scabies",
+            "type": "Indication",
+            "mention": "Skin Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C34998",
+              "C35025",
+              "C27555",
+              "C3371"
+            ]
+          },
+          {
+            "id": "#33:108",
+            "label": "Acne Vulgaris",
+            "type": "Indication",
+            "mention": "Skin Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C27195",
+              "C2983",
+              "C27554",
+              "C27555",
+              "C3371"
+            ]
+          },
+          {
+            "id": "#33:124",
+            "label": "Impetigo",
+            "type": "Indication",
+            "mention": "Skin Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C99088",
+              "C35025",
+              "C27555",
+              "C3371"
+            ]
+          },
+          {
+            "id": "#33:173",
+            "label": "Vitiligo",
+            "type": "Indication",
+            "mention": "Skin Disorder",
+            "match_method": "broader",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0,
+            "terminology_path": [
+              "C26915",
+              "C2983",
+              "C27554",
+              "C27555",
+              "C3371"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "term": "ESCC",
+      "resolution": {
+        "mention": "ESCC",
+        "normalized": "escc",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#45:39",
+            "label": "Esophageal Squamous Cell Carcinoma",
+            "type": "Disease",
+            "mention": "ESCC",
+            "match_method": "alias",
+            "source": "https://evs.nci.nih.gov/ftp1/NCI_Thesaurus/Thesaurus_26.08e.FLAT.zip",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "Copper",
+      "resolution": {
+        "mention": "Copper",
+        "normalized": "copper",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#5:24",
+            "label": "Copper",
+            "type": "Compound",
+            "mention": "Copper",
+            "match_method": "exact",
+            "source": "KG canonical label",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    },
+    {
+      "term": "zzzzunknown",
+      "resolution": {
+        "mention": "zzzzunknown",
+        "normalized": "zzzzunknown",
+        "outcome": "unmatched",
+        "candidates": [],
+        "suggestions": []
+      }
+    }
+  ]
+}

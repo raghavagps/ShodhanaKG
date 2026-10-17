@@ -1,0 +1,854 @@
+{
+    "status": "success",
+    "entity": {
+        "name": "Copper",
+        "type": "Compound"
+    },
+    "path": [
+        "Compound",
+        "UNDERGOES",
+        "Shodhana_Method",
+        "...[Direct/Process]...",
+        "VALIDATED_BY",
+        "Confirmation_Study"
+    ],
+    "results": [
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23723677",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Showed controlled copper (58.56 wt%) and sulfur (22.48 wt%) with only trace heavy metals, confirming purification and reduced toxic impurities.",
+                "properties": {
+                    "pubmed_id": "23723677",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "X-Ray Diffraction (XRD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23723677",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Confirmed conversion of metallic copper into stable cupric sulfide (CuS), indicating chemical transformation and detoxification from raw metal form.",
+                "properties": {
+                    "pubmed_id": "23723677",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Scanning Electron Microscopy (SEM)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23723677",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Revealed fine particles (<2 \u03bcm) with uniform morphology, confirming structural modification and improved pharmaceutical suitability.",
+                "properties": {
+                    "pubmed_id": "23723677",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Particle Size Distribution (PSD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23723677",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Demonstrated reduction to micro-sized particles (<2\u20133 \u03bcm), enhancing bioavailability and reducing dose-related toxicity.",
+                "properties": {
+                    "pubmed_id": "23723677",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Fourier Transform Infrared Spectroscopy (FTIR) ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "26730144",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "FTIR analysis showed disappearance of carboxylic acid peaks and formation of stable bonds (C=C, N-H, C-O) in Tamra Bhasma, indicating removal of acidic/reactive impurities and conversion into a chemically stable, purified form suitable for safe pharmaceutical use",
+                "properties": {
+                    "pubmed_id": "26730144",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23661863",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Detected ~56% copper and ~23% sulfur with absence of toxic heavy metals like cadmium and selenium (others only in traces), confirming purified, safe elemental composition.",
+                "properties": {
+                    "pubmed_id": "23661863",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "X-Ray Diffraction (XRD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23661863",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Displayed prominent peaks of CuS (cupric sulfide), confirming conversion of metallic copper into stable sulfide form, indicating proper incineration and detoxification.",
+                "properties": {
+                    "pubmed_id": "23661863",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Scanning Electron Microscopy (SEM)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23661863",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Showed uniform clusters of particles <2 \u00b5m indicating nano-sized structure, enhancing surface area, absorption and bioavailability of purified Tamra Bhasma.",
+                "properties": {
+                    "pubmed_id": "23661863",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Particle Size Distribution (PSD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23661863",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Revealed significant particle size reduction (mean 28.70 \u00b5m; 10% <2.83 \u00b5m), confirming micronization that improves dissolution rate and therapeutic potency at lower dose.",
+                "properties": {
+                    "pubmed_id": "23661863",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Copper was the major element with arsenic, lead, and mercury within permissible API limits, cadmium not detected, confirming safety and purification.",
+                "properties": {
+                    "pubmed_id": "10.5005/jp-journals-10059-0037",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Thermo-Gravimetric Analysis (TGA)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Controlled weight loss indicated removal of moisture/organics and thermal stability after incineration.",
+                "properties": {
+                    "pubmed_id": "10.5005/jp-journals-10059-0037",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "X-Ray Diffraction (XRD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Sharp crystalline peaks corresponding to CuS with elemental sulfur and absence of free metallic copper confirmed complete Marana.",
+                "properties": {
+                    "pubmed_id": "10.5005/jp-journals-10059-0037",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Scanning Electron Microscope Coupled with Wavelength Dispersive Spectroscopy (SEM-WDS)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "High percentage of copper with sulfur confirmed formation of copper sulfide (CuS), indicating successful transformation of metallic copper.",
+                "properties": {
+                    "pubmed_id": "10.5005/jp-journals-10059-0037",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Particle Size Distribution (PSD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "10.5005/jp-journals-10059-0037",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Mean particle size reduced to ~12.72 \u00b5m and ~8.83 \u00b5m, demonstrating enhanced fineness and better pharmaceutical suitability after Bhasma preparation.",
+                "properties": {
+                    "pubmed_id": "10.5005/jp-journals-10059-0037",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Fourier Transform Infrared Spectroscopy (FTIR) ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "29249635",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "FTIR spectra showed characteristic functional groups (C-Cl, C-O-C, sulfate, phosphate, carbonate) confirming presence of inorganic and organic components in the Bhasma matrix.",
+                "properties": {
+                    "pubmed_id": "29249635",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "X-Ray Diffraction (XRD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "29249635",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Tamra Bhasma showed nanocrystalline copper oxide phases with average crystallite size ~88 nm, indicating formation of bioavailable nanostructured medicinal material.",
+                "properties": {
+                    "pubmed_id": "29249635",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Scanning Electron Microscopy (SEM)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "29249635",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "SEM revealed agglomerated nanocrystallites forming polycrystalline particles, supporting enhanced surface area that may improve therapeutic activity.",
+                "properties": {
+                    "pubmed_id": "29249635",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Antimicrobial Activity Test",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "29249635",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Tamra Bhasma exhibited strong antibacterial activity with zones of inhibition of 30 mm (P. aeruginosa), 22 mm (K. pneumoniae), and 15 mm (S. aureus), confirming pharmacological efficacy.",
+                "properties": {
+                    "pubmed_id": "29249635",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Gandhaka",
+                "result": "Elemental analysis of the formulation shows Arsenic, lead and cadmium within WHO safety limits and mercury present predominantly in sulphide form confirms reduced toxicity and safe medicinal composition.",
+                "properties": {
+                    "pubmed_id": "38759538",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Field Emission Gun-Scanning Electron Microscopy (FEG-SEM)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "FEG-SEM of the formulation (Hridayarnava Rasa) shows Presence of nanoparticles (<20 nm) confirms particle size reduction leading to improved absorption and bioavailability.",
+                "properties": {
+                    "pubmed_id": "38759538",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Fourier Transform Infrared Spectroscopy (FTIR) ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Gandhaka",
+                "result": "Detection of organic functional groups confirms organic coating on metallic particles, acting as carriers that enhance absorption, bioavailability and efficacy.",
+                "properties": {
+                    "pubmed_id": "38759538",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Energy Dispersive X-Ray Spectroscopy (EDAX)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Gandhaka",
+                "result": "EDAX of the entire formulation shows presence of essential minerals (Fe, Ca, K, Mg) supporting metabolism and absence of toxic heavy metals beyond safety limits confirms elemental safety and synergistic therapeutic potential.",
+                "properties": {
+                    "pubmed_id": "38759538",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Thermogravimetric Analysis-Differential Scanning Calorimetry (TGA-DSC)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Gandhaka",
+                "result": "Thermal behavior of formulation confirms formation of stable, non-toxic sulphur and mercury compounds and minimal moisture/organic decomposition, indicating formulation stability and safety.",
+                "properties": {
+                    "pubmed_id": "38759538",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "X-Ray Diffraction (XRD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "XRD analysis of the entire formulation (Hridayarnava Rasa) shows formation of copper sulphide (CuS) and mercury sulphide (HgS) crystalline phases confirms conversion of toxic metals into stable, least-toxic sulphide forms suitable for medicinal use.",
+                "properties": {
+                    "pubmed_id": "38759538",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Particle Size Distribution (PSD)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "38759538",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Gandhaka",
+                "result": "Significant proportion of particles in micro-to-nano range ensures faster dissolution, improved absorption, lower required dosage and reduced toxicity.",
+                "properties": {
+                    "pubmed_id": "38759538",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "Sperm Morphology Assay (Genotoxicity test)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "25948961",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "No abnormalities in sperm head or tail morphology, confirming absence of reproductive toxicity and genetic damage in formulation prepared using Tamra bhasma.",
+                "properties": {
+                    "pubmed_id": "25948961",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Swedana",
+            "process": "Marana",
+            "study": "In-vivo Chromosomal Aberration Assay (Genotoxicity test)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "25948961",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "No chromosomal breaks, gaps, stickiness, ring formation, translocation or centric fusion observed, confirming absence of genotoxic and mutagenic potential in formulation prepared using tamra bhasma.",
+                "properties": {
+                    "pubmed_id": "25948961",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Biochemical Analysis ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23105410",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "No significant changes in SGOT, SGPT, ALP, LDH, urea, and creatinine at therapeutic doses, indicating absence of organ toxicity.",
+                "properties": {
+                    "pubmed_id": "23105410",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Antioxidant Assay ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23105410",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Demonstrates reduced lipid peroxidation and maintenance of glutathione levels at low doses, indicating enhanced antioxidant activity and therapeutic efficacy.",
+                "properties": {
+                    "pubmed_id": "23105410",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Toxicological Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23105410",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Shows 100% survival with no mortality even at high doses, indicating high safety margin and low acute toxicity.",
+                "properties": {
+                    "pubmed_id": "23105410",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "validation_path": [
+                "Shodhana_Method",
+                "FOLLOWED_BY",
+                "Process",
+                "VALIDATED_BY",
+                "Confirmation_Study"
+            ],
+            "method": "Nirvapa",
+            "process": "Marana",
+            "study": "Histopathological Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "23105410",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Tamra Bhasma",
+                "result": "Shows no structural damage in liver and kidney at therapeutic doses, confirming safety and non-toxic nature.",
+                "properties": {
+                    "pubmed_id": "23105410",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        }
+    ]
+}
