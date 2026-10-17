@@ -198,14 +198,7 @@ const SearchResults = () => {
     return filteredResults.slice(start, start + pageSize);
   }, [filteredResults, page]);
 
-  const adaptedForTranslation = useMemo(() => paginatedResults.map(r => ({ ...r, name: r.label })), [paginatedResults]);
-  const { translatedRows: translatedAdapted } = { translatedRows: adaptedForTranslation };
-  
-  const finalResults = useMemo(() => translatedAdapted.map((r, i) => ({
-    ...paginatedResults[i],
-    label: r.name ?? paginatedResults[i].label,
-    description: r.description ?? paginatedResults[i].description,
-  })), [translatedAdapted, paginatedResults]);
+  const finalResults = paginatedResults;
 
   const totalPages = Math.ceil(filteredResults.length / pageSize);
 

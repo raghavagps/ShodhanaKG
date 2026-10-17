@@ -155,11 +155,8 @@ const DiseaseTableView = () => {
   const pageSize = 25;
 
   const { data, isLoading, isError } = useCategoryStats("disease", category, query, sortKey, sortDir, pageSize, page * pageSize);
-  const rawRows = data?.rows ?? [];
+  const rows = data?.rows ?? [];
   const total = data?.total ?? 0;
-
-  // ── Translation middleware ─────────────────────────────────────────
-  const { translatedRows: rows } = { translatedRows: rawRows };
 
   const onSort = (k: string) => {
     if (sortKey === k) setSortDir((d) => (d === "asc" ? "desc" : "asc"));

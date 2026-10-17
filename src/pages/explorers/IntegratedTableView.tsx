@@ -44,18 +44,9 @@ const IntegratedTableView = () => {
   const [sortKey, setSortKey] = useState<SortKey>("diseases");
   const [sortDir, setSortDir] = useState<"asc" | "desc">("desc");
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
-  const [rawRows, setRawRows] = useState<BridgeRow[]>([]);
+  const [rows, setRows] = useState<BridgeRow[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
-
-  // Adapt BridgeRow to TranslatableRow shape, then translate
-  const adaptedRows = rawRows.map((r) => ({ ...r, name: r.purifiedLabel, description: r.purifiedDescription }));
-  const { translatedRows: translatedAdapted } = { translatedRows: adaptedRows };
-  const rows = translatedAdapted.map((r, i) => ({
-    ...rawRows[i],
-    purifiedLabel: r.name ?? rawRows[i].purifiedLabel,
-    purifiedDescription: r.description ?? rawRows[i].purifiedDescription,
-  }));
 
   useEffect(() => {
     setIsLoading(true);
@@ -71,7 +62,7 @@ const IntegratedTableView = () => {
           diseaseLabels: (r.diseaseLabels as string[]) ?? [],
           studies: Number(r.studies ?? 0),
         }));
-        setRawRows(mapped);
+        setRows(mapped);
         setIsLoading(false);
       })
       .catch(() => {

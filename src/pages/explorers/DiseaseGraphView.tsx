@@ -143,9 +143,8 @@ const DiseaseGraphView = () => {
     return { displayNodes: dn, displayEdges: de };
   }, [hasSelection, graphData, visibleTypes, visibleEdges]);
   const graphIsPending = hasSelection && (isLoading || (isFetching && displayNodes.length === 0));
-
-  // ── Translation middleware ─────────────────────────────────────────────
-  const { translatedNodes, translatedEdges } = { translatedNodes: displayNodes, translatedEdges: displayEdges };
+  const translatedNodes = displayNodes;
+  const translatedEdges = displayEdges;
 
   const setFilterFor = (t: NodeType, ids: string[]) => {
     const prev = filters[t];
