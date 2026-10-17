@@ -216,9 +216,8 @@ const IntegratedGraphView = () => {
     if (selectedNode && !displayNodes.some((node) => node.id === selectedNode.id)) setSelectedNode(undefined);
     if (selectedEdge && !displayEdges.some((edge) => edge.id === selectedEdge.edge.id)) setSelectedEdge(undefined);
   }, [integratedMode, displayNodes, displayEdges, selectedNode, selectedEdge]);
-
-  // ── Translation middleware ─────────────────────────────────────────────
-  const { translatedNodes, translatedEdges } = { translatedNodes: displayNodes, translatedEdges: displayEdges };
+  const translatedNodes = displayNodes;
+  const translatedEdges = displayEdges;
 
   useEffect(() => {
     const q = searchQuery.trim();
