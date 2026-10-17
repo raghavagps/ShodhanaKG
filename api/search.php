@@ -12,16 +12,19 @@ if ($method !== 'GET') {
   api_fail('method_not_allowed', 'Use GET', 405);
 }
 
-$domain = isset($_GET['domain']) ? trim($_GET['domain']) : '';
-$q = isset($_GET['q']) ? trim($_GET['q']) : '';
+$domain = isset($_GET['domain']) && is_string($_GET['domain']) ? trim($_GET['domain']) : '';
+$q = isset($_GET['q']) && is_string($_GET['q']) ? trim($_GET['q']) : '';
 $limit = max(isset($_GET['limit']) ? (int)$_GET['limit'] : 100, 1);
-$typeFilter = isset($_GET['type']) ? trim($_GET['type']) : '';
+$typeFilter = isset($_GET['type']) && is_string($_GET['type']) ? trim($_GET['type']) : '';
 
 if (!in_array($domain, array('disease', 'compound', 'integrated'), true)) {
   api_fail('invalid_domain', 'Domain must be disease, compound, or integrated', 400);
 }
 if ($q === '') {
   api_fail('empty_query', 'Search query is required', 400);
+}
+if (mb_strlen($q, 'UTF-8') > 200) {
+  api_fail('query_too_long', 'Query exceeds 200 characters', 400);
 }
 
 try {
