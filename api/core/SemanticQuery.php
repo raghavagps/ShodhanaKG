@@ -6,6 +6,13 @@ require_once __DIR__ . '/EvidenceTraversal.php';
 final class SemanticQuery
 {
     const MAX_HOPS = 5;
+    private static $schemaEdges = null;
+
+    public static function resetCache()
+    {
+        self::$schemaEdges = null;
+    }
+
     public static function target($question)
     {
         $question = PhpCompatibility::value($question, 'string', false);
@@ -16,7 +23,11 @@ final class SemanticQuery
     {
         $source = PhpCompatibility::value($source, 'string', false);
         $target = PhpCompatibility::value($target, 'string', false);
-        $schema = json_decode(file_get_contents(__DIR__ . '/relationship_metadata.json'), true)['edges'];
+        if (self::$schemaEdges === null) {
+            $decoded = json_decode(file_get_contents(__DIR__ . '/relationship_metadata.json'), true);
+            self::$schemaEdges = isset($decoded['edges']) ? $decoded['edges'] : [];
+        }
+        $schema = self::$schemaEdges;
         $disease = ['TREATED_BY', 'PRE_TREATED_BY', 'POST_TREATED_BY', 'USES_FORMULATION'];
         $production = ['UNDERGOES', 'FOLLOWED_BY', 'PRODUCES'];
         $allowed = array_merge($disease, $production, ['USES_MEDIA', 'DETOXIFIES', 'USED_FOR_TREATMENT', 'TREATS', 'USED_IN_FORMULATION']);

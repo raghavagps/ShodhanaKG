@@ -45,7 +45,7 @@ def main() -> None:
             raise SystemExit(result.returncode)
     (stage/'api').mkdir()
     for path in (ROOT/'api').glob('*.php'):
-        if path.name not in ('test_db.php', 'provenance-subgraph.example.php'):
+        if path.name != 'test_db.php':
             shutil.copy2(path, stage/'api'/path.name)
     for folder in ('core', 'vendor'):
         shutil.copytree(ROOT/'api'/folder, stage/'api'/folder)

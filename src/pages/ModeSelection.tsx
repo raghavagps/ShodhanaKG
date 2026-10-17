@@ -1,5 +1,6 @@
 import { uiLabels } from '@/data/uiLabels';
 import { entityGraphUrl } from '@/lib/entityNavigation';
+import { TYPE_LABELS, TYPE_COLORS } from "@/data/entityTypes";
 import { Link, useNavigate } from "react-router-dom";
 import { Activity, FlaskConical, Network, ArrowUpRight, Leaf, Sparkles, Database, GitBranch, BookOpen, Search, AlertCircle, ChevronDown } from "lucide-react";
 import { useKgStats, useSearch } from "@/lib/api";
@@ -58,95 +59,6 @@ function formatStatNumber(n: number): string {
   return n.toLocaleString();
 }
 
-const TYPE_TO_DOMAIN: Record<string, string> = {
-  Disease: "disease",
-  Symptoms: "disease",
-  Symptom: "disease",
-  Ayurvedic_Diagnosis: "disease",
-  AyurvedicDiagnosis: "disease",
-  Dosha: "disease",
-  Therapy: "disease",
-  Formulations: "disease",
-  Formulation: "disease",
-  Assessment_Parameter: "disease",
-  AssessmentParameter: "disease",
-  Compound: "compound",
-  Shodhana_Method: "compound",
-  ShodhanaMethod: "compound",
-  Toxic_Substance: "compound",
-  ToxicSubstance: "compound",
-  Purified_Compound: "compound",
-  PurifiedCompound: "compound",
-  Shodhana_Type: "compound",
-  ShodhanaType: "compound",
-  Media: "compound",
-  Confirmation_Study: "compound",
-  ConfirmationStudy: "compound",
-  Process: "compound",
-  Indication: "compound",
-  Ayurvedic_Formulation: "compound",
-  AyurvedicFormulation: "compound",
-};
-
-const TYPE_LABELS: Record<string, string> = {
-  Disease: "Disease",
-  Symptoms: "Symptom",
-  Symptom: "Symptom",
-  Ayurvedic_Diagnosis: "Ayurvedic Diagnosis",
-  AyurvedicDiagnosis: "Ayurvedic Diagnosis",
-  Dosha: "Dosha",
-  Therapy: "Therapy",
-  Formulations: "Formulation",
-  Formulation: "Formulation",
-  Assessment_Parameter: "Assessment Parameter",
-  AssessmentParameter: "Assessment Parameter",
-  Compound: "Compound",
-  Shodhana_Method: "Shodhana Method",
-  ShodhanaMethod: "Shodhana Method",
-  Toxic_Substance: "Toxic Substance",
-  ToxicSubstance: "Toxic Substance",
-  Purified_Compound: "Purified Compound",
-  PurifiedCompound: "Purified Compound",
-  Shodhana_Type: "Shodhana Type",
-  ShodhanaType: "Shodhana Type",
-  Media: "Media",
-  Confirmation_Study: "Confirmation Study",
-  ConfirmationStudy: "Confirmation Study",
-  Process: "Process",
-  Indication: "Indication",
-  Ayurvedic_Formulation: "Ayurvedic Formulation",
-  AyurvedicFormulation: "Ayurvedic Formulation",
-};
-
-const TYPE_COLORS: Record<string, string> = {
-  Disease: "hsl(16, 45%, 50%)",
-  Symptoms: "hsl(35, 60%, 55%)",
-  Symptom: "hsl(35, 60%, 55%)",
-  Ayurvedic_Diagnosis: "hsl(25, 30%, 25%)",
-  AyurvedicDiagnosis: "hsl(25, 30%, 25%)",
-  Dosha: "hsl(280, 18%, 45%)",
-  Therapy: "hsl(130, 22%, 30%)",
-  Formulations: "hsl(140, 20%, 45%)",
-  Formulation: "hsl(140, 20%, 45%)",
-  Assessment_Parameter: "hsl(200, 25%, 40%)",
-  AssessmentParameter: "hsl(200, 25%, 40%)",
-  Compound: "hsl(16, 45%, 50%)",
-  Shodhana_Method: "hsl(35, 60%, 55%)",
-  ShodhanaMethod: "hsl(35, 60%, 55%)",
-  Toxic_Substance: "hsl(8, 55%, 40%)",
-  ToxicSubstance: "hsl(8, 55%, 40%)",
-  Purified_Compound: "hsl(140, 25%, 55%)",
-  PurifiedCompound: "hsl(140, 25%, 55%)",
-  Shodhana_Type: "hsl(280, 18%, 45%)",
-  ShodhanaType: "hsl(280, 18%, 45%)",
-  Media: "hsl(200, 28%, 45%)",
-  Confirmation_Study: "hsl(35, 50%, 50%)",
-  ConfirmationStudy: "hsl(35, 50%, 50%)",
-  Process: "hsl(40, 25%, 40%)",
-  Indication: "hsl(355, 40%, 50%)",
-  Ayurvedic_Formulation: "hsl(260, 20%, 50%)",
-  AyurvedicFormulation: "hsl(260, 20%, 50%)",
-};
 
 const AnimatedCounter = ({ value, duration = 2000 }: { value: number; duration?: number }) => {
   const [count, setCount] = useState(0);

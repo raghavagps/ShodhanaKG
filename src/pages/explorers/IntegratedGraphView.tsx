@@ -189,7 +189,7 @@ const IntegratedGraphView = () => {
 
   useEffect(() => { setHighlightId(firstSeed); setSelectedNode(undefined); setSelectedEdge(undefined); }, [firstSeed]);
 
-  const { data: queryGraphData, isLoading, isFetching, isError, isPlaceholderData, controls: graphControls } = useProgressiveGraph("integrated", seedIds, 1, 300, 900, integratedMode, visibleTypes, visibleEdges);
+  const { data: queryGraphData, isLoading, isFetching, isError, controls: graphControls } = useProgressiveGraph("integrated", seedIds, 1, 300, 900, integratedMode, visibleTypes, visibleEdges);
   const graphData = queryGraphData;
 
   const { displayNodes, displayEdges } = useMemo(() => {

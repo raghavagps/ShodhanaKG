@@ -146,7 +146,7 @@ const CompoundGraphView = () => {
   const firstSeed = seedIds[0];
   useEffect(() => { setHighlightId(firstSeed); setSelectedNode(undefined); setSelectedEdge(undefined); }, [firstSeed]);
 
-  const { data: graphData, isLoading, isFetching, isError, isPlaceholderData, controls: graphControls } = useProgressiveGraph("compound", seedIds, 1, GRAPH_NODE_LIMIT, GRAPH_EDGE_LIMIT, '1hop', visibleTypes, visibleEdges);
+  const { data: graphData, isLoading, isFetching, isError, controls: graphControls } = useProgressiveGraph("compound", seedIds, 1, GRAPH_NODE_LIMIT, GRAPH_EDGE_LIMIT, '1hop', visibleTypes, visibleEdges);
 
   const searchNodes = useCallback(async (q: string, type: CompoundNodeType): Promise<Option[]> => {
     if (!q.trim()) return [];
@@ -179,7 +179,7 @@ const CompoundGraphView = () => {
       ;
     const connected = connectedGraph(dn, de, seedIds);
     return { displayNodes: connected.nodes, displayEdges: connected.edges };
-  }, [hasSelection, graphData, visibleTypes, visibleEdges, seedIds, isPlaceholderData]);
+  }, [hasSelection, graphData, visibleTypes, visibleEdges, seedIds]);
   const graphIsPending = hasSelection && (isLoading || (isFetching && displayNodes.length === 0));
   const translatedNodes = displayNodes;
   const translatedEdges = displayEdges;

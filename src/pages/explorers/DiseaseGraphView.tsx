@@ -109,7 +109,7 @@ const DiseaseGraphView = () => {
   const firstSeed = seedIds[0];
   useEffect(() => { setHighlightId(firstSeed); setSelectedNode(undefined); setSelectedEdge(undefined); }, [firstSeed]);
 
-  const { data: queryGraphData, isLoading, isFetching, isError, isPlaceholderData, controls: graphControls } = useProgressiveGraph("disease", seedIds, GRAPH_DEPTH, GRAPH_NODE_LIMIT, GRAPH_EDGE_LIMIT, '1hop', visibleTypes, visibleEdges);
+  const { data: queryGraphData, isLoading, isFetching, isError, controls: graphControls } = useProgressiveGraph("disease", seedIds, GRAPH_DEPTH, GRAPH_NODE_LIMIT, GRAPH_EDGE_LIMIT, '1hop', visibleTypes, visibleEdges);
   const graphData = queryGraphData;
 
   const searchNodes = useCallback(async (q: string, type: NodeType): Promise<Option[]> => {

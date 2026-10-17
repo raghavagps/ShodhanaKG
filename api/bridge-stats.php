@@ -35,7 +35,7 @@ try {
     $compoundMap = array();
     // pcRid => [comRid, ...]
     if ($pcRidCsv) {
-        $sql = sprintf("SELECT FROM DERIEVED_FROM WHERE @out IN [%s]", $pcRidCsv);
+        $sql = sprintf("SELECT FROM DERIEVED_FROM WHERE @out IN [%s] LIMIT 5000", $pcRidCsv);
         try {
             $res = arcade_command($sql, 'sql');
             $rows = (isset($res['result']) ? $res['result'] : array());
@@ -58,7 +58,7 @@ try {
     $diseaseMap = array();
     // pcRid => [diseaseRid, ...]
     if ($pcRidCsv) {
-        $sql = sprintf("SELECT FROM USED_FOR_TREATMENT WHERE @out IN [%s]", $pcRidCsv);
+        $sql = sprintf("SELECT FROM USED_FOR_TREATMENT WHERE @out IN [%s] LIMIT 5000", $pcRidCsv);
         try {
             $res = arcade_command($sql, 'sql');
             $rows = (isset($res['result']) ? $res['result'] : array());
@@ -81,7 +81,7 @@ try {
     $formulationMap = array();
     // pcRid => [formRid, ...]
     if ($pcRidCsv) {
-        $sql = sprintf("SELECT FROM USED_IN_FORMULATION WHERE @out IN [%s]", $pcRidCsv);
+        $sql = sprintf("SELECT FROM USED_IN_FORMULATION WHERE @out IN [%s] LIMIT 5000", $pcRidCsv);
         try {
             $res = arcade_command($sql, 'sql');
             $rows = (isset($res['result']) ? $res['result'] : array());
