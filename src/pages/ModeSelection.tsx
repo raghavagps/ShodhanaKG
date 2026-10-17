@@ -192,6 +192,7 @@ const ModeSelection = () => {
   const [isSearching, setIsSearching] = useState(false);
   const [searchMode, setSearchMode] = useState<"disease" | "compound" | "integrated">("disease");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const suggestionsCache = useRef<Map<string, ApiNode[]>>(new Map());
   const navigate = useNavigate();
 
   const getPlaceholderText = () => {
@@ -240,8 +241,18 @@ const ModeSelection = () => {
   };
 
   useEffect(() => {
-    if (!searchQuery.trim()) {
+    const trimmed = searchQuery.trim();
+    if (!trimmed) {
       setSuggestions([]);
+      setIsSearching(false);
+      return;
+    }
+
+    const cacheKey = `${searchMode}:${trimmed.toLowerCase()}`;
+    if (suggestionsCache.current.has(cacheKey)) {
+      setSuggestions(suggestionsCache.current.get(cacheKey)!);
+      setShowSuggestions(true);
+      setHighlightedIndex(-1);
       setIsSearching(false);
       return;
     }
@@ -249,7 +260,8 @@ const ModeSelection = () => {
     const delayDebounceFn = setTimeout(async () => {
       setIsSearching(true);
       try {
-        const results = await searchApi(searchMode, searchQuery.trim(), 8);
+        const results = await searchApi(searchMode, trimmed, 8);
+        suggestionsCache.current.set(cacheKey, results);
         setSuggestions(results);
         setShowSuggestions(true);
         setHighlightedIndex(-1);
@@ -258,7 +270,7 @@ const ModeSelection = () => {
       } finally {
         setIsSearching(false);
       }
-    }, 200);
+    }, 250);
 
     return () => clearTimeout(delayDebounceFn);
   }, [searchQuery, searchMode]);
