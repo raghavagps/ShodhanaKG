@@ -28,8 +28,10 @@ try {
     $result = QuestionRouter::route($question);
     echo json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 } catch (Exception $e) {
+    error_log('Question routing failed: ' . $e->getMessage());
+    http_response_code(500);
     echo json_encode([
         'status' => 'error',
-        'message' => 'Routing failed: ' . $e->getMessage()
+        'message' => 'Routing failed.'
     ], JSON_PRETTY_PRINT);
 }

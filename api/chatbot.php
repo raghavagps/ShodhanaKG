@@ -27,8 +27,10 @@ try {
     $result = ChatbotOrchestrator::process($question);
     echo json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
 } catch (Exception $e) {
+    error_log('Chatbot processing failed: ' . $e->getMessage());
+    http_response_code(500);
     echo json_encode([
         'status' => 'error',
-        'message' => 'Chatbot processing failed: ' . $e->getMessage()
+        'message' => 'Chatbot processing failed.'
     ], JSON_PRETTY_PRINT);
 }
