@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 2026-10-18 — Production codebase hardening, performance optimization, and dead code cleanup
+Prune unreferenced mock data arrays across graph data files; consolidate entity type mappings, domain classifications, labels, and colors into a single shared module (`src/data/entityTypes.ts`); deduplicate dictionaries across `ModeSelection.tsx` and `SearchResults.tsx`; optimize backend performance with static caching in `GraphRead.php` and `SemanticQuery.php`; bound relationship queries in `bridge-stats.php`; retire uncalled backend functions and example documentation script; resolve React hook dependency warnings; sync project documentation across README, and frontend/backend docs.
+Files/Modules: `src/data/entityTypes.ts`, `src/data/*.ts`, `src/pages/ModeSelection.tsx`, `src/pages/SearchResults.tsx`, `src/pages/explorers/*.tsx`, `api/bridge-stats.php`, `api/core/GraphRead.php`, `api/core/SemanticQuery.php`, `api/graph.php`, `api/search.php`, `README.md`, `FRONTEND_DOCUMENTATION.md`, `BACKEND_DOCUMENTATION.md`, `CHANGELOG.md`.
+Impact: Reduced frontend client bundle sizes; eliminated redundant schema/file reads per question; resolved lint warnings; synchronized and cleaned architecture documentation.
+Reason: Production readiness and cleanup of dead/redundant code.
+
 ## 2026-08-14 — Update LLM timeouts, database defaults, and comprehensive User Guide
 Update local ArcadeDB connection details for `IntegratedKG`; Increase local LLM timeout constraints to 120s for CPU generation stability; Integrate interactive 817-line User Guide (`HowToUse.tsx`) with hotspot features; Generate updated help screenshots via Playwright headless browser automation.
 Files/Modules: `api/config.php`, `api/core/LLMClient.php`, `api/chatbot_response.php`, `src/pages/HowToUse.tsx`, `public/images/help/*.png`

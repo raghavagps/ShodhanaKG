@@ -98,7 +98,8 @@ api/
 ├── provenance-subgraph.php         ← GET /provenance-subgraph.php — Disease provenance
 ├── compound-provenance.php         ← GET /compound-provenance.php — Compound provenance
 ├── test_db.php                     ← Manual DB connection test
-├── version.php                     ← PHP version info
+├── chatbot_response.php            ← POST /chatbot_response.php — AI Chatbot response
+├── chatbot_health.php              ← GET /chatbot_health.php — Chatbot health & readiness
 └── tests/
     └── provenance-subgraph.test.php ← PHP unit tests
 ```
@@ -659,7 +660,7 @@ Fetch a single node with its neighbors and evidence.
 
 ---
 
-### 6.5 stats.php
+### 6.5 stats.php (Retired — replaced by category-stats.php)
 
 **GET `/api/stats.php?domain=disease&q=&sort=name&dir=asc&limit=25&offset=0`**
 
@@ -1170,20 +1171,19 @@ php api/test_db.php
 | 7 | `api/search.php` | 87 | Full-text search |
 | 8 | `api/graph.php` | 273 | Subgraph traversal |
 | 9 | `api/node.php` | 99 | Single node + neighbors |
-| 10 | `api/stats.php` | 306 | Disease/Compound statistics |
-| 11 | `api/category-stats.php` | 283 | Per-category statistics |
-| 12 | `api/kg-stats.php` | 72 | Global KG statistics |
-| 13 | `api/counts.php` | 40 | Per-category counts |
-| 14 | `api/bridge-stats.php` | 164 | Bridge table data |
-| 15 | `api/provenance-subgraph.php` | 270 | Disease provenance paths |
-| 16 | `api/compound-provenance.php` | 219 | Compound provenance paths |
-| 17 | `api/version.php` | 3 | PHP version info |
+| 10 | `api/category-stats.php` | 283 | Per-category statistics (replaces stats.php) |
+| 11 | `api/kg-stats.php` | 72 | Global KG statistics |
+| 12 | `api/counts.php` | 40 | Per-category counts |
+| 13 | `api/bridge-stats.php` | 164 | Bridge table data |
+| 14 | `api/provenance-subgraph.php` | 270 | Disease provenance paths |
+| 15 | `api/compound-provenance.php` | 219 | Compound provenance paths |
+| 16 | `api/chatbot_response.php` | 93 | AI Chatbot deterministic response |
+| 17 | `api/chatbot_health.php` | 30 | Chatbot health and readiness |
 | 18 | `api/test_db.php` | 9 | Manual DB connection test |
-| 19 | `api/chat.php` | 150 | AI Chatbot endpoint |
-| 21 | `api/tests/provenance-subgraph.test.php` | 183 | Unit tests |
-| 22 | `apache.conf.example` | 39 | Apache deployment config |
-| 23 | `.env` | 1 | Dev environment (VITE_API_BASE) |
-| 24 | `.env.production` | 1 | Production environment |
+| 19 | `api/tests/provenance-subgraph.test.php` | 183 | Unit tests |
+| 20 | `apache.conf.example` | 39 | Apache deployment config |
+| 21 | `.env` | 1 | Dev environment (VITE_API_BASE) |
+| 22 | `.env.production` | 1 | Production environment |
 
 ---
 

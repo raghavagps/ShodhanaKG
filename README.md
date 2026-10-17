@@ -143,7 +143,7 @@ npx playwright test --grep "Route smoke"
 ## 📁 Project Structure
 
 ```text
-api/                    # PHP Backend (17 files + tests)
+api/                    # PHP Backend (endpoints + core services + tests)
   config.php            #   Env var defaults (ARCADE_URL, DB, user, pass)
   db.php                #   ArcadeDB 3-tier connection (cURL → fopen → fsockopen)
   cors.php              #   CORS header management
@@ -158,14 +158,18 @@ api/                    # PHP Backend (17 files + tests)
   bridge-stats.php      #   Integrated bridge table data
   provenance-subgraph.php  # Disease→Therapy→Formulation provenance
   compound-provenance.php  # Compound→ShodhanaMethod→Media provenance
+  health.php            #   ArcadeDB connectivity health check
+  chatbot_response.php  #   Deterministic graph-grounded question answering
+  chatbot_health.php    #   Chatbot health and readiness endpoint
+  core/                 #   Chatbot orchestration, entity resolution, and response validation
   tests/                #   PHP unit tests
 
 src/
   main.tsx              # Entrypoint → <App />
-  App.tsx               # Providers + routing (15 routes, 3 lazy-loaded)
+  App.tsx               # Providers + routing (16 routes, lazy-loaded)
   index.css             # HSL design tokens, colorblind mode, utilities
   lib/
-    api.ts              # HTTP client + 8 React Query hooks
+    api.ts              # HTTP client + 7 React Query hooks
     types.ts            # ApiNode, ApiEdge, Domain, ProvenancePath, etc.
     utils.ts            # cn() helper
     graphExport.ts      # CSV/JSON/PNG export
@@ -174,9 +178,10 @@ src/
     use-toast.ts        # shadcn toast state
     use-mobile.tsx      # Responsive detection
   data/
-    diseaseGraph.ts     # Static disease graph sample data
-    compoundGraph.ts    # Static compound graph sample data
-    integratedGraph.ts  # Merged integrated graph + kHopSubgraph helper
+    entityTypes.ts      # Shared entity definitions, colors, domain mappings, labels
+    diseaseGraph.ts     # Disease graph schema, node/edge types, cytoscape styles
+    compoundGraph.ts    # Compound graph schema, node/edge types, cytoscape styles
+    integratedGraph.ts  # Integrated graph schema, types, and colors
   components/
     ui/                 # 49 shadcn/ui boilerplate components
     layout/             # AppLayout, TopNav
@@ -188,13 +193,14 @@ src/
     Index.tsx           # Re-exports ModeSelection
     ModeSelection.tsx   # Landing: hero, search, KG stats, 3 mode cards
     SearchResults.tsx   # Cross-domain search with tabs + pagination
+    AdvancedSearch.tsx  # Advanced property and multi-hop search
     NotFound.tsx        # 404
-    FAQ.tsx, HowToUse.tsx, Contact.tsx, Team.tsx, TestProvenance.tsx
+    FAQ.tsx, HowToUse.tsx, Contact.tsx, Team.tsx
     explorers/
       DiseaseExplorer.tsx / DiseaseGraphView.tsx / DiseaseTableView.tsx
       CompoundExplorer.tsx / CompoundGraphView.tsx / CompoundTableView.tsx
       IntegratedExplorer.tsx / IntegratedGraphView.tsx / IntegratedTableView.tsx
-  test/                 # Vitest setup + placeholder
+  test/                 # Vitest setup + tests
 ```
 
 ---
