@@ -1,0 +1,201 @@
+{
+  "answer_count": 12,
+  "reference_count": 12,
+  "missing_answer_ids": [],
+  "outcomes": {
+    "incomplete_review": 3,
+    "supported_by_graph": 6,
+    "unsupported_claims": 1,
+    "execution_or_generation_failure": 1,
+    "false_refusal": 1
+  },
+  "scored_answers": 6,
+  "note": "Graph support conditional on reviewer claim mapping; inspect reviewer_kind. Not scientific truth or automatic prose validation.",
+  "results": [
+    {
+      "id": "eval_traversal_therapy_formulation",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "incomplete_review",
+      "claims": [
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "needs_expert_review"
+      ],
+      "supported_fraction": null,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    },
+    {
+      "id": "eval_traversal_media_process",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "incomplete_review",
+      "claims": [
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "needs_expert_review"
+      ],
+      "supported_fraction": null,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    },
+    {
+      "id": "eval_traversal_shodhana_method_process",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "supported_by_graph",
+      "claims": [
+        "supported_by_graph"
+      ],
+      "supported_fraction": 1.0,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    },
+    {
+      "id": "eval_traversal_process_shodhana_method",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "supported_by_graph",
+      "claims": [
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph"
+      ],
+      "supported_fraction": 1.0,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    },
+    {
+      "id": "eval_traversal_purified_compound_process",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "incomplete_review",
+      "claims": [
+        "supported_by_graph",
+        "needs_expert_review"
+      ],
+      "supported_fraction": null,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    },
+    {
+      "id": "eval_traversal_method_toxic_substance",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "supported_by_graph",
+      "claims": [
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph"
+      ],
+      "supported_fraction": 1.0,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    },
+    {
+      "id": "eval_traversal_process_next_process",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "supported_by_graph",
+      "claims": [
+        "supported_by_graph"
+      ],
+      "supported_fraction": 1.0,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    },
+    {
+      "id": "eval_traversal_next_process_process",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "supported_by_graph",
+      "claims": [
+        "supported_by_graph"
+      ],
+      "supported_fraction": 1.0,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    },
+    {
+      "id": "eval_traversal_provenance_compound_method_media",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "supported_by_graph",
+      "claims": [
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph",
+        "supported_by_graph"
+      ],
+      "supported_fraction": 1.0,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    },
+    {
+      "id": "eval_traversal_provenance_media_method_compound",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "unsupported_claims",
+      "claims": [
+        "supported_by_graph",
+        "supported_by_graph",
+        "unsupported_shared_study",
+        "needs_expert_review"
+      ],
+      "supported_fraction": null,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    },
+    {
+      "id": "eval_traversal_provenance_disease_therapy_formulation",
+      "status": "export_error",
+      "status_matches_expectation": false,
+      "routing_correct": false,
+      "outcome": "execution_or_generation_failure",
+      "claims": [],
+      "supported_fraction": null
+    },
+    {
+      "id": "eval_traversal_provenance_formulation_therapy_disease",
+      "status": "success",
+      "status_matches_expectation": true,
+      "routing_correct": true,
+      "outcome": "false_refusal",
+      "claims": [],
+      "supported_fraction": null,
+      "reviewer": "Codex AI graph-evidence review",
+      "reviewer_kind": "ai"
+    }
+  ]
+}

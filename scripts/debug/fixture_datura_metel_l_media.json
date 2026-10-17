@@ -1,0 +1,126 @@
+{
+    "status": "success",
+    "entity": {
+        "name": "Datura metel L.",
+        "type": "Compound"
+    },
+    "path": [
+        "Compound",
+        "UNDERGOES",
+        "Shodhana_Method",
+        "USES_MEDIA",
+        "Media"
+    ],
+    "results": [
+        {
+            "method": "Swedana",
+            "media": "Cow Milk",
+            "properties": {
+                "procedure": "The seeds were tied in a muslin cloth and were exposed to milk vapors over boiling cow's milk for 3 hours, followed by lukewarm washing and shade drying.",
+                "result": "",
+                "pubmed_id": "41220381",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Milk",
+            "properties": {
+                "procedure": "The seeds were tied in a muslin cloth and boiled in cow's milk for 3 hours, followed by washing, drying, decortication, and pulverization.",
+                "result": "",
+                "pubmed_id": "10.4103/jdras.jdras_45_21",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Milk",
+            "properties": {
+                "procedure": "The seeds tied in a muslin cloth were subjected to boiling in cow\u2019s urine for 12 hours, followed by washing and drying to obtain purified seeds.",
+                "result": "",
+                "pubmed_id": "10.4103/jdras.jdras_92_22",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "The seeds tied in a muslin cloth were subjected to boiling in cow\u2019s milk for 3 hours, followed by washing and drying to obtain purified seeds.",
+                "result": "",
+                "pubmed_id": "10.4103/jdras.jdras_92_22",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Milk",
+            "properties": {
+                "procedure": "Next Dhaturra seeds were tied in a muslin cloth and were subjected to boiling in cow's milk for 3 hours.",
+                "result": "",
+                "pubmed_id": "30466809",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Kushmanda Juice",
+            "properties": {
+                "procedure": "Small pieces of Orpiment were bundled in a piece of cloth and subjected to boiling in Kushmanda juice with mild heating (85\u201390 \u00b0C) for 3 h. ",
+                "result": "",
+                "pubmed_id": "30466809",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Swedana",
+            "media": "Cow Milk",
+            "properties": {
+                "procedure": "The seeds tied in a muslin cloth were subjected to boiling in cow milk , followed by washing and drying to obtain purified seeds.",
+                "result": "",
+                "pubmed_id": "165494",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nimajjana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "The seeds were immersed in cow's urine for 12 hours, then thoroughly washed with water to remove residual urine. ",
+                "result": "",
+                "pubmed_id": "41220381",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nimajjana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "The were soaked completely in cow\u2019s urine for 12 hours, then washed with water.",
+                "result": "",
+                "pubmed_id": "10.4103/jdras.jdras_45_21",
+                "doi": "",
+                "ayush_id": ""
+            }
+        },
+        {
+            "method": "Nimajjana",
+            "media": "Cow Urine",
+            "properties": {
+                "procedure": "Dhaturra seeds were immersed in cow's urine for 12 hours, then thoroughly washed with water to remove residual urine. ",
+                "result": "",
+                "pubmed_id": "30466809",
+                "doi": "",
+                "ayush_id": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "scope": "Evaluation overlay only; no KG mutations. Namespace confirmation is not publication/source verification.",
+  "authority": "User-provided identifier corrections, 2026-09-24",
+  "mappings": {
+    "76448": {"kind": "ayush_id", "explorer": "compound"},
+    "239250": {"kind": "ayush_id", "explorer": "compound"},
+    "216742": {"kind": "ayush_id", "explorer": "disease"},
+    "216736": {"kind": "ayush_id", "explorer": "disease"},
+    "2201": {"kind": "ayush_id", "explorer": "compound"},
+    "13110": {"kind": "ayush_id", "explorer": "compound"}
+  }
+}

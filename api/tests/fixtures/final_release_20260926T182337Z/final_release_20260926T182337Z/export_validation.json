@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "source hashes unchanged",
+    "raw KG records unchanged",
+    "fixed sample sizes and post-hoc counts reconciled",
+    "CSV and Markdown generated from the same metrics rows"
+  ],
+  "generated_at": "2026-09-26T19:06:46.481642+00:00"
+}

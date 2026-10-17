@@ -1,0 +1,2041 @@
+{
+  "total": 407,
+  "passed": 406,
+  "results": [
+    {
+      "file": "calc_hit_rate.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\calc_hit_rate.php\n"
+    },
+    {
+      "file": "check_compound_prov.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\check_compound_prov.php\n"
+    },
+    {
+      "file": "fix_llm_timeout.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\fix_llm_timeout.php\n"
+    },
+    {
+      "file": "fix_timeout.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\fix_timeout.php\n"
+    },
+    {
+      "file": "test_api2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\test_api2.php\n"
+    },
+    {
+      "file": "test_graph.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\test_graph.php\n"
+    },
+    {
+      "file": "test_node.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\test_node.php\n"
+    },
+    {
+      "file": "test_prov.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\test_prov.php\n"
+    },
+    {
+      "file": "api/assessment_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\assessment_disease.php\n"
+    },
+    {
+      "file": "api/ayurvedic_diagnosis_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\ayurvedic_diagnosis_disease.php\n"
+    },
+    {
+      "file": "api/bridge-stats.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\bridge-stats.php\n"
+    },
+    {
+      "file": "api/category-stats.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\category-stats.php\n"
+    },
+    {
+      "file": "api/chatbot.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\chatbot.php\n"
+    },
+    {
+      "file": "api/chatbot_health.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\chatbot_health.php\n"
+    },
+    {
+      "file": "api/chatbot_response.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\chatbot_response.php\n"
+    },
+    {
+      "file": "api/classification_process.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\classification_process.php\n"
+    },
+    {
+      "file": "api/compound-provenance.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\compound-provenance.php\n"
+    },
+    {
+      "file": "api/compound_detoxification.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\compound_detoxification.php\n"
+    },
+    {
+      "file": "api/compound_media.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\compound_media.php\n"
+    },
+    {
+      "file": "api/compound_methods.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\compound_methods.php\n"
+    },
+    {
+      "file": "api/compound_purification.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\compound_purification.php\n"
+    },
+    {
+      "file": "api/compound_purified_forms.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\compound_purified_forms.php\n"
+    },
+    {
+      "file": "api/compound_shodhana_process.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\compound_shodhana_process.php\n"
+    },
+    {
+      "file": "api/compound_therapeutic_use.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\compound_therapeutic_use.php\n"
+    },
+    {
+      "file": "api/compound_toxicity.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\compound_toxicity.php\n"
+    },
+    {
+      "file": "api/compound_validation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\compound_validation.php\n"
+    },
+    {
+      "file": "api/config.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\config.php\n"
+    },
+    {
+      "file": "api/confirmation_study_method.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\confirmation_study_method.php\n"
+    },
+    {
+      "file": "api/confirmation_study_purified_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\confirmation_study_purified_compound.php\n"
+    },
+    {
+      "file": "api/cors.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\cors.php\n"
+    },
+    {
+      "file": "api/counts.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\counts.php\n"
+    },
+    {
+      "file": "api/db.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\db.php\n"
+    },
+    {
+      "file": "api/disease_assessment.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\disease_assessment.php\n"
+    },
+    {
+      "file": "api/disease_diagnosis.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\disease_diagnosis.php\n"
+    },
+    {
+      "file": "api/disease_dosha.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\disease_dosha.php\n"
+    },
+    {
+      "file": "api/disease_formulation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\disease_formulation.php\n"
+    },
+    {
+      "file": "api/disease_symptoms.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\disease_symptoms.php\n"
+    },
+    {
+      "file": "api/disease_therapy.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\disease_therapy.php\n"
+    },
+    {
+      "file": "api/dosha_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\dosha_disease.php\n"
+    },
+    {
+      "file": "api/formulation_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\formulation_compound.php\n"
+    },
+    {
+      "file": "api/formulation_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\formulation_disease.php\n"
+    },
+    {
+      "file": "api/formulation_therapy.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\formulation_therapy.php\n"
+    },
+    {
+      "file": "api/graph.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\graph.php\n"
+    },
+    {
+      "file": "api/graph_service.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\graph_service.php\n"
+    },
+    {
+      "file": "api/health.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\health.php\n"
+    },
+    {
+      "file": "api/indication_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\indication_compound.php\n"
+    },
+    {
+      "file": "api/integrated_compound_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\integrated_compound_disease.php\n"
+    },
+    {
+      "file": "api/integrated_disease_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\integrated_disease_compound.php\n"
+    },
+    {
+      "file": "api/kg-stats.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\kg-stats.php\n"
+    },
+    {
+      "file": "api/media_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\media_compound.php\n"
+    },
+    {
+      "file": "api/media_process.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\media_process.php\n"
+    },
+    {
+      "file": "api/method_toxic_substance.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\method_toxic_substance.php\n"
+    },
+    {
+      "file": "api/next_process_process.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\next_process_process.php\n"
+    },
+    {
+      "file": "api/node.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\node.php\n"
+    },
+    {
+      "file": "api/process_classification.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\process_classification.php\n"
+    },
+    {
+      "file": "api/process_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\process_compound.php\n"
+    },
+    {
+      "file": "api/process_media.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\process_media.php\n"
+    },
+    {
+      "file": "api/process_next_process.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\process_next_process.php\n"
+    },
+    {
+      "file": "api/process_purified_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\process_purified_compound.php\n"
+    },
+    {
+      "file": "api/process_shodhana_method.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\process_shodhana_method.php\n"
+    },
+    {
+      "file": "api/provenance-subgraph.example.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\provenance-subgraph.example.php\n"
+    },
+    {
+      "file": "api/provenance-subgraph.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\provenance-subgraph.php\n"
+    },
+    {
+      "file": "api/provenance_compound_method_media.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\provenance_compound_method_media.php\n"
+    },
+    {
+      "file": "api/provenance_disease_therapy_formulation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\provenance_disease_therapy_formulation.php\n"
+    },
+    {
+      "file": "api/provenance_formulation_therapy_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\provenance_formulation_therapy_disease.php\n"
+    },
+    {
+      "file": "api/provenance_media_method_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\provenance_media_method_compound.php\n"
+    },
+    {
+      "file": "api/purified_compound_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\purified_compound_disease.php\n"
+    },
+    {
+      "file": "api/purified_compound_formulation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\purified_compound_formulation.php\n"
+    },
+    {
+      "file": "api/purified_compound_process.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\purified_compound_process.php\n"
+    },
+    {
+      "file": "api/purified_compound_source.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\purified_compound_source.php\n"
+    },
+    {
+      "file": "api/purified_compound_validation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\purified_compound_validation.php\n"
+    },
+    {
+      "file": "api/resolve_entity.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\resolve_entity.php\n"
+    },
+    {
+      "file": "api/response.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\response.php\n"
+    },
+    {
+      "file": "api/route_question.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\route_question.php\n"
+    },
+    {
+      "file": "api/search.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\search.php\n"
+    },
+    {
+      "file": "api/semantic_query.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\semantic_query.php\n"
+    },
+    {
+      "file": "api/shodhana_method_process.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\shodhana_method_process.php\n"
+    },
+    {
+      "file": "api/shodhana_method_validation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\shodhana_method_validation.php\n"
+    },
+    {
+      "file": "api/stats.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\stats.php\n"
+    },
+    {
+      "file": "api/symptoms_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\symptoms_disease.php\n"
+    },
+    {
+      "file": "api/therapy_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\therapy_disease.php\n"
+    },
+    {
+      "file": "api/therapy_formulation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\therapy_formulation.php\n"
+    },
+    {
+      "file": "api/toxic_substance_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\toxic_substance_compound.php\n"
+    },
+    {
+      "file": "api/toxic_substance_method.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\toxic_substance_method.php\n"
+    },
+    {
+      "file": "api/version.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\version.php\n"
+    },
+    {
+      "file": "api/core/ChatbotOrchestrator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ChatbotOrchestrator.php\n"
+    },
+    {
+      "file": "api/core/ChatRequest.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ChatRequest.php\n"
+    },
+    {
+      "file": "api/core/ChatResponseTransport.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ChatResponseTransport.php\n"
+    },
+    {
+      "file": "api/core/ConversationalAnswer.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ConversationalAnswer.php\n"
+    },
+    {
+      "file": "api/core/ConversationContext.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ConversationContext.php\n"
+    },
+    {
+      "file": "api/core/ConversationEntities.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ConversationEntities.php\n"
+    },
+    {
+      "file": "api/core/EdgePresentation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\EdgePresentation.php\n"
+    },
+    {
+      "file": "api/core/EntityResolution.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\EntityResolution.php\n"
+    },
+    {
+      "file": "api/core/EntityResolver.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\EntityResolver.php\n"
+    },
+    {
+      "file": "api/core/EvidenceAnswerBuilder.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\EvidenceAnswerBuilder.php\n"
+    },
+    {
+      "file": "api/core/EvidenceCorrelator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\EvidenceCorrelator.php\n"
+    },
+    {
+      "file": "api/core/EvidenceTraversal.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\EvidenceTraversal.php\n"
+    },
+    {
+      "file": "api/core/FAQMatcher.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\FAQMatcher.php\n"
+    },
+    {
+      "file": "api/core/GraphRead.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\GraphRead.php\n"
+    },
+    {
+      "file": "api/core/GraphRetriever.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\GraphRetriever.php\n"
+    },
+    {
+      "file": "api/core/KgStatistics.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\KgStatistics.php\n"
+    },
+    {
+      "file": "api/core/KnowledgeNormalizer.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\KnowledgeNormalizer.php\n"
+    },
+    {
+      "file": "api/core/LegacyEvidence.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\LegacyEvidence.php\n"
+    },
+    {
+      "file": "api/core/LegacyProvenance.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\LegacyProvenance.php\n"
+    },
+    {
+      "file": "api/core/LLMClient.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\LLMClient.php\n"
+    },
+    {
+      "file": "api/core/ModelConfig.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ModelConfig.php\n"
+    },
+    {
+      "file": "api/core/NodePropertyAnswer.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\NodePropertyAnswer.php\n"
+    },
+    {
+      "file": "api/core/PathEvidence.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\PathEvidence.php\n"
+    },
+    {
+      "file": "api/core/QueryUnderstanding.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\QueryUnderstanding.php\n"
+    },
+    {
+      "file": "api/core/QuestionRouter.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\QuestionRouter.php\n"
+    },
+    {
+      "file": "api/core/ReferenceClassifier.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ReferenceClassifier.php\n"
+    },
+    {
+      "file": "api/core/ResponseGenerator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ResponseGenerator.php\n"
+    },
+    {
+      "file": "api/core/ResponseValidator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ResponseValidator.php\n"
+    },
+    {
+      "file": "api/core/ResultsPresentation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\ResultsPresentation.php\n"
+    },
+    {
+      "file": "api/core/SemanticQuery.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\SemanticQuery.php\n"
+    },
+    {
+      "file": "api/core/TraversalCatalog.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\core\\TraversalCatalog.php\n"
+    },
+    {
+      "file": "api/tests/build_traversal_inventory.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\build_traversal_inventory.php\n"
+    },
+    {
+      "file": "api/tests/calculate_latency.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\calculate_latency.php\n"
+    },
+    {
+      "file": "api/tests/capture_expanded_snapshot.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\capture_expanded_snapshot.php\n"
+    },
+    {
+      "file": "api/tests/capture_factual_snapshot.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\capture_factual_snapshot.php\n"
+    },
+    {
+      "file": "api/tests/capture_relationship_metadata.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\capture_relationship_metadata.php\n"
+    },
+    {
+      "file": "api/tests/capture_system_properties.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\capture_system_properties.php\n"
+    },
+    {
+      "file": "api/tests/check_final_therapies.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\check_final_therapies.php\n"
+    },
+    {
+      "file": "api/tests/check_prov.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\check_prov.php\n"
+    },
+    {
+      "file": "api/tests/check_prov2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\check_prov2.php\n"
+    },
+    {
+      "file": "api/tests/check_prov_count.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\check_prov_count.php\n"
+    },
+    {
+      "file": "api/tests/check_prov_final.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\check_prov_final.php\n"
+    },
+    {
+      "file": "api/tests/check_swedana.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\check_swedana.php\n"
+    },
+    {
+      "file": "api/tests/check_therapy_names.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\check_therapy_names.php\n"
+    },
+    {
+      "file": "api/tests/check_trigeminal.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\check_trigeminal.php\n"
+    },
+    {
+      "file": "api/tests/check_trigeminal2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\check_trigeminal2.php\n"
+    },
+    {
+      "file": "api/tests/check_trigeminal3.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\check_trigeminal3.php\n"
+    },
+    {
+      "file": "api/tests/debug_candidates.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\debug_candidates.php\n"
+    },
+    {
+      "file": "api/tests/debug_orchestrator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\debug_orchestrator.php\n"
+    },
+    {
+      "file": "api/tests/debug_resolver.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\debug_resolver.php\n"
+    },
+    {
+      "file": "api/tests/debug_router.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\debug_router.php\n"
+    },
+    {
+      "file": "api/tests/EvaluationAssertions.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\EvaluationAssertions.php\n"
+    },
+    {
+      "file": "api/tests/EvaluationExport.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\EvaluationExport.php\n"
+    },
+    {
+      "file": "api/tests/export_ragas_dataset.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\export_ragas_dataset.php\n"
+    },
+    {
+      "file": "api/tests/find_compounds.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\find_compounds.php\n"
+    },
+    {
+      "file": "api/tests/mock_arcadedb.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\mock_arcadedb.php\n"
+    },
+    {
+      "file": "api/tests/mock_ollama.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\mock_ollama.php\n"
+    },
+    {
+      "file": "api/tests/phase15_bugfixes.test.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\phase15_bugfixes.test.php\n"
+    },
+    {
+      "file": "api/tests/phase16_hardening.test.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\phase16_hardening.test.php\n"
+    },
+    {
+      "file": "api/tests/provenance-subgraph.test.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\provenance-subgraph.test.php\n"
+    },
+    {
+      "file": "api/tests/reference_classification.test.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\reference_classification.test.php\n"
+    },
+    {
+      "file": "api/tests/review_references.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\review_references.php\n"
+    },
+    {
+      "file": "api/tests/run_conversation_pilot.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_conversation_pilot.php\n"
+    },
+    {
+      "file": "api/tests/run_evaluation_cases.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_evaluation_cases.php\n"
+    },
+    {
+      "file": "api/tests/run_expanded_factual.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_expanded_factual.php\n"
+    },
+    {
+      "file": "api/tests/test_arcadedb_shodhana_traversal.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_arcadedb_shodhana_traversal.php\n"
+    },
+    {
+      "file": "api/tests/test_audit_boundaries.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_audit_boundaries.php\n"
+    },
+    {
+      "file": "api/tests/test_audit_gap_closure.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_audit_gap_closure.php\n"
+    },
+    {
+      "file": "api/tests/test_chatbot_inverse.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_chatbot_inverse.php\n"
+    },
+    {
+      "file": "api/tests/test_chatbot_orchestrator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_chatbot_orchestrator.php\n"
+    },
+    {
+      "file": "api/tests/test_chat_transport.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_chat_transport.php\n"
+    },
+    {
+      "file": "api/tests/test_compound_detoxification.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_compound_detoxification.php\n"
+    },
+    {
+      "file": "api/tests/test_compound_media.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_compound_media.php\n"
+    },
+    {
+      "file": "api/tests/test_compound_purification.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_compound_purification.php\n"
+    },
+    {
+      "file": "api/tests/test_compound_shodhana_process.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_compound_shodhana_process.php\n"
+    },
+    {
+      "file": "api/tests/test_compound_therapeutic_use.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_compound_therapeutic_use.php\n"
+    },
+    {
+      "file": "api/tests/test_compound_toxicity.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_compound_toxicity.php\n"
+    },
+    {
+      "file": "api/tests/test_compound_validation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_compound_validation.php\n"
+    },
+    {
+      "file": "api/tests/test_context_immutability.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_context_immutability.php\n"
+    },
+    {
+      "file": "api/tests/test_conversational_answer.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_conversational_answer.php\n"
+    },
+    {
+      "file": "api/tests/test_conversation_memory.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_conversation_memory.php\n"
+    },
+    {
+      "file": "api/tests/test_conversation_routing.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_conversation_routing.php\n"
+    },
+    {
+      "file": "api/tests/test_disease_formulation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_disease_formulation.php\n"
+    },
+    {
+      "file": "api/tests/test_disease_symptoms.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_disease_symptoms.php\n"
+    },
+    {
+      "file": "api/tests/test_disease_therapy.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_disease_therapy.php\n"
+    },
+    {
+      "file": "api/tests/test_end_to_end_chatbot.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_end_to_end_chatbot.php\n"
+    },
+    {
+      "file": "api/tests/test_entity_resolution.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_entity_resolution.php\n"
+    },
+    {
+      "file": "api/tests/test_evaluation_assertions.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_evaluation_assertions.php\n"
+    },
+    {
+      "file": "api/tests/test_evaluation_export.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_evaluation_export.php\n"
+    },
+    {
+      "file": "api/tests/test_evidence_answer_builder.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_evidence_answer_builder.php\n"
+    },
+    {
+      "file": "api/tests/test_evidence_correlator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_evidence_correlator.php\n"
+    },
+    {
+      "file": "api/tests/test_integrated_compound_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_integrated_compound_disease.php\n"
+    },
+    {
+      "file": "api/tests/test_legacy_evidence_presentation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_legacy_evidence_presentation.php\n"
+    },
+    {
+      "file": "api/tests/test_media_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_media_compound.php\n"
+    },
+    {
+      "file": "api/tests/test_method_result_contract.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_method_result_contract.php\n"
+    },
+    {
+      "file": "api/tests/test_node_property_answer.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_node_property_answer.php\n"
+    },
+    {
+      "file": "api/tests/test_query_robustness.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_query_robustness.php\n"
+    },
+    {
+      "file": "api/tests/test_real_query_matrix.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_real_query_matrix.php\n"
+    },
+    {
+      "file": "api/tests/test_real_schema_queries.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_real_schema_queries.php\n"
+    },
+    {
+      "file": "api/tests/test_reference_record_urls.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_reference_record_urls.php\n"
+    },
+    {
+      "file": "api/tests/test_response_generator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_response_generator.php\n"
+    },
+    {
+      "file": "api/tests/test_response_validator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_response_validator.php\n"
+    },
+    {
+      "file": "api/tests/test_response_validator_regression.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_response_validator_regression.php\n"
+    },
+    {
+      "file": "api/tests/test_results_presentation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_results_presentation.php\n"
+    },
+    {
+      "file": "api/tests/test_retrieval_core_integration.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_retrieval_core_integration.php\n"
+    },
+    {
+      "file": "api/tests/test_router.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_router.php\n"
+    },
+    {
+      "file": "api/tests/test_router_history.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_router_history.php\n"
+    },
+    {
+      "file": "api/tests/test_schema_query_coverage.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_schema_query_coverage.php\n"
+    },
+    {
+      "file": "api/tests/test_security_http.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_security_http.php\n"
+    },
+    {
+      "file": "api/tests/test_semantic_contracts.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_semantic_contracts.php\n"
+    },
+    {
+      "file": "api/tests/test_structured_context_v2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_structured_context_v2.php\n"
+    },
+    {
+      "file": "api/tests/test_terminology_expansion.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_terminology_expansion.php\n"
+    },
+    {
+      "file": "api/tests/test_therapy_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_therapy_disease.php\n"
+    },
+    {
+      "file": "api/tests/test_traversal_expansion.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\test_traversal_expansion.php\n"
+    },
+    {
+      "file": "archive/deprecated/KnowledgeNormalizer.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\deprecated\\KnowledgeNormalizer.php\n"
+    },
+    {
+      "file": "archive/kre/chat.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat.php\n"
+    },
+    {
+      "file": "archive/kre/chat_legacy.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat_legacy.php\n"
+    },
+    {
+      "file": "archive/kre/chat/citation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\citation.php\n"
+    },
+    {
+      "file": "archive/kre/chat/confidence.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\confidence.php\n"
+    },
+    {
+      "file": "archive/kre/chat/context_builder.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\context_builder.php\n"
+    },
+    {
+      "file": "archive/kre/chat/debug_logger.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\debug_logger.php\n"
+    },
+    {
+      "file": "archive/kre/chat/entity.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\entity.php\n"
+    },
+    {
+      "file": "archive/kre/chat/graph_query.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\graph_query.php\n"
+    },
+    {
+      "file": "archive/kre/chat/intent.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\intent.php\n"
+    },
+    {
+      "file": "archive/kre/chat/llm.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\llm.php\n"
+    },
+    {
+      "file": "archive/kre/chat/prompt.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\prompt.php\n"
+    },
+    {
+      "file": "archive/kre/chat/sanitize.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\sanitize.php\n"
+    },
+    {
+      "file": "archive/kre/chat/schema.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\schema.php\n"
+    },
+    {
+      "file": "archive/kre/chat/stream.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\stream.php\n"
+    },
+    {
+      "file": "archive/kre/chat/synonyms.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\synonyms.php\n"
+    },
+    {
+      "file": "archive/kre/chat/traversal_planner.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\traversal_planner.php\n"
+    },
+    {
+      "file": "archive/kre/chat/validation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\validation.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/context_builder.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\context_builder.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/engine.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\engine.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/entity_extractor.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\entity_extractor.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/entity_validator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\entity_validator.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/graph_debugger.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\graph_debugger.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/intent_classifier.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\intent_classifier.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/intent_router.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\intent_router.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/knowledge_merger.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\knowledge_merger.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/llm_gateway.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\llm_gateway.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/module_executor.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\module_executor.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/pattern_matcher.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\pattern_matcher.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/prompt_builder.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\prompt_builder.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/relationship_detector.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\relationship_detector.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/result.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\result.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retriever_registry.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retriever_registry.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/validator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\validator.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/base_module.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\base_module.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/base_retriever.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\base_retriever.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/comparison_retriever.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\comparison_retriever.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/compound_retriever.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\compound_retriever.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/disease_retriever.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\disease_retriever.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/graph_explorer_retriever.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\graph_explorer_retriever.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/module_registry.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\module_registry.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_asm.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_asm.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_brg.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_brg.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_cls.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_cls.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_cmp.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_cmp.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_cpl.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_cpl.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_dpr.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_dpr.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_dse.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_dse.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_dtx.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_dtx.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_mth.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_mth.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_pch.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_pch.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_pur.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_pur.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_sym.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_sym.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_tox.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_tox.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/m_val.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\m_val.php\n"
+    },
+    {
+      "file": "archive/kre/chat/kre/retrievers/process_retriever.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\chat\\kre\\retrievers\\process_retriever.php\n"
+    },
+    {
+      "file": "archive/kre/tests/chat.test.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\tests\\chat.test.php\n"
+    },
+    {
+      "file": "archive/kre/tests/regression_test.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\archive\\kre\\tests\\regression_test.php\n"
+    },
+    {
+      "file": "docs/chatbot/audits/identifier_rules_2026_09_24_v1/capture.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\docs\\chatbot\\audits\\identifier_rules_2026_09_24_v1\\capture.php\n"
+    },
+    {
+      "file": "scratch/test_build.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scratch\\test_build.php\n"
+    },
+    {
+      "file": "scratch/test_build2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scratch\\test_build2.php\n"
+    },
+    {
+      "file": "scratch/test_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scratch\\test_compound.php\n"
+    },
+    {
+      "file": "scratch/test_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scratch\\test_disease.php\n"
+    },
+    {
+      "file": "scripts/debug/check_cases.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_cases.php\n"
+    },
+    {
+      "file": "scripts/debug/check_edges.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_edges.php\n"
+    },
+    {
+      "file": "scripts/debug/check_error.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_error.php\n"
+    },
+    {
+      "file": "scripts/debug/check_error2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_error2.php\n"
+    },
+    {
+      "file": "scripts/debug/check_final_therapies.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_final_therapies.php\n"
+    },
+    {
+      "file": "scripts/debug/check_prov.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_prov.php\n"
+    },
+    {
+      "file": "scripts/debug/check_prov2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_prov2.php\n"
+    },
+    {
+      "file": "scripts/debug/check_prov_count.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_prov_count.php\n"
+    },
+    {
+      "file": "scripts/debug/check_prov_final.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_prov_final.php\n"
+    },
+    {
+      "file": "scripts/debug/check_swedana.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_swedana.php\n"
+    },
+    {
+      "file": "scripts/debug/check_therapy_names.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_therapy_names.php\n"
+    },
+    {
+      "file": "scripts/debug/check_trigeminal.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_trigeminal.php\n"
+    },
+    {
+      "file": "scripts/debug/check_trigeminal2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_trigeminal2.php\n"
+    },
+    {
+      "file": "scripts/debug/check_trigeminal3.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_trigeminal3.php\n"
+    },
+    {
+      "file": "scripts/debug/check_types.php",
+      "exit_code": 255,
+      "output": "\nParse error: syntax error, unexpected identifier \"sql\", expecting \")\" in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_types.php on line 2\nErrors parsing D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_types.php\nPHP Parse error:  syntax error, unexpected identifier \"sql\", expecting \")\" in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\check_types.php on line 2\n"
+    },
+    {
+      "file": "scripts/debug/count_endpoints.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\count_endpoints.php\n"
+    },
+    {
+      "file": "scripts/debug/debug_abhraka.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\debug_abhraka.php\n"
+    },
+    {
+      "file": "scripts/debug/debug_candidates.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\debug_candidates.php\n"
+    },
+    {
+      "file": "scripts/debug/debug_eval050.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\debug_eval050.php\n"
+    },
+    {
+      "file": "scripts/debug/debug_fuzzy.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\debug_fuzzy.php\n"
+    },
+    {
+      "file": "scripts/debug/debug_logger.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\debug_logger.php\n"
+    },
+    {
+      "file": "scripts/debug/debug_orchestrator.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\debug_orchestrator.php\n"
+    },
+    {
+      "file": "scripts/debug/debug_resolver.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\debug_resolver.php\n"
+    },
+    {
+      "file": "scripts/debug/debug_router.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\debug_router.php\n"
+    },
+    {
+      "file": "scripts/debug/find_compounds.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\find_compounds.php\n"
+    },
+    {
+      "file": "scripts/debug/fix-bridge.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix-bridge.php\n"
+    },
+    {
+      "file": "scripts/debug/fix-category-stats.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix-category-stats.php\n"
+    },
+    {
+      "file": "scripts/debug/fix-category-stats2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix-category-stats2.php\n"
+    },
+    {
+      "file": "scripts/debug/fix-category-stats3.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix-category-stats3.php\n"
+    },
+    {
+      "file": "scripts/debug/fix-shodhana.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix-shodhana.php\n"
+    },
+    {
+      "file": "scripts/debug/fix.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix.php\n"
+    },
+    {
+      "file": "scripts/debug/fix2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix2.php\n"
+    },
+    {
+      "file": "scripts/debug/fix3.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix3.php\n"
+    },
+    {
+      "file": "scripts/debug/fix4.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix4.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_chunk_filter.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_chunk_filter.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_eval.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_eval.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_eval_047.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_eval_047.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_form_disease.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_form_disease.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_generic.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_generic.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_hindi_regex.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_hindi_regex.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_history_prompt.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_history_prompt.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_labels.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_labels.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_limit.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_limit.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_orch3.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_orch3.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_prompt.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_prompt.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_prompt2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_prompt2.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_pronoun.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_pronoun.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_pronoun_loop.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_pronoun_loop.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_prov.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_prov.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_regex_b.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_regex_b.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_rel.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_rel.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_resolver_sql.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_resolver_sql.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_resolver_v2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_resolver_v2.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_restore.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_restore.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_route_sig.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_route_sig.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_stopwords.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_stopwords.php\n"
+    },
+    {
+      "file": "scripts/debug/fix_therapy.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\fix_therapy.php\n"
+    },
+    {
+      "file": "scripts/debug/generate_config.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\generate_config.php\n"
+    },
+    {
+      "file": "scripts/debug/generate_endpoints.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\generate_endpoints.php\n"
+    },
+    {
+      "file": "scripts/debug/get_counts.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\get_counts.php\n"
+    },
+    {
+      "file": "scripts/debug/get_counts2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\get_counts2.php\n"
+    },
+    {
+      "file": "scripts/debug/modify_compound.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\modify_compound.php\n"
+    },
+    {
+      "file": "scripts/debug/modify_compound_graph.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\modify_compound_graph.php\n"
+    },
+    {
+      "file": "scripts/debug/modify_graph_canvas.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\modify_graph_canvas.php\n"
+    },
+    {
+      "file": "scripts/debug/modify_graph_prov.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\modify_graph_prov.php\n"
+    },
+    {
+      "file": "scripts/debug/modify_limits.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\modify_limits.php\n"
+    },
+    {
+      "file": "scripts/debug/modify_panel.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\modify_panel.php\n"
+    },
+    {
+      "file": "scripts/debug/modify_provenance.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\modify_provenance.php\n"
+    },
+    {
+      "file": "scripts/debug/patch-source-type.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\patch-source-type.php\n"
+    },
+    {
+      "file": "scripts/debug/patch2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\patch2.php\n"
+    },
+    {
+      "file": "scripts/debug/patch_router3.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\patch_router3.php\n"
+    },
+    {
+      "file": "scripts/debug/patch_temp.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\patch_temp.php\n"
+    },
+    {
+      "file": "scripts/debug/patch_temp2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\patch_temp2.php\n"
+    },
+    {
+      "file": "scripts/debug/print_cand.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\print_cand.php\n"
+    },
+    {
+      "file": "scripts/debug/query_db.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\query_db.php\n"
+    },
+    {
+      "file": "scripts/debug/real_fix_pronoun.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\real_fix_pronoun.php\n"
+    },
+    {
+      "file": "scripts/debug/replace.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\replace.php\n"
+    },
+    {
+      "file": "scripts/debug/replace_resolve.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\replace_resolve.php\n"
+    },
+    {
+      "file": "scripts/debug/replace_undo.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\replace_undo.php\n"
+    },
+    {
+      "file": "scripts/debug/route_question.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\route_question.php\n"
+    },
+    {
+      "file": "scripts/debug/split_eval.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\split_eval.php\n"
+    },
+    {
+      "file": "scripts/debug/test-bharjana.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-bharjana.php\n"
+    },
+    {
+      "file": "scripts/debug/test-bridge.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-bridge.php\n"
+    },
+    {
+      "file": "scripts/debug/test-cat.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-cat.php\n"
+    },
+    {
+      "file": "scripts/debug/test-cat2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-cat2.php\n"
+    },
+    {
+      "file": "scripts/debug/test-class.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-class.php\n"
+    },
+    {
+      "file": "scripts/debug/test-contains.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-contains.php\n"
+    },
+    {
+      "file": "scripts/debug/test-edge-dir2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-edge-dir2.php\n"
+    },
+    {
+      "file": "scripts/debug/test-edge-dir3.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-edge-dir3.php\n"
+    },
+    {
+      "file": "scripts/debug/test-edge-direction.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-edge-direction.php\n"
+    },
+    {
+      "file": "scripts/debug/test-involves.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-involves.php\n"
+    },
+    {
+      "file": "scripts/debug/test-pc-edges.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-pc-edges.php\n"
+    },
+    {
+      "file": "scripts/debug/test-pc-filter.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-pc-filter.php\n"
+    },
+    {
+      "file": "scripts/debug/test-pc.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-pc.php\n"
+    },
+    {
+      "file": "scripts/debug/test-process-media.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-process-media.php\n"
+    },
+    {
+      "file": "scripts/debug/test-produces.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-produces.php\n"
+    },
+    {
+      "file": "scripts/debug/test-produces2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-produces2.php\n"
+    },
+    {
+      "file": "scripts/debug/test-shodhana-method.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-shodhana-method.php\n"
+    },
+    {
+      "file": "scripts/debug/test-shodhana-method2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-shodhana-method2.php\n"
+    },
+    {
+      "file": "scripts/debug/test-swedana.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-swedana.php\n"
+    },
+    {
+      "file": "scripts/debug/test-type.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-type.php\n"
+    },
+    {
+      "file": "scripts/debug/test-undergoes.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-undergoes.php\n"
+    },
+    {
+      "file": "scripts/debug/test-uses-formulation.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-uses-formulation.php\n"
+    },
+    {
+      "file": "scripts/debug/test-uses-media.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test-uses-media.php\n"
+    },
+    {
+      "file": "scripts/debug/test.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test.php\n"
+    },
+    {
+      "file": "scripts/debug/test2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test2.php\n"
+    },
+    {
+      "file": "scripts/debug/test_all_tubal.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_all_tubal.php\n"
+    },
+    {
+      "file": "scripts/debug/test_api.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_api.php\n"
+    },
+    {
+      "file": "scripts/debug/test_assess_bug.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_assess_bug.php\n"
+    },
+    {
+      "file": "scripts/debug/test_biochem.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_biochem.php\n"
+    },
+    {
+      "file": "scripts/debug/test_cand.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_cand.php\n"
+    },
+    {
+      "file": "scripts/debug/test_cand2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_cand2.php\n"
+    },
+    {
+      "file": "scripts/debug/test_cand_history.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_cand_history.php\n"
+    },
+    {
+      "file": "scripts/debug/test_chunks.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_chunks.php\n"
+    },
+    {
+      "file": "scripts/debug/test_chunk_match.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_chunk_match.php\n"
+    },
+    {
+      "file": "scripts/debug/test_count.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_count.php\n"
+    },
+    {
+      "file": "scripts/debug/test_db_dup.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_db_dup.php\n"
+    },
+    {
+      "file": "scripts/debug/test_exact_loop.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_exact_loop.php\n"
+    },
+    {
+      "file": "scripts/debug/test_exact_symptoms.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_exact_symptoms.php\n"
+    },
+    {
+      "file": "scripts/debug/test_find_q.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_find_q.php\n"
+    },
+    {
+      "file": "scripts/debug/test_history.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_history.php\n"
+    },
+    {
+      "file": "scripts/debug/test_intent.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_intent.php\n"
+    },
+    {
+      "file": "scripts/debug/test_llm_anchor.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_llm_anchor.php\n"
+    },
+    {
+      "file": "scripts/debug/test_llm_anchor_full.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_llm_anchor_full.php\n"
+    },
+    {
+      "file": "scripts/debug/test_new.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_new.php\n"
+    },
+    {
+      "file": "scripts/debug/test_new2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_new2.php\n"
+    },
+    {
+      "file": "scripts/debug/test_new3.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_new3.php\n"
+    },
+    {
+      "file": "scripts/debug/test_new4.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_new4.php\n"
+    },
+    {
+      "file": "scripts/debug/test_orch.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_orch.php\n"
+    },
+    {
+      "file": "scripts/debug/test_orch_correct.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_orch_correct.php\n"
+    },
+    {
+      "file": "scripts/debug/test_orch_exact.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_orch_exact.php\n"
+    },
+    {
+      "file": "scripts/debug/test_orch_history.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_orch_history.php\n"
+    },
+    {
+      "file": "scripts/debug/test_orch_history2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_orch_history2.php\n"
+    },
+    {
+      "file": "scripts/debug/test_orch_history3.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_orch_history3.php\n"
+    },
+    {
+      "file": "scripts/debug/test_parameters.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_parameters.php\n"
+    },
+    {
+      "file": "scripts/debug/test_post.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_post.php\n"
+    },
+    {
+      "file": "scripts/debug/test_prompt.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_prompt.php\n"
+    },
+    {
+      "file": "scripts/debug/test_resolve6.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_resolve6.php\n"
+    },
+    {
+      "file": "scripts/debug/test_route_debug.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_route_debug.php\n"
+    },
+    {
+      "file": "scripts/debug/test_scenario.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_scenario.php\n"
+    },
+    {
+      "file": "scripts/debug/test_symptoms.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_symptoms.php\n"
+    },
+    {
+      "file": "scripts/debug/test_tubal.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_tubal.php\n"
+    },
+    {
+      "file": "scripts/debug/test_tubal_api.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_tubal_api.php\n"
+    },
+    {
+      "file": "scripts/debug/test_vanga.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_vanga.php\n"
+    },
+    {
+      "file": "scripts/debug/test_vanga2.php",
+      "exit_code": 0,
+      "output": "No syntax errors detected in D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\scripts\\debug\\test_vanga2.php\n"
+    }
+  ]
+}

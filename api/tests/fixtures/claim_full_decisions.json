@@ -1,0 +1,131 @@
+{
+  "therapy_formulation": {
+    "relations": [
+      "Jatyadi Taila",
+      "Jivantyadi Ghrita",
+      "Karpasastyadi Taila",
+      "Kottamchukkadi Taila",
+      "Ksheerbala Taila",
+      "Chinchadi Taila"
+    ],
+    "unresolved": [
+      [
+        "a traditional Ayurvedic massage technique",
+        "General description is not established by the independent relationship reference."
+      ]
+    ]
+  },
+  "media_process": {
+    "relations": [
+      "Dhalana",
+      "Nirvapa",
+      "Urdhva Patana",
+      "Marana"
+    ],
+    "unresolved": [
+      [
+        "The methods that use Cow Milk are:",
+        "Use-of-media relations are supported; heading groups Marana (Process) with Shodhana_Method nodes. Terminology requires review."
+      ]
+    ]
+  },
+  "shodhana_method_process": {
+    "relations": [
+      "Marana"
+    ],
+    "unresolved": []
+  },
+  "process_shodhana_method": {
+    "relations": [
+      "Nirvapa"
+    ],
+    "unresolved": [],
+    "record_ids": [
+      "#79:69",
+      "#79:70",
+      "#79:71",
+      "#79:72",
+      "#79:73",
+      "#79:74",
+      "#79:75",
+      "#79:76"
+    ]
+  },
+  "purified_compound_process": {
+    "relations": [
+      "Bhavana"
+    ],
+    "unresolved": [
+      [
+        "the process that produces",
+        "Bhavana is stored as Shodhana_Method, not Process. Use-of-word process may be generic; taxonomy distinction needs review."
+      ]
+    ]
+  },
+  "method_toxic_substance": {
+    "relations": [
+      "Phorbol Esters",
+      "Crotonoside",
+      "Phytoamines",
+      "Cerberin",
+      "Nerifolin",
+      "Thevetin A",
+      "Thevetin B",
+      "Peruvoside",
+      "Ruvoside",
+      "THC (Delata 9-tetrahydrocannabinol)"
+    ],
+    "unresolved": []
+  },
+  "process_next_process": {
+    "relations": [
+      "Amritikarana"
+    ],
+    "unresolved": []
+  },
+  "next_process_process": {
+    "relations": [
+      "Jarana"
+    ],
+    "unresolved": []
+  },
+  "provenance_compound_method_media": {
+    "relations": [
+      "Sour Gruel",
+      "Sesame Oil",
+      "Buttermilk",
+      "Horse Gram Decoction",
+      "Nirgundi Decoction"
+    ],
+    "via": "Nirvapa",
+    "citation": {
+      "type": "pubmed_id",
+      "value": "241564"
+    },
+    "unresolved": []
+  },
+  "provenance_media_method_compound": {
+    "relations": [
+      "Biotite Mica",
+      "Sulphur"
+    ],
+    "unresolved": [
+      [
+        "in the same procedure",
+        "Reference paths use different methods (Nirvapa vs Dhalana/Urdhva Patana) and procedure texts; same-procedure assertion is not supported. No automated procedure-equivalence metric."
+      ]
+    ],
+    "shared_study": "Both of these compounds are mentioned in the same study as using Cow Milk in the same procedure."
+  },
+  "provenance_disease_therapy_formulation": {
+    "relations": [],
+    "unresolved": [],
+    "failure": "HTTP 500; no generated answer available; retained without retry"
+  },
+  "provenance_formulation_therapy_disease": {
+    "relations": [],
+    "unresolved": [],
+    "answer_behavior": "refusal",
+    "notes": "Answer text says information is unavailable despite two independent correlated paths to Endometrioma; backend status is success."
+  }
+}

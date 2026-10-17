@@ -1,0 +1,74 @@
+{
+  "total": 17,
+  "passed": 11,
+  "checks": [
+    {
+      "name": "json:typo_followup",
+      "passed": true
+    },
+    {
+      "name": "json:broader_choice",
+      "passed": false
+    },
+    {
+      "name": "json:indication_exact_edges",
+      "passed": false
+    },
+    {
+      "name": "json:forged_selection",
+      "passed": true
+    },
+    {
+      "name": "json:ambiguous_types",
+      "passed": false
+    },
+    {
+      "name": "json:topic_change",
+      "passed": true
+    },
+    {
+      "name": "json:unknown_not_memory",
+      "passed": true
+    },
+    {
+      "name": "sse:typo_followup",
+      "passed": true
+    },
+    {
+      "name": "sse:broader_choice",
+      "passed": false
+    },
+    {
+      "name": "sse:indication_exact_edges",
+      "passed": false
+    },
+    {
+      "name": "sse:forged_selection",
+      "passed": true
+    },
+    {
+      "name": "sse:ambiguous_types",
+      "passed": false
+    },
+    {
+      "name": "sse:topic_change",
+      "passed": true
+    },
+    {
+      "name": "sse:unknown_not_memory",
+      "passed": true
+    },
+    {
+      "name": "search:compound:coper",
+      "passed": true
+    },
+    {
+      "name": "search:disease:ESCC",
+      "passed": true
+    },
+    {
+      "name": "search:integrated:coper",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "shodhana",
+      "question": "What is Shodhana?",
+      "answer": "Shodhana means purification in Ayurvedic usage. Its meaning depends on context: clinical Shodhana concerns traditional therapeutic procedures, while pharmaceutical Shodhana concerns processing medicinal materials. ShodhanaKG keeps these contexts separate and connects recorded relationships between them.",
+      "sources": [
+        {
+          "title": "AIIA: Seasonal Panchakarma",
+          "url": "https://aiia.gov.in/wp-content/uploads/2023/02/8.1.3-Activities-to-promoyte-seasonal-panchkarma.pdf"
+        },
+        {
+          "title": "CCRAS: Drug Development Guidelines",
+          "url": "https://ccras.nic.in/wp-content/uploads/2024/07/CCRAS_Guideline-of-Drug-Development.pdf"
+        }
+      ],
+      "aliases": [
+        "Define Shodhana",
+        "Tell me about Shodhana"
+      ],
+      "category": "background",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "panchakarma",
+      "question": "What is Panchakarma?",
+      "answer": "Panchakarma is a group of traditional Ayurvedic therapeutic procedures associated with clinical purification. It is distinct from processing a raw medicinal substance. This introduction describes Ayurvedic terminology; it does not establish clinical benefit or provide instructions for treatment.",
+      "sources": [
+        {
+          "title": "AIIA: Seasonal Panchakarma",
+          "url": "https://aiia.gov.in/wp-content/uploads/2023/02/8.1.3-Activities-to-promoyte-seasonal-panchkarma.pdf"
+        }
+      ],
+      "aliases": [
+        "Explain Panchakarma",
+        "Define Panchakarma"
+      ],
+      "category": "background",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "compound-shodhana",
+      "question": "What is Compound Shodhana?",
+      "answer": "In ShodhanaKG, Compound Shodhana names the domain connecting raw compounds, purification methods, processes, media, purified compounds and related records. Pharmaceutical sources describe Shodhana as a processing step. A recorded purification relationship does not by itself establish that a product is safe.",
+      "sources": [
+        {
+          "title": "CCRAS: Drug Development Guidelines",
+          "url": "https://ccras.nic.in/wp-content/uploads/2024/07/CCRAS_Guideline-of-Drug-Development.pdf"
+        }
+      ],
+      "aliases": [
+        "Explain Compound Shodhana"
+      ],
+      "category": "background",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "disease-shodhana",
+      "question": "What is Disease Shodhana?",
+      "answer": "Disease Shodhana is the project label for the disease-side network: diseases, Ayurvedic diagnoses, doshas, symptoms, therapies, formulations and assessment parameters. It does not mean that a disease itself is a material being purified.",
+      "sources": [],
+      "aliases": [
+        "Explain Disease Shodhana"
+      ],
+      "category": "background",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "methods",
+      "question": "What are Shodhana methods?",
+      "answer": "Shodhana methods are named approaches to purification or processing in the relevant Ayurvedic context. In the compound domain, the graph distinguishes a method from its process steps, media and resulting purified compound. Ask about a specific compound to retrieve its recorded methods.",
+      "sources": [
+        {
+          "title": "CCRAS: Drug Development Guidelines",
+          "url": "https://ccras.nic.in/wp-content/uploads/2024/07/CCRAS_Guideline-of-Drug-Development.pdf"
+        }
+      ],
+      "aliases": [
+        "Explain Shodhana methods"
+      ],
+      "category": "background",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "integration",
+      "question": "How are Compound Shodhana and Disease Shodhana connected in ShodhanaKG?",
+      "answer": "The integrated graph links purified-compound records to disease records through stored USED_FOR_TREATMENT relationships. Queries can trace supported paths from a raw compound through purification to a disease. Missing paths are not inferred.",
+      "sources": [],
+      "aliases": [],
+      "category": "background",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "explore",
+      "question": "What can I explore in ShodhanaKG?",
+      "answer": "Explore compound purification, disease-associated therapies and formulations, node properties, and the recorded connections between domains. Select an entity in an Explorer to inspect its graph or table and associated evidence.",
+      "sources": [],
+      "aliases": [
+        "What is ShodhanaKG?",
+        "What is ShadhanaKG?"
+      ],
+      "category": "help",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "explorers",
+      "question": "Which Explorer should I use: Disease, Compound or Integrated?",
+      "answer": "Use Disease Explorer for disease-side associations; Compound Explorer for purification methods, processes and media; Integrated Explorer for supported paths linking the domains. Node and edge panels show the properties actually stored in the KG.",
+      "sources": [],
+      "aliases": [
+        "How do I use the Explorer?",
+        "How to use the website?"
+      ],
+      "category": "help",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "chatbot",
+      "question": "What kinds of questions can I ask this chatbot?",
+      "answer": "Ask about recorded methods, media, diseases, therapies, formulations or stored node properties. The chatbot supports clarification and contextual follow-ups, and retrieves facts again from the KG. It cannot provide personal treatment recommendations or infer missing facts.",
+      "sources": [],
+      "aliases": [
+        "What questions can this chatbot answer?"
+      ],
+      "category": "help",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "search",
+      "question": "How can I search using a PubMed ID or AYUSH ID?",
+      "answer": "Open Advanced Search, choose PubMed, AYUSH or Both, and enter an exact ID or keywords. Results describe references and associated records already in ShodhanaKG, not an external publication search. Open ID follows the available namespace-specific reference link.",
+      "sources": [],
+      "aliases": [],
+      "category": "help",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "evidence",
+      "question": "How do I view the evidence behind an answer?",
+      "answer": "Click a numbered citation to focus its evidence card. Inspect the supporting relationship, entities and stored edge properties. Open ID opens the associated publication record where a link is available. A citation alone does not demonstrate that a publication supports a scientific claim.",
+      "sources": [],
+      "aliases": [],
+      "category": "help",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "load-export",
+      "question": "How can I load more nodes or export a graph?",
+      "answer": "Use the node limit to control the initial graph size. Load more or Load all matching progressively reveals the current query; Pause stops further loading. Export applies to the displayed graph, which may be only part of the matching data.",
+      "sources": [],
+      "aliases": [
+        "How to export the graph?",
+        "How to save the graph?"
+      ],
+      "category": "help",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    },
+    {
+      "id": "limitations",
+      "question": "What are the limitations of ShodhanaKG and its chatbot?",
+      "answer": "Answers reflect stored records and supported graph paths. Missing properties, ambiguous names and missing paths may prevent an answer. Software validation does not establish publication support, clinical effectiveness or safety. Background FAQs are curated explanations, separate from KG evidence.",
+      "sources": [],
+      "aliases": [],
+      "category": "help",
+      "review": {
+        "source_checked": "2026-10-07",
+        "domain_expert_review": "pending"
+      }
+    }
+  ]
+}

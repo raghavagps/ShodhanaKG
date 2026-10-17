@@ -1,0 +1,151 @@
+{
+    "captured_at": "2026-09-23T20:12:10+00:00",
+    "basis": "Observed directed type pairs; presentation metadata only",
+    "unavailable": [
+        "RESOLVED_BY"
+    ],
+    "edges": {
+        "ASSESS": [
+            {
+                "source": "Assessment_Parameter",
+                "target": "Disease"
+            }
+        ],
+        "CLASSIFIED_AS": [
+            {
+                "source": "Shodhana_Method",
+                "target": "Shodhana_Type"
+            }
+        ],
+        "CONFIRMS_SAFETY_OF": [
+            {
+                "source": "Confirmation_Study",
+                "target": "Purified_Compound"
+            }
+        ],
+        "CONTAINS": [
+            {
+                "source": "Compound",
+                "target": "Toxic_Substance"
+            }
+        ],
+        "DERIEVED_FROM": [
+            {
+                "source": "Purified_Compound",
+                "target": "Compound"
+            }
+        ],
+        "DETOXIFIES": [
+            {
+                "source": "Shodhana_Method",
+                "target": "Toxic_Substance"
+            }
+        ],
+        "FOLLOWED_BY": [
+            {
+                "source": "Shodhana_Method",
+                "target": "Process"
+            },
+            {
+                "source": "Process",
+                "target": "Process"
+            }
+        ],
+        "HAS_AYURVEDIC_DIAGNOSIS": [
+            {
+                "source": "Disease",
+                "target": "Ayurvedic_Diagnosis"
+            }
+        ],
+        "HAS_DOSHA_IMBALANCE": [
+            {
+                "source": "Disease",
+                "target": "Dosha"
+            }
+        ],
+        "HAS_SYMPTOM": [
+            {
+                "source": "Disease",
+                "target": "Symptom"
+            }
+        ],
+        "POST_TREATED_BY": [
+            {
+                "source": "Disease",
+                "target": "Therapy"
+            }
+        ],
+        "PRE_TREATED_BY": [
+            {
+                "source": "Disease",
+                "target": "Therapy"
+            }
+        ],
+        "PRODUCES": [
+            {
+                "source": "Shodhana_Method",
+                "target": "Purified_Compound"
+            },
+            {
+                "source": "Process",
+                "target": "Purified_Compound"
+            }
+        ],
+        "TREATED_BY": [
+            {
+                "source": "Disease",
+                "target": "Therapy"
+            }
+        ],
+        "UNDERGOES": [
+            {
+                "source": "Compound",
+                "target": "Shodhana_Method"
+            }
+        ],
+        "USED_FOR_TREATMENT": [
+            {
+                "source": "Purified_Compound",
+                "target": "Disease"
+            }
+        ],
+        "USED_IN_FORMULATION": [
+            {
+                "source": "Purified_Compound",
+                "target": "Ayurvedic_Formulation"
+            }
+        ],
+        "USES_FORMULATION": [
+            {
+                "source": "Therapy",
+                "target": "Formulation"
+            }
+        ],
+        "USES_MEDIA": [
+            {
+                "source": "Shodhana_Method",
+                "target": "Media"
+            },
+            {
+                "source": "Process",
+                "target": "Media"
+            }
+        ],
+        "TREATS": [
+            {
+                "source": "Purified_Compound",
+                "target": "Indication"
+            }
+        ],
+        "VALIDATED_BY": [
+            {
+                "source": "Shodhana_Method",
+                "target": "Confirmation_Study"
+            },
+            {
+                "source": "Process",
+                "target": "Confirmation_Study"
+            }
+        ]
+    }
+}

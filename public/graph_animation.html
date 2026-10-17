@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ShodhanaKG — Knowledge Graph Animation</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./fonts/fonts.css">
+<style>
+
+  :root{
+    --parchment: #F4EEE2;
+    --parchment-deep: #ECE3D2;
+    --ink: #3A2F28;
+    --terracotta: #C1602D;
+    --terracotta-deep: #9C4520;
+    --terracotta-soft: #D98A5E;
+    --maroon: #6E2A1E;
+    --sage: #7C8F5D;
+    --sage-deep: #5C6E42;
+    --sage-soft: #A3B283;
+    --ochre: #D4A72C;
+    --gold: #E8C15A;
+    --clay: #A9784F;
+    --line: #B98A5A;
+    --line-strong: #8A5A2E;
+  }
+
+  *{ box-sizing:border-box; }
+
+  html,body{
+    margin:0; padding:0; width:100%; height:100%;
+    background:
+      radial-gradient(ellipse 90% 70% at 50% 42%, #FDFAF2 0%, var(--parchment) 45%, var(--parchment-deep) 78%, #E4D7BE 100%);
+    font-family: 'Manrope', 'Segoe UI', sans-serif;
+    overflow:hidden;
+  }
+
+  .stage{
+    position:relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .stage::before{
+    /* subtle paper grain / vignette so the earthy palette doesn't feel flat */
+    content:"";
+    position:absolute; inset:0;
+    background: radial-gradient(ellipse 60% 60% at 50% 50%, transparent 35%, rgba(58,47,40,0.07) 100%);
+    pointer-events:none;
+  }
+
+  svg.graph{
+    width:min(96vw, 1200px);
+    height:auto;
+    overflow:visible;
+  }
+
+  /* ============ YANTRA BACKGROUND (signature element) ============ */
+  .yantra{
+    fill:none;
+    stroke: var(--clay);
+    opacity:0.16;
+  }
+  .yantra-circ-tight{ stroke-width:1.3; opacity:0.3; }
+  .yantra-circ-dash{ stroke-dasharray: 1 6; stroke-width:1.6; opacity:0.3; }
+  .yantra-circ-dot{ stroke-dasharray: 0.5 5; stroke-width:1.8; opacity:0.24; }
+
+  /* whole mandala breathes gently, forever */
+  .yantra-layer{
+    animation: yantraPulse 9s ease-in-out infinite;
+    transform-origin: 600px 400px;
+  }
+  @keyframes yantraPulse{
+    0%,100%{ transform:scale(1); }
+    50%    { transform:scale(1.018); }
+  }
+
+  /* independent slow counter-rotation, once revealed */
+  .yantra-ring1-wrap{ animation: rotateSlowRev 150s linear infinite; transform-origin: 600px 400px; }
+  .yantra-outer-wrap{ animation: rotateSlow 220s linear infinite; transform-origin: 600px 400px; }
+  @keyframes rotateSlow{ from{ transform:rotate(0deg);} to{ transform:rotate(360deg);} }
+  @keyframes rotateSlowRev{ from{ transform:rotate(0deg);} to{ transform:rotate(-360deg);} }
+
+  /* ---- staged reveal, loops every 16s: dot -> rings -> lotus blooms (tier by tier) -> hexagram forms -> hold/pulse ---- */
+  .yantra-dot{
+    fill: var(--gold);
+    opacity:0;
+    transform-origin: 600px 400px;
+    animation: dotReveal 16s ease-in-out infinite;
+  }
+  .yantra-ring1-reveal{
+    opacity:0;
+    transform-origin: 600px 400px;
+    animation: ring1Reveal 16s ease-in-out infinite;
+  }
+  .yantra-outer-reveal{
+    opacity:0;
+    transform-origin: 600px 400px;
+    animation: outerReveal 16s ease-in-out infinite;
+  }
+
+  .yantra-lotus-inner,
+  .yantra-lotus-middle,
+  .yantra-lotus-outer{
+    opacity:0;
+    transform-origin: 0px 0px;
+  }
+  .yantra-lotus-inner { animation: bloomInner 16s ease-in-out infinite; }
+  .yantra-lotus-middle{ animation: bloomMiddle 16s ease-in-out infinite; }
+  .yantra-lotus-outer { animation: bloomOuter 16s ease-in-out infinite; }
+
+  @keyframes dotReveal{
+    0%        { opacity:0; transform:scale(0); }
+    5%        { opacity:1; transform:scale(1); }
+    90%       { opacity:1; transform:scale(1); }
+    96%,100%  { opacity:0; transform:scale(0); }
+  }
+  @keyframes ring1Reveal{
+    0%,6%     { opacity:0; transform:scale(0); }
+    16%       { opacity:1; transform:scale(1); }
+    88%       { opacity:1; transform:scale(1); }
+    95%,100%  { opacity:0; transform:scale(0); }
+  }
+  /* lotus blooms outward tier by tier, like unfurling in real time */
+  @keyframes bloomInner{
+    0%,18%    { opacity:0; transform:scale(0.15) rotate(-18deg); }
+    30%       { opacity:1; transform:scale(1) rotate(0deg); }
+    85%       { opacity:1; transform:scale(1) rotate(0deg); }
+    93%       { opacity:0; transform:scale(0.4) rotate(8deg); }
+    100%      { opacity:0; transform:scale(0.15) rotate(-18deg); }
+  }
+  @keyframes bloomMiddle{
+    0%,26%    { opacity:0; transform:scale(0.15) rotate(-18deg); }
+    40%       { opacity:1; transform:scale(1) rotate(0deg); }
+    85%       { opacity:1; transform:scale(1) rotate(0deg); }
+    92%       { opacity:0; transform:scale(0.4) rotate(8deg); }
+    100%      { opacity:0; transform:scale(0.15) rotate(-18deg); }
+  }
+  @keyframes bloomOuter{
+    0%,34%    { opacity:0; transform:scale(0.15) rotate(-18deg); }
+    50%       { opacity:1; transform:scale(1) rotate(0deg); }
+    85%       { opacity:1; transform:scale(1) rotate(0deg); }
+    91%       { opacity:0; transform:scale(0.4) rotate(8deg); }
+    100%      { opacity:0; transform:scale(0.15) rotate(-18deg); }
+  }
+  @keyframes outerReveal{
+    0%,3%     { opacity:0; transform:scale(0.72) rotate(-4deg); }
+    9%        { opacity:1; transform:scale(1) rotate(0deg); }
+    88%       { opacity:1; transform:scale(1) rotate(0deg); }
+    94%       { opacity:0; transform:scale(0.85); }
+    100%      { opacity:0; transform:scale(0.72) rotate(-4deg); }
+  }
+
+  /* ============ EDGES ============ */
+
+  .edge-path{
+    fill:none;
+    stroke:var(--line-strong);
+    stroke-width:3;
+    stroke-linecap:round;
+    stroke-dasharray:1;
+    stroke-dashoffset:1;
+    opacity:0.85;
+  }
+  .edge-path-sat{ stroke-width:2.4; opacity:0.75; }
+  .edge-left{ stroke: url(#gradEdgeL); }
+  .edge-right{ stroke: url(#gradEdgeR); }
+
+  .edge-particle{
+    fill:var(--ochre);
+    filter:drop-shadow(0 0 5px rgba(212,167,44,0.95));
+    opacity:0;
+  }
+  .edge-particle-sat{ fill:var(--terracotta-soft); r:3.2; }
+
+  .edge-branch .edge-path{ animation: drawBranchEdge 16s ease-in-out infinite; }
+  .edge-sat .edge-path{ animation: drawSatEdge 16s ease-in-out infinite; }
+  .edge-anchor .edge-particle{ animation: particleFade 16s ease-in-out infinite; }
+
+  @keyframes drawBranchEdge{
+    0%,5.6%   { stroke-dashoffset:1; opacity:0; }
+    11%       { stroke-dashoffset:0; opacity:0.85; }
+    76%       { stroke-dashoffset:0; opacity:0.85; }
+    81%       { stroke-dashoffset:1; opacity:0; }
+    100%      { stroke-dashoffset:1; opacity:0; }
+  }
+
+  @keyframes drawSatEdge{
+    0%,11.25% { stroke-dashoffset:1; opacity:0; }
+    17%       { stroke-dashoffset:0; opacity:0.75; }
+    64%       { stroke-dashoffset:0; opacity:0.75; }
+    69%       { stroke-dashoffset:1; opacity:0; }
+    100%      { stroke-dashoffset:1; opacity:0; }
+  }
+
+  @keyframes particleFade{
+    0%,15%    { opacity:0; }
+    20%,60%   { opacity:0.85; }
+    68%,100%  { opacity:0; }
+  }
+
+  /* ============ NODES ============ */
+
+  .node-circle{ stroke:none; }
+  .node-ring{ fill:none; stroke-width:1.4; opacity:0.9; }
+  .node-glow{ opacity:0.35; }
+
+  .core-circle{ fill: url(#gradCore); filter: drop-shadow(0 4px 22px rgba(193,96,45,0.6)); }
+  .core-ring{ stroke: var(--gold); stroke-width:2.2; }
+  .core-ring-inner{ fill:none; stroke: rgba(255,244,224,0.55); stroke-width:1; }
+  .node-anchor.core .node-glow{ fill: var(--ochre); }
+
+  .branch-l-circle{ stroke:none; fill:url(#gradBranchL); }
+  .branch-r-circle{ stroke:none; fill:url(#gradBranchR); }
+  .branch-l-ring{ stroke: var(--sage-deep); stroke-width:2.4; }
+  .branch-r-ring{ stroke: var(--terracotta-deep); stroke-width:2.4; }
+  .node-anchor.branch-l .node-glow{ fill: var(--sage-soft); }
+  .node-anchor.branch-r .node-glow{ fill: var(--terracotta-soft); }
+  .branch-circle{ filter: drop-shadow(0 5px 14px rgba(58,47,40,0.24)); }
+
+  .sat-l .node-circle{ fill:url(#gradSatL); }
+  .sat-r .node-circle{ fill:url(#gradSatR); }
+  .sat-l .node-ring{ stroke: var(--sage); stroke-width:1.8; }
+  .sat-r .node-ring{ stroke: var(--terracotta); stroke-width:1.8; }
+  .sat .node-glow{ opacity:0.25; }
+  .sat-l .node-glow{ fill: var(--sage-soft); }
+  .sat-r .node-glow{ fill: var(--terracotta-soft); }
+  .sat .node-circle{ filter: drop-shadow(0 3px 8px rgba(58,47,40,0.18)); }
+
+  .label-core{
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 27px;
+    font-weight: 700;
+    fill: var(--ink);
+    letter-spacing: 0.5px;
+  }
+  .label-branch{
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 19px;
+    font-weight: 700;
+    fill: var(--ink);
+  }
+  .label-sat{
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 19px;
+    font-weight: 700;
+    fill: var(--clay);
+    letter-spacing: 0.2px;
+  }
+
+  /* ============ DOODLE ICONS ============ */
+
+  .node-icon{
+    fill:none;
+    stroke-width:2.6;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    pointer-events:none;
+  }
+
+  .icon-sage{ color: var(--sage); stroke: var(--sage); }
+  .icon-terracotta{ color: var(--terracotta); stroke: var(--terracotta); }
+  .icon-cream{ color: #FBF3E4; stroke: #FBF3E4; stroke-width:3; }
+
+  .node-anchor.core .node-icon{ opacity:1; }
+  .node-anchor.branch .node-icon{ stroke-width:3; opacity:1; }
+  .node-anchor.sat .node-icon{ stroke-width:2.4; opacity:1; }
+
+  /* entrance / hold / exit choreography — same 16s cycle for every node,
+     timing baked into each keyframe's own percentages */
+  .node-anchor.core        { animation: coreLife 16s ease-in-out infinite; transform-origin: 600px 400px; }
+  .node-anchor.branch      { animation: branchLife 16s ease-in-out infinite; }
+  .node-anchor.branch-l    { transform-origin: 300px 400px; }
+  .node-anchor.branch-r    { transform-origin: 900px 400px; }
+  .node-anchor.sat         { animation: satLife 16s ease-in-out infinite; }
+
+  @keyframes coreLife{
+    0%    { opacity:0; transform: scale(0.4); }
+    4%    { opacity:1; transform: scale(1.12); }
+    7%    { opacity:1; transform: scale(1); }
+    88%   { opacity:1; transform: scale(1); }
+    94%   { opacity:0; transform: scale(0.5); }
+    100%  { opacity:0; transform: scale(0.4); }
+  }
+
+  @keyframes branchLife{
+    0%,5.6% { opacity:0; transform: scale(0.35); }
+    9%      { opacity:1; transform: scale(1.16); }
+    12%     { opacity:1; transform: scale(1); }
+    76%     { opacity:1; transform: scale(1); }
+    80%     { opacity:0; transform: scale(0.45); }
+    100%    { opacity:0; transform: scale(0.35); }
+  }
+
+  @keyframes satLife{
+    0%,11.25% { opacity:0; transform: scale(0.3); }
+    15%       { opacity:1; transform: scale(1.2); }
+    18%       { opacity:1; transform: scale(1); }
+    64%       { opacity:1; transform: scale(1); }
+    68%       { opacity:0; transform: scale(0.4); }
+    100%      { opacity:0; transform: scale(0.3); }
+  }
+
+  /* idle organic float — runs continuously & independently of visibility */
+  .node-float{ animation-name: floatBob; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+  .node-float.node-pulse{ animation-name: floatBob, corePulse; animation-duration: inherit, 2.6s; animation-timing-function: ease-in-out, ease-in-out; animation-iteration-count: infinite, infinite; }
+
+  @keyframes floatBob{
+    0%   { transform: translateY(0px); }
+    50%  { transform: translateY(-6px); }
+    100% { transform: translateY(0px); }
+  }
+
+  @keyframes corePulse{
+    0%,100% { filter: drop-shadow(0 0 14px rgba(193,96,45,0.45)); }
+    50%     { filter: drop-shadow(0 0 26px rgba(193,96,45,0.75)); }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; }
+  }
+
+</style>
+</head>
+<body>
+
+<div class="stage">
+  <svg class="graph" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+<radialGradient id="gradCore" cx="35%" cy="30%" r="75%">
+  <stop offset="0%" stop-color="#E8895A"/>
+  <stop offset="55%" stop-color="var(--terracotta)"/>
+  <stop offset="100%" stop-color="var(--terracotta-deep)"/>
+</radialGradient>
+<radialGradient id="gradBranchL" cx="35%" cy="30%" r="75%">
+  <stop offset="0%" stop-color="#FBF6E8"/>
+  <stop offset="60%" stop-color="#F1E7CF"/>
+  <stop offset="100%" stop-color="#E4D3AC"/>
+</radialGradient>
+<radialGradient id="gradBranchR" cx="35%" cy="30%" r="75%">
+  <stop offset="0%" stop-color="#FBF6E8"/>
+  <stop offset="60%" stop-color="#F1E7CF"/>
+  <stop offset="100%" stop-color="#E4D3AC"/>
+</radialGradient>
+<radialGradient id="gradSatL" cx="35%" cy="30%" r="75%">
+  <stop offset="0%" stop-color="#FDFAF0"/>
+  <stop offset="65%" stop-color="#F3E9D2"/>
+  <stop offset="100%" stop-color="#E7D6B3"/>
+</radialGradient>
+<radialGradient id="gradSatR" cx="35%" cy="30%" r="75%">
+  <stop offset="0%" stop-color="#FDFAF0"/>
+  <stop offset="65%" stop-color="#F3E9D2"/>
+  <stop offset="100%" stop-color="#E7D6B3"/>
+</radialGradient>
+<linearGradient id="gradEdgeL" x1="100%" y1="0%" x2="0%" y2="0%">
+  <stop offset="0%" stop-color="var(--sage-deep)"/>
+  <stop offset="100%" stop-color="var(--ochre)"/>
+</linearGradient>
+<linearGradient id="gradEdgeR" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="var(--terracotta-deep)"/>
+  <stop offset="100%" stop-color="var(--ochre)"/>
+</linearGradient>
+<symbol id="icon-network" viewBox="0 0 40 40">
+  <circle cx="20" cy="8" r="2.6"/><circle cx="8" cy="25" r="2.6"/><circle cx="32" cy="25" r="2.6"/>
+  <circle cx="20" cy="32" r="2.2"/><circle cx="20" cy="20" r="2.8" fill="currentColor"/>
+  <line x1="20" y1="20" x2="20" y2="8"/><line x1="20" y1="20" x2="8" y2="25"/>
+  <line x1="20" y1="20" x2="32" y2="25"/><line x1="20" y1="20" x2="20" y2="32"/>
+  <line x1="8" y1="25" x2="32" y2="25"/>
+</symbol>
+<symbol id="icon-mortar" viewBox="0 0 40 40">
+  <path d="M9,18 Q9,30 20,31 Q31,30 31,18" fill="none"/>
+  <line x1="7" y1="18" x2="33" y2="18"/>
+  <line x1="16" y1="5" x2="25" y2="15" stroke-linecap="round"/>
+  <ellipse cx="25.5" cy="15.5" rx="2.6" ry="2" transform="rotate(45 25.5 15.5)"/>
+</symbol>
+<symbol id="icon-flask" viewBox="0 0 40 40">
+  <path d="M16,6 L16,14 L9,29 Q9,33 13,33 L27,33 Q31,33 27,29 L24,14 L24,6" fill="none"/>
+  <line x1="14" y1="6" x2="26" y2="6" stroke-linecap="round"/>
+  <line x1="11.5" y1="25" x2="28.5" y2="25"/>
+  <circle cx="20" cy="29" r="1.4" fill="currentColor"/>
+</symbol>
+<symbol id="icon-virus" viewBox="0 0 40 40">
+  <circle cx="20" cy="20" r="8" fill="none"/>
+  <circle cx="20" cy="20" r="2.6" fill="currentColor"/>
+  <line x1="20" y1="9" x2="20" y2="5"/><line x1="20" y1="31" x2="20" y2="35"/>
+  <line x1="9" y1="20" x2="5" y2="20"/><line x1="31" y1="20" x2="35" y2="20"/>
+  <line x1="12.7" y1="12.7" x2="9.8" y2="9.8"/><line x1="27.3" y1="27.3" x2="30.2" y2="30.2"/>
+  <line x1="27.3" y1="12.7" x2="30.2" y2="9.8"/><line x1="12.7" y1="27.3" x2="9.8" y2="30.2"/>
+</symbol>
+<symbol id="icon-scale" viewBox="0 0 40 40">
+  <line x1="20" y1="6" x2="20" y2="30"/>
+  <line x1="8" y1="12" x2="32" y2="12"/>
+  <path d="M8,12 Q5,20 12,20 Q19,20 16,12" fill="none"/>
+  <path d="M24,12 Q21,20 28,20 Q35,20 32,12" fill="none"/>
+  <line x1="14" y1="32" x2="26" y2="32"/>
+</symbol>
+<symbol id="icon-person" viewBox="0 0 40 40">
+  <circle cx="20" cy="12" r="5.2" fill="none"/>
+  <path d="M9,33 Q9,20 20,20 Q31,20 31,33" fill="none"/>
+</symbol>
+<symbol id="icon-leaf" viewBox="0 0 40 40">
+  <path d="M20,6 Q34,14 20,34 Q6,14 20,6 Z" fill="none"/>
+  <line x1="20" y1="9" x2="20" y2="31"/>
+  <line x1="20" y1="16" x2="26" y2="12"/><line x1="20" y1="23" x2="14" y2="19"/>
+</symbol>
+<symbol id="icon-vial" viewBox="0 0 40 40">
+  <rect x="15" y="5" width="10" height="6" rx="1.5" fill="none"/>
+  <path d="M14,11 L14,30 Q14,34 18,34 L22,34 Q26,34 26,30 L26,11" fill="none"/>
+  <line x1="14.5" y1="23" x2="25.5" y2="23"/>
+</symbol>
+<symbol id="icon-clipboard" viewBox="0 0 40 40">
+  <rect x="9" y="8" width="22" height="26" rx="2.5" fill="none"/>
+  <rect x="15" y="5" width="10" height="5" rx="1.6" fill="none"/>
+  <path d="M13,18 L17,22 L24,14" fill="none"/>
+  <line x1="13" y1="28" x2="27" y2="28"/>
+</symbol>
+<symbol id="icon-molecule" viewBox="0 0 40 40">
+  <circle cx="12" cy="28" r="4" fill="none"/><circle cx="28" cy="28" r="4" fill="none"/><circle cx="20" cy="10" r="4" fill="none"/>
+  <line x1="15" y1="26" x2="17" y2="13"/><line x1="25" y1="26" x2="23" y2="13"/><line x1="16" y1="28" x2="24" y2="28"/>
+</symbol>
+<symbol id="icon-warning" viewBox="0 0 40 40">
+  <path d="M20,6 L35,32 L5,32 Z" fill="none" stroke-linejoin="round"/>
+  <line x1="20" y1="16" x2="20" y2="24" stroke-linecap="round"/>
+  <circle cx="20" cy="28.5" r="1.5" fill="currentColor"/>
+</symbol>
+<symbol id="icon-flame" viewBox="0 0 40 40">
+  <path d="M20,5 Q28,16 24,22 Q27,20 27,25 Q27,34 20,34 Q13,34 13,25 Q13,20 16,22 Q14,10 20,5 Z" fill="none"/>
+</symbol>
+<symbol id="icon-droplet" viewBox="0 0 40 40">
+  <path d="M20,5 Q31,20 31,26 Q31,35 20,35 Q9,35 9,26 Q9,20 20,5 Z" fill="none"/>
+  <path d="M15,26 Q15,30 19,30" fill="none" opacity="0.6"/>
+</symbol>
+<symbol id="icon-crystal" viewBox="0 0 40 40">
+  <path d="M20,4 L31,14 L26,34 L14,34 L9,14 Z" fill="none" stroke-linejoin="round"/>
+  <line x1="9" y1="14" x2="31" y2="14"/><line x1="20" y1="4" x2="20" y2="34"/>
+  <line x1="14" y1="34" x2="20" y2="14"/><line x1="26" y1="34" x2="20" y2="14"/>
+</symbol>
+<symbol id="icon-checkdoc" viewBox="0 0 40 40">
+  <path d="M11,5 L23,5 L29,11 L29,35 L11,35 Z" fill="none" stroke-linejoin="round"/>
+  <path d="M23,5 L23,11 L29,11" fill="none"/>
+  <path d="M14,21 L18,25 L26,15" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+    </defs>
+    <g transform="translate(-72, -48) scale(1.12)">
+      <g class="yantra-layer">
+        <circle class="yantra-dot" cx="600" cy="400" r="4"/>
+
+        <g class="yantra-ring1-wrap">
+          <g class="yantra-ring1-reveal">
+            <circle class="yantra yantra-circ-tight" cx="600" cy="400" r="150"/>
+            <circle class="yantra yantra-circ-dash" cx="600" cy="400" r="196"/>
+            <circle class="yantra yantra-circ-dot" cx="600" cy="400" r="248"/>
+          </g>
+        </g>
+
+        <g transform="translate(600,400)">
+          <g class="yantra-lotus-outer" fill="none" stroke="var(--terracotta-deep)" stroke-width="1.3">
+            <path transform="rotate(0)" d="M 0,-46 C 24,-103 24,-161 0,-160 C -24,-161 -24,-103 0,-46 Z"/>
+            <path transform="rotate(45)" d="M 0,-46 C 24,-103 24,-161 0,-160 C -24,-161 -24,-103 0,-46 Z"/>
+            <path transform="rotate(90)" d="M 0,-46 C 24,-103 24,-161 0,-160 C -24,-161 -24,-103 0,-46 Z"/>
+            <path transform="rotate(135)" d="M 0,-46 C 24,-103 24,-161 0,-160 C -24,-161 -24,-103 0,-46 Z"/>
+            <path transform="rotate(180)" d="M 0,-46 C 24,-103 24,-161 0,-160 C -24,-161 -24,-103 0,-46 Z"/>
+            <path transform="rotate(225)" d="M 0,-46 C 24,-103 24,-161 0,-160 C -24,-161 -24,-103 0,-46 Z"/>
+            <path transform="rotate(270)" d="M 0,-46 C 24,-103 24,-161 0,-160 C -24,-161 -24,-103 0,-46 Z"/>
+            <path transform="rotate(315)" d="M 0,-46 C 24,-103 24,-161 0,-160 C -24,-161 -24,-103 0,-46 Z"/>
+          </g>
+          <g class="yantra-lotus-middle" fill="none" stroke="var(--terracotta-soft)" stroke-width="1.2">
+            <path transform="rotate(22.5)" d="M 0,-42 C 17,-83 17,-129 0,-124 C -17,-129 -17,-83 0,-42 Z"/>
+            <path transform="rotate(67.5)" d="M 0,-42 C 17,-83 17,-129 0,-124 C -17,-129 -17,-83 0,-42 Z"/>
+            <path transform="rotate(112.5)" d="M 0,-42 C 17,-83 17,-129 0,-124 C -17,-129 -17,-83 0,-42 Z"/>
+            <path transform="rotate(157.5)" d="M 0,-42 C 17,-83 17,-129 0,-124 C -17,-129 -17,-83 0,-42 Z"/>
+            <path transform="rotate(202.5)" d="M 0,-42 C 17,-83 17,-129 0,-124 C -17,-129 -17,-83 0,-42 Z"/>
+            <path transform="rotate(247.5)" d="M 0,-42 C 17,-83 17,-129 0,-124 C -17,-129 -17,-83 0,-42 Z"/>
+            <path transform="rotate(292.5)" d="M 0,-42 C 17,-83 17,-129 0,-124 C -17,-129 -17,-83 0,-42 Z"/>
+            <path transform="rotate(337.5)" d="M 0,-42 C 17,-83 17,-129 0,-124 C -17,-129 -17,-83 0,-42 Z"/>
+          </g>
+          <g class="yantra-lotus-inner" fill="none" stroke="var(--ochre)" stroke-width="1.1">
+            <path transform="rotate(0)" d="M 0,-38 C 11,-63 11,-98 0,-88 C -11,-98 -11,-63 0,-38 Z"/>
+            <path transform="rotate(45)" d="M 0,-38 C 11,-63 11,-98 0,-88 C -11,-98 -11,-63 0,-38 Z"/>
+            <path transform="rotate(90)" d="M 0,-38 C 11,-63 11,-98 0,-88 C -11,-98 -11,-63 0,-38 Z"/>
+            <path transform="rotate(135)" d="M 0,-38 C 11,-63 11,-98 0,-88 C -11,-98 -11,-63 0,-38 Z"/>
+            <path transform="rotate(180)" d="M 0,-38 C 11,-63 11,-98 0,-88 C -11,-98 -11,-63 0,-38 Z"/>
+            <path transform="rotate(225)" d="M 0,-38 C 11,-63 11,-98 0,-88 C -11,-98 -11,-63 0,-38 Z"/>
+            <path transform="rotate(270)" d="M 0,-38 C 11,-63 11,-98 0,-88 C -11,-98 -11,-63 0,-38 Z"/>
+            <path transform="rotate(315)" d="M 0,-38 C 11,-63 11,-98 0,-88 C -11,-98 -11,-63 0,-38 Z"/>
+          </g>
+        </g>
+
+        <g class="yantra-outer-wrap">
+          <g class="yantra-outer-reveal">
+            <g class="yantra-hex" fill="none" stroke="var(--clay)" stroke-width="1.1" opacity="0.34">
+              <path d="M 600.0,120.0 L 842.5,540.0 L 357.5,540.0 Z"/>
+              <path d="M 600.0,680.0 L 357.5,260.0 L 842.5,260.0 Z"/>
+            </g>
+            <g class="yantra-star" fill="var(--terracotta-deep)" opacity="0.4">
+          <path d="M 600.0,103.0 L 603.2,111.6 L 612.4,112.0 L 605.2,117.7 L 607.6,126.5 L 600.0,121.5 L 592.4,126.5 L 594.8,117.7 L 587.6,112.0 L 596.8,111.6 Z"/>
+          <path d="M 846.0,245.0 L 849.2,253.6 L 858.3,254.0 L 851.2,259.7 L 853.6,268.5 L 846.0,263.5 L 838.3,268.5 L 840.7,259.7 L 833.6,254.0 L 842.7,253.6 Z"/>
+          <path d="M 846.0,529.0 L 849.2,537.6 L 858.3,538.0 L 851.2,543.7 L 853.6,552.5 L 846.0,547.5 L 838.3,552.5 L 840.7,543.7 L 833.6,538.0 L 842.7,537.6 Z"/>
+          <path d="M 600.0,671.0 L 603.2,679.6 L 612.4,680.0 L 605.2,685.7 L 607.6,694.5 L 600.0,689.5 L 592.4,694.5 L 594.8,685.7 L 587.6,680.0 L 596.8,679.6 Z"/>
+          <path d="M 354.0,529.0 L 357.3,537.6 L 366.4,538.0 L 359.3,543.7 L 361.7,552.5 L 354.0,547.5 L 346.4,552.5 L 348.8,543.7 L 341.7,538.0 L 350.8,537.6 Z"/>
+          <path d="M 354.0,245.0 L 357.3,253.6 L 366.4,254.0 L 359.3,259.7 L 361.7,268.5 L 354.0,263.5 L 346.4,268.5 L 348.8,259.7 L 341.7,254.0 L 350.8,253.6 Z"/>
+            </g>
+            <g class="yantra-star yantra-star-sm" fill="var(--ochre)" opacity="0.4">
+          <path d="M 675.0,261.1 L 677.2,267.0 L 683.6,267.3 L 678.6,271.3 L 680.3,277.4 L 675.0,273.9 L 669.7,277.4 L 671.4,271.3 L 666.4,267.3 L 672.8,267.0 Z"/>
+          <path d="M 750.0,391.0 L 752.2,396.9 L 758.6,397.2 L 753.6,401.2 L 755.3,407.3 L 750.0,403.8 L 744.7,407.3 L 746.4,401.2 L 741.4,397.2 L 747.8,396.9 Z"/>
+          <path d="M 675.0,520.9 L 677.2,526.8 L 683.6,527.1 L 678.6,531.1 L 680.3,537.2 L 675.0,533.7 L 669.7,537.2 L 671.4,531.1 L 666.4,527.1 L 672.8,526.8 Z"/>
+          <path d="M 525.0,520.9 L 527.2,526.8 L 533.6,527.1 L 528.6,531.1 L 530.3,537.2 L 525.0,533.7 L 519.7,537.2 L 521.4,531.1 L 516.4,527.1 L 522.8,526.8 Z"/>
+          <path d="M 450.0,391.0 L 452.2,396.9 L 458.6,397.2 L 453.6,401.2 L 455.3,407.3 L 450.0,403.8 L 444.7,407.3 L 446.4,401.2 L 441.4,397.2 L 447.8,396.9 Z"/>
+          <path d="M 525.0,261.1 L 527.2,267.0 L 533.6,267.3 L 528.6,271.3 L 530.3,277.4 L 525.0,273.9 L 519.7,277.4 L 521.4,271.3 L 516.4,267.3 L 522.8,267.0 Z"/>
+            </g>
+            <g class="yantra-accent" fill="var(--clay)" opacity="0.4">
+          <path d="M 607.0,106.0 L 600.0,90.0 L 593.0,106.0 Z"/>
+          <path d="M 858.1,259.1 L 868.5,245.0 L 851.1,246.9 Z"/>
+          <path d="M 851.1,553.1 L 868.5,555.0 L 858.1,540.9 Z"/>
+          <path d="M 593.0,694.0 L 600.0,710.0 L 607.0,694.0 Z"/>
+          <path d="M 341.9,540.9 L 331.5,555.0 L 348.9,553.1 Z"/>
+          <path d="M 348.9,246.9 L 331.5,245.0 L 341.9,259.1 Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g class="edges-layer">
+
+    <g class="edge-anchor edge-branch" style="animation-delay:0.9s;">
+      <path id="pathCL" class="edge-path edge-left" d="M 600,400 Q 450.0,374.0 300,400" pathLength="1"/>
+      <circle class="edge-particle" r="4.2"><animateMotion dur="3.1s" repeatCount="indefinite" rotate="auto"><mpath href="#pathCL"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-branch" style="animation-delay:0.9s;">
+      <path id="pathCR" class="edge-path edge-right" d="M 600,400 Q 750.0,374.0 900,400" pathLength="1"/>
+      <circle class="edge-particle" r="4.2"><animateMotion dur="3.4s" repeatCount="indefinite" rotate="auto"><mpath href="#pathCR"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:1.8s;">
+      <path id="pathL0" class="edge-path edge-path-sat edge-left" d="M 300,400 Q 352.1,315.2 366.7,216.8" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.2s" repeatCount="indefinite" rotate="auto"><mpath href="#pathL0"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:1.95s;">
+      <path id="pathL1" class="edge-path edge-path-sat edge-left" d="M 300,400 Q 242.1,319.1 220.7,221.9" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.35s" repeatCount="indefinite" rotate="auto"><mpath href="#pathL1"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:2.1s;">
+      <path id="pathL2" class="edge-path edge-path-sat edge-left" d="M 300,400 Q 217.1,345.0 119.2,327.0" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.5s" repeatCount="indefinite" rotate="auto"><mpath href="#pathL2"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:2.25s;">
+      <path id="pathL3" class="edge-path edge-path-sat edge-left" d="M 300,400 Q 217.1,455.0 119.2,473.0" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.6500000000000004s" repeatCount="indefinite" rotate="auto"><mpath href="#pathL3"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:2.4s;">
+      <path id="pathL4" class="edge-path edge-path-sat edge-left" d="M 300,400 Q 242.1,480.9 220.7,578.1" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.8000000000000003s" repeatCount="indefinite" rotate="auto"><mpath href="#pathL4"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:2.55s;">
+      <path id="pathL5" class="edge-path edge-path-sat edge-left" d="M 300,400 Q 352.1,484.8 366.7,583.2" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.95s" repeatCount="indefinite" rotate="auto"><mpath href="#pathL5"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:1.8s;">
+      <path id="pathR0" class="edge-path edge-path-sat edge-right" d="M 900,400 Q 847.9,315.2 833.3,216.8" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.2s" repeatCount="indefinite" rotate="auto"><mpath href="#pathR0"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:1.95s;">
+      <path id="pathR1" class="edge-path edge-path-sat edge-right" d="M 900,400 Q 957.9,319.1 979.3,221.9" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.35s" repeatCount="indefinite" rotate="auto"><mpath href="#pathR1"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:2.1s;">
+      <path id="pathR2" class="edge-path edge-path-sat edge-right" d="M 900,400 Q 982.9,345.0 1080.8,327.0" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.5s" repeatCount="indefinite" rotate="auto"><mpath href="#pathR2"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:2.25s;">
+      <path id="pathR3" class="edge-path edge-path-sat edge-right" d="M 900,400 Q 982.9,455.0 1080.8,473.0" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.6500000000000004s" repeatCount="indefinite" rotate="auto"><mpath href="#pathR3"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:2.4s;">
+      <path id="pathR4" class="edge-path edge-path-sat edge-right" d="M 900,400 Q 957.9,480.9 979.3,578.1" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.8000000000000003s" repeatCount="indefinite" rotate="auto"><mpath href="#pathR4"/></animateMotion></circle>
+    </g>
+
+    <g class="edge-anchor edge-sat" style="animation-delay:2.55s;">
+      <path id="pathR5" class="edge-path edge-path-sat edge-right" d="M 900,400 Q 847.9,484.8 833.3,583.2" pathLength="1"/>
+      <circle class="edge-particle edge-particle-sat" r="3.2"><animateMotion dur="2.95s" repeatCount="indefinite" rotate="auto"><mpath href="#pathR5"/></animateMotion></circle>
+    </g>
+      </g>
+      <g class="nodes-layer">
+
+    <g class="node-anchor core" style="animation-delay:0s;">
+      <g class="node-float node-pulse" style="animation-delay:0s; animation-duration:3.2s;">
+        <circle class="node-glow" cx="600" cy="400" r="81.0"/>
+        <circle class="node-circle core-circle" cx="600" cy="400" r="64.0"/>
+        <circle class="node-ring core-ring" cx="600" cy="400" r="64.0"/>
+        <circle class="core-ring-inner" cx="600" cy="400" r="57.0"/>
+        <use href="#icon-network" class="node-icon icon-cream" x="570.0" y="370.0" width="60" height="60"/>
+        <text class="label-core" x="600" y="486" text-anchor="middle"><tspan x="600" dy="0">ShodhanaKG</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor branch branch-l" style="animation-delay:0.9s;">
+      <g class="node-float" style="animation-delay:0.9s; animation-duration:4.6s;">
+        <circle class="node-glow" cx="300" cy="400" r="71.0"/>
+        <circle class="node-circle branch branch-l-circle" cx="300" cy="400" r="54.0"/>
+        <circle class="node-ring branch branch-l-ring" cx="300" cy="400" r="53.0"/>
+        <use href="#icon-mortar" class="node-icon icon-sage" x="277.0" y="377.0" width="46" height="46"/>
+        <text class="label-branch" x="300" y="476" text-anchor="middle"><tspan x="300" dy="0">Disease</tspan><tspan x="300" dy="20">Shodhana</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor branch branch-r" style="animation-delay:0.9s;">
+      <g class="node-float" style="animation-delay:0.9s; animation-duration:5.0s;">
+        <circle class="node-glow" cx="900" cy="400" r="71.0"/>
+        <circle class="node-circle branch branch-r-circle" cx="900" cy="400" r="54.0"/>
+        <circle class="node-ring branch branch-r-ring" cx="900" cy="400" r="53.0"/>
+        <use href="#icon-flask" class="node-icon icon-terracotta" x="877.0" y="377.0" width="46" height="46"/>
+        <text class="label-branch" x="900" y="476" text-anchor="middle"><tspan x="900" dy="0">Compound</tspan><tspan x="900" dy="20">Shodhana</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-l" style="animation-delay:1.8s;">
+      <g class="node-float" style="animation-delay:1.8s; animation-duration:4.2s;">
+        <circle class="node-glow" cx="366.7" cy="216.8" r="55.0"/>
+        <circle class="node-circle sat sat-l-circle" cx="366.7" cy="216.8" r="37.0"/>
+        <circle class="node-ring sat sat-l-ring" cx="366.7" cy="216.8" r="36.0"/>
+        <use href="#icon-virus" class="node-icon icon-sage" x="349.7" y="199.8" width="34" height="34"/>
+        <text class="label-sat" x="366.7" y="160.8" text-anchor="middle"><tspan x="366.7" dy="0">Disease</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-l" style="animation-delay:1.95s;">
+      <g class="node-float" style="animation-delay:1.95s; animation-duration:4.6000000000000005s;">
+        <circle class="node-glow" cx="220.7" cy="221.9" r="55.0"/>
+        <circle class="node-circle sat sat-l-circle" cx="220.7" cy="221.9" r="37.0"/>
+        <circle class="node-ring sat sat-l-ring" cx="220.7" cy="221.9" r="36.0"/>
+        <use href="#icon-scale" class="node-icon icon-sage" x="203.7" y="204.9" width="34" height="34"/>
+        <text class="label-sat" x="220.7" y="165.9" text-anchor="middle"><tspan x="220.7" dy="0">Dosha</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-l" style="animation-delay:2.1s;">
+      <g class="node-float" style="animation-delay:2.1s; animation-duration:5.0s;">
+        <circle class="node-glow" cx="119.2" cy="327.0" r="55.0"/>
+        <circle class="node-circle sat sat-l-circle" cx="119.2" cy="327.0" r="37.0"/>
+        <circle class="node-ring sat sat-l-ring" cx="119.2" cy="327.0" r="36.0"/>
+        <use href="#icon-person" class="node-icon icon-sage" x="102.2" y="310.0" width="34" height="34"/>
+        <text class="label-sat" x="119.2" y="271.0" text-anchor="middle"><tspan x="119.2" dy="0">Symptom</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-l" style="animation-delay:2.25s;">
+      <g class="node-float" style="animation-delay:2.25s; animation-duration:4.2s;">
+        <circle class="node-glow" cx="119.2" cy="473.0" r="55.0"/>
+        <circle class="node-circle sat sat-l-circle" cx="119.2" cy="473.0" r="37.0"/>
+        <circle class="node-ring sat sat-l-ring" cx="119.2" cy="473.0" r="36.0"/>
+        <use href="#icon-leaf" class="node-icon icon-sage" x="102.2" y="456.0" width="34" height="34"/>
+        <text class="label-sat" x="119.2" y="535.0" text-anchor="middle"><tspan x="119.2" dy="0">Therapy</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-l" style="animation-delay:2.4s;">
+      <g class="node-float" style="animation-delay:2.4s; animation-duration:4.6000000000000005s;">
+        <circle class="node-glow" cx="220.7" cy="578.1" r="55.0"/>
+        <circle class="node-circle sat sat-l-circle" cx="220.7" cy="578.1" r="37.0"/>
+        <circle class="node-ring sat sat-l-ring" cx="220.7" cy="578.1" r="36.0"/>
+        <use href="#icon-vial" class="node-icon icon-sage" x="203.7" y="561.1" width="34" height="34"/>
+        <text class="label-sat" x="220.7" y="640.1" text-anchor="middle"><tspan x="220.7" dy="0">Formulation</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-l" style="animation-delay:2.55s;">
+      <g class="node-float" style="animation-delay:2.55s; animation-duration:5.0s;">
+        <circle class="node-glow" cx="366.7" cy="583.2" r="55.0"/>
+        <circle class="node-circle sat sat-l-circle" cx="366.7" cy="583.2" r="37.0"/>
+        <circle class="node-ring sat sat-l-ring" cx="366.7" cy="583.2" r="36.0"/>
+        <use href="#icon-clipboard" class="node-icon icon-sage" x="349.7" y="566.2" width="34" height="34"/>
+        <text class="label-sat" x="366.7" y="645.2" text-anchor="middle"><tspan x="366.7" dy="0">Assessment</tspan><tspan x="366.7" dy="23">Parameter</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-r" style="animation-delay:1.8s;">
+      <g class="node-float" style="animation-delay:1.8s; animation-duration:4.2s;">
+        <circle class="node-glow" cx="833.3" cy="216.8" r="55.0"/>
+        <circle class="node-circle sat sat-r-circle" cx="833.3" cy="216.8" r="37.0"/>
+        <circle class="node-ring sat sat-r-ring" cx="833.3" cy="216.8" r="36.0"/>
+        <use href="#icon-molecule" class="node-icon icon-terracotta" x="816.3" y="199.8" width="34" height="34"/>
+        <text class="label-sat" x="833.3" y="160.8" text-anchor="middle"><tspan x="833.3" dy="0">Compound</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-r" style="animation-delay:1.95s;">
+      <g class="node-float" style="animation-delay:1.95s; animation-duration:4.6000000000000005s;">
+        <circle class="node-glow" cx="979.3" cy="221.9" r="55.0"/>
+        <circle class="node-circle sat sat-r-circle" cx="979.3" cy="221.9" r="37.0"/>
+        <circle class="node-ring sat sat-r-ring" cx="979.3" cy="221.9" r="36.0"/>
+        <use href="#icon-warning" class="node-icon icon-terracotta" x="962.3" y="204.9" width="34" height="34"/>
+        <text class="label-sat" x="979.3" y="165.9" text-anchor="middle"><tspan x="979.3" dy="0">Toxic</tspan><tspan x="979.3" dy="23">Substance</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-r" style="animation-delay:2.1s;">
+      <g class="node-float" style="animation-delay:2.1s; animation-duration:5.0s;">
+        <circle class="node-glow" cx="1080.8" cy="327.0" r="55.0"/>
+        <circle class="node-circle sat sat-r-circle" cx="1080.8" cy="327.0" r="37.0"/>
+        <circle class="node-ring sat sat-r-ring" cx="1080.8" cy="327.0" r="36.0"/>
+        <use href="#icon-flame" class="node-icon icon-terracotta" x="1063.8" y="310.0" width="34" height="34"/>
+        <text class="label-sat" x="1080.8" y="271.0" text-anchor="middle"><tspan x="1080.8" dy="0">Shodhana</tspan><tspan x="1080.8" dy="23">Method</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-r" style="animation-delay:2.25s;">
+      <g class="node-float" style="animation-delay:2.25s; animation-duration:4.2s;">
+        <circle class="node-glow" cx="1080.8" cy="473.0" r="55.0"/>
+        <circle class="node-circle sat sat-r-circle" cx="1080.8" cy="473.0" r="37.0"/>
+        <circle class="node-ring sat sat-r-ring" cx="1080.8" cy="473.0" r="36.0"/>
+        <use href="#icon-droplet" class="node-icon icon-terracotta" x="1063.8" y="456.0" width="34" height="34"/>
+        <text class="label-sat" x="1080.8" y="535.0" text-anchor="middle"><tspan x="1080.8" dy="0">Media</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-r" style="animation-delay:2.4s;">
+      <g class="node-float" style="animation-delay:2.4s; animation-duration:4.6000000000000005s;">
+        <circle class="node-glow" cx="979.3" cy="578.1" r="55.0"/>
+        <circle class="node-circle sat sat-r-circle" cx="979.3" cy="578.1" r="37.0"/>
+        <circle class="node-ring sat sat-r-ring" cx="979.3" cy="578.1" r="36.0"/>
+        <use href="#icon-crystal" class="node-icon icon-terracotta" x="962.3" y="561.1" width="34" height="34"/>
+        <text class="label-sat" x="979.3" y="640.1" text-anchor="middle"><tspan x="979.3" dy="0">Purified</tspan><tspan x="979.3" dy="23">Compound</tspan></text>
+      </g>
+    </g>
+
+    <g class="node-anchor sat sat-r" style="animation-delay:2.55s;">
+      <g class="node-float" style="animation-delay:2.55s; animation-duration:5.0s;">
+        <circle class="node-glow" cx="833.3" cy="583.2" r="55.0"/>
+        <circle class="node-circle sat sat-r-circle" cx="833.3" cy="583.2" r="37.0"/>
+        <circle class="node-ring sat sat-r-ring" cx="833.3" cy="583.2" r="36.0"/>
+        <use href="#icon-checkdoc" class="node-icon icon-terracotta" x="816.3" y="566.2" width="34" height="34"/>
+        <text class="label-sat" x="833.3" y="645.2" text-anchor="middle"><tspan x="833.3" dy="0">Confirmation</tspan><tspan x="833.3" dy="23">Study</tspan></text>
+      </g>
+    </g>
+    </g>
+    </g>
+  </svg>
+</div>
+
+</body>
+</html>

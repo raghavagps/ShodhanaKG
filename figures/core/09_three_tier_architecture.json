@@ -1,0 +1,8 @@
+{
+  "caption": "Conceptual production architecture. Apache serves the Vite static build and PHP API. JSON/SSE application exchange and ArcadeDB REST/SQL retrieval are distinct from static asset delivery. Ollama is optional; it does not enumerate factual results. Domain boxes summarize the schema connection, not a complete instance graph. Numbered tiers match Figure 10. No benchmark or clinical-validity claim.",
+  "editable_text_elements": 54,
+  "embedded_images": 0,
+  "external_assets": 0,
+  "svg_xml_valid": true,
+  "pdf_vector_check": true
+}

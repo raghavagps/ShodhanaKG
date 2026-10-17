@@ -1,0 +1,250 @@
+{
+  "by_type": [
+    {
+      "type": "Therapy",
+      "total_nodes": 139,
+      "mapped_nodes": 0,
+      "ncit_nodes": 0,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Media",
+      "total_nodes": 91,
+      "mapped_nodes": 48,
+      "ncit_nodes": 6,
+      "kg_name_nodes": 47,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Shodhana_Method",
+      "total_nodes": 12,
+      "mapped_nodes": 0,
+      "ncit_nodes": 0,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Process",
+      "total_nodes": 10,
+      "mapped_nodes": 0,
+      "ncit_nodes": 0,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Purified_Compound",
+      "total_nodes": 71,
+      "mapped_nodes": 0,
+      "ncit_nodes": 0,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Toxic_Substance",
+      "total_nodes": 57,
+      "mapped_nodes": 11,
+      "ncit_nodes": 11,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Compound",
+      "total_nodes": 52,
+      "mapped_nodes": 51,
+      "ncit_nodes": 5,
+      "kg_name_nodes": 51,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Disease",
+      "total_nodes": 134,
+      "mapped_nodes": 57,
+      "ncit_nodes": 57,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Formulation",
+      "total_nodes": 777,
+      "mapped_nodes": 0,
+      "ncit_nodes": 0,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Symptom",
+      "total_nodes": 393,
+      "mapped_nodes": 86,
+      "ncit_nodes": 86,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Dosha",
+      "total_nodes": 3,
+      "mapped_nodes": 0,
+      "ncit_nodes": 0,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Ayurvedic_Diagnosis",
+      "total_nodes": 107,
+      "mapped_nodes": 0,
+      "ncit_nodes": 0,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Assessment_Parameter",
+      "total_nodes": 279,
+      "mapped_nodes": 23,
+      "ncit_nodes": 11,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 12
+    },
+    {
+      "type": "Confirmation_Study",
+      "total_nodes": 163,
+      "mapped_nodes": 29,
+      "ncit_nodes": 5,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 24
+    },
+    {
+      "type": "Indication",
+      "total_nodes": 188,
+      "mapped_nodes": 111,
+      "ncit_nodes": 57,
+      "kg_name_nodes": 83,
+      "abbreviation_nodes": 1
+    },
+    {
+      "type": "Ayurvedic_Formulation",
+      "total_nodes": 56,
+      "mapped_nodes": 0,
+      "ncit_nodes": 0,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    },
+    {
+      "type": "Shodhana_Type",
+      "total_nodes": 2,
+      "mapped_nodes": 0,
+      "ncit_nodes": 0,
+      "kg_name_nodes": 0,
+      "abbreviation_nodes": 0
+    }
+  ],
+  "sample_before_after": [
+    {
+      "term": "Lou Gehrig Disease",
+      "before": "unmatched",
+      "after": "resolved",
+      "before_candidates": 0,
+      "after_candidates": 1
+    },
+    {
+      "term": "Chronic Renal Insufficiency",
+      "before": "unmatched",
+      "after": "resolved",
+      "before_candidates": 0,
+      "after_candidates": 1
+    },
+    {
+      "term": "irritable colon",
+      "before": "unmatched",
+      "after": "resolved",
+      "before_candidates": 0,
+      "after_candidates": 1
+    },
+    {
+      "term": "Eczematous Dermatitis",
+      "before": "unmatched",
+      "after": "resolved",
+      "before_candidates": 0,
+      "after_candidates": 1
+    },
+    {
+      "term": "Tamra",
+      "before": "resolved",
+      "after": "ambiguous",
+      "before_candidates": 1,
+      "after_candidates": 1
+    },
+    {
+      "term": "Gomutra",
+      "before": "resolved",
+      "after": "ambiguous",
+      "before_candidates": 1,
+      "after_candidates": 1
+    },
+    {
+      "term": "Vatsanabha",
+      "before": "ambiguous",
+      "after": "ambiguous",
+      "before_candidates": 2,
+      "after_candidates": 2
+    },
+    {
+      "term": "Abhraka",
+      "before": "ambiguous",
+      "after": "ambiguous",
+      "before_candidates": 2,
+      "after_candidates": 2
+    },
+    {
+      "term": "Ardraka Swarasa",
+      "before": "unmatched",
+      "after": "ambiguous",
+      "before_candidates": 0,
+      "after_candidates": 2
+    },
+    {
+      "term": "Cardiovascular Disorder",
+      "before": "unmatched",
+      "after": "broader",
+      "before_candidates": 0,
+      "after_candidates": 3
+    },
+    {
+      "term": "Autoimmune Disorder",
+      "before": "unmatched",
+      "after": "broader",
+      "before_candidates": 0,
+      "after_candidates": 4
+    },
+    {
+      "term": "Skin Disorder",
+      "before": "unmatched",
+      "after": "broader",
+      "before_candidates": 0,
+      "after_candidates": 10
+    },
+    {
+      "term": "ESCC",
+      "before": "resolved",
+      "after": "resolved",
+      "before_candidates": 1,
+      "after_candidates": 1
+    },
+    {
+      "term": "Copper",
+      "before": "resolved",
+      "after": "resolved",
+      "before_candidates": 1,
+      "after_candidates": 1
+    },
+    {
+      "term": "zzzzunknown",
+      "before": "unmatched",
+      "after": "unmatched",
+      "before_candidates": 0,
+      "after_candidates": 0
+    }
+  ],
+  "catalog_sha256": "0a9b0252b71fa12da15e9dbdae772d57d242cd868e3a2a88e07abf3c0894b18f",
+  "distinct_alias_terms": 948,
+  "distinct_broader_terms": 818
+}

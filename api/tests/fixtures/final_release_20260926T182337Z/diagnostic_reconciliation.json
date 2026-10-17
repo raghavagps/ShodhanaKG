@@ -1,0 +1,3306 @@
+{
+  "disease_formulation_old_test": {
+    "expected_unique_tuples": 36,
+    "actual_unique_tuples": 36,
+    "expected_only": [
+      [
+        "Bashpa Swedana",
+        "Dashamoola Kwatha",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Basti",
+        "Brimhana Basti",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Deepana Pachana",
+        "Chitrakadi Vati",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Mukha Abhyanga",
+        "Asana Vilwadi Taila",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Mukha Swedana",
+        "Saindhav Yukta Jala",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Nasya",
+        "Anu Taila",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Sarvanga Abhyanga",
+        "Nalpamaradi Keram",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Shamana",
+        "Aragvadha Kashaya",
+        "PRE_TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Shamana",
+        "Bhringaraja Asava",
+        "PRE_TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Shamana",
+        "Kaishora Guggulu",
+        "PRE_TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Shamana",
+        "Patolakaturohinyadi Kashaya",
+        "PRE_TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Shamana",
+        "Saraswatarishta",
+        "PRE_TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Snehapana",
+        "Triphaladi Ghrita",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Vamana",
+        "Madhu",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Vamana",
+        "Mandanaphala Kalka",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Vamana",
+        "Saindhava Lavana",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Vamana",
+        "Vacha Churna",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Virechana",
+        "Triphala Kashaya",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ],
+      [
+        "Virechana",
+        "Trivrit Avaleha",
+        "TREATED_BY",
+        "238408",
+        "",
+        ""
+      ]
+    ],
+    "actual_only": [
+      [
+        "Bashpa Swedana",
+        "Dashamoola Kwatha",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Basti",
+        "Brimhana Basti",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Deepana Pachana",
+        "Chitrakadi Vati",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Mukha Abhyanga",
+        "Asana Vilwadi Taila",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Mukha Swedana",
+        "Saindhav Yukta Jala",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Nasya",
+        "Anu Taila",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Sarvanga Abhyanga",
+        "Nalpamaradi Keram",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Shamana",
+        "Aragvadha Kashaya",
+        "PRE_TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Shamana",
+        "Bhringaraja Asava",
+        "PRE_TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Shamana",
+        "Kaishora Guggulu",
+        "PRE_TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Shamana",
+        "Patolakaturohinyadi Kashaya",
+        "PRE_TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Shamana",
+        "Saraswatarishta",
+        "PRE_TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Snehapana",
+        "Triphaladi Ghrita",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Vamana",
+        "Madhu",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Vamana",
+        "Mandanaphala Kalka",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Vamana",
+        "Saindhava Lavana",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Vamana",
+        "Vacha Churna",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Virechana",
+        "Triphala Kashaya",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ],
+      [
+        "Virechana",
+        "Trivrit Avaleha",
+        "TREATED_BY",
+        "",
+        "",
+        "238408"
+      ]
+    ]
+  },
+  "therapeutic_use_method_collisions": [
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:0"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Skin Diseases",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:0"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Skin Diseases",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:0"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Skin Diseases",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:0"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Skin Diseases",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:0"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Skin Diseases",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:0"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Skin Diseases",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:0"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Skin Diseases",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:0"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Skin Diseases",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:1"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:1"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:1"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:1"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:1"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:1"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:1"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:1"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:2"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:2"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:2"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:2"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:2"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:2"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:2"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:2"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dyspepsia",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:3"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:3"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:3"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:3"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:3"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:3"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:3"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:3"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:4"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:4"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:4"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:4"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:4"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:4"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:4"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:4"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Gastrointestinal Disorders",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:5"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:5"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:5"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:5"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:5"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:5"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:5"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:5"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:6"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:6"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:6"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:6"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:6"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:6"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:6"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:6"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Intestinal Inflammation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:7"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:7"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:7"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:7"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:7"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:7"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:7"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:7"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:8"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:8"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:8"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:8"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:8"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:8"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:8"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:8"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Visceral Pain",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:9"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:9"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:9"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:9"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:9"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:9"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:9"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:9"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:10"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:10"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:10"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:10"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:10"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:10"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:10"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:10"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Headache",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:11"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Edema",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:11"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Edema",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:11"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Edema",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:11"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Edema",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:11"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Edema",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:11"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Edema",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:11"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Edema",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:11"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Edema",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:12"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Fever",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:12"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Fever",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:12"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Fever",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:12"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Fever",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:12"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Fever",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:12"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Fever",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:12"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Fever",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:12"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Fever",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:13"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:13"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:13"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:13"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:13"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:13"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:13"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:13"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:14"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:14"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:14"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:14"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:14"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:14"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:14"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:14"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Dysentery",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:15"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:15"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:15"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:15"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:15"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:15"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:15"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:15"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:16"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:16"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:16"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:16"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:16"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:16"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:16"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:16"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Constipation",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:17"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:17"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:17"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:17"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:17"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:17"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:17"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:17"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:18"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:18"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:18"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:18"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:18"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:18"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:18"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:18"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Rheumatism",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:19"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Worm infestation",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:19"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Worm infestation",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:19"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Worm infestation",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:19"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Worm infestation",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:19"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Worm infestation",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:19"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Worm infestation",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:19"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Worm infestation",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:19"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Worm infestation",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:20"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Ascitis",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:20"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Ascitis",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:20"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Ascitis",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:20"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Ascitis",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:20"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Ascitis",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:20"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Ascitis",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:20"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Ascitis",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:20"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Ascitis",
+        "references": [
+          "163966",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:21"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:21"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:21"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:21"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:21"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:21"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:21"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:21"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "239213",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ],
+    [
+      {
+        "edges": [
+          "#73:0",
+          "#78:0",
+          "#82:22"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:1",
+          "#78:1",
+          "#82:22"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:2",
+          "#78:2",
+          "#82:22"
+        ],
+        "method": "Bhavana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:3",
+          "#78:12",
+          "#82:22"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:4",
+          "#78:13",
+          "#82:22"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:5",
+          "#78:14",
+          "#82:22"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:6",
+          "#78:15",
+          "#82:22"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      },
+      {
+        "edges": [
+          "#73:7",
+          "#78:16",
+          "#82:22"
+        ],
+        "method": "Swedana",
+        "purified_compound": "Shodhita Jaypala",
+        "indication": "Peptic ulcer",
+        "references": [
+          "25538350",
+          "",
+          ""
+        ],
+        "procedure": ""
+      }
+    ]
+  ]
+}

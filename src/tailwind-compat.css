@@ -1,0 +1,27 @@
+/* Preserve existing v3 component contracts while using the maintained compiler. */
+@theme { --default-ring-width: 3px; --default-ring-color: rgb(59 130 246 / 0.5); }
+@utility container {
+  width: 100%; margin-inline: auto; padding-inline: 2rem;
+  @media (width >= 640px) { max-width: 640px; }
+  @media (width >= 768px) { max-width: 768px; }
+  @media (width >= 1024px) { max-width: 1024px; }
+  @media (width >= 1280px) { max-width: 1280px; }
+  @media (width >= 1400px) { max-width: 1400px; }
+}
+@utility shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+@utility shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+@utility outline-none { outline: 2px solid transparent; outline-offset: 2px; }
+@utility flex-shrink-0 { flex-shrink: 0; }
+@utility flex-shrink { flex-shrink: 1; }
+@utility flex-grow { flex-grow: 1; }
+@utility flex-grow-0 { flex-grow: 0; }
+@layer base {
+  button:not(:disabled), [role="button"]:not(:disabled) { cursor: pointer; }
+  input::placeholder, textarea::placeholder { color: #9ca3af; opacity: 1; }
+}

@@ -1,0 +1,130 @@
+{
+    "status": "success",
+    "entity": {
+        "name": "Croton tiglium Linn.",
+        "type": "Compound"
+    },
+    "path": [
+        "Compound",
+        "UNDERGOES",
+        "Shodhana_Method",
+        "VALIDATED_BY",
+        "Confirmation_Study"
+    ],
+    "results": [
+        {
+            "method": "Swedana",
+            "study": "Liquid Chromatography Mass Spectroscopic (LC/MS) Analysis ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "37230917",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Jaypala",
+                "result": "Shodhana altered the phytochemical composition by increasing the leaching and extractability of certain metabolites and introducing some compounds detectable only after purification.",
+                "properties": {
+                    "pubmed_id": "37230917",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "method": "Swedana",
+            "study": "Cytotoxicity Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "37230917",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Jaypala",
+                "result": "Shodhana reduced the cytotoxic dose of Croton tiglium in CHO cells, indicating increased cytotoxicity and enhanced potency after purification.",
+                "properties": {
+                    "pubmed_id": "37230917",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "method": "Swedana",
+            "study": "High-Performance Layer Chromatography (HPLC)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "25538350",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Jaypala",
+                "result": "HPLC analysis showed that after shodhana (purification) of C. tiglium seeds, phorbol ester content reduced from 5.2 mg/100 g to 1.8 mg/100 g and crotonic acid reduced from 0.102 mg/100 g to absent, confirming effective detoxification by removal of toxic irritant constituents.",
+                "properties": {
+                    "pubmed_id": "25538350",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "method": "Swedana",
+            "study": "Thin Layer Chromatography (TLC)",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "22097",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Jaypala",
+                "result": "Multiple common and newly shared peaks between raw Jayapala, milk and Shodhita samples confirmed transfer of milk constituents and chemical transformation during Shodhana, indicating detoxification through binding of free crotonolic acid and removal of excess croton oil, thereby reducing irritant toxicity and enhancing therapeutic suitability.",
+                "properties": {
+                    "pubmed_id": "22097",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "method": "Bhavana",
+            "study": "Liquid Chromatography Mass Spectroscopic (LC/MS) Analysis ",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "37230917",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Jaypala",
+                "result": "Shodhana altered the phytochemical composition by increasing the leaching and extractability of certain metabolites and introducing some compounds detectable only after purification.",
+                "properties": {
+                    "pubmed_id": "37230917",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        },
+        {
+            "method": "Bhavana",
+            "study": "Cytotoxicity Study",
+            "validation_properties": {
+                "procedure": "",
+                "pubmed_id": "37230917",
+                "doi": "",
+                "ayush_id": ""
+            },
+            "safety_evidence": {
+                "target_entity": "Shodhita Jaypala",
+                "result": "Shodhana reduced the cytotoxic dose of Croton tiglium in CHO cells, indicating increased cytotoxicity and enhanced potency after purification.",
+                "properties": {
+                    "pubmed_id": "37230917",
+                    "doi": "",
+                    "ayush_id": ""
+                }
+            }
+        }
+    ]
+}

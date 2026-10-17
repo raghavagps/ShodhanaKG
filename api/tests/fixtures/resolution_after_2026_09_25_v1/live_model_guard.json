@@ -1,0 +1,36 @@
+{
+  "question": "Which evidence-backed modalities are associated with Psoriasis?",
+  "latency_ms": 2807.48,
+  "response": {
+    "status": "needs_clarification",
+    "answer": "What would you like to know about Psoriasis?",
+    "conversation_context": {
+      "version": 1,
+      "pending_question": "Which evidence-backed modalities are associated with Psoriasis?"
+    },
+    "resolution": [],
+    "understanding": {
+      "mode": "model_fallback",
+      "result": "rejected",
+      "reason": "unresolved_or_incompatible_proposal"
+    },
+    "question": "Which evidence-backed modalities are associated with Psoriasis?",
+    "context": {
+      "status": "needs_clarification",
+      "reason": "intent_ambiguous",
+      "routing": {},
+      "message": "What would you like to know about Psoriasis?",
+      "resolution": [],
+      "understanding": {
+        "mode": "model_fallback",
+        "result": "rejected",
+        "reason": "unresolved_or_incompatible_proposal"
+      },
+      "question": "Which evidence-backed modalities are associated with Psoriasis?",
+      "conversation_context": {
+        "version": 1,
+        "pending_question": "Which evidence-backed modalities are associated with Psoriasis?"
+      }
+    }
+  }
+}

@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="792pt" height="468pt" viewBox="0 0 792 468" version="1.1">
+ <metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-10-02T22:06:07.034941</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 468  L 792 468  L 792 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 241.744186 72.375734  C 240.769221 72.375734 239.79431 72.390217 238.819776 72.41918  C 237.845242 72.448143 236.871191 72.491581 235.897947 72.54948  L 236.307184 79.428417  C 237.212301 79.37457 238.118168 79.334173 239.024485 79.307237  C 239.930802 79.280302 240.837469 79.266832 241.744186 79.266832  z " clip-path="url(#pffdaaa6cec)" style="fill: #332288; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_3">
+    <path d="M 231.483185 72.911954  C 223.913886 73.705235 216.46205 75.373624 209.277115 77.883662  C 202.092181 80.393701 195.2225 83.728497 188.805837 87.821176  L 192.511522 93.631094  C 198.479018 89.824902 204.867821 86.723542 211.54981 84.389206  C 218.231799 82.05487 225.162007 80.503269 232.201455 79.765518  z " clip-path="url(#pffdaaa6cec)" style="fill: #88ccee; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_4">
+    <path d="M 185.125742 90.28662  C 172.930319 98.860529 162.840279 110.093669 155.619315 123.135829  C 148.398351 136.177989 144.233358 150.691609 143.439573 165.578185  L 150.320896 165.945112  C 151.059116 152.100596 154.93256 138.60293 161.648056 126.473721  C 168.363553 114.344512 177.747289 103.897692 189.089033 95.923957  z " clip-path="url(#pffdaaa6cec)" style="fill: #aa4499; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_5">
+    <path d="M 143.303288 170.005706  C 143.242068 177.40661 144.015656 184.790868 145.609377 192.018397  C 147.203097 199.245925 149.606808 206.27073 152.774909 212.959546  L 159.002758 210.009777  C 156.056425 203.789179 153.820974 197.256111 152.338813 190.534509  C 150.856653 183.812907 150.137216 176.945547 150.194151 170.062707  z " clip-path="url(#pffdaaa6cec)" style="fill: #117733; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_6">
+    <path d="M 154.760615 216.919153  C 159.050359 225.013386 164.448994 232.469375 170.800078 239.07106  C 177.151163 245.672745 184.392752 251.355738 192.315 255.955358  L 195.775043 249.995883  C 188.407352 245.718236 181.672674 240.433053 175.766166 234.293486  C 169.859658 228.153918 164.838927 221.219849 160.849465 213.692212  z " clip-path="url(#pffdaaa6cec)" style="fill: #ddcc77; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_7">
+    <path d="M 196.194837 258.092735  C 206.24142 263.336244 217.1184 266.805793 228.345564 268.348203  C 239.572727 269.890614 250.98238 269.482848 262.070793 267.142908  L 260.647931 260.400304  C 250.335707 262.576448 239.724729 262.955671 229.283467 261.521229  C 218.842205 260.086788 208.726614 256.860107 199.383291 251.983644  z " clip-path="url(#pffdaaa6cec)" style="fill: #882255; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_8">
+    <path d="M 266.383284 266.131009  C 288.718614 260.357044 308.328969 246.911694 321.765943 228.15927  C 335.202917 209.406847 341.629856 186.514972 339.916607 163.509094  L 333.044537 164.020858  C 334.637859 185.416324 328.660806 206.705768 316.16442 224.145522  C 303.668034 241.585275 285.430404 254.089451 264.658547 259.459238  z " clip-path="url(#pffdaaa6cec)" style="fill: #44aa99; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_9">
+    <path d="M 339.488344 159.100227  C 337.350195 141.267832 330.372266 124.356003 319.313565 110.204284  C 308.254864 96.052565 293.531437 85.193368 276.744791 78.807875  L 274.294749 85.248723  C 289.90633 91.187232 303.599116 101.286286 313.883708 114.447384  C 324.1683 127.608482 330.657774 143.336484 332.646253 159.920611  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_10">
+    <path d="M 272.570211 77.326526  C 271.710417 77.04304 270.846755 76.771429 269.979469 76.511769  C 269.112183 76.25211 268.241356 76.004426 267.367238 75.768789  L 265.573624 82.422373  C 266.386554 82.641516 267.196423 82.871862 268.002999 83.113346  C 268.809575 83.354829 269.612781 83.607428 270.412389 83.871069  z " clip-path="url(#pffdaaa6cec)" style="fill: #aa7733; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_11">
+    <path d="M 263.065438 74.712364  C 260.288903 74.096396 257.486979 73.601038 254.667553 73.227684  C 251.848126 72.85433 249.013843 72.60333 246.172683 72.475392  L 245.862688 79.359514  C 248.504967 79.478497 251.14085 79.711927 253.762917 80.059146  C 256.384984 80.406365 258.990773 80.867048 261.57295 81.439898  z " clip-path="url(#pffdaaa6cec)" style="fill: #661100; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="ribbon-c25bf082df78028a0aaf">
+    <path d="M 232.304065 80.744598  C 239.856162 152.80492 244.128437 152.863856 253.665439 81.03928  L 261.359738 82.400974  C 245.667296 153.136195 238.310375 153.034705 224.575132 81.893527  z " clip-path="url(#pffdaaa6cec)" style="fill: #88ccee; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Compound", "predicate": "CONTAINS", "target_category": "Toxic_Substance", "edge_records": 122}</title></g>
+   <g id="patch_12">
+    <path d="M 257.999586 88.718877  L 258.556613 75.820835  L 254.6532 88.126652  z " clip-path="url(#pffdaaa6cec)" style="fill: #88ccee" />
+   </g>
+   <g id="ribbon-ed3056ee78861885ea4f">
+    <path d="M 224.575132 81.893527  C 238.310375 153.034705 259.109834 165.668105 328.572427 145.060526  L 331.668812 160.037809  C 259.729111 168.663562 235.366722 153.866071 209.856865 86.050355  z " clip-path="url(#pffdaaa6cec)" style="fill: #88ccee; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Compound", "predicate": "UNDERGOES", "target_category": "Shodhana_Method", "edge_records": 239}</title></g>
+   <g id="patch_13">
+    <path d="M 324.187208 156.288985  L 336.221665 151.287845  L 323.190669 151.468706  z " clip-path="url(#pffdaaa6cec)" style="fill: #88ccee" />
+   </g>
+   <g id="ribbon-5042a5b1d7ec81db0319">
+    <path d="M 189.655217 96.72929  C 231.326392 156.001858 253.394441 184.690087 299.995459 240.170437  L 264.412156 258.506128  C 246.27778 188.357226 225.95653 161.939816 162.805906 126.419078  z " clip-path="url(#pffdaaa6cec)" style="fill: #aa4499; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Confirmation_Study", "predicate": "CONFIRMS_SAFETY_OF", "target_category": "Purified_Compound", "edge_records": 630}</title></g>
+   <g id="patch_14">
+    <path d="M 277.88526 246.330429  L 285.935052 256.579352  L 282.260737 244.075793  z " clip-path="url(#pffdaaa6cec)" style="fill: #aa4499" />
+   </g>
+   <g id="ribbon-4920f19f5493870cbe4d">
+    <path d="M 199.838785 251.110917  C 233.363106 186.878183 234.70753 187.511112 206.560904 254.275561  L 203.167379 252.762199  C 234.028825 187.20844 234.028825 187.20844 203.167379 252.762199  z " clip-path="url(#pffdaaa6cec)" style="fill: #882255; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Process", "predicate": "FOLLOWED_BY", "target_category": "Process", "edge_records": 58}</title></g>
+   <g id="patch_15">
+    <path d="M 206.925286 246.913639  L 202.450653 258.930825  L 208.400835 247.571669  z " clip-path="url(#pffdaaa6cec)" style="fill: #882255" />
+   </g>
+   <g id="ribbon-46d55bbe067bb588875a">
+    <path d="M 206.560904 254.275561  C 234.70753 187.511112 254.446517 183.733502 305.255843 235.38751  L 299.995459 240.170437  C 253.394441 184.690087 236.038466 188.011641 213.215586 256.778205  z " clip-path="url(#pffdaaa6cec)" style="fill: #882255; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Process", "predicate": "PRODUCES", "target_category": "Purified_Compound", "edge_records": 111}</title></g>
+   <g id="patch_16">
+    <path d="M 296.892889 233.772012  L 306.646194 242.200869  L 299.1806 231.691944  z " clip-path="url(#pffdaaa6cec)" style="fill: #882255" />
+   </g>
+   <g id="ribbon-f258ddc4052a02ae0ee1">
+    <path d="M 213.215586 256.778205  C 236.038466 188.011641 227.632465 182.176367 171.185579 227.601836  L 161.719301 213.231221  C 225.739209 179.302244 239.393138 188.780521 229.988945 260.622607  z " clip-path="url(#pffdaaa6cec)" style="fill: #882255; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Process", "predicate": "USES_MEDIA", "target_category": "Media", "edge_records": 269}</title></g>
+   <g id="patch_17">
+    <path d="M 170.511252 214.795804  L 161.177719 223.891117  L 173.218962 218.906338  z " clip-path="url(#pffdaaa6cec)" style="fill: #882255" />
+   </g>
+   <g id="ribbon-bb3414d0a451c6111337">
+    <path d="M 229.988945 260.622607  C 239.393138 188.780521 224.165062 166.451685 153.848568 148.978427  L 162.805906 126.419078  C 225.95653 161.939816 244.24761 188.759917 254.261306 260.519586  z " clip-path="url(#pffdaaa6cec)" style="fill: #882255; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Process", "predicate": "VALIDATED_BY", "target_category": "Confirmation_Study", "edge_records": 380}</title></g>
+   <g id="patch_18">
+    <path d="M 164.881 137.652956  L 152.078324 135.217581  L 163.06455 142.227745  z " clip-path="url(#pffdaaa6cec)" style="fill: #882255" />
+   </g>
+   <g id="ribbon-4aef827158f643c10a1c">
+    <path d="M 305.255843 235.38751  C 254.446517 183.733502 232.00353 155.548216 193.040905 94.461082  L 209.856865 86.050355  C 235.366722 153.866071 256.839155 180.832475 317.219033 220.882376  z " clip-path="url(#pffdaaa6cec)" style="fill: #44aa99; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Purified_Compound", "predicate": "DERIEVED_FROM", "target_category": "Compound", "edge_records": 294}</title></g>
+   <g id="patch_19">
+    <path d="M 206.513771 94.880418  L 198.587809 84.535435  L 202.111497 97.082274  z " clip-path="url(#pffdaaa6cec)" style="fill: #44aa99" />
+   </g>
+   <g id="ribbon-0d057e8b53a20ed3d6dd">
+    <path d="M 317.219033 220.882376  C 256.839155 180.832475 225.373839 178.573676 159.892451 209.588382  L 151.17856 170.07085  C 223.631061 170.67017 259.692983 173.258945 331.48817 183.014725  z " clip-path="url(#pffdaaa6cec)" style="fill: #44aa99; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Purified_Compound", "predicate": "TREATS", "target_category": "Indication", "edge_records": 637}</title></g>
+   <g id="patch_20">
+    <path d="M 159.499638 186.435267  L 147.532073 191.594429  L 160.559558 191.242007  z " clip-path="url(#pffdaaa6cec)" style="fill: #44aa99" />
+   </g>
+   <g id="ribbon-3f48a75ef1b0ea015ef5">
+    <path d="M 331.48817 183.014725  C 259.692983 173.258945 240.668478 152.738224 236.365646 80.411122  L 241.744186 80.251275  C 241.744186 152.706255 259.806144 172.188728 332.053978 177.663641  z " clip-path="url(#pffdaaa6cec)" style="fill: #44aa99; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Purified_Compound", "predicate": "USED_IN_FORMULATION", "target_category": "Ayurvedic_Formulation", "edge_records": 84}</title></g>
+   <g id="patch_21">
+    <path d="M 240.427857 87.144549  L 238.878264 74.387196  L 238.089018 87.214057  z " clip-path="url(#pffdaaa6cec)" style="fill: #44aa99" />
+   </g>
+   <g id="ribbon-7d0991730bfb7b72b897">
+    <path d="M 328.572427 145.060526  C 259.109834 165.668105 246.458828 153.330577 265.317394 83.372886  L 270.104129 84.806003  C 247.416175 153.617201 258.799285 164.71825 327.019681 140.311249  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Shodhana_Method", "predicate": "CLASSIFIED_AS", "target_category": "Shodhana_Type", "edge_records": 78}</title></g>
+   <g id="patch_22">
+    <path d="M 266.784903 90.969591  L 269.414763 78.397934  L 264.70345 90.346417  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933" />
+   </g>
+   <g id="ribbon-7fdecd80bb8ebeafaac5">
+    <path d="M 327.019681 140.311249  C 258.799285 164.71825 242.559029 152.724592 245.818403 80.34296  L 253.665439 81.03928  C 244.128437 152.863856 258.204525 163.259245 324.045879 133.016227  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Shodhana_Method", "predicate": "DETOXIFIES", "target_category": "Toxic_Substance", "edge_records": 123}</title></g>
+   <g id="patch_23">
+    <path d="M 250.846812 87.621309  L 250.271581 74.722223  L 247.433981 87.318466  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933" />
+   </g>
+   <g id="ribbon-3618f0a05be2582d4242">
+    <path d="M 324.045879 133.016227  C 258.204525 163.259245 245.484282 188.543415 260.444665 259.437075  L 254.261306 260.519586  C 244.24761 188.759917 257.641259 162.137211 321.229551 127.406054  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Shodhana_Method", "predicate": "FOLLOWED_BY", "target_category": "Process", "edge_records": 98}</title></g>
+   <g id="patch_24">
+    <path d="M 254.829549 253.47943  L 258.380944 265.850087  L 257.518505 253.00868  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933" />
+   </g>
+   <g id="ribbon-f26ac47eb97a78cf6188">
+    <path d="M 321.229551 127.406054  C 257.641259 162.137211 259.807911 169.474793 332.062813 164.093967  L 332.053978 177.663641  C 259.806144 172.188728 256.165564 159.859543 313.851076 116.017716  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Shodhana_Method", "predicate": "PRODUCES", "target_category": "Purified_Compound", "edge_records": 212}</title></g>
+   <g id="patch_25">
+    <path d="M 325.420192 173.335589  L 338.219547 170.882815  L 325.423397 168.413377  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933" />
+   </g>
+   <g id="ribbon-7a64acb0866470013230">
+    <path d="M 313.851076 116.017716  C 256.165564 159.859543 232.649216 186.484906 196.269335 249.144529  L 171.185579 227.601836  C 227.632465 182.176367 251.270287 155.41347 289.374692 93.787352  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Shodhana_Method", "predicate": "USES_MEDIA", "target_category": "Media", "edge_records": 519}</title></g>
+   <g id="patch_26">
+    <path d="M 185.358725 232.696344  L 178.887669 244.008506  L 189.092832 235.903309  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933" />
+   </g>
+   <g id="ribbon-ac6c660df48b19ed588a">
+    <path d="M 289.374692 93.787352  C 251.270287 155.41347 223.656137 169.855506 151.303942 165.99753  L 153.848568 148.978427  C 224.165062 166.451685 248.184297 153.889769 273.944743 86.168845  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Shodhana_Method", "predicate": "VALIDATED_BY", "target_category": "Confirmation_Study", "edge_records": 269}</title></g>
+   <g id="patch_27">
+    <path d="M 159.3504 156.012357  L 146.329409 156.553976  L 158.622542 160.880458  z " clip-path="url(#pffdaaa6cec)" style="fill: #999933" />
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="238.585823" y="66.617427" transform="rotate(-0 238.585823 66.617427)">AF</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="206.679749" y="72.519068" transform="rotate(-0 206.679749 72.519068)">Cpd</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="148.729326" y="121.391408" transform="rotate(-0 148.729326 121.391408)">CS</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="137.918592" y="195.784581" transform="rotate(-0 137.918592 195.784581)">Ind</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="165.12455" y="246.601457" transform="rotate(-0 165.12455 246.601457)">Med</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="227.273674" y="278.220772" transform="rotate(-0 227.273674 278.220772)">Proc</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="328.167684" y="234.816725" transform="rotate(-0 328.167684 234.816725)">PC</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="325.519115" y="107.425339" transform="rotate(-0 325.519115 107.425339)">SM</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="272.238291" y="71.037423" transform="rotate(-0 272.238291 71.037423)">ST</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="255.701422" y="67.490611" transform="rotate(-0 255.701422 67.490611)">TS</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="99" y="31.920241" transform="rotate(-0 99 31.920241)">a  Compound domain</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_28">
+    <path d="M 570.055814 72.375734  C 564.350427 72.375734 558.655824 72.871722 553.036348 73.858093  C 547.416872 74.844465 541.893766 76.317492 536.529436 78.26053  L 538.876282 84.739693  C 543.86511 82.932667 549.001598 81.562753 554.227711 80.645427  C 559.453824 79.728101 564.749804 79.266832 570.055814 79.266832  z " clip-path="url(#p8ba33eb6bd)" style="fill: #004488; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_29">
+    <path d="M 532.399605 79.862408  C 530.750333 80.545203 529.119938 81.272728 527.510227 82.044178  C 525.900516 82.815628 524.312085 83.630717 522.746695 84.488541  L 526.058334 90.531743  C 527.514146 89.733967 528.991386 88.975934 530.488418 88.258486  C 531.985449 87.541037 533.501717 86.864438 535.035539 86.22944  z " clip-path="url(#p8ba33eb6bd)" style="fill: #ddaa33; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_30">
+    <path d="M 518.910983 86.704128  C 504.618465 95.394384 492.773908 107.585696 484.499567 122.122955  C 476.225226 136.660214 471.79095 153.069321 471.616878 169.795538  C 471.442807 186.521755 475.534618 203.019593 483.504619 217.725909  C 491.47462 232.432224 503.062887 244.867403 517.171449 253.853231  L 520.873354 248.040905  C 507.752392 239.684085 496.975304 228.119369 489.563203 214.442495  C 482.151102 200.765622 478.345718 185.422632 478.507604 169.86725  C 478.66949 154.311869 482.793367 139.051399 490.488504 125.531748  C 498.183642 112.012097 509.199079 100.674177 522.491121 92.592239  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_31">
+    <path d="M 520.96022 256.148168  C 523.510499 257.615532 526.125282 258.967825 528.796692 260.200973  C 531.468101 261.434122 534.193453 262.546886 536.964537 263.535915  L 539.280926 257.045801  C 536.703818 256.126004 534.169241 255.091133 531.68483 253.944305  C 529.200419 252.797477 526.768671 251.539845 524.396911 250.175196  z " clip-path="url(#p8ba33eb6bd)" style="fill: #6699cc; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_32">
+    <path d="M 541.168844 264.930661  C 556.233498 269.554709 572.190517 270.494682 587.693874 267.67129  C 603.197231 264.847898 617.798396 258.342826 630.265714 248.704797  L 626.051021 243.252861  C 614.456415 252.216228 600.877332 258.265945 586.45921 260.8917  C 572.041087 263.517454 557.20106 262.643279 543.190932 258.342915  z " clip-path="url(#p8ba33eb6bd)" style="fill: #663366; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_33">
+    <path d="M 633.708395 245.91742  C 643.89203 237.28577 652.214304 226.672197 658.167894 214.723699  C 664.121485 202.775202 667.582907 189.739607 668.341154 176.411558  L 661.46118 176.020149  C 660.75601 188.415235 657.536888 200.538338 652.000049 211.65044  C 646.46321 222.762543 638.723495 232.633166 629.252714 240.660601  z " clip-path="url(#p8ba33eb6bd)" style="fill: #447755; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_34">
+    <path d="M 668.493192 171.98455  C 668.795256 146.451583 659.151559 121.776698 641.616035 103.215205  C 624.080511 84.653711 599.993215 73.624068 574.484311 72.475392  L 574.174316 79.359514  C 597.897597 80.427783 620.298782 90.685352 636.606819 107.94754  C 652.914856 125.209729 661.883495 148.157372 661.602575 171.903031  z " clip-path="url(#p8ba33eb6bd)" style="fill: #555555; stroke: #ffffff; stroke-width: 0.4; stroke-linejoin: miter" />
+   </g>
+   <g id="ribbon-a57d15ace01be3d941b8">
+    <path d="M 570.055814 80.251275  C 570.055814 152.706255 555.936727 159.472792 499.460378 114.083958  L 523.00257 93.433398  C 560.645165 155.34268 563.88696 153.789057 539.211546 85.665287  z " clip-path="url(#p8ba33eb6bd)" style="fill: #004488; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Assessment_Parameter", "predicate": "ASSESS", "target_category": "Disease", "edge_records": 690}</title></g>
+   <g id="patch_35">
+    <path d="M 516.726533 106.291014  L 506.437143 98.293013  L 513.026176 109.536865  z " clip-path="url(#p8ba33eb6bd)" style="fill: #004488" />
+   </g>
+   <g id="ribbon-ade3777fb1560c706787">
+    <path d="M 499.460378 114.083958  C 555.936727 159.472792 561.350936 154.935011 526.531425 91.395057  L 535.412101 87.139016  C 563.127071 154.083803 554.788194 161.072818 493.717716 122.084092  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Disease", "predicate": "HAS_AYURVEDIC_DIAGNOSIS", "target_category": "Ayurvedic_Diagnosis", "edge_records": 216}</title></g>
+   <g id="patch_36">
+    <path d="M 535.823599 94.434869  L 528.361138 83.819695  L 531.960531 96.286234  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566" />
+   </g>
+   <g id="ribbon-99e55603911f578acc40">
+    <path d="M 493.717716 122.084092  C 554.788194 161.072818 563.967019 187.879728 539.611839 256.118642  L 524.887867 249.321914  C 561.022225 186.520383 553.29465 163.951874 486.249997 136.479369  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Disease", "predicate": "HAS_DOSHA_IMBALANCE", "target_category": "Dosha", "edge_records": 356}</title></g>
+   <g id="patch_37">
+    <path d="M 532.751036 245.762349  L 529.621874 258.413354  L 537.220084 247.825305  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566" />
+   </g>
+   <g id="ribbon-bb74f64e7ea9cd1ce670">
+    <path d="M 486.249997 136.479369  C 553.29465 163.951874 588.140316 171.848847 660.478327 175.964234  L 628.616188 239.909627  C 581.767889 184.637925 553.530951 178.238669 487.431498 207.913347  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Disease", "predicate": "HAS_SYMPTOM", "target_category": "Symptom", "edge_records": 1610}</title></g>
+   <g id="patch_38">
+    <path d="M 643.85349 210.340946  L 656.405653 213.845625  L 646.048675 205.935342  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566" />
+   </g>
+   <g id="ribbon-41ab663ebef23c328cb3">
+    <path d="M 487.431498 207.913347  C 553.530951 178.238669 588.127388 169.584703 660.413686 164.643515  L 660.618202 171.891386  C 588.168291 171.034277 554.177355 179.536783 490.663521 214.403917  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Disease", "predicate": "POST_TREATED_BY", "target_category": "Therapy", "edge_records": 159}</title></g>
+   <g id="patch_39">
+    <path d="M 653.744619 170.03582  L 666.49281 168.098799  L 653.655675 166.883729  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566" />
+   </g>
+   <g id="ribbon-21e45fd9e919f098d9f9">
+    <path d="M 490.663521 214.403917  C 554.177355 179.536783 587.990371 168.278462 659.7286 158.11231  L 660.413686 164.643515  C 588.127388 169.584703 554.850725 180.664441 494.030369 220.042207  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Disease", "predicate": "PRE_TREATED_BY", "target_category": "Therapy", "edge_records": 144}</title></g>
+   <g id="patch_40">
+    <path d="M 653.425825 163.510732  L 666.004785 160.755508  L 653.127896 160.670455  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566" />
+   </g>
+   <g id="ribbon-54db12e54cd7a9a39c6a">
+    <path d="M 494.030369 220.042207  C 554.850725 180.664441 585.306972 161.047082 646.311606 121.95541  L 659.7286 158.11231  C 587.990371 168.278462 560.325091 186.098115 521.402198 247.210573  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Disease", "predicate": "TREATED_BY", "target_category": "Therapy", "edge_records": 852}</title></g>
+   <g id="patch_41">
+    <path d="M 649.362545 144.016184  L 660.504649 137.256517  L 647.650123 139.401448  z " clip-path="url(#p8ba33eb6bd)" style="fill: #bb5566" />
+   </g>
+   <g id="ribbon-aa9439a630fd2162c70e">
+    <path d="M 646.311606 121.95541  C 585.306972 161.047082 581.134435 185.150803 625.448922 242.474013  L 543.479802 257.401808  C 564.740611 188.136362 570.870657 152.724592 574.130031 80.34296  z " clip-path="url(#p8ba33eb6bd)" style="fill: #555555; opacity: 0.8; stroke: #ffffff; stroke-width: 0.3; stroke-linejoin: miter" />
+   <title>{"source_category": "Therapy", "predicate": "USES_FORMULATION", "target_category": "Formulation", "edge_records": 1898}</title></g>
+   <g id="patch_42">
+    <path d="M 582.626882 253.584548  L 587.341112 265.734264  L 587.469447 252.702645  z " clip-path="url(#p8ba33eb6bd)" style="fill: #555555" />
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="551.674791" y="68.171453" transform="rotate(-0 551.674791 68.171453)">AP</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="524.10658" y="77.012425" transform="rotate(-0 524.10658 77.012425)">AD</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="463.741764" y="171.783893" transform="rotate(-0 463.741764 171.783893)">Dis</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: end" x="525.495962" y="269.421764" transform="rotate(-0 525.495962 269.421764)">Dos</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="589.104918" y="277.489706" transform="rotate(-0 589.104918 277.489706)">Form</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="665.216861" y="220.30623" transform="rotate(-0 665.216861 220.30623)">Sym</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="647.340852" y="99.877134" transform="rotate(-0 647.340852 99.877134)">Ther</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Arial'; text-anchor: start" x="427.311628" y="31.920241" transform="rotate(-0 427.311628 31.920241)">b  Disease domain</text>
+   </g>
+  </g>
+  <g id="legend_1">
+   <g id="patch_43">
+    <path d="M 217.99125 401.577031  L 233.99125 401.577031  L 233.99125 395.977031  L 217.99125 395.977031  z " style="fill: #332288" />
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="240.39125" y="401.577031" transform="rotate(-0 240.39125 401.577031)">AF: Ayurvedic Formulation</text>
+   </g>
+   <g id="patch_44">
+    <path d="M 217.99125 413.085  L 233.99125 413.085  L 233.99125 407.485  L 217.99125 407.485  z " style="fill: #88ccee" />
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="240.39125" y="413.085" transform="rotate(-0 240.39125 413.085)">Cpd: Compound</text>
+   </g>
+   <g id="patch_45">
+    <path d="M 217.99125 424.592812  L 233.99125 424.592812  L 233.99125 418.992812  L 217.99125 418.992812  z " style="fill: #aa4499" />
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="240.39125" y="424.592812" transform="rotate(-0 240.39125 424.592812)">CS: Confirmation Study</text>
+   </g>
+   <g id="patch_46">
+    <path d="M 217.99125 436.100781  L 233.99125 436.100781  L 233.99125 430.500781  L 217.99125 430.500781  z " style="fill: #117733" />
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="240.39125" y="436.100781" transform="rotate(-0 240.39125 436.100781)">Ind: Indication</text>
+   </g>
+   <g id="patch_47">
+    <path d="M 217.99125 447.608594  L 233.99125 447.608594  L 233.99125 442.008594  L 217.99125 442.008594  z " style="fill: #ddcc77" />
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="240.39125" y="447.608594" transform="rotate(-0 240.39125 447.608594)">Med: Media</text>
+   </g>
+   <g id="patch_48">
+    <path d="M 217.99125 459.116406  L 233.99125 459.116406  L 233.99125 453.516406  L 217.99125 453.516406  z " style="fill: #882255" />
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="240.39125" y="459.116406" transform="rotate(-0 240.39125 459.116406)">Proc: Process</text>
+   </g>
+   <g id="patch_49">
+    <path d="M 350.05375 401.577031  L 366.05375 401.577031  L 366.05375 395.977031  L 350.05375 395.977031  z " style="fill: #44aa99" />
+   </g>
+   <g id="text_26">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="372.45375" y="401.577031" transform="rotate(-0 372.45375 401.577031)">PC: Purified Compound</text>
+   </g>
+   <g id="patch_50">
+    <path d="M 350.05375 413.084844  L 366.05375 413.084844  L 366.05375 407.484844  L 350.05375 407.484844  z " style="fill: #999933" />
+   </g>
+   <g id="text_27">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="372.45375" y="413.084844" transform="rotate(-0 372.45375 413.084844)">SM: Shodhana Method</text>
+   </g>
+   <g id="patch_51">
+    <path d="M 350.05375 424.592656  L 366.05375 424.592656  L 366.05375 418.992656  L 350.05375 418.992656  z " style="fill: #aa7733" />
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="372.45375" y="424.592656" transform="rotate(-0 372.45375 424.592656)">ST: Shodhana Type</text>
+   </g>
+   <g id="patch_52">
+    <path d="M 350.05375 436.100625  L 366.05375 436.100625  L 366.05375 430.500625  L 350.05375 430.500625  z " style="fill: #661100" />
+   </g>
+   <g id="text_29">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="372.45375" y="436.100625" transform="rotate(-0 372.45375 436.100625)">TS: Toxic Substance</text>
+   </g>
+   <g id="patch_53">
+    <path d="M 350.05375 447.608437  L 366.05375 447.608437  L 366.05375 442.008437  L 350.05375 442.008437  z " style="fill: #004488" />
+   </g>
+   <g id="text_30">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="372.45375" y="447.608437" transform="rotate(-0 372.45375 447.608437)">AP: Assessment Parameter</text>
+   </g>
+   <g id="patch_54">
+    <path d="M 350.05375 459.11625  L 366.05375 459.11625  L 366.05375 453.51625  L 350.05375 453.51625  z " style="fill: #ddaa33" />
+   </g>
+   <g id="text_31">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="372.45375" y="459.11625" transform="rotate(-0 372.45375 459.11625)">AD: Ayurvedic Diagnosis</text>
+   </g>
+   <g id="patch_55">
+    <path d="M 486.26625 401.577031  L 502.26625 401.577031  L 502.26625 395.977031  L 486.26625 395.977031  z " style="fill: #bb5566" />
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="508.66625" y="401.577031" transform="rotate(-0 508.66625 401.577031)">Dis: Disease</text>
+   </g>
+   <g id="patch_56">
+    <path d="M 486.26625 413.084844  L 502.26625 413.084844  L 502.26625 407.484844  L 486.26625 407.484844  z " style="fill: #6699cc" />
+   </g>
+   <g id="text_33">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="508.66625" y="413.084844" transform="rotate(-0 508.66625 413.084844)">Dos: Dosha</text>
+   </g>
+   <g id="patch_57">
+    <path d="M 486.26625 424.592656  L 502.26625 424.592656  L 502.26625 418.992656  L 486.26625 418.992656  z " style="fill: #663366" />
+   </g>
+   <g id="text_34">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="508.66625" y="424.592656" transform="rotate(-0 508.66625 424.592656)">Form: Formulation</text>
+   </g>
+   <g id="patch_58">
+    <path d="M 486.26625 436.100469  L 502.26625 436.100469  L 502.26625 430.500469  L 486.26625 430.500469  z " style="fill: #447755" />
+   </g>
+   <g id="text_35">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="508.66625" y="436.100469" transform="rotate(-0 508.66625 436.100469)">Sym: Symptom</text>
+   </g>
+   <g id="patch_59">
+    <path d="M 486.26625 447.608437  L 502.26625 447.608437  L 502.26625 442.008437  L 486.26625 442.008437  z " style="fill: #555555" />
+   </g>
+   <g id="text_36">
+    <text style="font-size: 8px; font-family: 'Arial'; text-anchor: start" x="508.66625" y="447.608437" transform="rotate(-0 508.66625 447.608437)">Ther: Therapy</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pffdaaa6cec">
+   <rect x="99" y="37.920241" width="285.488372" height="265.799519" />
+  </clipPath>
+  <clipPath id="p8ba33eb6bd">
+   <rect x="427.311628" y="37.920241" width="285.488372" height="265.799519" />
+  </clipPath>
+ </defs>
+<title>S02_domain_chords</title><desc>Internal edges only: Compound 4,123; Disease 5,925. Same category palette and directed predicate ribbon definition as C02; integration edges are excluded from these internal panels.</desc></svg>

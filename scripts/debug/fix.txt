@@ -1,0 +1,24 @@
+    private static function extractEntityCandidates($question) {
+        $candidates = [];
+        if (preg_match_all('/\b(?:of|for|about|in|on|with|to|by)\s+([a-zA-Z0-9\s\.\-]+?)(?=\?|,|\.|(?:\s+is\b)|\s*$)/i', $question, $matches)) {
+            foreach ($matches[1] as $m) {
+                $candidates[] = trim($m);
+            }
+        }
+        
+        if (preg_match('/^([a-zA-Z\s]+?),\s*(what|how|is|are|tell)/i', $question, $match)) {
+            $candidates[] = trim($match[1]);
+        }
+        
+        // Hinglish leading entity
+        if (preg_match('/^([a-zA-Z\s\.\-]+?)\s+(?:ke|ka|ki|ko|kya|kauns[ae]|kaise|kab|kahan|kitna|kitne)\b/i', $question, $m)) {
+            $candidates[] = trim($m[1]);
+        }
+        
+        return $candidates;
+    }
+    
+    private static function classifyIntentContextually($q, $entityType) {
+        if ($entityType === 'Compound') {
+            // Priority 1: Explicit integrated/multi-hop intents
+            if (preg_match('/\b(disease|diseases|condition|linked|treat|treats|treating|treat this disease)\b/i', $q)) return 'integrated_compound_disease';

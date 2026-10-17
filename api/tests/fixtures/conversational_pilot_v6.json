@@ -1,0 +1,3779 @@
+{
+    "captured_at": "2026-09-23T19:30:48+00:00",
+    "note": "Diagnostic outputs, not expert-reviewed factual labels",
+    "rows": [
+        {
+            "question": "What formulations treat Vipadika?",
+            "context": {
+                "status": "success",
+                "question": "What formulations treat Vipadika?",
+                "routing": {
+                    "domain": "disease",
+                    "intent": "disease_formulation",
+                    "entity": "Vipadika",
+                    "entity_type": "Disease",
+                    "endpoint": "disease_formulation",
+                    "confidence": 0.9,
+                    "needs_clarification": false
+                },
+                "retrieval": {
+                    "status": "success",
+                    "entity": {
+                        "name": "Vipadika",
+                        "type": "Disease"
+                    },
+                    "path": [
+                        "Disease",
+                        "[PRE/POST]_TREATED_BY",
+                        "Therapy",
+                        "USES_FORMULATION",
+                        "Formulation"
+                    ],
+                    "results": [
+                        {
+                            "therapy": "Oral Medication",
+                            "formulation": "Sutshekhar Rasa",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "TREATED_BY"
+                            }
+                        },
+                        {
+                            "therapy": "Sarvanga Abhyanga",
+                            "formulation": "Nalpamaradi Keram",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "TREATED_BY"
+                            }
+                        },
+                        {
+                            "therapy": "Snehapana",
+                            "formulation": "Mahatikta Ghrita",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "TREATED_BY"
+                            }
+                        },
+                        {
+                            "therapy": "Swedana",
+                            "formulation": "Bashpa Sweda",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "TREATED_BY"
+                            }
+                        },
+                        {
+                            "therapy": "Udvartana",
+                            "formulation": "Kolakulathadi Churna",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "TREATED_BY"
+                            }
+                        },
+                        {
+                            "therapy": "Virechana",
+                            "formulation": "Trivrit Lehyam",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "TREATED_BY"
+                            }
+                        },
+                        {
+                            "therapy": "Virechana",
+                            "formulation": "Drakshadi Kashaya",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "TREATED_BY"
+                            }
+                        },
+                        {
+                            "therapy": "Shamana",
+                            "formulation": "Mahatikta Lepa",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "POST_TREATED_BY"
+                            }
+                        },
+                        {
+                            "therapy": "Shamana",
+                            "formulation": "Aragvadhadi Kashaya",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "POST_TREATED_BY"
+                            }
+                        },
+                        {
+                            "therapy": "Shamana",
+                            "formulation": "Gandhak Rasayan",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "POST_TREATED_BY"
+                            }
+                        },
+                        {
+                            "therapy": "Shamana",
+                            "formulation": "Gandharvahastadi Eranda Taila",
+                            "properties": {
+                                "procedure": "",
+                                "result": "",
+                                "pubmed_id": "253965",
+                                "doi": "",
+                                "ayush_id": "",
+                                "phase": "POST_TREATED_BY"
+                            }
+                        }
+                    ]
+                },
+                "reason": null
+            },
+            "response": {
+                "status": "success",
+                "answer": "Here are a few examples from the available information. You can explore the full set below.\n\nSutshekhar Rasa is a formulation that treats Vipadika when taken as Oral Medication. [1]\n\nNalpamaradi Keram is a formulation that treats Vipadika when used in Sarvanga Abhyanga. [2]\n\nMahatikta Ghrita is a formulation that treats Vipadika when applied as Snehapana. [3]\n\nBashpa Sweda is a formulation that treats Vipadika when used in Swedana. [4]",
+                "answer_blocks": [
+                    {
+                        "text": "Sutshekhar Rasa is a formulation that treats Vipadika when taken as Oral Medication.",
+                        "citation_ids": [
+                            "1"
+                        ]
+                    },
+                    {
+                        "text": "Nalpamaradi Keram is a formulation that treats Vipadika when used in Sarvanga Abhyanga.",
+                        "citation_ids": [
+                            "2"
+                        ]
+                    },
+                    {
+                        "text": "Mahatikta Ghrita is a formulation that treats Vipadika when applied as Snehapana.",
+                        "citation_ids": [
+                            "3"
+                        ]
+                    },
+                    {
+                        "text": "Bashpa Sweda is a formulation that treats Vipadika when used in Swedana.",
+                        "citation_ids": [
+                            "4"
+                        ]
+                    }
+                ],
+                "answer_intro": "Here are a few examples from the available information. You can explore the full set below.",
+                "citations": [
+                    {
+                        "id": "1",
+                        "fact_ids": [
+                            "f1"
+                        ],
+                        "record_indices": [
+                            0
+                        ],
+                        "statement": "For Vipadika, Sutshekhar Rasa is recorded in association with Oral Medication.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Oral Medication",
+                            "Sutshekhar Rasa"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "2",
+                        "fact_ids": [
+                            "f2"
+                        ],
+                        "record_indices": [
+                            1
+                        ],
+                        "statement": "For Vipadika, Nalpamaradi Keram is recorded in association with Sarvanga Abhyanga.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Sarvanga Abhyanga",
+                            "Nalpamaradi Keram"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "3",
+                        "fact_ids": [
+                            "f3"
+                        ],
+                        "record_indices": [
+                            2
+                        ],
+                        "statement": "For Vipadika, Mahatikta Ghrita is recorded in association with Snehapana.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Snehapana",
+                            "Mahatikta Ghrita"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "4",
+                        "fact_ids": [
+                            "f4"
+                        ],
+                        "record_indices": [
+                            3
+                        ],
+                        "statement": "For Vipadika, Bashpa Sweda is recorded in association with Swedana.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Swedana",
+                            "Bashpa Sweda"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "5",
+                        "fact_ids": [
+                            "f5"
+                        ],
+                        "record_indices": [
+                            4
+                        ],
+                        "statement": "For Vipadika, Kolakulathadi Churna is recorded in association with Udvartana.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Udvartana",
+                            "Kolakulathadi Churna"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "6",
+                        "fact_ids": [
+                            "f6"
+                        ],
+                        "record_indices": [
+                            5
+                        ],
+                        "statement": "For Vipadika, Trivrit Lehyam is recorded in association with Virechana.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Virechana",
+                            "Trivrit Lehyam"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "7",
+                        "fact_ids": [
+                            "f7"
+                        ],
+                        "record_indices": [
+                            6
+                        ],
+                        "statement": "For Vipadika, Drakshadi Kashaya is recorded in association with Virechana.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Virechana",
+                            "Drakshadi Kashaya"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "8",
+                        "fact_ids": [
+                            "f8"
+                        ],
+                        "record_indices": [
+                            7
+                        ],
+                        "statement": "For Vipadika, Mahatikta Lepa is recorded in association with Shamana. This is recorded as post-treatment.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "POST_TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Shamana",
+                            "Mahatikta Lepa"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "9",
+                        "fact_ids": [
+                            "f9"
+                        ],
+                        "record_indices": [
+                            8
+                        ],
+                        "statement": "For Vipadika, Aragvadhadi Kashaya is recorded in association with Shamana. This is recorded as post-treatment.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "POST_TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Shamana",
+                            "Aragvadhadi Kashaya"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "10",
+                        "fact_ids": [
+                            "f10"
+                        ],
+                        "record_indices": [
+                            9
+                        ],
+                        "statement": "For Vipadika, Gandhak Rasayan is recorded in association with Shamana. This is recorded as post-treatment.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "POST_TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Shamana",
+                            "Gandhak Rasayan"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "11",
+                        "fact_ids": [
+                            "f11"
+                        ],
+                        "record_indices": [
+                            10
+                        ],
+                        "statement": "For Vipadika, Gandharvahastadi Eranda Taila is recorded in association with Shamana. This is recorded as post-treatment.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "253965",
+                                    "doi": "",
+                                    "ayush_id": "",
+                                    "phase": "POST_TREATED_BY"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Vipadika",
+                            "Shamana",
+                            "Gandharvahastadi Eranda Taila"
+                        ],
+                        "attribution": "record"
+                    }
+                ],
+                "generation": {
+                    "mode": "hybrid",
+                    "fallback_reason": null,
+                    "latency_ms": 26209
+                }
+            },
+            "model_calls": [
+                {
+                    "status": "success",
+                    "text": "{\"sentences\":[{\"fact_id\":\"f1\",\"text\":\"Sutshekhar Rasa is a formulation that treats Vipadika when taken as Oral Medication.\"},{\"fact_id\":\"f2\",\"text\":\"Nalpamaradi Keram is a formulation that treats Vipadika when used in Sarvanga Abhyanga.\"},{\"fact_id\":\"f3\",\"text\":\"Mahatikta Ghrita is a formulation that treats Vipadika when applied as Snehapana.\"},{\"fact_id\":\"f4\",\"text\":\"Bashpa Sweda is a formulation that treats Vipadika when used in Swedana.\"}]}",
+                    "model": "llama3.2"
+                },
+                {
+                    "status": "success",
+                    "text": "{\"reviews\":[\"supported\",\"supported\",\"supported\",\"supported\"]}",
+                    "model": "llama3.2"
+                }
+            ]
+        },
+        {
+            "question": "What purified compounds does Swedana produce?",
+            "context": {
+                "status": "success",
+                "question": "What purified compounds does Swedana produce?",
+                "routing": {
+                    "domain": "shodhana_method",
+                    "intent": "process_purified_compound",
+                    "entity": "Swedana",
+                    "entity_type": "Shodhana_Method",
+                    "endpoint": "process_purified_compound",
+                    "confidence": 0.9,
+                    "needs_clarification": false
+                },
+                "retrieval": {
+                    "status": "success",
+                    "entity": {
+                        "name": "Swedana",
+                        "type": "Shodhana_Method"
+                    },
+                    "path": [
+                        "Shodhana_Method",
+                        "PRODUCES",
+                        "Purified_Compound"
+                    ],
+                    "results": [
+                        {
+                            "related_entity": "Shodhita Jaypala",
+                            "properties": {
+                                "pubmed_id": "37230917",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Jaypala",
+                            "properties": {
+                                "pubmed_id": "25538350",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Jaypala",
+                            "properties": {
+                                "pubmed_id": "22097",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Jaypala",
+                            "properties": {
+                                "pubmed_id": "163966",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Jaypala",
+                            "properties": {
+                                "pubmed_id": "239213",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Vatsanabha",
+                            "properties": {
+                                "pubmed_id": "22736901",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Vatsanabha",
+                            "properties": {
+                                "pubmed_id": "22556471",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Vatsanabha",
+                            "properties": {
+                                "pubmed_id": "28757226",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Vatsanabha",
+                            "properties": {
+                                "pubmed_id": "196221",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Gunja",
+                            "properties": {
+                                "pubmed_id": "25336846",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Gunja",
+                            "properties": {
+                                "pubmed_id": "22556879",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Gunja",
+                            "properties": {
+                                "pubmed_id": "23930039",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Gunja",
+                            "properties": {
+                                "pubmed_id": "24696580",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Gunja",
+                            "properties": {
+                                "pubmed_id": "23929989",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Gunja",
+                            "properties": {
+                                "pubmed_id": "",
+                                "doi": "10.4103/jdras.jdras_10_21",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Gunja",
+                            "properties": {
+                                "pubmed_id": "108950",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Gunja",
+                            "properties": {
+                                "pubmed_id": "15670",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Gunja",
+                            "properties": {
+                                "pubmed_id": "132446",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Kupeelu",
+                            "properties": {
+                                "pubmed_id": "23983327",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Kupeelu",
+                            "properties": {
+                                "pubmed_id": "19699784",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Kupeelu",
+                            "properties": {
+                                "pubmed_id": "239250",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Kupeelu",
+                            "properties": {
+                                "pubmed_id": "12713",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Kupeelu",
+                            "properties": {
+                                "pubmed_id": "7102",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Bhallathaka",
+                            "properties": {
+                                "pubmed_id": "143104",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Vacha",
+                            "properties": {
+                                "pubmed_id": "23049196",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Vacha",
+                            "properties": {
+                                "pubmed_id": "23741157",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Vacha",
+                            "properties": {
+                                "pubmed_id": "",
+                                "doi": "10.5005/jdras-10059-0067",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Vacha",
+                            "properties": {
+                                "pubmed_id": "15738",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Vacha",
+                            "properties": {
+                                "pubmed_id": "164843",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Vacha",
+                            "properties": {
+                                "pubmed_id": "109899",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Purified Guggulu",
+                            "properties": {
+                                "pubmed_id": "33991078",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Purified Guggulu",
+                            "properties": {
+                                "pubmed_id": "254155",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Dhattura",
+                            "properties": {
+                                "pubmed_id": "41220381",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Dhattura",
+                            "properties": {
+                                "pubmed_id": "30466809",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Dhattura",
+                            "properties": {
+                                "pubmed_id": "",
+                                "doi": "10.4103/jdras.jdras_45_21",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Dhattura",
+                            "properties": {
+                                "pubmed_id": "",
+                                "doi": "10.4103/jdras.jdras_92_22",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Dhattura",
+                            "properties": {
+                                "pubmed_id": "165494",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Dhattura",
+                            "properties": {
+                                "pubmed_id": "12951",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Purified Nerium indicum",
+                            "properties": {
+                                "pubmed_id": "22125956",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Karavira",
+                            "properties": {
+                                "pubmed_id": "256996",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Karavira",
+                            "properties": {
+                                "pubmed_id": "258646",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Ativisha",
+                            "properties": {
+                                "pubmed_id": "24156713",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Purified Aconitum",
+                            "properties": {
+                                "pubmed_id": "24156713",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Haratala",
+                            "properties": {
+                                "pubmed_id": "35370377",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Haratala",
+                            "properties": {
+                                "pubmed_id": "30466809",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Haratala",
+                            "properties": {
+                                "pubmed_id": "",
+                                "doi": "10.4103/bjhs.bjhs_70_21",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Gandhaka",
+                            "properties": {
+                                "pubmed_id": "37506606",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Mukta",
+                            "properties": {
+                                "pubmed_id": "26600667",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Mukta",
+                            "properties": {
+                                "pubmed_id": "29269973",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Mukta",
+                            "properties": {
+                                "pubmed_id": "",
+                                "doi": "10.4103/asl.asl_89_24",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Mukta",
+                            "properties": {
+                                "pubmed_id": "110460",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Tamra",
+                            "properties": {
+                                "pubmed_id": "23723677",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Tamra",
+                            "properties": {
+                                "pubmed_id": "26730144",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Tamra",
+                            "properties": {
+                                "pubmed_id": "23661863",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Tamra",
+                            "properties": {
+                                "pubmed_id": "29249635",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Tamra",
+                            "properties": {
+                                "pubmed_id": "38759538",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Tamra",
+                            "properties": {
+                                "pubmed_id": "25948961",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Tamra",
+                            "properties": {
+                                "pubmed_id": "",
+                                "doi": "10.5005/jp-journals-10059-0037",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Tamra",
+                            "properties": {
+                                "pubmed_id": "2201",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Praval",
+                            "properties": {
+                                "pubmed_id": "29269973",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Shankha",
+                            "properties": {
+                                "pubmed_id": "110460",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Kukkutanda Twak",
+                            "properties": {
+                                "pubmed_id": "22529653",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Kukkutanda Twak",
+                            "properties": {
+                                "pubmed_id": "30254398",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Mukta Shukti",
+                            "properties": {
+                                "pubmed_id": "108200",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Mukta Shukti",
+                            "properties": {
+                                "pubmed_id": "110460",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Kasisa",
+                            "properties": {
+                                "pubmed_id": "23284208",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Peet Karveer",
+                            "properties": {
+                                "pubmed_id": "242645",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Shilajit",
+                            "properties": {
+                                "pubmed_id": "12463",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Bhanga",
+                            "properties": {
+                                "pubmed_id": "5081",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        },
+                        {
+                            "related_entity": "Shodhita Raktagunja",
+                            "properties": {
+                                "pubmed_id": "76448",
+                                "doi": "",
+                                "ayush_id": ""
+                            }
+                        }
+                    ]
+                },
+                "reason": null
+            },
+            "response": {
+                "status": "success",
+                "answer": "Here are a few examples from the available information. You can explore the full set below.\n\nThe available information records an association between Swedana and Shodhita Jaypala. [1]\n\nThe available information records an association between Swedana and Shodhita Vatsanabha. [6]\n\nThe available information records an association between Swedana and Shodhita Gunja. [10]\n\nThe available information records an association between Swedana and Shodhita Kupeelu. [19]",
+                "answer_blocks": [
+                    {
+                        "text": "The available information records an association between Swedana and Shodhita Jaypala.",
+                        "citation_ids": [
+                            "1"
+                        ]
+                    },
+                    {
+                        "text": "The available information records an association between Swedana and Shodhita Vatsanabha.",
+                        "citation_ids": [
+                            "6"
+                        ]
+                    },
+                    {
+                        "text": "The available information records an association between Swedana and Shodhita Gunja.",
+                        "citation_ids": [
+                            "10"
+                        ]
+                    },
+                    {
+                        "text": "The available information records an association between Swedana and Shodhita Kupeelu.",
+                        "citation_ids": [
+                            "19"
+                        ]
+                    }
+                ],
+                "answer_intro": "Here are a few examples from the available information. You can explore the full set below.",
+                "citations": [
+                    {
+                        "id": "1",
+                        "fact_ids": [
+                            "f1"
+                        ],
+                        "record_indices": [
+                            0
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Jaypala.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "37230917",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "37230917",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Jaypala"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "2",
+                        "fact_ids": [
+                            "f2"
+                        ],
+                        "record_indices": [
+                            1
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Jaypala.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "25538350",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "25538350",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Jaypala"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "3",
+                        "fact_ids": [
+                            "f3"
+                        ],
+                        "record_indices": [
+                            2
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Jaypala.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "22097",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "22097",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Jaypala"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "4",
+                        "fact_ids": [
+                            "f4"
+                        ],
+                        "record_indices": [
+                            3
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Jaypala.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "163966",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "163966",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Jaypala"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "5",
+                        "fact_ids": [
+                            "f5"
+                        ],
+                        "record_indices": [
+                            4
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Jaypala.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "239213",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "239213",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Jaypala"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "6",
+                        "fact_ids": [
+                            "f6"
+                        ],
+                        "record_indices": [
+                            5
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Vatsanabha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "22736901",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "22736901",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Vatsanabha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "7",
+                        "fact_ids": [
+                            "f7"
+                        ],
+                        "record_indices": [
+                            6
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Vatsanabha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "22556471",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "22556471",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Vatsanabha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "8",
+                        "fact_ids": [
+                            "f8"
+                        ],
+                        "record_indices": [
+                            7
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Vatsanabha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "28757226",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "28757226",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Vatsanabha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "9",
+                        "fact_ids": [
+                            "f9"
+                        ],
+                        "record_indices": [
+                            8
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Vatsanabha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "196221",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "196221",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Vatsanabha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "10",
+                        "fact_ids": [
+                            "f10"
+                        ],
+                        "record_indices": [
+                            9
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Gunja.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "25336846",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "25336846",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Gunja"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "11",
+                        "fact_ids": [
+                            "f11"
+                        ],
+                        "record_indices": [
+                            10
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Gunja.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "22556879",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "22556879",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Gunja"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "12",
+                        "fact_ids": [
+                            "f12"
+                        ],
+                        "record_indices": [
+                            11
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Gunja.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "23930039",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "23930039",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Gunja"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "13",
+                        "fact_ids": [
+                            "f13"
+                        ],
+                        "record_indices": [
+                            12
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Gunja.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "24696580",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "24696580",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Gunja"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "14",
+                        "fact_ids": [
+                            "f14"
+                        ],
+                        "record_indices": [
+                            13
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Gunja.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "23929989",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "23929989",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Gunja"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "15",
+                        "fact_ids": [
+                            "f15"
+                        ],
+                        "record_indices": [
+                            14
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Gunja.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "",
+                                    "doi": "10.4103/jdras.jdras_10_21",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "",
+                                    "doi": "10.4103/jdras.jdras_10_21",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Gunja"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "16",
+                        "fact_ids": [
+                            "f16"
+                        ],
+                        "record_indices": [
+                            15
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Gunja.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "108950",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "108950",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Gunja"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "17",
+                        "fact_ids": [
+                            "f17"
+                        ],
+                        "record_indices": [
+                            16
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Gunja.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "15670",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "15670",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Gunja"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "18",
+                        "fact_ids": [
+                            "f18"
+                        ],
+                        "record_indices": [
+                            17
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Gunja.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "132446",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "132446",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Gunja"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "19",
+                        "fact_ids": [
+                            "f19"
+                        ],
+                        "record_indices": [
+                            18
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Kupeelu.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "23983327",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "23983327",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Kupeelu"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "20",
+                        "fact_ids": [
+                            "f20"
+                        ],
+                        "record_indices": [
+                            19
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Kupeelu.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "19699784",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "19699784",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Kupeelu"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "21",
+                        "fact_ids": [
+                            "f21"
+                        ],
+                        "record_indices": [
+                            20
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Kupeelu.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "239250",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "239250",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Kupeelu"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "22",
+                        "fact_ids": [
+                            "f22"
+                        ],
+                        "record_indices": [
+                            21
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Kupeelu.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "12713",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "12713",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Kupeelu"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "23",
+                        "fact_ids": [
+                            "f23"
+                        ],
+                        "record_indices": [
+                            22
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Kupeelu.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "7102",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "7102",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Kupeelu"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "24",
+                        "fact_ids": [
+                            "f24"
+                        ],
+                        "record_indices": [
+                            23
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Bhallathaka.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "143104",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "143104",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Bhallathaka"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "25",
+                        "fact_ids": [
+                            "f25"
+                        ],
+                        "record_indices": [
+                            24
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Vacha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "23049196",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "23049196",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Vacha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "26",
+                        "fact_ids": [
+                            "f26"
+                        ],
+                        "record_indices": [
+                            25
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Vacha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "23741157",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "23741157",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Vacha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "27",
+                        "fact_ids": [
+                            "f27"
+                        ],
+                        "record_indices": [
+                            26
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Vacha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "",
+                                    "doi": "10.5005/jdras-10059-0067",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "",
+                                    "doi": "10.5005/jdras-10059-0067",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Vacha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "28",
+                        "fact_ids": [
+                            "f28"
+                        ],
+                        "record_indices": [
+                            27
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Vacha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "15738",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "15738",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Vacha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "29",
+                        "fact_ids": [
+                            "f29"
+                        ],
+                        "record_indices": [
+                            28
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Vacha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "164843",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "164843",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Vacha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "30",
+                        "fact_ids": [
+                            "f30"
+                        ],
+                        "record_indices": [
+                            29
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Vacha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "109899",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "109899",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Vacha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "31",
+                        "fact_ids": [
+                            "f31"
+                        ],
+                        "record_indices": [
+                            30
+                        ],
+                        "statement": "The available information records an association between Swedana and Purified Guggulu.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "33991078",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "33991078",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Purified Guggulu"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "32",
+                        "fact_ids": [
+                            "f32"
+                        ],
+                        "record_indices": [
+                            31
+                        ],
+                        "statement": "The available information records an association between Swedana and Purified Guggulu.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "254155",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "254155",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Purified Guggulu"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "33",
+                        "fact_ids": [
+                            "f33"
+                        ],
+                        "record_indices": [
+                            32
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Dhattura.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "41220381",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "41220381",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Dhattura"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "34",
+                        "fact_ids": [
+                            "f34"
+                        ],
+                        "record_indices": [
+                            33
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Dhattura.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "30466809",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "30466809",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Dhattura"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "35",
+                        "fact_ids": [
+                            "f35"
+                        ],
+                        "record_indices": [
+                            34
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Dhattura.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "",
+                                    "doi": "10.4103/jdras.jdras_45_21",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "",
+                                    "doi": "10.4103/jdras.jdras_45_21",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Dhattura"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "36",
+                        "fact_ids": [
+                            "f36"
+                        ],
+                        "record_indices": [
+                            35
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Dhattura.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "",
+                                    "doi": "10.4103/jdras.jdras_92_22",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "",
+                                    "doi": "10.4103/jdras.jdras_92_22",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Dhattura"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "37",
+                        "fact_ids": [
+                            "f37"
+                        ],
+                        "record_indices": [
+                            36
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Dhattura.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "165494",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "165494",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Dhattura"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "38",
+                        "fact_ids": [
+                            "f38"
+                        ],
+                        "record_indices": [
+                            37
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Dhattura.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "12951",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "12951",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Dhattura"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "39",
+                        "fact_ids": [
+                            "f39"
+                        ],
+                        "record_indices": [
+                            38
+                        ],
+                        "statement": "The available information records an association between Swedana and Purified Nerium indicum.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "22125956",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "22125956",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Purified Nerium indicum"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "40",
+                        "fact_ids": [
+                            "f40"
+                        ],
+                        "record_indices": [
+                            39
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Karavira.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "256996",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "256996",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Karavira"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "41",
+                        "fact_ids": [
+                            "f41"
+                        ],
+                        "record_indices": [
+                            40
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Karavira.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "258646",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "258646",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Karavira"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "42",
+                        "fact_ids": [
+                            "f42"
+                        ],
+                        "record_indices": [
+                            41
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Ativisha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "24156713",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "24156713",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Ativisha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "43",
+                        "fact_ids": [
+                            "f43"
+                        ],
+                        "record_indices": [
+                            42
+                        ],
+                        "statement": "The available information records an association between Swedana and Purified Aconitum.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "24156713",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "24156713",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Purified Aconitum"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "44",
+                        "fact_ids": [
+                            "f44"
+                        ],
+                        "record_indices": [
+                            43
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Haratala.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "35370377",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "35370377",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Haratala"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "45",
+                        "fact_ids": [
+                            "f45"
+                        ],
+                        "record_indices": [
+                            44
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Haratala.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "30466809",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "30466809",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Haratala"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "46",
+                        "fact_ids": [
+                            "f46"
+                        ],
+                        "record_indices": [
+                            45
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Haratala.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "",
+                                    "doi": "10.4103/bjhs.bjhs_70_21",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "",
+                                    "doi": "10.4103/bjhs.bjhs_70_21",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Haratala"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "47",
+                        "fact_ids": [
+                            "f47"
+                        ],
+                        "record_indices": [
+                            46
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Gandhaka.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "37506606",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "37506606",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Gandhaka"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "48",
+                        "fact_ids": [
+                            "f48"
+                        ],
+                        "record_indices": [
+                            47
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Mukta.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "26600667",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "26600667",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Mukta"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "49",
+                        "fact_ids": [
+                            "f49"
+                        ],
+                        "record_indices": [
+                            48
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Mukta.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "29269973",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "29269973",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Mukta"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "50",
+                        "fact_ids": [
+                            "f50"
+                        ],
+                        "record_indices": [
+                            49
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Mukta.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "",
+                                    "doi": "10.4103/asl.asl_89_24",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "",
+                                    "doi": "10.4103/asl.asl_89_24",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Mukta"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "51",
+                        "fact_ids": [
+                            "f51"
+                        ],
+                        "record_indices": [
+                            50
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Mukta.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "110460",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "110460",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Mukta"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "52",
+                        "fact_ids": [
+                            "f52"
+                        ],
+                        "record_indices": [
+                            51
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Tamra.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "23723677",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "23723677",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Tamra"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "53",
+                        "fact_ids": [
+                            "f53"
+                        ],
+                        "record_indices": [
+                            52
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Tamra.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "26730144",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "26730144",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Tamra"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "54",
+                        "fact_ids": [
+                            "f54"
+                        ],
+                        "record_indices": [
+                            53
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Tamra.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "23661863",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "23661863",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Tamra"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "55",
+                        "fact_ids": [
+                            "f55"
+                        ],
+                        "record_indices": [
+                            54
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Tamra.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "29249635",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "29249635",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Tamra"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "56",
+                        "fact_ids": [
+                            "f56"
+                        ],
+                        "record_indices": [
+                            55
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Tamra.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "38759538",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "38759538",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Tamra"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "57",
+                        "fact_ids": [
+                            "f57"
+                        ],
+                        "record_indices": [
+                            56
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Tamra.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "25948961",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "25948961",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Tamra"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "58",
+                        "fact_ids": [
+                            "f58"
+                        ],
+                        "record_indices": [
+                            57
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Tamra.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "",
+                                    "doi": "10.5005/jp-journals-10059-0037",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "",
+                                    "doi": "10.5005/jp-journals-10059-0037",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Tamra"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "59",
+                        "fact_ids": [
+                            "f59"
+                        ],
+                        "record_indices": [
+                            58
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Tamra.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "2201",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "2201",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Tamra"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "60",
+                        "fact_ids": [
+                            "f60"
+                        ],
+                        "record_indices": [
+                            59
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Praval.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "29269973",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "29269973",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Praval"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "61",
+                        "fact_ids": [
+                            "f61"
+                        ],
+                        "record_indices": [
+                            60
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Shankha.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "110460",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "110460",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Shankha"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "62",
+                        "fact_ids": [
+                            "f62"
+                        ],
+                        "record_indices": [
+                            61
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Kukkutanda Twak.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "22529653",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "22529653",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Kukkutanda Twak"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "63",
+                        "fact_ids": [
+                            "f63"
+                        ],
+                        "record_indices": [
+                            62
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Kukkutanda Twak.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "30254398",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "30254398",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Kukkutanda Twak"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "64",
+                        "fact_ids": [
+                            "f64"
+                        ],
+                        "record_indices": [
+                            63
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Mukta Shukti.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "108200",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "108200",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Mukta Shukti"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "65",
+                        "fact_ids": [
+                            "f65"
+                        ],
+                        "record_indices": [
+                            64
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Mukta Shukti.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "110460",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "110460",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Mukta Shukti"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "66",
+                        "fact_ids": [
+                            "f66"
+                        ],
+                        "record_indices": [
+                            65
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Kasisa.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "23284208",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "23284208",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Kasisa"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "67",
+                        "fact_ids": [
+                            "f67"
+                        ],
+                        "record_indices": [
+                            66
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Peet Karveer.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "242645",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "242645",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Peet Karveer"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "68",
+                        "fact_ids": [
+                            "f68"
+                        ],
+                        "record_indices": [
+                            67
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Shilajit.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "12463",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "12463",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Shilajit"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "69",
+                        "fact_ids": [
+                            "f69"
+                        ],
+                        "record_indices": [
+                            68
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Bhanga.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "5081",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "5081",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Bhanga"
+                        ],
+                        "attribution": "record"
+                    },
+                    {
+                        "id": "70",
+                        "fact_ids": [
+                            "f70"
+                        ],
+                        "record_indices": [
+                            69
+                        ],
+                        "statement": "The available information records an association between Swedana and Shodhita Raktagunja.",
+                        "scopes": [
+                            {
+                                "description": "Recorded properties for this association",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "76448",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "pubmed_id": "76448",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Swedana",
+                            "Shodhita Raktagunja"
+                        ],
+                        "attribution": "record"
+                    }
+                ],
+                "generation": {
+                    "mode": "fallback",
+                    "fallback_reason": "unsupported_claim",
+                    "latency_ms": 38812
+                }
+            },
+            "model_calls": [
+                {
+                    "status": "success",
+                    "text": "{\"sentences\":[{\"fact_id\":\"f1\",\"text\":\"Swedana is associated with Shodhita Jaypala, a purified compound produced by Swedana, recorded as an association, attributed to record, with Swedana and Shodhita Jaypala as required entities.\"},\n{\"fact_id\":\"f6\",\"text\":\"Swedana is associated with Shodhita Vatsanabha, a purified compound produced by Swedana, recorded as an association, attributed to record, with Swedana and Shodhita Vatsanabha as required entities.\"},\n{\"fact_id\":\"f10\",\"text\":\"Swedana is associated with Shodhita Gunja, a purified compound produced by Swedana, recorded as an association, attributed to record, with Swedana and Shodhita Gunja as required entities.\"},\n{\"fact_id\":\"f19\",\"text\":\"Swedana is associated with Shodhita Kupeelu, a purified compound produced by Swedana, recorded as an association, attributed to record, with Swedana and Shodhita Kupeelu as required entities.\"}]}",
+                    "model": "llama3.2"
+                },
+                {
+                    "status": "success",
+                    "text": "{\"reviews\":[\"supported\",\"unsupported\",\"supported\",\"supported\"]}",
+                    "model": "llama3.2"
+                }
+            ]
+        },
+        {
+            "question": "Which diseases use Laghu Sutshekhar with evidence?",
+            "context": {
+                "status": "success",
+                "question": "Which diseases use Laghu Sutshekhar with evidence?",
+                "routing": {
+                    "domain": "formulation",
+                    "intent": "provenance_formulation_therapy_disease",
+                    "entity": "Laghu Sutshekhar",
+                    "entity_type": "Formulation",
+                    "endpoint": "provenance_formulation_therapy_disease",
+                    "confidence": 0.9,
+                    "needs_clarification": false
+                },
+                "retrieval": {
+                    "status": "success",
+                    "entity": {
+                        "name": "Laghu Sutshekhar",
+                        "type": "Formulation"
+                    },
+                    "path": [
+                        "Formulation",
+                        "<- USES_FORMULATION",
+                        "Therapy",
+                        "<- TREATED_BY|PRE_TREATED_BY|POST_TREATED_BY",
+                        "Disease"
+                    ],
+                    "results": [
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#65:0",
+                                    "type": "Formulation",
+                                    "label": "Laghu Sutshekhar"
+                                },
+                                {
+                                    "id": "#69:52",
+                                    "type": "Therapy",
+                                    "label": "Oral Medication"
+                                },
+                                {
+                                    "id": "#45:35",
+                                    "type": "Disease",
+                                    "label": "Endometrioma"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#93:711",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#69:52",
+                                    "target": "#65:0",
+                                    "properties": {
+                                        "ref": "254496",
+                                        "Duration": "8 Weeks",
+                                        "Dose": "1 gm at bedtime"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "254496",
+                                        "doi": "",
+                                        "ayush_id": ""
+                                    }
+                                },
+                                {
+                                    "id": "#91:55",
+                                    "type": "POST_TREATED_BY",
+                                    "source": "#45:35",
+                                    "target": "#69:52",
+                                    "properties": {
+                                        "ref": "254496"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "254496",
+                                        "doi": "",
+                                        "ayush_id": ""
+                                    }
+                                }
+                            ],
+                            "matched_evidence": {
+                                "type": "pubmed_id",
+                                "value": "254496"
+                            },
+                            "phase": "POST_TREATED_BY",
+                            "related_entity": "Endometrioma",
+                            "related_type": "Disease"
+                        },
+                        {
+                            "nodes": [
+                                {
+                                    "id": "#65:0",
+                                    "type": "Formulation",
+                                    "label": "Laghu Sutshekhar"
+                                },
+                                {
+                                    "id": "#69:52",
+                                    "type": "Therapy",
+                                    "label": "Oral Medication"
+                                },
+                                {
+                                    "id": "#45:35",
+                                    "type": "Disease",
+                                    "label": "Endometrioma"
+                                }
+                            ],
+                            "edges": [
+                                {
+                                    "id": "#93:712",
+                                    "type": "USES_FORMULATION",
+                                    "source": "#69:52",
+                                    "target": "#65:0",
+                                    "properties": {
+                                        "ref": "36604296",
+                                        "Duration": "8 weeks",
+                                        "Dose": "250 mg twice"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "36604296",
+                                        "doi": "",
+                                        "ayush_id": ""
+                                    }
+                                },
+                                {
+                                    "id": "#91:54",
+                                    "type": "POST_TREATED_BY",
+                                    "source": "#45:35",
+                                    "target": "#69:52",
+                                    "properties": {
+                                        "ref": "36604296"
+                                    },
+                                    "evidence": {
+                                        "procedure": "",
+                                        "result": "",
+                                        "pubmed_id": "36604296",
+                                        "doi": "",
+                                        "ayush_id": ""
+                                    }
+                                }
+                            ],
+                            "matched_evidence": {
+                                "type": "pubmed_id",
+                                "value": "36604296"
+                            },
+                            "phase": "POST_TREATED_BY",
+                            "related_entity": "Endometrioma",
+                            "related_type": "Disease"
+                        }
+                    ]
+                },
+                "reason": null
+            },
+            "response": {
+                "status": "success",
+                "answer": "Here is what the available information records.\n\nLaghu Sutshekhar is used with Endometrioma in post-treatment with Oral Medication. [1]",
+                "answer_blocks": [
+                    {
+                        "text": "Laghu Sutshekhar is used with Endometrioma in post-treatment with Oral Medication.",
+                        "citation_ids": [
+                            "1"
+                        ]
+                    }
+                ],
+                "answer_intro": "Here is what the available information records.",
+                "citations": [
+                    {
+                        "id": "1",
+                        "fact_ids": [
+                            "f1"
+                        ],
+                        "record_indices": [
+                            0
+                        ],
+                        "statement": "Oral Medication is recorded as using Laghu Sutshekhar. Endometrioma is associated with post-treatment using Oral Medication. This is recorded as post-treatment.",
+                        "scopes": [
+                            {
+                                "description": "Oral Medication is recorded as using Laghu Sutshekhar.",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "254496",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "ref": "254496",
+                                    "Duration": "8 Weeks",
+                                    "Dose": "1 gm at bedtime"
+                                }
+                            },
+                            {
+                                "description": "Endometrioma is associated with post-treatment using Oral Medication.",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "254496",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "ref": "254496"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Laghu Sutshekhar",
+                            "Oral Medication",
+                            "Endometrioma"
+                        ],
+                        "attribution": "per_edge"
+                    },
+                    {
+                        "id": "2",
+                        "fact_ids": [
+                            "f2"
+                        ],
+                        "record_indices": [
+                            1
+                        ],
+                        "statement": "Oral Medication is recorded as using Laghu Sutshekhar. Endometrioma is associated with post-treatment using Oral Medication. This is recorded as post-treatment.",
+                        "scopes": [
+                            {
+                                "description": "Oral Medication is recorded as using Laghu Sutshekhar.",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "36604296",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "ref": "36604296",
+                                    "Duration": "8 weeks",
+                                    "Dose": "250 mg twice"
+                                }
+                            },
+                            {
+                                "description": "Endometrioma is associated with post-treatment using Oral Medication.",
+                                "identifiers": {
+                                    "procedure": "",
+                                    "result": "",
+                                    "pubmed_id": "36604296",
+                                    "doi": "",
+                                    "ayush_id": ""
+                                },
+                                "properties": {
+                                    "ref": "36604296"
+                                }
+                            }
+                        ],
+                        "entities": [
+                            "Laghu Sutshekhar",
+                            "Oral Medication",
+                            "Endometrioma"
+                        ],
+                        "attribution": "per_edge"
+                    }
+                ],
+                "generation": {
+                    "mode": "hybrid",
+                    "fallback_reason": null,
+                    "latency_ms": 11081
+                }
+            },
+            "model_calls": [
+                {
+                    "status": "success",
+                    "text": "{\"sentences\":[{\"fact_id\":\"f1\",\"text\":\"Laghu Sutshekhar is used with Endometrioma in post-treatment with Oral Medication.\"}]}",
+                    "model": "llama3.2"
+                },
+                {
+                    "status": "success",
+                    "text": "{\"reviews\":[\"supported\"]}",
+                    "model": "llama3.2"
+                }
+            ]
+        }
+    ]
+}

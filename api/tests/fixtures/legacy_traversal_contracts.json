@@ -1,0 +1,1047 @@
+{
+  "compound_media": {
+    "patterns": [
+      {
+        "input": [
+          "Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "out",
+            "types": [
+              "Shodhana_Method"
+            ]
+          },
+          {
+            "edges": [
+              "USES_MEDIA"
+            ],
+            "direction": "out",
+            "types": [
+              "Media"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/compound_media.php",
+    "evidence_correlation": true,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "compound_validation": {
+    "patterns": [
+      {
+        "input": [
+          "Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "out",
+            "types": [
+              "Shodhana_Method"
+            ]
+          },
+          {
+            "edges": [
+              "VALIDATED_BY"
+            ],
+            "direction": "out",
+            "types": [
+              "Confirmation_Study"
+            ]
+          }
+        ]
+      },
+      {
+        "input": [
+          "Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "out",
+            "types": [
+              "Shodhana_Method"
+            ]
+          },
+          {
+            "edges": [
+              "FOLLOWED_BY"
+            ],
+            "direction": "out",
+            "types": [
+              "Process"
+            ]
+          },
+          {
+            "edges": [
+              "VALIDATED_BY"
+            ],
+            "direction": "out",
+            "types": [
+              "Confirmation_Study"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/compound_validation.php",
+    "evidence_correlation": true,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records",
+    "optional_enrichment": {
+      "input": [
+        "Confirmation_Study"
+      ],
+      "steps": [
+        {
+          "edges": [
+            "CONFIRMS_SAFETY_OF"
+          ],
+          "direction": "out",
+          "types": [
+            "Purified_Compound"
+          ]
+        }
+      ],
+      "evidence_correlation": true
+    }
+  },
+  "compound_toxicity": {
+    "patterns": [
+      {
+        "input": [
+          "Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "CONTAINS"
+            ],
+            "direction": "out",
+            "types": [
+              "Toxic_Substance"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/compound_toxicity.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "compound_detoxification": {
+    "patterns": [
+      {
+        "input": [
+          "Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "out",
+            "types": [
+              "Shodhana_Method"
+            ]
+          },
+          {
+            "edges": [
+              "DETOXIFIES"
+            ],
+            "direction": "out",
+            "types": [
+              "Toxic_Substance"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/compound_detoxification.php",
+    "evidence_correlation": true,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "compound_purification": {
+    "patterns": [
+      {
+        "input": [
+          "Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "out",
+            "types": [
+              "Shodhana_Method"
+            ]
+          },
+          {
+            "edges": [
+              "PRODUCES"
+            ],
+            "direction": "out",
+            "types": [
+              "Purified_Compound"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/compound_purification.php",
+    "evidence_correlation": true,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "compound_therapeutic_use": {
+    "patterns": [
+      {
+        "input": [
+          "Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "out",
+            "types": [
+              "Shodhana_Method"
+            ]
+          },
+          {
+            "edges": [
+              "PRODUCES"
+            ],
+            "direction": "out",
+            "types": [
+              "Purified_Compound"
+            ]
+          },
+          {
+            "edges": [
+              "TREATS"
+            ],
+            "direction": "out",
+            "types": [
+              "Indication"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/compound_therapeutic_use.php",
+    "evidence_correlation": true,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "disease_symptoms": {
+    "patterns": [
+      {
+        "input": [
+          "Disease"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "HAS_SYMPTOM"
+            ],
+            "direction": "out",
+            "types": [
+              "Symptom"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/disease_symptoms.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "disease_therapy": {
+    "patterns": [
+      {
+        "input": [
+          "Disease"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "TREATED_BY",
+              "PRE_TREATED_BY",
+              "POST_TREATED_BY"
+            ],
+            "direction": "out",
+            "types": [
+              "Therapy"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/disease_therapy.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "integrated_compound_disease": {
+    "patterns": [
+      {
+        "input": [
+          "Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "out",
+            "types": [
+              "Shodhana_Method"
+            ]
+          },
+          {
+            "edges": [
+              "PRODUCES"
+            ],
+            "direction": "out",
+            "types": [
+              "Purified_Compound"
+            ]
+          },
+          {
+            "edges": [
+              "USED_FOR_TREATMENT"
+            ],
+            "direction": "out",
+            "types": [
+              "Disease"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/integrated_compound_disease.php",
+    "evidence_correlation": true,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "process_media": {
+    "patterns": [
+      {
+        "input": [
+          "Shodhana_Method"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "USES_MEDIA"
+            ],
+            "direction": "out",
+            "types": [
+              "Media"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/process_media.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "shodhana_method_validation": {
+    "patterns": [
+      {
+        "input": [
+          "Shodhana_Method"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "VALIDATED_BY"
+            ],
+            "direction": "out",
+            "types": [
+              "Confirmation_Study"
+            ]
+          }
+        ]
+      },
+      {
+        "input": [
+          "Shodhana_Method"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "FOLLOWED_BY"
+            ],
+            "direction": "out",
+            "types": [
+              "Process"
+            ]
+          },
+          {
+            "edges": [
+              "VALIDATED_BY"
+            ],
+            "direction": "out",
+            "types": [
+              "Confirmation_Study"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/shodhana_method_validation.php",
+    "evidence_correlation": true,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "indication_compound": {
+    "patterns": [
+      {
+        "input": [
+          "Indication"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "TREATS"
+            ],
+            "direction": "in",
+            "types": [
+              "Purified_Compound"
+            ]
+          },
+          {
+            "edges": [
+              "PRODUCES"
+            ],
+            "direction": "in",
+            "types": [
+              "Shodhana_Method"
+            ]
+          },
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "in",
+            "types": [
+              "Compound"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/indication_compound.php",
+    "evidence_correlation": true,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "toxic_substance_compound": {
+    "patterns": [
+      {
+        "input": [
+          "Toxic_Substance"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "CONTAINS"
+            ],
+            "direction": "in",
+            "types": [
+              "Compound"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/toxic_substance_compound.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "process_purified_compound": {
+    "patterns": [
+      {
+        "input": [
+          "Shodhana_Method"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "PRODUCES"
+            ],
+            "direction": "out",
+            "types": [
+              "Purified_Compound"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/process_purified_compound.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "confirmation_study_method": {
+    "patterns": [
+      {
+        "input": [
+          "Confirmation_Study"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "VALIDATED_BY"
+            ],
+            "direction": "in",
+            "types": [
+              "Shodhana_Method",
+              "Process"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/confirmation_study_method.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "confirmation_study_purified_compound": {
+    "patterns": [
+      {
+        "input": [
+          "Confirmation_Study"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "CONFIRMS_SAFETY_OF"
+            ],
+            "direction": "out",
+            "types": [
+              "Purified_Compound"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/confirmation_study_purified_compound.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "compound_purified_forms": {
+    "patterns": [
+      {
+        "input": [
+          "Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "DERIEVED_FROM"
+            ],
+            "direction": "in",
+            "types": [
+              "Purified_Compound"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/compound_purified_forms.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "formulation_compound": {
+    "patterns": [
+      {
+        "input": [
+          "Formulation",
+          "Ayurvedic_Formulation"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "USED_IN_FORMULATION"
+            ],
+            "direction": "in",
+            "types": [
+              "Purified_Compound"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/formulation_compound.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "ayurvedic_diagnosis_disease": {
+    "patterns": [
+      {
+        "input": [
+          "Ayurvedic_Diagnosis"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "HAS_AYURVEDIC_DIAGNOSIS"
+            ],
+            "direction": "in",
+            "types": [
+              "Disease"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/ayurvedic_diagnosis_disease.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "formulation_therapy": {
+    "patterns": [
+      {
+        "input": [
+          "Formulation"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "USES_FORMULATION"
+            ],
+            "direction": "in",
+            "types": [
+              "Therapy"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/formulation_therapy.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "assessment_disease": {
+    "patterns": [
+      {
+        "input": [
+          "Assessment_Parameter"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "ASSESS"
+            ],
+            "direction": "out",
+            "types": [
+              "Disease"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/assessment_disease.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "toxic_substance_method": {
+    "patterns": [
+      {
+        "input": [
+          "Toxic_Substance"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "DETOXIFIES"
+            ],
+            "direction": "in",
+            "types": [
+              "Shodhana_Method"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/toxic_substance_method.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "process_classification": {
+    "patterns": [
+      {
+        "input": [
+          "Shodhana_Method"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "CLASSIFIED_AS"
+            ],
+            "direction": "out",
+            "types": [
+              "Shodhana_Type"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/process_classification.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "classification_process": {
+    "patterns": [
+      {
+        "input": [
+          "Shodhana_Type"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "CLASSIFIED_AS"
+            ],
+            "direction": "in",
+            "types": [
+              "Shodhana_Method"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/classification_process.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "purified_compound_disease": {
+    "patterns": [
+      {
+        "input": [
+          "Purified_Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "USED_FOR_TREATMENT"
+            ],
+            "direction": "out",
+            "types": [
+              "Disease"
+            ]
+          }
+        ]
+      },
+      {
+        "input": [
+          "Purified_Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "TREATS"
+            ],
+            "direction": "out",
+            "types": [
+              "Indication"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/purified_compound_disease.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "purified_compound_formulation": {
+    "patterns": [
+      {
+        "input": [
+          "Purified_Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "USED_IN_FORMULATION"
+            ],
+            "direction": "out",
+            "types": [
+              "Formulation",
+              "Ayurvedic_Formulation"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/purified_compound_formulation.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "purified_compound_source": {
+    "patterns": [
+      {
+        "input": [
+          "Purified_Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "PRODUCES"
+            ],
+            "direction": "in",
+            "types": [
+              "Shodhana_Method"
+            ]
+          },
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "in",
+            "types": [
+              "Compound"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/purified_compound_source.php",
+    "evidence_correlation": true,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "purified_compound_validation": {
+    "patterns": [
+      {
+        "input": [
+          "Purified_Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "CONFIRMS_SAFETY_OF"
+            ],
+            "direction": "in",
+            "types": [
+              "Confirmation_Study"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/purified_compound_validation.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "integrated_disease_compound": {
+    "patterns": [
+      {
+        "input": [
+          "Disease"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "USED_FOR_TREATMENT",
+              "TREATS"
+            ],
+            "direction": "in",
+            "types": [
+              "Purified_Compound"
+            ]
+          },
+          {
+            "edges": [
+              "PRODUCES"
+            ],
+            "direction": "in",
+            "types": [
+              "Shodhana_Method"
+            ]
+          },
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "in",
+            "types": [
+              "Compound"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/integrated_disease_compound.php",
+    "evidence_correlation": true,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "disease_dosha": {
+    "patterns": [
+      {
+        "input": [
+          "Disease"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "HAS_DOSHA_IMBALANCE"
+            ],
+            "direction": "out",
+            "types": [
+              "Dosha"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/disease_dosha.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "disease_diagnosis": {
+    "patterns": [
+      {
+        "input": [
+          "Disease"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "HAS_AYURVEDIC_DIAGNOSIS"
+            ],
+            "direction": "out",
+            "types": [
+              "Ayurvedic_Diagnosis"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/disease_diagnosis.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "disease_assessment": {
+    "patterns": [
+      {
+        "input": [
+          "Disease"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "ASSESS"
+            ],
+            "direction": "in",
+            "types": [
+              "Assessment_Parameter"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/disease_assessment.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "symptoms_disease": {
+    "patterns": [
+      {
+        "input": [
+          "Symptom"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "HAS_SYMPTOM"
+            ],
+            "direction": "in",
+            "types": [
+              "Disease"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/symptoms_disease.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "therapy_disease": {
+    "patterns": [
+      {
+        "input": [
+          "Therapy"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "TREATED_BY",
+              "PRE_TREATED_BY",
+              "POST_TREATED_BY"
+            ],
+            "direction": "in",
+            "types": [
+              "Disease"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/therapy_disease.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "dosha_disease": {
+    "patterns": [
+      {
+        "input": [
+          "Dosha"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "HAS_DOSHA_IMBALANCE"
+            ],
+            "direction": "in",
+            "types": [
+              "Disease"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/dosha_disease.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
+  "process_compound": {
+    "patterns": [
+      {
+        "input": [
+          "Shodhana_Method"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "in",
+            "types": [
+              "Compound"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/process_compound.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  }
+}

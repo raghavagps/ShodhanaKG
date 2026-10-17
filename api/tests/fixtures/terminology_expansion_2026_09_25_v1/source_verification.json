@@ -1,0 +1,18 @@
+{
+  "nodes_scanned": 2534,
+  "mapped_nodes": 416,
+  "nodes_with_alternate_terms": 357,
+  "aliases_checked": 1311,
+  "hierarchy_paths_checked": 2511,
+  "errors": [],
+  "alternate_term_nodes_by_type": {
+    "Media": 47,
+    "Toxic_Substance": 8,
+    "Compound": 51,
+    "Disease": 42,
+    "Symptom": 58,
+    "Assessment_Parameter": 22,
+    "Confirmation_Study": 27,
+    "Indication": 102
+  }
+}

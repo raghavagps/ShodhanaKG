@@ -1,0 +1,4 @@
+# Python requirements for ShodhanaKG Deterministic Fidelity Evaluation
+
+# The custom evaluation scripts rely on pandas for data frame manipulation.
+pandas>=2.0.0

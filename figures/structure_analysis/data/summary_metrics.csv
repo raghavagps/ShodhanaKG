@@ -1,0 +1,24 @@
+metric,value
+Complete graph nodes,2534
+Complete graph edges,10123
+Disease domain nodes,1832
+Disease internal edges,5925
+Compound domain nodes,702
+Compound internal edges,4123
+Integration edge records,75
+Integration endpoint pairs,56
+Entity categories,17
+Distinct predicates,21
+Typed predicate connections,25
+Distinct directed endpoint pairs,6368
+Distinct directed predicate triples,6420
+Endpoint pairs with parallel records,1385
+Largest parallel-record count,56
+Instance self-loops,0
+Largest weak component nodes,2532
+Isolated nodes,2
+Distinct raw reference identifiers,410
+Diseases included in similarity matrix,134
+Structural node-sequence paths,1033
+Paths with common exact reference,52
+Exploratory community fits,120

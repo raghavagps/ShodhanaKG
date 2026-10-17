@@ -1,0 +1,372 @@
+{
+  "vertices": [
+    {
+      "type": "Therapy",
+      "domain": "Disease"
+    },
+    {
+      "type": "Media",
+      "domain": "Compound"
+    },
+    {
+      "type": "Shodhana_Method",
+      "domain": "Compound"
+    },
+    {
+      "type": "Process",
+      "domain": "Compound"
+    },
+    {
+      "type": "Purified_Compound",
+      "domain": "Compound"
+    },
+    {
+      "type": "Toxic_Substance",
+      "domain": "Compound"
+    },
+    {
+      "type": "Compound",
+      "domain": "Compound"
+    },
+    {
+      "type": "Disease",
+      "domain": "Disease"
+    },
+    {
+      "type": "Formulation",
+      "domain": "Disease"
+    },
+    {
+      "type": "Symptom",
+      "domain": "Disease"
+    },
+    {
+      "type": "Dosha",
+      "domain": "Disease"
+    },
+    {
+      "type": "Ayurvedic_Diagnosis",
+      "domain": "Disease"
+    },
+    {
+      "type": "Assessment_Parameter",
+      "domain": "Disease"
+    },
+    {
+      "type": "Confirmation_Study",
+      "domain": "Compound"
+    },
+    {
+      "type": "Indication",
+      "domain": "Compound"
+    },
+    {
+      "type": "Ayurvedic_Formulation",
+      "domain": "Compound"
+    },
+    {
+      "type": "Shodhana_Type",
+      "domain": "Compound"
+    }
+  ],
+  "edges": [
+    {
+      "type": "USES_FORMULATION",
+      "domain": "Disease",
+      "pairs": [
+        {
+          "source": "Therapy",
+          "target": "Formulation"
+        }
+      ],
+      "properties": [
+        "Adjuvant",
+        "Dose",
+        "Duration",
+        "ref"
+      ]
+    },
+    {
+      "type": "USES_MEDIA",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Process",
+          "target": "Media"
+        },
+        {
+          "source": "Shodhana_Method",
+          "target": "Media"
+        }
+      ],
+      "properties": [
+        "Procedure",
+        "ref"
+      ]
+    },
+    {
+      "type": "FOLLOWED_BY",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Process",
+          "target": "Process"
+        },
+        {
+          "source": "Shodhana_Method",
+          "target": "Process"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "PRODUCES",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Process",
+          "target": "Purified_Compound"
+        },
+        {
+          "source": "Shodhana_Method",
+          "target": "Purified_Compound"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "DETOXIFIES",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Shodhana_Method",
+          "target": "Toxic_Substance"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "UNDERGOES",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Compound",
+          "target": "Shodhana_Method"
+        }
+      ],
+      "properties": [
+        "Procedure",
+        "ref"
+      ]
+    },
+    {
+      "type": "TREATED_BY",
+      "domain": "Disease",
+      "pairs": [
+        {
+          "source": "Disease",
+          "target": "Therapy"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "PRE_TREATED_BY",
+      "domain": "Disease",
+      "pairs": [
+        {
+          "source": "Disease",
+          "target": "Therapy"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "POST_TREATED_BY",
+      "domain": "Disease",
+      "pairs": [
+        {
+          "source": "Disease",
+          "target": "Therapy"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "CONTAINS",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Compound",
+          "target": "Toxic_Substance"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "VALIDATED_BY",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Process",
+          "target": "Confirmation_Study"
+        },
+        {
+          "source": "Shodhana_Method",
+          "target": "Confirmation_Study"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "CONFIRMS_SAFETY_OF",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Confirmation_Study",
+          "target": "Purified_Compound"
+        }
+      ],
+      "properties": [
+        "Result",
+        "ref"
+      ]
+    },
+    {
+      "type": "TREATS",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Purified_Compound",
+          "target": "Indication"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "USED_FOR_TREATMENT",
+      "domain": "Integrated",
+      "pairs": [
+        {
+          "source": "Purified_Compound",
+          "target": "Disease"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "DERIEVED_FROM",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Purified_Compound",
+          "target": "Compound"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "USED_IN_FORMULATION",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Purified_Compound",
+          "target": "Ayurvedic_Formulation"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "HAS_SYMPTOM",
+      "domain": "Disease",
+      "pairs": [
+        {
+          "source": "Disease",
+          "target": "Symptom"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "HAS_DOSHA_IMBALANCE",
+      "domain": "Disease",
+      "pairs": [
+        {
+          "source": "Disease",
+          "target": "Dosha"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "HAS_AYURVEDIC_DIAGNOSIS",
+      "domain": "Disease",
+      "pairs": [
+        {
+          "source": "Disease",
+          "target": "Ayurvedic_Diagnosis"
+        }
+      ],
+      "properties": [
+        "ref"
+      ]
+    },
+    {
+      "type": "ASSESS",
+      "domain": "Disease",
+      "pairs": [
+        {
+          "source": "Assessment_Parameter",
+          "target": "Disease"
+        }
+      ],
+      "properties": [
+        "Outcome_Measure",
+        "ref"
+      ]
+    },
+    {
+      "type": "CLASSIFIED_AS",
+      "domain": "Compound",
+      "pairs": [
+        {
+          "source": "Shodhana_Method",
+          "target": "Shodhana_Type"
+        }
+      ],
+      "properties": [
+        "Media_Used",
+        "Procedure",
+        "ref"
+      ]
+    }
+  ]
+}

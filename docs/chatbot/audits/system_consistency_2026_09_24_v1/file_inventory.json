@@ -1,0 +1,460 @@
+{
+  "source_files": [
+    {
+      "path": "api/bridge-stats.php",
+      "change": "modified",
+      "sha256": "82b203147d8cdd6affa3ab670975ad843fadd65e0a39b12e8a5246d5783ac520"
+    },
+    {
+      "path": "api/chatbot_response.php",
+      "change": "modified",
+      "sha256": "c70646b49f3dd2f5cdae0355022cafea32338c9b552ae0737beb955296b7dacd"
+    },
+    {
+      "path": "api/compound-provenance.php",
+      "change": "modified",
+      "sha256": "b0ec7fc100defb46d25879bdb19162051e99587684efb65bac255ada7eb32a30"
+    },
+    {
+      "path": "api/compound_methods.php",
+      "change": "added",
+      "sha256": "61dba77eccaa3977372bd55eca3315ade5da049c0c4a7698cbf616ee6d9c1542"
+    },
+    {
+      "path": "api/core/ChatbotOrchestrator.php",
+      "change": "modified",
+      "sha256": "6c97bb416ac23d60ea23dcb994a3ba0ebf1c27f503d20d78dfe0bd5ade8a6d77"
+    },
+    {
+      "path": "api/core/ConversationContext.php",
+      "change": "added",
+      "sha256": "62c4407e36eda1c61406b626bedae047f1cf7332c93d0a2562dd6c38090a80b0"
+    },
+    {
+      "path": "api/core/ConversationalAnswer.php",
+      "change": "modified",
+      "sha256": "e68876d393c625f6889a1cbec72034343fc7f7314d1404ae53d17237b0ee2a17"
+    },
+    {
+      "path": "api/core/EdgePresentation.php",
+      "change": "added",
+      "sha256": "f15f85d38525268b4440cb3dc98971cded2c2185f1951f0d8465139214515ad3"
+    },
+    {
+      "path": "api/core/EvidenceAnswerBuilder.php",
+      "change": "modified",
+      "sha256": "55f7979711ee77778c1d3c17dfa441c44cb168f26f27e92a0333947e883ea08b"
+    },
+    {
+      "path": "api/core/EvidenceTraversal.php",
+      "change": "modified",
+      "sha256": "e4a7d289242c5b2b32e5ac21b7d993721d28bcd90e95462f9495447df752033e"
+    },
+    {
+      "path": "api/core/LegacyEvidence.php",
+      "change": "modified",
+      "sha256": "ba5acd9dbdf22bfb2c99de41d3fdfd569584ba70fee73dbbdeebaca827fa96ab"
+    },
+    {
+      "path": "api/core/LegacyProvenance.php",
+      "change": "modified",
+      "sha256": "077063f57df2f54ff140624f689c000c98820c2d39af2b7b74f273d65b39b4c5"
+    },
+    {
+      "path": "api/core/PathEvidence.php",
+      "change": "added",
+      "sha256": "9a5d60f80ca88be574b39c486b9a936a3d4c42775c834dc1caa81102e4e61474"
+    },
+    {
+      "path": "api/core/QuestionRouter.php",
+      "change": "modified",
+      "sha256": "058aed295b51ea0b9a9a5cd1b2f26380d7bbccab5cfa14c78f721b0ba27e3f42"
+    },
+    {
+      "path": "api/core/ResponseGenerator.php",
+      "change": "modified",
+      "sha256": "053afc461c15605876cbec8bae3b87f357b948b5a05eea09de1f02b005ba0d0b"
+    },
+    {
+      "path": "api/core/ResultsPresentation.php",
+      "change": "modified",
+      "sha256": "12353a2a1f0f3298ff3c1eb9df995c4977899b7b8afae211ea248acdb6469d29"
+    },
+    {
+      "path": "api/core/SemanticQuery.php",
+      "change": "added",
+      "sha256": "e89af030b1ca3e354def5774ada878ab163c3e446419139203b47cd276439492"
+    },
+    {
+      "path": "api/graph.php",
+      "change": "modified",
+      "sha256": "97aa9a8fc915622bf1786fb82c25a9ec00f592e4c1b92425488c4f3b569ccbb0"
+    },
+    {
+      "path": "api/graph_service.php",
+      "change": "modified",
+      "sha256": "058902df7c7e31ed456a388adef95376f104535fb9aaf364b727774795cbb3fa"
+    },
+    {
+      "path": "api/integrated_compound_disease.php",
+      "change": "modified",
+      "sha256": "af8d3627121acdf99d2350ed827eb2ab8c08ad8067cb9d3a21fade9ed3876a53"
+    },
+    {
+      "path": "api/integrated_disease_compound.php",
+      "change": "modified",
+      "sha256": "40cd68074e5f640eee614550c97f2f27d0ac5caa8edc38429feeac8c28f0c0a9"
+    },
+    {
+      "path": "api/node.php",
+      "change": "modified",
+      "sha256": "d482cc0ed53d35adf16187b884eb2f226461cc8dd43a128f8f6a50ac0227420f"
+    },
+    {
+      "path": "api/provenance-subgraph.php",
+      "change": "modified",
+      "sha256": "ca2632f0cac1224119b9b9df25dbeb1c0c734f8fbf6d808ae62061120f9f282b"
+    },
+    {
+      "path": "api/semantic_query.php",
+      "change": "added",
+      "sha256": "8bbb52632a750b2dd4d5b67ba35bfd2da55e724b801b6d2727e454d57f70a788"
+    },
+    {
+      "path": "api/tests/build_system_ground_truth.py",
+      "change": "added",
+      "sha256": "1bdb246b5982acb9137b2b1fb6270609daeee3135030bc411125945d5079933d"
+    },
+    {
+      "path": "api/tests/capture_system_properties.php",
+      "change": "added",
+      "sha256": "d65757121adcfa5ac4eb947f07ce8bd91c23948e8cd0bd18a567360deb9619d0"
+    },
+    {
+      "path": "api/tests/evaluate_legacy_evidence.py",
+      "change": "modified",
+      "sha256": "0c3da66c0bc0f2e33e1cb249c6bf8cb8f3aed3d486e186e5ea88847bd0f1d69c"
+    },
+    {
+      "path": "api/tests/evaluate_results_presentation.py",
+      "change": "modified",
+      "sha256": "219568922c8d6ea978a05a84cf792b4db6eb3b9c2bd97c55edbf770cb13bcc47"
+    },
+    {
+      "path": "api/tests/evaluate_system_consistency.py",
+      "change": "added",
+      "sha256": "ee72a8da41dbfc05f5e44127bb9c7f73105121e64838ca8dcb879c8e19c62ce9"
+    },
+    {
+      "path": "api/tests/provenance-subgraph.test.php",
+      "change": "modified",
+      "sha256": "78dab58d1e20d0d0980a77673d89f54cbe5ee69963ffa2eed196fa6ea5ff30b3"
+    },
+    {
+      "path": "api/tests/run_current_benchmark.py",
+      "change": "modified",
+      "sha256": "ebbdfe0de95902ed21deee04644f6b3eb4f7830a44fa38fffb262dd383d5fcbc"
+    },
+    {
+      "path": "api/tests/test_context_immutability.php",
+      "change": "modified",
+      "sha256": "5c80528e33b85b0fe274d7307c8a658005215fedd03102bac1d6e921db5d9b64"
+    },
+    {
+      "path": "api/tests/test_conversational_answer.php",
+      "change": "modified",
+      "sha256": "433bc92afc152ce970dddab5a41781e512077a57a7d1ccb507e088d540110bbb"
+    },
+    {
+      "path": "api/tests/test_semantic_contracts.php",
+      "change": "added",
+      "sha256": "9e7e3b4f81010b54c52dbf0943bca339971adc75aa003cdc0e45607e7b848d94"
+    },
+    {
+      "path": "api/tests/test_traversal_expansion.php",
+      "change": "modified",
+      "sha256": "f2112cf455b749d42c85ba9a67ca744a7e89607f8794cec8164fd8c4171f9856"
+    },
+    {
+      "path": "api/tests/write_system_audit_report.py",
+      "change": "added",
+      "sha256": "3bece26bdc6b28c996cb7d2987846b4b2eec731f6b5483c6232ad0601c769f88"
+    },
+    {
+      "path": "src/components/chatbot/ChatMessage.tsx",
+      "change": "modified",
+      "sha256": "02092055ff7364601e30574bdfa034220f7b66175d4d5821e1bec26e0d8ca2d0"
+    },
+    {
+      "path": "src/components/chatbot/ChatbotWidget.tsx",
+      "change": "modified",
+      "sha256": "7cdb15f8fb444fa1eac5ac5262f1eb81107c393712426448461263b511f4d261"
+    },
+    {
+      "path": "src/components/chatbot/ConversationContext.test.tsx",
+      "change": "added",
+      "sha256": "a70aa281e2e95936c0f58ea50cd3e3ebc05b51af8fda03518fa2f9bc6d88e8af"
+    },
+    {
+      "path": "src/components/chatbot/EvidenceRecords.tsx",
+      "change": "modified",
+      "sha256": "3f1524dbbb07b43f89e0286d9af92a310527a809778ceeb851400cf84f1d5f85"
+    },
+    {
+      "path": "src/components/chatbot/PaginationMessage.test.tsx",
+      "change": "added",
+      "sha256": "71508099f0cab23d1ec486a9e8aec661bcf72fe962e893f0f55d87ec5464fdab"
+    },
+    {
+      "path": "src/components/explorer/CompoundProvenancePanel.tsx",
+      "change": "modified",
+      "sha256": "2eeeb151068bdbf417d3b80bac14131a805e881600ace514985ae093c4f67d77"
+    },
+    {
+      "path": "src/components/explorer/DetailsPanel.tsx",
+      "change": "modified",
+      "sha256": "c11475076114e8a2e7ebb069d40db895a352457034e3f9c93b1147b341966df4"
+    },
+    {
+      "path": "src/components/explorer/EdgeProperties.test.tsx",
+      "change": "added",
+      "sha256": "10c16c6613f3a3ae956db580abb82ddd415547a8986d3b6e86e9c5cc229c1529"
+    },
+    {
+      "path": "src/components/explorer/EdgeProperties.tsx",
+      "change": "added",
+      "sha256": "2989a8efbe2ea6a7b003f532d3e46955526b4c8e48376ec6fc055a9fce40123a"
+    },
+    {
+      "path": "src/components/explorer/IntegratedPaths.test.tsx",
+      "change": "added",
+      "sha256": "bf321ec29d87de7e96a5d6f842f851e0596d8fc4212923a2b5f3f2fa52127653"
+    },
+    {
+      "path": "src/components/explorer/IntegratedPaths.tsx",
+      "change": "added",
+      "sha256": "8cbf481cf78d8e7dc30af9bafeb11ed00f25c8f35547703d2f93534b45068095"
+    },
+    {
+      "path": "src/components/explorer/ProvenancePanel.tsx",
+      "change": "modified",
+      "sha256": "272cf5d127893417a60eca4a3e7a6733cd39fa72968c0dd22fea39bec5c79993"
+    },
+    {
+      "path": "src/data/integratedGraph.ts",
+      "change": "modified",
+      "sha256": "ac53db32d7bf91aafeb4106496e5b5a82231a101ffde87b78b32947365f5e652"
+    },
+    {
+      "path": "src/lib/api.ts",
+      "change": "modified",
+      "sha256": "678969a78b370afa99f3bb382febae871246b4275d8cad0c718b56f65b7b9cb6"
+    },
+    {
+      "path": "src/lib/chatApi.ts",
+      "change": "modified",
+      "sha256": "0990b30794e6b3c862303b43488b5ec519ddcbef666ae1e6ab17c9f263f5c757"
+    },
+    {
+      "path": "src/lib/types.ts",
+      "change": "modified",
+      "sha256": "7460d7c48d125451de725b7bfd6669de3c325f38b93a10b6c8ee4989624cd116"
+    },
+    {
+      "path": "src/pages/explorers/IntegratedGraphView.tsx",
+      "change": "modified",
+      "sha256": "626f01707bdc28d0268ca9f08c66f8a6bb8c9cc5b65b71ea2ad538fcd7e61209"
+    },
+    {
+      "path": "tests/provenance.spec.ts",
+      "change": "modified",
+      "sha256": "fc2401352a5d8ced8fa7bdf84cb6ced712c0bad7e9b1335ee4c945e379a4a29a"
+    }
+  ],
+  "generated_artifacts": [
+    "api/tests/fixtures/chatbot_evaluation_cases_v4.json",
+    "api/tests/fixtures/expanded_factual_cases_v4.json",
+    "api/tests/fixtures/presentation_cases_v4.json",
+    "api/tests/fixtures/system_consistency_after_v1/answers.json",
+    "api/tests/fixtures/system_consistency_after_v1/answers_v4.json",
+    "api/tests/fixtures/system_consistency_after_v1/attribution.json",
+    "api/tests/fixtures/system_consistency_after_v1/attribution.log",
+    "api/tests/fixtures/system_consistency_after_v1/attribution_v4.json",
+    "api/tests/fixtures/system_consistency_after_v1/attribution_v4_final.json",
+    "api/tests/fixtures/system_consistency_after_v1/benchmark.json",
+    "api/tests/fixtures/system_consistency_after_v1/browser_complete.log",
+    "api/tests/fixtures/system_consistency_after_v1/browser_final.log",
+    "api/tests/fixtures/system_consistency_after_v1/build_complete.log",
+    "api/tests/fixtures/system_consistency_after_v1/build_final.log",
+    "api/tests/fixtures/system_consistency_after_v1/conversation.json",
+    "api/tests/fixtures/system_consistency_after_v1/conversation.log",
+    "api/tests/fixtures/system_consistency_after_v1/conversation_final.json",
+    "api/tests/fixtures/system_consistency_after_v1/conversation_final.log",
+    "api/tests/fixtures/system_consistency_after_v1/factual.json",
+    "api/tests/fixtures/system_consistency_after_v1/factual.log",
+    "api/tests/fixtures/system_consistency_after_v1/factual_v4.json",
+    "api/tests/fixtures/system_consistency_after_v1/factual_v4.log",
+    "api/tests/fixtures/system_consistency_after_v1/final_snapshot.json",
+    "api/tests/fixtures/system_consistency_after_v1/frontend_complete.log",
+    "api/tests/fixtures/system_consistency_after_v1/frontend_final.log",
+    "api/tests/fixtures/system_consistency_after_v1/lint_complete.log",
+    "api/tests/fixtures/system_consistency_after_v1/lint_final.log",
+    "api/tests/fixtures/system_consistency_after_v1/php_syntax.json",
+    "api/tests/fixtures/system_consistency_after_v1/php_units_final.json",
+    "api/tests/fixtures/system_consistency_after_v1/presentation.json",
+    "api/tests/fixtures/system_consistency_after_v1/presentation.log",
+    "api/tests/fixtures/system_consistency_after_v1/presentation_v4.json",
+    "api/tests/fixtures/system_consistency_after_v1/presentation_v4.log",
+    "api/tests/fixtures/system_consistency_after_v1/progress.json",
+    "api/tests/fixtures/system_consistency_after_v1/properties.json",
+    "api/tests/fixtures/system_consistency_after_v1/properties_v4.json",
+    "api/tests/fixtures/system_consistency_after_v1/provenance-subgraph.test.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/reference_classification.test.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/routing.log",
+    "api/tests/fixtures/system_consistency_after_v1/routing_complete.log",
+    "api/tests/fixtures/system_consistency_after_v1/routing_v4.log",
+    "api/tests/fixtures/system_consistency_after_v1/semantic_contracts.log",
+    "api/tests/fixtures/system_consistency_after_v1/semantic_contracts_final.log",
+    "api/tests/fixtures/system_consistency_after_v1/snapshot.json",
+    "api/tests/fixtures/system_consistency_after_v1/snapshot.log",
+    "api/tests/fixtures/system_consistency_after_v1/system.json",
+    "api/tests/fixtures/system_consistency_after_v1/system.log",
+    "api/tests/fixtures/system_consistency_after_v1/system_complete.json",
+    "api/tests/fixtures/system_consistency_after_v1/system_complete.log",
+    "api/tests/fixtures/system_consistency_after_v1/system_final.json",
+    "api/tests/fixtures/system_consistency_after_v1/system_final.log",
+    "api/tests/fixtures/system_consistency_after_v1/system_v4.json",
+    "api/tests/fixtures/system_consistency_after_v1/system_v4.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_chat_transport.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_chat_transport.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_context_immutability.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_conversation_memory.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_conversation_memory.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_conversation_routing.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_conversation_routing.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_conversational_answer.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_conversational_answer.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_evaluation_assertions.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_evaluation_assertions.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_evaluation_export.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_evaluation_export.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_evidence_answer_builder.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_evidence_answer_builder.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_evidence_correlator.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_evidence_correlator.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_legacy_evidence_presentation.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_legacy_evidence_presentation.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_response_validator.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_response_validator.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_response_validator_regression.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_response_validator_regression.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_results_presentation.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_results_presentation.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_traversal_expansion.php.final.log",
+    "api/tests/fixtures/system_consistency_after_v1/test_traversal_expansion.php.log",
+    "api/tests/fixtures/system_consistency_after_v1/typescript.log",
+    "api/tests/fixtures/system_consistency_after_v1/typescript_final.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/all_source_hashes.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/answers.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/attribution.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/attribution.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/benchmark.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/browser.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/build.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/conversation.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/conversation.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/factual.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/factual.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/frontend.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/lint.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/presentation.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/presentation.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/progress.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/property_audit.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/reported_examples.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/routing.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/snapshot.json",
+    "api/tests/fixtures/system_consistency_baseline_v1/snapshot.log",
+    "api/tests/fixtures/system_consistency_baseline_v1/source_before.zip",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/answers.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/attribution.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/attribution.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/benchmark.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/conversation.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/conversation.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/factual.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/factual.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/presentation.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/presentation.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/progress.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/routing.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/snapshot.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v1/snapshot.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/answers.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/attribution.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/attribution.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/benchmark.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/conversation.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/conversation.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/factual.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/factual.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/presentation.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/presentation.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/progress.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/routing.log",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/snapshot.json",
+    "api/tests/fixtures/system_consistency_final_benchmark_v2/snapshot.log",
+    "dist/.htaccess",
+    "dist/assets/CompoundGraphView-DnZuxRL0.js",
+    "dist/assets/CompoundProvenancePanel-CwqjjNCU.js",
+    "dist/assets/DiseaseGraphView-CnqQhZ5F.js",
+    "dist/assets/GraphCanvas-tXdLLbSB.js",
+    "dist/assets/IntegratedGraphView-4MnDWr_F.js",
+    "dist/assets/MultiAutocomplete-DgG179wi.js",
+    "dist/assets/index--aM_CSZM.css",
+    "dist/assets/index-DcZhVovy.js",
+    "dist/assets/useTranslatedGraph-r_CMDVhk.js",
+    "dist/graph_animation.html",
+    "dist/images/Sakshi_image.jpg",
+    "dist/images/help/01-homepage.png",
+    "dist/images/help/02-search-results.png",
+    "dist/images/help/03-compound-table-compound.png",
+    "dist/images/help/04-compound-table-shodhanamethod.png",
+    "dist/images/help/05-disease-table.png",
+    "dist/images/help/06-compound-graph.png",
+    "dist/images/help/07-compound-table.png",
+    "dist/images/help/07-integrated-graph.png",
+    "dist/images/help/08-disease-graph.png",
+    "dist/images/help/09-compound-homepage.png",
+    "dist/images/help/10-search-navigation-test.png",
+    "dist/images/pushpendra_image.jpeg",
+    "dist/images/raghava_image.jpg",
+    "dist/images/ritika_image.jpeg",
+    "dist/images/shodhanakg_abstract.jpg",
+    "dist/index.html",
+    "dist/robots.txt",
+    "docs/chatbot/audits/system_consistency_2026_09_24_v1/REPORT.md",
+    "docs/chatbot/audits/system_consistency_2026_09_24_v1/file_inventory.json",
+    "docs/chatbot/audits/system_consistency_2026_09_24_v1/metrics.json",
+    "playwright-report/data/02bef8a80cd4d4059921a3848bc39407e10ed74d.md",
+    "playwright-report/data/19a4419999f9261c86e899de82cb613e3ea1cef7.md",
+    "playwright-report/data/4ed5deacb0f7e95cdb8840cd2077ebf0343bbd0c.md",
+    "playwright-report/data/59097046c00765dbe40d35f080c05593bd095b74.md",
+    "playwright-report/data/780c58b9c1c1f5c573a060b448d474341760f2fd.md",
+    "playwright-report/data/929360a0c742ba3d601f37ad3995458f55d6d201.md",
+    "playwright-report/data/b8b8bb8906bfd9625efd80c903eca9421a1caf1e.md",
+    "playwright-report/data/b92f518685ffaff75190944b305207525f23c228.md",
+    "playwright-report/data/fb6f3a4ca72cf47d92c8635959623cd24cedbc76.md",
+    "playwright-report/index.html",
+    "test-results/.last-run.json",
+    "test-results/shodhanakg-ShodhanaKG-Expl-06740--has-no-horizontal-overflow-chromium/error-context.md",
+    "test-results/shodhanakg-ShodhanaKG-Expl-11197--has-no-horizontal-overflow-chromium/error-context.md",
+    "test-results/shodhanakg-ShodhanaKG-Expl-14b27--has-no-horizontal-overflow-chromium/error-context.md",
+    "test-results/shodhanakg-ShodhanaKG-Expl-2506c--has-no-horizontal-overflow-chromium/error-context.md",
+    "test-results/shodhanakg-ShodhanaKG-Expl-28a7a--has-no-horizontal-overflow-chromium/error-context.md",
+    "test-results/shodhanakg-ShodhanaKG-Expl-2b69f--has-no-horizontal-overflow-chromium/error-context.md",
+    "test-results/shodhanakg-ShodhanaKG-Expl-7871e--has-no-horizontal-overflow-chromium/error-context.md",
+    "test-results/shodhanakg-ShodhanaKG-Expl-9ec8a--has-no-horizontal-overflow-chromium/error-context.md",
+    "test-results/shodhanakg-ShodhanaKG-Expl-bd909--has-no-horizontal-overflow-chromium/error-context.md"
+  ]
+}

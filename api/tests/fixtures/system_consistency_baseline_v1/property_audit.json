@@ -1,0 +1,392 @@
+{
+  "scope": "All 52 registered endpoint factual cases; full frozen KG raw properties; source/UI inspection. Projected omissions are not automatically missing citations.",
+  "endpoint_coverage": {
+    "assessment_disease": {
+      "cases": 2,
+      "edge_scopes": 3,
+      "raw_property_mismatches": 0,
+      "projected_omissions": [
+        "Outcome_Measure"
+      ]
+    },
+    "ayurvedic_diagnosis_disease": {
+      "cases": 2,
+      "edge_scopes": 2,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "classification_process": {
+      "cases": 2,
+      "edge_scopes": 78,
+      "raw_property_mismatches": 0,
+      "projected_omissions": [
+        "Media_Used",
+        "Procedure"
+      ]
+    },
+    "compound_detoxification": {
+      "cases": 3,
+      "edge_scopes": 36,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "compound_media": {
+      "cases": 4,
+      "edge_scopes": 174,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "compound_purification": {
+      "cases": 4,
+      "edge_scopes": 54,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "compound_purified_forms": {
+      "cases": 2,
+      "edge_scopes": 10,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "compound_shodhana_process": {
+      "cases": 4,
+      "edge_scopes": 174,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "compound_therapeutic_use": {
+      "cases": 3,
+      "edge_scopes": 1467,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "compound_toxicity": {
+      "cases": 3,
+      "edge_scopes": 21,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "compound_validation": {
+      "cases": 4,
+      "edge_scopes": 119,
+      "raw_property_mismatches": 0,
+      "projected_omissions": [
+        "Result"
+      ]
+    },
+    "confirmation_study_method": {
+      "cases": 3,
+      "edge_scopes": 3,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "confirmation_study_purified_compound": {
+      "cases": 3,
+      "edge_scopes": 3,
+      "raw_property_mismatches": 0,
+      "projected_omissions": [
+        "Result"
+      ]
+    },
+    "disease_assessment": {
+      "cases": 2,
+      "edge_scopes": 7,
+      "raw_property_mismatches": 0,
+      "projected_omissions": [
+        "Outcome_Measure"
+      ]
+    },
+    "disease_diagnosis": {
+      "cases": 3,
+      "edge_scopes": 2,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "disease_dosha": {
+      "cases": 3,
+      "edge_scopes": 3,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "disease_formulation": {
+      "cases": 3,
+      "edge_scopes": 134,
+      "raw_property_mismatches": 0,
+      "projected_omissions": [
+        "Adjuvant",
+        "Dose",
+        "Duration"
+      ]
+    },
+    "disease_symptoms": {
+      "cases": 3,
+      "edge_scopes": 13,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "disease_therapy": {
+      "cases": 3,
+      "edge_scopes": 37,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "dosha_disease": {
+      "cases": 2,
+      "edge_scopes": 158,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "formulation_compound": {
+      "cases": 3,
+      "edge_scopes": 2,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "formulation_disease": {
+      "cases": 5,
+      "edge_scopes": 14,
+      "raw_property_mismatches": 0,
+      "projected_omissions": [
+        "Adjuvant",
+        "Dose",
+        "Duration"
+      ]
+    },
+    "formulation_therapy": {
+      "cases": 3,
+      "edge_scopes": 4,
+      "raw_property_mismatches": 0,
+      "projected_omissions": [
+        "Dose",
+        "Duration"
+      ]
+    },
+    "indication_compound": {
+      "cases": 3,
+      "edge_scopes": 21,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "integrated_compound_disease": {
+      "cases": 3,
+      "edge_scopes": 33,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "integrated_disease_compound": {
+      "cases": 3,
+      "edge_scopes": 31,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "media_compound": {
+      "cases": 4,
+      "edge_scopes": 112,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "media_process": {
+      "cases": 4,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "method_toxic_substance": {
+      "cases": 4,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "next_process_process": {
+      "cases": 4,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "process_classification": {
+      "cases": 3,
+      "edge_scopes": 70,
+      "raw_property_mismatches": 0,
+      "projected_omissions": [
+        "Media_Used",
+        "Procedure"
+      ]
+    },
+    "process_compound": {
+      "cases": 3,
+      "edge_scopes": 106,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "process_media": {
+      "cases": 3,
+      "edge_scopes": 137,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "process_next_process": {
+      "cases": 4,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "process_purified_compound": {
+      "cases": 4,
+      "edge_scopes": 96,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "process_shodhana_method": {
+      "cases": 4,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "provenance_compound_method_media": {
+      "cases": 4,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "provenance_disease_therapy_formulation": {
+      "cases": 3,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "provenance_formulation_therapy_disease": {
+      "cases": 5,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "provenance_media_method_compound": {
+      "cases": 4,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "purified_compound_disease": {
+      "cases": 3,
+      "edge_scopes": 20,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "purified_compound_formulation": {
+      "cases": 3,
+      "edge_scopes": 5,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "purified_compound_process": {
+      "cases": 3,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "purified_compound_source": {
+      "cases": 3,
+      "edge_scopes": 14,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "purified_compound_validation": {
+      "cases": 3,
+      "edge_scopes": 30,
+      "raw_property_mismatches": 0,
+      "projected_omissions": [
+        "Result"
+      ]
+    },
+    "shodhana_method_process": {
+      "cases": 4,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "shodhana_method_validation": {
+      "cases": 3,
+      "edge_scopes": 88,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "symptoms_disease": {
+      "cases": 2,
+      "edge_scopes": 6,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "therapy_disease": {
+      "cases": 3,
+      "edge_scopes": 88,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "therapy_formulation": {
+      "cases": 4,
+      "edge_scopes": 0,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "toxic_substance_compound": {
+      "cases": 2,
+      "edge_scopes": 7,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    },
+    "toxic_substance_method": {
+      "cases": 4,
+      "edge_scopes": 11,
+      "raw_property_mismatches": 0,
+      "projected_omissions": []
+    }
+  },
+  "observed_edge_property_pairs": [
+    {
+      "edge_type": "ASSESS",
+      "property": "Outcome_Measure",
+      "scopes": 10
+    },
+    {
+      "edge_type": "CLASSIFIED_AS",
+      "property": "Media_Used",
+      "scopes": 146
+    },
+    {
+      "edge_type": "CLASSIFIED_AS",
+      "property": "Procedure",
+      "scopes": 2
+    },
+    {
+      "edge_type": "CONFIRMS_SAFETY_OF",
+      "property": "Result",
+      "scopes": 69
+    },
+    {
+      "edge_type": "UNDERGOES",
+      "property": "Procedure",
+      "scopes": 3
+    },
+    {
+      "edge_type": "USES_FORMULATION",
+      "property": "Adjuvant",
+      "scopes": 17
+    },
+    {
+      "edge_type": "USES_FORMULATION",
+      "property": "Dose",
+      "scopes": 62
+    },
+    {
+      "edge_type": "USES_FORMULATION",
+      "property": "Duration",
+      "scopes": 69
+    },
+    {
+      "edge_type": "USES_MEDIA",
+      "property": "Procedure",
+      "scopes": 366
+    }
+  ],
+  "snapshot_edge_count": 10123
+}

@@ -1,0 +1,8888 @@
+{
+  "concepts": {
+    "C66153": {
+      "code": "C66153",
+      "parents": [
+        "C413"
+      ],
+      "synonyms": [
+        "Cow Milk",
+        "COW MILK",
+        "Milk"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Food"
+      ]
+    },
+    "C71963": {
+      "code": "C71963",
+      "parents": [
+        "C71962"
+      ],
+      "synonyms": [
+        "Lemon Juice",
+        "LEMON JUICE"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Food"
+      ]
+    },
+    "C80990": {
+      "code": "C80990",
+      "parents": [
+        "C79688"
+      ],
+      "synonyms": [
+        "Castor Oil",
+        "CASTOR OIL"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Organic Chemical"
+      ]
+    },
+    "C72806": {
+      "code": "C72806",
+      "parents": [
+        "C413"
+      ],
+      "synonyms": [
+        "Goat Milk",
+        "GOAT MILK"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Food"
+      ]
+    },
+    "C66537": {
+      "code": "C66537",
+      "parents": [
+        "C2562"
+      ],
+      "synonyms": [
+        "Sesame Oil",
+        "SESAME OIL",
+        "Sesamum Orientale Oil",
+        "Sesamum Orientale Seed Oil",
+        "Sesamum indicum Oil",
+        "Sesamum indicum Seed Oil",
+        "Zhi Ma Oil",
+        "Zhi Ma Seed Oil"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Food"
+      ]
+    },
+    "C72059": {
+      "code": "C72059",
+      "parents": [
+        "C413"
+      ],
+      "synonyms": [
+        "Buttermilk",
+        "BUTTERMILK"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Food"
+      ]
+    },
+    "C87421": {
+      "code": "C87421",
+      "parents": [
+        "C221"
+      ],
+      "synonyms": [
+        "Aconitine",
+        "(1Alpha,3Alpha,6Alpha,14Alpha,15Alpha,16Beta)-20-Ethyl-1,6,16-Trimethoxy-4-(Methoxymethyl)Aconitane-3,8,13,14,15-Pentol 8-Acetate 14-Benzoate",
+        "ACONITINE",
+        "Aconitinum"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Pharmacologic Substance"
+      ]
+    },
+    "C163576": {
+      "code": "C163576",
+      "parents": [
+        "C894"
+      ],
+      "synonyms": [
+        "Abrin",
+        "ABRIN"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Hazardous or Poisonous Substance"
+      ]
+    },
+    "C84183": {
+      "code": "C84183",
+      "parents": [
+        "C737"
+      ],
+      "synonyms": [
+        "Strychnine",
+        "STRYCHNINE"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Hazardous or Poisonous Substance",
+        "Organic Chemical"
+      ]
+    },
+    "C87455": {
+      "code": "C87455",
+      "parents": [
+        "C221"
+      ],
+      "synonyms": [
+        "Brucine",
+        "10,11-Dimethoxystrychnine",
+        "BRUCINE",
+        "Strychnidin-10-One, 2,3-Dimethoxy-"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Pharmacologic Substance"
+      ]
+    },
+    "C61674": {
+      "code": "C61674",
+      "parents": [
+        "C1551"
+      ],
+      "synonyms": [
+        "Choline",
+        "(2-Hydroxyethyl)trimethylammonium",
+        "2-hydroxyethyl-trimethyl-ammonium",
+        "CHOLINE",
+        "Vitamin J",
+        "choline"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Vitamin"
+      ]
+    },
+    "C47712": {
+      "code": "C47712",
+      "parents": [
+        "C29706",
+        "C29704"
+      ],
+      "synonyms": [
+        "Scopolamine",
+        "1alphaH,5alphaH-Tropan-3alpha-ol, 6beta,7beta-epoxy-,(-)-tropate(ester)",
+        "6,7-Epoxytropine Tropate",
+        "6beta,7beta-Epoxy-3alpha-tropanyl S-(-)-tropate",
+        "Atrochin",
+        "Benzeneacetic Acid, alpha-(hydroxymethyl)-,(1alpha,2beta,4beta,5alpha,7beta)-9-methyl-3-oxa-9-azatricyclo(3.3.1.02,4)non-7-yl ester,(alphaS)-",
+        "Epoxytropine Tropate",
+        "Hyoscine",
+        "SCOPOLAMINE",
+        "Scopoderm",
+        "Transderm Scop"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Pharmacologic Substance"
+      ]
+    },
+    "C29104": {
+      "code": "C29104",
+      "parents": [
+        "C29704"
+      ],
+      "synonyms": [
+        "Hyoscyamine",
+        "(-)-Atropine",
+        "(S)-Atropine",
+        "Benzeneacetic acid, alpha-(hydroxymethyl)-, 8-methyl-8-azabicyclo(3.2.1)oct-3-yl ester, (3(S)-endo)-",
+        "HYOSCYAMINE"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Pharmacologic Substance"
+      ]
+    },
+    "C90586": {
+      "code": "C90586",
+      "parents": [
+        "C129824"
+      ],
+      "synonyms": [
+        "Oleandrin",
+        "OLEANDRIN",
+        "PBI-05204"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Pharmacologic Substance"
+      ]
+    },
+    "C166377": {
+      "code": "C166377",
+      "parents": [
+        "C2189"
+      ],
+      "synonyms": [
+        "Plumbagin",
+        "PCUR 101",
+        "PCUR-101",
+        "PCUR101",
+        "PLUMBAGIN",
+        "Synthetic Plumbagin PCUR-101",
+        "Synthetic Plumbagin PCUR-101"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Pharmacologic Substance"
+      ]
+    },
+    "C29817": {
+      "code": "C29817",
+      "parents": [
+        "C79688",
+        "C45175"
+      ],
+      "synonyms": [
+        "Croton Oil",
+        "CROTON OIL"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Hazardous or Poisonous Substance"
+      ]
+    },
+    "C385": {
+      "code": "C385",
+      "parents": [
+        "C67421"
+      ],
+      "synonyms": [
+        "Colchicine",
+        "(S)-N-(5,6,7,9-Tetrahydro-1,2,3,10-tetramethoxy-9-oxobenzo[a]heptalen-7-yl)acetamide",
+        "(S)-N-(5,6,7,9-Tetrahydro-1,2,3,10-tetramethoxy-9-oxobenzo[a]heptalen-7-yl)acetamide",
+        "COLCHICINE",
+        "COLCHICINE",
+        "Colcrys",
+        "Mitigare",
+        "colchicine"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Organic Chemical",
+        "Pharmacologic Substance"
+      ]
+    },
+    "C72440": {
+      "code": "C72440",
+      "parents": [
+        "C14336"
+      ],
+      "synonyms": [
+        "Semecarpus anacardium",
+        "Markingnut Tree",
+        "SEMECARPUS ANACARDIUM WHOLE"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Plant"
+      ]
+    },
+    "C76209": {
+      "code": "C76209",
+      "parents": [
+        "C637"
+      ],
+      "synonyms": [
+        "Tin",
+        "C.I. 77860",
+        "Sn",
+        "TIN",
+        "Tin Element"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Element, Ion, or Isotope"
+      ]
+    },
+    "C2392": {
+      "code": "C2392",
+      "parents": [
+        "C637"
+      ],
+      "synonyms": [
+        "Gold",
+        "Au",
+        "GOLD"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Element, Ion, or Isotope"
+      ]
+    },
+    "C75672": {
+      "code": "C75672",
+      "parents": [
+        "C461"
+      ],
+      "synonyms": [
+        "Ferric Oxide Red",
+        "Anhydrous Ferric Oxide",
+        "Anhydrous Iron (III)",
+        "Colcothar",
+        "Diiron Trioxide",
+        "FERRIC OXIDE RED",
+        "Ferric Oxide",
+        "Ferric Oxide, Red",
+        "Indian Red",
+        "Iron Oxide, Red",
+        "Jeweler's Rouge",
+        "Mapico Red",
+        "Natural Red Oxide",
+        "Red Ferric Oxide",
+        "Red Ochre",
+        "Rubigo",
+        "Stone Red"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Indicator, Reagent, or Diagnostic Aid",
+        "Inorganic Chemical"
+      ]
+    },
+    "C84590": {
+      "code": "C84590",
+      "parents": [
+        "C637"
+      ],
+      "synonyms": [
+        "Silver",
+        "Ag",
+        "SILVER"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Element, Ion, or Isotope"
+      ]
+    },
+    "C50575": {
+      "code": "C50575",
+      "parents": [
+        "C35784"
+      ],
+      "synonyms": [
+        "Alopecia",
+        "Alopecia Areata",
+        "Hair Loss",
+        "Hair Loss",
+        "Hair Loss",
+        "alopecia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35784": {
+      "code": "C35784",
+      "parents": [
+        "C34656",
+        "C27555"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Hair Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34656": {
+      "code": "C34656",
+      "parents": [
+        "C3371"
+      ],
+      "synonyms": [
+        "Hair Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27555": {
+      "code": "C27555",
+      "parents": [
+        "C53531",
+        "C3371"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Skin Disorder",
+        "Non-Neoplastic Cutaneous Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3371": {
+      "code": "C3371",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Skin Disorder",
+        "Cutaneous Disorder",
+        "Dermatologic Disorder",
+        "Disorder of Skin",
+        "Skin Diseases and Manifestations",
+        "Skin Disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C53531": {
+      "code": "C53531",
+      "parents": [
+        "C53529"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Disorder by Site",
+        "Non-Neoplastic Disease by Site"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27551": {
+      "code": "C27551",
+      "parents": [
+        "C2991"
+      ],
+      "synonyms": [
+        "Disorder by Site",
+        "Disease by Site"
+      ],
+      "status": "Header_Concept",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C53529": {
+      "code": "C53529",
+      "parents": [
+        "C2991"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Disorder",
+        "NON-NEOPLASTIC",
+        "Non-Neoplastic Disease",
+        "Non-neoplastic Disorder",
+        "Non-neoplastic condition, NOS",
+        "Non-neoplastic disorder, NOS"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34373": {
+      "code": "C34373",
+      "parents": [
+        "C4802",
+        "C197818"
+      ],
+      "synonyms": [
+        "Amyotrophic Lateral Sclerosis",
+        "ALS",
+        "Amyotrophic lateral sclerosis",
+        "Lou Gehrig Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C4802": {
+      "code": "C4802",
+      "parents": [
+        "C27586",
+        "C27090"
+      ],
+      "synonyms": [
+        "Central Nervous System Degenerative Disorder",
+        "Central Nervous System Neurodegenerative Disorder",
+        "MSA1"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C197818": {
+      "code": "C197818",
+      "parents": [
+        "C27588"
+      ],
+      "synonyms": [
+        "Motor Neuron Disease",
+        "Motor neuron disease, unspecified"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27586": {
+      "code": "C27586",
+      "parents": [
+        "C2934",
+        "C27588"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Central Nervous System Disorder",
+        "Non-Neoplastic Central Nervous System Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27090": {
+      "code": "C27090",
+      "parents": [
+        "C53547"
+      ],
+      "synonyms": [
+        "Degenerative Disorder",
+        "Degenerative Disease",
+        "degenerative disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27588": {
+      "code": "C27588",
+      "parents": [
+        "C53531",
+        "C26835"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Nervous System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2934": {
+      "code": "C2934",
+      "parents": [
+        "C26835"
+      ],
+      "synonyms": [
+        "Central Nervous System Disorder",
+        "Central Nervous System Disease",
+        "Disorder of Central Nervous System"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C53547": {
+      "code": "C53547",
+      "parents": [
+        "C53529"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Disorder by Special Category",
+        "Non-Neoplastic Disease by Special Category"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26835": {
+      "code": "C26835",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Nervous System Disorder",
+        "Disorder of Nervous System",
+        "Neurologic Disorder",
+        "Neurologic Disorder",
+        "Neurological Disorder",
+        "Neurological Disorder",
+        "Unspecified Nervous System Problem"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C84564": {
+      "code": "C84564",
+      "parents": [
+        "C2889",
+        "C27204",
+        "C116778"
+      ],
+      "synonyms": [
+        "Ankylosing Spondylitis",
+        "Ankylosing spondylitis of unspecified sites in spine"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2889": {
+      "code": "C2889",
+      "parents": [
+        "C3507"
+      ],
+      "synonyms": [
+        "Autoimmune Disease",
+        "Autoimmune Disorder",
+        "Autoimmune Disorder",
+        "Autoimmune Disorder",
+        "Autoimmune disease",
+        "Autoimmune disorder",
+        "autoimmune disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27204": {
+      "code": "C27204",
+      "parents": [
+        "C3507"
+      ],
+      "synonyms": [
+        "Rheumatologic Disorder",
+        "Collagen Disease",
+        "Collagen Vascular Disease",
+        "Connective Tissue Disease",
+        "Inflammatory Rheumatism",
+        "Musculoskeletal Pain Disorder",
+        "Rheumatic Disease",
+        "Rheumatism",
+        "Rheumatism",
+        "Rheumatologic Disease",
+        "collagen disease",
+        "rheumatism"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C116778": {
+      "code": "C116778",
+      "parents": [
+        "C93210",
+        "C2883"
+      ],
+      "synonyms": [
+        "Spondyloarthritis",
+        "Seronegative Spondyloarthropathy",
+        "Spondylitis",
+        "Spondylitis",
+        "Spondyloarthropathy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3507": {
+      "code": "C3507",
+      "parents": [
+        "C27351"
+      ],
+      "synonyms": [
+        "Immune System Disorder",
+        "Disorder of Immune System",
+        "Immune Disorder",
+        "Immune Disorders",
+        "Immune Dysfunction",
+        "Immune disorder, NOS",
+        "Immunologic Disorder",
+        "Unspecified Immune System Problem"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C93210": {
+      "code": "C93210",
+      "parents": [
+        "C53547"
+      ],
+      "synonyms": [
+        "Inflammatory Disorder",
+        "Inflammatory Disease",
+        "Inflammatory_Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2883": {
+      "code": "C2883",
+      "parents": [
+        "C35760"
+      ],
+      "synonyms": [
+        "Arthritis",
+        "arthritis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27351": {
+      "code": "C27351",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Immune System and Related Disorders",
+        "Immunodeficiency and Immunosuppression Disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35760": {
+      "code": "C35760",
+      "parents": [
+        "C27572"
+      ],
+      "synonyms": [
+        "Arthropathy",
+        "Joint Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27572": {
+      "code": "C27572",
+      "parents": [
+        "C214795",
+        "C166355"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Bone Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C61283": {
+      "code": "C61283",
+      "parents": [
+        "C28193"
+      ],
+      "synonyms": [
+        "Antiphospholipid Syndrome",
+        "Antiphospholipid Antibody Syndrome",
+        "Antiphospholipid Antibody Syndrome",
+        "Antiphospholipid antibody syndrome"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C28193": {
+      "code": "C28193",
+      "parents": [
+        "C2991"
+      ],
+      "synonyms": [
+        "Syndrome",
+        "syndrome"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2991": {
+      "code": "C2991",
+      "parents": [
+        "C7057"
+      ],
+      "synonyms": [
+        "Disease or Disorder",
+        "Condition",
+        "Diagnosis",
+        "Disease",
+        "Disease",
+        "Disease or Disorder, Non-Neoplastic",
+        "Diseases",
+        "Diseases and Disorders",
+        "Disorder",
+        "Disorders",
+        "Other Disease",
+        "condition",
+        "disease",
+        "disease",
+        "disease term",
+        "disease type",
+        "disease_term",
+        "disease_type",
+        "disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C7057": {
+      "code": "C7057",
+      "parents": [],
+      "synonyms": [
+        "Disease, Disorder or Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Conceptual Entity"
+      ]
+    },
+    "C34841": {
+      "code": "C34841",
+      "parents": [
+        "C34880"
+      ],
+      "synonyms": [
+        "Avascular Necrosis of Bone",
+        "Avascular necrosis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34880": {
+      "code": "C34880",
+      "parents": [
+        "C27572"
+      ],
+      "synonyms": [
+        "Bone Necrosis",
+        "Osteonecrosis",
+        "Osteonecrosis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C214795": {
+      "code": "C214795",
+      "parents": [
+        "C26729",
+        "C107377"
+      ],
+      "synonyms": [
+        "Bone Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C166355": {
+      "code": "C166355",
+      "parents": [
+        "C26326",
+        "C107377"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Musculoskeletal Disorder",
+        "Non-Neoplastic Musculoskeletal System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26729": {
+      "code": "C26729",
+      "parents": [
+        "C27574"
+      ],
+      "synonyms": [
+        "Connective Tissue Disorder",
+        "Connective Tissue Disease",
+        "Connective Tissue Disease",
+        "Connective Tissue Diseases",
+        "Connective Tissue Disorders",
+        "Disorder of Connective Tissue",
+        "Primary Disorder of Connective Tissue"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C107377": {
+      "code": "C107377",
+      "parents": [
+        "C27574"
+      ],
+      "synonyms": [
+        "Musculoskeletal Disorder",
+        "Disorder of Musculoskeletal System",
+        "Musculoskeletal System Disorder",
+        "Musculoskeletal System Disorder",
+        "Musculoskeletal System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26326": {
+      "code": "C26326",
+      "parents": [
+        "C53531",
+        "C27574"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Connective and Soft Tissue Disorder",
+        "Non-Neoplastic Connective and Soft Tissue Disease",
+        "Non-Neoplastic Connective and Soft Tissue Diseases",
+        "Non-Neoplastic Connective and Soft Tissue Disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26769": {
+      "code": "C26769",
+      "parents": [
+        "C27594",
+        "C26941"
+      ],
+      "synonyms": [
+        "Facial Nerve Paralysis",
+        "Bell's Palsy",
+        "Bell's Palsy",
+        "Cranial Nerve VII Palsy",
+        "Cranial nerve palsy VII",
+        "Facial Nerve Palsy",
+        "Facial Nerve Palsy",
+        "Facial Nerve Palsy",
+        "Facial Palsy",
+        "Facial Palsy",
+        "Facial Paralysis",
+        "Facial nerve palsy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27594": {
+      "code": "C27594",
+      "parents": [
+        "C26733"
+      ],
+      "synonyms": [
+        "Facial Nerve Disorder",
+        "Facial nerve disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26941": {
+      "code": "C26941",
+      "parents": [
+        "C27036",
+        "C26733"
+      ],
+      "synonyms": [
+        "Cranial Nerve Paralysis",
+        "Cranial Nerve Palsy",
+        "Cranial nerve palsies"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26733": {
+      "code": "C26733",
+      "parents": [
+        "C26835"
+      ],
+      "synonyms": [
+        "Cranial Nerve Disorder",
+        "Cranial Nerve Disease",
+        "Cranial Nerve Disease",
+        "Cranial Neuropathy",
+        "Disorder of Cranial Nerve"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27036": {
+      "code": "C27036",
+      "parents": [
+        "C27588"
+      ],
+      "synonyms": [
+        "Nerve Paralysis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2897": {
+      "code": "C2897",
+      "parents": [
+        "C3613",
+        "C3113"
+      ],
+      "synonyms": [
+        "Benign Prostatic Hyperplasia",
+        "BPH",
+        "BPH",
+        "Benign Hyperplasia of Prostate",
+        "Benign Hyperplasia of the Prostate",
+        "Benign Prostate Hyperplasia",
+        "Benign Prostatic Hyperplasia - BPH",
+        "Benign Prostatic Hypertrophy",
+        "Prostate Adenoma",
+        "Prostatic Hyperplasia",
+        "benign prostatic hyperplasia",
+        "benign prostatic hypertrophy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3613": {
+      "code": "C3613",
+      "parents": [
+        "C4777",
+        "C3343"
+      ],
+      "synonyms": [
+        "Benign Prostate Neoplasm",
+        "Benign Neoplasm of Prostate",
+        "Benign Neoplasm of the Prostate",
+        "Benign Prostate Tumor",
+        "Benign Prostatic Neoplasm",
+        "Benign Tumor of Prostate",
+        "Benign Tumor of the Prostate"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3113": {
+      "code": "C3113",
+      "parents": [
+        "C53547"
+      ],
+      "synonyms": [
+        "Hyperplasia",
+        "HYPERPLASIA",
+        "Hyperplastic",
+        "Hyperplastic",
+        "hyperplasia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C4777": {
+      "code": "C4777",
+      "parents": [
+        "C7617",
+        "C3054"
+      ],
+      "synonyms": [
+        "Benign Male Reproductive System Neoplasm",
+        "Benign Male Reproductive System Tumor"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3343": {
+      "code": "C3343",
+      "parents": [
+        "C3054",
+        "C26865"
+      ],
+      "synonyms": [
+        "Prostate Neoplasm",
+        "Neoplasm of Prostate",
+        "Neoplasm of the Prostate",
+        "Prostate Tumor",
+        "Tumor of Prostate",
+        "Tumor of the Prostate"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C7617": {
+      "code": "C7617",
+      "parents": [
+        "C3674",
+        "C156483"
+      ],
+      "synonyms": [
+        "Benign Reproductive System Neoplasm"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3054": {
+      "code": "C3054",
+      "parents": [
+        "C3674",
+        "C27019"
+      ],
+      "synonyms": [
+        "Male Reproductive System Neoplasm",
+        "Male Reproductive System Tumor",
+        "Neoplasm of Male Reproductive System",
+        "Neoplasm of the Male Reproductive System",
+        "Tumor of Male Reproductive System",
+        "Tumor of the Male Reproductive System"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C26865": {
+      "code": "C26865",
+      "parents": [
+        "C27019"
+      ],
+      "synonyms": [
+        "Prostate Disorder",
+        "Prostate Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3674": {
+      "code": "C3674",
+      "parents": [
+        "C4875",
+        "C156482"
+      ],
+      "synonyms": [
+        "Reproductive System Neoplasm",
+        "Neoplasm of Reproductive System",
+        "Neoplasm of the Reproductive System",
+        "Reproductive Neoplasm",
+        "Reproductive System Tumor",
+        "Reproductive Tumor",
+        "Tumor of Reproductive System",
+        "Tumor of the Reproductive System"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C156483": {
+      "code": "C156483",
+      "parents": [
+        "C3677",
+        "C156482"
+      ],
+      "synonyms": [
+        "Benign Genitourinary System Neoplasm"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C27019": {
+      "code": "C27019",
+      "parents": [
+        "C4875"
+      ],
+      "synonyms": [
+        "Male Reproductive System Disorder",
+        "Disorder of Male Reproductive System",
+        "Male Reproductive System Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C115124": {
+      "code": "C115124",
+      "parents": [
+        "C62601"
+      ],
+      "synonyms": [
+        "Central Serous Chorioretinopathy",
+        "CSC",
+        "Central Serous Retinopathy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C62601": {
+      "code": "C62601",
+      "parents": [
+        "C27610"
+      ],
+      "synonyms": [
+        "Retinopathy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27610": {
+      "code": "C27610",
+      "parents": [
+        "C27604",
+        "C26875"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Retinal Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27604": {
+      "code": "C27604",
+      "parents": [
+        "C53531",
+        "C26767"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Eye Disorder",
+        "Non-Neoplastic Eye Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26875": {
+      "code": "C26875",
+      "parents": [
+        "C26767"
+      ],
+      "synonyms": [
+        "Retinal Disorder",
+        "Retinal Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26767": {
+      "code": "C26767",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Eye Disorder",
+        "Eye Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34460": {
+      "code": "C34460",
+      "parents": [
+        "C4802"
+      ],
+      "synonyms": [
+        "Cerebral Palsy",
+        "Cerebral palsy, unspecified"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C156348": {
+      "code": "C156348",
+      "parents": [
+        "C4731"
+      ],
+      "synonyms": [
+        "Chemotherapy-Induced Peripheral Neuropathy",
+        "CIPN",
+        "Chemotherapeutic Drug - Induced Peripheral Neuropathy",
+        "Chemotherapy-induced peripheral neuropathy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C4731": {
+      "code": "C4731",
+      "parents": [
+        "C26835"
+      ],
+      "synonyms": [
+        "Neuropathy",
+        "neuropathy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3163": {
+      "code": "C3163",
+      "parents": [
+        "C7539",
+        "C3483",
+        "C27911"
+      ],
+      "synonyms": [
+        "Chronic Lymphocytic Leukemia",
+        "B Cell CLL",
+        "B Cell Chronic Lymphocytic Leukemia",
+        "B Cell Lymphocytic Leukemia",
+        "B-Cell CLL",
+        "B-Cell Chronic Lymphocytic Leukemia",
+        "B-Cell Chronic Lymphoid Leukemia",
+        "B-Cell Lymphocytic Leukemia",
+        "BCLL",
+        "CLL",
+        "CLL",
+        "Chronic B-Cell Lymphocytic Leukemia",
+        "Chronic Lymphocytic Leukemia (CLL)",
+        "Chronic Lymphocytic Leukemia (CLL)",
+        "Chronic lymphatic leukemia",
+        "Chronic lymphocytic leukemia",
+        "Chronic lymphocytic leukemia",
+        "Chronic lymphocytic leukemia, NOS",
+        "Hematopoeitic - Chronic Lymphocytic Leukemia (CLL)",
+        "chronic lymphocytic leukemia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C7539": {
+      "code": "C7539",
+      "parents": [
+        "C7065",
+        "C3161"
+      ],
+      "synonyms": [
+        "Lymphoid Leukemia",
+        "LEUKEMIA, LYMPHOCYTIC, MALIGNANT",
+        "Lymphocytic Leukemia",
+        "Lymphocytic Leukemia",
+        "Lymphogenous Leukemia",
+        "Lymphoid leukemia, NOS",
+        "lymphocytic leukemia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3483": {
+      "code": "C3483",
+      "parents": [
+        "C3161"
+      ],
+      "synonyms": [
+        "Chronic Leukemia",
+        "Chronic leukemia, NOS",
+        "chronic leukemia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C27911": {
+      "code": "C27911",
+      "parents": [
+        "C27910",
+        "C188021"
+      ],
+      "synonyms": [
+        "Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma",
+        "B-cell lymphocytic leukemia/small lymphocytic lymphoma",
+        "CLL/SLL",
+        "CLL/SLL",
+        "chronic lymphocytic leukemia/small lymphocytic lymphoma"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C7065": {
+      "code": "C7065",
+      "parents": [
+        "C9308",
+        "C27134"
+      ],
+      "synonyms": [
+        "Lymphocytic Neoplasm",
+        "Lymphocytic Tumor",
+        "Lymphocytic and Plasma Cell Neoplasm",
+        "Lymphocytic and Plasma Cell Tumor",
+        "Lymphocytic and Plasma Cell Tumour",
+        "Lymphocytic and Plasmacytic Neoplasm",
+        "Lymphoid Neoplasm",
+        "Lymphoid Tumor",
+        "Lymphoid and Plasma Cell Tumor",
+        "Lymphoid and Plasma Cell Tumour",
+        "Lymphoid and Plasmacytic Neoplasm",
+        "Lymphoid and Plasmacytic Tumor",
+        "Lymphoid and Plasmacytic Tumour"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3161": {
+      "code": "C3161",
+      "parents": [
+        "C9305",
+        "C27134"
+      ],
+      "synonyms": [
+        "Leukemia",
+        "Blood (Leukemia)",
+        "Blood (Leukemia)",
+        "LEUKEMIA, MALIGNANT",
+        "Leukemia NOS",
+        "Leukemia, Disease",
+        "Leukemia, NOS",
+        "Leukemia, NOS",
+        "Leukemias",
+        "Leukemias, General",
+        "leukemia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C27910": {
+      "code": "C27910",
+      "parents": [
+        "C27907"
+      ],
+      "synonyms": [
+        "Mature B-Cell Neoplasm",
+        "Mature B-Cell Lymphocytic Neoplasm"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C188021": {
+      "code": "C188021",
+      "parents": [
+        "C9305",
+        "C27907"
+      ],
+      "synonyms": [
+        "B-Cell Malignant Neoplasm",
+        "B-Cell Malignancy",
+        "B-cell lymphoma"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C9308": {
+      "code": "C9308",
+      "parents": [
+        "C26323"
+      ],
+      "synonyms": [
+        "Lymphoproliferative Disorder",
+        "Lymphoproliferative Disease",
+        "Lymphoproliferative disease, NOS",
+        "Lymphoproliferative disorder",
+        "Lymphoproliferative disorder, NOS",
+        "lymphoproliferative disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27134": {
+      "code": "C27134",
+      "parents": [
+        "C4741",
+        "C35813",
+        "C26323"
+      ],
+      "synonyms": [
+        "Hematopoietic and Lymphoid Cell Neoplasm",
+        "HEMOLYMPHORETICULAR TUMOR, MALIGNANT",
+        "Hematologic Cancer",
+        "Hematologic Malignancy",
+        "Hematologic Neoplasm",
+        "Hematological Neoplasm",
+        "Hematological Neoplasm",
+        "Hematopoietic Neoplasm",
+        "Hematopoietic Neoplasms Including Lymphomas",
+        "Hematopoietic and Lymphoid Neoplasm",
+        "Hematopoietic malignancy, NOS",
+        "Malignant Hematologic Neoplasm",
+        "Malignant Hematopoietic Neoplasm",
+        "Malignant hematologic neoplasm",
+        "Malignant neoplasm of lymphoid, hematopoietic and related tissue, unspecified",
+        "hematologic cancer"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C9305": {
+      "code": "C9305",
+      "parents": [
+        "C7062"
+      ],
+      "synonyms": [
+        "Malignant Neoplasm",
+        "CA",
+        "CA",
+        "Cancer",
+        "Cancer",
+        "Cancer",
+        "Cancer",
+        "Cancer",
+        "Cancer",
+        "Malignancy",
+        "Malignancy",
+        "Malignancy",
+        "Malignancy",
+        "Malignant Growth",
+        "Malignant Neoplastic Disease",
+        "Malignant Tumor",
+        "Malignant Tumor",
+        "Malignant neoplasm",
+        "NEOPLASM, MALIGNANT",
+        "Neoplasm, malignant",
+        "Tumor, malignant, NOS",
+        "Unclassified tumor, malignant",
+        "cancer",
+        "malignancy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C27907": {
+      "code": "C27907",
+      "parents": [
+        "C7065",
+        "C179052"
+      ],
+      "synonyms": [
+        "B-Cell Neoplasm"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C26323": {
+      "code": "C26323",
+      "parents": [
+        "C35814"
+      ],
+      "synonyms": [
+        "Hematopoietic and Lymphoid Cell Disorder",
+        "Blood Disease",
+        "Blood Disorder",
+        "Hematologic Disorder",
+        "Hematologic Disorder",
+        "Hematologic and Lymphocytic Disorder",
+        "Hematologic and Lymphoid Cell Disorder",
+        "Hematological Disorder",
+        "Hematological Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C4741": {
+      "code": "C4741",
+      "parents": [
+        "C3262"
+      ],
+      "synonyms": [
+        "Neoplasm by Morphology",
+        "Tumor Morphology",
+        "Tumor_Morphology"
+      ],
+      "status": "Header_Concept",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C35813": {
+      "code": "C35813",
+      "parents": [
+        "C35814",
+        "C3263"
+      ],
+      "synonyms": [
+        "Hematopoietic and Lymphatic System Neoplasm",
+        "Hematopoietic and Lymphoid System Neoplasm",
+        "Hematopoietic and Lymphoid System Neoplasm",
+        "Hematopoietic and Lymphoid System Tumor",
+        "Neoplasm of uncertain behavior of lymphoid, hematopoietic and related tissue, unspecified"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C7062": {
+      "code": "C7062",
+      "parents": [
+        "C3262"
+      ],
+      "synonyms": [
+        "Neoplasm by Special Category"
+      ],
+      "status": "Header_Concept",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C179052": {
+      "code": "C179052",
+      "parents": [
+        "C9308"
+      ],
+      "synonyms": [
+        "B-Cell Lymphoproliferative Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35151": {
+      "code": "C35151",
+      "parents": [
+        "C35024"
+      ],
+      "synonyms": [
+        "Chronic Sinusitis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35024": {
+      "code": "C35024",
+      "parents": [
+        "C35733",
+        "C27657"
+      ],
+      "synonyms": [
+        "Sinusitis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35733": {
+      "code": "C35733",
+      "parents": [
+        "C27583"
+      ],
+      "synonyms": [
+        "Head and Neck Infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27657": {
+      "code": "C27657",
+      "parents": [
+        "C27656",
+        "C26843"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Paranasal Sinus Disorder",
+        "Non-Neoplastic Paranasal Sinus Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27583": {
+      "code": "C27583",
+      "parents": [
+        "C26726"
+      ],
+      "synonyms": [
+        "Infectious Disorder by Site"
+      ],
+      "status": "Header_Concept",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27656": {
+      "code": "C27656",
+      "parents": [
+        "C27663",
+        "C27647"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Sinonasal Disorder",
+        "Non-Neoplastic Nasal Cavity and Paranasal Sinus Disease",
+        "Non-Neoplastic Nasal Cavity and Paranasal Sinus Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26843": {
+      "code": "C26843",
+      "parents": [
+        "C27647"
+      ],
+      "synonyms": [
+        "Paranasal Sinus Disorder",
+        "Paranasal Sinus Disease",
+        "Sinus disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26726": {
+      "code": "C26726",
+      "parents": [
+        "C93210"
+      ],
+      "synonyms": [
+        "Infectious Disorder",
+        "Clinical Infection",
+        "ID",
+        "INFECTION",
+        "Infection",
+        "Infection",
+        "Infectious",
+        "Infectious Disease",
+        "Infectious Disease",
+        "Infectious Disease",
+        "Infectious Diseases and Manifestations",
+        "Unspecified Infection",
+        "infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27663": {
+      "code": "C27663",
+      "parents": [
+        "C53531",
+        "C27571"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Head and Neck Disorder",
+        "Non-Neoplastic Head and Neck Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27647": {
+      "code": "C27647",
+      "parents": [
+        "C118420"
+      ],
+      "synonyms": [
+        "Sinonasal Disorder",
+        "Nasal Cavity and Paranasal Sinus Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C171133": {
+      "code": "C171133",
+      "parents": [
+        "C181757"
+      ],
+      "synonyms": [
+        "COVID-19 Infection",
+        "2019-nCoV Infection",
+        "Acute COVID-19",
+        "Acute COVID-19 case",
+        "COVID-19",
+        "COVID-19",
+        "COVID-19 Virus Infection",
+        "HCoV-19 Infection",
+        "Human Coronavirus 2019 Infection",
+        "SARS Coronavirus 2 Infection",
+        "SARS-2 Infection",
+        "SARS-CoV-2 Disease",
+        "SARS-CoV-2 Infection",
+        "SARS-CoV2 Disease",
+        "SARS-CoV2 Infection",
+        "SARS2 Infection",
+        "Severe Acute Respiratory Syndrome Coronavirus 2 Infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C181757": {
+      "code": "C181757",
+      "parents": [
+        "C3439"
+      ],
+      "synonyms": [
+        "Coronavirus Infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3439": {
+      "code": "C3439",
+      "parents": [
+        "C26726"
+      ],
+      "synonyms": [
+        "Viral Infection",
+        "Other viral infection",
+        "Viral Disease",
+        "Viral Disease",
+        "Viral Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2982": {
+      "code": "C2982",
+      "parents": [
+        "C92200"
+      ],
+      "synonyms": [
+        "Depression",
+        "depression"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C92200": {
+      "code": "C92200",
+      "parents": [
+        "C2893"
+      ],
+      "synonyms": [
+        "Mood Disorder",
+        "Unspecified mood [affective] disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C2893": {
+      "code": "C2893",
+      "parents": [
+        "C2991"
+      ],
+      "synonyms": [
+        "Psychiatric Disorder",
+        "Mental Disorder",
+        "Mental Disorder",
+        "Mental Dysfunction",
+        "Mental Illness",
+        "Psychiatric Disease",
+        "Psychiatric disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C2985": {
+      "code": "C2985",
+      "parents": [
+        "C53655",
+        "C171128"
+      ],
+      "synonyms": [
+        "Diabetes Mellitus",
+        "DM",
+        "Diabetes",
+        "Diabetes",
+        "Diabetes",
+        "Diabetes",
+        "Diabetes mellitus",
+        "diabetes",
+        "diabetes mellitus"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C53655": {
+      "code": "C53655",
+      "parents": [
+        "C97089",
+        "C27565"
+      ],
+      "synonyms": [
+        "Glucose Metabolism Disorder",
+        "Disorder of Glucose Metabolism"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C171128": {
+      "code": "C171128",
+      "parents": [
+        "C53505",
+        "C27565",
+        "C27067"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Endocrine Pancreas Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C97089": {
+      "code": "C97089",
+      "parents": [
+        "C3235"
+      ],
+      "synonyms": [
+        "Carbohydrate Metabolism Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27565": {
+      "code": "C27565",
+      "parents": [
+        "C53531",
+        "C3009"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Endocrine Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C53505": {
+      "code": "C53505",
+      "parents": [
+        "C27550",
+        "C26842"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Pancreatic Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27067": {
+      "code": "C27067",
+      "parents": [
+        "C3009",
+        "C26842"
+      ],
+      "synonyms": [
+        "Endocrine Pancreas Disorder",
+        "Endocrine Pancreas Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3235": {
+      "code": "C3235",
+      "parents": [
+        "C53547"
+      ],
+      "synonyms": [
+        "Metabolic Disorder",
+        "Metabolic Disease",
+        "Metabolic Disease",
+        "metabolic disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3009": {
+      "code": "C3009",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Endocrine Disorder",
+        "Disorder of Endocrine System",
+        "Endocrine Disease",
+        "Endocrine Disease",
+        "Endocrine System Disorder",
+        "Endocrine System Disorder",
+        "Endocrine System Disorder",
+        "Endocrinopathy",
+        "Thyroid or other glandular disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27550": {
+      "code": "C27550",
+      "parents": [
+        "C53531",
+        "C2990"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Digestive System Disorder",
+        "Non-Neoplastic Gastrointestinal Disorder",
+        "Non-Neoplastic Gastrointestinal System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26842": {
+      "code": "C26842",
+      "parents": [
+        "C2990"
+      ],
+      "synonyms": [
+        "Pancreatic Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2990": {
+      "code": "C2990",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Digestive System Disorder",
+        "Digestive Disease",
+        "Digestive Disease",
+        "Digestive System Disease",
+        "Disorder of Digestive System",
+        "GI Disorder",
+        "Gastrointestinal Disorder",
+        "Gastrointestinal Disorder",
+        "Gastrointestinal System Disease",
+        "Gastrointestinal System Disorder",
+        "Unspecified Gastrointestinal Problem",
+        "stomach or intestinal disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34538": {
+      "code": "C34538",
+      "parents": [
+        "C84420",
+        "C62601",
+        "C35170"
+      ],
+      "synonyms": [
+        "Diabetic Retinopathy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C84420": {
+      "code": "C84420",
+      "parents": [
+        "C27604"
+      ],
+      "synonyms": [
+        "Diabetic Eye Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35170": {
+      "code": "C35170",
+      "parents": [
+        "C35664",
+        "C27610"
+      ],
+      "synonyms": [
+        "Retinal Vascular Disorder",
+        "Retinal vascular disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35664": {
+      "code": "C35664",
+      "parents": [
+        "C35740",
+        "C27604"
+      ],
+      "synonyms": [
+        "Ocular Vascular Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35740": {
+      "code": "C35740",
+      "parents": [
+        "C35117",
+        "C27672"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Vascular Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35117": {
+      "code": "C35117",
+      "parents": [
+        "C2931"
+      ],
+      "synonyms": [
+        "Vascular Disorder",
+        "Unspecified Vascular Problem",
+        "Vascular Disease",
+        "Vascular disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27672": {
+      "code": "C27672",
+      "parents": [
+        "C53531",
+        "C2931"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Cardiovascular Disorder",
+        "Non-Neoplastic Cardiovascular Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34559": {
+      "code": "C34559",
+      "parents": [
+        "C34815"
+      ],
+      "synonyms": [
+        "Dysmenorrhea"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34815": {
+      "code": "C34815",
+      "parents": [
+        "C27627"
+      ],
+      "synonyms": [
+        "Menstrual Disorder",
+        "Menstrual Cycle dysfunction",
+        "Menstrual Problem",
+        "Menstrual Problem"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27627": {
+      "code": "C27627",
+      "parents": [
+        "C27612",
+        "C26841"
+      ],
+      "synonyms": [
+        "Ovarian Non-Neoplastic Disorder",
+        "Ovarian Non-Neoplastic Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27612": {
+      "code": "C27612",
+      "parents": [
+        "C27613",
+        "C27020"
+      ],
+      "synonyms": [
+        "Female Non-Neoplastic Reproductive System Disorder",
+        "Female Non-Neoplastic Reproductive System Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26841": {
+      "code": "C26841",
+      "parents": [
+        "C27020"
+      ],
+      "synonyms": [
+        "Ovarian Disorder",
+        "Ovarian Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27613": {
+      "code": "C27613",
+      "parents": [
+        "C4875",
+        "C156664"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Reproductive System Disorder",
+        "Non-Neoplastic Reproductive System Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27020": {
+      "code": "C27020",
+      "parents": [
+        "C4875"
+      ],
+      "synonyms": [
+        "Female Reproductive System Disorder",
+        "Female Reproductive System Disease",
+        "Gynecological Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3001": {
+      "code": "C3001",
+      "parents": [
+        "C2983"
+      ],
+      "synonyms": [
+        "Eczema",
+        "Eczematous Dermatitis",
+        "Eczematous Dermatitis",
+        "eczema"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2983": {
+      "code": "C2983",
+      "parents": [
+        "C27554"
+      ],
+      "synonyms": [
+        "Dermatitis",
+        "Inflammation of Skin",
+        "Inflammation of the Skin",
+        "Skin Inflammation",
+        "Skin Inflammation/ Irritation",
+        "dermatitis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27554": {
+      "code": "C27554",
+      "parents": [
+        "C27555"
+      ],
+      "synonyms": [
+        "Dermatosis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C67383": {
+      "code": "C67383",
+      "parents": [
+        "C53543",
+        "C27555",
+        "C156032"
+      ],
+      "synonyms": [
+        "Epidermolysis Bullosa",
+        "epidermolysis bullosa"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C53543": {
+      "code": "C53543",
+      "parents": [
+        "C53547",
+        "C4873"
+      ],
+      "synonyms": [
+        "Rare Non-Neoplastic Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C156032": {
+      "code": "C156032",
+      "parents": [
+        "C97174"
+      ],
+      "synonyms": [
+        "Genodermatosis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C4873": {
+      "code": "C4873",
+      "parents": [
+        "C2991"
+      ],
+      "synonyms": [
+        "Rare Disorder",
+        "Rare Disease",
+        "Rare Diseases"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C97174": {
+      "code": "C97174",
+      "parents": [
+        "C97151",
+        "C3371"
+      ],
+      "synonyms": [
+        "Congenital Skin Disorder",
+        "Congenital Abnormality of the Skin"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C97151": {
+      "code": "C97151",
+      "parents": [
+        "C2849"
+      ],
+      "synonyms": [
+        "Congenital Systemic Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2849": {
+      "code": "C2849",
+      "parents": [
+        "C36287"
+      ],
+      "synonyms": [
+        "Congenital Abnormality",
+        "Birth Defect",
+        "CONGENITAL DEFECT/DEFORMITY",
+        "Congenital Anatomic Abnormality",
+        "Congenital Anatomical Abnormality",
+        "Congenital Anomalies of Fetus",
+        "Congenital Anomaly",
+        "Congenital Anomaly",
+        "Congenital Anomaly or Birth Defect",
+        "Congenital Defect",
+        "Congenital Defect/Deformity",
+        "Congenital Deformity",
+        "Congenital Deformity",
+        "Congenital Malformation",
+        "Congenital Malformation",
+        "DEFECT/DEFORMITY, CONGENITAL",
+        "SCONG"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Congenital Abnormality",
+        "Disease or Syndrome"
+      ]
+    },
+    "C4024": {
+      "code": "C4024",
+      "parents": [
+        "C3513",
+        "C2929"
+      ],
+      "synonyms": [
+        "Esophageal Squamous Cell Carcinoma",
+        "ESCC",
+        "Esophageal Epidermoid Carcinoma",
+        "Esophageal SCC",
+        "Esophageal Squamous Cell Cancer",
+        "Esophageal squamous cell carcinoma",
+        "Esophagus SCC",
+        "Esophagus Squamous Cell Carcinoma",
+        "SCC of Esophagus",
+        "SCC of the Esophagus",
+        "Squamous Cell Carcinoma of Esophagus",
+        "Squamous Cell Carcinoma of the Esophagus",
+        "Squamous cell car. - esophagus",
+        "Squamous cell carcinoma of the esophagus"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3513": {
+      "code": "C3513",
+      "parents": [
+        "C7478",
+        "C203673"
+      ],
+      "synonyms": [
+        "Esophageal Carcinoma",
+        "Carcinoma of Esophagus",
+        "Carcinoma of the Esophagus",
+        "ESCA",
+        "Esophageal Cancer",
+        "Esophageal Cancer",
+        "Esophageal cancer",
+        "Esophageal cancer, NOS",
+        "Esophagus Carcinoma",
+        "esophageal cancer"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C2929": {
+      "code": "C2929",
+      "parents": [
+        "C3792",
+        "C2916"
+      ],
+      "synonyms": [
+        "Squamous Cell Carcinoma",
+        "CARCINOMA, SQUAMOUS CELL, MALIGNANT",
+        "Epidermoid Carcinoma",
+        "Epidermoid Carcinoma",
+        "Epidermoid Cell Cancer",
+        "Epidermoid Cell Cancer",
+        "Epidermoid carcinoma, NOS",
+        "Malignant Epidermoid Cell Neoplasm",
+        "Malignant Epidermoid Cell Neoplasm",
+        "Malignant Epidermoid Cell Tumor",
+        "Malignant Epidermoid Cell Tumor",
+        "Malignant Squamous Cell Neoplasm",
+        "Malignant Squamous Cell Neoplasm",
+        "Malignant Squamous Cell Tumor",
+        "Malignant Squamous Cell Tumor",
+        "SCC",
+        "Squamous Carcinoma",
+        "Squamous Carcinoma",
+        "Squamous Cell Cancer",
+        "Squamous Cell Cancer",
+        "Squamous Cell Carcinoma, conventional",
+        "Squamous Cell Epithelioma",
+        "Squamous Cell Epithelioma",
+        "Squamous carcinoma",
+        "Squamous cell carcinoma, NOS",
+        "Squamous cell epithelioma",
+        "epidermoid carcinoma",
+        "squamous cell carcinoma"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C7478": {
+      "code": "C7478",
+      "parents": [
+        "C4890",
+        "C3028"
+      ],
+      "synonyms": [
+        "Malignant Esophageal Neoplasm",
+        "Cancer of Esophagus",
+        "Cancer of the Esophagus",
+        "Esophageal Cancer",
+        "Malignant Esophageal Tumor",
+        "Malignant Esophagus Tumor",
+        "Malignant Neoplasm of Esophagus",
+        "Malignant Neoplasm of the Esophagus",
+        "Malignant Tumor of Esophagus",
+        "Malignant Tumor of the Esophagus",
+        "Malignant neoplasm of esophagus, unspecified"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C203673": {
+      "code": "C203673",
+      "parents": [
+        "C96963"
+      ],
+      "synonyms": [
+        "Esophageal and Gastroesophageal Junction Carcinoma",
+        "Carcinoma of Esophagus and Gastroesophageal Junction"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3792": {
+      "code": "C3792",
+      "parents": [
+        "C3709"
+      ],
+      "synonyms": [
+        "Squamous Cell Neoplasm",
+        "Epidermoid Cell Neoplasm",
+        "Epidermoid Cell Tumor",
+        "Squamous Cell Neoplasms",
+        "Squamous Cell Tumor"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C2916": {
+      "code": "C2916",
+      "parents": [
+        "C9305",
+        "C3709"
+      ],
+      "synonyms": [
+        "Carcinoma",
+        "CARCINOMA, MALIGNANT",
+        "Carcinoma, NOS",
+        "Carcinoma, NOS",
+        "Epithelial Carcinoma",
+        "Epithelial tumor, malignant",
+        "Epithelioma Malignant",
+        "Malignant Epithelial Neoplasm",
+        "Malignant Epithelial Neoplasm",
+        "Malignant Epithelial Tumor",
+        "Malignant Epithelial Tumor",
+        "Malignant Epithelioma",
+        "Malignant Epithelioma",
+        "Other Carcinoma",
+        "carcinoma",
+        "epithelial carcinoma"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C4890": {
+      "code": "C4890",
+      "parents": [
+        "C9305",
+        "C3052"
+      ],
+      "synonyms": [
+        "Malignant Digestive System Neoplasm",
+        "Digestive System Cancer",
+        "Gastrointestinal Cancer",
+        "Gastrointestinal System Cancer",
+        "Gastrointestinal cancer",
+        "Gastrointestinal cancer, NOS",
+        "Malignant Gastrointestinal Neoplasm",
+        "Malignant Gastrointestinal Neoplasm",
+        "Malignant Gastrointestinal Neoplasm",
+        "Malignant Gastrointestinal System Neoplasm"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3028": {
+      "code": "C3028",
+      "parents": [
+        "C3052",
+        "C3027"
+      ],
+      "synonyms": [
+        "Esophageal Neoplasm",
+        "Esophageal Neoplasms, Benign and Malignant",
+        "Esophageal Tumor",
+        "Esophageal Tumors",
+        "Esophagus Neoplasm",
+        "Esophagus Tumor",
+        "Neoplasm of Esophagus",
+        "Neoplasm of the Esophagus",
+        "Tumor of Esophagus",
+        "Tumor of the Esophagus"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C96963": {
+      "code": "C96963",
+      "parents": [
+        "C4890",
+        "C2916"
+      ],
+      "synonyms": [
+        "Digestive System Carcinoma",
+        "Carcinoma of the Gastrointestinal System",
+        "Gastrointestinal System Carcinoma"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3709": {
+      "code": "C3709",
+      "parents": [
+        "C4741"
+      ],
+      "synonyms": [
+        "Epithelial Neoplasm",
+        "Epithelial Neoplasms, NOS",
+        "Epithelial Neoplasms, NOS",
+        "Epithelioma",
+        "Epithelioma, malignant"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3052": {
+      "code": "C3052",
+      "parents": [
+        "C3263",
+        "C2990"
+      ],
+      "synonyms": [
+        "Digestive System Neoplasm",
+        "Digestive Neoplasm",
+        "Digestive System Tumor",
+        "Digestive Tumor",
+        "GI Neoplasm",
+        "GI System Neoplasm",
+        "GI System Tumor",
+        "GI Tumor",
+        "Gastrointestinal Neoplasm",
+        "Gastrointestinal System Neoplasm",
+        "Gastrointestinal System Tumor",
+        "Gastrointestinal Tumor",
+        "Neoplasm of Digestive System",
+        "Neoplasm of GI System",
+        "Neoplasm of Gastrointestinal System",
+        "Neoplasm of the Digestive System",
+        "Neoplasm of the GI System",
+        "Neoplasm of the Gastrointestinal System",
+        "Tumor of Digestive System",
+        "Tumor of GI System",
+        "Tumor of Gastrointestinal System",
+        "Tumor of the Digestive System",
+        "Tumor of the GI System",
+        "Tumor of the Gastrointestinal System"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3027": {
+      "code": "C3027",
+      "parents": [
+        "C2990"
+      ],
+      "synonyms": [
+        "Esophageal Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26782": {
+      "code": "C26782",
+      "parents": [
+        "C27604"
+      ],
+      "synonyms": [
+        "Glaucoma",
+        "glaucoma"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C116345": {
+      "code": "C116345",
+      "parents": [
+        "C99383",
+        "C28193",
+        "C26790",
+        "C189005"
+      ],
+      "synonyms": [
+        "Guillain-Barre Syndrome",
+        "GBS",
+        "Guillain Barre Syndrome",
+        "Guillain Barré Syndrome",
+        "Guillain-Barré Syndrome",
+        "Guillain-Barré syndrome"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C99383": {
+      "code": "C99383",
+      "parents": [
+        "C2889",
+        "C27588"
+      ],
+      "synonyms": [
+        "Autoimmune Nervous System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26790": {
+      "code": "C26790",
+      "parents": [
+        "C27589",
+        "C26864"
+      ],
+      "synonyms": [
+        "Acute Infective Polyneuritis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C189005": {
+      "code": "C189005",
+      "parents": [
+        "C27587",
+        "C118317"
+      ],
+      "synonyms": [
+        "Neuromuscular Disorder",
+        "Neuromuscular Disease",
+        "Neuromuscular disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27589": {
+      "code": "C27589",
+      "parents": [
+        "C27590",
+        "C27587"
+      ],
+      "synonyms": [
+        "Peripheral Nervous System Infectious Disorder",
+        "Peripheral nerve infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26864": {
+      "code": "C26864",
+      "parents": [
+        "C26951",
+        "C116381"
+      ],
+      "synonyms": [
+        "Polyneuritis",
+        "polyneuritis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27587": {
+      "code": "C27587",
+      "parents": [
+        "C27588",
+        "C27580"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Peripheral Nervous System Disorder",
+        "Non-Neoplastic Peripheral Nervous System Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C118317": {
+      "code": "C118317",
+      "parents": [
+        "C27573",
+        "C214794",
+        "C166355"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Muscle Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27590": {
+      "code": "C27590",
+      "parents": [
+        "C27588",
+        "C27583"
+      ],
+      "synonyms": [
+        "Nervous System Infectious Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26951": {
+      "code": "C26951",
+      "parents": [
+        "C4731"
+      ],
+      "synonyms": [
+        "Polyneuropathy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C116381": {
+      "code": "C116381",
+      "parents": [
+        "C4731",
+        "C27587"
+      ],
+      "synonyms": [
+        "Neuritis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27580": {
+      "code": "C27580",
+      "parents": [
+        "C26835"
+      ],
+      "synonyms": [
+        "Peripheral Nervous System Disorder",
+        "Disorder of Peripheral Nervous System",
+        "Peripheral Nerve Disease",
+        "Peripheral Nervous System Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27573": {
+      "code": "C27573",
+      "parents": [
+        "C27042",
+        "C26326"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Soft Tissue Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C214794": {
+      "code": "C214794",
+      "parents": [
+        "C107377"
+      ],
+      "synonyms": [
+        "Muscle Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27042": {
+      "code": "C27042",
+      "parents": [
+        "C27574"
+      ],
+      "synonyms": [
+        "Soft Tissue Disorder",
+        "Soft Tissue Disease",
+        "Soft Tissue Diseases",
+        "Soft Tissue Disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3097": {
+      "code": "C3097",
+      "parents": [
+        "C35124"
+      ],
+      "synonyms": [
+        "Hepatitis B Infection",
+        "Hepatitis B",
+        "Hepatitis B",
+        "Hepatitis B",
+        "Hepatitis B Virus infection",
+        "Hepatitis B virus infection",
+        "Viral Hepatitis B"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35124": {
+      "code": "C35124",
+      "parents": [
+        "C78339",
+        "C3439",
+        "C3095"
+      ],
+      "synonyms": [
+        "Viral Hepatitis",
+        "Hepatitis viral"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C78339": {
+      "code": "C78339",
+      "parents": [
+        "C53550",
+        "C35503"
+      ],
+      "synonyms": [
+        "Hepatic Infection",
+        "Hepatic infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3095": {
+      "code": "C3095",
+      "parents": [
+        "C53550"
+      ],
+      "synonyms": [
+        "Hepatitis",
+        "Hepatitis, NOS",
+        "Inflammatory liver disease, unspecified",
+        "hepatitis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C53550": {
+      "code": "C53550",
+      "parents": [
+        "C96853",
+        "C3196"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Liver and Intrahepatic Bile Duct Disorder",
+        "Non-Neoplastic Hepatic Disease",
+        "Non-Neoplastic Hepatic Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35503": {
+      "code": "C35503",
+      "parents": [
+        "C36070",
+        "C27550"
+      ],
+      "synonyms": [
+        "Digestive System Infection",
+        "Gastrointestinal Infection",
+        "Gastrointestinal System Infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C96853": {
+      "code": "C96853",
+      "parents": [
+        "C3959",
+        "C27550"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Hepatobiliary Disorder",
+        "Non-Neoplastic Liver and Biliary Disorder",
+        "Non-Neoplastic Liver and Biliary System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3196": {
+      "code": "C3196",
+      "parents": [
+        "C3959"
+      ],
+      "synonyms": [
+        "Liver and Intrahepatic Bile Duct Disorder",
+        "Hepatic Disorder",
+        "Liver Disease",
+        "Liver Disorder",
+        "Liver disease",
+        "Liver disease, unspecified"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C36070": {
+      "code": "C36070",
+      "parents": [
+        "C27583"
+      ],
+      "synonyms": [
+        "Abdominal and Gastrointestinal Infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34700": {
+      "code": "C34700",
+      "parents": [
+        "C53500"
+      ],
+      "synonyms": [
+        "Hirschsprung Disease",
+        "Aganglionic Megacolon",
+        "Hirschsprung's Disease",
+        "Hirschsprung's Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C53500": {
+      "code": "C53500",
+      "parents": [
+        "C27550",
+        "C26801"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Intestinal Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26801": {
+      "code": "C26801",
+      "parents": [
+        "C2990"
+      ],
+      "synonyms": [
+        "Intestinal Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C82342": {
+      "code": "C82342",
+      "parents": [
+        "C4802",
+        "C176696"
+      ],
+      "synonyms": [
+        "Huntington's Disease",
+        "HD",
+        "Huntington Disease",
+        "Huntington's Chorea",
+        "Huntington's disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C176696": {
+      "code": "C176696",
+      "parents": [
+        "C3101"
+      ],
+      "synonyms": [
+        "Repeat Expansion Disease",
+        "Expansion Repeat Disease",
+        "Expansion Repeat Disorder",
+        "Repeat Expansion Disorder",
+        "Repeat expansion"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3101": {
+      "code": "C3101",
+      "parents": [
+        "C2991"
+      ],
+      "synonyms": [
+        "Genetic Disorder",
+        "Genetic Condition",
+        "Genetic Syndrome",
+        "Hereditary Disease",
+        "Hereditary Diseases",
+        "Inherited Disease",
+        "Molecular Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Congenital Abnormality",
+        "Disease or Syndrome"
+      ]
+    },
+    "C114347": {
+      "code": "C114347",
+      "parents": [
+        "C116778"
+      ],
+      "synonyms": [
+        "Juvenile Spondyloarthritis",
+        "JSpA",
+        "Juvenile Spondyloarthropathy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C84828": {
+      "code": "C84828",
+      "parents": [
+        "C84910"
+      ],
+      "synonyms": [
+        "Limb-Girdle Muscular Dystrophy",
+        "Limb girdle dystrophy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C84910": {
+      "code": "C84910",
+      "parents": [
+        "C53543",
+        "C189005",
+        "C101216"
+      ],
+      "synonyms": [
+        "Muscular Dystrophy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C101216": {
+      "code": "C101216",
+      "parents": [
+        "C118317"
+      ],
+      "synonyms": [
+        "Myopathy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C101203": {
+      "code": "C101203",
+      "parents": [
+        "C101201"
+      ],
+      "synonyms": [
+        "Lumbar Myelomeningocele",
+        "Lumbar Meningomyelocele",
+        "Lumbar Meningomyelocele"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C101201": {
+      "code": "C101201",
+      "parents": [
+        "C101214"
+      ],
+      "synonyms": [
+        "Myelomeningocele",
+        "Meningomyelocele",
+        "Spina Bifida Cystica",
+        "Spina Bifida Cystica"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C101214": {
+      "code": "C101214",
+      "parents": [
+        "C97172",
+        "C27586"
+      ],
+      "synonyms": [
+        "Spina Bifida",
+        "Rachischisis",
+        "SPINA BIFIDA",
+        "Spinal Meningocele",
+        "Spinal Myelocele",
+        "Spinal Myelomeningocele"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C97172": {
+      "code": "C97172",
+      "parents": [
+        "C97151",
+        "C27588"
+      ],
+      "synonyms": [
+        "Congenital Nervous System Disorder",
+        "Congenital Abnormality of the Nervous System"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35094": {
+      "code": "C35094",
+      "parents": [
+        "C2982"
+      ],
+      "synonyms": [
+        "Unipolar Depression",
+        "Major Depression",
+        "Major Depressive Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C89715": {
+      "code": "C89715",
+      "parents": [
+        "C117007"
+      ],
+      "synonyms": [
+        "Migraine",
+        "Migraine Headache",
+        "Migraine Headache"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C117007": {
+      "code": "C117007",
+      "parents": [
+        "C26835"
+      ],
+      "synonyms": [
+        "Neurovascular Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C84444": {
+      "code": "C84444",
+      "parents": [
+        "C53550"
+      ],
+      "synonyms": [
+        "Metabolic Dysfunction-Associated Steatotic Liver Disease",
+        "MASLD",
+        "NAFLD",
+        "NAFLD - Nonalcoholic Fatty Liver Disease",
+        "Non-Alcoholic Fatty Liver Disease",
+        "Non-Alcoholic Fatty Liver Disease",
+        "Nonalcoholic Fatty Liver Disease",
+        "Nonalcoholic Fatty Liver Disease",
+        "Nonalcoholic Fatty Liver Disease",
+        "Nonalcoholic Fatty Liver Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3959": {
+      "code": "C3959",
+      "parents": [
+        "C2990"
+      ],
+      "synonyms": [
+        "Hepatobiliary Disorder",
+        "Liver Disease",
+        "Liver and Biliary Disease",
+        "Liver and Biliary Disorder",
+        "Liver and Biliary System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C113341": {
+      "code": "C113341",
+      "parents": [
+        "C34815"
+      ],
+      "synonyms": [
+        "Oligomenorrhea"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3293": {
+      "code": "C3293",
+      "parents": [
+        "C2883"
+      ],
+      "synonyms": [
+        "Osteoarthritis",
+        "DEGENERATIVE JOINT DISEASE"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3298": {
+      "code": "C3298",
+      "parents": [
+        "C97045"
+      ],
+      "synonyms": [
+        "Osteoporosis",
+        "osteoporosis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C97045": {
+      "code": "C97045",
+      "parents": [
+        "C3235",
+        "C27572"
+      ],
+      "synonyms": [
+        "Metabolic Bone Disorder",
+        "MBD",
+        "Metabolic Bone Disease",
+        "Metabolic Bone Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C122685": {
+      "code": "C122685",
+      "parents": [
+        "C53655"
+      ],
+      "synonyms": [
+        "Prediabetes",
+        "Borderline Diabetes"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34949": {
+      "code": "C34949",
+      "parents": [
+        "C28286"
+      ],
+      "synonyms": [
+        "Primary Insomnia",
+        "Idiopathic insomnia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C28286": {
+      "code": "C28286",
+      "parents": [
+        "C3376"
+      ],
+      "synonyms": [
+        "Insomnia",
+        "insomnia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C3376": {
+      "code": "C3376",
+      "parents": [
+        "C2893"
+      ],
+      "synonyms": [
+        "Sleep Disorder",
+        "Sleep Disorders",
+        "Sleep Disturbance",
+        "Sleep Dysfunction",
+        "Sleep disturbance",
+        "parasomnia",
+        "sleep disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C85026": {
+      "code": "C85026",
+      "parents": [
+        "C53543",
+        "C197818"
+      ],
+      "synonyms": [
+        "Progressive Bulbar Palsy",
+        "Progressive bulbar palsy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C85028": {
+      "code": "C85028",
+      "parents": [
+        "C53543",
+        "C4802",
+        "C28193"
+      ],
+      "synonyms": [
+        "Progressive Supranuclear Palsy",
+        "Progressive supranuclear ophthalmoplegia",
+        "Steele-Richardson-Olszewski Syndrome"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3346": {
+      "code": "C3346",
+      "parents": [
+        "C2983"
+      ],
+      "synonyms": [
+        "Psoriasis",
+        "psoriasis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2884": {
+      "code": "C2884",
+      "parents": [
+        "C2889",
+        "C2883",
+        "C27204"
+      ],
+      "synonyms": [
+        "Rheumatoid Arthritis",
+        "RA",
+        "Rheumatoid arthritis, unspecified",
+        "rheumatoid arthritis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27571": {
+      "code": "C27571",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Head and Neck Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C118420": {
+      "code": "C118420",
+      "parents": [
+        "C27571"
+      ],
+      "synonyms": [
+        "Otolaryngologic Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C82341": {
+      "code": "C82341",
+      "parents": [
+        "C4802",
+        "C26702"
+      ],
+      "synonyms": [
+        "Spinocerebellar Ataxia",
+        "Spinocerebellar Degeneration"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26702": {
+      "code": "C26702",
+      "parents": [
+        "C116757"
+      ],
+      "synonyms": [
+        "Ataxia",
+        "ataxia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C116757": {
+      "code": "C116757",
+      "parents": [
+        "C27586"
+      ],
+      "synonyms": [
+        "Movement Disorder",
+        "Movement Disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C148315": {
+      "code": "C148315",
+      "parents": [
+        "C82341",
+        "C176696"
+      ],
+      "synonyms": [
+        "Spinocerebellar Ataxia Type 2",
+        "OPCA2",
+        "Olivopontocerebellar Atrophy 2",
+        "SCA2",
+        "Wadia-Swami Syndrome"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35062": {
+      "code": "C35062",
+      "parents": [
+        "C34399"
+      ],
+      "synonyms": [
+        "Takayasu Arteritis",
+        "Pulseless Disease",
+        "Takayasu's Arteritis",
+        "Takayasu's Arteritis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34399": {
+      "code": "C34399",
+      "parents": [
+        "C35317",
+        "C26912"
+      ],
+      "synonyms": [
+        "Arteritis",
+        "Arteritis, unspecified"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35317": {
+      "code": "C35317",
+      "parents": [
+        "C35740"
+      ],
+      "synonyms": [
+        "Arterial Disorder",
+        "Arterial Disease",
+        "Arteriopathy",
+        "Disease of Arteries, Arterioles and Capillaries",
+        "Disorder of arteries and arterioles, unspecified"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26912": {
+      "code": "C26912",
+      "parents": [
+        "C35117"
+      ],
+      "synonyms": [
+        "Vasculitis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2931": {
+      "code": "C2931",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Cardiovascular Disorder",
+        "Cardiovascular Disease",
+        "Cardiovascular Disease",
+        "Cardiovascular Disease (CVD)",
+        "Cardiovascular Disorder, NOS",
+        "Cardiovascular_Disease",
+        "Disorder of Cardiovascular System",
+        "Unspecified disorder of circulatory system"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26747": {
+      "code": "C26747",
+      "parents": [
+        "C2985"
+      ],
+      "synonyms": [
+        "Type 2 Diabetes Mellitus",
+        "Adult Onset Diabetes",
+        "Adult Onset Diabetes",
+        "Adult-Onset Diabetes",
+        "Diabetes, Type 2",
+        "Diabetes, Type II",
+        "NIDDM",
+        "Non-Insulin Dependent Diabetes",
+        "Non-Insulin Dependent Diabetes Mellitus",
+        "Noninsulin Dependent Diabetes",
+        "Noninsulin Dependent Diabetes",
+        "T2DM - Type 2 Diabetes mellitus",
+        "Type 2 Diabetes",
+        "Type 2 Diabetes",
+        "Type 2 Diabetes Mellitus Non-Insulin Dependent",
+        "Type II Diabetes",
+        "Type II Diabetes",
+        "Type II Diabetes Mellitus",
+        "Type II Diabetes mellitus",
+        "Type II diabetes"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2952": {
+      "code": "C2952",
+      "parents": [
+        "C3138"
+      ],
+      "synonyms": [
+        "Ulcerative Colitis",
+        "Colitis Ulcerative",
+        "ulcerative colitis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3138": {
+      "code": "C3138",
+      "parents": [
+        "C93210",
+        "C7657",
+        "C53500"
+      ],
+      "synonyms": [
+        "Inflammatory Bowel Disease",
+        "Autoimmune Bowel Disorder",
+        "IBD",
+        "inflammatory bowel disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C7657": {
+      "code": "C7657",
+      "parents": [
+        "C7659",
+        "C26801"
+      ],
+      "synonyms": [
+        "Intestinal Precancerous Condition",
+        "Intestinal Premalignant Condition"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C7659": {
+      "code": "C7659",
+      "parents": [
+        "C7422",
+        "C2990"
+      ],
+      "synonyms": [
+        "Digestive System Precancerous Condition",
+        "Gastrointestinal Precancerous Condition",
+        "Gastrointestinal Premalignant Condition"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C7422": {
+      "code": "C7422",
+      "parents": [
+        "C3341"
+      ],
+      "synonyms": [
+        "Precancerous Condition by Site",
+        "Premalignant Condition by Site"
+      ],
+      "status": "Header_Concept",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3434": {
+      "code": "C3434",
+      "parents": [
+        "C6510",
+        "C40176",
+        "C3608"
+      ],
+      "synonyms": [
+        "Uterine Corpus Leiomyoma",
+        "Body of Uterus Fibroid",
+        "Body of Uterus Leiomyoma",
+        "Corpus Uteri Fibroid",
+        "Corpus Uteri Leiomyoma",
+        "Fibroid of Body of Uterus",
+        "Fibroid of Corpus Uteri",
+        "Fibroid of Uterine Body",
+        "Fibroid of Uterine Corpus",
+        "Fibroid of the Body of Uterus",
+        "Fibroid of the Corpus Uteri",
+        "Fibroid of the Uterine Body",
+        "Fibroid of the Uterine Corpus",
+        "Fibroid uterus",
+        "Fibromyoma",
+        "Leiomyofibroma",
+        "Leiomyoma of Body of Uterus",
+        "Leiomyoma of Corpus Uteri",
+        "Leiomyoma of Uterine Body",
+        "Leiomyoma of Uterine Corpus",
+        "Leiomyoma of the Body of Uterus",
+        "Leiomyoma of the Corpus Uteri",
+        "Leiomyoma of the Uterine Body",
+        "Leiomyoma of the Uterine Corpus",
+        "Uterine Body Fibroid",
+        "Uterine Body Leiomyoma",
+        "Uterine Corpus Fibroid",
+        "Uterine Corpus Leiomyomata",
+        "Uterine Fibroid",
+        "Uterine Fibroids"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C6510": {
+      "code": "C6510",
+      "parents": [
+        "C4882",
+        "C3751"
+      ],
+      "synonyms": [
+        "Leiomyoma",
+        "Benign Smooth Muscle Neoplasm",
+        "Benign Smooth Muscle Tumor",
+        "Fibroid",
+        "Fibroid",
+        "Fibroid Neoplasm",
+        "Fibroid Tumor",
+        "LEIOMYOMA, BENIGN",
+        "Leiomyoma, NOS",
+        "Leiomyomatous Neoplasm",
+        "Leiomyomatous Tumor",
+        "Leiomyomatous Tumor",
+        "fibroid",
+        "leiomyoma"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C40176": {
+      "code": "C40176",
+      "parents": [
+        "C40179",
+        "C3751"
+      ],
+      "synonyms": [
+        "Uterine Corpus Smooth Muscle Neoplasm"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3608": {
+      "code": "C3608",
+      "parents": [
+        "C6300",
+        "C3609"
+      ],
+      "synonyms": [
+        "Benign Uterine Corpus Neoplasm",
+        "Benign Corpus Uteri Neoplasm",
+        "Benign Corpus Uteri Tumor",
+        "Benign Neoplasm of Body of Uterus",
+        "Benign Neoplasm of Corpus Uteri",
+        "Benign Neoplasm of Uterine Body",
+        "Benign Neoplasm of Uterine Corpus",
+        "Benign Neoplasm of the Body of Uterus",
+        "Benign Neoplasm of the Corpus Uteri",
+        "Benign Neoplasm of the Uterine Body",
+        "Benign Neoplasm of the Uterine Corpus",
+        "Benign Tumor of Body of Uterus",
+        "Benign Tumor of Corpus Uteri",
+        "Benign Tumor of Uterine Body",
+        "Benign Tumor of Uterine Corpus",
+        "Benign Tumor of the Body of Uterus",
+        "Benign Tumor of the Corpus Uteri",
+        "Benign Tumor of the Uterine Body",
+        "Benign Tumor of the Uterine Corpus",
+        "Benign Uterine Body Neoplasm",
+        "Benign Uterine Body Tumor",
+        "Benign Uterine Corpus Tumor"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C4882": {
+      "code": "C4882",
+      "parents": [
+        "C4242",
+        "C215429",
+        "C214799"
+      ],
+      "synonyms": [
+        "Myoma",
+        "Benign Muscle Neoplasm",
+        "Benign Myomatous Neoplasm"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3751": {
+      "code": "C3751",
+      "parents": [
+        "C214799"
+      ],
+      "synonyms": [
+        "Smooth Muscle Neoplasm",
+        "Neoplasm of Smooth Muscle",
+        "Neoplasm of the Smooth Muscle",
+        "Smooth Muscle Tumor",
+        "Smooth muscle tumor, NOS",
+        "Tumor of Smooth Muscle",
+        "Tumor of the Smooth Muscle"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C40179": {
+      "code": "C40179",
+      "parents": [
+        "C6300",
+        "C3377"
+      ],
+      "synonyms": [
+        "Uterine Corpus Soft Tissue Neoplasm"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C6300": {
+      "code": "C6300",
+      "parents": [
+        "C3435"
+      ],
+      "synonyms": [
+        "Uterine Corpus Neoplasm",
+        "Corpus Uteri Neoplasm",
+        "Corpus Uteri Tumor",
+        "Neoplasm of Body of Uterus",
+        "Neoplasm of Corpus Uteri",
+        "Neoplasm of Uterine Body",
+        "Neoplasm of Uterine Corpus",
+        "Neoplasm of the Body of Uterus",
+        "Neoplasm of the Corpus Uteri",
+        "Neoplasm of the Uterine Body",
+        "Neoplasm of the Uterine Corpus",
+        "Tumor of Corpus Uteri",
+        "Tumor of Uterine Body",
+        "Tumor of Uterine Corpus",
+        "Tumor of the Corpus Uteri",
+        "Tumor of the Uterine Body",
+        "Tumor of the Uterine Corpus",
+        "Uterine Body Neoplasm",
+        "Uterine Body Tumor",
+        "Uterine Corpus Tumor"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3609": {
+      "code": "C3609",
+      "parents": [
+        "C4934",
+        "C3435"
+      ],
+      "synonyms": [
+        "Benign Uterine Neoplasm",
+        "Benign Neoplasm of Uterus",
+        "Benign Neoplasm of the Uterus",
+        "Benign Tumor of Uterus",
+        "Benign Tumor of the Uterus",
+        "Benign Uterine Neoplasm NOS",
+        "Benign Uterine Neoplasms",
+        "Benign Uterine Tumor",
+        "Benign Uterine Tumors",
+        "Benign Uterus Neoplasm",
+        "Benign Uterus Neoplasms",
+        "Benign Uterus Tumor",
+        "Benign Uterus Tumors",
+        "Uterine Neoplasms, Benign",
+        "Uterine Tumors, Benign",
+        "Uterous Neoplasms, Benign",
+        "Uterous Tumors, Benign"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C4242": {
+      "code": "C4242",
+      "parents": [
+        "C53684",
+        "C3377"
+      ],
+      "synonyms": [
+        "Benign Soft Tissue Neoplasm",
+        "Benign Neoplasm of Soft Tissue",
+        "Benign Neoplasm of the Soft Tissue",
+        "Benign Soft Tissue Tumor",
+        "Benign Tumor of Soft Tissue",
+        "Benign Tumor of the Soft Tissue",
+        "Soft tissue tumor, benign"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C215429": {
+      "code": "C215429",
+      "parents": [
+        "C4063",
+        "C166356"
+      ],
+      "synonyms": [
+        "Benign Muscle Neoplasm"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C214799": {
+      "code": "C214799",
+      "parents": [
+        "C7059",
+        "C4063"
+      ],
+      "synonyms": [
+        "Myomatous Neoplasm",
+        "Myomatous Neoplasms"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3377": {
+      "code": "C3377",
+      "parents": [
+        "C3810",
+        "C27042"
+      ],
+      "synonyms": [
+        "Soft Tissue Neoplasm",
+        "Neoplasm of Soft Tissue",
+        "Neoplasm of the Soft Tissue",
+        "Soft Tissue Tumor",
+        "Soft Tissue Tumor",
+        "Soft Tissue Tumors",
+        "Soft tissue neoplasm, NOS",
+        "Tumor of Soft Tissue",
+        "Tumor of the Soft Tissue"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3435": {
+      "code": "C3435",
+      "parents": [
+        "C3053",
+        "C26907"
+      ],
+      "synonyms": [
+        "Uterine Neoplasm",
+        "Neoplasm of Uterus",
+        "Neoplasm of the Uterus",
+        "Tumor of Uterus",
+        "Tumor of the Uterus",
+        "Uterine Neoplasms",
+        "Uterine Tumor"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C4934": {
+      "code": "C4934",
+      "parents": [
+        "C7617",
+        "C3053"
+      ],
+      "synonyms": [
+        "Benign Female Reproductive System Neoplasm",
+        "Benign Female Reproductive System Tumor",
+        "Benign Gynecologic Neoplasm",
+        "Benign Gynecologic Tumor"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C53684": {
+      "code": "C53684",
+      "parents": [
+        "C3810",
+        "C3677"
+      ],
+      "synonyms": [
+        "Benign Connective and Soft Tissue Neoplasm",
+        "Benign Connective and Soft Tissue Tumor",
+        "Benign Connective and Soft Tissue Tumor",
+        "Benign Mesenchymal Cell Neoplasm",
+        "Benign Mesenchymal Cell Neoplasm",
+        "Benign Neoplasm of the Soft Tissue and Bone",
+        "Benign Neoplasm of the Soft Tissue and Bone",
+        "Benign Tumor of the Soft Tissue and Bone",
+        "Benign Tumor of the Soft Tissue and Bone",
+        "CONNECTIVE AND SOFT TISSUE NEOPLASM, BENIGN"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C4063": {
+      "code": "C4063",
+      "parents": [
+        "C214794",
+        "C166354"
+      ],
+      "synonyms": [
+        "Muscle Neoplasm",
+        "Muscle Tumor",
+        "Neoplasm of Muscle",
+        "Neoplasm of the Muscle",
+        "Tumor of Muscle",
+        "Tumor of the Muscle"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C166356": {
+      "code": "C166356",
+      "parents": [
+        "C53684",
+        "C166354"
+      ],
+      "synonyms": [
+        "Benign Musculoskeletal Neoplasm"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C7059": {
+      "code": "C7059",
+      "parents": [
+        "C4741",
+        "C3810"
+      ],
+      "synonyms": [
+        "Mesenchymal Cell Neoplasm",
+        "Mesenchymal Cell Tumor",
+        "Mesenchymal Neoplasm",
+        "Mesenchymal Tumor"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3810": {
+      "code": "C3810",
+      "parents": [
+        "C3263",
+        "C27574"
+      ],
+      "synonyms": [
+        "Connective and Soft Tissue Neoplasm",
+        "Connective and Soft Tissue Tumor",
+        "Musculoskeletal and Soft Tissue Neoplasm",
+        "Musculoskeletal and Soft Tissue Tumor",
+        "Neoplasm of Skeletal and Soft Tissue",
+        "Neoplasm of Soft Tissue and Bone",
+        "Neoplasm of Soft Tissue and Skeleton",
+        "Skeletal and Soft Tissue Neoplasm",
+        "Skeletal and Soft Tissue Tumor",
+        "Soft Tissue and Bone Neoplasm",
+        "Soft Tissue and Bone Tumor",
+        "Tumor of Skeletal and Soft Tissue",
+        "Tumor of Soft Tissue and Bone",
+        "Tumor of Soft Tissue and Skeleton"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C3053": {
+      "code": "C3053",
+      "parents": [
+        "C3674",
+        "C27020"
+      ],
+      "synonyms": [
+        "Female Reproductive System Neoplasm",
+        "Female Reproductive System Tumor",
+        "Gynecologic Neoplasm",
+        "Gynecologic Tumor",
+        "Neoplasm of Female Reproductive System",
+        "Neoplasm of the Female Reproductive System",
+        "Tumor of Female Reproductive System",
+        "Tumor of the Female Reproductive System"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C26907": {
+      "code": "C26907",
+      "parents": [
+        "C27020"
+      ],
+      "synonyms": [
+        "Uterine Disorder",
+        "Uterine Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C85014": {
+      "code": "C85014",
+      "parents": [
+        "C53543",
+        "C27555"
+      ],
+      "synonyms": [
+        "Pityriasis Rubra Pilaris"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C75488": {
+      "code": "C75488",
+      "parents": [
+        "C85865",
+        "C53543",
+        "C28193"
+      ],
+      "synonyms": [
+        "Rett Syndrome",
+        "Rett's syndrome"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C85865": {
+      "code": "C85865",
+      "parents": [
+        "C3101"
+      ],
+      "synonyms": [
+        "X-Linked Inherited Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C215374": {
+      "code": "C215374",
+      "parents": [
+        "C3293"
+      ],
+      "synonyms": [
+        "Knee Osteoarthritis",
+        "Gonarthritis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C82343": {
+      "code": "C82343",
+      "parents": [
+        "C53500",
+        "C28193"
+      ],
+      "synonyms": [
+        "Irritable Bowel Syndrome",
+        "IBS",
+        "IBS",
+        "irritable bowel syndrome",
+        "irritable colon",
+        "mucus colitis",
+        "spastic colon"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C80078": {
+      "code": "C80078",
+      "parents": [
+        "C27600"
+      ],
+      "synonyms": [
+        "Chronic Kidney Disease",
+        "CKD - Chronic Kidney Disease",
+        "Chronic Renal Disease",
+        "Chronic Renal Failure",
+        "Chronic Renal Insufficiency",
+        "Chronic kidney disease",
+        "Chronic kidney disease",
+        "Chronic kidney disease, unspecified"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27600": {
+      "code": "C27600",
+      "parents": [
+        "C3149",
+        "C27599"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Kidney Disorder",
+        "Non-Neoplastic Renal Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3149": {
+      "code": "C3149",
+      "parents": [
+        "C3430"
+      ],
+      "synonyms": [
+        "Kidney Disorder",
+        "Kidney Disease",
+        "Kidney Disease",
+        "Kidney Disease",
+        "Kidney disease",
+        "Renal Disease",
+        "Renal Disorder",
+        "Renal Disorder",
+        "Renal Disorder, NOS"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27599": {
+      "code": "C27599",
+      "parents": [
+        "C3430",
+        "C156664"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Urinary System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3430": {
+      "code": "C3430",
+      "parents": [
+        "C156660"
+      ],
+      "synonyms": [
+        "Urinary System Disorder",
+        "Disorder of Urinary System",
+        "Urologic Disorder",
+        "urinary tract disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C156664": {
+      "code": "C156664",
+      "parents": [
+        "C53531",
+        "C156660"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Genitourinary System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C156660": {
+      "code": "C156660",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Genitourinary System Disorder",
+        "Genitourinary Disorder",
+        "Urogenital Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26748": {
+      "code": "C26748",
+      "parents": [
+        "C4731"
+      ],
+      "synonyms": [
+        "Diabetic Neuropathy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C87497": {
+      "code": "C87497",
+      "parents": [
+        "C28193"
+      ],
+      "synonyms": [
+        "Fibromyalgia",
+        "Fibromyalgia Syndrome",
+        "Fibromyalgia Syndrome"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34524": {
+      "code": "C34524",
+      "parents": [
+        "C4786"
+      ],
+      "synonyms": [
+        "Senile Dementia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C4786": {
+      "code": "C4786",
+      "parents": [
+        "C92196",
+        "C4802"
+      ],
+      "synonyms": [
+        "Dementia",
+        "dementia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C92196": {
+      "code": "C92196",
+      "parents": [
+        "C2893"
+      ],
+      "synonyms": [
+        "Cognitive Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C34857": {
+      "code": "C34857",
+      "parents": [
+        "C34549"
+      ],
+      "synonyms": [
+        "Numbness",
+        "Loss of Sensation"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C34549": {
+      "code": "C34549",
+      "parents": [
+        "C5040"
+      ],
+      "synonyms": [
+        "Disturbance of Skin Sensation",
+        "Skin Sensation Disturbance"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C5040": {
+      "code": "C5040",
+      "parents": [
+        "C3837"
+      ],
+      "synonyms": [
+        "Sensory Manifestations"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3837": {
+      "code": "C3837",
+      "parents": [
+        "C36280",
+        "C100104"
+      ],
+      "synonyms": [
+        "Neurological Signs and Symptoms"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36280": {
+      "code": "C36280",
+      "parents": [
+        "C36278"
+      ],
+      "synonyms": [
+        "Nervous System Finding",
+        "NERVOUS SYSTEM",
+        "Neurologic"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C100104": {
+      "code": "C100104",
+      "parents": [
+        "C3367"
+      ],
+      "synonyms": [
+        "Sign or Symptom",
+        "CLINICAL FINDING",
+        "CLINICAL SIGNS",
+        "Clinical Finding",
+        "Clinical Signs",
+        "Clinical Signs or Symptoms",
+        "Clinical Signs or Symptoms",
+        "DESC",
+        "Signs or Symptoms"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C116369": {
+      "code": "C116369",
+      "parents": [
+        "C227040"
+      ],
+      "synonyms": [
+        "Anosmia",
+        "Loss of smell"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C227040": {
+      "code": "C227040",
+      "parents": [
+        "C5038"
+      ],
+      "synonyms": [
+        "Olfactory Changes",
+        "Alteration in Smell"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C5038": {
+      "code": "C5038",
+      "parents": [
+        "C5040"
+      ],
+      "synonyms": [
+        "Alterations in Smell or Taste",
+        "New_Olfactory_and_Taste_Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50638": {
+      "code": "C50638",
+      "parents": [
+        "C50602"
+      ],
+      "synonyms": [
+        "Loss of Vision"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50602": {
+      "code": "C50602",
+      "parents": [
+        "C118760"
+      ],
+      "synonyms": [
+        "Impaired Vision",
+        "Vision difficulty",
+        "Visual Impairment"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C118760": {
+      "code": "C118760",
+      "parents": [
+        "C5040"
+      ],
+      "synonyms": [
+        "Abnormal Vision",
+        "Vision abnormalities"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C34860": {
+      "code": "C34860",
+      "parents": [
+        "C8282",
+        "C61050"
+      ],
+      "synonyms": [
+        "Oligospermia",
+        "Low Sperm Count",
+        "Low Sperm Count"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C8282": {
+      "code": "C8282",
+      "parents": [
+        "C5035",
+        "C36284"
+      ],
+      "synonyms": [
+        "Sexual Dysfunction and Infertility",
+        "dysfunction and infertility, sexual"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C61050": {
+      "code": "C61050",
+      "parents": [
+        "C117719"
+      ],
+      "synonyms": [
+        "Decreased Sperm Count",
+        "Reduced Sperm",
+        "SPERM, DECREASED",
+        "Sperm Count Decreased"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C5035": {
+      "code": "C5035",
+      "parents": [
+        "C100104"
+      ],
+      "synonyms": [
+        "Genitourinary Signs and Symptoms",
+        "Genital or Reproductive Signs and Symptoms"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C36284": {
+      "code": "C36284",
+      "parents": [
+        "C36278"
+      ],
+      "synonyms": [
+        "Reproductive System Finding",
+        "REPRODUCTIVE SYSTEM"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C117719": {
+      "code": "C117719",
+      "parents": [
+        "C36284"
+      ],
+      "synonyms": [
+        "Male Reproductive System Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36278": {
+      "code": "C36278",
+      "parents": [
+        "C3367"
+      ],
+      "synonyms": [
+        "Finding by Site or System"
+      ],
+      "status": "Header_Concept",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3367": {
+      "code": "C3367",
+      "parents": [
+        "C7057"
+      ],
+      "synonyms": [
+        "Finding",
+        "Observable Entity",
+        "finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C34788": {
+      "code": "C34788",
+      "parents": [
+        "C41830"
+      ],
+      "synonyms": [
+        "Lower Back Pain"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C41830": {
+      "code": "C41830",
+      "parents": [
+        "C3303"
+      ],
+      "synonyms": [
+        "Back Pain",
+        "Back pain",
+        "Back pain",
+        "Back pain"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C3303": {
+      "code": "C3303",
+      "parents": [
+        "C4876"
+      ],
+      "synonyms": [
+        "Pain",
+        "General Pain",
+        "Pain (Various)"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C4876": {
+      "code": "C4876",
+      "parents": [
+        "C100104"
+      ],
+      "synonyms": [
+        "Symptom",
+        "SYMPTOM",
+        "symptom",
+        "symptom"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C34336": {
+      "code": "C34336",
+      "parents": [
+        "C35221"
+      ],
+      "synonyms": [
+        "Spontaneous Abortion",
+        "Miscarriage",
+        "Miscarriage",
+        "Miscarriage"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C35221": {
+      "code": "C35221",
+      "parents": [
+        "C90491"
+      ],
+      "synonyms": [
+        "Abortion Finding",
+        "Abortion",
+        "Abortion",
+        "Abortion",
+        "Pregnancy Loss"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C90491": {
+      "code": "C90491",
+      "parents": [
+        "C92720"
+      ],
+      "synonyms": [
+        "Pregnancy Outcome",
+        "PREGOUT",
+        "PRGOUT",
+        "pregnancy outcome",
+        "pregnancy_outcome"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C92720": {
+      "code": "C92720",
+      "parents": [
+        "C117720"
+      ],
+      "synonyms": [
+        "Pregnancy Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C117720": {
+      "code": "C117720",
+      "parents": [
+        "C36284"
+      ],
+      "synonyms": [
+        "Female Reproductive System Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C118433": {
+      "code": "C118433",
+      "parents": [
+        "C110937"
+      ],
+      "synonyms": [
+        "Muscle Stiffness",
+        "Stiff Muscles"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C110937": {
+      "code": "C110937",
+      "parents": [
+        "C36288"
+      ],
+      "synonyms": [
+        "Musculoskeletal Finding",
+        "Musculoskeletal",
+        "Unspecified Musculoskeletal problem"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36288": {
+      "code": "C36288",
+      "parents": [
+        "C36278"
+      ],
+      "synonyms": [
+        "Connective and Soft Tissue Finding",
+        "MUSCULOSKELETAL SYSTEM"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C34606": {
+      "code": "C34606",
+      "parents": [
+        "C36280"
+      ],
+      "synonyms": [
+        "Fasciculation",
+        "Muscle Twitching"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C54282": {
+      "code": "C54282",
+      "parents": [
+        "C85403"
+      ],
+      "synonyms": [
+        "Rhinorrhea",
+        "Nasal Discharge",
+        "Runny Nose",
+        "Runny Nose"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C85403": {
+      "code": "C85403",
+      "parents": [
+        "C45233",
+        "C100104"
+      ],
+      "synonyms": [
+        "Respiratory System Signs and Symptoms"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C45233": {
+      "code": "C45233",
+      "parents": [
+        "C36278"
+      ],
+      "synonyms": [
+        "Respiratory System Finding",
+        "RESPIRATORY SYSTEM",
+        "Respiratory",
+        "Respiratory Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50664": {
+      "code": "C50664",
+      "parents": [
+        "C36282"
+      ],
+      "synonyms": [
+        "Neck Stiffness"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36282": {
+      "code": "C36282",
+      "parents": [
+        "C36278"
+      ],
+      "synonyms": [
+        "Head and Neck Finding",
+        "Otolaryngological"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C114698": {
+      "code": "C114698",
+      "parents": [
+        "C36286"
+      ],
+      "synonyms": [
+        "Oliguria",
+        "Decreased Urine Output"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36286": {
+      "code": "C36286",
+      "parents": [
+        "C36278"
+      ],
+      "synonyms": [
+        "Urinary System Finding",
+        "URINARY SYSTEM",
+        "Unspecified Kidney or Urinary Problem"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C191448": {
+      "code": "C191448",
+      "parents": [
+        "C3676"
+      ],
+      "synonyms": [
+        "Orthopnea"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C3676": {
+      "code": "C3676",
+      "parents": [
+        "C5043"
+      ],
+      "synonyms": [
+        "Alteration in Respiration"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C5043": {
+      "code": "C5043",
+      "parents": [
+        "C100104"
+      ],
+      "synonyms": [
+        "Ventilation or Perfusion Signs and Symptoms"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C37999": {
+      "code": "C37999",
+      "parents": [
+        "C37254"
+      ],
+      "synonyms": [
+        "Palpitation",
+        "Heart Palpitations",
+        "Palpitations",
+        "Palpitations",
+        "Palpitations",
+        "Palpitations",
+        "palpitation"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C37254": {
+      "code": "C37254",
+      "parents": [
+        "C35552",
+        "C100104"
+      ],
+      "synonyms": [
+        "Cardiovascular System Signs and Symptoms"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C35552": {
+      "code": "C35552",
+      "parents": [
+        "C36278"
+      ],
+      "synonyms": [
+        "Cardiovascular System Finding",
+        "CARDIOVASCULAR SYSTEM",
+        "Cardiovascular Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3310": {
+      "code": "C3310",
+      "parents": [
+        "C5039"
+      ],
+      "synonyms": [
+        "Paralysis",
+        "Paralytic Syndrome",
+        "paralysis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C5039": {
+      "code": "C5039",
+      "parents": [
+        "C3837"
+      ],
+      "synonyms": [
+        "Motor Manifestations"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50700": {
+      "code": "C50700",
+      "parents": [
+        "C53458"
+      ],
+      "synonyms": [
+        "Polydipsia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C53458": {
+      "code": "C53458",
+      "parents": [
+        "C100104"
+      ],
+      "synonyms": [
+        "Sign",
+        "sign"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C116374": {
+      "code": "C116374",
+      "parents": [
+        "C28145"
+      ],
+      "synonyms": [
+        "Ageusia",
+        "Loss of taste"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C28145": {
+      "code": "C28145",
+      "parents": [
+        "C5038"
+      ],
+      "synonyms": [
+        "Dysgeusia",
+        "Taste Disorder",
+        "dysgeusia",
+        "parageusia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C118303": {
+      "code": "C118303",
+      "parents": [
+        "C5035",
+        "C36286"
+      ],
+      "synonyms": [
+        "Polyuria"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C117194": {
+      "code": "C117194",
+      "parents": [
+        "C3858"
+      ],
+      "synonyms": [
+        "Psychomotor Retardation"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C3858": {
+      "code": "C3858",
+      "parents": [
+        "C100104"
+      ],
+      "synonyms": [
+        "Mental and Behavioral Signs and Symptoms"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C39594": {
+      "code": "C39594",
+      "parents": [
+        "C5036"
+      ],
+      "synonyms": [
+        "Skin Rash",
+        "Cutaneous Eruption",
+        "Rash",
+        "Rash",
+        "Rash",
+        "Rash",
+        "Rashes",
+        "Skin Eruption",
+        "Skin rash"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C5036": {
+      "code": "C5036",
+      "parents": [
+        "C100104"
+      ],
+      "synonyms": [
+        "Integumentary System Signs and Symptoms"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C26901": {
+      "code": "C26901",
+      "parents": [
+        "C3327"
+      ],
+      "synonyms": [
+        "Erythema",
+        "Redness",
+        "Redness",
+        "erythema"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3327": {
+      "code": "C3327",
+      "parents": [
+        "C5036",
+        "C36281"
+      ],
+      "synonyms": [
+        "Skin Discoloration",
+        "Skin Dyschromia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36281": {
+      "code": "C36281",
+      "parents": [
+        "C36278"
+      ],
+      "synonyms": [
+        "Integumentary System Finding",
+        "Dermatological",
+        "INTEGUMENTARY SYSTEM",
+        "Skin Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C87116": {
+      "code": "C87116",
+      "parents": [
+        "C85403"
+      ],
+      "synonyms": [
+        "Rhonchi"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C74534": {
+      "code": "C74534",
+      "parents": [
+        "C54266"
+      ],
+      "synonyms": [
+        "Sadness",
+        "Feeling of Sadness",
+        "Sad",
+        "Sad Mood"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental Process"
+      ]
+    },
+    "C54266": {
+      "code": "C54266",
+      "parents": [
+        "C16840"
+      ],
+      "synonyms": [
+        "Emotion",
+        "Emotional",
+        "Emotions"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental Process"
+      ]
+    },
+    "C16840": {
+      "code": "C16840",
+      "parents": [
+        "C21074"
+      ],
+      "synonyms": [
+        "Mental Process"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental Process"
+      ]
+    },
+    "C21074": {
+      "code": "C21074",
+      "parents": [
+        "C19988"
+      ],
+      "synonyms": [
+        "Neurologic Process"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Organ or Tissue Function"
+      ]
+    },
+    "C19988": {
+      "code": "C19988",
+      "parents": [
+        "C17828"
+      ],
+      "synonyms": [
+        "Organismal Process",
+        "Organism-Level Process",
+        "Physiological Process"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Organism Function"
+      ]
+    },
+    "C2962": {
+      "code": "C2962",
+      "parents": [
+        "C3837"
+      ],
+      "synonyms": [
+        "Seizure",
+        "Convulsion",
+        "Convulsion",
+        "Convulsion/Seizure",
+        "Seizures",
+        "Seizures",
+        "Seizures",
+        "Seizures",
+        "Seizures",
+        "Unspecified convulsions",
+        "seizure"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C35022": {
+      "code": "C35022",
+      "parents": [
+        "C3303"
+      ],
+      "synonyms": [
+        "Shoulder Pain"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C35041": {
+      "code": "C35041",
+      "parents": [
+        "C4876"
+      ],
+      "synonyms": [
+        "Stress",
+        "stress"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C50754": {
+      "code": "C50754",
+      "parents": [
+        "C36291"
+      ],
+      "synonyms": [
+        "Stenosis",
+        "Stricture"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36291": {
+      "code": "C36291",
+      "parents": [
+        "C3367"
+      ],
+      "synonyms": [
+        "Finding by Cause"
+      ],
+      "status": "Header_Concept",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36172": {
+      "code": "C36172",
+      "parents": [
+        "C53458"
+      ],
+      "synonyms": [
+        "Sweating",
+        "Sweats"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C3399": {
+      "code": "C3399",
+      "parents": [
+        "C53458"
+      ],
+      "synonyms": [
+        "Swelling"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C75540": {
+      "code": "C75540",
+      "parents": [
+        "C53458"
+      ],
+      "synonyms": [
+        "Tenderness"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50805": {
+      "code": "C50805",
+      "parents": [
+        "C5042"
+      ],
+      "synonyms": [
+        "Visual Disturbance",
+        "Visual Disturbances"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C5042": {
+      "code": "C5042",
+      "parents": [
+        "C5040"
+      ],
+      "synonyms": [
+        "Visual Manifestations"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C118727": {
+      "code": "C118727",
+      "parents": [
+        "C99208"
+      ],
+      "synonyms": [
+        "Visual Field Defect"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C99208": {
+      "code": "C99208",
+      "parents": [
+        "C36283"
+      ],
+      "synonyms": [
+        "Eye Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36283": {
+      "code": "C36283",
+      "parents": [
+        "C36282"
+      ],
+      "synonyms": [
+        "Eye and Ear Finding",
+        "SPECIAL SENSES SYSTEM",
+        "Special Sense Organ Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50809": {
+      "code": "C50809",
+      "parents": [
+        "C100104"
+      ],
+      "synonyms": [
+        "Weakness"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C86941": {
+      "code": "C86941",
+      "parents": [
+        "C16840"
+      ],
+      "synonyms": [
+        "Worry"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental Process"
+      ]
+    },
+    "C17828": {
+      "code": "C17828",
+      "parents": [],
+      "synonyms": [
+        "Biological Process",
+        "Biological Function"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Biologic Function"
+      ]
+    },
+    "C3671": {
+      "code": "C3671",
+      "parents": [
+        "C36291"
+      ],
+      "synonyms": [
+        "Injury",
+        "Trauma",
+        "Traumatic Injury",
+        "Wound",
+        "Wound",
+        "trauma",
+        "wound"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C2987": {
+      "code": "C2987",
+      "parents": [
+        "C5034"
+      ],
+      "synonyms": [
+        "Diarrhea",
+        "Diarrheal Disease",
+        "Frequent Stools",
+        "Loose Stools",
+        "diarrhea"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C5034": {
+      "code": "C5034",
+      "parents": [
+        "C3368"
+      ],
+      "synonyms": [
+        "Disturbance in Bowel Function"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3368": {
+      "code": "C3368",
+      "parents": [
+        "C36279",
+        "C100104"
+      ],
+      "synonyms": [
+        "Digestive System Signs and Symptoms",
+        "Gastrointestinal System Signs and Symptoms",
+        "Gastrointestinal System Signs and Symptoms"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36279": {
+      "code": "C36279",
+      "parents": [
+        "C36278"
+      ],
+      "synonyms": [
+        "Digestive System Finding",
+        "GASTROINTESTINAL SYSTEM",
+        "Gastrointestinal",
+        "Gastrointestinal System Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C116921": {
+      "code": "C116921",
+      "parents": [
+        "C36280"
+      ],
+      "synonyms": [
+        "Cognitive Impairment",
+        "Cognitive difficulty"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C43248": {
+      "code": "C43248",
+      "parents": [
+        "C5039"
+      ],
+      "synonyms": [
+        "Hyperreflexia",
+        "Corticospinal tract signs: hyperreflexia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C86576": {
+      "code": "C86576",
+      "parents": [
+        "C53458"
+      ],
+      "synonyms": [
+        "Paraparesis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C143633": {
+      "code": "C143633",
+      "parents": [
+        "C220599",
+        "C143175"
+      ],
+      "synonyms": [
+        "Kyphosis, CTCAE",
+        "Kyphosis",
+        "Kyphosis",
+        "Kyphosis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C220599": {
+      "code": "C220599",
+      "parents": [
+        "C220583"
+      ],
+      "synonyms": [
+        "Musculoskeletal and Connective Tissue Disorders, CTCAE 6.0",
+        "Musculoskeletal and connective tissue disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143175": {
+      "code": "C143175",
+      "parents": [
+        "C143163"
+      ],
+      "synonyms": [
+        "Musculoskeletal and Connective Tissue Disorders, CTCAE 5.0"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C220583": {
+      "code": "C220583",
+      "parents": [
+        "C220582"
+      ],
+      "synonyms": [
+        "CTCAE 6.0 by Body System",
+        "Common Terminology Criteria for Adverse Events 6.0 by Body System"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143163": {
+      "code": "C143163",
+      "parents": [
+        "C192554"
+      ],
+      "synonyms": [
+        "CTCAE 5.0 by Body System",
+        "Common Terminology Criteria for Adverse Events 5.0 by Body System"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C220582": {
+      "code": "C220582",
+      "parents": [
+        "C208319"
+      ],
+      "synonyms": [
+        "CTCAE Adverse Events Version 6.0",
+        "CTCAE Version 6.0"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C192554": {
+      "code": "C192554",
+      "parents": [
+        "C208319"
+      ],
+      "synonyms": [
+        "CTCAE Adverse Events Version 5.0",
+        "CTCAE Version 5.0",
+        "CTCAE v5.0"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Conceptual Entity"
+      ]
+    },
+    "C208319": {
+      "code": "C208319",
+      "parents": [
+        "C41331"
+      ],
+      "synonyms": [
+        "Adverse Event by CTCAE Version"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C60661": {
+      "code": "C60661",
+      "parents": [
+        "C5034"
+      ],
+      "synonyms": [
+        "Tenesmus"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C26741": {
+      "code": "C26741",
+      "parents": [
+        "C3858"
+      ],
+      "synonyms": [
+        "Delusion",
+        "Delusions"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C34393": {
+      "code": "C34393",
+      "parents": [
+        "C53458",
+        "C36280"
+      ],
+      "synonyms": [
+        "Aphasia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50771": {
+      "code": "C50771",
+      "parents": [
+        "C34549"
+      ],
+      "synonyms": [
+        "Tingling"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143240": {
+      "code": "C143240",
+      "parents": [
+        "C220605",
+        "C143180"
+      ],
+      "synonyms": [
+        "Amenorrhea, CTCAE",
+        "Amenorrhea",
+        "Amenorrhea"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C220605": {
+      "code": "C220605",
+      "parents": [
+        "C220583"
+      ],
+      "synonyms": [
+        "Reproductive System and Breast Disorders, CTCAE 6.0",
+        "Reproductive system and breast disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143180": {
+      "code": "C143180",
+      "parents": [
+        "C143163"
+      ],
+      "synonyms": [
+        "Reproductive System and Breast Disorders, CTCAE 5.0"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143283": {
+      "code": "C143283",
+      "parents": [
+        "C220585",
+        "C143164"
+      ],
+      "synonyms": [
+        "Anemia, CTCAE",
+        "Anemia",
+        "Anemia",
+        "Anemia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C220585": {
+      "code": "C220585",
+      "parents": [
+        "C220583"
+      ],
+      "synonyms": [
+        "Blood and Lymphatic System Disorders, CTCAE 6.0",
+        "Blood and lymphatic system disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143164": {
+      "code": "C143164",
+      "parents": [
+        "C143163"
+      ],
+      "synonyms": [
+        "Blood and Lymphatic System Disorders, CTCAE 5.0"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C73506": {
+      "code": "C73506",
+      "parents": [
+        "C54266"
+      ],
+      "synonyms": [
+        "Anger"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental Process"
+      ]
+    },
+    "C57118": {
+      "code": "C57118",
+      "parents": [
+        "C53802",
+        "C220598",
+        "C143174"
+      ],
+      "synonyms": [
+        "Anorexia, CTCAE",
+        "Anorexia",
+        "Anorexia",
+        "Anorexia",
+        "Anorexia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C53802": {
+      "code": "C53802",
+      "parents": [
+        "C53781"
+      ],
+      "synonyms": [
+        "Adverse Event Associated with the Gastrointestinal System",
+        "Adverse Event Associated with Gastrointestinal",
+        "GASTROINTESTINAL"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C220598": {
+      "code": "C220598",
+      "parents": [
+        "C220583"
+      ],
+      "synonyms": [
+        "Metabolism and Nutrition Disorders, CTCAE 6.0",
+        "Metabolism and nutrition disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143174": {
+      "code": "C143174",
+      "parents": [
+        "C143163"
+      ],
+      "synonyms": [
+        "Metabolism and Nutrition Disorders, CTCAE 5.0"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C53781": {
+      "code": "C53781",
+      "parents": [
+        "C208323"
+      ],
+      "synonyms": [
+        "Adverse Event by CTCAE Category",
+        "AE",
+        "Toxicity Measure"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C208323": {
+      "code": "C208323",
+      "parents": [
+        "C208319"
+      ],
+      "synonyms": [
+        "CTCAE Adverse Events Version 3.0",
+        "CTCAE Version 3.0",
+        "CTCAE v3.0"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Classification"
+      ]
+    },
+    "C34397": {
+      "code": "C34397",
+      "parents": [
+        "C187370"
+      ],
+      "synonyms": [
+        "Arm Pain"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C187370": {
+      "code": "C187370",
+      "parents": [
+        "C3303"
+      ],
+      "synonyms": [
+        "Limb Pain",
+        "Extremity Pain",
+        "Pain in extremity"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C143299": {
+      "code": "C143299",
+      "parents": [
+        "C220599",
+        "C143175"
+      ],
+      "synonyms": [
+        "Arthritis, CTCAE",
+        "Arthritis",
+        "Arthritis",
+        "Arthritis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C79748": {
+      "code": "C79748",
+      "parents": [
+        "C61557"
+      ],
+      "synonyms": [
+        "Atrophy",
+        "ATROPHY"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Pathologic Function"
+      ]
+    },
+    "C61557": {
+      "code": "C61557",
+      "parents": [
+        "C16956"
+      ],
+      "synonyms": [
+        "Degeneration",
+        "Degenerate",
+        "Degenerated",
+        "Degenerative"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Phenomenon or Process"
+      ]
+    },
+    "C16956": {
+      "code": "C16956",
+      "parents": [
+        "C17828"
+      ],
+      "synonyms": [
+        "Pathologic Process",
+        "Pathological Process"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Phenomenon or Process"
+      ]
+    },
+    "C143198": {
+      "code": "C143198",
+      "parents": [
+        "C220591",
+        "C146630"
+      ],
+      "synonyms": [
+        "Belching, CTCAE",
+        "Belching",
+        "Belching"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C220591": {
+      "code": "C220591",
+      "parents": [
+        "C220583"
+      ],
+      "synonyms": [
+        "Gastrointestinal Disorders, CTCAE 6.0",
+        "Gastrointestinal disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C146630": {
+      "code": "C146630",
+      "parents": [
+        "C143163"
+      ],
+      "synonyms": [
+        "Gastrointestinal Disorders, CTCAE 5.0"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C26791": {
+      "code": "C26791",
+      "parents": [
+        "C36291"
+      ],
+      "synonyms": [
+        "Hemorrhage",
+        "Bleeding",
+        "Bleeding",
+        "HEMORRHAGE",
+        "Hemorrhage/Blood Loss/Bleeding",
+        "hemorrhage"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50476": {
+      "code": "C50476",
+      "parents": [
+        "C5040"
+      ],
+      "synonyms": [
+        "Burning Sensation"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C38665": {
+      "code": "C38665",
+      "parents": [
+        "C3303"
+      ],
+      "synonyms": [
+        "Chest Pain",
+        "thoracalgia",
+        "thoracodynia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C50491": {
+      "code": "C50491",
+      "parents": [
+        "C4876"
+      ],
+      "synonyms": [
+        "Chest Tightness or Pressure",
+        "Chest Tightness"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C121573": {
+      "code": "C121573",
+      "parents": [
+        "C36281"
+      ],
+      "synonyms": [
+        "Crepitus"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50774": {
+      "code": "C50774",
+      "parents": [
+        "C35867"
+      ],
+      "synonyms": [
+        "Tissue Degeneration",
+        "DEGENERATION"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C35867": {
+      "code": "C35867",
+      "parents": [
+        "C83490"
+      ],
+      "synonyms": [
+        "Morphologic Finding",
+        "Morphology",
+        "Morphology",
+        "Morphology (A/O/U)"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C83490": {
+      "code": "C83490",
+      "parents": [
+        "C125581"
+      ],
+      "synonyms": [
+        "Histopathology Result",
+        "Histopathologic Finding",
+        "Histopathologic Result",
+        "Histopathology Finding",
+        "Microscopic Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C125581": {
+      "code": "C125581",
+      "parents": [
+        "C36292"
+      ],
+      "synonyms": [
+        "Pathology Result",
+        "Pathologic Examination Result",
+        "Pathologic Result"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36292": {
+      "code": "C36292",
+      "parents": [
+        "C77140"
+      ],
+      "synonyms": [
+        "Laboratory Test Result",
+        "LAB_RESULT",
+        "LAB_RESULT",
+        "LAB_RESULT",
+        "LAB_RESULT",
+        "LAB_RESULT",
+        "LAB_RESULT",
+        "Lab Findings",
+        "Lab Value",
+        "Laboratory Finding",
+        "Laboratory Finding",
+        "Laboratory Report",
+        "Labs",
+        "TEST RESULT",
+        "Test Result",
+        "test result",
+        "test_result"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory or Test Result"
+      ]
+    },
+    "C112817": {
+      "code": "C112817",
+      "parents": [
+        "C124224"
+      ],
+      "synonyms": [
+        "Depigmentation"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C124224": {
+      "code": "C124224",
+      "parents": [
+        "C5036",
+        "C36281"
+      ],
+      "synonyms": [
+        "Pigmentary Change in Skin",
+        "Pigment Changes",
+        "Pigmentary Change of Skin",
+        "Pigmentary Change of Skin"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C55447": {
+      "code": "C55447",
+      "parents": [
+        "C53834",
+        "C220603",
+        "C143187"
+      ],
+      "synonyms": [
+        "Depression, CTCAE",
+        "Depression",
+        "Depression",
+        "Depression",
+        "Depression",
+        "Depression (Priority 2)"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C53834": {
+      "code": "C53834",
+      "parents": [
+        "C53808"
+      ],
+      "synonyms": [
+        "Mood Alteration, CTCAE",
+        "Mood alteration"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C220603": {
+      "code": "C220603",
+      "parents": [
+        "C220583"
+      ],
+      "synonyms": [
+        "Psychiatric Disorders, CTCAE 6.0",
+        "Psychiatric disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143187": {
+      "code": "C143187",
+      "parents": [
+        "C143163"
+      ],
+      "synonyms": [
+        "Psychiatric Disorders, CTCAE 5.0"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C53808": {
+      "code": "C53808",
+      "parents": [
+        "C53781"
+      ],
+      "synonyms": [
+        "Adverse Event Associated with the Nervous System",
+        "Adverse Event Associated with Neurology",
+        "NEUROLOGY"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C111657": {
+      "code": "C111657",
+      "parents": [
+        "C5036"
+      ],
+      "synonyms": [
+        "Desquamation",
+        "EXFOLIATION"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C37941": {
+      "code": "C37941",
+      "parents": [
+        "C5042"
+      ],
+      "synonyms": [
+        "Diplopia",
+        "Diplopia/Double Vision",
+        "Double Vision",
+        "Double Vision"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50535": {
+      "code": "C50535",
+      "parents": [
+        "C4876"
+      ],
+      "synonyms": [
+        "Discomfort"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C143423": {
+      "code": "C143423",
+      "parents": [
+        "C220605",
+        "C143180"
+      ],
+      "synonyms": [
+        "Dysmenorrhea, CTCAE",
+        "Dysmenorrhea",
+        "Dysmenorrhea",
+        "Dysmenorrhea"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3002": {
+      "code": "C3002",
+      "parents": [
+        "C3399"
+      ],
+      "synonyms": [
+        "Edema",
+        "EDEMA",
+        "Swelling/ Edema",
+        "edema"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C55615": {
+      "code": "C55615",
+      "parents": [
+        "C53797",
+        "C220605",
+        "C143180"
+      ],
+      "synonyms": [
+        "Erectile Dysfunction, CTCAE",
+        "Erectile Dysfunction",
+        "Erectile Dysfunction (Priority 1)",
+        "Erectile dysfunction",
+        "Erectile dysfunction",
+        "Erectile dysfunction"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C53797": {
+      "code": "C53797",
+      "parents": [
+        "C53781"
+      ],
+      "synonyms": [
+        "Adverse Event Associated with Sexual and Reproductive Function",
+        "SEXUAL/REPRODUCTIVE FUNCTION"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C77960": {
+      "code": "C77960",
+      "parents": [
+        "C54266"
+      ],
+      "synonyms": [
+        "Fear",
+        "Fearful",
+        "Fearfulness",
+        "Frightened"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental Process"
+      ]
+    },
+    "C34630": {
+      "code": "C34630",
+      "parents": [
+        "C3368"
+      ],
+      "synonyms": [
+        "Gagging"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C57812": {
+      "code": "C57812",
+      "parents": [
+        "C53802",
+        "C220591",
+        "C146630"
+      ],
+      "synonyms": [
+        "Gastritis, CTCAE",
+        "Gastritis",
+        "Gastritis",
+        "Gastritis",
+        "Gastritis (including bile reflux gastritis)"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C222240": {
+      "code": "C222240",
+      "parents": [
+        "C3858"
+      ],
+      "synonyms": [
+        "Grief",
+        "bereavement",
+        "grief"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C95745": {
+      "code": "C95745",
+      "parents": [
+        "C77965"
+      ],
+      "synonyms": [
+        "Helplessness",
+        "Helpless"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental Process"
+      ]
+    },
+    "C77965": {
+      "code": "C77965",
+      "parents": [
+        "C16840"
+      ],
+      "synonyms": [
+        "Feelings",
+        "Feeling"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental Process"
+      ]
+    },
+    "C64329": {
+      "code": "C64329",
+      "parents": [
+        "C3310"
+      ],
+      "synonyms": [
+        "Hemiplegia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3094": {
+      "code": "C3094",
+      "parents": [
+        "C85403"
+      ],
+      "synonyms": [
+        "Hemoptysis",
+        "Coughing up Blood",
+        "hemoptysis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C92809": {
+      "code": "C92809",
+      "parents": [
+        "C36285"
+      ],
+      "synonyms": [
+        "Hormone Imbalance",
+        "Hormonal Imbalance"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C36285": {
+      "code": "C36285",
+      "parents": [
+        "C36278"
+      ],
+      "synonyms": [
+        "Endocrine System Finding",
+        "ENDOCRINE SYSTEM",
+        "Endocrine"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C113215": {
+      "code": "C113215",
+      "parents": [
+        "C92809"
+      ],
+      "synonyms": [
+        "Androgen Excess",
+        "Hyperandrogenism",
+        "Hyperandrogenism"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143558": {
+      "code": "C143558",
+      "parents": [
+        "C220601",
+        "C143177"
+      ],
+      "synonyms": [
+        "Hypersomnia, CTCAE",
+        "Hypersomnia",
+        "Hypersomnia",
+        "Hypersomnia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C220601": {
+      "code": "C220601",
+      "parents": [
+        "C220583"
+      ],
+      "synonyms": [
+        "Nervous System Disorders, CTCAE 6.0",
+        "Nervous system disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143177": {
+      "code": "C143177",
+      "parents": [
+        "C143163"
+      ],
+      "synonyms": [
+        "Nervous System Disorders, CTCAE 5.0"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C210777": {
+      "code": "C210777",
+      "parents": [
+        "C3837"
+      ],
+      "synonyms": [
+        "Inability to Stand",
+        "Inability to stand",
+        "Unable to Stand"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C26756": {
+      "code": "C26756",
+      "parents": [
+        "C3368"
+      ],
+      "synonyms": [
+        "Dyspepsia",
+        "Indigestion",
+        "Indigestion",
+        "dyspepsia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3836": {
+      "code": "C3836",
+      "parents": [
+        "C8282"
+      ],
+      "synonyms": [
+        "Infertility",
+        "Fertility Disorder",
+        "Fertility Disorders",
+        "Infertile",
+        "Sterile",
+        "Sterility",
+        "infertile",
+        "infertility",
+        "sterile"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3137": {
+      "code": "C3137",
+      "parents": [
+        "C36291"
+      ],
+      "synonyms": [
+        "Inflammation",
+        "INFLAMMATION",
+        "Inflammatory Finding",
+        "inflammation"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143617": {
+      "code": "C143617",
+      "parents": [
+        "C220605",
+        "C143180"
+      ],
+      "synonyms": [
+        "Irregular Menstruation, CTCAE",
+        "Irregular Menstruation",
+        "Irregular menstruation",
+        "Irregular menstruation"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C64433": {
+      "code": "C64433",
+      "parents": [
+        "C74954",
+        "C64430"
+      ],
+      "synonyms": [
+        "Alanine Aminotransferase Measurement",
+        "ALT",
+        "ALT",
+        "Alanine Aminotransferase",
+        "Alanine Aminotransferase",
+        "Alanine aminotransferase",
+        "SGPT"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory Procedure"
+      ]
+    },
+    "C64467": {
+      "code": "C64467",
+      "parents": [
+        "C74954",
+        "C64430"
+      ],
+      "synonyms": [
+        "Aspartate Aminotransferase Measurement",
+        "AST",
+        "AST",
+        "Aspartate Aminotransferase",
+        "Aspartate Aminotransferase",
+        "Aspartate Aminotransferase Antigen",
+        "Aspartate Aminotransferase Antigen Measurement",
+        "SGOT",
+        "SGOT Antigen"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory Procedure"
+      ]
+    },
+    "C54706": {
+      "code": "C54706",
+      "parents": [
+        "C49672"
+      ],
+      "synonyms": [
+        "Blood Pressure",
+        "BP",
+        "blood pressure"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Clinical Attribute"
+      ]
+    },
+    "C64489": {
+      "code": "C64489",
+      "parents": [
+        "C64430"
+      ],
+      "synonyms": [
+        "Creatine Kinase Measurement",
+        "CK",
+        "CPK",
+        "Creatine Kinase",
+        "Creatine Kinase",
+        "Creatine Phosphokinase"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory Procedure"
+      ]
+    },
+    "C64547": {
+      "code": "C64547",
+      "parents": [
+        "C49237"
+      ],
+      "synonyms": [
+        "Creatinine Measurement",
+        "CREAT",
+        "Cr",
+        "Creatinine",
+        "Creatinine",
+        "Creatinine",
+        "Creatinine",
+        "Creatinine",
+        "Creatinine Level"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory Procedure"
+      ]
+    },
+    "C126369": {
+      "code": "C126369",
+      "parents": [
+        "C172299"
+      ],
+      "synonyms": [
+        "Dehydration",
+        "Dehydration Procedure",
+        "Dehydration Technique"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory Procedure"
+      ]
+    },
+    "C25299": {
+      "code": "C25299",
+      "parents": [
+        "C54706"
+      ],
+      "synonyms": [
+        "Diastolic Blood Pressure",
+        "DIABP",
+        "DIABP",
+        "Diastolic Pressure",
+        "Diastolic blood pressure"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Clinical Attribute"
+      ]
+    },
+    "C63479": {
+      "code": "C63479",
+      "parents": [
+        "C19770"
+      ],
+      "synonyms": [
+        "Gene Expression Analysis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory Procedure"
+      ]
+    },
+    "C16809": {
+      "code": "C16809",
+      "parents": [
+        "C16502"
+      ],
+      "synonyms": [
+        "Magnetic Resonance Imaging",
+        "MR",
+        "MR",
+        "MR Imaging",
+        "MRI",
+        "MRI",
+        "MRI",
+        "MRI",
+        "MRI",
+        "MRI",
+        "MRI Scan",
+        "MRI Scan",
+        "MRI Scan",
+        "MRI Scan",
+        "MRIs",
+        "Magnetic Resonance",
+        "Magnetic Resonance Imaging (MRI)",
+        "Magnetic Resonance Imaging Scan",
+        "Magnetic resonance imaging (procedure)",
+        "Medical Imaging, Magnetic Resonance / Nuclear Magnetic Resonance",
+        "NMR Imaging",
+        "NMRI",
+        "NMRI",
+        "Nuclear Magnetic Resonance Imaging",
+        "Structural MRI",
+        "magnetic resonance imaging",
+        "nuclear magnetic resonance imaging",
+        "sMRI"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Diagnostic Procedure"
+      ]
+    },
+    "C63507": {
+      "code": "C63507",
+      "parents": [
+        "C38013"
+      ],
+      "synonyms": [
+        "Range of Motion",
+        "Joint Mobility",
+        "Joint Range of Motion",
+        "Joint Range of Movement",
+        "Mobility"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Clinical Attribute"
+      ]
+    },
+    "C51949": {
+      "code": "C51949",
+      "parents": [
+        "C51948"
+      ],
+      "synonyms": [
+        "Lymphocyte Count",
+        "LYM",
+        "LYM",
+        "LYM",
+        "Lymphocytes",
+        "Lymphocytes",
+        "Lymphocytes",
+        "Lymphocytes",
+        "Lymphocytes",
+        "Lymphocytes",
+        "Lymphocytes",
+        "Lymphocytes"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory Procedure"
+      ]
+    },
+    "C130173": {
+      "code": "C130173",
+      "parents": [
+        "C18640"
+      ],
+      "synonyms": [
+        "Hemagglutination Assay",
+        "HEMAGGLUTINATION ASSAY"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory Procedure"
+      ]
+    },
+    "C18150": {
+      "code": "C18150",
+      "parents": [
+        "C16539"
+      ],
+      "synonyms": [
+        "Sodium Dodecylsulfate-Polyacrylamide Gel Electrophoresis",
+        "SDS-PAGE",
+        "Sodium Dodecyl Sulfate-Polyacrylamide Gel Electrophoresis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Molecular Biology Research Technique"
+      ]
+    },
+    "C16585": {
+      "code": "C16585",
+      "parents": [
+        "C74944"
+      ],
+      "synonyms": [
+        "Flow Cytometry",
+        "FLOW CYTOMETRY",
+        "flow cytometry"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory Procedure"
+      ]
+    },
+    "C17157": {
+      "code": "C17157",
+      "parents": [
+        "C17155"
+      ],
+      "synonyms": [
+        "Raman Spectroscopy",
+        "Spectroscopy, IR/UV/Raman",
+        "Spectroscopy, Raman"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Laboratory Procedure"
+      ]
+    },
+    "C15206": {
+      "code": "C15206",
+      "parents": [
+        "C63536"
+      ],
+      "synonyms": [
+        "Clinical Study",
+        "CLINICAL STUDY",
+        "Clinical Research",
+        "Clinical Research",
+        "Clinical Studies",
+        "Study",
+        "clinical study",
+        "clinical study",
+        "study"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Research Activity"
+      ]
+    },
+    "C41331": {
+      "code": "C41331",
+      "parents": [
+        "C36291"
+      ],
+      "synonyms": [
+        "Adverse Event",
+        "ADVERSE EVENT",
+        "ADVERSE EVENT",
+        "ADVERSE_EVENT",
+        "ADVERSE_EVENT",
+        "ADVERSE_EVENT",
+        "AE",
+        "Adverse Experience",
+        "AdverseEvent",
+        "AdverseEvent",
+        "adverse event",
+        "adverse event",
+        "adverse event",
+        "adverse event",
+        "adverse event (AE)",
+        "adverse experience",
+        "adverse_event",
+        "adverse_event",
+        "side effects"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3045": {
+      "code": "C3045",
+      "parents": [
+        "C36287"
+      ],
+      "synonyms": [
+        "Fistula",
+        "FISTULA",
+        "Pathologic Fistula",
+        "fistula"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Anatomical Abnormality",
+        "Disease or Syndrome"
+      ]
+    },
+    "C36287": {
+      "code": "C36287",
+      "parents": [
+        "C53547"
+      ],
+      "synonyms": [
+        "Congenital or Acquired Anatomic Abnormality",
+        "Anatomic Abnormality",
+        "Anatomical Abnormality",
+        "Congenital or Acquired Anatomical Abnormality",
+        "Deformity",
+        "MALFORMATION"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Anatomical Abnormality"
+      ]
+    },
+    "C3384": {
+      "code": "C3384",
+      "parents": [
+        "C121827",
+        "C100104"
+      ],
+      "synonyms": [
+        "Splenomegaly",
+        "splenomegaly"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C121827": {
+      "code": "C121827",
+      "parents": [
+        "C82547"
+      ],
+      "synonyms": [
+        "Organomegaly"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C82547": {
+      "code": "C82547",
+      "parents": [
+        "C77140"
+      ],
+      "synonyms": [
+        "Abnormal Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C77140": {
+      "code": "C77140",
+      "parents": [
+        "C3367"
+      ],
+      "synonyms": [
+        "Clinical Test Result",
+        "Clinical Measurement",
+        "Diagnostic Test Result"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C3426": {
+      "code": "C3426",
+      "parents": [
+        "C3671"
+      ],
+      "synonyms": [
+        "Ulcer",
+        "ULCER",
+        "Ulcerated",
+        "Ulceration",
+        "Ulceration",
+        "Ulcerative",
+        "Ulcers",
+        "ulcer"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C34846": {
+      "code": "C34846",
+      "parents": [
+        "C3036"
+      ],
+      "synonyms": [
+        "Nervous Debility"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C3036": {
+      "code": "C3036",
+      "parents": [
+        "C3858"
+      ],
+      "synonyms": [
+        "Fatigue",
+        "FATIGUE",
+        "Fatigue (lassitude)",
+        "Lack of Energy",
+        "fatigue"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C3020": {
+      "code": "C3020",
+      "parents": [
+        "C97154"
+      ],
+      "synonyms": [
+        "Seizure Disorder",
+        "Epilepsy",
+        "Epilepsy",
+        "Epilepsy",
+        "Epilepsy",
+        "Epilepsy",
+        "Epilepsy",
+        "Epilepsy",
+        "epilepsy"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C97154": {
+      "code": "C97154",
+      "parents": [
+        "C96413",
+        "C27586"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Brain Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C96413": {
+      "code": "C96413",
+      "parents": [
+        "C2934"
+      ],
+      "synonyms": [
+        "Brain Disorder",
+        "Disorder of brain, unspecified"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C28397": {
+      "code": "C28397",
+      "parents": [
+        "C98541"
+      ],
+      "synonyms": [
+        "Asthma",
+        "asthma"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C98541": {
+      "code": "C98541",
+      "parents": [
+        "C27557"
+      ],
+      "synonyms": [
+        "Chronic Lung Disorder",
+        "Chronic Lung Disease",
+        "Chronic Lung Disease",
+        "Chronic_Lung_Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27557": {
+      "code": "C27557",
+      "parents": [
+        "C35755",
+        "C35743",
+        "C3198"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Lung Disorder",
+        "Non-Neoplastic Pulmonary Disorder",
+        "Non-neoplastic Lung Disorders",
+        "Non-neoplastic Pulmonary Disease",
+        "Non-neoplastic Pulmonary Diseases"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35755": {
+      "code": "C35755",
+      "parents": [
+        "C53531",
+        "C26871"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Respiratory System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35743": {
+      "code": "C35743",
+      "parents": [
+        "C53531",
+        "C35742"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Thoracic Disorder",
+        "Non-Neoplastic Thoracic Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3198": {
+      "code": "C3198",
+      "parents": [
+        "C35742",
+        "C26871"
+      ],
+      "synonyms": [
+        "Lung Disorder",
+        "Disorder of Lung",
+        "Lung Disorders",
+        "Pulmonary Disease",
+        "Pulmonary Disease",
+        "Pulmonary Diseases",
+        "Pulmonary Disorder",
+        "Pulmonary Disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26871": {
+      "code": "C26871",
+      "parents": [
+        "C27669"
+      ],
+      "synonyms": [
+        "Respiratory System Disorder",
+        "Disorder of Respiratory System",
+        "Respiratory Disorder",
+        "Unspecified Respiratory Problem"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35742": {
+      "code": "C35742",
+      "parents": [
+        "C27669"
+      ],
+      "synonyms": [
+        "Thoracic Disorder",
+        "Thoracic Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3262": {
+      "code": "C3262",
+      "parents": [
+        "C2991"
+      ],
+      "synonyms": [
+        "Neoplasm",
+        "Neoplasia",
+        "Neoplasm, NOS",
+        "Neoplasms, NOS",
+        "Neoplastic Disease",
+        "Neoplastic Growth",
+        "Other Neoplasm",
+        "Tumor, NOS",
+        "neoplasia",
+        "neoplasm",
+        "tumor"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Neoplastic Process"
+      ]
+    },
+    "C34933": {
+      "code": "C34933",
+      "parents": [
+        "C3671"
+      ],
+      "synonyms": [
+        "Poisoning"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C220586": {
+      "code": "C220586",
+      "parents": [
+        "C220583"
+      ],
+      "synonyms": [
+        "Cardiac Disorders, CTCAE 6.0",
+        "Cardiac disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C143221": {
+      "code": "C143221",
+      "parents": [
+        "C220598",
+        "C143174"
+      ],
+      "synonyms": [
+        "Hyperlipidemia, CTCAE",
+        "Hyperlipidemia",
+        "Hyperlipidemia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C2911": {
+      "code": "C2911",
+      "parents": [
+        "C27557"
+      ],
+      "synonyms": [
+        "Bronchitis",
+        "Bronchial infection",
+        "bronchitis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27669": {
+      "code": "C27669",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Respiratory and Thoracic Disorder",
+        "Respiratory and Thoracic Disease",
+        "Respiratory, Thoracic, and Mediastinal Disease",
+        "Respiratory, Thoracic, and Mediastinal Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3143": {
+      "code": "C3143",
+      "parents": [
+        "C3368"
+      ],
+      "synonyms": [
+        "Jaundice",
+        "jaundice"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C84824": {
+      "code": "C84824",
+      "parents": [
+        "C53543",
+        "C26831"
+      ],
+      "synonyms": [
+        "Leprosy",
+        "Hansen Disease",
+        "Hansen's Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26831": {
+      "code": "C26831",
+      "parents": [
+        "C2890"
+      ],
+      "synonyms": [
+        "Mycobacterial Infection",
+        "Mycobacterium Infection",
+        "Mycobacterium, NOS"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2890": {
+      "code": "C2890",
+      "parents": [
+        "C26726"
+      ],
+      "synonyms": [
+        "Bacterial Infection",
+        "Bacterial Disease",
+        "Bacterial Disorder",
+        "Bacterial infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35055": {
+      "code": "C35055",
+      "parents": [
+        "C85197"
+      ],
+      "synonyms": [
+        "Syphilis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C85197": {
+      "code": "C85197",
+      "parents": [
+        "C3365",
+        "C2890"
+      ],
+      "synonyms": [
+        "Treponemal Infection",
+        "Treponema pallidum"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3365": {
+      "code": "C3365",
+      "parents": [
+        "C26726"
+      ],
+      "synonyms": [
+        "Sexually Transmitted Disorder",
+        "STD",
+        "STD",
+        "STI",
+        "Sexually Transmitted Disease",
+        "Sexually Transmitted Infection",
+        "Sexually Transmitted Infection",
+        "Sexually Transmitted Infection",
+        "VD",
+        "Venereal Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3038": {
+      "code": "C3038",
+      "parents": [
+        "C53458"
+      ],
+      "synonyms": [
+        "Fever",
+        "FEVER",
+        "Pyrexia",
+        "fever"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C3362": {
+      "code": "C3362",
+      "parents": [
+        "C92201"
+      ],
+      "synonyms": [
+        "Schizophrenia",
+        "Schizophrenia, unspecified",
+        "schizophrenia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C92201": {
+      "code": "C92201",
+      "parents": [
+        "C2893"
+      ],
+      "synonyms": [
+        "Schizophrenia and Other Psychotic Disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C35367": {
+      "code": "C35367",
+      "parents": [
+        "C3038"
+      ],
+      "synonyms": [
+        "Intermittent Pyrexia",
+        "Intermittent Fever"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C34650": {
+      "code": "C34650",
+      "parents": [
+        "C3235",
+        "C2883"
+      ],
+      "synonyms": [
+        "Gout",
+        "gout"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34998": {
+      "code": "C34998",
+      "parents": [
+        "C35025"
+      ],
+      "synonyms": [
+        "Scabies"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35025": {
+      "code": "C35025",
+      "parents": [
+        "C27583",
+        "C27555"
+      ],
+      "synonyms": [
+        "Skin Infection",
+        "Skin infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34767": {
+      "code": "C34767",
+      "parents": [
+        "C34953"
+      ],
+      "synonyms": [
+        "Leishmaniasis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34953": {
+      "code": "C34953",
+      "parents": [
+        "C27864"
+      ],
+      "synonyms": [
+        "Protozoal Infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27864": {
+      "code": "C27864",
+      "parents": [
+        "C26726"
+      ],
+      "synonyms": [
+        "Parasitic Infection",
+        "Parasitic Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26899": {
+      "code": "C26899",
+      "parents": [
+        "C3423",
+        "C26873"
+      ],
+      "synonyms": [
+        "Pulmonary Tuberculosis",
+        "Lung TB",
+        "Lung Tuberculosis",
+        "Pulmonary TB"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3423": {
+      "code": "C3423",
+      "parents": [
+        "C26831"
+      ],
+      "synonyms": [
+        "Tuberculosis",
+        "Active Tuberculosis",
+        "TB",
+        "TB",
+        "TB",
+        "Tuberculosis Disease",
+        "tuberculosis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26873": {
+      "code": "C26873",
+      "parents": [
+        "C27583",
+        "C27557"
+      ],
+      "synonyms": [
+        "Infectious Lung Disorder",
+        "Infectious Lung Disease",
+        "Infectious Lung Diseases",
+        "Infectious Lung Disorders",
+        "Lung Infection",
+        "Lung infection"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C220590": {
+      "code": "C220590",
+      "parents": [
+        "C220583"
+      ],
+      "synonyms": [
+        "Eye Disorders, CTCAE 6.0",
+        "Eye disorders"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C27195": {
+      "code": "C27195",
+      "parents": [
+        "C2983"
+      ],
+      "synonyms": [
+        "Acne",
+        "Acne Vulgaris",
+        "Acne Vulgaris",
+        "acne"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34986": {
+      "code": "C34986",
+      "parents": [
+        "C27658"
+      ],
+      "synonyms": [
+        "Rhinitis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27658": {
+      "code": "C27658",
+      "parents": [
+        "C27656",
+        "C27102"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Nasal Cavity Disorder",
+        "Non-Neoplastic Nasal Cavity Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27102": {
+      "code": "C27102",
+      "parents": [
+        "C27647"
+      ],
+      "synonyms": [
+        "Nasal Cavity Disorder",
+        "Nasal Cavity Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C92566": {
+      "code": "C92566",
+      "parents": [
+        "C92190"
+      ],
+      "synonyms": [
+        "Pica Eating Disorder",
+        "Pica",
+        "Pica"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C92190": {
+      "code": "C92190",
+      "parents": [
+        "C2893"
+      ],
+      "synonyms": [
+        "Pediatric Psychiatric Disorder",
+        "Childhood Mental Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Mental or Behavioral Dysfunction"
+      ]
+    },
+    "C3318": {
+      "code": "C3318",
+      "parents": [
+        "C27550"
+      ],
+      "synonyms": [
+        "Peptic Ulcer",
+        "Peptic Ulcer (Ulcer)",
+        "Peptic Ulcer Disease",
+        "peptic ulcer"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C99088": {
+      "code": "C99088",
+      "parents": [
+        "C35025",
+        "C2890"
+      ],
+      "synonyms": [
+        "Impetigo"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3214": {
+      "code": "C3214",
+      "parents": [
+        "C28193",
+        "C215177"
+      ],
+      "synonyms": [
+        "Malabsorption Syndrome",
+        "Malabsorption",
+        "malabsorption syndrome"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C215177": {
+      "code": "C215177",
+      "parents": [
+        "C53500",
+        "C215175"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Small Intestinal Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C215175": {
+      "code": "C215175",
+      "parents": [
+        "C26801"
+      ],
+      "synonyms": [
+        "Small Intestinal Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34775": {
+      "code": "C34775",
+      "parents": [
+        "C215349"
+      ],
+      "synonyms": [
+        "Leukorrhea"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C215349": {
+      "code": "C215349",
+      "parents": [
+        "C5035"
+      ],
+      "synonyms": [
+        "Female Reproductive System Symptom",
+        "Female Genital Organ Symptom"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C2913": {
+      "code": "C2913",
+      "parents": [
+        "C53458"
+      ],
+      "synonyms": [
+        "Cachexia",
+        "cachexia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C35199": {
+      "code": "C35199",
+      "parents": [
+        "C99209",
+        "C34548"
+      ],
+      "synonyms": [
+        "Otorrhea",
+        "Ear Drainage"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C99209": {
+      "code": "C99209",
+      "parents": [
+        "C36283"
+      ],
+      "synonyms": [
+        "Ear Finding"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C34548": {
+      "code": "C34548",
+      "parents": [
+        "C50437"
+      ],
+      "synonyms": [
+        "Fluid Discharge",
+        "Discharge",
+        "discharge"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Finding"
+      ]
+    },
+    "C50437": {
+      "code": "C50437",
+      "parents": [
+        "C53458"
+      ],
+      "synonyms": [
+        "Body Substance Discharge",
+        "Discharge"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C26887": {
+      "code": "C26887",
+      "parents": [
+        "C3853",
+        "C27651"
+      ],
+      "synonyms": [
+        "Stomatitis",
+        "Mucositis oral",
+        "Oral Mucositis",
+        "Oral Mucositis",
+        "stomatitis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3853": {
+      "code": "C3853",
+      "parents": [
+        "C115965"
+      ],
+      "synonyms": [
+        "Gastrointestinal Mucositis",
+        "Mucositis",
+        "mucositis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27651": {
+      "code": "C27651",
+      "parents": [
+        "C27650",
+        "C27641"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Oral Cavity Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C115965": {
+      "code": "C115965",
+      "parents": [
+        "C93210"
+      ],
+      "synonyms": [
+        "Mucositis"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27650": {
+      "code": "C27650",
+      "parents": [
+        "C3240",
+        "C27663"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Oral Disorder",
+        "Non-Neoplastic Oral Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C27641": {
+      "code": "C27641",
+      "parents": [
+        "C3240"
+      ],
+      "synonyms": [
+        "Oral Cavity Disorder",
+        "Oral Cavity Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3240": {
+      "code": "C3240",
+      "parents": [
+        "C118420"
+      ],
+      "synonyms": [
+        "Oral Disorder",
+        "Oral Disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34721": {
+      "code": "C34721",
+      "parents": [
+        "C36280"
+      ],
+      "synonyms": [
+        "Hysteria"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C84484": {
+      "code": "C84484",
+      "parents": [
+        "C34380"
+      ],
+      "synonyms": [
+        "Iron-Deficiency Anemia",
+        "Iron deficiency anemia, unspecified"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C34380": {
+      "code": "C34380",
+      "parents": [
+        "C2869"
+      ],
+      "synonyms": [
+        "Hypochromic Anemia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C2869": {
+      "code": "C2869",
+      "parents": [
+        "C26324"
+      ],
+      "synonyms": [
+        "Anemia",
+        "Anemia, unspecified",
+        "Decreased blood erythrocyte volume",
+        "anemia"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26324": {
+      "code": "C26324",
+      "parents": [
+        "C53531",
+        "C26323"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Hematopoietic and Lymphoid Cell Disorder",
+        "Non-Malignant Hematologic and Lymphocytic Disorder",
+        "Non-Neoplastic Hematologic and Lymphocytic Disorder",
+        "Non-Neoplastic Hematologic and Lymphocytic Disorder",
+        "Non-Neoplastic Hematologic and Lymphoid Cell Disorder",
+        "nonmalignant hematologic disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C97109": {
+      "code": "C97109",
+      "parents": [
+        "C53534"
+      ],
+      "synonyms": [
+        "Blindness"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C53534": {
+      "code": "C53534",
+      "parents": [
+        "C53531",
+        "C35126"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Vision Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35126": {
+      "code": "C35126",
+      "parents": [
+        "C27551"
+      ],
+      "synonyms": [
+        "Vision Disorder",
+        "Disorder of Visual System",
+        "Visual Disorder",
+        "Visual Field Disorder",
+        "Visual System Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C26915": {
+      "code": "C26915",
+      "parents": [
+        "C2983"
+      ],
+      "synonyms": [
+        "Vitiligo"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C50625": {
+      "code": "C50625",
+      "parents": [
+        "C35741"
+      ],
+      "synonyms": [
+        "Ischemic Heart Disease",
+        "IHD"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C35741": {
+      "code": "C35741",
+      "parents": [
+        "C35743",
+        "C3079",
+        "C27672"
+      ],
+      "synonyms": [
+        "Non-Neoplastic Heart Disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3079": {
+      "code": "C3079",
+      "parents": [
+        "C35742",
+        "C2931"
+      ],
+      "synonyms": [
+        "Heart Disorder",
+        "Cardiac Disease",
+        "Heart Disease",
+        "Heart Disease",
+        "Heart Disease",
+        "Heart trouble",
+        "Unspecified Heart Problem"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C3279": {
+      "code": "C3279",
+      "parents": [
+        "C36172"
+      ],
+      "synonyms": [
+        "Night Sweats",
+        "NIGHT_SWEATS",
+        "Night Sweating"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Sign or Symptom"
+      ]
+    },
+    "C26845": {
+      "code": "C26845",
+      "parents": [
+        "C79593"
+      ],
+      "synonyms": [
+        "Parkinson Disease",
+        "Parkinson's Disease",
+        "Parkinson's Disease",
+        "Parkinson's Disease",
+        "Parkinson's Disease",
+        "Parkinson's disease",
+        "Parkinson's disease"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    },
+    "C79593": {
+      "code": "C79593",
+      "parents": [
+        "C4802"
+      ],
+      "synonyms": [
+        "Extrapyramidal Disorder",
+        "Extrapyramidal and movement disorder, unspecified",
+        "Extrapyramidal disorder"
+      ],
+      "status": "",
+      "semantic_types": [
+        "Disease or Syndrome"
+      ]
+    }
+  }
+}

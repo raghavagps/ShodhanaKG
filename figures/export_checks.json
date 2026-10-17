@@ -1,0 +1,92 @@
+[
+  {
+    "file": "core/01_schema.svg",
+    "bytes": 24572,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "core/02_composition.svg",
+    "bytes": 37712,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "core/03_integration.svg",
+    "bytes": 87829,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "core/04_retrieval_workflow.svg",
+    "bytes": 7257,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "core/05_software_evaluation.svg",
+    "bytes": 20445,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "core/06_purification_case.svg",
+    "bytes": 16484,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "core/07_evidence_coverage.svg",
+    "bytes": 41831,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "supplementary/S01_complete_instance_graph.svg",
+    "bytes": 7757205,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "supplementary/S02_treatment_phases.svg",
+    "bytes": 30385,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "supplementary/S03_property_coverage.svg",
+    "bytes": 123489,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "supplementary/S04_connectivity.svg",
+    "bytes": 42512,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "supplementary/S05_language_robustness.svg",
+    "bytes": 17007,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "supplementary/S06_conversation_context.svg",
+    "bytes": 18132,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "supplementary/S07_failures_limitations.svg",
+    "bytes": 10145,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  },
+  {
+    "file": "supplementary/S08_publication_status.svg",
+    "bytes": 14047,
+    "pdf_vector_check": true,
+    "external_asset_references": 0
+  }
+]

@@ -1,0 +1,667 @@
+{
+  "scope": "Implementation files plus generated audit/source artifacts. src/lib/api.ts was added to benchmark hashing but was not modified. No git repository available.",
+  "implementation_files": [
+    {
+      "path": "api/chatbot_response.php",
+      "sha256": "6a8958e293517fc9e8087ed8583e515dff151e034e764eefb1eee932ec81056b"
+    },
+    {
+      "path": "api/core/ChatbotOrchestrator.php",
+      "sha256": "912720fe0d03cf1299a27b068458872102fee0e627b2951899c48e8c4b1b7117"
+    },
+    {
+      "path": "api/core/ConversationContext.php",
+      "sha256": "db079ceea92c34a12c0c425a15d74ed8ed96915c0e669272fd957a828a001c08"
+    },
+    {
+      "path": "api/core/ConversationEntities.php",
+      "sha256": "ce90ccac3f2206bdf43ba7d9e3b770fea2f95ed5f7384f456a1b49dafafb680d"
+    },
+    {
+      "path": "api/core/EntityResolution.php",
+      "sha256": "ae92bc5c5a19881d0f469000f8735572d9e6514a043ee8707c728e472f24d505"
+    },
+    {
+      "path": "api/core/EntityResolver.php",
+      "sha256": "c3126ad0385112043dcbfc0be101edc01426184274c53548d283f02b93b375b9"
+    },
+    {
+      "path": "api/core/QueryUnderstanding.php",
+      "sha256": "7513739fa8cf712eb75c0a26788e5f80f5e331b8e0d3eb7b503557bf978be44f"
+    },
+    {
+      "path": "api/core/QuestionRouter.php",
+      "sha256": "df11d643122833dd0528843b4810924a3a9a8a05b8d790e8976774aeb30adc23"
+    },
+    {
+      "path": "api/core/SemanticQuery.php",
+      "sha256": "a7885f00e67f48a97b369eeac73f5e7a2ab62c4a29394a7755e013fc99e43394"
+    },
+    {
+      "path": "api/core/terminology_catalog_v1.json",
+      "sha256": "452822db24def99ad142c3b982ce90d4b1b5f52ae446fd49d0e7afc1a8004dc4"
+    },
+    {
+      "path": "api/indication_compound.php",
+      "sha256": "41038d3cc288cdb2151a4023090a48d7efbddeea4c39c72e86661d5aeb6081c2"
+    },
+    {
+      "path": "api/resolve_entity.php",
+      "sha256": "0cc36bbf853d5089d459c28a9a0f1e71ef3dd57b5a7712420db1a384a5df39a1"
+    },
+    {
+      "path": "api/search.php",
+      "sha256": "db81e831395a0445f99d2d22a6b3941835536d12e54606db19810799b0dff918"
+    },
+    {
+      "path": "api/tests/evaluate_conversations.py",
+      "sha256": "3339fc925798e060b725f45f5d5261b40a058e9288f539d1ae018a0cfeca77e4"
+    },
+    {
+      "path": "api/tests/evaluate_entity_resolution.py",
+      "sha256": "42ab13393e1018eeee0aafae792b7e386a81556eca46c58e56be5413e1ac3415"
+    },
+    {
+      "path": "api/tests/evaluate_resolution_context.py",
+      "sha256": "46db70b094b0d6144f453da9f13ea579bda1b529c82779c575d5fabaa63f957d"
+    },
+    {
+      "path": "api/tests/fixtures/chatbot_evaluation_cases_v5.json",
+      "sha256": "064903a8a0b968fdea57d7f2697335c2efc12b24c51129ee9d0b99b2bc616784"
+    },
+    {
+      "path": "api/tests/fixtures/conversation_evaluation_cases_v2.json",
+      "sha256": "ccd153a89013b1d529c1daebcb14ae65cf0085466a8ad9f9c4e6cd35d8c23075"
+    },
+    {
+      "path": "api/tests/fixtures/presentation_cases_v5.json",
+      "sha256": "448ad6ce1efeb44b664879618d94dcaf7b3267801c709fe478fd0317a615b5fa"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_contract_changes_v5.json",
+      "sha256": "bbb3664fe42a233955b40a255759b57cc273f6eb0b1c21a58b9a132c495a6d1f"
+    },
+    {
+      "path": "api/tests/run_current_benchmark.py",
+      "sha256": "8c18576fe0fd96e47bba02b2508aa9177ed77243f389927d0aff5b0e16538ab2"
+    },
+    {
+      "path": "api/tests/test_conversation_routing.php",
+      "sha256": "7d1c2d5ab2b7858a058a8849acd1dcc7aac081084920000655d824efad210184"
+    },
+    {
+      "path": "api/tests/test_entity_resolution.php",
+      "sha256": "367ae6c73a32d391641fc2bf302992a62aecf5d9ddeab3c6dd9051197784baa3"
+    },
+    {
+      "path": "docs/chatbot/entity_resolution.md",
+      "sha256": "d10b1fc24134a05bb2a1358e9d6e2ca4d01ce84a5478c1655b57e88193c59fa8"
+    },
+    {
+      "path": "src/components/chatbot/ChatMessage.tsx",
+      "sha256": "b0d1f7311d317f8a1773d87efea270480301573061016a0b9feeeff08ed7641c"
+    },
+    {
+      "path": "src/components/chatbot/ChatbotWidget.tsx",
+      "sha256": "431738ac14d4eb88e4668aee33d9f90e2891be23b73aa3de35da5fc5f1860ad2"
+    },
+    {
+      "path": "src/components/chatbot/EntityClarification.test.tsx",
+      "sha256": "d321a3b8fdddb0400cb8a0f89ba724926a9e06fb1697640077a5baa9e1e32954"
+    },
+    {
+      "path": "src/lib/chatApi.ts",
+      "sha256": "6f03eed50fe1cb6856ffb93a809a0e5149bcf4c30d8fde21986556218012e94e"
+    },
+    {
+      "path": "src/lib/types.ts",
+      "sha256": "645ee0fa219330b5030cdbb299f9500c2d60ff2eb5c10db551ebcca66f768db4"
+    },
+    {
+      "path": "tests/entity-resolution.spec.ts",
+      "sha256": "c1beed2ce0a0b42646b3f6f7aa467ba19444b642e56e4906b1c20350b9681869"
+    }
+  ],
+  "artifact_files": [
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/all_entities.json",
+      "sha256": "d0bedd3c962c2af54837235571c0ef428ab60dd2ddab9d915c2056f8b4c2903c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/cases_complete.json",
+      "sha256": "9310c1bdc4e475b23c5377923c2e29d0659fd07932ffedc419166b9de69905f7"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/cases_final.json",
+      "sha256": "a43b4f7bef2af3e816a06dd68041c375e767cd1c622f4a70078daabd59c59677"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/cases_final_v2.json",
+      "sha256": "d47a9e786852c56e08e84b4a831584e5e51aa5eaae61a3541537fac054cd3503"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/cases_v2.json",
+      "sha256": "ccfaee8d12511b5ffb67342088ca928228a8c2b5bc5b04753405df3e269c4882"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/cases_v3.json",
+      "sha256": "d143ebfdf83e711d0bef10ccd19d0c6558c24aa68f6cdfbbf1eba3b28225243a"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/context_final.json",
+      "sha256": "17ca07f4fb88f7677ec8baff7762eec8b0df65ea363c39baeab72d297aa91aad"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/context_initial.json",
+      "sha256": "17ca07f4fb88f7677ec8baff7762eec8b0df65ea363c39baeab72d297aa91aad"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/factual_initial.json",
+      "sha256": "ede19dc1984ba78a8e80b80ec0b43cd428dde2afe8ce040fad7b40781fdea1d0"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/heldout.json",
+      "sha256": "b9f2461d5603f02e4c8aad5f8e63f2fb0b79b6f39ae21ee6777142f363aaa581"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/heldout_regression.json",
+      "sha256": "af1fbf9818cb577599890e19be41a185d71c6d315937d463117f655f58353678"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/initial_cases.json",
+      "sha256": "d6d9c409ac397dbad8332ffe01241e94dff6a85d210f691e6e49133926e4d79c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/live_model.json",
+      "sha256": "c4d5a55ca6bf29912e93179744c667a42303df967c15005d482fcd880f4739ba"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/live_model_final.json",
+      "sha256": "13a699f823e6ad6c915787491c77cba48eeb93d66ee6136df0be37a2ad862ea0"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/live_model_guard.json",
+      "sha256": "e86417cf2163dec813eb75ab5ad0ca97f16742b929f75326a45c796ef075a073"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/live_model_manifestations.json",
+      "sha256": "4d7ba2ed607bc69a4d9eed8d291a2dfc92a88d492bd40a0dfa7d7dd75554f57e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/php_syntax.json",
+      "sha256": "0b230f3f1082b553a066b592e0ad8c5a10bd6cf9d9edf1bd7c917daba083e4bb"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/php_units.json",
+      "sha256": "3881568ec31e9ea1a6c3a91067284ccbceb11d2c33604e07fa6036dfd8b931fc"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/php_units_final.json",
+      "sha256": "399a484265798ad55e6109e5d31d73c3bfc9c1c7ceeb4ab0ad761fe43dd4b9b5"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/properties.json",
+      "sha256": "9b4a67578d9048fd217d2dc1f679a2bedde7379d714c770e1dd3f86630f57592"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/provenance-subgraph.test.php.final.log",
+      "sha256": "7747ea9904ae54481c1b3489e5bb7930f25a93b81ea1e49374003ec8b289ff50"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/provenance-subgraph.test.php.log",
+      "sha256": "7747ea9904ae54481c1b3489e5bb7930f25a93b81ea1e49374003ec8b289ff50"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/reference_classification.test.php.final.log",
+      "sha256": "e4b20fd7e82aa92e7eeb351ebb7a4c657d9c313e50696cdf2101f7b6e8835701"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/reference_classification.test.php.log",
+      "sha256": "e4b20fd7e82aa92e7eeb351ebb7a4c657d9c313e50696cdf2101f7b6e8835701"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/system.json",
+      "sha256": "98f0355ff151cbd31cb1b427bd6d4a136bf2f8f72bb037c1f826730cbe13a2a0"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/system_final.json",
+      "sha256": "b5722c57975c09a7b21ea44a6621aca6da0a43db1cc6b102ed1e8848ffa27fbf"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_chat_transport.php.final.log",
+      "sha256": "39a0a440cd4d7fc2d13f6484b4f345168ddf842b94559561f4dafc1aba863225"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_chat_transport.php.log",
+      "sha256": "39a0a440cd4d7fc2d13f6484b4f345168ddf842b94559561f4dafc1aba863225"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_context_immutability.php.final.log",
+      "sha256": "bb1b6d467374d57fc093ba4090bf3a907573eabbbdf1239da3650f17504822ec"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_context_immutability.php.log",
+      "sha256": "bb1b6d467374d57fc093ba4090bf3a907573eabbbdf1239da3650f17504822ec"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_conversation_memory.php.final.log",
+      "sha256": "4e11b2e992db8d11c740731c3b62123acf0dddf42c7b01e8412504d35deac329"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_conversation_memory.php.log",
+      "sha256": "4e11b2e992db8d11c740731c3b62123acf0dddf42c7b01e8412504d35deac329"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_conversation_routing.php.final.log",
+      "sha256": "0d063c691cd42ccbe21c6007eef09d68dfe0d5b31fc9978b07eb692b005f8e28"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_conversation_routing.php.log",
+      "sha256": "239946b917fe3b205aa248ebd45d6fa19bdc63c89cd79608c3ec345ef1822f91"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_conversational_answer.php.final.log",
+      "sha256": "87bd548711f31df0204c69469c038219e8f11e22c424d9a8b9b4a2270abddb38"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_conversational_answer.php.log",
+      "sha256": "4fd17f4db637794bf3fab9bd4cc346e98d1aa5c76349699970fa3741d378e51a"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_entity_resolution.php.final.log",
+      "sha256": "0c81586ff28fab80dc570acc51c0e17c63100c1b98f7e3a9a46d5ef8ac248cdc"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_evaluation_assertions.php.final.log",
+      "sha256": "7506021caec97ba716877c0a8da74b054bc123ae39806551d28c2138db895f6c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_evaluation_assertions.php.log",
+      "sha256": "7506021caec97ba716877c0a8da74b054bc123ae39806551d28c2138db895f6c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_evaluation_export.php.final.log",
+      "sha256": "ed5eafb4aa91f019e795260c06f800fd4e5ea95ab2dcf84f4e7db31ea361a337"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_evaluation_export.php.log",
+      "sha256": "ed5eafb4aa91f019e795260c06f800fd4e5ea95ab2dcf84f4e7db31ea361a337"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_evidence_answer_builder.php.final.log",
+      "sha256": "ea98ec533d4b5b98ed952052f22c62d17e07d4034cca20902c33a53efe0ad3f8"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_evidence_answer_builder.php.log",
+      "sha256": "ea98ec533d4b5b98ed952052f22c62d17e07d4034cca20902c33a53efe0ad3f8"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_evidence_correlator.php.final.log",
+      "sha256": "00b7123c6ea877718863575cbe288aa360a974dd7ad2ede3158d537122cf516a"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_evidence_correlator.php.log",
+      "sha256": "00b7123c6ea877718863575cbe288aa360a974dd7ad2ede3158d537122cf516a"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_legacy_evidence_presentation.php.final.log",
+      "sha256": "898ee1c1437c3238d86a79e348ae5d32c429aa4024f94e102b28ddb5338699dd"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_legacy_evidence_presentation.php.log",
+      "sha256": "898ee1c1437c3238d86a79e348ae5d32c429aa4024f94e102b28ddb5338699dd"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_response_validator.php.final.log",
+      "sha256": "ed95a16f71ee3977c63f4e08a4c73e97a483a5c32fd8da9faed69362f88d1021"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_response_validator.php.log",
+      "sha256": "ed95a16f71ee3977c63f4e08a4c73e97a483a5c32fd8da9faed69362f88d1021"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_response_validator_regression.php.final.log",
+      "sha256": "2ad0a6f68c1a1506c95c859ca662bb68010d3b0d25d32cd38d7e751bd3553c9c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_response_validator_regression.php.log",
+      "sha256": "2ad0a6f68c1a1506c95c859ca662bb68010d3b0d25d32cd38d7e751bd3553c9c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_results_presentation.php.final.log",
+      "sha256": "3e74e6d6c6a243b7a25ee89d4f5cfdd8015d1c21271f74b5d2294d2b2e53ad83"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_results_presentation.php.log",
+      "sha256": "3e74e6d6c6a243b7a25ee89d4f5cfdd8015d1c21271f74b5d2294d2b2e53ad83"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_semantic_contracts.php.final.log",
+      "sha256": "22dbc4d2d15f2b602dbac45146cff7d656166e23070298e21d21ed99697fb70c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_traversal_expansion.php.final.log",
+      "sha256": "c1ed3d2cd58fae27d4c50fcfb0d6fd00b7805cb7e549adefd18bd5dd0c9a16c9"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_after_2026_09_25_v1/test_traversal_expansion.php.log",
+      "sha256": "c1ed3d2cd58fae27d4c50fcfb0d6fd00b7805cb7e549adefd18bd5dd0c9a16c9"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/answers.json",
+      "sha256": "4b003594c93e04462cbbc1f072b7f73657cde1ff67db0c510e82912dd2a40ae9"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/attribution.json",
+      "sha256": "4fbec4d60de00e8b5c95691f78b43a25afe7e5daff2064fa844e517563bf7c8d"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/attribution.log",
+      "sha256": "ccc6fe2ccb23f055987e5ff2b2647bf114f31acec3cacd7599ce83cd9dd8458e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/benchmark.json",
+      "sha256": "ead44a0d1033627a7d93014613f5163a2af13cf7972b148f337d94a8fdb1168b"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/conversation.json",
+      "sha256": "26437cec5b69d54617a06cf66d96bb68ed4a0120a615309d43b11673ce6a2830"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/conversation.log",
+      "sha256": "612e7364c7e73b4b62977808725e7dae77d353ebc056fec3a608d1d102d58bb4"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/factual.json",
+      "sha256": "c14b3deee4c1477e3209720c91d58a3dff321d992f0491d1329db14a744b3c6a"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/factual.log",
+      "sha256": "c2a570ae34e709ae9d1c55c44139ac000db856ef0b32b19d2ae5a69e448dc93e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/new_cases.json",
+      "sha256": "31838adfbbef178193b5cdaf9228ad23943449414dcc4a9dfd8c3a4e6f6828f0"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/new_cases_rescored.json",
+      "sha256": "b3c139056c3925a364e612353cf37bbc60fbcc6ead649d3743349a7eac020c49"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/presentation.json",
+      "sha256": "45c011f973f1383ad63608e96c8a0a56e65fa919e5bfcebad3ec65a367f16bbd"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/presentation.log",
+      "sha256": "c4c8ad6836aa89ca8af9f24245b4b8db7b6d69c8329a6f35c29c76335d96ef12"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/progress.json",
+      "sha256": "b247e2eb7a2e0711aa1e852d603e0ed9a4050bdccafaf10d20420def7bb75ae1"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/routing.log",
+      "sha256": "cda76953d290470d80d23b57cf3c556ac398d0c70671ef2f67d0ca2df830879c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/snapshot.json",
+      "sha256": "d85272fe74aa3d5181f8a817c2c8f0f6eed04402ba5d0ed3d954509ab9001b21"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_baseline_2026_09_25_v1/snapshot.log",
+      "sha256": "34acf3a39dc54ff7519ab17b12a307fc95591397da0a2047285cfc1d9b6b1e94"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/answers.json",
+      "sha256": "4fd2982b96821abd7f5963f7546f7439c88a9415429c6362efc028f7ddc9f1a6"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/attribution.json",
+      "sha256": "91e10216060780e4ee6974d8895f5ae8340ac27fd20cfe0b69300800a74a790f"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/attribution.log",
+      "sha256": "ccc6fe2ccb23f055987e5ff2b2647bf114f31acec3cacd7599ce83cd9dd8458e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/benchmark.json",
+      "sha256": "ce081c99c06fe6c315d7af230b554a85bde26d16db0dc427af68076a048e5e10"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/conversation.json",
+      "sha256": "19e89a4ebc778f56ca75ec83f9d879baf12568a0b3875a7e83ff6b40ff6af77d"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/conversation.log",
+      "sha256": "f94cebf388ca6edcf808683974c3a1c984f80529802b5b7dc267b6558535fdc7"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/factual.json",
+      "sha256": "e43c1975d27afa4d8f7d07c02e2fd0256f80df392bcfbdd5da00f3a805397541"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/factual.log",
+      "sha256": "c2a570ae34e709ae9d1c55c44139ac000db856ef0b32b19d2ae5a69e448dc93e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/presentation.json",
+      "sha256": "234e413a7f3dea70a6900057b62a80115f1dbeab31779ac1c1a2d1a9e3768e03"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/presentation.log",
+      "sha256": "c4c8ad6836aa89ca8af9f24245b4b8db7b6d69c8329a6f35c29c76335d96ef12"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/progress.json",
+      "sha256": "43e37f9e028785f0495a469e3009598888a293e771d80962cc67b263d88884a1"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/routing.log",
+      "sha256": "cda76953d290470d80d23b57cf3c556ac398d0c70671ef2f67d0ca2df830879c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/snapshot.json",
+      "sha256": "853ac6cee5a6c86ea6a6ac23cdf30eb53e9b929b6386bb4a9b0b3b5f38b5621a"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v1/snapshot.log",
+      "sha256": "34acf3a39dc54ff7519ab17b12a307fc95591397da0a2047285cfc1d9b6b1e94"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/answers.json",
+      "sha256": "fa0306fb3732b543be0f0f3b4f90c8f26210859cb0f1b79cae63dec2e5fab47c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/attribution.json",
+      "sha256": "2f021e8750db1ad11707df0b5a34410928201a8d72b142d723c97bdb2dbda7a3"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/attribution.log",
+      "sha256": "ccc6fe2ccb23f055987e5ff2b2647bf114f31acec3cacd7599ce83cd9dd8458e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/benchmark.json",
+      "sha256": "20b1ade780a78dc827d81d9c154a2dcaafb2ee5749335f4c7d61845d543e14e4"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/conversation.json",
+      "sha256": "51b4e8252f0daf5ea803a64b75eb7e6d28c8b149873637f05bb37f4d8db54069"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/conversation.log",
+      "sha256": "612e7364c7e73b4b62977808725e7dae77d353ebc056fec3a608d1d102d58bb4"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/factual.json",
+      "sha256": "eeeadaab650186fd4d544f9cbedce6c642e51b17ed9efa27f9c873e8be5c34a1"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/factual.log",
+      "sha256": "c2a570ae34e709ae9d1c55c44139ac000db856ef0b32b19d2ae5a69e448dc93e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/presentation.json",
+      "sha256": "f4cd7d842ed2d71d167f9a8475ced4f41468ecceb7b4d806919c3505928f9b33"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/presentation.log",
+      "sha256": "c4c8ad6836aa89ca8af9f24245b4b8db7b6d69c8329a6f35c29c76335d96ef12"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/progress.json",
+      "sha256": "e474bdf387ff2befc4851ef54cfb0d825d6744a1c0c3607c686c443c3638efd5"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/routing.log",
+      "sha256": "cda76953d290470d80d23b57cf3c556ac398d0c70671ef2f67d0ca2df830879c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/snapshot.json",
+      "sha256": "e6ca38f3ab00874a47c51d88e421e25a156fbccdb798d937bab2426aa21794c6"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v2/snapshot.log",
+      "sha256": "34acf3a39dc54ff7519ab17b12a307fc95591397da0a2047285cfc1d9b6b1e94"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/answers.json",
+      "sha256": "e141eff83795e1eb39f6dc00d21256e6415eb9599ef9f8e0fcae724b87290dd8"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/attribution.json",
+      "sha256": "9428790ec731b64b79a8102c5acbb092666f7e7d2e85cee18c6990a87ed8e51f"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/attribution.log",
+      "sha256": "ccc6fe2ccb23f055987e5ff2b2647bf114f31acec3cacd7599ce83cd9dd8458e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/benchmark.json",
+      "sha256": "4c399e1bdc138ca8d9136c257eb04163d57964a29804c46de50fb5595b2e4c54"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/conversation.json",
+      "sha256": "2e08dd4ac8623312f26f00f6f0dae1b2493b5a4672bbaf643594c273f7b93fa9"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/conversation.log",
+      "sha256": "612e7364c7e73b4b62977808725e7dae77d353ebc056fec3a608d1d102d58bb4"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/factual.json",
+      "sha256": "f1985f1987517acf311d0535ad8c8ce507f5c36d0f4d14963925b377dd890d46"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/factual.log",
+      "sha256": "c2a570ae34e709ae9d1c55c44139ac000db856ef0b32b19d2ae5a69e448dc93e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/presentation.json",
+      "sha256": "fbe2eae3650301254cde0606525af4530b6d5cf5098ba0a610cf856151bd0246"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/presentation.log",
+      "sha256": "c4c8ad6836aa89ca8af9f24245b4b8db7b6d69c8329a6f35c29c76335d96ef12"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/progress.json",
+      "sha256": "6c8e187e1d452db5efa752b51c915d36d94dc7ca1e796d2b23e0ef177666fbc4"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/routing.log",
+      "sha256": "cda76953d290470d80d23b57cf3c556ac398d0c70671ef2f67d0ca2df830879c"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/snapshot.json",
+      "sha256": "523c5f73fefa2a6dcf681d30c6a124b2cb9e0068c19dc56690a9ee1d72ece59f"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_benchmark_2026_09_25_v3/snapshot.log",
+      "sha256": "34acf3a39dc54ff7519ab17b12a307fc95591397da0a2047285cfc1d9b6b1e94"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/answers.json",
+      "sha256": "fe13a183ce3a33c77bab16f1236e917bee4b6f59b2ec6910d63f27efec373929"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/attribution.json",
+      "sha256": "c67c2b6f732614c5538e6a460658be7df9d165adf41291d788977a23dad56671"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/attribution.log",
+      "sha256": "ccc6fe2ccb23f055987e5ff2b2647bf114f31acec3cacd7599ce83cd9dd8458e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/benchmark.json",
+      "sha256": "77f38f9e229f5f9e72961aa891d9556663734fe4823ac16f758b01c2700a247d"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/conversation.json",
+      "sha256": "c5316e5bb4dcc0e4ff44164167160a8db488dcbdf0ac0be0144425e952c965b2"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/conversation.log",
+      "sha256": "1031b35b7d6d36257a33a86379efdc63896cf3a9c1e48430104a367d3205e96d"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/factual.json",
+      "sha256": "54cdc1e39e86c4670c6429adf420f2d7cf044033f5e717103d648c490392204d"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/factual.log",
+      "sha256": "c2a570ae34e709ae9d1c55c44139ac000db856ef0b32b19d2ae5a69e448dc93e"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/presentation.json",
+      "sha256": "b6d99e5187315514f78ecac0e34d6fe1e9302cf25696146f19e58fe3b6c60e20"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/presentation.log",
+      "sha256": "55c13969679e12821c0ed5b2979d0d978ea757b4d558af99676e48f7acef4ab3"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/progress.json",
+      "sha256": "cd175561b03a5dd0f3a860a4cc47f126eb4ebe34132ac38d1160eb789cf16130"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/routing.log",
+      "sha256": "0497c3bafda72608219338754dd9b17ae565aae87c33c5e135e212263025221b"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/snapshot.json",
+      "sha256": "70f2c684ba6df9373812fa58ffd01a92d015bbd3da40fd199aba5a62b7d3e664"
+    },
+    {
+      "path": "api/tests/fixtures/resolution_historical_regression_2026_09_25_v1/snapshot.log",
+      "sha256": "34acf3a39dc54ff7519ab17b12a307fc95591397da0a2047285cfc1d9b6b1e94"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_ncit_26_08e/C2916.json",
+      "sha256": "25e0abfc75858bc56ffda7b3eb432d7a4d4b82196de74bdd1b535efff10f0a03"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_ncit_26_08e/C2929.json",
+      "sha256": "2a13bf60d2725c59681fba71eeb42ebc6a7ff5564aaf686d61edd80c609b8ad5"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_ncit_26_08e/C3709.json",
+      "sha256": "05035931ed92a1f0cad833a47da5cf6bd44410da08d76eb5f8093f362ba22976"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_ncit_26_08e/C3792.json",
+      "sha256": "f503cfae2bced17f0edb8030ba6b817f170da5a8fce7b9118c1cef50f37a9573"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_ncit_26_08e/C9305.json",
+      "sha256": "3338581ff96b5adebd8f894709f6e24a86d4103cd7fcf3d8138b42c27614074b"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_ncit_26_08e/cancer.json",
+      "sha256": "3338581ff96b5adebd8f894709f6e24a86d4103cd7fcf3d8138b42c27614074b"
+    },
+    {
+      "path": "api/tests/fixtures/terminology_ncit_26_08e/escc.json",
+      "sha256": "43ad79a590836c5a0c4173a2052e0221cca55ee689789716becbb9ad12234fe8"
+    }
+  ]
+}

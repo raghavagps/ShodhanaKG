@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-09-24T13:16:14.805676+00:00",
+  "request": {
+    "url": "https://arp.ayush.gov.in/getFilter_Search_data?=",
+    "data": {
+      "startPage": "0",
+      "pageLength": "100",
+      "Search": "joa_262_22",
+      "orderColunm": "0",
+      "orderType": "asc",
+      "arp_id": "0",
+      "artid": "0",
+      "system_id": "0",
+      "app_status": "1",
+      "category": "0",
+      "keyword_string": "",
+      "jsonData": "[]"
+    },
+    "status": 200,
+    "body_sha256": "970d27e51386a7334c27e0eab926b665016bfe5ce715d9e8bb8fe3b55aff17d0"
+  },
+  "matches": [
+    {
+      "artid": "258082(Ay)",
+      "arp_id": "ARP_AYU030291",
+      "id": 30793,
+      "bibliographic_text": "COMPARATIVE PHYTOCHEMICAL EVALUATION OF ASHODHIT AND SHODHIT BHALLATAKA (SEMECARPUS ANACARDIUM L.F.) USING HPTLC AND TLC CHROMATOGRAPHIC PROFILING, UV-VIS SPECTROSCOPY STUDY AND 1H NMR BASED FINGERPRINTING. Journal of Ayurveda Year: 2024 Volume : 18 Issue : 1 Page : 44-50 DOI : 10.4103/joa.joa_262_22 ARP_ID : ARP_AYU030291",
+      "doi": "10.4103/joa.joa_262_22",
+      "url": "https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=30793&rptypeReport=0&rpreportname=0"
+    }
+  ],
+  "scope": "DOI explicitly recorded by official AYUSH index; not confirmation of DOI resolution or scientific support."
+}

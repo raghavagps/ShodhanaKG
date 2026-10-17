@@ -1,0 +1,78 @@
+[
+  {
+    "suite": "snapshot",
+    "command": [
+      "php",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\capture_expanded_snapshot.php",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\node_properties_2026_09_25_v1\\benchmark\\snapshot.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.45
+  },
+  {
+    "suite": "factual",
+    "command": [
+      "php",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_expanded_factual.php",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\expanded_factual_cases_v4.json",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\node_properties_2026_09_25_v1\\benchmark\\factual.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 24.8
+  },
+  {
+    "suite": "attribution",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_legacy_evidence.py",
+      "--fixture",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\expanded_factual_cases_v4.json",
+      "--answers",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\node_properties_2026_09_25_v1\\benchmark\\factual.json",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\node_properties_2026_09_25_v1\\benchmark\\attribution.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 2.97
+  },
+  {
+    "suite": "presentation",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_results_presentation.py",
+      "--capture",
+      "--answers",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\node_properties_2026_09_25_v1\\benchmark\\answers.json",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\node_properties_2026_09_25_v1\\benchmark\\presentation.json",
+      "--fixture",
+      "presentation_cases_v5.json"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 34.0
+  },
+  {
+    "suite": "conversation",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_conversations.py",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\node_properties_2026_09_25_v1\\benchmark\\conversation.json",
+      "--fixture",
+      "conversation_evaluation_cases_v2.json"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 376.55
+  },
+  {
+    "suite": "routing",
+    "command": [
+      "php",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_evaluation_cases.php",
+      "--http",
+      "--fixture=D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\chatbot_evaluation_cases_v5.json"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 36.41
+  }
+]

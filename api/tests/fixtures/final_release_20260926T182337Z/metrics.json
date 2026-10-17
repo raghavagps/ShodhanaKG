@@ -1,0 +1,669 @@
+{
+  "audit_id": "final_release_20260926T182337Z",
+  "generated_at": "2026-09-26T19:06:46.472445+00:00",
+  "release_gate": "FAIL",
+  "deployment_ready": false,
+  "maintained_runner_passed": false,
+  "metrics": [
+    {
+      "metric": "Factual retrieval exact-match cases",
+      "numerator": 168,
+      "denominator": 168,
+      "percent": 100.0,
+      "unit": "cases",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/factual.json",
+      "notes": "Agreement with frozen independent KG reference; not clinical accuracy."
+    },
+    {
+      "metric": "Factual success controls",
+      "numerator": 133,
+      "denominator": 133,
+      "percent": 100.0,
+      "unit": "cases",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/factual.json",
+      "notes": "Subset of the 168 factual cases; not additional samples."
+    },
+    {
+      "metric": "Factual no_data controls",
+      "numerator": 35,
+      "denominator": 35,
+      "percent": 100.0,
+      "unit": "cases",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/factual.json",
+      "notes": "Subset of the 168 factual cases; not additional samples."
+    },
+    {
+      "metric": "Reference-tested retrieval endpoints",
+      "numerator": 52,
+      "denominator": 52,
+      "percent": 100.0,
+      "unit": "endpoints",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/factual.json",
+      "notes": "Endpoint coverage is not exhaustive entity/path coverage."
+    },
+    {
+      "metric": "Legacy evidence attribution",
+      "numerator": 121,
+      "denominator": 121,
+      "percent": 100.0,
+      "unit": "cases",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/attribution.json",
+      "notes": "40 legacy endpoints; exact stored edge identity/direction/properties."
+    },
+    {
+      "metric": "Results-first presentation contracts",
+      "numerator": 24,
+      "denominator": 24,
+      "percent": 100.0,
+      "unit": "answers",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/presentation.json",
+      "notes": ""
+    },
+    {
+      "metric": "Deterministic results-first generation",
+      "numerator": 24,
+      "denominator": 24,
+      "percent": 100.0,
+      "unit": "answers",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/answers.json",
+      "notes": "Descriptive generation-mode count; not a quality score."
+    },
+    {
+      "metric": "Result entity occurrences retained",
+      "numerator": 375,
+      "denominator": 375,
+      "percent": 100.0,
+      "unit": "within-answer grouped entity occurrences",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/presentation.json",
+      "notes": "375 includes repeats across questions; matching identities checked by presentation contracts."
+    },
+    {
+      "metric": "Citation occurrences retained",
+      "numerator": 1088,
+      "denominator": 1088,
+      "percent": 100.0,
+      "unit": "citation occurrences",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/presentation.json",
+      "notes": "Repeated evidence across answers is counted again; not unique publications."
+    },
+    {
+      "metric": "Routing/status contracts",
+      "numerator": 82,
+      "denominator": 82,
+      "percent": 100.0,
+      "unit": "cases",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/routing.log",
+      "notes": "Joint routing/status checks, not a standalone classifier accuracy estimate."
+    },
+    {
+      "metric": "Conversation turn executions",
+      "numerator": 108,
+      "denominator": 108,
+      "percent": 100.0,
+      "unit": "turn executions",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/conversation.json",
+      "notes": "34 scenarios, 54 turns repeated through JSON and SSE."
+    },
+    {
+      "metric": "JSON/SSE semantic parity",
+      "numerator": 54,
+      "denominator": 54,
+      "percent": 100.0,
+      "unit": "paired turns",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/conversation.json",
+      "notes": "Model-attempt diagnostics reported separately; no differences observed."
+    },
+    {
+      "metric": "JSON false refusals",
+      "numerator": 0,
+      "denominator": 39,
+      "percent": 0.0,
+      "unit": "answerable turns",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/benchmark.json",
+      "notes": "Lower is better; two of 54 turns are outside these answerable/abstention denominators."
+    },
+    {
+      "metric": "JSON correct abstentions",
+      "numerator": 13,
+      "denominator": 13,
+      "percent": 100.0,
+      "unit": "expected abstention turns",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/benchmark.json",
+      "notes": ""
+    },
+    {
+      "metric": "JSON false acceptances",
+      "numerator": 0,
+      "denominator": 13,
+      "percent": 0.0,
+      "unit": "expected abstention turns",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/benchmark.json",
+      "notes": "Lower is better."
+    },
+    {
+      "metric": "SSE false refusals",
+      "numerator": 0,
+      "denominator": 39,
+      "percent": 0.0,
+      "unit": "answerable turns",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/benchmark.json",
+      "notes": "Lower is better; two of 54 turns are outside these answerable/abstention denominators."
+    },
+    {
+      "metric": "SSE correct abstentions",
+      "numerator": 13,
+      "denominator": 13,
+      "percent": 100.0,
+      "unit": "expected abstention turns",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/benchmark.json",
+      "notes": ""
+    },
+    {
+      "metric": "SSE false acceptances",
+      "numerator": 0,
+      "denominator": 13,
+      "percent": 0.0,
+      "unit": "expected abstention turns",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/benchmark.json",
+      "notes": "Lower is better."
+    },
+    {
+      "metric": "Structured context",
+      "numerator": 30,
+      "denominator": 30,
+      "percent": 100.0,
+      "unit": "checks",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/structured_context.json",
+      "notes": ""
+    },
+    {
+      "metric": "Entity resolution",
+      "numerator": 32,
+      "denominator": 32,
+      "percent": 100.0,
+      "unit": "checks",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/entity_resolution.json",
+      "notes": ""
+    },
+    {
+      "metric": "Resolution context",
+      "numerator": 23,
+      "denominator": 23,
+      "percent": 100.0,
+      "unit": "checks",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/resolution_context.json",
+      "notes": ""
+    },
+    {
+      "metric": "Node properties",
+      "numerator": 23,
+      "denominator": 23,
+      "percent": 100.0,
+      "unit": "checks",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/node_properties.json",
+      "notes": ""
+    },
+    {
+      "metric": "Terminology",
+      "numerator": 39,
+      "denominator": 39,
+      "percent": 100.0,
+      "unit": "checks",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/terminology.json",
+      "notes": ""
+    },
+    {
+      "metric": "Method results",
+      "numerator": 45,
+      "denominator": 45,
+      "percent": 100.0,
+      "unit": "checks",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/method_results.json",
+      "notes": ""
+    },
+    {
+      "metric": "Fragment methods",
+      "numerator": 49,
+      "denominator": 49,
+      "percent": 100.0,
+      "unit": "checks",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/fragment_methods.json",
+      "notes": ""
+    },
+    {
+      "metric": "System consistency",
+      "numerator": 242,
+      "denominator": 242,
+      "percent": 100.0,
+      "unit": "checks",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/system_consistency.json",
+      "notes": ""
+    },
+    {
+      "metric": "Stored edge property contract scan",
+      "numerator": 10123,
+      "denominator": 10123,
+      "percent": 100.0,
+      "unit": "stored edges",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/system_consistency.json",
+      "notes": "Normalization/property metadata scan; not every edge rendered in every browser answer."
+    },
+    {
+      "metric": "Treatment phase scan",
+      "numerator": 1155,
+      "denominator": 1155,
+      "percent": 100.0,
+      "unit": "phase edges",
+      "scope": "fixed_benchmark",
+      "source": "release/benchmark/system_consistency.json",
+      "notes": ""
+    },
+    {
+      "metric": "Frontend unit tests",
+      "numerator": 95,
+      "denominator": 95,
+      "percent": 100.0,
+      "unit": "tests",
+      "scope": "software",
+      "source": "release/frontend_unit.log",
+      "notes": "25 files."
+    },
+    {
+      "metric": "Python evaluation/HTTP tests",
+      "numerator": 73,
+      "denominator": 73,
+      "percent": 100.0,
+      "unit": "tests",
+      "scope": "software",
+      "source": "release/evaluation_unit.log",
+      "notes": "unittest discovery."
+    },
+    {
+      "metric": "Maintained PHP regressions",
+      "numerator": 14,
+      "denominator": 14,
+      "percent": 100.0,
+      "unit": "scripts",
+      "scope": "software",
+      "source": "release/release.json",
+      "notes": "Scripts contain unequal numbers of assertions."
+    },
+    {
+      "metric": "PHP syntax",
+      "numerator": 406,
+      "denominator": 407,
+      "percent": 99.75,
+      "unit": "files",
+      "scope": "software",
+      "source": "php_syntax.json",
+      "notes": "One malformed diagnostic script."
+    },
+    {
+      "metric": "Browser retry expected outcomes",
+      "numerator": 489,
+      "denominator": 489,
+      "percent": 100.0,
+      "unit": "browser test executions",
+      "scope": "software",
+      "source": "browser_retry.json",
+      "notes": "Single worker; original two-worker run aborted. Skips/flakes reported separately."
+    },
+    {
+      "metric": "Therapeutic-use endpoint errors (post-hoc)",
+      "numerator": 15,
+      "denominator": 52,
+      "percent": 28.85,
+      "unit": "compound seeds",
+      "scope": "post_hoc",
+      "source": "compound_sweep.json",
+      "notes": "Lower is better. Non-errors are not independently scored as factually correct."
+    },
+    {
+      "metric": "Wrong purified-form route (post-hoc)",
+      "numerator": 50,
+      "denominator": 52,
+      "percent": 96.15,
+      "unit": "compound-seeded questions",
+      "scope": "post_hoc",
+      "source": "compound_sweep.json",
+      "notes": "Template requested diseases; remaining two require clarification. Not a random question sample."
+    },
+    {
+      "metric": "Supplemental scripts without unexpected failures",
+      "numerator": 14,
+      "denominator": 35,
+      "percent": 40.0,
+      "unit": "scripts",
+      "scope": "software",
+      "source": "supplemental_php.json",
+      "notes": "One of the 14 includes five explicitly expected legacy-validator limitations. Three other scripts print failures but exit zero."
+    }
+  ],
+  "latency": {
+    "method": "Nearest-rank percentiles; sequential single-client local requests, no warmup removal. Includes failed requests. End-to-end HTTP body receipt; not first-token latency or load testing.",
+    "direct_endpoint_not_http": {
+      "n": 168,
+      "missing": 0,
+      "p50_ms": 8,
+      "p95_ms": 91,
+      "max_ms": 681,
+      "mean_ms": 25.12
+    },
+    "results_first_http_json": {
+      "n": 24,
+      "missing": 0,
+      "p50_ms": 406,
+      "p95_ms": 610,
+      "max_ms": 687,
+      "mean_ms": 423.75
+    },
+    "conversation_http_json": {
+      "n": 54,
+      "missing": 0,
+      "p50_ms": 468,
+      "p95_ms": 766,
+      "max_ms": 9859,
+      "mean_ms": 607.74
+    },
+    "conversation_http_sse": {
+      "n": 54,
+      "missing": 0,
+      "p50_ms": 453,
+      "p95_ms": 765,
+      "max_ms": 1953,
+      "mean_ms": 456.06
+    }
+  },
+  "conversation_categories": {
+    "paraphrase": {
+      "total": 14,
+      "passed": 14,
+      "failed": 0
+    },
+    "typo_or_formatting": {
+      "total": 12,
+      "passed": 12,
+      "failed": 0
+    },
+    "ambiguous_name": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "clarification_followup": {
+      "total": 6,
+      "passed": 6,
+      "failed": 0
+    },
+    "missing_context": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "missing_node_property": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0
+    },
+    "multiple_entities": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "control": {
+      "total": 16,
+      "passed": 16,
+      "failed": 0
+    },
+    "pronoun_followup": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0
+    },
+    "elliptical_followup": {
+      "total": 6,
+      "passed": 6,
+      "failed": 0
+    },
+    "topic_change": {
+      "total": 10,
+      "passed": 10,
+      "failed": 0
+    },
+    "history_window": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "unsupported_request": {
+      "total": 8,
+      "passed": 8,
+      "failed": 0
+    },
+    "unknown_entity": {
+      "total": 2,
+      "passed": 2,
+      "failed": 0
+    },
+    "true_no_data": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    },
+    "recovery": {
+      "total": 4,
+      "passed": 4,
+      "failed": 0
+    }
+  },
+  "browser_retry": {
+    "startTime": "2026-09-26T18:47:24.897Z",
+    "duration": 1097899.975,
+    "expected": 489,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "browser_retry_exit": {
+    "command": [
+      "npx.cmd",
+      "playwright",
+      "test",
+      "--config",
+      "playwright.external.config.ts",
+      "--workers=1",
+      "--reporter=line,json",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\browser-retry-artifacts"
+    ],
+    "exit_code": 0,
+    "seconds": 1099.25,
+    "reason": "Initial two-worker run aborted with memory allocation and browser-launch errors; unchanged tests retried with one worker."
+  },
+  "supplemental_script_counts": {
+    "total": 35,
+    "without_unexpected_failures": 14,
+    "with_unexpected_failures": 21,
+    "nonzero_exit": 18,
+    "excluded_server_managing": 4
+  },
+  "dependency_advisories": {
+    "info": 0,
+    "low": 1,
+    "moderate": 3,
+    "high": 3,
+    "critical": 0,
+    "total": 7
+  },
+  "source_integrity": {
+    "checked": 1567,
+    "changed": [],
+    "missing": [],
+    "unchanged": true,
+    "exclusions": [
+      ".agents",
+      ".cache",
+      ".codex",
+      ".git",
+      "__pycache__",
+      "dist",
+      "node_modules",
+      "playwright-report",
+      "test-results",
+      "current audit output",
+      "api/storage",
+      "*.log",
+      "*.pyc"
+    ]
+  },
+  "graph_integrity": {
+    "before_records": 12657,
+    "after_records": 12657,
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "scientific_accuracy": {
+    "status": "not_established",
+    "expert_approved_claims": 0,
+    "reason": "Graph references are not independent clinical ground truth; publication review remains partial."
+  },
+  "notes": [
+    "Do not sum overlapping suites into a single accuracy estimate.",
+    "Fixed benchmarks and post-hoc diagnostic probes have different sampling designs.",
+    "No application source, test sources, configuration, dependencies, ground truth or KG facts were intentionally modified."
+  ],
+  "system_consistency_check_groups": {
+    "all": 1,
+    "synthetic": 4,
+    "answer": 133,
+    "path": 11,
+    "json": 7,
+    "sse": 7,
+    "parity": 35,
+    "memory": 28,
+    "graph": 6,
+    "node": 3,
+    "provenance": 4,
+    "explorer": 2,
+    "integrated": 1
+  },
+  "known_namespace_errors": {
+    "occurrences": 0,
+    "distinct_identifiers": [],
+    "findings": [],
+    "caveat": "Nested/repeated occurrences are not unique claims. Production uses the edge-bound audited catalog; this scan checks all 147 AYUSH values."
+  },
+  "refusals": {
+    "json": {
+      "answerable_turns": 39,
+      "false_refusals": 0,
+      "answerable_non_success": 0,
+      "expected_abstention_turns": 13,
+      "correct_abstentions": 13,
+      "false_acceptances": 0,
+      "infrastructure_or_generation_errors": 0
+    },
+    "sse": {
+      "answerable_turns": 39,
+      "false_refusals": 0,
+      "answerable_non_success": 0,
+      "expected_abstention_turns": 13,
+      "correct_abstentions": 13,
+      "false_acceptances": 0,
+      "infrastructure_or_generation_errors": 0
+    }
+  },
+  "not_measured": [
+    "Clinical/scientific accuracy",
+    "Publication-support accuracy",
+    "Expert inter-rater agreement",
+    "Routing-only latency",
+    "Concurrent throughput",
+    "Time to first token",
+    "Held-out population accuracy"
+  ],
+  "kg_snapshot": {
+    "vertices": 2534,
+    "edges": 10123,
+    "counts_by_type": {
+      "Therapy": 139,
+      "Media": 91,
+      "Shodhana_Method": 12,
+      "Process": 10,
+      "Purified_Compound": 71,
+      "Toxic_Substance": 57,
+      "Compound": 52,
+      "Disease": 134,
+      "Formulation": 777,
+      "Symptom": 393,
+      "Dosha": 3,
+      "Ayurvedic_Diagnosis": 107,
+      "Assessment_Parameter": 279,
+      "Confirmation_Study": 163,
+      "Indication": 188,
+      "Ayurvedic_Formulation": 56,
+      "Shodhana_Type": 2,
+      "USES_FORMULATION": 1898,
+      "USES_MEDIA": 788,
+      "FOLLOWED_BY": 156,
+      "PRODUCES": 323,
+      "DETOXIFIES": 123,
+      "UNDERGOES": 239,
+      "TREATED_BY": 852,
+      "PRE_TREATED_BY": 144,
+      "POST_TREATED_BY": 159,
+      "CONTAINS": 122,
+      "VALIDATED_BY": 649,
+      "CONFIRMS_SAFETY_OF": 630,
+      "TREATS": 637,
+      "USED_FOR_TREATMENT": 75,
+      "DERIEVED_FROM": 294,
+      "USED_IN_FORMULATION": 84,
+      "HAS_SYMPTOM": 1610,
+      "HAS_DOSHA_IMBALANCE": 356,
+      "HAS_AYURVEDIC_DIAGNOSIS": 216,
+      "ASSESS": 690,
+      "CLASSIFIED_AS": 78
+    }
+  },
+  "browser_projects": {
+    "chromium": {
+      "expected": 163
+    },
+    "firefox": {
+      "expected": 163
+    },
+    "webkit": {
+      "expected": 163
+    }
+  },
+  "browser_clean_exit_helper_messages": 1
+}

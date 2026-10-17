@@ -1,0 +1,190 @@
+[
+  {
+    "suite": "snapshot",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\capture_expanded_snapshot.php",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\snapshot.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.22
+  },
+  {
+    "suite": "factual",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_expanded_factual.php",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\expanded_factual_cases_v4.json",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\factual.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 10.81
+  },
+  {
+    "suite": "attribution",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_legacy_evidence.py",
+      "--fixture",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\expanded_factual_cases_v4.json",
+      "--answers",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\factual.json",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\attribution.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 1.16
+  },
+  {
+    "suite": "presentation",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_results_presentation.py",
+      "--capture",
+      "--answers",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\answers.json",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\presentation.json",
+      "--fixture",
+      "presentation_cases_v5.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 18.08
+  },
+  {
+    "suite": "conversation",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_conversations.py",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\conversation.json",
+      "--fixture",
+      "conversation_evaluation_cases_v3.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 123.5
+  },
+  {
+    "suite": "routing",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_evaluation_cases.php",
+      "--http",
+      "--fixture=D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\chatbot_evaluation_cases_v7.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 31.86
+  },
+  {
+    "suite": "property_capture",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\capture_system_properties.php",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\snapshot.json",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\factual.json",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\properties.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.47
+  },
+  {
+    "suite": "structured_context",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "-B",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_structured_context_v2.py",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\structured_context.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 29.14
+  },
+  {
+    "suite": "entity_resolution",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "-B",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_entity_resolution.py",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\entity_resolution.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 19.36
+  },
+  {
+    "suite": "resolution_context",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "-B",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_resolution_context.py",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\resolution_context.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 15.72
+  },
+  {
+    "suite": "node_properties",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "-B",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_node_properties.py",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\node_properties.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 5.94
+  },
+  {
+    "suite": "terminology",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "-B",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_terminology_expansion.py",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\terminology.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 19.97
+  },
+  {
+    "suite": "method_results",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "-B",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_method_results.py",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\method_results.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 10.5
+  },
+  {
+    "suite": "fragment_methods",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "-B",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_fragment_methods.py",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\fragment_methods.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 17.88
+  },
+  {
+    "suite": "system_consistency",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "-B",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_system_consistency.py",
+      "--snapshot",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\snapshot.json",
+      "--properties",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\properties.json",
+      "--facts",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\factual.json",
+      "--output",
+      "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\final_release_20260926T182337Z\\release\\benchmark\\system_consistency.json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 43.61
+  }
+]

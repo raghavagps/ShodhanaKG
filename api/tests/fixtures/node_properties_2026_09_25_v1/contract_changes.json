@@ -1,0 +1,91 @@
+[
+  {
+    "before": {
+      "id": "eval_014",
+      "question": "What is the molecular weight of Mercury?",
+      "expected_status": "unsupported"
+    },
+    "after": {
+      "id": "eval_014",
+      "question": "What is the molecular weight of Mercury?",
+      "expected_status": "needs_clarification",
+      "notes": "Node-property contract: resolve actual node first; missing stored field is no_data, ambiguous/unknown node stays unresolved."
+    }
+  },
+  {
+    "before": {
+      "id": "eval_042",
+      "question": "What is the molecular weight of Croton tiglium Linn.?",
+      "expected_status": "unsupported"
+    },
+    "after": {
+      "id": "eval_042",
+      "question": "What is the molecular weight of Croton tiglium Linn.?",
+      "expected_status": "no_data",
+      "expected_endpoint": "node_property",
+      "notes": "Node-property contract: resolve actual node first; missing stored field is no_data, ambiguous/unknown node stays unresolved."
+    }
+  },
+  {
+    "before": {
+      "id": "eval_043",
+      "question": "What is the price of Bhasma?",
+      "expected_status": "unsupported"
+    },
+    "after": {
+      "id": "eval_043",
+      "question": "What is the price of Bhasma?",
+      "expected_status": "entity_not_found",
+      "notes": "Node-property contract: resolve actual node first; missing stored field is no_data, ambiguous/unknown node stays unresolved."
+    }
+  },
+  {
+    "before": {
+      "id": "eval_045",
+      "question": "What is the chemical formula of Guggulu?",
+      "expected_status": "unsupported"
+    },
+    "after": {
+      "id": "eval_045",
+      "question": "What is the chemical formula of Guggulu?",
+      "expected_status": "needs_clarification",
+      "notes": "Node-property contract: resolve actual node first; missing stored field is no_data, ambiguous/unknown node stays unresolved."
+    }
+  },
+  {
+    "question": "Tell me about Copper.",
+    "before": [
+      "needs_clarification"
+    ],
+    "after": [
+      "no_data"
+    ]
+  },
+  {
+    "question": "What is the price of Copper?",
+    "before": [
+      "unsupported"
+    ],
+    "after": [
+      "no_data"
+    ]
+  },
+  {
+    "question": "What is the chemical formula of Copper?",
+    "before": [
+      "unsupported"
+    ],
+    "after": [
+      "no_data"
+    ]
+  },
+  {
+    "question": "What is the price of Copper?",
+    "before": [
+      "unsupported"
+    ],
+    "after": [
+      "no_data"
+    ]
+  }
+]

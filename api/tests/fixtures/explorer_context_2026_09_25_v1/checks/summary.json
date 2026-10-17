@@ -1,0 +1,90 @@
+[
+  {
+    "name": "test_terminology_expansion.php",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "api/tests/test_terminology_expansion.php"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "test_node_property_answer.php",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "api/tests/test_node_property_answer.php"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "test_entity_resolution.php",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "api/tests/test_entity_resolution.php"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "test_results_presentation.php",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "api/tests/test_results_presentation.php"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "test_legacy_evidence_presentation.php",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "api/tests/test_legacy_evidence_presentation.php"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "test_conversational_answer.php",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "api/tests/test_conversational_answer.php"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "test_conversation_routing.php",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "api/tests/test_conversation_routing.php"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "test_context_immutability.php",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "api/tests/test_context_immutability.php"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "provenance-subgraph.test.php",
+    "command": [
+      "C:\\xampp\\php\\php.exe",
+      "api/tests/provenance-subgraph.test.php"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "schema_reference",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "api/tests/test_schema_reference.py"
+    ],
+    "exit_code": 0
+  },
+  {
+    "name": "compiler_policy",
+    "command": [
+      "D:\\miniconda3\\python.exe",
+      "api/tests/test_build_terminology_catalog.py"
+    ],
+    "exit_code": 0
+  }
+]

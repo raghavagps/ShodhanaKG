@@ -1,0 +1,69 @@
+{
+  "scope": "Individual PubMed rechecks and correction identity; absence does not prove nonexistence. DOI remains unresolved.",
+  "checks": [
+    {
+      "identifier": "216742",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=216742&retmode=xml",
+      "checked_at": "2026-09-23T22:39:03.838868+00:00",
+      "http_status": 200,
+      "body_sha256": "996c1320ff78ec5e849a600685b8f4d3b9bb39290e0fcc18f159b3f5c372a2f7",
+      "metadata": null,
+      "exact_record_returned": false
+    },
+    {
+      "identifier": "216736",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=216736&retmode=xml",
+      "checked_at": "2026-09-23T22:39:04.863876+00:00",
+      "http_status": 200,
+      "body_sha256": "996c1320ff78ec5e849a600685b8f4d3b9bb39290e0fcc18f159b3f5c372a2f7",
+      "metadata": null,
+      "exact_record_returned": false
+    },
+    {
+      "identifier": "2201",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=2201&retmode=xml",
+      "checked_at": "2026-09-23T22:39:05.943294+00:00",
+      "http_status": 200,
+      "body_sha256": "996c1320ff78ec5e849a600685b8f4d3b9bb39290e0fcc18f159b3f5c372a2f7",
+      "metadata": null,
+      "exact_record_returned": false
+    },
+    {
+      "identifier": "13110",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=13110&retmode=xml",
+      "checked_at": "2026-09-23T22:39:06.961492+00:00",
+      "http_status": 200,
+      "body_sha256": "996c1320ff78ec5e849a600685b8f4d3b9bb39290e0fcc18f159b3f5c372a2f7",
+      "metadata": null,
+      "exact_record_returned": false
+    },
+    {
+      "identifier": "39308055",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39308055&retmode=xml",
+      "checked_at": "2026-09-23T22:39:08.014768+00:00",
+      "http_status": 200,
+      "body_sha256": "6d2e15757a2a62c804154156659c1843abec8ed25b09a8bb1037452d071cc14e",
+      "metadata": {
+        "pmid": "39308055",
+        "title": "Correction.",
+        "journal": "Drug development and industrial pharmacy",
+        "publication_types": [
+          "Journal Article",
+          "Published Erratum"
+        ],
+        "doi": "10.1080/03639045.2024.2406315",
+        "pmcid": null,
+        "notices": [
+          {
+            "relation": "ErratumFor",
+            "pmid": "39210691"
+          }
+        ],
+        "abstract_available": false,
+        "abstract_sha256": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39308055/"
+      },
+      "exact_record_returned": true
+    }
+  ]
+}
