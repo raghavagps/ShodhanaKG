@@ -8,6 +8,9 @@ require_once __DIR__ . '/graph_service.php';
 api_handle_cors_preflight();
 $method = (isset($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : '');
 if ($method !== 'GET') {
+    if (php_sapi_name() === 'cli' && empty($method)) {
+        return;
+    }
     api_fail('method_not_allowed', 'Use GET', 405);
 }
 $domain = (isset($_GET['domain']) ? trim($_GET['domain']) : '');
@@ -39,8 +42,10 @@ if (!isset($vertexMap[$category])) {
 $vertexType = $vertexMap[$category];
 $edges = (isset($edgeConfig[$vertexType]) ? $edgeConfig[$vertexType] : array());
 try {
-    $total = count_entities($vertexType, $q);
-    $rows = list_entities($vertexType, $q, $edges, $sort, $dir, $limit, $offset);
+    $force = !empty($_GET['refresh']) || !empty($_GET['nocache']);
+    $allRows = get_all_category_rows($vertexType, $q, $edges, $force);
+    $total = count($allRows);
+    $rows = sort_and_slice_rows($allRows, $sort, $dir, $limit, $offset);
     api_ok(array('rows' => $rows, 'total' => $total, 'limit' => $limit, 'offset' => $offset));
 } catch (Exception $e) {
     api_fail('category_stats_failed', 'Category stats query failed', 500, array('message' => $e->getMessage()));
@@ -70,8 +75,45 @@ function build_search_where_stats_cat($vertexType, $q)
     }
     return 'WHERE ' . implode(' OR ', $conds);
 }
-function list_entities($vertexType, $q, $edges, $sort, $dir, $limit, $offset)
+function get_all_category_rows($vertexType, $q, $edges, $force = false)
 {
+    global $API_CACHE_DIR;
+    $cacheKey = 'cat_stats_' . md5($vertexType . '|' . $q);
+    $ttl = 600;
+
+    if (!$force && function_exists('apcu_fetch')) {
+        $hit = false;
+        $val = apcu_fetch($cacheKey, $hit);
+        if ($hit && is_array($val)) {
+            return $val;
+        }
+    }
+
+    $cacheDir = !empty($API_CACHE_DIR) ? $API_CACHE_DIR : (__DIR__ . '/storage/cache');
+    if (!is_dir($cacheDir)) {
+        @mkdir($cacheDir, 0777, true);
+    }
+    if (!is_writable($cacheDir)) {
+        $cacheDir = sys_get_temp_dir() . '/shodhanakg_cache';
+        if (!is_dir($cacheDir)) {
+            @mkdir($cacheDir, 0777, true);
+        }
+    }
+
+    $cacheFile = $cacheDir . '/' . $cacheKey . '.cache';
+    if (!$force && is_file($cacheFile) && (time() - filemtime($cacheFile) < $ttl)) {
+        $content = @file_get_contents($cacheFile);
+        if ($content !== false) {
+            $val = @unserialize($content);
+            if (is_array($val)) {
+                if (function_exists('apcu_store')) {
+                    apcu_store($cacheKey, $val, $ttl);
+                }
+                return $val;
+            }
+        }
+    }
+
     $where = build_search_where_stats_cat($vertexType, $q);
     // Aggregate before pagination so numeric sorting is global.
     $entities = [];
@@ -85,62 +127,83 @@ function list_entities($vertexType, $q, $edges, $sort, $dir, $limit, $offset)
         $entities = array_merge($entities, $batch);
         $scanOffset += count($batch);
     } while (count($batch) === 1000);
+
     if (empty($entities)) {
-        return array();
-    }
-    $rows = array();
-    foreach ($entities as $e) {
-        $rid = (isset($e['@rid']) ? $e['@rid'] : '');
-        if (!$rid) {
-            continue;
+        $result = array();
+    } else {
+        $rows = array();
+        foreach ($entities as $e) {
+            $rid = (isset($e['@rid']) ? $e['@rid'] : '');
+            if (!$rid) {
+                continue;
+            }
+            $type = (isset($e['@type']) ? $e['@type'] : $vertexType);
+            $name = vertex_label($e);
+            $desc = vertex_description($e);
+            if ($type === 'Compound') {
+                $desc = '';
+            }
+            $rows[$rid] = array(
+                'id' => (isset($e['id']) ? $e['id'] : ''),
+                'name' => $name,
+                'description' => ($desc !== '' && strcasecmp($desc, $name) !== 0 ? $desc : ''),
+            );
         }
-        $type = (isset($e['@type']) ? $e['@type'] : $vertexType);
-        $name = vertex_label($e);
-        $desc = vertex_description($e);
-        if ($type === 'Compound') {
-            $desc = '';
-        }
-        $rows[$rid] = array('id' => (isset($e['id']) ? $e['id'] : ''), 'name' => $name, 'description' => ($desc !== '' && strcasecmp($desc, $name) !== 0 ? $desc : ''));
-    }
-    $rids = array_keys($rows);
-    foreach ($edges as $ec) {
-        $edgeType = $ec['edge'];
-        $key = $ec['key'];
-        $reverse = (isset($ec['reverse']) ? $ec['reverse'] : false);
-        $counts = count_edges_stats_cat($edgeType, $rids, $reverse, (isset($ec['sourceType']) ? $ec['sourceType'] : null));
-        foreach ($counts as $rid => $cnt) {
-            if (isset($rows[$rid])) {
-                if (!isset($rows[$rid][$key])) {
-                    $rows[$rid][$key] = 0;
+        $rids = array_keys($rows);
+        foreach ($edges as $ec) {
+            $edgeType = $ec['edge'];
+            $key = $ec['key'];
+            $reverse = (isset($ec['reverse']) ? $ec['reverse'] : false);
+            $counts = count_edges_stats_cat($edgeType, $rids, $reverse, (isset($ec['sourceType']) ? $ec['sourceType'] : null));
+            foreach ($counts as $rid => $cnt) {
+                if (isset($rows[$rid])) {
+                    if (!isset($rows[$rid][$key])) {
+                        $rows[$rid][$key] = 0;
+                    }
+                    $rows[$rid][$key] += $cnt;
                 }
-                $rows[$rid][$key] += $cnt;
             }
         }
-    }
-    $countKeys = array();
-    foreach ($edges as $e) {
-        $countKeys[] = $e['key'];
-    }
-    $countKeys = array_unique($countKeys);
-    foreach ($rows as $rid => $row) {
-        $rowTotal = 0;
-        foreach ($countKeys as $k) {
-            if (!isset($rows[$rid][$k])) {
-                $rows[$rid][$k] = 0;
-            }
-            $rowTotal += $rows[$rid][$k];
+        $countKeys = array();
+        foreach ($edges as $e) {
+            $countKeys[] = $e['key'];
         }
-        $rows[$rid]['total'] = $rowTotal;
+        $countKeys = array_unique($countKeys);
+        foreach ($rows as $rid => $row) {
+            $rowTotal = 0;
+            foreach ($countKeys as $k) {
+                if (!isset($rows[$rid][$k])) {
+                    $rows[$rid][$k] = 0;
+                }
+                $rowTotal += $rows[$rid][$k];
+            }
+            $rows[$rid]['total'] = $rowTotal;
+        }
+        $result = array_values($rows);
     }
-    $result = array_values($rows);
-    usort($result, function ($a, $b) use ($sort, $dir) {
+
+    if (function_exists('apcu_store')) {
+        apcu_store($cacheKey, $result, $ttl);
+    }
+    if (is_dir($cacheDir) && is_writable($cacheDir)) {
+        $tmp = $cacheFile . '.' . uniqid('tmp', true);
+        if (@file_put_contents($tmp, serialize($result)) !== false) {
+            @rename($tmp, $cacheFile);
+        }
+    }
+
+    return $result;
+}
+function sort_and_slice_rows($rows, $sort, $dir, $limit, $offset)
+{
+    usort($rows, function ($a, $b) use ($sort, $dir) {
         $va = (isset($a[$sort]) ? $a[$sort] : 0);
         $vb = (isset($b[$sort]) ? $b[$sort] : 0);
         if (is_string($va) && is_string($vb)) {
             return ($dir === 'DESC' ? strcmp($vb, $va) : strcmp($va, $vb));
         }
         if ($va == $vb) {
-            return (strcmp($a['name'], $b['name']) ?  : strcmp((string) $a['id'], (string) $b['id']));
+            return (strcmp($a['name'], $b['name']) ? : strcmp((string) $a['id'], (string) $b['id']));
         }
         if ($dir === 'DESC') {
             return ($va < $vb ? 1 : -1);
@@ -148,7 +211,12 @@ function list_entities($vertexType, $q, $edges, $sort, $dir, $limit, $offset)
             return ($va > $vb ? 1 : -1);
         }
     });
-    return array_slice($result, $offset, $limit);
+    return array_slice($rows, $offset, $limit);
+}
+function list_entities($vertexType, $q, $edges, $sort, $dir, $limit, $offset)
+{
+    $allRows = get_all_category_rows($vertexType, $q, $edges);
+    return sort_and_slice_rows($allRows, $sort, $dir, $limit, $offset);
 }
 function count_edges_stats_cat($edgeType, $rids, $reverse, $sourceType = null)
 {
