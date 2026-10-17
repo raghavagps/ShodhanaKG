@@ -50,7 +50,6 @@ src/
       DiseaseExplorer / DiseaseGraphView / DiseaseTableView
       CompoundExplorer / CompoundGraphView / CompoundTableView
       IntegratedExplorer / IntegratedGraphView / IntegratedTableView
-      ExplorerShell.tsx  # Shared explorer layout wrapper
   components/
     ui/               # shadcn/ui components (49 files — do NOT edit directly; they are boilerplate)
     explorer/         # Shared explorer widgets: GraphCanvas, DetailsPanel, Legend, ExportMenu, MultiAutocomplete
@@ -144,7 +143,6 @@ src/
       DiseaseExplorer / DiseaseGraphView / DiseaseTableView
       CompoundExplorer / CompoundGraphView / CompoundTableView
       IntegratedExplorer / IntegratedGraphView / IntegratedTableView
-      ExplorerShell.tsx  # Shared explorer layout wrapper
   components/
     ui/               # shadcn/ui components (49 files — do NOT edit directly; they are boilerplate)
     explorer/         # Shared explorer widgets: GraphCanvas, DetailsPanel, Legend, ExportMenu, MultiAutocomplete
