@@ -43,10 +43,6 @@ function get_compound_db_types()
 {
     return array('Compound', 'Shodhana_Method', 'Toxic_Substance', 'Confirmation_Study', 'Media', 'Purified_Compound', 'Shodhana_Type', 'Process', 'Indication', 'Ayurvedic_Formulation');
 }
-function get_disease_db_types()
-{
-    return array('Disease', 'Dosha', 'Ayurvedic_Diagnosis', 'Symptoms', 'Therapy', 'Formulation', 'Assessment_Parameter');
-}
 function query_edges($frontierRids, $edgeTypes, $limit)
 {
     return GraphRead::edges($frontierRids, $edgeTypes, $limit, 'arcade_command');

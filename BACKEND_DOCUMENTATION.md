@@ -99,7 +99,6 @@ api/
 ├── compound-provenance.php         ← GET /compound-provenance.php — Compound provenance
 ├── test_db.php                     ← Manual DB connection test
 ├── version.php                     ← PHP version info
-├── provenance-subgraph.example.php ← Documentation for provenance endpoint
 └── tests/
     └── provenance-subgraph.test.php ← PHP unit tests
 ```
@@ -1181,7 +1180,6 @@ php api/test_db.php
 | 17 | `api/version.php` | 3 | PHP version info |
 | 18 | `api/test_db.php` | 9 | Manual DB connection test |
 | 19 | `api/chat.php` | 150 | AI Chatbot endpoint |
-| 20 | `api/provenance-subgraph.example.php` | 74 | Provenance endpoint docs |
 | 21 | `api/tests/provenance-subgraph.test.php` | 183 | Unit tests |
 | 22 | `apache.conf.example` | 39 | Apache deployment config |
 | 23 | `.env` | 1 | Dev environment (VITE_API_BASE) |

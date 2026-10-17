@@ -7,15 +7,11 @@
 // avoid collisions when the two graphs share concept types like Disease /
 // Formulation.
 
-import {
-  NODES as D_NODES_RAW,
-  EDGES as D_EDGES_RAW,
+import type {
   NodeType as DiseaseNodeType,
   EdgeType as DiseaseEdgeType,
 } from "./diseaseGraph";
-import {
-  C_NODES as C_NODES_RAW,
-  C_EDGES as C_EDGES_RAW,
+import type {
   CompoundNodeType,
   CompoundEdgeType,
 } from "./compoundGraph";
@@ -188,145 +184,6 @@ export const I_EDGE_COLORS: Record<IntegratedEdgeType, string> = {
   // Bridges â€” consistent with source side colors
   USED_FOR_TREATMENT: "hsl(4, 56%, 48%)",
   USED_IN_FORMULATION: "hsl(320, 44%, 68%)",
-};
-
-// Map disease node ids -> integrated ids
-const dId = (id: string) => `d:${id}`;
-const cId = (id: string) => `c:${id}`;
-
-const D_NODES: IntegratedGraphNode[] = D_NODES_RAW.map((n) => ({
-  id: dId(n.id),
-  label: n.label,
-  type: n.type as IntegratedNodeType,
-  description: n.description,
-  side: "disease",
-}));
-
-const D_EDGES: IntegratedGraphEdge[] = D_EDGES_RAW.map((e) => ({
-  id: `d:${e.id}`,
-  source: dId(e.source),
-  target: dId(e.target),
-  type: e.type as IntegratedEdgeType,
-  side: "disease",
-  adjuvant: e.adjuvant,
-  dose: e.dose,
-  duration: e.duration,
-  outputMeasure: e.outputMeasure,
-  pubmedId: e.pubmedId,
-}));
-
-const C_NODES: IntegratedGraphNode[] = C_NODES_RAW.map((n) => ({
-  id: cId(n.id),
-  label: n.label,
-  // Note: compound graph also has its own "Disease" + "Formulation" nodes;
-  // they remain as separate nodes here (we don't auto-merge by label).
-  type: n.type as IntegratedNodeType,
-  description: n.description,
-  side: "compound",
-}));
-
-const C_EDGES: IntegratedGraphEdge[] = C_EDGES_RAW
-  // Drop USED_FOR_TREATMENT / USED_IN_FORMULATION from compound side â€” we re-add
-  // them as explicit cross-domain bridges below.
-  .filter((e) => e.type !== "USED_FOR_TREATMENT" && e.type !== "USED_IN_FORMULATION")
-  .map((e) => ({
-    id: `c:${e.id}`,
-    source: cId(e.source),
-    target: cId(e.target),
-    type: e.type as IntegratedEdgeType,
-    side: "compound",
-    procedure: e.procedure,
-    result: e.result,
-    mediaUsed: e.mediaUsed,
-    pubmedId: e.pubmedId,
-  }));
-
-// ---- Bridge edges: compound-side PurifiedCompound -> disease-side Disease/Formulation
-// We hand-curate the bridge mapping using labels from both graphs.
-const BRIDGE_NOTE_TREAT =
-  "Bridge: a purified compound (post-Shodhana) is used therapeutically for this disease â€” connecting the Compound-ShodhanaKG to the Disease-ShodhanaKG.";
-const BRIDGE_NOTE_FORM =
-  "Bridge: a purified compound is an ingredient of this formulation, linking compound purification evidence to disease-side therapy.";
-
-export const I_BRIDGE_EDGES: IntegratedGraphEdge[] = [
-  // Shuddha Vatsanabha (pc1) -> Amavata disease (d:d1) and Simhanada Guggulu (d:f1)
-  {
-    id: "b1",
-    source: cId("pc1"),
-    target: dId("d1"),
-    type: "USED_FOR_TREATMENT",
-    side: "bridge",
-    pubmedId: "30123456",
-    bridgeNote: BRIDGE_NOTE_TREAT,
-  },
-  {
-    id: "b2",
-    source: cId("pc1"),
-    target: dId("f1"),
-    type: "USED_IN_FORMULATION",
-    side: "bridge",
-    pubmedId: "29876543",
-    bridgeNote: BRIDGE_NOTE_FORM,
-  },
-  // Shuddha Bhallataka (pc3) -> Bronchial Asthma proxy (d:d3) + Vasa Avaleha (d:f2)
-  {
-    id: "b3",
-    source: cId("pc3"),
-    target: dId("d3"),
-    type: "USED_FOR_TREATMENT",
-    side: "bridge",
-    pubmedId: "31234567",
-    bridgeNote: BRIDGE_NOTE_TREAT,
-  },
-  {
-    id: "b4",
-    source: cId("pc3"),
-    target: dId("f2"),
-    type: "USED_IN_FORMULATION",
-    side: "bridge",
-    pubmedId: "30987654",
-    bridgeNote: BRIDGE_NOTE_FORM,
-  },
-  // Shuddha Parada (pc2) -> Triphala Churna proxy (d:f3)
-  {
-    id: "b5",
-    source: cId("pc2"),
-    target: dId("f3"),
-    type: "USED_IN_FORMULATION",
-    side: "bridge",
-    pubmedId: "32145678",
-    bridgeNote: BRIDGE_NOTE_FORM,
-  },
-];
-
-export const I_NODES: IntegratedGraphNode[] = [...D_NODES, ...C_NODES];
-export const I_EDGES: IntegratedGraphEdge[] = [...D_EDGES, ...C_EDGES, ...I_BRIDGE_EDGES];
-
-// Helper: traverse undirected k-hop neighborhood starting from `seedIds`.
-export function kHopSubgraph(seedIds: string[], depth: 0 | 1 | 2) {
-  const nodeIds = new Set<string>(seedIds);
-  let frontier = new Set<string>(seedIds);
-  for (let i = 0; i < depth; i++) {
-    const next = new Set<string>();
-    I_EDGES.forEach((e) => {
-      if (frontier.has(e.source) && !nodeIds.has(e.target)) next.add(e.target);
-      if (frontier.has(e.target) && !nodeIds.has(e.source)) next.add(e.source);
-    });
-    next.forEach((id) => nodeIds.add(id));
-    frontier = next;
-    if (next.size === 0) break;
-  }
-  const nodes = I_NODES.filter((n) => nodeIds.has(n.id));
-  const edges = I_EDGES.filter((e) => nodeIds.has(e.source) && nodeIds.has(e.target));
-  return { nodes, edges };
-}
-
-// Quick groups for "Start from" selectors
-export const STARTERS = {
-  diseases: I_NODES.filter((n) => n.type === "Disease"),
-  compounds: I_NODES.filter((n) => n.type === "Compound"),
-  purified: I_NODES.filter((n) => n.type === "PurifiedCompound"),
-  formulations: I_NODES.filter((n) => n.type === "Formulation"),
 };
 
 // Refinement filter groups â€” only active after a starting node is chosen.

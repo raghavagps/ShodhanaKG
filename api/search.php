@@ -28,9 +28,7 @@ if (mb_strlen($q, 'UTF-8') > 200) {
 }
 
 try {
-  $escaped = arcade_escape($q);
   $nodes = array();
-  $limitPerType = $limit * 2;
 
   $allowedTypes = vertex_types_for_domain($domain);
   if ($typeFilter !== '') {
