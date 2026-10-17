@@ -1,7 +1,0 @@
-metric,passed,evaluated,unit
-Factual retrieval,168,168,endpoint/entity case
-Attribution,121,121,case
-Presentation,24,24,HTTP question
-Routing/status,82,82,case
-Conversation,108,108,turn execution
-JSON/SSE parity,54,54,paired turn

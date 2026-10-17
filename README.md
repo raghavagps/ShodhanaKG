@@ -50,13 +50,15 @@ questions about Ayurvedic compounds, diseases, therapies, and Shodhana processes
 using a deterministic retrieve-then-generate architecture.
 
 ### Architecture
-- **Deterministic retrieval** via 27 schema-aware ArcadeDB traversal endpoints
-- **Evidence correlation** prevents cross-join hallucinations
-- **LLM rendering** via Ollama (llama3.2) narrates pre-retrieved facts
+- **Deterministic retrieval** via 53 allowlisted schema-aware ArcadeDB traversal endpoints (covering compound processing, toxicity, indications, disease diagnostics, therapies, formulations, integrated bridges, and multi-hop co-citation provenance)
+- **Evidence correlation** prevents cross-join hallucinations by strictly binding references (PubMed ID, DOI, Ayush ID) across path edges
+- **In-process static caching** in `api/core/GraphRead.php` and `api/core/SemanticQuery.php` accelerates recurring schema queries and entity lookups
+- **Deterministic answer construction** renders answers directly from retrieved graph facts without requiring an LLM
+- **Optional LLM assistance** via Ollama (llama3.2) can optionally narrate introductions or provide language assistance without generating ungrounded facts
 - **Response validation** detects hallucinated identifiers, quantities, and entities
 
 ### Enable the Chatbot
-Set `VITE_CHAT_ENABLED=true` in `.env` and configure Ollama:
+Deterministic graph question answering operates directly against ArcadeDB. To enable optional natural language assistance via Ollama, set `VITE_CHAT_ENABLED=true` in `.env` and configure Ollama:
 ```bash
 # Install and start Ollama locally
 ollama serve

@@ -1,8 +1,0 @@
-{
-  "overlapping_node_marker_pairs_before": 2222,
-  "overlapping_node_marker_pairs_after": 0,
-  "minimum_node_center_spacing_after_points": 2.7155429100773176,
-  "marker_diameter_with_outline_after_points": 1.6642135623730951,
-  "metric": "Circular marker intersection at the 180 mm core figure size; excludes edges and text",
-  "exact_record_validation": "PASS: both SVGs match all original node/edge records"
-}
