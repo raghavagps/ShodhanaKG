@@ -1,8 +1,0 @@
-{
-  "caption": "Conceptual chatbot pipeline linked to architecture tiers 1 (browser), 2 (PHP) and 3 (ArcadeDB). Two left-to-right rows show the main path. Clarification revises input; unsupported paths/no records yield explicit responses. Structured context is revalidated for fresh KG retrieval. Optional model assistance uses validated facts for language only; results/citations are constructed deterministically. Failure and optional branches are schematic, not exhaustive control flow or timing measurements.",
-  "editable_text_elements": 38,
-  "embedded_images": 0,
-  "external_assets": 0,
-  "svg_xml_valid": true,
-  "pdf_vector_check": true
-}

@@ -22,6 +22,12 @@ The `EvidenceCorrelator::correlate()` function enforces strict identity rules:
 ## Deduplication
 Graph edges often duplicate properties for bidirectional links. `KnowledgeNormalizer::generateDeduplicationKey()` deterministically hashes the canonical node names and JSON-encoded properties of a retrieved fact to filter identical records while safely preserving distinct facts.
 
+## In-Process Static Caching
+To minimize latency and prevent redundant ArcadeDB SQL queries within the same request:
+- **`GraphRead.php`**: Caches node property dictionaries, type indices, and schema lookups in static in-memory properties. Subsequent reads of identical entity nodes reuse in-memory structures without issuing additional network roundtrips.
+- **`SemanticQuery.php`**: Caches parsed semantic schema definitions and allowed edge traversals in memory.
+- **`bridge-stats.php`**: Applies bounded limits (`LIMIT 5000`) on integration bridge joins to prevent memory exhaustion and database lockups during extensive cross-domain traversals.
+
 ## Canonical Knowledge Object
 The `KnowledgeNormalizer::formatCanonical()` wraps retrieved facts in a standard schema:
 ```json

@@ -1,3 +1,5 @@
+> Historical Phase 7 audit report. For current architecture and complete endpoint inventory, see [CURRENT_SYSTEM_STATUS.md](CURRENT_SYSTEM_STATUS.md) and [ORCHESTRATION_LAYER.md](ORCHESTRATION_LAYER.md). The production system now maintains 53 allowlisted ArcadeDB traversal endpoints (52 evaluated in `api/tests/fixtures/chatbot_evaluation_cases.json`).
+
 # ShodhanaKG Chatbot Query Coverage Report
 
 ## Overview

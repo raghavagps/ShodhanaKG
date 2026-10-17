@@ -1187,40 +1187,43 @@ php api/test_db.php
 
 ---
 
-### 6.9 chat.php (AI Chatbot)
+### 6.9 chatbot_response.php & chatbot_health.php (AI Chatbot)
 
-**POST `/api/chat.php`**
+#### POST `/api/chatbot_response.php`
 
-Real-time, streaming AI chatbot endpoint utilizing Retrieval-Augmented Generation (GraphRAG) with ArcadeDB and Ollama.
+Deterministic graph question-answering endpoint utilizing deterministic retrieval over ArcadeDB with optional natural language assistance via Ollama. Supports standard JSON responses and Server-Sent Events (`stream=true`).
 
 **Request Body (JSON):**
 ```json
 {
-  "messages": [
-    { "role": "user", "content": "What are the symptoms of eczema?" }
-  ],
-  "context": {
-    "domain": "disease",
-    "seedIds": ["#36:0"]
-  }
+  "question": "What media is used for purifying Copper?",
+  "history": [],
+  "conversationContext": null,
+  "stream": false,
+  "selection": null,
+  "offset": 0
 }
 ```
 
 **Algorithm Pipeline:**
-1. **Sanitization** (`api/chat/sanitize.php`): Validates input, checks LLM health, applies rate limiting, normalizes messages.
-2. **Intent & Entity Extraction** (`api/chat/intent.php`): Identifies if the user is asking about a specific entity or a general graph structure.
-3. **GraphRAG Retrieval** (`api/chat/retrieval.php`): Queries ArcadeDB for relevant vertex and edge data based on extracted entities and frontend context (seed IDs).
-4. **Prompt Building** (`api/chat/prompt.php`): Formats the retrieved knowledge graph data into a strict LLM system prompt instructing it to cite PMIDs and only use the provided context.
-5. **LLM Generation** (`api/chat/llm.php`): Initiates a streaming request to the local Ollama instance (`llama3.2`).
-6. **SSE Streaming** (`api/chat/stream.php`): Processes the Ollama response stream, buffering tokens and flushing them to the client via Server-Sent Events (SSE).
+1. **Input Handling & Interception**: Dispatches platform FAQs via `FAQMatcher` or routes question via `QuestionRouter`.
+2. **Entity Resolution** (`api/core/EntityResolver.php`): Resolves entities against ArcadeDB types and canonical synonyms.
+3. **Allowlist Dispatch** (`api/core/ChatbotOrchestrator.php`): Validates intent against 53 allowlisted ArcadeDB traversal endpoints (covering compound processing, toxicity, indications, disease diagnostics, therapies, formulations, integrated bridges, and multi-hop co-citation provenance).
+4. **Deterministic Retrieval & Caching**: Executes corresponding `execute_*` function via `GraphRetriever`, `GraphRead`, and `SemanticQuery`, leveraging static in-process caching for schema definitions and node properties.
+5. **Evidence Correlation** (`api/core/EvidenceCorrelator.php`): Enforces strict reference identity matching (PubMed ID, DOI, Ayush ID) across path edges to prevent cross-join hallucinations.
+6. **Answer Construction** (`api/core/EvidenceAnswerBuilder.php` & `api/core/ResponseGenerator.php`): Synthesizes factual answers directly from retrieved records without requiring external LLM availability.
+7. **Optional LLM Assistance** (`api/core/LLMClient.php`): If Ollama is available, conditionally generates conversational intros/summaries while strictly preserving retrieved entity lists and citations.
+8. **Transport Delivery**: Returns JSON or streams SSE chunks (`text/event-stream`) ending with terminal metadata.
 
-**Response:**
-Server-Sent Events (`text/event-stream`).
+#### GET `/api/chatbot_health.php`
 
-**Event Types:**
-- `token`: A piece of generated markdown text.
-- `citation`: A PubMed ID referenced by the model.
-- `metadata`: Contains the retrieved sources (nodes and PMIDs) used for generation.
-- `error`: Error message.
+Returns health and readiness status for ArcadeDB connectivity and optional Ollama service.
 
-**Errors:** 400 (invalid payload), 429 (rate limit), 503 (Ollama offline).
+**Response (JSON):**
+```json
+{
+  "status": "ok",
+  "arcadedb": true,
+  "ollama": { "available": true, "model": "llama3.2" }
+}
+```
