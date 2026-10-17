@@ -90,7 +90,7 @@ src/
 - Edge types (Compound domain): `UNDERGOES`, `CONTAINS`, `VALIDATED_BY`, `USES_MEDIA`, `CONFIRMS_SAFETY_OF`, `DERIEVED_FROM`, `DETOXIFIES`, `CLASSIFIED_AS`, `USED_FOR_TREATMENT`, `USED_IN_FORMULATION`, `FOLLOWED_BY`, `TREATS`, `PRODUCES`
 - Edge properties: `Pubmed ID` → `pubmedId`, `Outcome Measure` (space!) → `outputMeasure`, `Dose` → `dose`, `Duration` → `duration`, `Procedure` → `procedure`, `Result` → `result`
 - ArcadeDB SQL uses `.toLowerCase()` for case-insensitive search, `SKIP` not `OFFSET`, no `V`/`E` base types, no `LOWER()` function
-- 8 React Query hooks: `useSearch`, `useGraph`, `useKgStats`, `useStats`, `useCounts`, `useCategoryStats`, `useProvenanceSubgraph`, `useCompoundProvenance`
+- 7 React Query hooks: `useSearch`, `useGraph`, `useKgStats`, `useCounts`, `useCategoryStats`, `useProvenanceSubgraph`, `useCompoundProvenance`
 
 ## Testing quirks
 - Vitest config is in `vitest.config.ts` (not inside `vite.config.ts`)

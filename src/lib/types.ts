@@ -104,14 +104,6 @@ export interface ApiHealthResponse {
   arcade?: { connected: boolean };
 }
 
-export interface ApiStatsResponse {
-  ok: boolean;
-  rows: Record<string, unknown>[];
-  total?: number;
-  limit?: number;
-  offset?: number;
-}
-
 export interface ApiNodeResponse {
   ok: boolean;
   node: ApiNode;

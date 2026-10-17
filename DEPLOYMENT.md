@@ -43,7 +43,7 @@ The backend is located in the `api/` directory (17 PHP files).
     *   `db.php`: 3-tier connectivity handler (cURL → `file_get_contents` → `fsockopen` with manual chunked decoding).
     *   `graph_service.php`: Shared schema mapping (17 vertex types, 22 edge types), type normalization, field resolution.
     *   `config.php`: ArcadeDB connection details and allowed origins.
-    *   All 11 endpoint files (`search.php`, `graph.php`, `stats.php`, `category-stats.php`, `kg-stats.php`, `counts.php`, `bridge-stats.php`, `node.php`, `provenance-subgraph.php`, `compound-provenance.php`, `health.php`, `chat.php`).
+    *   All 11 endpoint files (`search.php`, `graph.php`, `category-stats.php`, `kg-stats.php`, `counts.php`, `bridge-stats.php`, `node.php`, `provenance-subgraph.php`, `compound-provenance.php`, `health.php`, `chat.php`).
 
 ---
 

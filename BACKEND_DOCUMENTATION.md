@@ -91,7 +91,6 @@ api/
 ├── search.php                      ← GET /search.php — Full-text search
 ├── graph.php                       ← GET /graph.php — Subgraph traversal
 ├── node.php                        ← GET /node.php — Single node + neighbors
-├── stats.php                       ← GET /stats.php — Disease/Compound stats
 ├── category-stats.php              ← GET /category-stats.php — Per-category stats
 ├── kg-stats.php                    ← GET /kg-stats.php — Global KG statistics
 ├── counts.php                      ← GET /counts.php — Per-category counts
