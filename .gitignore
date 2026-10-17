@@ -37,3 +37,10 @@ mock_arcadedb.log
 .playwright-mcp/
 scratch/
 .gemini/
+
+# AI agent instructions and rules
+AGENTS.md
+GEMINI.md
+CLAUDE.md
+.cursorrules
+.cursor/

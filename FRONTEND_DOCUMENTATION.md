@@ -93,9 +93,10 @@ src/
 │   └── use-mobile.tsx           ← Mobile detection hook
 │
 ├── data/
-│   ├── diseaseGraph.ts          ← Disease node/edge types, colors, sample data (155 lines)
-│   ├── compoundGraph.ts         ← Compound node/edge types, colors, sample data (239 lines)
-│   └── integratedGraph.ts       ← Merged types, bridge edges, k-hop traversal (355 lines)
+│   ├── entityTypes.ts           ← Shared entity types, domain mappings, labels, and color definitions
+│   ├── diseaseGraph.ts          ← Disease node/edge types, cytoscape styles, and schema types
+│   ├── compoundGraph.ts         ← Compound node/edge types, cytoscape styles, and schema types
+│   └── integratedGraph.ts       ← Merged schema types, edge types, and color mappings
 │
 ├── components/
 │   ├── ui/                      ← 49 shadcn/ui boilerplate components (DO NOT hand-edit)
@@ -122,8 +123,8 @@ src/
 │   ├── FAQ.tsx                  ← Accordion FAQ
 │   ├── HowToUse.tsx             ← Step-by-step usage guide
 │   ├── Contact.tsx              ← Contact info
+│   ├── AdvancedSearch.tsx       ← Advanced property and multi-hop search
 │   ├── Team.tsx                 ← Dev team profiles
-│   ├── TestProvenance.tsx       ← Test harness for provenance feature
 │   └── explorers/
 │       ├── DiseaseExplorer.tsx         ← Disease home: search + category cards
 │       ├── DiseaseGraphView.tsx        ← Disease graph: 3-panel interactive graph
@@ -223,13 +224,13 @@ All three graph views follow the same 3-column layout pattern:
 | `/explorer/integrated` | IntegratedExplorer (redirect → table) | Eager |
 | `/explorer/integrated/graph` | IntegratedGraphView | **Lazy** |
 | `/explorer/integrated/table` | IntegratedTableView | Eager |
-| `/search` | SearchResults | Eager |
-| `/faq` | FAQ | Eager |
-| `/how-to-use` | HowToUse | Eager |
-| `/contact` | Contact | Eager |
-| `/team` | Team | Eager |
-| `/test-provenance` | TestProvenance | Eager |
-| `*` | NotFound | Eager |
+| `/advanced-search` | AdvancedSearch | **Lazy** |
+| `/search` | SearchResults | **Lazy** |
+| `/faq` | FAQ | **Lazy** |
+| `/how-to-use` | HowToUse | **Lazy** |
+| `/contact` | Contact | **Lazy** |
+| `/team` | Team | **Lazy** |
+| `*` | NotFound | **Lazy** |
 
 ### URL State Management
 
@@ -348,13 +349,16 @@ export async function fetchApi<T>(path: string): Promise<T> {
 | `useProvenanceSubgraph` | 60s | Enabled only when diseaseId is truthy |
 | `useCompoundProvenance` | 60s | Enabled only when compoundId is truthy |
 
-### 7.4 Fallback Data
+### 7.4 Graph Schemas and Live State Architecture
 
-When the live API is unreachable, the app falls back to static data defined in:
+The frontend uses a live graph query architecture connecting to ArcadeDB via `api.ts`:
 
-- `src/data/diseaseGraph.ts` — 20 sample nodes, 19 sample edges
-- `src/data/compoundGraph.ts` — 31 sample nodes, 42 sample edges
-- `src/data/integratedGraph.ts` — Merged + 5 bridge edges, `kHopSubgraph()` helper
+- `src/data/entityTypes.ts` — Canonical node types, domain mappings (`TYPE_TO_DOMAIN`), labels (`TYPE_LABELS`), and brand color tokens (`TYPE_COLORS`).
+- `src/data/diseaseGraph.ts` — Disease domain node/edge schema types, Cytoscape color maps, and display labels.
+- `src/data/compoundGraph.ts` — Compound domain node/edge schema types, Cytoscape color maps, and display labels.
+- `src/data/integratedGraph.ts` — Integrated cross-domain types, bridge edge types, and color tokens.
+
+All explorer views fetch live subgraphs via `useGraph()` and `useSearch()`, with progressive loading and graceful error handling when backend services are offline.
 
 The `searchWithFallback()` pattern:
 
@@ -670,7 +674,6 @@ Just a redirect: `<Navigate to="/explorer/integrated/table" replace />`
 | **Contact** | `src/pages/Contact.tsx` | Contact information + image |
 | **Team** | `src/pages/Team.tsx` | Developer profiles |
 | **NotFound** | `src/pages/NotFound.tsx` | 404 with `useLocation` logging |
-| **TestProvenance** | `src/pages/TestProvenance.tsx` | Test harness for provenance feature |
 
 ---
 
@@ -968,6 +971,7 @@ php -S localhost:8081 -t .
 | 11 | `src/data/diseaseGraph.ts` | 155 | Disease graph data |
 | 12 | `src/data/compoundGraph.ts` | 239 | Compound graph data |
 | 13 | `src/data/integratedGraph.ts` | 355 | Integrated graph data |
+| 13b | `src/data/entityTypes.ts` | 90 | Shared entity types, domain mappings & colors |
 | 14 | `src/components/layout/AppLayout.tsx` | 89 | Shell layout |
 | 15 | `src/components/layout/TopNav.tsx` | 157 | Navigation header |
 | 16 | `src/components/explorer/GraphCanvas.tsx` | 500 | Cytoscape graph |
@@ -987,7 +991,7 @@ php -S localhost:8081 -t .
 | 30 | `src/pages/HowToUse.tsx` | ~50 | Usage guide |
 | 31 | `src/pages/Contact.tsx` | ~50 | Contact |
 | 32 | `src/pages/Team.tsx` | ~50 | Team |
-| 33 | `src/pages/TestProvenance.tsx` | ~50 | Provenance test |
+| 33 | `src/pages/AdvancedSearch.tsx` | 380 | Advanced search |
 | 34 | `src/pages/explorers/DiseaseExplorer.tsx` | 229 | Disease home |
 | 35 | `src/pages/explorers/DiseaseGraphView.tsx` | 518 | Disease graph |
 | 36 | `src/pages/explorers/DiseaseTableView.tsx` | 367 | Disease table |
