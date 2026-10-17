@@ -1020,7 +1020,8 @@ Environment variable resolution with local defaults:
 | `ARCADE_USER` | `ayurveda` | DB user |
 | `ARCADE_PASS` | `Gpsr2026$` | DB password |
 | `ALLOWED_ORIGINS` | `*` | CORS allowed origins |
-| `API_STORAGE_DIR` | `api/storage/` | Storage (caching/rate-limit) |
+| `API_STORAGE_DIR` | `api/storage/` | Storage directory (caching) |
+| `API_CACHE_DIR` | `api/storage/cache/` | Cache directory |
 | `API_VERSION` | `v1` | Version string |
 
 ### 7.4 Error Handling Patterns
