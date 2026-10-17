@@ -1,4 +1,0 @@
-<?php
-require 'api/core/GraphRetriever.php';
-$res1 = GraphRetriever::execute("SELECT count(*) as cnt FROM PRODUCES WHERE type(@out) = 'Process'", []);
-print_r($res1);

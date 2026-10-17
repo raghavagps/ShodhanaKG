@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "receiptId": "54f8cf59-7381-4f46-b210-94ab46ca34d4",
+  "status": "current",
+  "command": "deliver",
+  "type": "architecture",
+  "input": "D:\\ShodhanaUI\\shodhanakg\\.archify\\architecture-shodhanakg-complete-20261017-211535\\candidate.json",
+  "output": "D:\\ShodhanaUI\\ShodhanaKG\\.archify\\architecture-shodhanakg-complete-20261017-211535\\shodhanakg-complete.html",
+  "specification": {
+    "sha256": "9748e03666ed8df1add243eac4807425d4f2e76b46794f877545965664933bae",
+    "bytes": 13771
+  },
+  "artifact": {
+    "sha256": "bdf5a5e853266caad2e12d93092b936fd115e8bbf6218a3af450acad1596c6cd",
+    "bytes": 858654
+  }
+}

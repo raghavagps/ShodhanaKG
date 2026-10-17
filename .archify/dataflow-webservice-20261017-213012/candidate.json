@@ -1,0 +1,582 @@
+{
+  "schema_version": 1,
+  "diagram_type": "dataflow",
+  "meta": {
+    "title": "ShodhanaKG Web Service End-to-End Data Flow",
+    "output": ".archify/dataflow-webservice-20261017-213012/webservice-dataflow.html",
+    "quality_profile": "showcase",
+    "repository": {
+      "url": "https://github.com/shodhanakg/shodhanakg.git",
+      "revision": "638d0c555c8395f6103a7d4752c3a9f770882853",
+      "link_mode": "local-only"
+    },
+    "views": [
+      {
+        "id": "disease_stream",
+        "label": "Disease Data Flow",
+        "focus": ["disease_input", "disease_router", "disease_schema", "disease_graph", "disease_canvas"],
+        "note": "Flow of symptoms, doshas, and therapy data from input to Cytoscape rendering."
+      },
+      {
+        "id": "compound_stream",
+        "label": "Compound Data Flow",
+        "focus": ["compound_input", "compound_router", "compound_schema", "compound_graph", "compound_table"],
+        "note": "Flow of shodhana methods, media, and toxic substance data into tabular and graph views."
+      },
+      {
+        "id": "integrated_stream",
+        "label": "Cross-Domain Bridge",
+        "focus": ["integrated_input", "cors_gateway", "db_client", "bridge_graph", "integrated_canvas"],
+        "note": "Multi-seed query traversal connecting purified compounds to target diseases."
+      },
+      {
+        "id": "chatbot_stream_view",
+        "label": "Deterministic GraphRAG",
+        "focus": ["chat_input", "chat_router", "rag_orchestrator", "pubmed_evidence", "chatbot_stream"],
+        "note": "Natural language prompt resolution into verified ArcadeDB facts and SSE token streams."
+      }
+    ]
+  },
+  "stages": [
+    { "label": "Client Input" },
+    { "label": "API Ingress" },
+    { "label": "Query & Traversal" },
+    { "label": "Knowledge Graph" },
+    { "label": "Synthesis & Render" }
+  ],
+  "nodes": [
+    {
+      "id": "disease_input",
+      "type": "frontend",
+      "label": "Disease Input",
+      "sublabel": "Disease & Symptoms",
+      "stage": 0,
+      "row": 0,
+      "tag": "Seeds",
+      "sources": [
+        {
+          "path": "src/lib/api.ts",
+          "line": 29,
+          "end_line": 34,
+          "label": "searchApi call"
+        }
+      ]
+    },
+    {
+      "id": "disease_router",
+      "type": "backend",
+      "label": "Disease Route",
+      "sublabel": "graph.php?domain=disease",
+      "stage": 1,
+      "row": 0,
+      "tag": "REST",
+      "sources": [
+        {
+          "path": "api/graph.php",
+          "line": 15,
+          "end_line": 23,
+          "label": "Domain selection"
+        }
+      ]
+    },
+    {
+      "id": "disease_schema",
+      "type": "backend",
+      "label": "Disease Schema",
+      "sublabel": "7 Entity Categories",
+      "stage": 2,
+      "row": 0,
+      "tag": "Mapping",
+      "sources": [
+        {
+          "path": "api/graph_service.php",
+          "line": 10,
+          "end_line": 14,
+          "label": "Disease domain schema"
+        }
+      ]
+    },
+    {
+      "id": "disease_graph",
+      "type": "database",
+      "label": "Disease Subgraph",
+      "sublabel": "Symptoms & Therapies",
+      "stage": 3,
+      "row": 0,
+      "tag": "ArcadeDB",
+      "sources": [
+        {
+          "path": "api/graph_service.php",
+          "line": 10,
+          "end_line": 14,
+          "label": "Disease domain schema"
+        }
+      ]
+    },
+    {
+      "id": "disease_canvas",
+      "type": "frontend",
+      "label": "Disease Canvas",
+      "sublabel": "Cytoscape Graph View",
+      "stage": 4,
+      "row": 0,
+      "tag": "Client UI",
+      "sources": [
+        {
+          "path": "src/components/explorer/GraphCanvas.tsx",
+          "line": 38,
+          "end_line": 65,
+          "label": "Cytoscape canvas"
+        }
+      ]
+    },
+    {
+      "id": "integrated_input",
+      "type": "frontend",
+      "label": "Integrated Search",
+      "sublabel": "Cross-Domain Query",
+      "stage": 0,
+      "row": 1,
+      "tag": "Traversal",
+      "sources": [
+        {
+          "path": "src/lib/api.ts",
+          "line": 7,
+          "end_line": 15,
+          "label": "fetchApi client"
+        }
+      ]
+    },
+    {
+      "id": "cors_gateway",
+      "type": "security",
+      "label": "CORS Gateway",
+      "sublabel": "Origin & Security Gate",
+      "stage": 1,
+      "row": 1,
+      "tag": "Security",
+      "sources": [
+        {
+          "path": "api/cors.php",
+          "line": 5,
+          "end_line": 26,
+          "label": "api_cors_allow"
+        }
+      ]
+    },
+    {
+      "id": "db_client",
+      "type": "backend",
+      "label": "3-Tier DB Client",
+      "sublabel": "cURL / Stream / Socket",
+      "stage": 2,
+      "row": 1,
+      "tag": "Transport",
+      "sources": [
+        {
+          "path": "api/db.php",
+          "line": 6,
+          "end_line": 50,
+          "label": "arcade_command"
+        }
+      ]
+    },
+    {
+      "id": "bridge_graph",
+      "type": "database",
+      "label": "Bridge Edges",
+      "sublabel": "USED_FOR_TREATMENT",
+      "stage": 3,
+      "row": 1,
+      "tag": "Linkage",
+      "sources": [
+        {
+          "path": "api/graph.php",
+          "line": 30,
+          "end_line": 33,
+          "label": "Cross-domain bridge schema"
+        }
+      ]
+    },
+    {
+      "id": "integrated_canvas",
+      "type": "frontend",
+      "label": "Integrated View",
+      "sublabel": "Multi-Domain Canvas",
+      "stage": 4,
+      "row": 1,
+      "tag": "Client UI",
+      "sources": [
+        {
+          "path": "src/App.tsx",
+          "line": 16,
+          "end_line": 17,
+          "label": "Integrated route"
+        }
+      ]
+    },
+    {
+      "id": "compound_input",
+      "type": "frontend",
+      "label": "Compound Input",
+      "sublabel": "Minerals & Purification",
+      "stage": 0,
+      "row": 2,
+      "tag": "Seeds",
+      "sources": [
+        {
+          "path": "src/lib/api.ts",
+          "line": 29,
+          "end_line": 34,
+          "label": "searchApi call"
+        }
+      ]
+    },
+    {
+      "id": "compound_router",
+      "type": "backend",
+      "label": "Compound Route",
+      "sublabel": "graph.php?domain=compound",
+      "stage": 1,
+      "row": 2,
+      "tag": "REST",
+      "sources": [
+        {
+          "path": "api/graph.php",
+          "line": 15,
+          "end_line": 23,
+          "label": "Domain selection"
+        }
+      ]
+    },
+    {
+      "id": "compound_schema",
+      "type": "backend",
+      "label": "Compound Schema",
+      "sublabel": "10 Entity Categories",
+      "stage": 2,
+      "row": 2,
+      "tag": "Mapping",
+      "sources": [
+        {
+          "path": "api/graph_service.php",
+          "line": 10,
+          "end_line": 14,
+          "label": "Compound domain schema"
+        }
+      ]
+    },
+    {
+      "id": "compound_graph",
+      "type": "database",
+      "label": "Compound Subgraph",
+      "sublabel": "Shodhana Media & Herbs",
+      "stage": 3,
+      "row": 2,
+      "tag": "ArcadeDB",
+      "sources": [
+        {
+          "path": "api/graph_service.php",
+          "line": 10,
+          "end_line": 14,
+          "label": "Compound domain schema"
+        }
+      ]
+    },
+    {
+      "id": "compound_table",
+      "type": "frontend",
+      "label": "Compound Table",
+      "sublabel": "Tabular Purification View",
+      "stage": 4,
+      "row": 2,
+      "tag": "Client UI",
+      "sources": [
+        {
+          "path": "src/App.tsx",
+          "line": 14,
+          "end_line": 15,
+          "label": "Compound table route"
+        }
+      ]
+    },
+    {
+      "id": "chat_input",
+      "type": "frontend",
+      "label": "Chatbot Prompt",
+      "sublabel": "Question & Turn History",
+      "stage": 0,
+      "row": 3,
+      "tag": "Prompt",
+      "sources": [
+        {
+          "path": "src/components/chatbot/ChatbotWidget.tsx",
+          "line": 18,
+          "end_line": 45,
+          "label": "Chat input state"
+        }
+      ]
+    },
+    {
+      "id": "chat_router",
+      "type": "backend",
+      "label": "Chat Endpoint",
+      "sublabel": "chatbot_response.php",
+      "stage": 1,
+      "row": 3,
+      "tag": "SSE Stream",
+      "sources": [
+        {
+          "path": "api/chatbot_response.php",
+          "line": 55,
+          "end_line": 65,
+          "label": "Chatbot pipeline"
+        }
+      ]
+    },
+    {
+      "id": "rag_orchestrator",
+      "type": "backend",
+      "label": "Deterministic RAG",
+      "sublabel": "Fact Path Resolution",
+      "stage": 2,
+      "row": 3,
+      "tag": "GraphRAG",
+      "sources": [
+        {
+          "path": "api/core/ResponseGenerator.php",
+          "line": 24,
+          "end_line": 45,
+          "label": "Deterministic gates"
+        }
+      ]
+    },
+    {
+      "id": "pubmed_evidence",
+      "type": "external",
+      "label": "PubMed Citations",
+      "sublabel": "PMIDs & Classical Texts",
+      "stage": 3,
+      "row": 3,
+      "tag": "Attribution",
+      "icon": "briefcase",
+      "sources": [
+        {
+          "path": "src/lib/references.ts",
+          "line": 3,
+          "end_line": 7,
+          "label": "referenceKey definition"
+        }
+      ]
+    },
+    {
+      "id": "chatbot_stream",
+      "type": "frontend",
+      "label": "Chatbot Stream",
+      "sublabel": "Interactive Markdown View",
+      "stage": 4,
+      "row": 3,
+      "tag": "Client UI",
+      "sources": [
+        {
+          "path": "src/components/chatbot/ChatbotWidget.tsx",
+          "line": 55,
+          "end_line": 85,
+          "label": "Chat stream consumer"
+        }
+      ]
+    }
+  ],
+  "flows": [
+    {
+      "id": "flow-disease-input",
+      "from": "disease_input",
+      "to": "disease_router",
+      "label": "Disease seeds",
+      "classification": "URL params",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-disease-route",
+      "from": "disease_router",
+      "to": "disease_schema",
+      "label": "Type mapping",
+      "classification": "Schema filter",
+      "variant": "default"
+    },
+    {
+      "id": "flow-disease-schema",
+      "from": "disease_schema",
+      "to": "disease_graph",
+      "label": "ArcadeDB SQL",
+      "classification": "SQL query",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-disease-graph",
+      "from": "disease_graph",
+      "to": "disease_canvas",
+      "label": "Graph JSON",
+      "classification": "Nodes & Edges",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-int-input",
+      "from": "integrated_input",
+      "to": "cors_gateway",
+      "label": "Multi-seed query",
+      "classification": "HTTP GET",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-cors-client",
+      "from": "cors_gateway",
+      "to": "db_client",
+      "label": "Approved request",
+      "classification": "Validated origin",
+      "variant": "security"
+    },
+    {
+      "id": "flow-client-bridge",
+      "from": "db_client",
+      "to": "bridge_graph",
+      "label": "Bridge traversal",
+      "classification": "Arcade SQL",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-bridge-canvas",
+      "from": "bridge_graph",
+      "to": "integrated_canvas",
+      "label": "Integrated paths",
+      "classification": "Subgraphs",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-compound-input",
+      "from": "compound_input",
+      "to": "compound_router",
+      "label": "Compound seeds",
+      "classification": "URL params",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-compound-route",
+      "from": "compound_router",
+      "to": "compound_schema",
+      "label": "Type mapping",
+      "classification": "Schema filter",
+      "variant": "default"
+    },
+    {
+      "id": "flow-compound-schema",
+      "from": "compound_schema",
+      "to": "compound_graph",
+      "label": "ArcadeDB SQL",
+      "classification": "SQL query",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-compound-graph",
+      "from": "compound_graph",
+      "to": "compound_table",
+      "label": "Tabular records",
+      "classification": "Table DTO",
+      "variant": "default"
+    },
+    {
+      "id": "flow-chat-input",
+      "from": "chat_input",
+      "to": "chat_router",
+      "label": "POST question",
+      "classification": "JSON payload",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-chat-route",
+      "from": "chat_router",
+      "to": "rag_orchestrator",
+      "label": "Resolved entity",
+      "classification": "Entity IDs",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-rag-evidence",
+      "from": "rag_orchestrator",
+      "to": "pubmed_evidence",
+      "label": "Fact validation",
+      "classification": "PMID retrieval",
+      "variant": "security"
+    },
+    {
+      "id": "flow-evidence-stream",
+      "from": "pubmed_evidence",
+      "to": "chatbot_stream",
+      "label": "SSE token stream",
+      "classification": "EventSource",
+      "variant": "emphasis"
+    },
+    {
+      "id": "flow-compound-to-bridge",
+      "from": "compound_graph",
+      "to": "bridge_graph",
+      "label": "USED_FOR_TREATMENT",
+      "classification": "Domain linkage",
+      "variant": "emphasis",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "route": "straight"
+    },
+    {
+      "id": "flow-bridge-to-disease",
+      "from": "bridge_graph",
+      "to": "disease_graph",
+      "label": "TREATS linkage",
+      "classification": "Bridge edges",
+      "variant": "emphasis",
+      "fromSide": "top",
+      "toSide": "bottom",
+      "route": "straight"
+    },
+    {
+      "id": "flow-compound-to-lit",
+      "from": "compound_graph",
+      "to": "pubmed_evidence",
+      "label": "PMID citations",
+      "classification": "Attribution",
+      "variant": "security",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "route": "straight"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "Parallel Domain Dataflows",
+      "items": [
+        "Disease and Compound pipelines execute independently through specialized REST routes",
+        "Schema mapping translates frontend filters into canonical ArcadeDB SQL queries",
+        "Cytoscape.js force-directed canvas and paginated tables present retrieved graph subsets"
+      ]
+    },
+    {
+      "dot": "cyan",
+      "title": "Cross-Domain Traversal & Gateway",
+      "items": [
+        "api/cors.php guards all ingress traffic, enforcing ALLOWED_ORIGINS and OPTIONS handling",
+        "3-tier connection client queries ArcadeDB via REST API v1 (cURL → stream → socket)",
+        "Bridge edges (USED_FOR_TREATMENT, TREATS) connect Purified Compounds with Disease targets"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "Deterministic GraphRAG & Streaming",
+      "items": [
+        "Natural language questions resolve to specific entities and validated graph traversals",
+        "Deterministic fact construction bypasses LLM hallucination for factual precision",
+        "Answers and literature citations stream via Server-Sent Events (SSE) directly to the client"
+      ]
+    }
+  ]
+}
