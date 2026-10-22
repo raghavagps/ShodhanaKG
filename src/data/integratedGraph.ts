@@ -186,21 +186,6 @@ export const I_EDGE_COLORS: Record<IntegratedEdgeType, string> = {
   USED_IN_FORMULATION: "hsl(320, 44%, 68%)",
 };
 
-// Refinement filter groups â€” only active after a starting node is chosen.
-export const REFINEMENT_GROUPS: { key: IntegratedNodeType; label: string; accent: string }[] = [
-  { key: "Symptom", label: "Symptoms", accent: "bg-[var(--royal-gold)]" },
-  { key: "AyurvedicDiagnosis", label: "Ayurvedic Diagnosis", accent: "bg-bark" },
-  { key: "Dosha", label: "Dosha", accent: "bg-[var(--deep-walnut)]" },
-  { key: "Therapy", label: "Therapy", accent: "bg-[var(--muted-teal)]" },
-  { key: "AssessmentParameter", label: "Assessment Parameter", accent: "bg-[var(--yale-blue)]" },
-  { key: "ShodhanaMethod", label: "Shodhana Method", accent: "bg-[var(--c-terracotta)]" },
-  { key: "ToxicSubstance", label: "Toxic Substance", accent: "bg-[var(--c-toxic)]" },
-  { key: "ShodhanaType", label: "Shodhana Type", accent: "bg-[var(--c-type)]" },
-  { key: "Media", label: "Media", accent: "bg-[var(--c-media)]" },
-  { key: "ConfirmationStudy", label: "Confirmation Study", accent: "bg-[var(--c-evidence)]" },
-  { key: "Process", label: "Process", accent: "bg-[var(--c-process)]" },
-];
-
 export const ALL_INTEGRATED_NODE_TYPES: IntegratedNodeType[] = [
   "Disease", "AyurvedicDiagnosis", "Therapy", "Formulation", "Symptom",
   "AssessmentParameter", "Dosha", "Compound", "ShodhanaMethod", "ToxicSubstance",
