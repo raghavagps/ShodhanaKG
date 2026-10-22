@@ -21,7 +21,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { C_NODE_TYPE_LABEL, C_NODE_COLORS } from "@/data/compoundGraph";
+import { C_NODE_COLORS } from "@/data/compoundGraph";
 import { useSearch, useCounts } from "@/lib/api";
 
 

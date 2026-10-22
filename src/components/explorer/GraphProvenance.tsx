@@ -1,5 +1,4 @@
 import { useMemo } from "react";
-import { ProvenancePanel } from "@/components/explorer/ProvenancePanel";
 import { useProvenanceSubgraph } from "@/lib/api";
 import type { GenericNode, GenericEdge } from "@/components/explorer/GraphCanvas";
 import type { GraphNode, GraphEdge } from "@/data/diseaseGraph";

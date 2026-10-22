@@ -1,3 +1,6 @@
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 import unittest
 from run_current_benchmark import latency, namespace_findings, refusal_metrics, supplemental_summary
 

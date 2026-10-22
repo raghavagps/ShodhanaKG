@@ -2,7 +2,6 @@ import { GraphStatus } from '@/components/explorer/GraphStatus';
 import { useProgressiveGraph } from '@/hooks/useProgressiveGraph';
 import { uiLabels } from '@/data/uiLabels';
 import { useGraphEntities, useGraphFilters, useGraphVisibility } from '@/hooks/useGraphEntities';
-import { parseGraphParams } from '@/lib/api';
 import { Suspense, useEffect, useMemo, useState, KeyboardEvent, useRef, ComponentType } from "react";
 import { NavLink, useSearchParams } from "react-router-dom";
 import {
@@ -16,7 +15,6 @@ import {
   Eye,
   EyeOff,
   Table as TableIcon,
-  AlertTriangle,
   BookOpen,
   Compass,
   GitBranch,
@@ -43,7 +41,7 @@ import { ExportMenu } from "@/components/explorer/ExportMenu";
 import { useColorblind } from "@/hooks/useColorblind";
 import { exportGraphCSV, exportGraphJSON, exportGraphPNG } from "@/lib/graphExport";
 import {
-  useGraph, searchApi, type IntegratedMode,
+  searchApi, type IntegratedMode,
 } from "@/lib/api";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -91,7 +89,6 @@ const EDGE_PROP_MAP: Record<string, { label: string; key: string }[]> = {
   USED_IN_FORMULATION: [{ label: "Bridge Note", key: "bridgeNote" }],
 };
 
-const RECENT_KEY = "shodhana-integrated-recent";
 
 const DISEASE_SIDE_TYPES: IntegratedNodeType[] = [
   "Disease", "AyurvedicDiagnosis", "Symptom", "Dosha", "Therapy", "Formulation", "AssessmentParameter",
@@ -172,7 +169,6 @@ const IntegratedGraphView = () => {
 
   const [visibleTypes, setVisibleTypes] = useGraphVisibility('hideTypes', ALL_INTEGRATED_NODE_TYPES);
   const [visibleEdges, setVisibleEdges] = useGraphVisibility('hideEdges', ALL_INTEGRATED_EDGE_TYPES);
-  const [advancedOpen, setAdvancedOpen] = useState(false);
   const [highlightId, setHighlightId] = useState<string | undefined>(seedIds[0]);
   const [searchQuery, setSearchQuery] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -318,13 +314,6 @@ const IntegratedGraphView = () => {
 
   const toggleType = (t: IntegratedNodeType) => {
     setVisibleTypes((s) => {
-      const n = new Set(s);
-      if (n.has(t)) n.delete(t); else n.add(t);
-      return n;
-    });
-  };
-  const toggleEdge = (t: IntegratedEdgeType) => {
-    setVisibleEdges((s) => {
       const n = new Set(s);
       if (n.has(t)) n.delete(t); else n.add(t);
       return n;

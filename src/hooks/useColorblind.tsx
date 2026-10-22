@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState, ReactNode, useMemo } from "react";
+import { createContext, useContext } from "react";
 
 interface ColorblindContextType {
   isColorblind: boolean;

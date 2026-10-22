@@ -1,4 +1,4 @@
-import { Users, Linkedin, GraduationCap, ExternalLink } from "lucide-react";
+import { Users, Linkedin, GraduationCap } from "lucide-react";
 
 const Team = () => {
   return (
