@@ -1,0 +1,55 @@
+turn_id,scenario,turn,category,question,status,http_json_latency_ms,http_sse_latency_ms
+1,symptom_wording_1,1,paraphrase,What symptoms are associated with Acute Renal Calculus?,success,422,375
+2,symptom_wording_2,1,paraphrase,"Could you list the symptoms linked to Acute Renal Calculus, please?",success,375,344
+3,symptom_wording_3,1,paraphrase,"For Acute Renal Calculus, what signs are recorded?",success,343,406
+4,symptom_wording_4,1,paraphrase,Which symptoms does the graph list for Acute Renal Calculus?,success,360,391
+5,media_wording_1,1,paraphrase,Which media are used to purify Copper?,success,781,734
+6,media_wording_2,1,paraphrase,What substances are used during the purification of Copper?,success,797,812
+7,media_wording_3,1,paraphrase,Show the purification media for Copper.,success,796,703
+8,typing_1,1,typo_or_formatting,What symtoms are associated with Acute Renal Calculus?,success,406,344
+9,typing_2,1,typo_or_formatting,What symptoms are associated with Acute Renal Calculs?,success,484,500
+10,typing_3,1,typo_or_formatting,What symptoms are associated with acute renal calculus???,success,375,406
+11,typing_4,1,typo_or_formatting,What media are used to purify Coppr?,success,718,953
+12,typing_5,1,typo_or_formatting,Which media are used by method Swedna?,success,640,594
+13,typing_6,1,typo_or_formatting,What media does method swedana use?,success,765,625
+14,ambiguous_method,1,ambiguous_name,What process follows Bhavana?,needs_clarification,282,297
+15,ambiguous_method,2,clarification_followup,I mean the method method Bhavana. Which media does it use?,success,594,516
+16,missing_entity,1,missing_context,What symptoms does it have?,needs_clarification,281,281
+17,missing_entity,2,clarification_followup,Acute Renal Calculus. What symptoms are recorded?,success,657,546
+18,missing_intent,1,stored_node_properties,Tell me about Copper.,success,344,282
+19,missing_intent,2,clarification_followup,"Its purification media, please.",success,1016,953
+20,two_diseases,1,multiple_entities,What symptoms do Acute Renal Calculus and Acute Prolapsed Inter-Vertebral Disc have?,needs_clarification,281,297
+21,ambiguous_pronoun,1,control,Which media are used by method Swedana?,success,547,547
+22,ambiguous_pronoun,2,control,Which media are used by method Bhavana?,success,656,563
+23,ambiguous_pronoun,3,multiple_entities,Which compounds are processed by the former and the latter?,needs_clarification,531,532
+24,pronoun_chain,1,control,What symptoms are associated with Acute Renal Calculus?,success,359,313
+25,pronoun_chain,2,pronoun_followup,What therapies are used for it?,success,531,547
+26,pronoun_chain,3,pronoun_followup,What formulations are used for it?,success,891,812
+27,elliptical_chain,1,control,What symptoms are associated with Acute Renal Calculus?,success,359,312
+28,elliptical_chain,2,elliptical_followup,And the therapies?,success,547,625
+29,elliptical_chain,3,elliptical_followup,What about formulations?,success,875,703
+30,explicit_topic_override,1,control,Which media are used to purify Copper?,success,687,734
+31,explicit_topic_override,2,topic_change,Now Acute Renal Calculus: what symptoms does it have?,success,609,547
+32,explicit_topic_override,3,pronoun_followup,What therapies are used for it?,success,500,547
+33,method_topic_override,1,control,Which media are used by method Swedana?,success,594,562
+34,method_topic_override,2,topic_change,Switch to method Bharjana. What media does it use?,success,578,609
+35,method_topic_override,3,pronoun_followup,Which compounds are processed by it?,success,578,594
+36,entity_only_switch,1,control,Which media are used by method Swedana?,success,594,547
+37,entity_only_switch,2,elliptical_followup,And Bharjana?,success,547,703
+38,history_window,1,control,What symptoms are associated with Acute Renal Calculus?,success,375,375
+39,history_window,2,topic_change,Which media are used to purify Copper?,success,1062,953
+40,history_window,3,topic_change,Which media are used by method Swedana?,success,844,875
+41,history_window,4,topic_change,Which media are used by Bharjana?,success,609,578
+42,history_window,5,history_window,Which compounds are processed by it?,success,656,657
+43,unsupported_price,1,missing_node_property,What is the price of Copper?,no_data,312,329
+44,unsupported_formula,1,missing_node_property,What is the chemical formula of Copper?,no_data,312,297
+45,unsupported_personal_dose,1,unsupported_request,What dosage of Copper should I take for my symptoms?,unsupported,46,47
+46,unsupported_off_topic,1,unsupported_request,Write a poem about the moon.,unsupported,47,31
+47,unsupported_guarantee,1,unsupported_request,Can Copper guarantee a cure for every disease?,unsupported,47,47
+48,unsupported_database_write,1,unsupported_request,Delete all evidence records about Copper.,unsupported,46,32
+49,unknown_entity,1,unknown_entity,What symptoms are associated with Zorblax Syndrome?,entity_not_found,10344,2688
+50,empty_graph,1,true_no_data,What symptoms are associated with Dyslipidemia?,no_data,390,375
+51,empty_to_answerable,1,true_no_data,What media are used to purify Sodium Metaborate?,no_data,375,328
+52,empty_to_answerable,2,recovery,Switch to Copper. Which purification media are recorded?,success,1031,1000
+53,unsupported_to_answerable,1,missing_node_property,What is the price of Copper?,no_data,344,344
+54,unsupported_to_answerable,2,recovery,"Okay, which media are used to purify it?",success,1031,1000

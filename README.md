@@ -134,11 +134,13 @@ npx playwright test --grep "Route smoke"
 
 ## 📄 Documentation
 
-### Detailed Guides
+### Core Guides
 - **[Frontend Documentation](./FRONTEND_DOCUMENTATION.md)** — Complete React component tree, state management, graph visualization internals, page-by-page breakdown, styling system, testing, and build configuration.
-- **[Backend Documentation](./BACKEND_DOCUMENTATION.md)** — PHP API architecture, ArcadeDB schema (17 vertex types, 22 edge types), 3-tier connection fallback, all 11 API endpoints, deployment, and testing.
-- **[API Implementation Plan](./DETAILED_IMPLEMENTATION_PLAN.md)** — Backend architecture decisions, ArcadeDB SQL patterns, and environment constraints.
-- **[Deployment Guide](./DEPLOYMENT.md)** — Production deployment steps for frontend, backend, and database.
+- **[Backend Documentation](./BACKEND_DOCUMENTATION.md)** — PHP API architecture, ArcadeDB schema, 3-tier connection fallback, deployment, and testing.
+- **[API Endpoints Reference Specification](./api_endpoints_table.md)** — Verified technical specification of all 70 API endpoints (17 core web services + 53 graph traversal endpoints).
+- **[Chatbot Documentation](./docs/chatbot/README.md)** — Deterministic graph-grounded retrieval architecture, evidence correlation, orchestration, and validation.
+- **[Deployment Guide](./DEPLOYMENT.md)** — Production deployment steps for frontend, backend, Apache configuration, and database.
+- **[Quick Start Guide](./QUICK_START.md)** — Developer onboarding, local environment setup, and service verification.
 
 ---
 
