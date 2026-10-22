@@ -44,3 +44,8 @@ GEMINI.md
 CLAUDE.md
 .cursorrules
 .cursor/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class

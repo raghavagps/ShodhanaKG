@@ -1,5 +1,0 @@
-Measurement,n,Median (ms),p95 (ms),Mean (ms),Maximum (ms)
-direct_endpoint_not_http,168,8,98,24.96,564
-results_first_http_json,24,438,672,478.0,734
-conversation_http_json,54,531,860,519.19,2109
-conversation_http_sse,54,531,859,517.26,1937
