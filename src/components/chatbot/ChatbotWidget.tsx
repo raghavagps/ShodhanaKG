@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { MessageCircle, X, Leaf, RefreshCw, Maximize2, Minimize2 } from "lucide-react";
-import { useLocation } from "react-router-dom";
+import { MessageCircle, X, RefreshCw, Maximize2, Minimize2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { ChatMessage as ChatMessageType, ChatHistoryTurn } from "@/lib/types";
 import { fetchChatStream, checkChatHealth } from "@/lib/chatApi";
@@ -75,7 +74,6 @@ export const ChatbotWidget = () => {
   const activeRequest = useRef<AbortController | null>(null);
   useEffect(() => () => activeRequest.current?.abort(), []);
   const scrollRef = useRef<HTMLDivElement>(null);
-  const location = useLocation();
 
   // Recover after a transient outage without requiring a page reload.
   useEffect(() => {

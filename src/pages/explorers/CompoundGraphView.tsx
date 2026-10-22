@@ -15,7 +15,6 @@ import {
   Search,
   Maximize2,
   Minimize2,
-  AlertTriangle,
   Table as TableIcon,
   BookOpen,
 } from "lucide-react";
@@ -36,9 +35,8 @@ import { DetailsPanel } from "@/components/explorer/DetailsPanel";
 import { ExportMenu } from "@/components/explorer/ExportMenu";
 import { useColorblind } from "@/hooks/useColorblind";
 import { CompoundProvenancePanel } from "@/components/explorer/CompoundProvenancePanel";
-import { useCompoundProvenanceHighlighting } from "@/components/explorer/GraphProvenance";
 import { exportGraphCSV, exportGraphJSON, exportGraphPNG } from "@/lib/graphExport";
-import { useGraph, searchApi, parseGraphParams } from "@/lib/api";
+import { searchApi, parseGraphParams } from "@/lib/api";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -115,7 +113,7 @@ const initEmpty = (): Record<CompoundNodeType, string[]> =>
 
 const CompoundGraphView = () => {
   
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const { getPalette } = useColorblind();
   const reactiveNodeColors = useMemo(() => getPalette(C_NODE_COLORS), [getPalette]);
   const parsed = parseGraphParams(searchParams);

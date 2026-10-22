@@ -15,7 +15,6 @@ export const AppLayout = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const explorerLabel = labelFor(location.pathname);
-  const isGraph = location.pathname.includes("/graph");
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {

@@ -1,5 +1,5 @@
 import { NavLink, Link } from "react-router-dom";
-import { Leaf, ChevronDown, Home, Activity, FlaskConical, Network, Share2, HelpCircle, MessageCircle, Eye, Info, BookOpen, Terminal, Menu, Search } from "lucide-react";
+import { Leaf, ChevronDown, Home, Activity, FlaskConical, Network, Share2, HelpCircle, MessageCircle, Eye, Info, BookOpen, Menu, Search } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useColorblind } from "@/hooks/useColorblind";
 

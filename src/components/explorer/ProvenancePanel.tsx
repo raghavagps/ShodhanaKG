@@ -2,7 +2,7 @@ import { EdgeProperties } from "./EdgeProperties";
 import { referenceKey } from "@/lib/references";
 import { ReferenceLinks } from "./ReferenceLinks";
 import { useState, useMemo } from "react";
-import { CheckCircle2, ExternalLink, Filter, BookOpen, ArrowRight, GitBranch, Loader2 } from "lucide-react";
+import { CheckCircle2, Filter, BookOpen, ArrowRight, GitBranch, Loader2 } from "lucide-react";
 import { useProvenanceSubgraph } from "@/lib/api";
 import type { ProvenancePath } from "@/lib/types";
 import { Button } from "@/components/ui/button";

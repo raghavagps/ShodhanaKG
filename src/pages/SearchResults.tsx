@@ -82,7 +82,7 @@ const SearchResults = () => {
       if (allResults.length === 0) {
         toast.info("No results found");
       }
-    } catch (error) {
+    } catch {
       toast.error("Search failed. Please try again.");
     } finally {
       setLoading(false);

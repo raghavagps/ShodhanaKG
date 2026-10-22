@@ -1,6 +1,6 @@
 import { NODE_STYLES, nodeStyle } from '@/lib/nodeStyles';
 import { entityType } from '@/lib/entityNavigation';
-import React, { useState, useEffect, useMemo, ReactNode } from "react";
+import React, { useState, useEffect, ReactNode } from "react";
 import { ColorblindContext } from "../hooks/useColorblind";
 
 export const ColorblindProvider = ({ children }: { children: ReactNode }) => {

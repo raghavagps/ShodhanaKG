@@ -14,7 +14,6 @@ import {
   Maximize2,
   Minimize2,
   Search,
-  AlertTriangle,
   BookOpen,
   Table as TableIcon,
 } from "lucide-react";
@@ -28,7 +27,7 @@ import { useProvenanceHighlighting } from "@/components/explorer/GraphProvenance
 import { ExportMenu } from "@/components/explorer/ExportMenu";
 import { useColorblind } from "@/hooks/useColorblind";
 import { exportGraphCSV, exportGraphJSON, exportGraphPNG } from "@/lib/graphExport";
-import { useGraph, searchApi, parseGraphParams } from "@/lib/api";
+import { searchApi, parseGraphParams } from "@/lib/api";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 
@@ -80,7 +79,7 @@ const GraphLoadingState = ({ message }: { message?: string }) => {
 
 const DiseaseGraphView = () => {
   
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const { getPalette } = useColorblind();
   const reactiveNodeColors = useMemo(() => getPalette(NODE_COLORS), [getPalette]);
   const parsed = parseGraphParams(searchParams);
@@ -93,7 +92,6 @@ const DiseaseGraphView = () => {
 
   const [selectedNode, setSelectedNode] = useState<GraphNode | undefined>();
   const [selectedEdge, setSelectedEdge] = useState<{ edge: GraphEdge; source: GraphNode; target: GraphNode } | undefined>();
-  const [expandedNodeId, setExpandedNodeId] = useState<string | undefined>();
 
   // Provenance highlighting - fetch provenance data when a Disease node is selected
   const selectedDiseaseId = selectedNode?.type === "Disease" ? selectedNode.id : null;
@@ -168,7 +166,6 @@ const DiseaseGraphView = () => {
     setVisibleEdges(new Set(ALL_EDGE_TYPES));
     setSelectedNode(undefined);
     setSelectedEdge(undefined);
-    setExpandedNodeId(undefined);
     setHighlightId(undefined);
     toast.success("Filters reset");
   };
@@ -422,8 +419,7 @@ const DiseaseGraphView = () => {
                     onBackgroundClick={() => {
                       setSelectedNode(undefined);
                       setSelectedEdge(undefined);
-                      setExpandedNodeId(undefined);
-                    }}
+                                      }}
                     highlightedNodeId={highlightId}
                     provenancePaths={provenanceEdgeIds}
                   />

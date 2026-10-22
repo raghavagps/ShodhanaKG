@@ -2,7 +2,7 @@ import { EdgeProperties } from "./EdgeProperties";
 import { referenceKey } from "@/lib/references";
 import { ReferenceLinks } from "./ReferenceLinks";
 import { useState, useMemo } from "react";
-import { Loader2, ArrowRight, BookOpen, GitBranch, ExternalLink, CheckCircle2, Filter } from "lucide-react";
+import { Loader2, ArrowRight, BookOpen, GitBranch, CheckCircle2, Filter } from "lucide-react";
 import { useCompoundProvenance } from "@/lib/api";
 import type { CompoundProvenancePath } from "@/lib/types";
 import { Separator } from "@/components/ui/separator";
