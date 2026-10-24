@@ -194,7 +194,7 @@ def evaluate(case, response, oracle):
 
 
 def load_references(fixture=None):
-    snapshot_bytes = (ROOT / 'factual_graph_snapshot.json').read_bytes()
+    snapshot_bytes = (ROOT / 'factual_graph_snapshot.json').read_bytes().replace(b'\r\n', b'\n')
     digest = hashlib.sha256(snapshot_bytes).hexdigest()
     tables = json.loads(snapshot_bytes)['tables']
     cases = []
