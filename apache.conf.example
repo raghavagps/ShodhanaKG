@@ -1,17 +1,17 @@
 <VirtualHost *:80>
     ServerName yourdomain.com
-    DocumentRoot /path/to/ShodhanaKG/webservice/frontend/dist
+    DocumentRoot ./
 
     # Backend API Alias (if needed, otherwise accessed via /api subdirectory)
-    # Alias /APP_BASE_PATH/api /path/to/ShodhanaKG/webservice/api
+    # Alias /APP_BASE_PATH/api ./api
 
-    <Directory /path/to/ShodhanaKG/webservice/frontend/dist>
+    <Directory .>
         Options -Indexes +FollowSymLinks
         AllowOverride All
         Require all granted
     </Directory>
 
-    <Directory /path/to/ShodhanaKG/webservice/api>
+    <Directory ./api>
         Options -Indexes +FollowSymLinks
         AllowOverride All
         Require all granted
@@ -38,6 +38,6 @@
 
     # SSL (Managed by Certbot)
     # SSLEngine on
-    # SSLCertificateFile /etc/letsencrypt/live/yourdomain.com/fullchain.pem
-    # SSLCertificateKeyFile /etc/letsencrypt/live/yourdomain.com/privkey.pem
+    # SSLCertificateFile ./ssl/fullchain.pem
+    # SSLCertificateKeyFile ./ssl/privkey.pem
 </VirtualHost>

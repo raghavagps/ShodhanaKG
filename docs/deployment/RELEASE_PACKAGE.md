@@ -3,7 +3,7 @@
 Build and verify locally. Do not deploy a default root-based `dist/` to the institutional subdirectory.
 
 ```powershell
-D:\miniconda3\python.exe -B scripts/package_release.py --base /APP_BASE_PATH/ --output .audit-temp/new-release/package
+python -B scripts/package_release.py --base /APP_BASE_PATH/ --output .audit-temp/new-release/package
 ```
 
 Use a new output directory each time. The script runs the unchanged lint, production build/typecheck, and frontend unit commands, sets the matching Vite/API bases, creates Apache subdirectory/access-control files, and verifies every archived file against `manifest.json`. Temporary files and caches stay under the D:-located output directory.

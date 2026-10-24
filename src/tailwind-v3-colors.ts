@@ -1,6 +1,3 @@
-// Original Tailwind CSS 3.4.19 palette, retained for visual compatibility.
-// MIT License, Copyright (c) Tailwind Labs, Inc.
-// Full upstream license: LICENSE-tailwind.txt
 export default {
   "inherit": "inherit",
   "current": "currentColor",

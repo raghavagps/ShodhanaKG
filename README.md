@@ -89,8 +89,8 @@ ollama pull llama3.2
 Ensure ArcadeDB is running. The default local configuration points to the `IntegratedKG` database.
 Default credentials (change in `api/config.php` or via environment variables):
 - **Database**: `IntegratedKG`
-- **User**: `readonly`
-- **Password**: `readonly`
+- **User**: `username`
+- **Password**: `password`
 
 ### 2. Backend Setup
 The backend is a lightweight PHP webservice. Run the built-in PHP server from the **project root directory** (so `/api/` paths resolve correctly):
@@ -135,12 +135,12 @@ npx playwright test --grep "Route smoke"
 ## 📄 Documentation
 
 ### Core Guides
-- **[Frontend Documentation](./FRONTEND_DOCUMENTATION.md)** — Complete React component tree, state management, graph visualization internals, page-by-page breakdown, styling system, testing, and build configuration.
-- **[Backend Documentation](./BACKEND_DOCUMENTATION.md)** — PHP API architecture, ArcadeDB schema, 3-tier connection fallback, deployment, and testing.
-- **[API Endpoints Reference Specification](./api_endpoints_table.md)** — Verified technical specification of all 70 API endpoints (17 core web services + 53 graph traversal endpoints).
+- **[Frontend Documentation](./docs/FRONTEND_DOCUMENTATION.md)** — Complete React component tree, state management, graph visualization internals, page-by-page breakdown, styling system, testing, and build configuration.
+- **[Backend Documentation](./docs/BACKEND_DOCUMENTATION.md)** — PHP API architecture, ArcadeDB schema, 3-tier connection fallback, deployment, and testing.
+- **[API Endpoints Reference Specification](./docs/api_endpoints_table.md)** — Verified technical specification of all 70 API endpoints (17 core web services + 53 graph traversal endpoints).
 - **[Chatbot Documentation](./docs/chatbot/README.md)** — Deterministic graph-grounded retrieval architecture, evidence correlation, orchestration, and validation.
-- **[Deployment Guide](./DEPLOYMENT.md)** — Production deployment steps for frontend, backend, Apache configuration, and database.
-- **[Quick Start Guide](./QUICK_START.md)** — Developer onboarding, local environment setup, and service verification.
+- **[Deployment Guide](./docs/DEPLOYMENT.md)** — Production deployment steps for frontend, backend, Apache configuration, and database.
+- **[Quick Start Guide](./docs/QUICK_START.md)** — Developer onboarding, local environment setup, and service verification.
 
 ---
 
