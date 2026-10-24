@@ -26,7 +26,7 @@
     SetEnv ARCADE_URL http://localhost:2480
     SetEnv ARCADE_DB shodhana
     SetEnv ARCADE_USER "username"
-    SetEnv ARCADE_PASS "password"
+    SetEnv ARCADE_PASS "playwithdata"
     SetEnv ALLOWED_ORIGINS "*"
 
     # LLM Settings for Chatbot (Optional)
