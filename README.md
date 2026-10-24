@@ -1,214 +1,226 @@
-# ShodhanaKG Explorer Suite
-
-![Integrated Graph View](./public/images/help/07-integrated-graph.png)
+# ShodhanaKG: An Ayurvedic Knowledge Graph for Disease and Compound Shodhana
 
 ## Overview
-The **ShodhanaKG Explorer Suite** is an advanced Knowledge Graph platform dedicated to the visualization and analysis of Ayurvedic medical knowledge. It specifically focuses on the relationship between **Ayurvedic Diseases** and the **Shodhana (Purification)** of medicinal compounds.
 
-The project bridges the gap between traditional clinical diagnostics and pharmacological processing protocols, providing researchers with a high-performance, interactive exploration tool.
+ShodhanaKG stores the curated knowledge in an ArcadeDB graph and exposes it through a web portal and a graph-grounded chatbot. The graph has 2,534 nodes and 10,123 relationships, extracted from 410 articles from PubMed and the AYUSH Research Portal, with 17 vertex types and 22 edge types. Browse it at [https://webs.iiitd.edu.in/raghava/shodhanakg/](https://webs.iiitd.edu.in/raghava/shodhanakg/).
 
----
+## Features
 
-## 🚀 Key Features
+- Three exploration modes: Disease Explorer (clinical diagnostics, symptoms, therapies), Compound Explorer (compounds, Shodhana methods, media, processes), and Integrated Explorer (linking purified compounds to treated diseases).
+- Interactive graph visualization using Cytoscape.js with multiple layout options (concentric, breadthfirst, cose, circle, grid) and progressive node/edge batching.
+- Provenance and literature evidence tracing linking graph paths to PubMed, DOI, and AYUSH Research Portal publications.
+- High-performance data tables with connection counts and direct graph view navigation.
+- Global statistics dashboard displaying node, edge, and reference counts.
+- Search and multi-hop query interfaces across vertices, properties, and constraints.
+- Graph-grounded chatbot assistant for natural-language questions with deterministic factual retrieval.
+- Interface language toggle between English and Hindi.
+- Colorblind accessibility palette mode.
 
-- **Triple Explorer Modes**:
-  - **Disease Explorer**: Navigate the clinical landscape of Ayurvedic diagnostics, symptoms, and therapies.
-  - **Compound Explorer**: Explore the chemical and biological transformation of medicinal substances through Shodhana protocols.
-  - **Integrated Explorer**: The "Bridge" view connecting purified compounds directly to the diseases they treat.
-- **Interactive Graph Visualization**: Powered by **Cytoscape.js**, offering force-directed, hierarchical, and concentric layouts.
-- **Evidence-Based Provenance**: Track every relationship back to its scientific source via PubMed ID integration.
-- **Real-time Analytics**: Global dashboard showing node counts, unique relationship types, and deduplicated research study metrics.
-- **Language Toggle (English/Hindi)**: Seamlessly switch the interface language between English and Hindi using the built-in toggle in the top navigation.
-- **Responsive Table Views**: High-performance data tables with connection counts and deep-linking to graph views.
-
----
-
-## 🛠 Technology Stack
+## Technology
 
 ### Frontend
-- **Framework**: React 18 + Vite 5
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS 3 + shadcn/ui (Radix primitives)
-- **Visualization**: Cytoscape.js (5 layouts: force-directed, hierarchical, circular, concentric, grid)
-- **Data Fetching**: @tanstack/react-query v5
-- **Routing**: react-router-dom v6 (nested routes, lazy-loaded graph views)
-- **Icons**: lucide-react
-- **Charts**: recharts
-- **Forms**: react-hook-form + zod
+- Framework: React 18 (`react` ^18.3.1, `react-dom` ^18.3.1) with Vite 7 (`vite` ^7.3.7)
+- Language: TypeScript (`typescript` ^5.8.3)
+- Styling: Tailwind CSS 4 (`tailwindcss` ^4.3.3) and Radix UI primitives (`@radix-ui/*`)
+- Graph Visualization: Cytoscape.js (`cytoscape` ^3.33.2)
+- State and Data Fetching: TanStack React Query (`@tanstack/react-query` ^5.83.0)
+- Routing: React Router (`react-router-dom` ^7.18.4)
+- Charts: Recharts (`recharts` ^2.15.4)
+- Icons: Lucide React (`lucide-react` ^0.462.0)
+- Forms and Validation: React Hook Form (`react-hook-form` ^7.61.1) and Zod (`zod` ^3.25.76)
+- Unit Testing: Vitest (`vitest` ^5.0.3)
+- Browser Testing: Playwright (`@playwright/test` ^1.60.0)
+- Node.js Engine Requirement: ^22.12.0 || ^24.0.0 || >=26.0.0
 
 ### Backend
-- **Language**: PHP 5.6.40+ (Legacy-compatible)
-- **Database**: ArcadeDB (Multi-model Graph Database)
-- **API Protocol**: ArcadeDB REST v1 via cURL → `file_get_contents` → `fsockopen` (3-tier fallback)
+- Language: PHP (production compatibility target PHP 5.6.40+; testing and evaluation runtime PHP 8.1+ / PHP 8.2+)
+- Database: ArcadeDB (multi-model graph database)
+- Optional LLM: Ollama (default model `llama3.2`)
+- Testing and Evaluation: Python 3.8+ (standard library with optional `pandas>=2.0.0`)
 
----
+## Chatbot
 
-## 🤖 AI Chatbot Assistant
+The chatbot uses a deterministic graph-retrieval pipeline across 53 allowlisted ArcadeDB traversal endpoints to retrieve factual subgraphs and correlate citations (PubMed ID, DOI, AYUSH ID) across edges without cross-join hallucinations. Answers are constructed deterministically directly from retrieved graph facts. An optional local Ollama instance running `llama3.2` can be enabled for conversational phrasing and language assistance without generating ungrounded facts.
 
-The ShodhanaKG Explorer includes a **graph-grounded AI chatbot** that answers 
-questions about Ayurvedic compounds, diseases, therapies, and Shodhana processes 
-using a deterministic retrieve-then-generate architecture.
-
-### Architecture
-- **Deterministic retrieval** via 53 allowlisted schema-aware ArcadeDB traversal endpoints (covering compound processing, toxicity, indications, disease diagnostics, therapies, formulations, integrated bridges, and multi-hop co-citation provenance)
-- **Evidence correlation** prevents cross-join hallucinations by strictly binding references (PubMed ID, DOI, Ayush ID) across path edges
-- **In-process static caching** in `api/core/GraphRead.php` and `api/core/SemanticQuery.php` accelerates recurring schema queries and entity lookups
-- **Deterministic answer construction** renders answers directly from retrieved graph facts without requiring an LLM
-- **Optional LLM assistance** via Ollama (llama3.2) can optionally narrate introductions or provide language assistance without generating ungrounded facts
-- **Response validation** detects hallucinated identifiers, quantities, and entities
-
-### Enable the Chatbot
-Deterministic graph question answering operates directly against ArcadeDB. To enable optional natural language assistance via Ollama, set `VITE_CHAT_ENABLED=true` in `.env` and configure Ollama:
-```bash
-# Install and start Ollama locally
-ollama serve
-ollama pull llama3.2
-```
-*Note: The PHP backend (`api/core/LLMClient.php`) is configured with a 120-second timeout to allow sufficient generation time on local CPU setups without timing out.*
-
-
-### Example Questions
-- "What media is used for purifying Copper?"
-- "What are the symptoms of Alopecia?"
-- "What shodhana methods does Mercury undergo?"
-- "What diseases can purified Croton tiglium treat?"
-- "Compare the purification of Copper and Zinc"
-
-📖 **[Full Chatbot Documentation →](docs/webservice/CHATBOT.md)**
-
----
-
-## 📦 Installation & Setup
+## Setup
 
 ### Prerequisites
-- **Node.js** (v18+)
-- **PHP** (v5.6.40+)
-- **ArcadeDB** (Running locally or accessible via network)
+
+- Node.js (version 22+ recommended; package.json requires ^22.12.0 || ^24.0.0 || >=26.0.0)
+- PHP (PHP 5.6.40+ or PHP 8.x)
+- ArcadeDB server running locally or accessible via network
+- Optional: Ollama (for conversational chatbot assistance)
 
 ### 1. Database Setup
-Ensure ArcadeDB is running. The default local configuration points to the `IntegratedKG` database.
-Default credentials (change in `webservice/api/config.php` or via environment variables):
-- **Database**: `IntegratedKG`
-- **User**: `username`
-- **Password**: `password`
+
+Start the ArcadeDB server. Default connection settings can be configured in webservice/api/config.php or via environment variables:
+
+- ARCADE_URL: http://localhost:2480
+- ARCADE_DB: IntegratedKG
+- ARCADE_USER: username
+- ARCADE_PASS: password
+
+Verify database connectivity:
+
+```bash
+php webservice/api/test_db.php
+```
 
 ### 2. Backend Setup
-The backend is a lightweight PHP webservice. Run the built-in PHP server pointing to the `webservice` directory (so `/api/` paths resolve correctly):
+
+Start the built-in PHP server pointing to the webservice directory so /api/ endpoints resolve:
+
 ```bash
 php -S 127.0.0.1:8081 -t webservice
 ```
 
 ### 3. Frontend Setup
+
 Install dependencies and start the Vite development server:
+
 ```bash
 cd webservice/frontend
 npm install
 npm run dev
 ```
-The application will be available at `http://localhost:8080`.
 
-### 4. Testing
-Run unit and integration tests using Vitest:
+The application will be available at http://localhost:8080.
+
+### 4. Optional Chatbot Setup
+
+If using conversational narrative mode via Ollama:
+
 ```bash
-npm test             # Run once
-npm run test:watch   # Watch mode
-```
-Run end-to-end tests using Playwright (requires dev server running):
-```bash
-npx playwright test
-npx playwright test --grep "Route smoke"
+ollama serve
+ollama pull llama3.2
 ```
 
----
+Verify chatbot health:
 
-## 📸 Screenshots
+```bash
+curl http://localhost:8081/api/chatbot_health.php
+```
 
-| Homepage | Search Results |
-| :---: | :---: |
-| ![Homepage](./webservice/frontend/public/images/help/01-homepage.png) | ![Search](./webservice/frontend/public/images/help/02-search-results.png) |
+## Testing
 
-| Disease Graph | Compound Graph |
-| :---: | :---: |
-| ![Disease Graph](./webservice/frontend/public/images/help/08-disease-graph.png) | ![Compound Graph](./webservice/frontend/public/images/help/06-compound-graph.png) |
+Run frontend unit and component tests (Vitest):
 
----
+```bash
+npm --prefix webservice/frontend test
+```
 
-## 📄 Documentation
+Run frontend typecheck:
 
-### Core Guides
-- **[Frontend Documentation](./docs/webservice/FRONTEND_DOCUMENTATION.md)** — Complete React component tree, state management, graph visualization internals, page-by-page breakdown, styling system, testing, and build configuration.
-- **[Backend Documentation](./docs/webservice/BACKEND_DOCUMENTATION.md)** — PHP API architecture, ArcadeDB schema, 3-tier connection fallback, deployment, and testing.
-- **[API Endpoints Reference Specification](./docs/webservice/api_endpoints_table.md)** — Verified technical specification of all 70 API endpoints (17 core web services + 53 graph traversal endpoints).
-- **[Chatbot Documentation](./docs/webservice/CHATBOT.md)** — Deterministic graph-grounded retrieval architecture, evidence correlation, orchestration, and validation.
-- **[Deployment Guide](./docs/webservice/DEPLOYMENT.md)** — Production deployment steps for frontend, backend, Apache configuration, and database.
-- **[Quick Start Guide](./docs/webservice/QUICK_START.md)** — Developer onboarding, local environment setup, and service verification.
+```bash
+npm --prefix webservice/frontend run typecheck
+```
 
----
+Run frontend linter:
 
-## 📁 Project Structure
+```bash
+npm --prefix webservice/frontend run lint
+```
+
+Run end-to-end browser tests (Playwright; requires running dev server):
+
+```bash
+npx --prefix webservice/frontend playwright test
+```
+
+Run route smoke tests:
+
+```bash
+npx --prefix webservice/frontend playwright test --grep "Route smoke"
+```
+
+Run backend Python unit tests:
+
+```bash
+python -m unittest discover -s webservice/api/tests -p "test_*.py"
+```
+
+Run backend evaluation cases:
+
+```bash
+php webservice/api/tests/run_evaluation_cases.php
+```
+
+Run complete release verification suite:
+
+```bash
+python -B webservice/api/tests/run_release_checks.py
+```
+
+## Reproducibility
+
+The following facts are confirmed in repository code, tests, and frozen fixtures:
+
+- The graph database contains 2,534 nodes across 17 vertex types and 10,123 relationships across 22 edge types, verified in webservice/api/tests/fixtures/system_consistency_baseline_v1/snapshot.json.
+- The reference catalog (webservice/api/core/reference_catalog_v1.json) indexes 410 distinct curated literature publications across PubMed, DOI, and AYUSH Research Portal identifiers.
+- Benchmark ground truth fixtures (factual_evaluation_cases_v2.json, legacy_factual_evaluation_cases_v2.json, expanded_factual_cases_v4.json) record exact SHA-256 hashes of database snapshots (factual_graph_snapshot.json).
+- Traversal query coverage asserts 53 allowlisted ArcadeDB traversal endpoints (52 evaluated in chatbot_evaluation_cases.json).
+- The frontend test suite contains 35 test files and 119 unit and component tests passing under Vitest.
+- The backend test suite contains 84 unit tests passing under Python unittest.
+- Production API code maintains backwards runtime compatibility with PHP 5.6.40+ syntax via webservice/api/core/PhpCompatibility.php and a bundled mbstring polyfill.
+
+## Project Structure
 
 ```text
-webservice/api/         # PHP Backend (endpoints + core services + tests)
-  config.php            #   Env var defaults (ARCADE_URL, DB, user, pass)
-  db.php                #   ArcadeDB 3-tier connection (cURL → fopen → fsockopen)
-  cors.php              #   CORS header management
-  response.php          #   JSON response helpers (api_ok, api_fail)
-  graph_service.php     #   Shared schema mapping, traversal, normalization
-  search.php            #   Full-text search across vertex types
-  graph.php             #   Subgraph traversal (disease/compound/integrated)
-  node.php              #   Single node + neighbors + evidence
-  category-stats.php    #   Per-category stats with edge config
-  kg-stats.php          #   Global KG node/relation/study counts
-  counts.php            #   Per-category entity counts
-  bridge-stats.php      #   Integrated bridge table data
-  provenance-subgraph.php  # Disease→Therapy→Formulation provenance
-  compound-provenance.php  # Compound→ShodhanaMethod→Media provenance
-  health.php            #   ArcadeDB connectivity health check
-  chatbot_response.php  #   Deterministic graph-grounded question answering
-  chatbot_health.php    #   Chatbot health and readiness endpoint
-  core/                 #   Chatbot orchestration, entity resolution, and response validation
-  tests/                #   PHP unit tests
-
-webservice/frontend/src/
-  main.tsx              # Entrypoint → <App />
-  App.tsx               # Providers + routing (16 routes, lazy-loaded)
-  index.css             # HSL design tokens, colorblind mode, utilities
-  lib/
-    api.ts              # HTTP client + 7 React Query hooks
-    types.ts            # ApiNode, ApiEdge, Domain, ProvenancePath, etc.
-    utils.ts            # cn() helper
-    graphExport.ts      # CSV/JSON/PNG export
-  hooks/
-    useColorblind.tsx   # Colorblind mode context (localStorage-persisted)
-    use-toast.ts        # shadcn toast state
-    use-mobile.tsx      # Responsive detection
-  data/
-    entityTypes.ts      # Shared entity definitions, colors, domain mappings, labels
-    diseaseGraph.ts     # Disease graph schema, node/edge types, cytoscape styles
-    compoundGraph.ts    # Compound graph schema, node/edge types, cytoscape styles
-    integratedGraph.ts  # Integrated graph schema, types, and colors
-  components/
-    ui/                 # 49 shadcn/ui boilerplate components
-    layout/             # AppLayout, TopNav
-    explorer/           # GraphCanvas, DetailsPanel, MultiAutocomplete,
-                        # Legend, ExportMenu, ProvenancePanel,
-                        # CompoundProvenancePanel, GraphProvenance
-    chatbot/            # ChatbotWidget
-  pages/
-    Index.tsx           # Re-exports ModeSelection
-    ModeSelection.tsx   # Landing: hero, search, KG stats, 3 mode cards
-    SearchResults.tsx   # Cross-domain search with tabs + pagination
-    AdvancedSearch.tsx  # Advanced property and multi-hop search
-    NotFound.tsx        # 404
-    FAQ.tsx, HowToUse.tsx, Contact.tsx, Team.tsx
-    explorers/
-      DiseaseExplorer.tsx / DiseaseGraphView.tsx / DiseaseTableView.tsx
-      CompoundExplorer.tsx / CompoundGraphView.tsx / CompoundTableView.tsx
-      IntegratedExplorer.tsx / IntegratedGraphView.tsx / IntegratedTableView.tsx
-  test/                 # Vitest setup + tests
+ShodhanaKG/
+├── docs/                 Documentation and technical reports
+│   ├── webservice/       Frontend, backend API, chatbot, and deployment guides
+│   ├── arcadedb/         ArcadeDB schema, query, and data documentation
+│   ├── evaluation/       Benchmark and test evaluation reports
+│   └── general/          Project structure specification and changelog
+├── webservice/           Application source code
+│   ├── frontend/         React single-page application (Vite, TypeScript, Tailwind)
+│   │   ├── src/          Application UI components, pages, hooks, and lib
+│   │   ├── public/       Static web assets and fonts
+│   │   └── tests/        Playwright end-to-end browser tests
+│   └── api/              PHP backend web services
+│       ├── core/         Modular query execution, router, and LLM transport
+│       ├── tests/        PHP and Python unit and evaluation tests
+│       │   ├── contracts/ JSON schema contracts
+│       │   └── fixtures/  Frozen ground truth datasets and snapshots
+│       └── storage/      Runtime cache and logs
+├── results/              Benchmark latency raw data
+├── scripts/              Packaging and release utilities
+├── LICENSE               MIT License
+└── README.md             Project overview and setup guide
 ```
 
----
+## Documentation
 
-## ⚖️ License
+### Web Service Guides
+- [Frontend Documentation](docs/webservice/FRONTEND_DOCUMENTATION.md)
+- [Backend Documentation](docs/webservice/BACKEND_DOCUMENTATION.md)
+- [API Endpoints Reference Specification](docs/webservice/api_endpoints_table.md)
+- [Chatbot Documentation](docs/webservice/CHATBOT.md)
+- [Deployment Guide](docs/webservice/DEPLOYMENT.md)
+- [Quick Start Guide](docs/webservice/QUICK_START.md)
+- [PHP 5.6 Compatibility](docs/webservice/PHP56_COMPATIBILITY.md)
+- [Release Package](docs/webservice/RELEASE_PACKAGE.md)
+
+### Evaluation & Audit Reports
+- [Evaluation Guide](docs/evaluation/EVALUATION_GUIDE.md)
+- [Chatbot Query Coverage Report](docs/evaluation/CHATBOT_QUERY_COVERAGE_REPORT.md)
+- [Chatbot Validation Report](docs/evaluation/CHATBOT_VALIDATION_REPORT.md)
+
+### General Documentation
+- [Project Structure](docs/general/PROJECT_STRUCTURE.md)
+- [Changelog](docs/general/CHANGELOG.md)
+
+### Database Documentation
+- [ArcadeDB Documentation Directory](docs/arcadedb/)
+
+## Citation
+
+Citation details will be added with the forthcoming manuscript.
+
+## Team
+
+[Raghava Lab](http://webs.iiitd.edu.in/raghava/), Department of Computational Biology, Indraprastha Institute of Information Technology (IIIT-Delhi), New Delhi, India.
+
+## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
