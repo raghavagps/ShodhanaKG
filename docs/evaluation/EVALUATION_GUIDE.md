@@ -118,7 +118,7 @@ Use `--input=PATH --output=PATH` to score a different export without overwriting
 - The existing RAGAS script is optional legacy tooling; its dependencies are not installed by requirements-ragas.txt. It is not an acceptance gate for this expansion.
 - Dataset labels and evidence snapshots must be versioned with the database. Historical reports and hard-coded entity counts may differ from the current graph.
 - `test_disease_formulation.php` independently joins raw graph edges for two diseases and compares complete relationship/evidence tuples. Counts depend on the current database; it does not assume a historical no-data result.
-- Current graph answers are constructed and checked before streaming begins; see [Answer construction](./ANSWER_CONSTRUCTION.md). Enriched legacy responses now retain per-edge paths; previously cached flat responses still have record-only attribution.
+- Current graph answers are constructed and checked before streaming begins; see [Answer construction](../webservice/ANSWER_CONSTRUCTION.md). Enriched legacy responses now retain per-edge paths; previously cached flat responses still have record-only attribution.
 - The response validator remains heuristic. Neither identifier checks, schema validation, nor an LLM judge proves zero hallucinations.
 - The mobile overflow checks currently fail on the existing navigation/tagline layout and existing controls. This is separate from traversal correctness.
 
