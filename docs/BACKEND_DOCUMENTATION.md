@@ -1117,8 +1117,8 @@ See `apache.conf.example`:
 
 ```bash
 # Start PHP built-in server
-cd api
-php -S localhost:8081 -t .
+# From project root:
+php -S localhost:8081 -t webservice
 ```
 
 ### 8.5 Security Notes
@@ -1147,13 +1147,13 @@ Tests core logic functions used by the provenance endpoints:
 
 **Running tests:**
 ```bash
-php api/tests/provenance-subgraph.test.php
+php webservice/api/tests/provenance-subgraph.test.php
 ```
 
 ### Manual DB Test
 
 ```bash
-php api/test_db.php
+php webservice/api/test_db.php
 ```
 
 ---

@@ -14,7 +14,7 @@ def request(question,stream=False,**fields):
 
 rows=[]
 def check(name,condition):rows.append(dict(name=name,passed=bool(condition)))
-catalog=json.loads((ROOT/'api/core/faq_catalog.json').read_text())
+catalog=json.loads((ROOT/'webservice/api/core/faq_catalog.json').read_text())
 for faq in catalog['entries']:
     a=request(faq['question'],faq_id=faq['id'])
     b=request(faq['question'],True,faq_id=faq['id'])

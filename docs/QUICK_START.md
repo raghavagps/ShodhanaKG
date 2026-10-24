@@ -10,10 +10,10 @@ The provenance feature is now **fully integrated** into the Disease Explorer.
 ```bash
 # Terminal 1
 # Requires PHP 5.6.40+
-php -S localhost:8081 -t .
+php -S localhost:8081 -t webservice
 
 # Terminal 2
-npm run dev
+cd webservice/frontend && npm run dev
 ```
 
 ### 2. Open Browser

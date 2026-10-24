@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[3]
 def norm(s):return ' '.join(re.findall(r'[^\W_]+',s.lower()))
 def main():
  folder=ROOT/'webservice/api/tests/fixtures/terminology_expansion_2026_09_25_v1'
- cat=json.loads((ROOT/'api/core/terminology_catalog_v2.json').read_text(encoding='utf-8'))
+ cat=json.loads((ROOT/'webservice/api/core/terminology_catalog_v2.json').read_text(encoding='utf-8'))
  archive=folder/'Thesaurus_26.08e.FLAT.zip'
  assert hashlib.sha256(archive.read_bytes()).hexdigest()==cat['source_archive_sha256']
  with zipfile.ZipFile(archive) as z:

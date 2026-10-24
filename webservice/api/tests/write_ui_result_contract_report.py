@@ -17,7 +17,7 @@ with zipfile.ZipFile(AUDIT/'source_before.zip') as z:
         p=ROOT/name
         if p.exists() and z.read(name).decode('utf-8').replace('\r\n','\n')!=p.read_text(encoding='utf-8'):
             changed.append(name)
-extra=['src/components/explorer/PropertyList.tsx','src/components/explorer/PropertyList.test.tsx','src/lib/referenceUrl.ts','src/lib/referenceUrl.test.ts','webservice/api/tests/test_schema_reference.py','webservice/api/tests/generate_schema_reference.py','webservice/api/tests/test_method_result_contract.php','webservice/api/tests/test_reference_record_urls.php','webservice/api/tests/evaluate_method_results.py','webservice/api/tests/run_ui_result_contract_checks.py','webservice/api/tests/write_ui_result_contract_report.py','tests/ui-result-contract.spec.ts','tests/explorer-context-v2.spec.ts']
+extra=['webservice/frontend/src/components/explorer/PropertyList.tsx','webservice/frontend/src/components/explorer/PropertyList.test.tsx','webservice/frontend/src/lib/referenceUrl.ts','webservice/frontend/src/lib/referenceUrl.test.ts','webservice/api/tests/test_schema_reference.py','webservice/api/tests/generate_schema_reference.py','webservice/api/tests/test_method_result_contract.php','webservice/api/tests/test_reference_record_urls.php','webservice/api/tests/evaluate_method_results.py','webservice/api/tests/run_ui_result_contract_checks.py','webservice/api/tests/write_ui_result_contract_report.py','webservice/frontend/tests/ui-result-contract.spec.ts','webservice/frontend/tests/explorer-context-v2.spec.ts']
 files=sorted(set(changed+extra))
 manifest={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in files}
 (OUT/'files.json').write_text(json.dumps(manifest,indent=2)+'\n',encoding='utf-8')

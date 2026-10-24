@@ -25,7 +25,7 @@ The suite consists of three main components:
 ---
 
 ## 2. Backend Deployment (PHP)
-The backend is located in the `api/` directory (17 PHP files).
+The backend is located in the `webservice/api/` directory (17 PHP files).
 
 1.  **Server Requirements**:
     *   PHP 5.6.40 or higher.
@@ -39,7 +39,7 @@ The backend is located in the `api/` directory (17 PHP files).
     *   `ARCADE_PASS`: `password`
     *   `ALLOWED_ORIGINS`: `https://your-frontend-domain.com` (for CORS security)
 3.  **Upload Checklist**:
-    Upload the contents of the `api/` directory to your web server. Ensure the following critical files are updated:
+    Upload the contents of the `webservice/api/` directory to your web server. Ensure the following critical files are updated:
     *   `db.php`: 3-tier connectivity handler (cURL → `file_get_contents` → `fsockopen` with manual chunked decoding).
     *   `graph_service.php`: Shared schema mapping (17 vertex types, 22 edge types), type normalization, field resolution.
     *   `config.php`: ArcadeDB connection details and allowed origins.
@@ -105,4 +105,4 @@ The frontend must be built before deployment to generate optimized static files.
 ## 📋 Maintenance
 *   **Logs**: Monitor PHP error logs and ArcadeDB logs for connectivity issues.
 *   **Backups**: Regularly backup your ArcadeDB data using the ArcadeDB backup utility.
-*   **Updates**: After backend changes, run `php api/tests/provenance-subgraph.test.php` to verify core logic.
+*   **Updates**: After backend changes, run `php webservice/api/tests/provenance-subgraph.test.php` to verify core logic.

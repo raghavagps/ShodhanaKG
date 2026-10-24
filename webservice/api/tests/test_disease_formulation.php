@@ -16,7 +16,7 @@ function referenceFields(array $edge): array {
     static $bindings = null;
     if ($bindings === null) {
         $bindings = [];
-        $audit = json_decode(file_get_contents(dirname(__DIR__,2).'/docs/chatbot/audits/identifier_rules_2026_09_24_v1/audit.json'), true);
+        $audit = json_decode(file_get_contents(dirname(__DIR__,3).'/docs/chatbot/audits/identifier_rules_2026_09_24_v1/audit.json'), true);
         foreach ($audit['rows'] as $row) foreach ($row['edge_ids'] as $id) $bindings[$id] = $row;
     }
     if (!empty($edge['ref'])) {

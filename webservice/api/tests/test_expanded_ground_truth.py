@@ -91,7 +91,7 @@ class ExpandedReferenceTests(unittest.TestCase):
         for case in cases:
             seed=next(n for n in oracle.nodes.values() if n['@type']==case['expected_entity_type'] and n['name']==case['expected_entity'])
             ref=oracle.reference(case['expected_endpoint'],seed)
-            self.assertEqual(case['ground_truth_source']['sha256'],hashlib.sha256(raw).hexdigest())
+            self.assertEqual(case['ground_truth_source']['sha256'],hashlib.sha256(raw.replace(b'\r\n', b'\n')).hexdigest())
             self.assertEqual(ref['rows'],case['expected_results'],case['id'])
             self.assertEqual(ref['audit'],case['expected_result_source_paths'],case['id'])
             self.assertEqual(ref['forbidden'],case['forbidden_results'],case['id'])

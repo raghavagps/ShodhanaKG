@@ -946,8 +946,8 @@ The API base defaults to `import.meta.env.BASE_URL` if `VITE_API_BASE` is not se
 ### PHP Backend
 
 ```bash
-cd api
-php -S localhost:8081 -t .
+# From project root:
+php -S localhost:8081 -t webservice
 ```
 
 ---

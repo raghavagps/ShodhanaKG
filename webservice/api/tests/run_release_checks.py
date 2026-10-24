@@ -32,11 +32,11 @@ def main():
         with urllib.request.urlopen(url,timeout=10) as response:
             if response.status != 200: raise RuntimeError('Required service unavailable: '+url)
     before=sources();npm=shutil.which('npm.cmd' if os.name=='nt' else 'npm');npx=shutil.which('npx.cmd' if os.name=='nt' else 'npx')
-    jobs=[('lint',[npm,'run','lint']),('build',[npm,'run','build']),('frontend_unit',[npm,'test']),
-          ('evaluation_unit',[sys.executable,'-B','-m','unittest','discover','-s','api/tests','-p','test*.py'])]
+    jobs=[('lint',[npm,'--prefix','webservice/frontend','run','lint']),('build',[npm,'--prefix','webservice/frontend','run','build']),('frontend_unit',[npm,'--prefix','webservice/frontend','test']),
+          ('evaluation_unit',[sys.executable,'-B','-m','unittest','discover','-s','webservice/api/tests','-p','test*.py'])]
     jobs += [('php_'+name,[a.php,str(TESTS/name)]) for name in PHP_TESTS]
     jobs += [('benchmark',[sys.executable,'-B',str(TESTS/'run_current_benchmark.py'),'--php',a.php,'--contract-version','8','--output-dir',str(out/'benchmark')])]
-    browser=[npx,'playwright','test','--config','playwright.external.config.ts','--workers='+str(a.browser_workers),'--reporter=line','--output',str(out/'browser-artifacts')]
+    browser=[npx,'playwright','test','--config','webservice/frontend/playwright.external.config.ts','--workers='+str(a.browser_workers),'--reporter=line','--output',str(out/'browser-artifacts')]
     if a.browser!='all':browser += ['--project='+a.browser]
     jobs += [('browser',browser)]
     rows=[]
@@ -46,7 +46,7 @@ def main():
         env['SHODHANA_TEST_PYTHON'] = sys.executable
         env['PYTHONDONTWRITEBYTECODE'] = '1'
         if name == 'browser' and os.name == 'nt':
-            preload = REPO / 'tests/support/webkit-pipe-cleanup.cjs'
+            preload = REPO / 'webservice/frontend/tests/support/webkit-pipe-cleanup.cjs'
             env['NODE_OPTIONS'] = (env.get('NODE_OPTIONS', '') + ' --require ' + json.dumps(preload.as_posix())).strip()
             env['SHODHANA_WEBKIT_PIPE_CLEANUP'] = '1'
         with (out/(name+'.log')).open('w',encoding='utf-8') as log:
