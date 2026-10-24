@@ -14,4 +14,4 @@ for kind,rows in tables.items():
     domains={'Disease' if a in disease and b in disease else 'Compound' if a not in disease and b not in disease else 'Integrated' for a,b in pairs}
     properties=sorted({k for r in rows for k,v in r.items() if not k.startswith('@') and k not in ('out','in') and v is not None and v!='' and v!=[] and v!={}})
     edges.append({'type':kind,'domain':' / '.join(sorted(domains)),'pairs':[{'source':a,'target':b} for a,b in pairs],'properties':properties})
-(root/'src/data/schemaReference.json').write_text(json.dumps({'vertices':vertices,'edges':edges},indent=2)+'\n',encoding='utf-8')
+(root/'webservice/frontend/src/data/schemaReference.json').write_text(json.dumps({'vertices':vertices,'edges':edges},indent=2)+'\n',encoding='utf-8')

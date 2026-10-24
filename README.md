@@ -87,20 +87,21 @@ ollama pull llama3.2
 
 ### 1. Database Setup
 Ensure ArcadeDB is running. The default local configuration points to the `IntegratedKG` database.
-Default credentials (change in `api/config.php` or via environment variables):
+Default credentials (change in `webservice/api/config.php` or via environment variables):
 - **Database**: `IntegratedKG`
 - **User**: `username`
 - **Password**: `password`
 
 ### 2. Backend Setup
-The backend is a lightweight PHP webservice. Run the built-in PHP server from the **project root directory** (so `/api/` paths resolve correctly):
+The backend is a lightweight PHP webservice. Run the built-in PHP server pointing to the `webservice` directory (so `/api/` paths resolve correctly):
 ```bash
-php -S 127.0.0.1:8081 -t .
+php -S 127.0.0.1:8081 -t webservice
 ```
 
 ### 3. Frontend Setup
 Install dependencies and start the Vite development server:
 ```bash
+cd webservice/frontend
 npm install
 npm run dev
 ```
@@ -124,11 +125,11 @@ npx playwright test --grep "Route smoke"
 
 | Homepage | Search Results |
 | :---: | :---: |
-| ![Homepage](./public/images/help/01-homepage.png) | ![Search](./public/images/help/02-search-results.png) |
+| ![Homepage](./webservice/frontend/public/images/help/01-homepage.png) | ![Search](./webservice/frontend/public/images/help/02-search-results.png) |
 
 | Disease Graph | Compound Graph |
 | :---: | :---: |
-| ![Disease Graph](./public/images/help/08-disease-graph.png) | ![Compound Graph](./public/images/help/06-compound-graph.png) |
+| ![Disease Graph](./webservice/frontend/public/images/help/08-disease-graph.png) | ![Compound Graph](./webservice/frontend/public/images/help/06-compound-graph.png) |
 
 ---
 
@@ -147,7 +148,7 @@ npx playwright test --grep "Route smoke"
 ## 📁 Project Structure
 
 ```text
-api/                    # PHP Backend (endpoints + core services + tests)
+webservice/api/         # PHP Backend (endpoints + core services + tests)
   config.php            #   Env var defaults (ARCADE_URL, DB, user, pass)
   db.php                #   ArcadeDB 3-tier connection (cURL → fopen → fsockopen)
   cors.php              #   CORS header management
@@ -168,7 +169,7 @@ api/                    # PHP Backend (endpoints + core services + tests)
   core/                 #   Chatbot orchestration, entity resolution, and response validation
   tests/                #   PHP unit tests
 
-src/
+webservice/frontend/src/
   main.tsx              # Entrypoint → <App />
   App.tsx               # Providers + routing (16 routes, lazy-loaded)
   index.css             # HSL design tokens, colorblind mode, utilities
@@ -210,4 +211,4 @@ src/
 ---
 
 ## ⚖️ License
-This project is private and intended for academic research purposes.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

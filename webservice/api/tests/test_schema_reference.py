@@ -23,7 +23,7 @@ class SchemaReferenceTest(unittest.TestCase):
         with zipfile.ZipFile(AUDIT/'source_before.zip') as archive:
             entry=next(n for n in archive.namelist() if n.replace('\\','/').endswith('src/pages/HowToUse.tsx'))
             before=archive.read(entry).decode('utf-8').replace('\r\n','\n')
-        after=(ROOT/'src/pages/HowToUse.tsx').read_text(encoding='utf-8')
+        after=(ROOT/'webservice/frontend/src/pages/HowToUse.tsx').read_text(encoding='utf-8')
         def outside_schema(text):
             # Approved October additions: one Advanced Search tab and its hotspot
             # definition. Continue guarding every other guide against drift.

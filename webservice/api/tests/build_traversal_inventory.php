@@ -21,17 +21,17 @@ foreach ($registry as $endpoint => $function) {
     if (!$paths[1]) preg_match_all('/formatCanonical\(\s*\$entity\s*,\s*(\[[^\]]+\])/', $source, $paths);
     $coverage = array_values(array_map(static function ($c) { return $c['id']; }, array_filter($cases, static function ($c) use ($endpoint) { return preg_replace('/\.php$/', '', $c['expected_endpoint'] ?? '') === $endpoint; })));
     require_once __DIR__ . '/../' . $endpoint . '.php';
-    $entry = ['endpoint' => $endpoint, 'function' => $function, 'callable' => is_callable($function), 'implementation' => 'api/' . $endpoint . '.php', 'alias_of' => null, 'routing_cases' => $coverage];
+    $entry = ['endpoint' => $endpoint, 'function' => $function, 'callable' => is_callable($function), 'implementation' => 'webservice/api/' . $endpoint . '.php', 'alias_of' => null, 'routing_cases' => $coverage];
     $definitionName = isset($definitions[$endpoint]) ? $endpoint : ($legacyDefinitions[$endpoint] ?? null);
     if ($definitionName !== null) {
         $entry['definition'] = $definitions[$definitionName];
         $entry['evidence_correlation'] = count($definitions[$definitionName]['steps']) > 1;
-        $entry['retrieval_tests'] = ['api/tests/test_traversal_expansion.php'];
+        $entry['retrieval_tests'] = ['webservice/api/tests/test_traversal_expansion.php'];
     } else {
         $entry['contract'] = $legacyContracts[$endpoint] ?? null;
         $entry['input_types_from_source'] = array_values(array_unique($types[1]));
         $entry['declared_paths_from_source'] = $paths[1];
-        $entry['retrieval_tests'] = array_values(array_map(static function ($path) { return 'api/tests/' . basename($path); }, glob(__DIR__ . '/test_' . $endpoint . '.php')));
+        $entry['retrieval_tests'] = array_values(array_map(static function ($path) { return 'webservice/api/tests/' . basename($path); }, glob(__DIR__ . '/test_' . $endpoint . '.php')));
         $entry['schema_verification'] = 'Existing contract; source extraction is not independent schema verification';
     }
     if (isset($shared[$endpoint])) $entry['shares_traversal_with'] = $shared[$endpoint];

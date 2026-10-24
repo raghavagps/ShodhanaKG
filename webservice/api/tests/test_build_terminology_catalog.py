@@ -1,5 +1,6 @@
-import tempfile, unittest, zipfile
+import sys, tempfile, unittest, zipfile
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from build_terminology_catalog import compile_catalog
 
 class TerminologyPolicyTests(unittest.TestCase):

@@ -20,7 +20,7 @@ def latency(rows):
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     old = read(BEFORE / 'all_source_hashes.json')
-    candidates = list((ROOT / 'api').glob('*.php')) + list((ROOT / 'api/core').glob('*')) + list((ROOT / 'webservice/api/tests').glob('*.php')) + list((ROOT / 'webservice/api/tests').glob('*.py')) + list((ROOT / 'src').rglob('*')) + list((ROOT / 'tests').glob('*'))
+    candidates = list((ROOT / 'webservice/api').glob('*.php')) + list((ROOT / 'webservice/api/core').glob('*')) + list((ROOT / 'webservice/api/tests').glob('*.php')) + list((ROOT / 'webservice/api/tests').glob('*.py')) + list((ROOT / 'webservice/frontend/src').rglob('*')) + list((ROOT / 'webservice/frontend/tests').glob('*'))
     changes = []
     for path in candidates:
         if not path.is_file() or path.suffix not in ('.php', '.py', '.ts', '.tsx', '.json', '.css'): continue
