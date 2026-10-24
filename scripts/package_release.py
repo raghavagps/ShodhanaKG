@@ -10,7 +10,7 @@ import subprocess
 import tarfile
 
 ROOT = Path(__file__).resolve().parents[1]
-PRESERVE = {'api/config.php', 'api/core/reference_catalog_v1.json'}
+PRESERVE = {'webservice/api/config.php', 'webservice/api/core/reference_catalog_v1.json'}
 
 def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -38,17 +38,17 @@ def main() -> None:
     npm = 'npm.cmd' if os.name == 'nt' else 'npm'
     for name, command in [('lint', [npm, 'run', 'lint']), ('build', [npm, 'run', 'build', '--', '--base='+args.base, '--outDir='+str(stage)]), ('unit', [npm, 'test'])]:
         with (out/(name+'.log')).open('w', encoding='utf8') as log:
-            result = subprocess.run(command, cwd=ROOT, env=env, stdout=log, stderr=subprocess.STDOUT)
+            result = subprocess.run(command, cwd=ROOT/'webservice/frontend', env=env, stdout=log, stderr=subprocess.STDOUT)
         (out/(name+'-exit.json')).write_text(json.dumps({'command': command, 'exit_code': result.returncode}), encoding='utf8')
         print(name, result.returncode, flush=True)
         if result.returncode:
             raise SystemExit(result.returncode)
     (stage/'api').mkdir()
-    for path in (ROOT/'api').glob('*.php'):
+    for path in (ROOT/'webservice/api').glob('*.php'):
         if path.name != 'test_db.php':
             shutil.copy2(path, stage/'api'/path.name)
     for folder in ('core', 'vendor'):
-        shutil.copytree(ROOT/'api'/folder, stage/'api'/folder)
+        shutil.copytree(ROOT/'webservice/api'/folder, stage/'api'/folder)
     # Staging uses local config/catalog for local verification only. Neither is shipped.
     (stage/'.htaccess').write_text('Options -Indexes\nDirectoryIndex index.html\n<FilesMatch "^(\\.|.*\\.(?:bak|zip|gz|env))">\n Require all denied\n</FilesMatch>\nRewriteEngine On\nRewriteBase '+args.base+'\nRewriteRule ^(?:\\.deployment-backups|neo4j-export\\.json)(?:/|$) - [F,L]\nRewriteRule ^api(?:/|$) - [L]\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteCond %{REQUEST_FILENAME} !-d\nRewriteRule . '+args.base+'index.html [L]\n', encoding='utf8')
     (stage/'api/.htaccess').write_text('Options -Indexes\nRewriteEngine On\nRewriteRule ^(?:core|vendor|tests|storage)(?:/|$) - [F,L]\n<FilesMatch "^(?:config|deployment_environment|db|graph_service)\\.php$">\n Require all denied\n</FilesMatch>\n', encoding='utf8')
