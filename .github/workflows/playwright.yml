@@ -8,12 +8,16 @@ on:
 jobs:
   frontend:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: webservice/frontend
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
+          cache-dependency-path: webservice/frontend/package-lock.json
       - run: npm ci
       - run: npm run lint
       - run: npm run build
@@ -27,7 +31,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: npm ci
-      - run: python -B api/tests/run_release_checks.py --output-dir release-artifacts
+        working-directory: webservice/frontend
+      - run: python -B webservice/api/tests/run_release_checks.py --output-dir release-artifacts
       - uses: actions/upload-artifact@v4
         if: always()
         with:
