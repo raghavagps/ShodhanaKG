@@ -1,4 +1,4 @@
-> Architecture reference with historical sections. For current statistics, namespace handling, chatbot behavior and release verification, use [Current system status](docs/chatbot/CURRENT_SYSTEM_STATUS.md). Superseded fallback/count/PMID-normalization examples below must not be used as implementation guidance.
+> Architecture reference with historical sections. For current statistics, namespace handling, chatbot behavior and release verification, use [Current system status](./CURRENT_SYSTEM_STATUS.md). Superseded fallback/count/PMID-normalization examples below must not be used as implementation guidance.
 
 # ShodhanaKG Explorer Suite — Backend Documentation
 
@@ -35,7 +35,7 @@ Production API files target **PHP 5.6.40** as a legacy compatibility runtime and
 
 `api/core/PhpCompatibility.php` preserves scalar/nullable argument and return validation, JSON failures, sorting, and suffix matching without PHP 7/8-only syntax or functions. Exception handlers catch `Exception` on PHP 5.6 and retain `Throwable` handling on modern PHP. Fatal engine errors on PHP 5.6 cannot be recovered as modern `Error` objects.
 
-JSON is required. Native mbstring is preferred, with a bundled Unicode polyfill for legacy hosts using iconv. cURL is recommended; socket fallbacks support database and Ollama requests when URL reads are disabled. Runtime compatibility alone does not verify the production server's configuration, credentials, HTTPS trust store, or database contents. See `docs/deployment/PHP56_COMPATIBILITY.md` for verification commands and limits.
+JSON is required. Native mbstring is preferred, with a bundled Unicode polyfill for legacy hosts using iconv. cURL is recommended; socket fallbacks support database and Ollama requests when URL reads are disabled. Runtime compatibility alone does not verify the production server's configuration, credentials, HTTPS trust store, or database contents. See `./PHP56_COMPATIBILITY.md` for verification commands and limits.
 
 Language features avoided:
 - No typed properties (`int $x`)

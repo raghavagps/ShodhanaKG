@@ -1,6 +1,6 @@
 # 🚀 Deployment Guide - ShodhanaKG
 
-> For the current institutional subdirectory release, use [the verified package procedure](docs/deployment/RELEASE_PACKAGE.md). The historical instructions below contain older file/schema counts and do not replace the explicit subdirectory build or preservation of production configuration and RID-bound references.
+> For the current institutional subdirectory release, use [the verified package procedure](./RELEASE_PACKAGE.md). The historical instructions below contain older file/schema counts and do not replace the explicit subdirectory build or preservation of production configuration and RID-bound references.
 
 This guide provides step-by-step instructions for deploying the **ShodhanaKG Explorer Suite** to a production environment.
 

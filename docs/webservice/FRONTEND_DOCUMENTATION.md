@@ -1,4 +1,4 @@
-> Architecture reference with historical sections. For current statistics, namespace handling, chatbot behavior and release verification, use [Current system status](docs/chatbot/CURRENT_SYSTEM_STATUS.md). Superseded fallback/count/PMID-normalization examples below must not be used as implementation guidance.
+> Architecture reference with historical sections. For current statistics, namespace handling, chatbot behavior and release verification, use [Current system status](./CURRENT_SYSTEM_STATUS.md). Superseded fallback/count/PMID-normalization examples below must not be used as implementation guidance.
 
 # ShodhanaKG Explorer Suite — Frontend Documentation
 

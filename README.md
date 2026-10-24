@@ -74,7 +74,7 @@ ollama pull llama3.2
 - "What diseases can purified Croton tiglium treat?"
 - "Compare the purification of Copper and Zinc"
 
-📖 **[Full Chatbot Documentation →](docs/chatbot/README.md)**
+📖 **[Full Chatbot Documentation →](docs/webservice/CHATBOT.md)**
 
 ---
 
@@ -136,12 +136,12 @@ npx playwright test --grep "Route smoke"
 ## 📄 Documentation
 
 ### Core Guides
-- **[Frontend Documentation](./docs/FRONTEND_DOCUMENTATION.md)** — Complete React component tree, state management, graph visualization internals, page-by-page breakdown, styling system, testing, and build configuration.
-- **[Backend Documentation](./docs/BACKEND_DOCUMENTATION.md)** — PHP API architecture, ArcadeDB schema, 3-tier connection fallback, deployment, and testing.
-- **[API Endpoints Reference Specification](./docs/api_endpoints_table.md)** — Verified technical specification of all 70 API endpoints (17 core web services + 53 graph traversal endpoints).
-- **[Chatbot Documentation](./docs/chatbot/README.md)** — Deterministic graph-grounded retrieval architecture, evidence correlation, orchestration, and validation.
-- **[Deployment Guide](./docs/DEPLOYMENT.md)** — Production deployment steps for frontend, backend, Apache configuration, and database.
-- **[Quick Start Guide](./docs/QUICK_START.md)** — Developer onboarding, local environment setup, and service verification.
+- **[Frontend Documentation](./docs/webservice/FRONTEND_DOCUMENTATION.md)** — Complete React component tree, state management, graph visualization internals, page-by-page breakdown, styling system, testing, and build configuration.
+- **[Backend Documentation](./docs/webservice/BACKEND_DOCUMENTATION.md)** — PHP API architecture, ArcadeDB schema, 3-tier connection fallback, deployment, and testing.
+- **[API Endpoints Reference Specification](./docs/webservice/api_endpoints_table.md)** — Verified technical specification of all 70 API endpoints (17 core web services + 53 graph traversal endpoints).
+- **[Chatbot Documentation](./docs/webservice/CHATBOT.md)** — Deterministic graph-grounded retrieval architecture, evidence correlation, orchestration, and validation.
+- **[Deployment Guide](./docs/webservice/DEPLOYMENT.md)** — Production deployment steps for frontend, backend, Apache configuration, and database.
+- **[Quick Start Guide](./docs/webservice/QUICK_START.md)** — Developer onboarding, local environment setup, and service verification.
 
 ---
 
