@@ -4,6 +4,12 @@
 
 ShodhanaKG stores the curated knowledge in an ArcadeDB graph and exposes it through a web portal and a graph-grounded chatbot. The graph has 2,534 nodes and 10,123 relationships, extracted from 410 articles from PubMed and the AYUSH Research Portal, with 17 vertex types and 22 edge types. Browse it at [https://webs.iiitd.edu.in/raghava/shodhanakg/](https://webs.iiitd.edu.in/raghava/shodhanakg/).
 
+## Pipeline
+
+The end-to-end data processing and application pipeline consists of the following stages:
+
+CSVs (2 node files, 17 relation files) -> Neo4j (Cypher schema and load) -> JSON export -> ArcadeDB (create database, import JSON, sanity check, config) -> PHP API -> React frontend.
+
 ## Features
 
 - Three exploration modes: Disease Explorer (clinical diagnostics, symptoms, therapies), Compound Explorer (compounds, Shodhana methods, media, processes), and Integrated Explorer (linking purified compounds to treated diseases).
@@ -153,6 +159,18 @@ python -B webservice/api/tests/run_release_checks.py
 
 ## Reproducibility
 
+### Reproduction Steps
+
+1. Load CSVs in `data/csv/` (`data/csv/nodes/` and `data/csv/relations/`) into Neo4j using the loading scripts in `neo4j/`.
+2. Export JSON from Neo4j to `data/graph_export/`.
+3. Create the ArcadeDB database and import the JSON from `data/graph_export/`.
+4. Run sanity checks to verify graph schema, vertex counts, and edge integrity in ArcadeDB.
+5. Set database and server configuration in `webservice/api/config.php` or environment variables (`ARCADE_URL`, `ARCADE_DB`, `ARCADE_USER`, `ARCADE_PASS`).
+6. Start the backend PHP API (`php -S 127.0.0.1:8081 -t webservice`).
+7. Start the frontend application (`cd webservice/frontend && npm install && npm run dev`).
+
+### Facts Confirmed in Code
+
 The following facts are confirmed in repository code, tests, and frozen fixtures:
 
 - The graph database contains 2,534 nodes across 17 vertex types and 10,123 relationships across 22 edge types, verified in webservice/api/tests/fixtures/system_consistency_baseline_v1/snapshot.json.
@@ -167,11 +185,13 @@ The following facts are confirmed in repository code, tests, and frozen fixtures
 
 ```text
 ShodhanaKG/
-├── docs/                 Documentation and technical reports
-│   ├── webservice/       Frontend, backend API, chatbot, and deployment guides
-│   ├── arcadedb/         ArcadeDB schema, query, and data documentation
-│   ├── evaluation/       Benchmark and test evaluation reports
-│   └── general/          Project structure specification and changelog
+├── data/                 Raw datasets and graph exports
+│   ├── csv/              Curated CSV tables
+│   │   ├── nodes/        Node CSV files (2 node files)
+│   │   └── relations/    Relationship CSV files (17 relation files)
+│   └── graph_export/     JSON graph exports for database import
+├── neo4j/                Neo4j Cypher schema definitions and load scripts
+├── arcadedb/             ArcadeDB schema, database creation, and import scripts
 ├── webservice/           Application source code
 │   ├── frontend/         React single-page application (Vite, TypeScript, Tailwind)
 │   │   ├── src/          Application UI components, pages, hooks, and lib
@@ -183,6 +203,11 @@ ShodhanaKG/
 │       │   ├── contracts/ JSON schema contracts
 │       │   └── fixtures/  Frozen ground truth datasets and snapshots
 │       └── storage/      Runtime cache and logs
+├── docs/                 Documentation and technical reports
+│   ├── webservice/       Frontend, backend API, chatbot, and deployment guides
+│   ├── arcadedb/         ArcadeDB schema, query, and data documentation
+│   ├── evaluation/       Benchmark and test evaluation reports
+│   └── general/          Project structure specification and changelog
 ├── results/              Benchmark latency raw data
 ├── scripts/              Packaging and release utilities
 ├── LICENSE               MIT License
