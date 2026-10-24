@@ -7,8 +7,8 @@ ini_set('display_errors', '0');
 
 $ARCADE_URL = getenv('ARCADE_URL') ?: 'http://localhost:2480';
 $ARCADE_DB = getenv('ARCADE_DB') ?: 'IntegratedKG';
-$ARCADE_USER = getenv('ARCADE_USER') ?: 'readonly';
-$ARCADE_PASS = getenv('ARCADE_PASS') ?: 'readonly';
+$ARCADE_USER = getenv('ARCADE_USER') ?: 'username';
+$ARCADE_PASS = getenv('ARCADE_PASS') ?: 'password';
 
 $OLLAMA_URL = ModelConfig::baseUrl();
 $OLLAMA_MODEL = getenv('OLLAMA_MODEL') ?: 'llama3.2';

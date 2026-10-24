@@ -115,8 +115,8 @@ Configured in `api/config.php`:
 ```php
 $ARCADE_URL  = getenv('ARCADE_URL') ?: 'http://localhost:2480';
 $ARCADE_DB   = getenv('ARCADE_DB') ?: 'Database_name';
-$ARCADE_USER = getenv('ARCADE_USER') ?: 'Username';
-$ARCADE_PASS = getenv('ARCADE_PASS') ?: 'Password';
+$ARCADE_USER = getenv('ARCADE_USER') ?: 'username';
+$ARCADE_PASS = getenv('ARCADE_PASS') ?: 'password';
 ```
 
 The API connects to ArcadeDB's **REST API v1** at:
@@ -1017,8 +1017,8 @@ Environment variable resolution with local defaults:
 |---|---|---|
 | `ARCADE_URL` | `http://localhost:2480` | ArcadeDB server URL |
 | `ARCADE_DB` | `shodhana` | Database name |
-| `ARCADE_USER` | `ayurveda` | DB user |
-| `ARCADE_PASS` | `Gpsr2026$` | DB password |
+| `ARCADE_USER` | `username` | DB user |
+| `ARCADE_PASS` | `password` | DB password |
 | `ALLOWED_ORIGINS` | `*` | CORS allowed origins |
 | `API_STORAGE_DIR` | `api/storage/` | Storage directory (caching) |
 | `API_CACHE_DIR` | `api/storage/cache/` | Cache directory |
@@ -1087,8 +1087,8 @@ Set via web server (`SetEnv` for Apache, `env` for Nginx):
 ```apache
 SetEnv ARCADE_URL http://localhost:2480
 SetEnv ARCADE_DB shodhana
-SetEnv ARCADE_USER prod_user
-SetEnv ARCADE_PASS secure_password
+SetEnv ARCADE_USER username
+SetEnv ARCADE_PASS password
 SetEnv ALLOWED_ORIGINS https://your-frontend.com
 ```
 
@@ -1101,8 +1101,8 @@ See `apache.conf.example`:
     DocumentRoot /path/to/dist
     SetEnv ARCADE_URL http://localhost:2480
     SetEnv ARCADE_DB shodhana
-    SetEnv ARCADE_USER prod_user
-    SetEnv ARCADE_PASS secure_password
+    SetEnv ARCADE_USER username
+    SetEnv ARCADE_PASS password
     SetEnv ALLOWED_ORIGINS https://your-frontend.com
 
     <Directory /path/to/api>

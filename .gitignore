@@ -41,6 +41,8 @@ scratch/
 # AI agent instructions and rules
 AGENTS.md
 GEMINI.md
+docs/AGENTS.md
+docs/GEMINI.md
 CLAUDE.md
 .cursorrules
 .cursor/

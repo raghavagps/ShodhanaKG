@@ -8,9 +8,9 @@
     {
       "suite": "snapshot",
       "command": [
-        "C:\\xampp\\php\\php.exe",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\capture_expanded_snapshot.php",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\snapshot.json"
+        "php",
+        "api\\tests\\capture_expanded_snapshot.php",
+        "api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\snapshot.json"
       ],
       "exit_code": 0,
       "elapsed_seconds": 0.25
@@ -18,10 +18,10 @@
     {
       "suite": "factual",
       "command": [
-        "C:\\xampp\\php\\php.exe",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_expanded_factual.php",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\expanded_factual_cases_v4.json",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\factual.json"
+        "php",
+        "api\\tests\\run_expanded_factual.php",
+        "api\\tests\\fixtures\\expanded_factual_cases_v4.json",
+        "api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\factual.json"
       ],
       "exit_code": 0,
       "elapsed_seconds": 10.09
@@ -29,14 +29,14 @@
     {
       "suite": "attribution",
       "command": [
-        "D:\\miniconda3\\python.exe",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_legacy_evidence.py",
+        "python",
+        "api\\tests\\evaluate_legacy_evidence.py",
         "--fixture",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\expanded_factual_cases_v4.json",
+        "api\\tests\\fixtures\\expanded_factual_cases_v4.json",
         "--answers",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\factual.json",
+        "api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\factual.json",
         "--output",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\attribution.json"
+        "api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\attribution.json"
       ],
       "exit_code": 0,
       "elapsed_seconds": 1.17
@@ -44,13 +44,13 @@
     {
       "suite": "presentation",
       "command": [
-        "D:\\miniconda3\\python.exe",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_results_presentation.py",
+        "python",
+        "api\\tests\\evaluate_results_presentation.py",
         "--capture",
         "--answers",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\answers.json",
+        "api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\answers.json",
         "--output",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\presentation.json",
+        "api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\presentation.json",
         "--fixture",
         "presentation_cases_v4.json"
       ],
@@ -60,10 +60,10 @@
     {
       "suite": "conversation",
       "command": [
-        "D:\\miniconda3\\python.exe",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\evaluate_conversations.py",
+        "python",
+        "api\\tests\\evaluate_conversations.py",
         "--output",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\conversation.json"
+        "api\\tests\\fixtures\\system_consistency_final_benchmark_v1\\conversation.json"
       ],
       "exit_code": 0,
       "elapsed_seconds": 105.09
@@ -71,10 +71,10 @@
     {
       "suite": "routing",
       "command": [
-        "C:\\xampp\\php\\php.exe",
-        "D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\run_evaluation_cases.php",
+        "php",
+        "api\\tests\\run_evaluation_cases.php",
         "--http",
-        "--fixture=D:\\ShodhanaUI\\shodhanakg-explorer-suite-main - final-copy\\api\\tests\\fixtures\\chatbot_evaluation_cases_v4.json"
+        "--fixture=api\\tests\\fixtures\\chatbot_evaluation_cases_v4.json"
       ],
       "exit_code": 0,
       "elapsed_seconds": 14.91

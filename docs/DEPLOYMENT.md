@@ -18,8 +18,8 @@ The suite consists of three main components:
 3.  **Create User**: Create a read-only user for the API to use.
     ```bash
     # Example ArcadeDB console command
-    CREATE USER readonly IDENTIFIED BY 'your_password'
-    GRANT DATABASE.READ TO readonly
+    CREATE USER username IDENTIFIED BY 'password'
+    GRANT DATABASE.READ TO username
     ```
 
 ---
@@ -35,8 +35,8 @@ The backend is located in the `api/` directory (17 PHP files).
     Set the following environment variables on your server (or via your web server configuration):
     *   `ARCADE_URL`: `http://localhost:2480`
     *   `ARCADE_DB`: `shodhana`
-    *   `ARCADE_USER`: `your_user`
-    *   `ARCADE_PASS`: `your_password`
+    *   `ARCADE_USER`: `username`
+    *   `ARCADE_PASS`: `password`
     *   `ALLOWED_ORIGINS`: `https://your-frontend-domain.com` (for CORS security)
 3.  **Upload Checklist**:
     Upload the contents of the `api/` directory to your web server. Ensure the following critical files are updated:
@@ -79,7 +79,7 @@ The frontend must be built before deployment to generate optimized static files.
     npm run build
     ```
 3.  **Upload Static Files**:
-    Upload the contents of the `dist/` directory to your web server (e.g., `/usr1/gpsr/webserver/cgidocs/raghava/shodhanakg`).
+    Upload the contents of the `dist/` directory to your web server (e.g., `./` or `dist/`).
 4.  **SPA Routing**:
     Ensure your web server redirects all non-file requests to `index.html`.
     *   **Apache**: Use the provided `.htaccess` file.

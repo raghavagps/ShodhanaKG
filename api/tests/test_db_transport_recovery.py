@@ -1,6 +1,6 @@
 """Local controlled sockets reproduce slow/unfinished backend responses, without touching KG/services."""
 import json,os,socketserver,subprocess,threading,time,unittest
-PHP=os.environ.get('PHP_BIN','C:/xampp/php/php.exe')
+PHP=os.environ.get('PHP_BIN','php')
 class Peer(socketserver.BaseRequestHandler):
     def handle(self):
         self.request.recv(65536)
@@ -17,7 +17,7 @@ class Recovery(unittest.TestCase):
         with Server(('127.0.0.1',0),Peer) as server:
             server.mode=mode;threading.Thread(target=server.serve_forever,daemon=True).start()
             url='http://127.0.0.1:'+str(server.server_address[1])
-            expression="arcade_command('SELECT 1','sql',array(),1)" if full else "arcade_command_socket('"+url+"/test','{}','test','test',1)"
+            expression="arcade_command('SELECT 1','sql',array(),1)" if full else "arcade_command_socket('"+url+"/test','{}','username','password',1)"
             php="require 'api/db.php';$ARCADE_URL='"+url+"';try{$r="+expression+";echo json_encode($r);}catch(Exception $e){echo 'TIMEOUT';}"
             t=time.monotonic();p=subprocess.run([PHP,'-r',php],capture_output=True,text=True,timeout=5);elapsed=time.monotonic()-t
             server.shutdown();self.assertEqual(p.returncode,0,p.stderr);return p.stdout,elapsed

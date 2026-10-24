@@ -1,17 +1,17 @@
 <VirtualHost *:80>
     ServerName yourdomain.com
-    DocumentRoot /usr1/gpsr/webserver/cgidocs/raghava/shodhanakg
+    DocumentRoot ./
 
     # Backend API Alias (if needed, otherwise accessed via /api subdirectory)
-    # Alias /raghava/shodhanakg/api /usr1/gpsr/webserver/cgidocs/raghava/shodhanakg/api
+    # Alias /raghava/shodhanakg/api ./api
 
-    <Directory /usr1/gpsr/webserver/cgidocs/raghava/shodhanakg>
+    <Directory .>
         Options -Indexes +FollowSymLinks
         AllowOverride All
         Require all granted
     </Directory>
 
-    <Directory /usr1/gpsr/webserver/cgidocs/raghava/shodhanakg/api>
+    <Directory ./api>
         Options -Indexes +FollowSymLinks
         AllowOverride All
         Require all granted
@@ -25,8 +25,8 @@
     # Environment Variables for Backend
     SetEnv ARCADE_URL http://localhost:2480
     SetEnv ARCADE_DB shodhana
-    SetEnv ARCADE_USER "root"
-    SetEnv ARCADE_PASS "playwithdata"
+    SetEnv ARCADE_USER "username"
+    SetEnv ARCADE_PASS "password"
     SetEnv ALLOWED_ORIGINS "*"
 
     # LLM Settings for Chatbot (Optional)
@@ -38,6 +38,6 @@
 
     # SSL (Managed by Certbot)
     # SSLEngine on
-    # SSLCertificateFile /etc/letsencrypt/live/yourdomain.com/fullchain.pem
-    # SSLCertificateKeyFile /etc/letsencrypt/live/yourdomain.com/privkey.pem
+    # SSLCertificateFile ./ssl/fullchain.pem
+    # SSLCertificateKeyFile ./ssl/privkey.pem
 </VirtualHost>
