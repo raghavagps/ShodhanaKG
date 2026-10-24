@@ -2,7 +2,7 @@
 
 ## Overview
 
-ShodhanaKG stores the curated knowledge in an ArcadeDB graph and exposes it through a web portal and a graph-grounded chatbot. The graph has 2,534 nodes and 10,123 relationships, extracted from 410 articles from PubMed and the AYUSH Research Portal, with 17 vertex types and 22 edge types. Browse it at [https://webs.iiitd.edu.in/raghava/shodhanakg/](https://webs.iiitd.edu.in/raghava/shodhanakg/).
+ShodhanaKG stores the curated knowledge in an ArcadeDB graph and exposes it through a web portal and a graph-grounded chatbot. The graph has 2,532 nodes and 10,123 relationships, extracted from 410 articles from PubMed and the AYUSH Research Portal, with 17 vertex types and 21 edge types. Browse it at [https://webs.iiitd.edu.in/raghava/shodhanakg/](https://webs.iiitd.edu.in/raghava/shodhanakg/).
 
 ## Pipeline
 
@@ -12,14 +12,13 @@ CSVs (2 node files, 17 relation files) -> Neo4j (Cypher schema and load) -> JSON
 
 ## Features
 
-- Three exploration modes: Disease Explorer (clinical diagnostics, symptoms, therapies), Compound Explorer (compounds, Shodhana methods, media, processes), and Integrated Explorer (linking purified compounds to treated diseases).
+- Three exploration modes: Disease Explorer (ayurvedic diagnosis, symptoms, dosha, therapy), Compound Explorer (compounds, Shodhana methods, media, processes), and Integrated Explorer (linking purified compounds to treated diseases).
 - Interactive graph visualization using Cytoscape.js with multiple layout options (concentric, breadthfirst, cose, circle, grid) and progressive node/edge batching.
 - Provenance and literature evidence tracing linking graph paths to PubMed, DOI, and AYUSH Research Portal publications.
 - High-performance data tables with connection counts and direct graph view navigation.
 - Global statistics dashboard displaying node, edge, and reference counts.
 - Search and multi-hop query interfaces across vertices, properties, and constraints.
 - Graph-grounded chatbot assistant for natural-language questions with deterministic factual retrieval.
-- Interface language toggle between English and Hindi.
 - Colorblind accessibility palette mode.
 
 ## Technology
@@ -173,7 +172,7 @@ python -B webservice/api/tests/run_release_checks.py
 
 The following facts are confirmed in repository code, tests, and frozen fixtures:
 
-- The graph database contains 2,534 nodes across 17 vertex types and 10,123 relationships across 22 edge types, verified in webservice/api/tests/fixtures/system_consistency_baseline_v1/snapshot.json.
+- The graph database contains 2,532 nodes across 17 vertex types and 10,123 relationships across 21 edge types, verified in webservice/api/tests/fixtures/system_consistency_baseline_v1/snapshot.json.
 - The reference catalog (webservice/api/core/reference_catalog_v1.json) indexes 410 distinct curated literature publications across PubMed, DOI, and AYUSH Research Portal identifiers.
 - Benchmark ground truth fixtures (factual_evaluation_cases_v2.json, legacy_factual_evaluation_cases_v2.json, expanded_factual_cases_v4.json) record exact SHA-256 hashes of database snapshots (factual_graph_snapshot.json).
 - Traversal query coverage asserts 53 allowlisted ArcadeDB traversal endpoints (52 evaluated in chatbot_evaluation_cases.json).
