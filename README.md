@@ -34,13 +34,13 @@ ShodhanaKG stores the curated knowledge in an ArcadeDB graph and exposes it thro
 
 ### Backend
 - Language: PHP (production compatibility target PHP 5.6.40+; testing and evaluation runtime PHP 8.1+ / PHP 8.2+)
-- Database: ArcadeDB (multi-model graph database)
-- Optional LLM: Ollama (default model `llama3.2`)
+- Database: ArcadeDB 26.4.2 (multi-model graph database)
+- Optional LLM: Llama 3.2 3B (default model `llama3.2` via Ollama)
 - Testing and Evaluation: Python 3.8+ (standard library with optional `pandas>=2.0.0`)
 
 ## Chatbot
 
-The chatbot uses a deterministic graph-retrieval pipeline across 53 allowlisted ArcadeDB traversal endpoints to retrieve factual subgraphs and correlate citations (PubMed ID, DOI, AYUSH ID) across edges without cross-join hallucinations. Answers are constructed deterministically directly from retrieved graph facts. An optional local Ollama instance running `llama3.2` can be enabled for conversational phrasing and language assistance without generating ungrounded facts.
+The chatbot uses a deterministic graph-retrieval pipeline across 53 allowlisted ArcadeDB traversal endpoints to retrieve factual subgraphs and correlate citations (PubMed ID, DOI, AYUSH ID) across edges without cross-join hallucinations. Answers are constructed deterministically directly from retrieved graph facts. An optional local Ollama instance running Llama 3.2 (3B parameter model, default tag `llama3.2`) can be enabled for conversational phrasing and language assistance without generating ungrounded facts.
 
 ## Setup
 
@@ -48,8 +48,8 @@ The chatbot uses a deterministic graph-retrieval pipeline across 53 allowlisted 
 
 - Node.js (version 22+ recommended; package.json requires ^22.12.0 || ^24.0.0 || >=26.0.0)
 - PHP (PHP 5.6.40+ or PHP 8.x)
-- ArcadeDB server running locally or accessible via network
-- Optional: Ollama (for conversational chatbot assistance)
+- ArcadeDB server (v26.4.2) running locally or accessible via network
+- Optional: Ollama with Llama 3.2 3B (for conversational chatbot assistance)
 
 ### 1. Database Setup
 
