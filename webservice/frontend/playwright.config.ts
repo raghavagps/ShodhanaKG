@@ -8,6 +8,13 @@ import { defineConfig, devices } from '@playwright/test';
 // import path from 'path';
 // dotenv.config({ path: path.resolve(__dirname, '.env') });
 
+const frontendHost = process.env.FRONTEND_HOST || 'localhost';
+const frontendPort = process.env.FRONTEND_PORT || '8080';
+const apiHost = process.env.API_HOST || '127.0.0.1';
+const apiPort = process.env.API_PORT || '8081';
+const frontendUrl = `http://${frontendHost}:${frontendPort}`;
+const apiUrl = `http://${apiHost}:${apiPort}`;
+
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
@@ -25,7 +32,7 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    baseURL: 'http://localhost:8080',
+    baseURL: frontendUrl,
 
     /* Preserve evidence from first-run failures even when retries are disabled. */
     trace: 'retain-on-failure',
@@ -71,16 +78,16 @@ export default defineConfig({
   ],
 
   /* Run your local dev server before starting the tests */
-    webServer: [
+  webServer: [
     {
       command: 'npm run dev',
-      url: 'http://localhost:8080',
+      url: frontendUrl,
       reuseExistingServer: !process.env.CI,
       timeout: 120 * 1000,
     },
     {
-      command: 'php -S 127.0.0.1:8081 -t ..',
-      url: 'http://127.0.0.1:8081/api/chatbot_health.php',
+      command: `php -S ${apiHost}:${apiPort} -t ..`,
+      url: `${apiUrl}/api/chatbot_health.php`,
       reuseExistingServer: !process.env.CI,
       timeout: 30 * 1000,
     },
