@@ -1,0 +1,514 @@
+﻿Confirmation_Study,Relationship,Purified_Compound,Result,Pubmed_ID 
+Cytotoxicity Study,CONFIRMS_SAFETY_OF,Shodhita Jaypala,"Shodhana reduced the cytotoxic dose of Croton tiglium in CHO cells, indicating increased cytotoxicity and enhanced potency after purification.",37230917
+Liquid Chromatography Mass Spectroscopic (LC/MS) Analysis ,CONFIRMS_SAFETY_OF,Shodhita Jaypala,Shodhana altered the phytochemical composition by increasing the leaching and extractability of certain metabolites and introducing some compounds detectable only after purification.,37230917
+,,,,
+High-Performance Thin Layer Chromatography (HPTLC),CONFIRMS_SAFETY_OF,Shodhita Rakta-Snuhi ,"HPTLC showed that Shodhana with tamarind leaf juice altered the phytochemical profile of E. caducifolia latex, with increased lupeol (chosen as a marker for its anti-inflammatory and antioxidant activity) levels in shade-dried samples as juice concentration increased.",34566381
+,,,,
+Thin Layer Chromatography (TLC),CONFIRMS_SAFETY_OF,Shodhita Vatsanabha,TLC study showed that shodhana converted toxic alkaloids (pseudoaconitine and aconitine) into less toxic derivatives (veratroyl pseudoaconine and benzoylaconine).,24023444
+In vivo Toxicity Study,CONFIRMS_SAFETY_OF,Shodhita Vatsanabha,"Traditional Ayurvedic Shodhana showed significantly lower toxicity compared to the modified chemical Shodhana, which exhibited toxic effects on liver, heart, and kidney.",24023444
+,,,,
+Hemagglutination Assay ,CONFIRMS_SAFETY_OF,Shodhita Gunja,"Detoxified extract showed reduced RBC agglutination compared to non-detoxified extract, indicating removal of toxic hemagglutinating proteins.",25336846
+SDS-PAGE ,CONFIRMS_SAFETY_OF,Shodhita Gunja,"Detoxified extract lacked the abrin protein band present in the non-detoxified extract, confirming detoxification.",25336846
+Cytotoxicity Study,CONFIRMS_SAFETY_OF,Shodhita Gunja,Detoxified extract showed lower growth inhibition in HeLa cells compared to non-detoxified extract.,25336846
+Brine Shrimp Lethality Assay ,CONFIRMS_SAFETY_OF,Shodhita Gunja,Detoxified extract demonstrated a reduced toxicity index compared to non-detoxified extract.,25336846
+Whole-body apoptosis assay in zebrafish ,CONFIRMS_SAFETY_OF,Shodhita Gunja,Detoxified extract showed a higher percentage of viable cells than non-detoxified extract.,25336846
+Anti-inflammatory study,CONFIRMS_SAFETY_OF,Shodhita Gunja,"Detoxified extract significantly inhibited carrageenan-induced paw edema in rats, comparable to diclofenac sodium.",25336846
+,,,,
+High-Performance Layer Chromatography (HPLC),CONFIRMS_SAFETY_OF,Shodhita Gunja,HPLC showed reduction of toxic hypaphorine and protein abrin with a relative increase in less toxic abrine after Shodhana.,22556879
+,,,,
+High-Performance Thin Layer Chromatography (HPTLC),CONFIRMS_SAFETY_OF,Shodhita Kupeelu,"HPTLC analysis confirmed a significant reduction in strychnine and brucine levels in purified seeds, with greater reduction observed after purification in Ardraka swarasa compared to Kanji.",22529660
+,,,,
+Liquid Chromatography Mass Spectroscopic (LC/MS) Analysis ,CONFIRMS_SAFETY_OF,Shodhita Bhallathaka,"LC/MS analysis confirmed that Shodhana reduced anacardic acid derivatives and converted a portion into cardanol through decarboxylation, indicating chemical transformation after purification.",33621615
+Anticancer activity in mice,CONFIRMS_SAFETY_OF,Shodhita Bhallathaka,"Purified samples showed significant dose-dependent anticancer activity against EAC in mice (maximum effect at 200 mg/kg), whereas the raw sample showed only non-significant protection, proving enhanced efficacy after Shodhana.",33621615
+,,,,
+Thin Layer Chromatography (TLC),CONFIRMS_SAFETY_OF,Shodhita Gunja,"Detoxified extract (A2) showed absence of the Rf 0.47 spot present in Aqueous extract (A1), indicating removal of a probable toxic steroidal oil component.",23930039
+In vivo Toxicity Study,CONFIRMS_SAFETY_OF,Shodhita Gunja,"The non-detoxified extract (A1) caused mortality in mice, whereas the detoxified extract (A2) was found safe up to a dose of 2 g/kg, indicating successful removal of toxic components after Shodhana.",23930039
+,,,,
+Anticonvulsant activity in rats using the Maximal Electroshock (MES) model,CONFIRMS_SAFETY_OF,Shodhita Vacha,"Shodhita Vacha exhibited enhanced anticonvulsant activity compared to raw Vacha in the MES model, significantly reducing the duration of tonic extension, convulsion, and stupor phases without loss of efficacy.",23049196
+,,,,
+High-Performance Thin Layer Chromatography (HPTLC),CONFIRMS_SAFETY_OF,Shodhita Gunja,Shodhana of Gunja seeds with lemon juice showed greater physico-chemical changes and more detectable components than raw and water-processed samples.,24696580
+,,,,
+High-Performance Thin Layer Chromatography (HPTLC),CONFIRMS_SAFETY_OF,Purified Guggulu,"Purified Guggulu showed a statistically significant increase in Guggulsterone E and Z, indicating enhanced pharmacological potential after Shodhana.",33991078
+Gas Chromatography-Mass Spectrometry (GC-MS) Analysis,CONFIRMS_SAFETY_OF,Purified Guggulu,"GC-MS revealed qualitative and quantitative changes after Shodhana, including increased area percentages of certain bioactive compounds and the appearance of new constituents in purified Guggulu.",33991078
+,,,,
+Gas Chromatography-Mass Spectrometry (GC-MS) Analysis,CONFIRMS_SAFETY_OF,Shodhita Dhattura,"Shodhana reduced total tropane alkaloids by ~70% with complete removal of scopolamine, confirming chemical detoxification of Datura metel.",41220381
+In vivo Toxicity Study,CONFIRMS_SAFETY_OF,Shodhita Dhattura,"Shodhana-treated samples showed absence of neurotoxicity, hepatotoxicity, hematological alterations, and organ damage compared to raw extract, confirming effective detoxification.",41220381
+,,,,
+Thin Layer Chromatography (TLC),CONFIRMS_SAFETY_OF,Purified Nerium indicum,"Post-Shodhana sample showed reduced cardenolide content and marked decrease of oleandrin, indicating removal of toxic constituents.",22125956
+In vivo Toxicity Study,CONFIRMS_SAFETY_OF,Purified Nerium indicum,"Pre-Shodhana samples caused cardiotoxicity (tachycardia and mortality), whereas post-Shodhana samples showed no observable toxicity.",22125956
+,,,,
+Ultra-High Performance Liquid Chromatography combined with Quadrupole Time-of-Flight  Mass Spectrometry (UHPLC-QTOF/MS),CONFIRMS_SAFETY_OF,Shodhita Ativisha,"Shodhana converted toxic diester diterpenoid alkaloids into relatively safer monoester diterpenoid alkaloids, thereby reducing toxicity.",24156713
+Ultra-High Performance Liquid Chromatography combined with Quadrupole Time-of-Flight  Mass Spectrometry (UHPLC-QTOF/MS),CONFIRMS_SAFETY_OF,Purified Aconitum,"Shodhana converted toxic diester diterpenoid alkaloids into relatively safer monoester diterpenoid alkaloids, thereby reducing toxicity.",24156713
+,,,,
+,,,,
+In vivo Toxicity Study,CONFIRMS_SAFETY_OF,Shodhita Vatsanabha,"Shodhana significantly reduced the chronic toxicity of raw Aconitum chasmanthum Holmes ex Stapf., with urine-treated compound showing no apparent toxicity, milk-treated showing mild reversible kidney toxicity, and overall toxic effects being reversible.",22736901
+,,,,
+High-Performance Thin Layer Chromatography (HPTLC),CONFIRMS_SAFETY_OF,Shodhita Chitraka,"HPTLC analysis of Plumbago zeylanica after Shodhana showed an increase in plumbagin from 0.39% to 0.98%, indicating improved purity due to removal of water-soluble impurities.",34908796
+,,,,
+Antibacterial Study,CONFIRMS_SAFETY_OF,Shodhita Gunja,"The chloroform extract showed greater antibacterial activity than the aqueous extract, and Kanji-shodhita Gunja seeds exhibited the highest antibacterial effect among all samples.",23929989
+,,,,
+High-Performance Thin Layer Chromatography (HPTLC),CONFIRMS_SAFETY_OF,Shodhita Kupeelu,"HPTLC analysis showed that all Shodhana methods reduced strychnine and brucine levels compared to raw seeds, with the cow's urine followed by cow milk sequential method showing the maximum reduction.",23983327
+,,,,
+In vitro anti-inflammatory Study,CONFIRMS_SAFETY_OF,Shodhita Chitraka,The methanolic extract of purified roots showed the highest anti-inflammatory activity among all extracts.,40471985
+In vivo analgesic and anti-inflammatory Study,CONFIRMS_SAFETY_OF,Shodhita Chitraka,The methanolic extract of purified roots demonstrated significant analgesic and anti-inflammatory effects.,40471985
+In silico Study,CONFIRMS_SAFETY_OF,Shodhita Chitraka,"Phytochemicals from purified roots exhibited COX-2 inhibitory activity, with chitranone showing the highest binding affinity.",40471985
+Liquid Chromatography Mass Spectroscopic (LC/MS) Analysis ,CONFIRMS_SAFETY_OF,Shodhita Chitraka,"LC-MS analysis confirmed the presence of bioactive compounds, and the observed analgesic and anti-inflammatory activities are likely attributed to these phytoconstituents.",40471985
+,,,,
+Cardiac Toxicity Study (ED₅₀ Determination),CONFIRMS_SAFETY_OF,Shodhita Vatsanabha,"ED₅₀ increased from 19.5 (crude) to 52.0 (cow urine-treated) and 75.0 (cow milk-treated), indicating reduced cardiotoxicity after Shodhana.",22556471
+Acute Toxicity Study (LD₅₀ Determination),CONFIRMS_SAFETY_OF,Shodhita Vatsanabha,"LD₅₀ increased from 130 mg/kg (crude) to 1.7 g/kg (cow urine-treated) and 2.1 g/kg (cow milk-treated), confirming significant reduction in toxicity.",22556471
+,,,,
+Gas Chromatography (GC),CONFIRMS_SAFETY_OF,Shodhita Vacha,"GC analysis showed a marked reduction of beta-asarone from 117.94 µl (pre-shodhit) to 4.34 µl after complete conventional Shodhana, with progressive decrease at each processing step",23741157
+Gas Chromatography-Mass Spectrometry (GC-MS) Analysis,CONFIRMS_SAFETY_OF,Shodhita Vacha,Confirmed the identity of beta-asarone by its molecular ion peak (M⁺ 208.1) and characteristic fragmentation pattern.,23741157
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Shodhita Haratala,"XRD showed loss of crystalline structure and conversion to amorphous nano-form (<100 nm), indicating structural transformation after Shodhana.",35370377
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Shodhita Haratala,"Arsenic levels remained within expected range without toxic oxide formation, indicating chemical stabilization without harmful arsenic increase.",35370377
+CHNS Elemental Analysis,CONFIRMS_SAFETY_OF,Shodhita Haratala,Absence of oxygen and altered sulfur percentage confirmed no formation of toxic arsenic oxides and chemical modification due to Shodhana media.,35370377
+Field Emission Gun-Scanning Electron Microscopy (FEG-SEM),CONFIRMS_SAFETY_OF,Shodhita Haratala,SEM confirmed nano-sized particles with altered morphology and stabilized arsenic sulfide structure after purification.,35370377
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Shodhita Haratala,"FTIR revealed functional group modifications (additional carboxylic group in organic-media sample), confirming interaction with purification media.",35370377
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Shodhita Haratala,Different thermal decomposition patterns and stability profiles confirmed chemical transformation after Shodhana.,35370377
+,,,,
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Shodhana-processed sulphur showed progressively increased porosity with large interconnected pores and enhanced brittleness compared to crude sulphur, indicating improved pharmaceutical suitability.",37506606
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"EDS confirmed sulphur as the sole major element (100 wt%) in shodhana samples, demonstrating elemental purity after purification.",37506606
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"XRD revealed transformation to a more nebulous, less crystalline orthorhombic sulphur form after shodhana, making it more suitable for pharmaceutical preparations compared to highly crystalline laboratory-purified sulphur.",37506606
+Differential Scanning Calorimetry (DSC),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"DSC showed characteristic sulphur phase transitions with slight thermal shifts after shodhana, confirming structural modification without loss of elemental integrity.",37506606
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"TGA demonstrated comparable thermal stability with controlled degradation patterns after shodhana, indicating purified and stable sulphur.",37506606
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"FTIR confirmed removal of toxic nitro (-NO₂) groups and preservation of sulphur bonds after shodhana, supporting detoxification.",37506606
+Raman Spectroscopy ,CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Raman spectra retained characteristic S–S vibrational bands after shodhana, confirming structural integrity of purified elemental sulphur.",37506606
+,,,,
+High-Performance Thin Layer Chromatography (HPTLC),CONFIRMS_SAFETY_OF,Shodhita Vatsanabha,HPTLC showed gradual degradation of toxic di-ester alkaloids with decreased aconitine and increased mono-ester alkaloids in Vatsanabha after shodhana. ,28757226
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Shodhita Vatsanabha,"Disappearance of ester peak at 1720 cm⁻¹ and appearance of keto peak at 1676 cm⁻¹ demonstrated conversion of toxic aconitine to less toxic benzoylaconine, after shodhana",28757226
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Processed gandhaka showed sharper and more intense orthorhombic sulphur (S₈) peaks with reduction of unwanted components, confirming phase transformation and higher purity after Shodhana.",28757226
+Differential Scanning Calorimetry (DSC),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Differential thermograms demonstrated transformation from orthorhombic to monoclinic form and reversion to purified orthorhombic sulphur with sharper thermal transitions, indicating successful purification.",28757226
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Shodhita Hingula,"Shodhana resulted in disappearance of impurity peaks and enhancement of characteristic trigonal hingula peaks, confirming attainment of a highly pure crystalline form without structural alteration.",28757226
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Shodhita Tankana ,"Shodhana of tankana showed gradual reduction in number and sharpness of impurity peaks, indicating structural modification and purification of the final product.",28757226
+Differential Scanning Calorimetry (DSC),CONFIRMS_SAFETY_OF,Shodhita Tankana ,"Differential thermograms revealed disappearance of the extra solvate peak, and increased sharpness of the characteristic endothermic peak at 137 °C, confirming improved purity with minor crystal structural changes after Shodhana.",28757226
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Swarna Makshika Bhasma ,"XRD showed that raw CuFeS₂ (copper pyrite) was transformed after Shodhana and Marana into stable oxides like Fe₂O₃, FeSO₄ and Cu₂O, indicating conversion of sulfide-rich toxic forms into purified, pharmaceutically suitable compounds.",27011728
+,,,,
+In vivo animal testing (Hemoglobin estimation),CONFIRMS_SAFETY_OF,Swarna Makshika Bhasma ,"Significant increase in hemoglobin levels after 15 and 30 days of administration, indicating effectiveness and safety for use in anemia and hemoglobin deficiency conditions.",22253508
+In vivo animal testing (Liver Function test),CONFIRMS_SAFETY_OF,Swarna Makshika Bhasma ,"No significant changes in liver function parameters, confirming that Swarna Makshika Bhasma is safe and non-hepatotoxic on short-term therapeutic use.",22253508
+In vivo animal testing (Lipid Profile Analysis),CONFIRMS_SAFETY_OF,Swarna Makshika Bhasma ,"Significant reduction in total cholesterol, triglycerides, and VLDL with a mild increase in HDL, suggesting cardioprotective potential along with safety.",22253508
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Mukta Bhasma,"Aragonite form of CaCO₃ in Raw Mukta was converted into stable calcite phase in Mukta Bhasma with disappearance of aragonite peaks, confirming structural transformation to a more stable crystalline form.",26600667
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Mukta Bhasma,"Repeated calcination reduced particle size from micro-range to nanocrystalline range (<100 nm) with uniform aggregation, indicating enhanced bioavailability and better absorption.",26600667
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Mukta Bhasma,"Calcium content increased (≈34% to ≈46%) with reduction in carbon (organic matter) and heavy metals within permissible limits, confirming purification, enrichment of active mineral content, and safety.",26600667
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"Decreased crystallite size and peak broadening confirm nanocrystalline transformation, indicating improved bioavailability compared to raw mica.",30826258
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Abhraka Bhasma,Appearance of organo-metallic bonds and reduction of impurity-related bands demonstrate chemical detoxification and enhanced biological compatibility.,30826258
+Raman Spectroscopy ,CONFIRMS_SAFETY_OF,Abhraka Bhasma,Formation of stable metal-oxide bonds confirms structural modification into a more therapeutically active and stable form.,30826258
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Abhraka Bhasma,Formation of stable metal-oxide bonds confirms structural modification into a more therapeutically active and stable form.,30826258
+Transmission Electron Microscopy (TEM),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"Presence of 50-500 nm nanoparticles confirms nanosizing, enhancing pharmacological efficacy and systemic availability.",30826258
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Abhraka Bhasma,Reduction in toxic aluminum content and formation of organo-metallic complexes indicate detoxification and improved safety.,30826258
+Brunauer-Emmett-Teller (BET) Surface Area Analysis,CONFIRMS_SAFETY_OF,Abhraka Bhasma,Increased surface area and porosity suggest enhanced dissolution and better therapeutic performance.,30826258
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"Majority of particles in nano range confirms uniform particle size distribution, improving absorption and consistency.",30826258
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Abhraka Bhasma,High thermal stability with minimal weight loss confirms removal of volatile impurities and formation of a stable product.,30826258
+,,,,
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Shodhita Naga,"Demonstrated slight melting point variation and measurable weight loss indicating incorporation of organic matter after Shodhana, confirming physicochemical modification of Lead.",26664241
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Shodhita Naga,"Appearance of O-H, N-H, C-H, C=O and C-N organic functional groups after Shodhana, confirming formation of organo-metallic complexes and chemical transformation of Lead.",26664241
+,,,,
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Significant reduction of toxic minor metals (Cd, Pb, Cu, Cr, Zn, Mn) confirms detoxification and improved safety of Lauha Bhasma.",34872806
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Conversion of metallic iron (α-Fe/magnetite) into stable hematite (Fe₂O₃) confirms complete oxidation into a safer, non-metallic, pharmaceutically suitable form.",34872806
+Titrimetric Analysis (Fe²⁺ estimation),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Gradual decrease in Fe²⁺ content confirms controlled oxidation, reducing metallic reactivity and enhancing biocompatibility.",34872806
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Formation of aggregated nanoparticles with porous structure indicates reduced particle size, improved absorption, and better therapeutic efficiency.",34872806
+,,,,
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Elemental metallic iron present in raw turnings was transformed into oxidized forms with reduced elemental impurities, confirming purification and chemical stabilization during processing.",27450759
+X-Ray Fluorescence Spectroscopy (XRF),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Presence of nano-structured aggregates (100–500 nm) confirms particle size reduction and structural modification, indicating enhanced bioavailability and pharmaceutical refinement.",27450759
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Confirmed conversion of metallic copper into stable cupric sulfide (CuS), indicating chemical transformation and detoxification from raw metal form.",23723677
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Showed controlled copper (58.56 wt%) and sulfur (22.48 wt%) with only trace heavy metals, confirming purification and reduced toxic impurities.",23723677
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Revealed fine particles (<2 μm) with uniform morphology, confirming structural modification and improved pharmaceutical suitability.",23723677
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Demonstrated reduction to micro-sized particles (<2–3 μm), enhancing bioavailability and reducing dose-related toxicity.",23723677
+,,,,
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Tamra Bhasma,"FTIR analysis showed disappearance of carboxylic acid peaks and formation of stable bonds (C=C, N–H, C–O) in Tamra Bhasma, indicating removal of acidic/reactive impurities and conversion into a chemically stable, purified form suitable for safe pharmaceutical use",26730144
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"XRD analysis showed that free metallic tin (Sn) present in Jarana sample was completely converted into stable tin dioxide (SnO₂) with trace potassium tin oxide (K–Sn–O) after Marana, confirming transformation into a purified, pharmaceutically stable Vanga Bhasma.",22557364
+,,,,
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Showed uniform clusters of particles <2 µm indicating nano-sized structure, enhancing surface area, absorption and bioavailability of purified Tamra Bhasma.",23661863
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Detected ~56% copper and ~23% sulfur with absence of toxic heavy metals like cadmium and selenium (others only in traces), confirming purified, safe elemental composition.",23661863
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Revealed significant particle size reduction (mean 28.70 µm; 10% <2.83 µm), confirming micronization that improves dissolution rate and therapeutic potency at lower dose.",23661863
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Displayed prominent peaks of CuS (cupric sulfide), confirming conversion of metallic copper into stable sulfide form, indicating proper incineration and detoxification.",23661863
+,,,,
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Vanga Bhasma ,Tin is present mainly as oxide with trace Na and K and negligible toxic impurities.,22048550
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Reduced mean particle size (≈10.5 µm), indicating improved bioavailability.",22048550
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Predominant peaks of SnO₂ (tin dioxide) were seen with absence of free Sn in final Bhasma, confirming complete oxidation.",22048550
+,,,,
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Shows granular, porous, spherical nanoparticles (<100 nm) confirming nanosized transformation of tin after Marana.",29310904
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Demonstrates conversion of metallic tin (89.60%) into oxidized form (24.23%), indicating incorporation and transformation into stable tin oxide matrix.",29310904
+Transmission Electron Microscopy (TEM),CONFIRMS_SAFETY_OF,Vanga Bhasma ,Reveals uniformly distributed ~20 nm polycrystalline nanocrystallites confirming nanocrystalline purified tin compound formation.,29310904
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Vanga Bhasma ,Displays characteristic Sn–O and Sn–O–Sn bonding peaks confirming formation of tin oxide with organo-inorganic associations.,29310904
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Shows sharp crystalline peaks corresponding to tetragonal SnO₂ with nanocrystallite size, confirming conversion of metallic tin into crystalline tin oxide.",29310904
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Vanga Bhasma ,Demonstrates uniform nanoparticle distribution (50–100 nm in muffle furnace sample) indicating improved particle size reduction.,29310904
+In vitro Bioaccessibility Study,CONFIRMS_SAFETY_OF,Vanga Bhasma ,Higher gastrointestinal bioaccessibility (up to 14.08% in muffle furnace sample) confirms enhanced pharmaceutical suitability after Bhasma preparation.,29310904
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Yashada Bhasma,"Complete conversion of crystalline zinc metal (Zn) into pure hexagonal ZnO (zincite phase) with no residual metallic Zn peak, confirming successful transformation into purified zinc oxide nanoparticles (~32.79 nm).",30962052
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Yashada Bhasma,"Particle size reduced from 1–2 µm (raw zinc) to 137–793 nm with granular and porous morphology, supporting enhanced surface area and bioavailability.",30962052
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Yashada Bhasma,Increased oxygen content (30.45%) with Zn (65.18%) confirms oxidation of zinc into ZnO form; absence of impurities indicates purified zinc compound with trace herbal elements.,30962052
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Yashada Bhasma,"Mean particle size reduced from 2063 nm (raw zinc) to ~339.8 nm in Yashada Bhasma, indicating significant size reduction enhancing absorption.",30962052
+Zeta Potential,CONFIRMS_SAFETY_OF,Yashada Bhasma,"Yashada Bhasma showed stable zeta potential of −20.1 mV (vs −0.24 mV in raw metal), confirming improved colloidal stability and suitability for biological systems.",30962052
+,,,,
+High-Performance Layer Chromatography (HPLC),CONFIRMS_SAFETY_OF,Shodhita Jaypala,"HPLC analysis showed that after Śodhana (purification) of C. tiglium seeds, phorbol ester content reduced from 5.2 mg/100 g to 1.8 mg/100 g and crotonic acid reduced from 0.102 mg/100 g to absent, confirming effective detoxification by removal of toxic irritant constituents.",25538350
+,,,,
+High-Performance Layer Chromatography (HPLC),CONFIRMS_SAFETY_OF,Shodhita Chitraka,"Plumbagin (major toxic marker) reduced from 117 mg (UDREA) to 56 mg (DREA), with significant decrease in cis- and trans-isoshinanolone, confirming reduction of toxic principles after Śodhana.",39752382
+Proton Quantitative Nuclear Magnetic Resonance (1H qNMR) ,CONFIRMS_SAFETY_OF,Shodhita Chitraka,"Plumbagin content decreased from 89 mg to 44 mg, while epoxyplumbagin and zeylanone increased, indicating chemical transformation of toxic metabolites during detoxification.",39752382
+Liquid Chromatography–High Resolution Mass Spectrometry (LC-HRMS) Metabolite Profiling,CONFIRMS_SAFETY_OF,Shodhita Chitraka,"Non-detoxified extract showed 16 metabolites, whereas detoxified extract showed only 12 metabolites, confirming selective removal and transformation of specific secondary metabolites after limewater processing.",39752382
+Cytotoxicity Study,CONFIRMS_SAFETY_OF,Shodhita Chitraka,"Toxicity significantly reduced, with IC₅₀ increasing from 7.5 µg/mL (UDREA) to 32 µg/mL (DREA), proving biological detoxification.",39752382
+,,,,
+Plumbagin Estimation (Standard Curve Method),CONFIRMS_SAFETY_OF,Shodhita Chitraka,"The calibration curve was linear (indicating reliable quantification), and after Śodhana, plumbagin content reduced by approximately 50% (from 7.30 mg/g in raw drug to nearly half), confirming partial detoxification.",22557464
+,,,,
+In vivo Toxicity Study,CONFIRMS_SAFETY_OF,Shodhita Kupeelu,"Toxicity markedly reduced after Shodhana, with LD₅₀ increasing from 52 mg/kg (crude) to 600 mg/kg (milk-treated sample D), confirming significant detoxification.",19699784
+Strychnine Quantification,CONFIRMS_SAFETY_OF,Shodhita Kupeelu,"Percentage of strychnine decreased progressively after processing (highest in crude; lowest in milk-treated sample), indicating reduction of toxic alkaloid content.",19699784
+Total Alkaloid Estimation,CONFIRMS_SAFETY_OF,Shodhita Kupeelu,"Overall alkaloid content reduced in processed samples (A > B > C > D), supporting chemical detoxification.",19699784
+Thin Layer Chromatography (TLC),CONFIRMS_SAFETY_OF,Shodhita Kupeelu,Appearance of a new phytochemical spot in milk-processed sample suggests chemical transformation responsible for altered pharmacological profile.,19699784
+Pentobarbitone-Induced Hypnosis Test,CONFIRMS_SAFETY_OF,Shodhita Kupeelu,"Processed samples (especially milk-treated) significantly prolonged sleeping time without convulsions, showing reduced toxicity and enhanced CNS depressant activity.",19699784
+Spontaneous Motor Activity (Shillito’s Tunnel Test),CONFIRMS_SAFETY_OF,Shodhita Kupeelu,"Processed samples reduced locomotor activity in a controlled manner at sub-convulsive doses, indicating safer CNS depressant action.",19699784
+PTZ-Induced Convulsion Test,CONFIRMS_SAFETY_OF,Shodhita Kupeelu,"Crude drug hastened convulsions (4.75 min), whereas processed samples significantly delayed onset (up to 11.25 min in milk-treated), demonstrating anticonvulsant transformation.",19699784
+Diazepam Protection Test,CONFIRMS_SAFETY_OF,Shodhita Kupeelu,"Diazepam completely prevented lethality of processed samples at LD₁₀₀ doses, confirming manageable and reduced neurotoxicity after Shodhana.",19699784
+Morphine-Induced Catalepsy Test,CONFIRMS_SAFETY_OF,Shodhita Kupeelu,"Processed samples antagonized morphine-induced catalepsy while crude potentiated it, indicating beneficial neuropharmacological modification.",19699784
+,,,,
+Reverse Phase Ultra-Fast Liquid Chromatography (RP-UFLC),CONFIRMS_SAFETY_OF,Shodhita Chitraka,"Validated method (RT 3.91 min, r² = 0.9983) showed 31–43% reduction of plumbagin after Shodhana (e.g., 1.051 → 0.329 mg/g DW) with measurable leaching into lime water media , confirming detoxification.",39237121
+,,,,
+Percentage Purity Test (Gravimetric Method),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Purity increased after Shodhana from 94.75% (crude) to 96.50–98.50% of Sodhita sulphur, confirming purification enhancement.",22556497
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Shodhana reduced grain size and transformed Sulphur to orthorhombic crystal structure, confirming structural standardization.",22556497
+Spectroscopic Elemental Analysis,CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Trace elements (Cr, Zn, Mn) present in crude Sulphur were absent after Shodhana, confirming removal of impurities.",22556497
+,,,,
+In vivo Toxicity Study,CONFIRMS_SAFETY_OF,Tamra Bhasma,"Oral administration of Tamra Bhasma showed no mortality at 2000 mg/kg (LD₅₀ > 2000 mg/kg), normal hematological, biochemical, and histopathological parameters at therapeutic dose, confirming safety for internal use.",27297506
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Tamra Bhasma showed nanocrystalline copper oxide phases with average crystallite size ~88 nm, indicating formation of bioavailable nanostructured medicinal material.",29249635
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Tamra Bhasma,"SEM revealed agglomerated nanocrystallites forming polycrystalline particles, supporting enhanced surface area that may improve therapeutic activity.",29249635
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Tamra Bhasma,"FTIR spectra showed characteristic functional groups (C–Cl, C–O–C, sulfate, phosphate, carbonate) confirming presence of inorganic and organic components in the Bhasma matrix.",29249635
+Antimicrobial Activity Test,CONFIRMS_SAFETY_OF,Tamra Bhasma,"Tamra Bhasma exhibited strong antibacterial activity with zones of inhibition of 30 mm (P. aeruginosa), 22 mm (K. pneumoniae), and 15 mm (S. aureus), confirming pharmacological efficacy.",29249635
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Yashada Bhasma,"XRD peaks corresponding to ZnO confirm the successful conversion of metallic zinc into zinc oxide, indicating proper incineration and formation of Zinc Bhasma.",23284213
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Yashada Bhasma,"SEM shows amorphous morphology indicating the presence of very fine and non-crystalline particles, suggesting increased surface area of Bhasma.",23284213
+,,,,
+X-Ray Fluorescence Spectroscopy (XRF),CONFIRMS_SAFETY_OF,Naga Bhasma,"Sodhana increased lead purity from 97.13% to 98.98% and removed impurities such as Fe, Ru, Si, and Mo through chelation with purification media.",24799737
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Naga Bhasma,"XRD confirmed transformation of metallic lead into lead oxide (PbO) and later crystalline lead sulphide (PbS) during calcination, indicating successful conversion to the Bhasma form.",24799737
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Naga Bhasma,FTIR absorption band around ~640 cm⁻¹ corresponding to Pb–O bond confirmed formation of lead oxide in the intermediate (Jarita Naga).,24799737
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Naga Bhasma,"SEM revealed nanoscale rod-shaped particles (30–50 nm width, 100–160 nm length) with increased surface area and improved monodispersity after repeated calcination cycles.",24799737
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Lauha Bhasma,Reduction of rust phase (Fe₂O₃) and increase in metallic iron peak after buttermilk treatment confirm removal of oxide impurities during Shodhana.,22561344
+KCNS Chemical Test for Fe³⁺,CONFIRMS_SAFETY_OF,Lauha Bhasma,"Absence of red colour in spent purification media (appearing only after acid digestion) confirms ferric ions were removed as chelated complexes, proving detoxification.",22561344
+Brunauer-Emmett-Teller (BET) Surface Area Analysis,CONFIRMS_SAFETY_OF,Lauha Bhasma,Progressive increase in surface area from 1.70 to 3.91 m²/g after successive purification steps confirms particle size reduction and improved bioavailability.,22561344
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Lauha Bhasma,Formation of nanosized particles (≈50–100 nm during Shodhana and ≈17–25 nm after calcination) confirms nanodimensional Bhasma formation that favors better absorption.,22561344
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Lauha Bhasma,Bands corresponding to chelated Fe²⁺ complexes after calcination confirm conversion into bioavailable and less toxic divalent iron form.,22561344
+,,,,
+Chemical Composition Anaysis,CONFIRMS_SAFETY_OF,Mandura Bhasma,"Increase in Fe₂O₃ content and reduction in impurities (MgCO₃, CaCO₃, acid-insoluble matter) after processing confirmed purification and stabilization of iron in a therapeutically acceptable form.",22557361
+,,,,
+Acute Toxicity Study,CONFIRMS_SAFETY_OF,Praval Bhasma,Absence of mortality in mice at 1000 mg/kg oral dose confirms safety and non-toxic nature of prepared Praval Bhasma.,24461595
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Praval Bhasma,Transformation of raw CaCO₃ peak to CaO peak in final Bhasma confirms chemical conversion and purification during incineration.,24461595
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Praval Bhasma,"Appearance of new sharp absorption bands (O-H, C-H, C=O) in Bhasma indicates formation of new stable compounds different from raw Praval.",24461595
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Praval Bhasma,Reduction in particle size from ~200–500 µm (raw) to ~5–50 µm (Bhasma) confirms micronization that enhances surface area and potential bioavailability.,24461595
+,,,,
+Clinical Therapeutic Efficacy Test,CONFIRMS_SAFETY_OF,Shankha Bhasma,"Shankha Bhasma purified with lemon juice showed significantly higher symptom resolution (66 to 71% vs. 27 to 31%, P < 0.005) and more heartburn-free days, confirming improved therapeutic efficacy after proper Shodhana.",23633854
+,,,,
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Swarna Bhasma ,"Shows very low levels of toxic metals (As 0.17%, Pb 0.03%), confirming purification during bhasma preparation.",12007704
+Infrared (IR) Spectroscopy,CONFIRMS_SAFETY_OF,Swarna Bhasma ,"Indicates absence of organic compounds, confirming complete incineration and purity of Swarnabhasma.",12007704
+Superoxide Dismutase (SOD) Activity Test,CONFIRMS_SAFETY_OF,Swarna Bhasma ,"Demonstrates significant increase in SOD activity in serum and liver, indicating enhanced antioxidant activity.",12007704
+Catalase Activity Test,CONFIRMS_SAFETY_OF,Swarna Bhasma ,"Shows ~80% increase in catalase activity, confirming improved antioxidant defense potential.",12007704
+Toxicological Study,CONFIRMS_SAFETY_OF,Swarna Bhasma ,"No significant changes in SGOT, SGPT, creatinine, and urea, confirming safety and non-toxicity.",12007704
+Histopathological Study,CONFIRMS_SAFETY_OF,Swarna Bhasma ,"Reveals no structural damage to liver and kidney, confirming biological safety of the bhasma.",12007704
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Swarna Makshika Bhasma ,"Transformation from CuFeS₂ (raw) to Fe₂O₃, FeS₂, CuS, SiO₂ (bhasma) confirms chemical conversion, detoxification, and formation of stable non-metallic compounds.",20814520
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Swarna Makshika Bhasma ,Reduction in particle size from 6–8 µm to 1–2 µm with uniform agglomeration confirms micronization and enhanced bioavailability.,20814520
+,,,,
+Actophotometer Test (Spontaneous Motor Activity),CONFIRMS_SAFETY_OF,Shodhita Manahshila,"Shodhita Manahshila produced a significant reduction in locomotor activity (P<0.001) in albino rats, indicating central nervous system depressant (sedative) effect.",22557432
+Diazepam-Induced Sleeping Time Test ,CONFIRMS_SAFETY_OF,Shodhita Manahshila,"Shodhita Manahshila caused earlier onset of sleep and prolonged sleeping duration (P<0.01), showing potentiation of diazepam-induced hypnotic activity.",22557432
+,,,,
+Particle Size Analysis,CONFIRMS_SAFETY_OF,Badrashma Pishti,"Particle size reduced from ~50.78 µm in raw badrashma to ~2.16 µm in purified badrashma, indicating enhanced absorption and bioavailability.",39615446
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Badrashma Pishti,"Irregular large aggregates (200–300 µm) converted to uniform micron-sized particles (4–10 µm), improving surface reactivity and assimilation.",39615446
+Heavy Metal Analysis,CONFIRMS_SAFETY_OF,Badrashma Pishti,"Toxic metals (As, Cd, Hg, Pb) remained within permissible limits in Badrashma Pishti, confirming safety for therapeutic use.",39615446
+CHNS Elemental Analysis,CONFIRMS_SAFETY_OF,Badrashma Pishti,"Absence of nitrogen and sulphur in Badrashma Pishti which was earlier found in raw Badrashma, indicating removal of toxic components.",39615446
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Badrashma Pishti,Disappearance of hydroxyl-related peaks and modification of functional groups confirms chemical transformation and purification.,39615446
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Badrashma Pishti,"Formation of stable and bioavailable mineral phases (calcite, aragonite, Mg-containing compounds) after processing indicates improved therapeutic suitability.",39615446
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Badrashma Pishti,Incorporation of beneficial elements like magnesium (absent in raw) supports enhanced pharmacological activity.,39615446
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Naga Bhasma,"Shows conversion of toxic metallic lead into stable PbS nanocrystalline phase (~60 nm) with no oxide impurities, confirming detoxification and safer form.",20582186
+Transmission Electron Microscopy (TEM),CONFIRMS_SAFETY_OF,Naga Bhasma,"Reveals nanocrystalline structure with submicron particle size, indicating improved bioavailability and therapeutic efficiency.",20582186
+X-Ray Photoelectron Spectrum (XPS),CONFIRMS_SAFETY_OF,Naga Bhasma,"Confirms presence of PbS along with organic surface coating, indicating enhanced biocompatibility and safety.",20582186
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Naga Bhasma,"Shows presence of essential elements and toxic metals within permissible limits, supporting safety and added pharmacological value.",20582186
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Naga Bhasma,"Shows presence of essential elements and toxic metals within permissible limits, supporting safety and added pharmacological value.",20582186
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Naga Bhasma,"Indicates presence of organic functional groups from herbs, confirming formation of organometallic complexes that enhance efficacy.",20582186
+Histopathological Study,CONFIRMS_SAFETY_OF,Naga Bhasma,"Shows no organ or tissue toxicity compared to crude lead, confirming safety of Naga bhasma.",20582186
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Confirms complete conversion of metallic tin into stable SnO₂ (tin oxide) with high crystallinity, indicating formation of a chemically stable and less toxic compound.",16682160
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Shows reduction and stabilization of particle size (~1 μm in final stage), enhancing bioavailability and uniformity.",16682160
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Reveals increased SnO₂ content (~75.77%) with essential elements (Ca, Mg, Fe) and absence of toxic impurities, indicating improved purity and safety.",16682160
+X-Ray Photoelectron Spectrum (XPS),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Confirms tin in +4 oxidation state (SnO₂) with increased formation of stable oxide phase in final product, reducing reactivity and toxicity.",16682160
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Shows disappearance of hydroxide (Sn(OH)₄) peaks and formation of SnO₂, confirming complete transformation into a stable, non-reactive form.",16682160
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Demonstrates thermal stability from later calcination cycles with no weight loss, indicating complete conversion to stable SnO₂ and absence of volatile/toxic intermediates.",16682160
+Brunauer-Emmett-Teller (BET) Surface Area Analysis,CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Indicates stabilized particle structure with controlled surface properties, supporting improved drug stability and interaction.",16682160
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Confirms complete conversion of copper into pure crystalline CuO phase with no impurity peaks, indicating formation of a stable and less toxic compound.",16095857
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Shows formation of compact microcrystalline aggregates, suggesting stabilization of particles after repeated calcination.",16095857
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Reveals ~75% CuO with presence of carbon and essential elements, indicating improved purity and reduced toxicity.",16095857
+X-Ray Photoelectron Spectrum (XPS),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Confirms all copper present in stable Cu²⁺ (CuO) state with adsorbed oxygen, indicating chemical stability and reduced reactivity.",16095857
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Tamra Bhasma,Shows characteristic CuO peaks confirming formation of cupric oxide along with adsorbed oxygen species contributing to stability.,16095857
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Indicates minimal weight loss due to removal of adsorbed oxygen, confirming thermal stability and absence of toxic components.",16095857
+Brunauer-Emmett-Teller (BET) Surface Area Analysis,CONFIRMS_SAFETY_OF,Tamra Bhasma,"Shows reduced surface area due to larger stabilized particles, supporting lower reactivity and enhanced safety profile.",16095857
+,,,,
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Krishna Vajra Abhraka Bhasma,"Shows reduction from layered micron-sized mica to nanosized (~87 nm) particles, indicating enhanced bioavailability and reduced toxicity.",33402266
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Krishna Vajra Abhraka Bhasma,"Demonstrates decrease in aluminium (toxic marker) and incorporation of essential elements (Fe, Ca, Na, P), indicating detoxification and improved therapeutic potential.",33402266
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Krishna Vajra Abhraka Bhasma,"Confirms loss of crystalline mica structure and formation of stable oxide phases (spinel structures), indicating transformation into a chemically stable and safer form.",33402266
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Krishna Vajra Abhraka Bhasma,"Reveals uniform nanoparticle distribution (~92.9 nm), indicating better stability, absorption, and reduced toxicity.",33402266
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Krishna Vajra Abhraka Bhasma,"Shows presence of organic functional groups (OH, carbonate, silicates) from herbal media, indicating enhanced bioactivity and safer organometallic form.",33402266
+Nuclear Magnetic Resonance (NMR),CONFIRMS_SAFETY_OF,Krishna Vajra Abhraka Bhasma,"Confirms presence of organic moieties (alcohol, amine, alkyl groups), indicating incorporation of bioactive compounds that enhance efficacy and biocompatibility.",33402266
+,,,,
+Metallographic Study,CONFIRMS_SAFETY_OF,Naga Bhasma,"Shows transformation of toxic metallic lead into uniformly distributed lead sulfide (PbS) phase with absence of free lead, indicating detoxification and formation of a safer, chemically stable and therapeutically active form of Naga Bhasma.",29269968
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Mandura Bhasma,"Confirms transformation of raw iron silicate (Fe₂SiO₄) into stable ferric oxide (Fe₂O₃) with SiO₂, indicating conversion into a safer, more bio-assimilable and less toxic form.",23284206
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Mandura Bhasma,"Shows drastic particle size reduction from bulk (10⁻² mm) to nanoscale (200–300 nm) with uniform granule arrangement, indicating enhanced absorption and improved pharmaceutical activity.",23284206
+,,,,
+Toxicological Study,CONFIRMS_SAFETY_OF,Tamra Bhasma,"Shows 100% survival with no mortality even at high doses, indicating high safety margin and low acute toxicity.",23105410
+Biochemical Analysis ,CONFIRMS_SAFETY_OF,Tamra Bhasma,"No significant changes in SGOT, SGPT, ALP, LDH, urea, and creatinine at therapeutic doses, indicating absence of organ toxicity.",23105410
+Histopathological Study,CONFIRMS_SAFETY_OF,Tamra Bhasma,"Shows no structural damage in liver and kidney at therapeutic doses, confirming safety and non-toxic nature.",23105410
+Antioxidant Assay ,CONFIRMS_SAFETY_OF,Tamra Bhasma,"Demonstrates reduced lipid peroxidation and maintenance of glutathione levels at low doses, indicating enhanced antioxidant activity and therapeutic efficacy.",23105410
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Peaks matched pure Au with no extra phases confirming chemical purity and absence of toxic forms.,31730889
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Presence of nanosized spherical particles (~10 nm) indicating enhanced bioavailability and pharmacological activity.,31730889
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Swarna Bhasma ,"Detection of Au with Si, O, Fe coating suggesting surface stabilization and reduced toxicity.",31730889
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Swarna Bhasma ,"~98% Au with absence of Hg, Pb, As confirming effective detoxification and safety.",31730889
+High-resolution X-ray photoelectron spectroscopy (HRXPS),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Only Au⁰ state detected indicating stable and non-toxic metallic form.,31730889
+Haematological Study,CONFIRMS_SAFETY_OF,Swarna Bhasma ,No significant changes in blood parameters indicating non-toxic effect on blood system.,31730889
+Biochemical Analysis ,CONFIRMS_SAFETY_OF,Swarna Bhasma ,Parameters within normal range confirming no liver or kidney toxicity.,31730889
+Histopathological Study,CONFIRMS_SAFETY_OF,Swarna Bhasma ,No tissue damage observed confirming cellular level safety.,31730889
+Zebrafish Behavioural Study,CONFIRMS_SAFETY_OF,Swarna Bhasma ,No significant changes in motor behaviour with normal activity patterns and increased upper-zone preference indicating absence of toxicity and presence of anxiolytic (enhanced pharmacological) activity.,31730889
+,,,,
+Transmission Electron Microscopy (TEM),CONFIRMS_SAFETY_OF,Yashada Bhasma,Polycrystalline nano-to-micron particles observed with no size/shape difference between intermediate and final bhasma.,27377339
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Yashada Bhasma,Final bhasma predominantly ZnO (~96%) while intermediate rich in ZnS (~66%) indicating chemical transformation during processing.,27377339
+CHNS Elemental Analysis,CONFIRMS_SAFETY_OF,Yashada Bhasma,Marked reduction of sulphur from intermediate to final bhasma confirming conversion to oxide and purification.,27377339
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Yashada Bhasma,No accumulation of zinc in tissues and mercury below detection limit indicating safety and detoxification.,27377339
+Antioxidant Assay ,CONFIRMS_SAFETY_OF,Yashada Bhasma,SOD activity unchanged while GSH levels increased indicating no oxidative stress toxicity with enhanced antioxidant defense and pharmacological benefit.,27377339
+Biochemical Analysis ,CONFIRMS_SAFETY_OF,Yashada Bhasma,Parameters remained within normal range indicating no liver toxicity or renal impairment.,27377339
+Haematological Study,CONFIRMS_SAFETY_OF,Yashada Bhasma,Most blood parameters remained within normal range with minor platelet changes mainly in intermediate suggesting safety of final bhasma but incomplete processing may affect platelet turnover.,27377339
+Cytokine analysis,CONFIRMS_SAFETY_OF,Yashada Bhasma,Increased IL-2 with reduced IL-6 and TNFα indicating immunomodulatory activity with anti-inflammatory therapeutic effect.,27377339
+Single Photon Emission Computed Tomography ( SPECT),CONFIRMS_SAFETY_OF,Yashada Bhasma,Hepatic clearance and Renal clearance remains unchanged indicating normal liver and kidney function.,27377339
+,,,,
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Godanti Bhasma,Disappearance of water bands confirms conversion of gypsum to anhydrous calcium sulfate (Godanti Bhasma),39216714
+MTT Assay (Cell viability),CONFIRMS_SAFETY_OF,Godanti Bhasma,No cytotoxicity observed indicating detoxified and biocompatible bhasma,39216714
+Scratch Assay (Cell proliferation),CONFIRMS_SAFETY_OF,Godanti Bhasma,Normal cell migration and proliferation indicating no impairment of cellular function,39216714
+Caspase-3 Assay,CONFIRMS_SAFETY_OF,Godanti Bhasma,No apoptosis activation indicating non-toxic and safe nature of bhasma,39216714
+Vacuolation Assay,CONFIRMS_SAFETY_OF,Godanti Bhasma,Controlled vacuole formation indicating adaptive cellular response rather than toxicity,39216714
+pH Solubility Study,CONFIRMS_SAFETY_OF,Godanti Bhasma,Insoluble at physiological pH but dissolves in acidic conditions confirming controlled intracellular degradation,39216714
+Acridine Orange Staining,CONFIRMS_SAFETY_OF,Godanti Bhasma,Maintenance of acidic vacuoles supporting active intracellular processing and functionality,39216714
+Flow Cytometry,CONFIRMS_SAFETY_OF,Godanti Bhasma,Efficient cellular internalization and gradual intracellular degradation of particles confirmed,39216714
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Naga Bhasma,Transformation of toxic PbO into stable lead sulfide confirms detoxification and formation of therapeutically active Bhasma.,38527393
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Naga Bhasma,"Formation of nano-sized, porous particles indicates enhanced surface area and improved bioavailability.",38527393
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Naga Bhasma,Stepwise removal of moisture and volatile components confirms purification and thermal stability of final product.,38527393
+Brunauer-Emmett-Teller (BET) Surface Area Analysis,CONFIRMS_SAFETY_OF,Naga Bhasma,Increased surface area and pore distribution suggest higher reactivity and better therapeutic efficacy.,38527393
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Naga Bhasma,Presence of trace elements from processing supports biocompatibility and therapeutic potential.,38527393
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Naga Bhasma,Detection of functional groups indicates possible interaction with biological systems and pharmacological activity.,38527393
+,,,,
+Field Emission Scanning Electron Microscopy (FESEM),CONFIRMS_SAFETY_OF,Vaikranta Bhasma,Agglomerated amorphous/semi-crystalline particles of 5–20 µm confirm fine particle formation improving bioavailability and therapeutic efficacy.,24991067
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Vaikranta Bhasma,"Presence of multi-mineral elements (C, O, Na, Mg, Al, Si, S, K, Fe, B, Cr, Mn, Zn) confirms complex bioactive composition supporting rejuvenative activity.",24991067
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Vaikranta Bhasma,Detection of multiple functional groups confirms formation of stable organo-mineral complexes enhancing biological interaction and pharmacological action.,24991067
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Vaikranta Bhasma,"Majority particles in micrometer range with mean size 33.8 µm confirms size reduction aiding absorption, dose reduction, and safe therapeutic use.",24991067
+Inductively Coupled Plasma Spectroscopy (ICP),CONFIRMS_SAFETY_OF,Vaikranta Bhasma,Detection of essential trace elements with absence of mercury confirms safety and bioavailable multi-element composition supporting therapeutic efficacy.,24991067
+,,,,
+Acute Toxicity Study,CONFIRMS_SAFETY_OF,Krishna Vajra Abhraka Bhasma,"No mortality at 2000 mg/kg, normal behaviour, steady body weight gain and no organ toxicity confirming LD50 > 2000 mg/kg and high systemic safety margin.",39616794
+Haematological Study,CONFIRMS_SAFETY_OF,Krishna Vajra Abhraka Bhasma,No significant changes compared with control confirming hematopoietic safety.,39616794
+Biochemical Analysis ,CONFIRMS_SAFETY_OF,Krishna Vajra Abhraka Bhasma,No toxicity at therapeutic dose with only mild reversible hepatotoxicity at medium and high doses and no significant renal changes even at high dose confirming overall biochemical safety within clinical dose range.,39616794
+Histopathological Study,CONFIRMS_SAFETY_OF,Krishna Vajra Abhraka Bhasma,Normal liver at therapeutic dose with reversible fatty changes only at high dose and normal kidney architecture confirming absence of permanent organ toxicity and nephrotoxicity.,39616794
+,,,,
+pH Analysis,CONFIRMS_SAFETY_OF,Rasaka Bhasma,pH shifted toward near-neutral after Shodhana and Marana (ZnCO₃: 8.73 to 7.73; ZnO: 6.04 to 5.9) confirming removal of impurities and improved biocompatibility.,22048549
+Elemental Assay,CONFIRMS_SAFETY_OF,Rasaka Bhasma,Zinc percentage increased after Marana in ZnCO₃ (48.95% to 53.59%) and optimized in ZnO confirming transformation into stable therapeutic ash form.,22048549
+,,,,
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Yashada Bhasma,Yashada Bhasma contains ~78.82 wt% Zn predominantly as ZnO with trace essential elements confirming purified mineral composition.,18253947
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Yashada Bhasma,Mean particle size ~1.2 μm with nano-fraction around 30 nm confirming micro-nano size distribution.,18253947
+Transmission Electron Microscopy (TEM),CONFIRMS_SAFETY_OF,Yashada Bhasma,Fine fraction particles 15–35 nm spherical with aggregation confirming nano-scale particle formation after Bhasmikaran.,18253947
+MTT assay (A549 cells),CONFIRMS_SAFETY_OF,Yashada Bhasma,Significant increase in mitochondrial activity at 150–300 ppm confirming enhanced cellular viability and metabolic activity.,18253947
+Raman Spectroscopy ,CONFIRMS_SAFETY_OF,Yashada Bhasma,"Raman spectroscopy showed increased DNA stability, protein (β-sheet) content, lipids and carbohydrates along with strong ROS scavenging activity, confirming Yashada Bhasma as biocompatible, antioxidant and pharmacologically active.",18253947
+,,,,
+Clinical Efficacy and Safety Evaluation (Leucorrhoea),CONFIRMS_SAFETY_OF,Kukkutanda Twak Bhasma ,"Significant reduction in symptoms with 96.66% decrease in white discharge, normalization of vaginal pH in 90% patients, marked reduction in pus and epithelial cells, increase in hemoglobin in 83.33% patients, overall maximum improvement in 56.67% cases, highly significant statistical improvement (P < 0.001), and no adverse effects observed confirming strong therapeutic efficacy and safety of the bhasma.",22529653
+,,,,
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Kukkutanda Twak Bhasma ,"Presence of calcium, magnesium, sulfur and trace elements confirming mineral transformation and enrichment after processing.",30254398
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Kukkutanda Twak Bhasma ,Increased calcium content (22.75% to 41.16%) confirming mineral enrichment and formation of multiple bioactive compounds.,30254398
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Kukkutanda Twak Bhasma ,"Presence of OH, carbonate, sulfate, polysulfide and organic groups confirming incorporation of herbal and organo-mineral components.",30254398
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Kukkutanda Twak Bhasma ,Conversion from calcite (CaCO₃) in raw material to calcium hydroxide (Ca(OH)₂) crystalline form confirming complete incineration and chemical transformation.,30254398
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Kukkutanda Twak Bhasma ,"Micron-sized particles (~9-10 μm) confirming enhanced absorption, bioavailability, and reduced dose-related toxicity.",30254398
+,,,,
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Naga Bhasma,Average particle size 43.4 µm with 99% particles below 107.16 µm confirming micronized particles suitable for absorption.,41197337
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Naga Bhasma,Presence of lead sulphide (PbS) crystalline phase confirming conversion of raw lead into stable sulfide form after Bhasmikaran.,41197337
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Naga Bhasma,"Lead 21.112%, sulphur 9.7612%, arsenic 1.047% with mercury not detected confirming defined elemental composition and absence of mercury contamination.",41197337
+Acute Toxicity Study,CONFIRMS_SAFETY_OF,Naga Bhasma,No mortality or significant toxic changes observed confirming safety on repeated administration.,41197337
+Antihyperglycemic Study,CONFIRMS_SAFETY_OF,Naga Bhasma,Reduced sucrose-induced hyperglycemia at 4 and 8 hours compared to control confirming glucose-regulating activity.,41197337
+Antidiabetic Study,CONFIRMS_SAFETY_OF,Naga Bhasma,69.58% reduction in blood glucose in streptozotocin-induced diabetic rats confirming strong antidiabetic efficacy.,41197337
+,,,,
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Negligible mass loss (<0.5%) up to 1045°C confirming high thermal stability and purity.,33906452
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Diffraction peaks matched pure gold face-centered cubic structure confirming proper conversion to crystalline gold.,33906452
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Presence of nano-sized spherical gold particles entrapped in crevices confirming formation of bioavailable nano-gold.,33906452
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Only trace minor elements detected with no arsenic contamination confirming elemental safety.,33906452
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Very high gold content (96 to 98 wt.%) with mercury below detection limit confirming purity and absence of Hg toxicity.,33906452
+Pharmacokinetics (Rat Study),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Highest Cmax gold concentration in blood at 24 h confirming superior oral bioavailability.,33906452
+Bioaccumulation Study,CONFIRMS_SAFETY_OF,Swarna Bhasma ,Detectable systemic gold transport via bloodstream confirming biological absorption.,33906452
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Yashada Bhasma,Complete conversion of raw zinc into pure cubic and hexagonal ZnS with no Zn or ZnO peaks confirmed detoxification and formation of safer chemical form.,40886520
+X-Ray Photoelectron Spectrum (XPS),CONFIRMS_SAFETY_OF,Yashada Bhasma,Zn 2p and S 2p peaks confirmed correct chemical state and stable ZnS phase supporting chemical safety and purity.,40886520
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Yashada Bhasma,Particle size 250–450 nm with uniform morphology confirmed size reduction and improved absorption potential.,40886520
+Transmission Electron Microscopy (TEM),CONFIRMS_SAFETY_OF,Yashada Bhasma,Cubic and spherical nanoparticles confirmed nanoscale morphology supporting enhanced bioavailability.,40886520
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Yashada Bhasma,Major presence of Zn and S with only trace impurities confirmed purity and safe elemental composition.,40886520
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Yashada Bhasma,Mean particle size ~361 nm confirmed uniform dispersion and pharmaceutical stability in suspension.,40886520
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Yashada Bhasma,Thermal stability up to ~435°C confirmed high stability and long shelf life.,40886520
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Yashada Bhasma,Zn–S bonds and organic functional groups confirmed organo-metallic nature contributing to therapeutic activity.,40886520
+Antimicrobial Activity Test,CONFIRMS_SAFETY_OF,Yashada Bhasma,Time-dependent bactericidal activity against E. coli and S. aureus confirmed antimicrobial efficacy.,40886520
+Antioxidant Assay ,CONFIRMS_SAFETY_OF,Yashada Bhasma,"Yashada Bhasma exhibits significant free-radical scavenging activity, indicating its ability to reduce oxidative stress and suggesting potential protective and therapeutic pharmaceutical value.",40886520
+CAM Angiogenesis Assay,CONFIRMS_SAFETY_OF,Yashada Bhasma,Disrupted blood vessel formation confirmed anti-angiogenic and potential anticancer activity.,40886520
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Shankha Bhasma,"XRD confirmed transformation of aragonite CaCO₃ in raw conch to pure calcite CaCO₃ in Shankha Bhasma with no CaO formation, indicating better bioavailability and proper incineration.",30445775
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Shankha Bhasma,"SEM showed conversion from rod-like raw conch to uniform polygonal particles (6–30 µm), confirming structural transformation and uniformity of the finished product.",30445775
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Shankha Bhasma,"Finished Shankha Bhasma showed nano-/submicron particle distribution (mean ~200–350 nm), supporting enhanced absorption and improved pharmaceutical performance.",30445775
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Shankha Bhasma,"TGA demonstrated thermal stability of Shankha Bhasma up to ~750 °C and confirmed removal of moisture, organics and controlled calcite stability, proving safe and complete incineration.",30445775
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Shankha Bhasma,"FTIR peaks of carbonate vibrations confirmed stable calcite calcium carbonate and absence of unwanted chemical transformation (CaO), ensuring suitability for internal use.",30445775
+Inductively Coupled Plasma-Optical Emission Spectrometer Spectroscopy (ICP-OES),CONFIRMS_SAFETY_OF,Shankha Bhasma,"Calcium (~39.81%) and magnesium (trace) were within pharmacopoeial limits while Hg, Cd, As and Pb were absent or within safe limits, confirming safety and purity.",30445775
+,,,,
+Transmission Electron Microscopy (TEM),CONFIRMS_SAFETY_OF,Swarna Makshika Bhasma ,"Grain size reduced from 5–10 µm in raw material to 50–200 nm in Swarna Makshika Bhasma with uniform, regular and clustered nano-sized particles along with clear crystalline diffraction pattern confirming successful nano-transformation and enhanced bioavailability.",24250132
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Swarna Makshika Bhasma ,"Sulphur content markedly reduced while oxygen increased, with balanced Cu-Fe composition and addition of trace elements (Mg, Si, Al, K) confirming detoxification, oxide formation and enrichment of therapeutically beneficial elements in the final Bhasma.",24250132
+,,,,
+Transmission Electron Microscopy (TEM),CONFIRMS_SAFETY_OF,Heerak Bhasma,Presence of spherical nanodiamond particles (~100 nm) confirming successful nano-transformation and potential for enhanced bioavailability.,35444547
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Heerak Bhasma,Change in crystal structure with average particle size ~25.9 nm confirming formation of nanocrystalline diamond phase after processing.,35444547
+Raman Spectroscopy ,CONFIRMS_SAFETY_OF,Heerak Bhasma,Characteristic diamond peak at 1333 cm⁻¹ with additional sp²/sp³ bands confirming nanocrystalline diamond structure and surface functionalization.,35444547
+Field Emission Scanning Electron Microscopy (FESEM),CONFIRMS_SAFETY_OF,Heerak Bhasma,"Detection of C and O along with Si, Na, Mg, P, K and Fe confirming mineral enrichment and transformation during Ayurvedic processing.",35444547
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Heerak Bhasma,"Detection of C and O along with Si, Na, Mg, P, K and Fe confirming mineral enrichment and transformation during Ayurvedic processing.",35444547
+Cytokine analysis,CONFIRMS_SAFETY_OF,Heerak Bhasma,No change in serum IL-6 confirming absence of systemic inflammatory toxicity. Increased TNF-α and IFN-γ confirming enhanced antitumor immune response.,35444547
+Biochemical Analysis ,CONFIRMS_SAFETY_OF,Heerak Bhasma,No increase in ALT confirming absence of hepatotoxicity.,35444547
+Histopathological Study,CONFIRMS_SAFETY_OF,Heerak Bhasma,No significant tissue damage in major organs confirming systemic safety.,35444547
+Hemolysis Assay,CONFIRMS_SAFETY_OF,Heerak Bhasma,Negligible hemolysis confirming RBC compatibility and blood safety.,35444547
+Cell Viability Test,CONFIRMS_SAFETY_OF,Heerak Bhasma,High tolerance confirming cytocompatibility.,35444547
+Flow Cytometry (Immune Cell Activation & Immune Profiling),CONFIRMS_SAFETY_OF,Heerak Bhasma,"Increased expression of CD40, CD80, CD86 and MHC-II on dendritic cells with increased tumor-infiltrating CD8⁺ T cells and reduced CD4⁺CD25⁺FOXP3⁺ regulatory T cells confirming strong immune activation and reactivation of antitumor immunity.",35444547
+In-vivo Antitumor Efficacy Study,CONFIRMS_SAFETY_OF,Heerak Bhasma,Significant reduction in tumor weight and tumor volume with increased survival time confirming therapeutic efficacy and disease-protective effect.,35444547
+Apoptosis & Cell Proliferation Assays (FACS + Ki-67 IHC) ,CONFIRMS_SAFETY_OF,Heerak Bhasma,Increased tumor cell apoptosis with reduced Ki-67 proliferation index confirming tumoricidal and antiproliferative activity.,35444547
+,,,,
+Antimicrobial Activity Test,CONFIRMS_SAFETY_OF,Abhraka Bhasma,Significant reduction in CFU and absorbance against S. aureus and MRSA confirming antibacterial efficacy of laboratory-prepared Abhraka Bhasma against Gram-positive bacteria.,35277158
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Abhraka Bhasma,Transformation of biotite mica with formation of iron-oxide–rich and amorphous phases confirming physicochemical modification during processing linked to antimicrobial activity.,35277158
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"High iron with presence of antimicrobial trace metals (Zn, Mn, Cu, Sr, Pb) confirming release of antimicrobial cations contributing to antibacterial activity.",35277158
+Cation Exchange Capacity (CEC) Analysis,CONFIRMS_SAFETY_OF,Abhraka Bhasma,Moderate CEC values confirming ability to release bioactive cations in aqueous medium enhancing antimicrobial action.,35277158
+Brine Shrimp Lethality Assay ,CONFIRMS_SAFETY_OF,Abhraka Bhasma,No time- or dose-dependent lethality up to 10 mg/ml confirming absence of cytotoxicity and safety at tested dose.,35277158
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Intense FCC peaks matching JCPDS gold standard confirmed swarna bhasma as crystalline pure gold nanoparticles.,34690042
+Field Emission Scanning Electron Microscopy (FESEM),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Agglomerated nanoparticle clusters confirmed nano-structured morphology and high surface area for enhanced pharmacological activity.,34690042
+Field Emission Transmission Electron Microscopy (FETEM),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Spherical polycrystalline gold nanoparticles of 5–20 nm confirmed nanosization enhancing bioavailability and cellular interaction.,34690042
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Swarna Bhasma ,"Absence of mercury and sulfur confirmed detoxification, while presence of trace bioelements confirmed added pharmaceutical value.",34690042
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Swarna Bhasma ,Only adsorbed water molecules detected and absence of organic residues confirmed purity and high-temperature stabilization.,34690042
+Energy Dispersive X-ray Fluorescence (EDXRF) ,CONFIRMS_SAFETY_OF,Swarna Bhasma ,Dominant gold peaks with absence of mercury confirmed safety and purity of final product.,34690042
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Endothermic peak at ~750-900 °C confirmed transformation of Au-Hg-S amalgam into stable bhasma form and complete removal of mercury.,34690042
+Gravimetric Gold Estimation,CONFIRMS_SAFETY_OF,Swarna Bhasma ,~95% gold content confirmed high purity and standardization of the formulation.,34690042
+,,,,
+Energy Dispersive X-ray Fluorescence (EDXRF) ,CONFIRMS_SAFETY_OF,Mukta Shukti Bhasma,"Showed Ca as major element with trace Sr, Mn, P, Si and absence of toxic metals confirming purity and safety.",39210691
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Mukta Shukti Bhasma,Complete transformation of aragonite to stable calcite CaCO₃ proving proper incineration and enhanced stability.,39210691
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Mukta Shukti Bhasma,Needle-like raw particles converted into smooth polygonal micro-particles indicating detoxification and reduced irritation.,39210691
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Mukta Shukti Bhasma,Particle size reduced to ~2 µm after processing supporting improved dissolution and bioavailability.,39210691
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Mukta Shukti Bhasma,Single-step weight loss near 640 °C confirmed thermal stability and absence of organic impurities.,39210691
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Mukta Shukti Bhasma,Strong carbonate peaks confirmed pure CaCO₃ and removal of organic matrix.,39210691
+Titratable Calcium,CONFIRMS_SAFETY_OF,Mukta Shukti Bhasma,38–42% bioavailable calcium confirmed standardization and therapeutic suitability.,39210691
+Energy Dispersive X-ray Fluorescence (EDXRF) ,CONFIRMS_SAFETY_OF,Mukta Bhasma,"Major Ca with trace Sr, Mn, P and absence of Bi/Cu confirmed purity and non-adulteration.",39210691
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Mukta Bhasma,Complete conversion of aragonite pearl to calcite CaCO₃ proving complete incineration and improved stability.,39210691
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Mukta Bhasma,Irregular sharp crystals transformed into smooth uniform particles indicating detoxification.,39210691
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Mukta Bhasma,Reduction to ~2 µm micro-nano range supporting better absorption and bioavailability.,39210691
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Mukta Bhasma,Single decomposition step confirmed absence of residual organics and stable dosage form.,39210691
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Mukta Bhasma,Strong carbonate peaks confirmed complete removal of organic protein matrix.,39210691
+Titratable Calcium,CONFIRMS_SAFETY_OF,Mukta Bhasma,High bioavailable calcium content confirmed enhanced pharmaceutical value.,39210691
+Energy Dispersive X-ray Fluorescence (EDXRF) ,CONFIRMS_SAFETY_OF,Kapardika Bhasma,"Dominant Ca with trace Sr, Mn, Si and absence of toxic elements confirmed safety.",39210691
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Kapardika Bhasma,Aragonite completely converted into calcite CaCO₃ confirming proper marana and stability.,39210691
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Kapardika Bhasma,Sharp layered shell structure converted into smooth fine particles indicating detoxification.,39210691
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Kapardika Bhasma,Particle size reduced to ~2 µm supporting improved absorption and therapeutic action.,39210691
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Kapardika Bhasma,Single stage thermal decomposition confirmed chemical purity and absence of organic residues.,39210691
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Kapardika Bhasma,Carbonate bands confirmed pure CaCO₃ and chemical stability.,39210691
+Titratable Calcium,CONFIRMS_SAFETY_OF,Kapardika Bhasma,Consistent calcium content confirmed standardized pharmaceutical quality.,39210691
+Energy Dispersive X-ray Fluorescence (EDXRF) ,CONFIRMS_SAFETY_OF,Praval Bhasma,"Major Ca with trace Sr, Mn, P and absence of heavy metals confirmed purity and safety.",39210691
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Praval Bhasma,Conversion of aragonite coral to calcite CaCO₃ confirmed proper incineration and enhanced stability.,39210691
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Praval Bhasma,Needle-like coral crystals converted into smooth polygonal particles indicating detoxification.,39210691
+Dynamic Light Scattering (DLS),CONFIRMS_SAFETY_OF,Praval Bhasma,Particle size reduced to ~2 µm enhancing dissolution and bioavailability.,39210691
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Praval Bhasma,Single decomposition event confirmed absence of organic impurities and good thermal stability.,39210691
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Praval Bhasma,Strong carbonate peaks confirmed complete removal of organic matter.,39210691
+Titratable Calcium,CONFIRMS_SAFETY_OF,Praval Bhasma,High and consistent bioavailable calcium confirmed increased pharmaceutical value.,39210691
+,,,,
+Inductively Coupled Plasma-Optical Emission Spectrometer Spectroscopy (ICP-OES),CONFIRMS_SAFETY_OF,Shodhita Gairika,"Presence of essential ions (Na, K, Ca, Mg, Al, Fe) confirmed nutritional and antacid-supporting mineral composition.",38075496
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Shodhita Gairika,"Characteristic bands of kaolin, quartz, iron oxide and herbal metabolites confirmed formation of organo-mineral complex.",38075496
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Shodhita Gairika,"Presence of hematite, kaolinite, quartz and illite confirmed mineral phase integrity and formulation authenticity.",38075496
+Thermo-Gravimetric Analysis (TGA),CONFIRMS_SAFETY_OF,Shodhita Gairika,Multi-step degradation confirmed interaction of minerals with ghee and herbal phytochemicals forming stable complexes.,38075496
+Antioxidant Assay ,CONFIRMS_SAFETY_OF,Shodhita Gairika,IC50 of 12.16 mg/mL confirmed significant antioxidant potential of the formulation.,38075496
+SEM-EDX Analysis,CONFIRMS_SAFETY_OF,Shodhita Gairika,Reduction of Fe content and formation of disc-shaped macroparticles confirmed detoxification and phytochemical chelation.,38075496
+Antacid Activity Study,CONFIRMS_SAFETY_OF,Shodhita Gairika,Laghu Sutashekhara Rasa (LSR) a formulation made from Shodhita Gairika showed higher antacid activity than marketed Gelusil and activity comparable to CaCO₃ confirming strong antacid efficacy.,38075496
+,,,,
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Kasisa Bhasma ,High iron content (~62-92% Fe) confirmed successful conversion into iron-rich therapeutic mineral form.,23284208
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Kasisa Bhasma ,Sharp diffraction peaks confirmed crystalline mineral phase formation and successful bhasma transformation.,23284208
+,,,,
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Swarna Makshika Bhasma ,"Final bhasma showed high Fe₂O₃ (38-47%) and Cu (35-44%) with minimal silica, confirming successful mineral transformation into therapeutically active inorganic form.",30952470
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Swarna Makshika Bhasma ,50% particles <20 µm and ~36-47% <10 µm confirmed micro-fine particles enhancing solubility and bioavailability.,30952470
+,,,,
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Presence of essential trace elements (Mn, Cu, Zn, Co) with absence of cadmium confirms lack of heavy-metal toxicity and safe multi-elemental composition.",10465655
+Haemoglobin Estimation,CONFIRMS_SAFETY_OF,Lauha Bhasma,Significant increase in haemoglobin level with 117.86% haemoglobin regeneration efficiency confirms strong haematinic activity and superior bioavailability compared to the standard drug.,10465655
+Serum Iron Profile Tests (Iron absorption and storage),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Significant increase in serum iron and serum ferritin along with a decrease in Total Iron Binding Capacity (TIBC) confirms enhanced iron absorption, improved storage and efficient utilization of iron.",10465655
+,,,,
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Tamra Bhasma,"XRD analysis of the entire formulation (Hridayarnava Rasa) shows formation of copper sulphide (CuS) and mercury sulphide (HgS) crystalline phases confirms conversion of toxic metals into stable, least-toxic sulphide forms suitable for medicinal use.",38759538
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Shodhita Parada,"XRD analysis of the entire formulation (Hridayarnava Rasa) shows formation of copper sulphide (CuS) and mercury sulphide (HgS) crystalline phases confirms conversion of toxic metals into stable, least-toxic sulphide forms suitable for medicinal use.",38759538
+Field Emission Gun-Scanning Electron Microscopy (FEG-SEM),CONFIRMS_SAFETY_OF,Tamra Bhasma,FEG-SEM of the formulation (Hridayarnava Rasa) shows Presence of nanoparticles (<20 nm) confirms particle size reduction leading to improved absorption and bioavailability.,38759538
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Tamra Bhasma,"EDAX of the entire formulation shows presence of essential minerals (Fe, Ca, K, Mg) supporting metabolism and absence of toxic heavy metals beyond safety limits confirms elemental safety and synergistic therapeutic potential.",38759538
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Shodhita Parada,"EDAX of the entire formulation shows presence of essential minerals (Fe, Ca, K, Mg) supporting metabolism and absence of toxic heavy metals beyond safety limits confirms elemental safety and synergistic therapeutic potential.",38759538
+Energy Dispersive X-Ray Spectroscopy (EDAX),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"EDAX of the entire formulation shows presence of essential minerals (Fe, Ca, K, Mg) supporting metabolism and absence of toxic heavy metals beyond safety limits confirms elemental safety and synergistic therapeutic potential.",38759538
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Elemental analysis of the formulation shows Arsenic, lead and cadmium within WHO safety limits and mercury present predominantly in sulphide form confirms reduced toxicity and safe medicinal composition.",38759538
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Shodhita Parada,"Elemental analysis of the formulation shows Arsenic, lead and cadmium within WHO safety limits and mercury present predominantly in sulphide form confirms reduced toxicity and safe medicinal composition.",38759538
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Elemental analysis of the formulation shows Arsenic, lead and cadmium within WHO safety limits and mercury present predominantly in sulphide form confirms reduced toxicity and safe medicinal composition.",38759538
+Thermogravimetric Analysis-Differential Scanning Calorimetry (TGA-DSC),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Thermal behavior of formulation confirms formation of stable, non-toxic sulphur and mercury compounds and minimal moisture/organic decomposition, indicating formulation stability and safety.",38759538
+Thermogravimetric Analysis-Differential Scanning Calorimetry (TGA-DSC),CONFIRMS_SAFETY_OF,Shodhita Parada,"Thermal behavior of formulation confirms formation of stable, non-toxic sulphur and mercury compounds and minimal moisture/organic decomposition, indicating formulation stability and safety.",38759538
+Thermogravimetric Analysis-Differential Scanning Calorimetry (TGA-DSC),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Thermal behavior of formulation confirms formation of stable, non-toxic sulphur and mercury compounds and minimal moisture/organic decomposition, indicating formulation stability and safety.",38759538
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Tamra Bhasma,"Detection of organic functional groups confirms organic coating on metallic particles, acting as carriers that enhance absorption, bioavailability and efficacy.",38759538
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Shodhita Parada,"Detection of organic functional groups confirms organic coating on metallic particles, acting as carriers that enhance absorption, bioavailability and efficacy.",38759538
+Fourier Transform Infrared Spectroscopy (FTIR) ,CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Detection of organic functional groups confirms organic coating on metallic particles, acting as carriers that enhance absorption, bioavailability and efficacy.",38759538
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Significant proportion of particles in micro-to-nano range ensures faster dissolution, improved absorption, lower required dosage and reduced toxicity.",38759538
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Shodhita Parada,"Significant proportion of particles in micro-to-nano range ensures faster dissolution, improved absorption, lower required dosage and reduced toxicity.",38759538
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Shodhita Gandhaka,"Significant proportion of particles in micro-to-nano range ensures faster dissolution, improved absorption, lower required dosage and reduced toxicity.",38759538
+,,,,
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Abhraka Bhasma,Majority of particles present in the formulation (Mahalaxmivilas Rasa) was in micro-range (3.46–210 µm) confirming particle size reduction and improved dissolution and gastrointestinal absorption.,30466809
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Vanga Bhasma ,Majority of particles present in the formulation (Mahalaxmivilas Rasa) was in micro-range (3.46–210 µm) confirming particle size reduction and improved dissolution and gastrointestinal absorption.,30466809
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Swarna Bhasma ,Majority of particles present in the formulation (Mahalaxmivilas Rasa) was in micro-range (3.46–210 µm) confirming particle size reduction and improved dissolution and gastrointestinal absorption.,30466809
+Particle Size Distribution (PSD),CONFIRMS_SAFETY_OF,Tamra Bhasma,Majority of particles present in the formulation (Mahalaxmivilas Rasa) was in micro-range (3.46–210 µm) confirming particle size reduction and improved dissolution and gastrointestinal absorption.,30466809
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"ICP-AES of the entire formulation confirms the presence of therapeutically important elements (Hg, S, Fe, Sn, Au, Cu, Ca, Mg etc.) with heavy metals (Cd, Pb, As) within permissible limits confirms controlled composition and safety.",30466809
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"ICP-AES of the entire formulation confirms the presence of therapeutically important elements (Hg, S, Fe, Sn, Au, Cu, Ca, Mg etc.) with heavy metals (Cd, Pb, As) within permissible limits confirms controlled composition and safety.",30466809
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Swarna Bhasma ,"ICP-AES of the entire formulation confirms the presence of therapeutically important elements (Hg, S, Fe, Sn, Au, Cu, Ca, Mg etc.) with heavy metals (Cd, Pb, As) within permissible limits confirms controlled composition and safety.",30466809
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Tamra Bhasma,"ICP-AES of the entire formulation confirms the presence of therapeutically important elements (Hg, S, Fe, Sn, Au, Cu, Ca, Mg etc.) with heavy metals (Cd, Pb, As) within permissible limits confirms controlled composition and safety.",30466809
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Shodhita Haratala,"ICP-AES of the entire formulation confirms the presence of therapeutically important elements (Hg, S, Fe, Sn, Au, Cu, Ca, Mg etc.) with heavy metals (Cd, Pb, As) within permissible limits confirms controlled composition and safety.",30466809
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"Detection of stable crystalline phases in the entire formulation such as cinnabar (HgS), sulphur, cassiterite (SnO₂), orpiment (As₂S₃) and mica confirms conversion of toxic metals into stable sulphide/oxide mineral forms and long-term chemical stability.",30466809
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Detection of stable crystalline phases in the entire formulation such as cinnabar (HgS), sulphur, cassiterite (SnO₂), orpiment (As₂S₃) and mica confirms conversion of toxic metals into stable sulphide/oxide mineral forms and long-term chemical stability.",30466809
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Swarna Bhasma ,"Detection of stable crystalline phases in the entire formulation such as cinnabar (HgS), sulphur, cassiterite (SnO₂), orpiment (As₂S₃) and mica confirms conversion of toxic metals into stable sulphide/oxide mineral forms and long-term chemical stability.",30466809
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Tamra Bhasma,"Detection of stable crystalline phases in the entire formulation such as cinnabar (HgS), sulphur, cassiterite (SnO₂), orpiment (As₂S₃) and mica confirms conversion of toxic metals into stable sulphide/oxide mineral forms and long-term chemical stability.",30466809
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Shodhita Haratala,"Detection of stable crystalline phases in the entire formulation such as cinnabar (HgS), sulphur, cassiterite (SnO₂), orpiment (As₂S₃) and mica confirms conversion of toxic metals into stable sulphide/oxide mineral forms and long-term chemical stability.",30466809
+,,,,
+In-vivo Chromosomal Aberration Assay (Genotoxicity test),CONFIRMS_SAFETY_OF,Tamra Bhasma,"No chromosomal breaks, gaps, stickiness, ring formation, translocation or centric fusion observed, confirming absence of genotoxic and mutagenic potential in formulation prepared using tamra bhasma.",25948961
+Sperm Morphology Assay (Genotoxicity test),CONFIRMS_SAFETY_OF,Tamra Bhasma,"No abnormalities in sperm head or tail morphology, confirming absence of reproductive toxicity and genetic damage in formulation prepared using Tamra bhasma.",25948961
+,,,,
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Praval Bhasma,"Toxic heavy metals (Pb, Cd, As, Hg, Cr) were quantitatively estimated in the entire formulation and found within permissible safety limits, confirming absence of hazardous heavy-metal toxicity in the formulation.",29269973
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"Toxic heavy metals (Pb, Cd, As, Hg, Cr) were quantitatively estimated in the entire formulation and found within permissible safety limits, confirming absence of hazardous heavy-metal toxicity in the formulation.",29269973
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Rajata Bhasma,"Toxic heavy metals (Pb, Cd, As, Hg, Cr) were quantitatively estimated in the entire formulation and found within permissible safety limits, confirming absence of hazardous heavy-metal toxicity in the formulation.",29269973
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Swarna Bhasma ,"Toxic heavy metals (Pb, Cd, As, Hg, Cr) were quantitatively estimated in the entire formulation and found within permissible safety limits, confirming absence of hazardous heavy-metal toxicity in the formulation.",29269973
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Toxic heavy metals (Pb, Cd, As, Hg, Cr) were quantitatively estimated in the entire formulation and found within permissible safety limits, confirming absence of hazardous heavy-metal toxicity in the formulation.",29269973
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Naga Bhasma,"Toxic heavy metals (Pb, Cd, As, Hg, Cr) were quantitatively estimated in the entire formulation and found within permissible safety limits, confirming absence of hazardous heavy-metal toxicity in the formulation.",29269973
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Toxic heavy metals (Pb, Cd, As, Hg, Cr) were quantitatively estimated in the entire formulation and found within permissible safety limits, confirming absence of hazardous heavy-metal toxicity in the formulation.",29269973
+Atomic Absorption Spectrometry (AAS),CONFIRMS_SAFETY_OF,Mukta Pishti,"Toxic heavy metals (Pb, Cd, As, Hg, Cr) were quantitatively estimated in the entire formulation and found within permissible safety limits, confirming absence of hazardous heavy-metal toxicity in the formulation.",29269973
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Praval Bhasma,"In the firmulation the essential and trace elements (Mg, Cu, B, Mn, Al etc.) detected in controlled therapeutic ranges without abnormal accumulation, confirming safe elemental composition and proper transformation of mineral ingredients.",29269973
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"In the firmulation the essential and trace elements (Mg, Cu, B, Mn, Al etc.) detected in controlled therapeutic ranges without abnormal accumulation, confirming safe elemental composition and proper transformation of mineral ingredients.",29269973
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Rajata Bhasma,"In the firmulation the essential and trace elements (Mg, Cu, B, Mn, Al etc.) detected in controlled therapeutic ranges without abnormal accumulation, confirming safe elemental composition and proper transformation of mineral ingredients.",29269973
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Swarna Bhasma ,"In the firmulation the essential and trace elements (Mg, Cu, B, Mn, Al etc.) detected in controlled therapeutic ranges without abnormal accumulation, confirming safe elemental composition and proper transformation of mineral ingredients.",29269973
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Lauha Bhasma,"In the firmulation the essential and trace elements (Mg, Cu, B, Mn, Al etc.) detected in controlled therapeutic ranges without abnormal accumulation, confirming safe elemental composition and proper transformation of mineral ingredients.",29269973
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Naga Bhasma,"In the firmulation the essential and trace elements (Mg, Cu, B, Mn, Al etc.) detected in controlled therapeutic ranges without abnormal accumulation, confirming safe elemental composition and proper transformation of mineral ingredients.",29269973
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"In the firmulation the essential and trace elements (Mg, Cu, B, Mn, Al etc.) detected in controlled therapeutic ranges without abnormal accumulation, confirming safe elemental composition and proper transformation of mineral ingredients.",29269973
+Inductively Coupled Plasma-Atomic Emission Spectroscopy (ICP-AES),CONFIRMS_SAFETY_OF,Mukta Pishti,"In the firmulation the essential and trace elements (Mg, Cu, B, Mn, Al etc.) detected in controlled therapeutic ranges without abnormal accumulation, confirming safe elemental composition and proper transformation of mineral ingredients.",29269973
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Praval Bhasma,"The formulation contains stable crystalline phases such as cinnabar (HgS), cassiterite (SnO₂), massicot (PbO) and magnetite (Fe₃O₄) confirmed with identical patterns across batches, indicating stable, transformed and intact mineral forms supporting safety and stability of bhasma-based formulation.",29269973
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"The formulation contains stable crystalline phases such as cinnabar (HgS), cassiterite (SnO₂), massicot (PbO) and magnetite (Fe₃O₄) confirmed with identical patterns across batches, indicating stable, transformed and intact mineral forms supporting safety and stability of bhasma-based formulation.",29269973
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Rajata Bhasma,"The formulation contains stable crystalline phases such as cinnabar (HgS), cassiterite (SnO₂), massicot (PbO) and magnetite (Fe₃O₄) confirmed with identical patterns across batches, indicating stable, transformed and intact mineral forms supporting safety and stability of bhasma-based formulation.",29269973
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Swarna Bhasma ,"The formulation contains stable crystalline phases such as cinnabar (HgS), cassiterite (SnO₂), massicot (PbO) and magnetite (Fe₃O₄) confirmed with identical patterns across batches, indicating stable, transformed and intact mineral forms supporting safety and stability of bhasma-based formulation.",29269973
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Lauha Bhasma,"The formulation contains stable crystalline phases such as cinnabar (HgS), cassiterite (SnO₂), massicot (PbO) and magnetite (Fe₃O₄) confirmed with identical patterns across batches, indicating stable, transformed and intact mineral forms supporting safety and stability of bhasma-based formulation.",29269973
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Naga Bhasma,"The formulation contains stable crystalline phases such as cinnabar (HgS), cassiterite (SnO₂), massicot (PbO) and magnetite (Fe₃O₄) confirmed with identical patterns across batches, indicating stable, transformed and intact mineral forms supporting safety and stability of bhasma-based formulation.",29269973
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"The formulation contains stable crystalline phases such as cinnabar (HgS), cassiterite (SnO₂), massicot (PbO) and magnetite (Fe₃O₄) confirmed with identical patterns across batches, indicating stable, transformed and intact mineral forms supporting safety and stability of bhasma-based formulation.",29269973
+,,,,
+Phosphomolybdic Acid Free Metal Test,CONFIRMS_SAFETY_OF,Vanga Bhasma ,"No color change observed indicating absence of free elemental metals, confirming detoxification and safety of the Bhasma and final formulation.",23723650
+Phosphomolybdic Acid Free Metal Test,CONFIRMS_SAFETY_OF,Abhraka Bhasma,"No color change observed indicating absence of free elemental metals, confirming detoxification and safety of the Bhasma and final formulation.",23723650
+Phosphomolybdic Acid Free Metal Test,CONFIRMS_SAFETY_OF,Lauha Bhasma,"No color change observed indicating absence of free elemental metals, confirming detoxification and safety of the Bhasma and final formulation.",23723650
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Metals present only as stable oxides/sulphides (Fe₂O₃ major phase; SnO₂, HgS, SiO₂, HgO minor phases) confirming safe chemical transformation of toxic metals into non-reactive forms.",23723650
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"Metals present only as stable oxides/sulphides (Fe₂O₃ major phase; SnO₂, HgS, SiO₂, HgO minor phases) confirming safe chemical transformation of toxic metals into non-reactive forms.",23723650
+X-Ray Diffraction (XRD),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Metals present only as stable oxides/sulphides (Fe₂O₃ major phase; SnO₂, HgS, SiO₂, HgO minor phases) confirming safe chemical transformation of toxic metals into non-reactive forms.",23723650
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Vanga Bhasma ,"Homogeneous micro-to-nano particle distribution (majority 0.5–2 µm) confirming high dispersion, reduced toxicity risk and improved biological compatibility of Bhasma-based formulation.",23723650
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Abhraka Bhasma,"Homogeneous micro-to-nano particle distribution (majority 0.5–2 µm) confirming high dispersion, reduced toxicity risk and improved biological compatibility of Bhasma-based formulation.",23723650
+Scanning Electron Microscopy (SEM),CONFIRMS_SAFETY_OF,Lauha Bhasma,"Homogeneous micro-to-nano particle distribution (majority 0.5–2 µm) confirming high dispersion, reduced toxicity risk and improved biological compatibility of Bhasma-based formulation.",23723650
+,,,,
+Clinical Study,CONFIRMS_SAFETY_OF,Shodhita Bhanga,"Shodhita Bhanga significantly reduced pain (84.1%), anxiety, and depression, improved quality of life, and showed no major adverse effects, dependency, or withdrawal symptoms. In contrast, unprocessed Cannabis is associated with habit formation and cognitive impairment, indicating that Shodhana improves its safety and therapeutic efficacy.",31831967

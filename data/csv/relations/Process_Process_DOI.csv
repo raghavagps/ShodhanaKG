@@ -1,0 +1,11 @@
+﻿Process,Relationship,Process_1,DOI
+Marana,FOLLOWED_BY,Amritikarana,10.5005/jp-journals-10059-0037
+,,,
+Jarana,FOLLOWED_BY,Marana,10.4103/AYU.AYU_87_20
+,,,
+Dhanyabhraka,FOLLOWED_BY,Marana,10.5005/jdras-10059-0086
+Marana,FOLLOWED_BY,Lohitikarana ,10.5005/jdras-10059-0086
+Lohitikarana ,FOLLOWED_BY,Amritikarana,10.5005/jdras-10059-0086
+,,,
+Jarana,FOLLOWED_BY,Prakshalana,10.70066/jahm.v14i1.2407
+Prakshalana,FOLLOWED_BY,Marana,10.70066/jahm.v14i1.2407
