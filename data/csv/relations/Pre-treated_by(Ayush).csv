@@ -1,0 +1,51 @@
+﻿Disease,Relationship,Therapy,Ayush_ID
+Pityriasis Rubra Pilaris,PRE_TREATED_BY,Oral Medication,254481
+,,,
+Acute Renal Calculus,PRE_TREATED_BY,Oral Medication,164098
+,,,
+Neurogenic Bladder,PRE_TREATED_BY,Sitz Bath,22455
+Neurogenic Bladder,PRE_TREATED_BY,Shamana,22455
+,,,
+Irritable Bowel Syndrome,PRE_TREATED_BY,Abhyanga,254505
+Irritable Bowel Syndrome,PRE_TREATED_BY,Swedana,254505
+,,,
+Lumbo-Sacral Disorder,PRE_TREATED_BY,Oral Medication,2885
+,,,
+Sciatica,PRE_TREATED_BY,Abhyanga,165226
+Sciatica,PRE_TREATED_BY,Nadi Swedana,165226
+,,,
+Rheumatoid Arthritis,PRE_TREATED_BY,Shamana,238662
+,,,
+Rheumatoid Arthritis,PRE_TREATED_BY,Sarvanga Abhyanga,96745
+Rheumatoid Arthritis,PRE_TREATED_BY,Bashpa Swedana,96745
+,,,
+Tubal Blockage,PRE_TREATED_BY,Snehana,96628
+Tubal Blockage,PRE_TREATED_BY,Nadi Swedana,96628
+Tubal Blockage,PRE_TREATED_BY,Yoni Prakshalana,96628
+,,,
+Diabetes Mellitus,PRE_TREATED_BY,Pachana,239363
+Diabetes Mellitus,PRE_TREATED_BY,Snehana,239363
+,,,
+Ankylosing Spondylitis,PRE_TREATED_BY,Internal Medication,239277
+,,,
+Alopecia,PRE_TREATED_BY,Shamana,238408
+,,,
+Osteoarthritis,PRE_TREATED_BY,Sarvanga Abhyanga,237938
+Osteoarthritis,PRE_TREATED_BY,Bashpa Swedana,237938
+,,,
+Sciatica,PRE_TREATED_BY,Pachana,226987
+Sciatica,PRE_TREATED_BY,Abhyanga,226987
+,,,
+Diabetic Neuropathy,PRE_TREATED_BY,Internal Medication,256285
+,,,
+Global Developmental Delay,PRE_TREATED_BY,Shamana,256281
+,,,
+Avascular Necrosis,PRE_TREATED_BY,Deepana Pachana,7494
+,,,
+Cerebral Palsy,PRE_TREATED_BY,Oral Medication,121746
+,,,
+Avascular Necrosis,PRE_TREATED_BY,Oral Medication,256282
+,,,
+Irritable Bowel Syndrome,PRE_TREATED_BY,Oral Medication,237978
+,,,
+Hemiplegia,PRE_TREATED_BY,Internal Medication,239324

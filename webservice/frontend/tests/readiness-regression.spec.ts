@@ -47,7 +47,7 @@ test('Chat and search work while the decorative homepage iframe is pending', asy
     expect(answer.context.retrieval.results.length).toBeGreaterThan(0);
     expect(answer.context.retrieval.results.every(r => r.nodes.at(-1).type === 'Shodhana_Method')).toBe(true);
     await page.keyboard.press('Escape');
-    for (const name of ['Total Nodes', 'Total Relations', 'Distinct References']) {
+    for (const name of ['Total Nodes', 'Total Relations', 'Total Studies']) {
       await expect(page.getByText(name, { exact: true })).toBeVisible();
     }
     await page.getByRole('link', { name: 'Advanced Search', exact: true }).click();

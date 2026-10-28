@@ -1,0 +1,730 @@
+﻿Disease,Relationship,Therapy,Pubmed_ID
+Erythrodermic Psoriasis,TREATED_BY,Kashaya Dhara,35348057
+Erythrodermic Psoriasis,TREATED_BY,Snehapana,35348057
+Erythrodermic Psoriasis,TREATED_BY,Abhyanga,35348057
+Erythrodermic Psoriasis,TREATED_BY,Vamana,35348057
+Erythrodermic Psoriasis,TREATED_BY,Raktamokshana,35348057
+Erythrodermic Psoriasis,TREATED_BY,Utsadana,35348057
+Erythrodermic Psoriasis,TREATED_BY,Virechana,35348057
+,,,
+Alopecia,TREATED_BY,Snehapana,35868136
+Alopecia,TREATED_BY,Abhyanga,35868136
+Alopecia,TREATED_BY,Sarvanga Bashpa Swedana,35868136
+Alopecia,TREATED_BY,Vamana,35868136
+Alopecia,TREATED_BY,Nasya,35868136
+Alopecia,TREATED_BY,Samsarjana Karma,35868136
+Alopecia,TREATED_BY,Virechana,35868136
+Alopecia,TREATED_BY,Prachanna Karma,35868136
+Alopecia,TREATED_BY,Shirolepa,35868136
+Alopecia,TREATED_BY,Basti,35868136
+Alopecia,TREATED_BY,Raktamokshana,35868136
+,,,
+Rheumatoid Arthritis,TREATED_BY,Virechana,27833370
+Rheumatoid Arthritis,TREATED_BY,Samsarjana Karma,27833370
+Rheumatoid Arthritis,TREATED_BY,Deepana Pachana,27833370
+Rheumatoid Arthritis,TREATED_BY,Snehapana,27833370
+Rheumatoid Arthritis,TREATED_BY,Swedana,27833370
+Rheumatoid Arthritis,TREATED_BY,Abhyanga,27833370
+,,,
+Psoriasis,TREATED_BY,Koshtha Pareeksha,23559794
+Psoriasis,TREATED_BY,Deepana Pachana,23559794
+Psoriasis,TREATED_BY,Snehapana,23559794
+Psoriasis,TREATED_BY,Abhyanga,23559794
+Psoriasis,TREATED_BY,Swedana,23559794
+Psoriasis,TREATED_BY,Dhumpana,23559794
+Psoriasis,TREATED_BY,Vamana,23559794
+Psoriasis,TREATED_BY,Samsarjana Karma,23559794
+Psoriasis,TREATED_BY,Virechana,23559794
+,,,
+Chronic Urticaria,TREATED_BY,Deepana Pachana,35255270
+Chronic Urticaria,TREATED_BY,Snehapana,35255270
+Chronic Urticaria,TREATED_BY,Abhyanga,35255270
+Chronic Urticaria,TREATED_BY,Vamana,35255270
+Chronic Urticaria,TREATED_BY,Samsarjana Karma,35255270
+Chronic Urticaria,TREATED_BY,Sadyo Virechana,35255270
+,,,
+Eczema,TREATED_BY,Jalaukavacharana Karma,23049187
+Eczema,TREATED_BY,Siravedha,23049187
+Eczema,TREATED_BY,Raktamokshana,23049187
+,,,
+,,,
+Psoriasis,TREATED_BY,Pachana,39826302
+Psoriasis,TREATED_BY,Snehapana,39826302
+Psoriasis,TREATED_BY,Abhyanga,39826302
+Psoriasis,TREATED_BY,Swedana,39826302
+Psoriasis,TREATED_BY,Virechana,39826302
+Psoriasis,TREATED_BY,Samsarjana Karma,39826302
+,,,
+Visphota Kushta,TREATED_BY,Kashaya Dhara,30660453
+Visphota Kushta,TREATED_BY,Snehapana,30660453
+Visphota Kushta,TREATED_BY,Abhyanga,30660453
+Visphota Kushta,TREATED_BY,Virechana,30660453
+,,,
+Psoriasis Vulgaris,TREATED_BY,Vamana,30606464
+Psoriasis Vulgaris,TREATED_BY,Virechana,30606464
+,,,
+Psoriasis,TREATED_BY,Vamana,34758243
+Psoriasis,TREATED_BY,Virechana,34758243
+Psoriasis,TREATED_BY,Raktamokshana,34758243
+Psoriasis,TREATED_BY,Siravedha,34758243
+Psoriasis,TREATED_BY,Samsarjana Karma,34758243
+,,,
+Scalp Psoriasis,TREATED_BY,Deepana Pachana,40492749
+Scalp Psoriasis,TREATED_BY,Snehapana,40492749
+Scalp Psoriasis,TREATED_BY,Abhyanga,40492749
+Scalp Psoriasis,TREATED_BY,Swedana,40492749
+Scalp Psoriasis,TREATED_BY,Dhumpana,40492749
+Scalp Psoriasis,TREATED_BY,Vamana,40492749
+Scalp Psoriasis,TREATED_BY,Samsarjana Karma,40492749
+Scalp Psoriasis,TREATED_BY,Raktamokshana,40492749
+,,,
+Epidermolysis Bullosa,TREATED_BY,Kashaya Dhara,41223582
+Epidermolysis Bullosa,TREATED_BY,Siravedha,41223582
+Epidermolysis Bullosa,TREATED_BY,Jalaukavacharana Karma,41223582
+Epidermolysis Bullosa,TREATED_BY,Snehapana,41223582
+Epidermolysis Bullosa,TREATED_BY,Virechana,41223582
+Epidermolysis Bullosa,TREATED_BY,Deepana Pachana,41223582
+Epidermolysis Bullosa,TREATED_BY,Abhyanga,41223582
+,,,
+Poly Cystic Ovarian Syndrome,TREATED_BY,Udvartana,34980524
+Poly Cystic Ovarian Syndrome,TREATED_BY,Takrapana,34980524
+Poly Cystic Ovarian Syndrome,TREATED_BY,Snehapana,34980524
+Poly Cystic Ovarian Syndrome,TREATED_BY,Abhyanga,34980524
+Poly Cystic Ovarian Syndrome,TREATED_BY,Utkleshana,34980524
+Poly Cystic Ovarian Syndrome,TREATED_BY,Vamana,34980524
+Poly Cystic Ovarian Syndrome,TREATED_BY,Virechana,34980524
+Poly Cystic Ovarian Syndrome,TREATED_BY,Anuvasana Basti,34980524
+Poly Cystic Ovarian Syndrome,TREATED_BY,Lekhana Basti,34980524
+Poly Cystic Ovarian Syndrome,TREATED_BY,Uttarabasti,34980524
+,,,
+Oligo-Teratozoospermia,TREATED_BY,Deepana Pachana,40780056
+Oligo-Teratozoospermia,TREATED_BY,Snehapana,40780056
+Oligo-Teratozoospermia,TREATED_BY,Abhyanga,40780056
+Oligo-Teratozoospermia,TREATED_BY,Swedana,40780056
+Oligo-Teratozoospermia,TREATED_BY,Virechana,40780056
+Oligo-Teratozoospermia,TREATED_BY,Samsarjana Karma,40780056
+,,,
+Poly Cystic Ovarian Syndrome,TREATED_BY,Uttarabasti,22131680
+,,,
+Diabetic Foot Ulcer,TREATED_BY,Jalaukavacharana Karma,40896900
+Diabetic Foot Ulcer,TREATED_BY,Vrana Shodhana,40896900
+,,,
+Epidermolysis Bullosa,TREATED_BY,Mridu Shodhana,40570575
+,,,
+Glaucoma,TREATED_BY,Koshtha Shodhana,29861590
+Glaucoma,TREATED_BY,Nasya,29861590
+,,,
+Diabetic Retinopathy,TREATED_BY,Marsha Nasya,37303857
+,,,
+Type 2 Diabetes,TREATED_BY,Vamana,22661850
+Type 2 Diabetes,TREATED_BY,Samsarjana Karma,22661850
+Type 2 Diabetes,TREATED_BY,Virechana,22661850
+,,,
+Oligomenorrhea,TREATED_BY,Uttarabasti,22131689
+,,,
+Bronchial Asthma,TREATED_BY,Virechana,22131729
+,,,
+Type 2 Diabetes Mellitus,TREATED_BY,Vamana,37738857
+,,,
+Oligozoospermia,TREATED_BY,Virechana,31831966
+,,,
+Progressive Bulbar Palsy,TREATED_BY,Abhyanga,40913874
+Progressive Bulbar Palsy,TREATED_BY,Nasya,40913874
+Progressive Bulbar Palsy,TREATED_BY,Virechana,40913874
+Progressive Bulbar Palsy,TREATED_BY,Swedana,40913874
+Progressive Bulbar Palsy,TREATED_BY,Siro Basti,40913874
+Progressive Bulbar Palsy,TREATED_BY,Rajayapana Basti,40913874
+,,,
+Low Anti-Mullerian Hormone (Amh) Level,TREATED_BY,Deepana Pachana,29861596
+Low Anti-Mullerian Hormone (Amh) Level,TREATED_BY,Snehapana,29861596
+Low Anti-Mullerian Hormone (Amh) Level,TREATED_BY,Abhyanga,29861596
+Low Anti-Mullerian Hormone (Amh) Level,TREATED_BY,Virechana,29861596
+Low Anti-Mullerian Hormone (Amh) Level,TREATED_BY,Niruha Basti,29861596
+Low Anti-Mullerian Hormone (Amh) Level,TREATED_BY,Anuvasana Basti,29861596
+Low Anti-Mullerian Hormone (Amh) Level,TREATED_BY,Uttarabasti,29861596
+,,,
+Oligozoospermia,TREATED_BY,Deepana Pachana,29200749
+Oligozoospermia,TREATED_BY,Snehapana,29200749
+Oligozoospermia,TREATED_BY,Virechana,29200749
+,,,
+Obesity,TREATED_BY,Lekhana Basti,40446462
+Obesity,TREATED_BY,Niruha Basti,40446462
+Obesity,TREATED_BY,Anuvasana Basti,40446462
+,,,
+Oral Submucous Fibrosis,TREATED_BY,Nasya,26730136
+,,,
+Oligoasthenozoospermia,TREATED_BY,Abhyanga,32741654
+Oligoasthenozoospermia,TREATED_BY,Virechana,32741654
+,,,
+Nicolau Syndrome,TREATED_BY,Vrana Shodhana,32896437
+Nicolau Syndrome,TREATED_BY,Prakshalana,32896437
+Nicolau Syndrome,TREATED_BY,Vimlapana,32896437
+,,,
+Small Fibre Neuropathy,TREATED_BY,Dhanyamla Dhara,37141832
+Small Fibre Neuropathy,TREATED_BY,Nasya,37141832
+Small Fibre Neuropathy,TREATED_BY,Yoga Basti,37141832
+Small Fibre Neuropathy,TREATED_BY,Ksheera Basti,37141832
+Small Fibre Neuropathy,TREATED_BY,Sarsapa Taila Abhyanga,37141832
+,,,
+Spinocerebellar Ataxia,TREATED_BY,Marsha Nasya,39926966
+Spinocerebellar Ataxia,TREATED_BY,Basti,39926966
+Spinocerebellar Ataxia,TREATED_BY,Panchatikta Ksheera Basti,39926966
+Spinocerebellar Ataxia,TREATED_BY,Abhyanga,39926966
+Spinocerebellar Ataxia,TREATED_BY,Swedana,39926966
+,,,
+Prediabetes,TREATED_BY,Deepana Pachana,37738856
+Prediabetes,TREATED_BY,Snehapana,37738856
+Prediabetes,TREATED_BY,Abhyanga,37738856
+Prediabetes,TREATED_BY,Swedana,37738856
+Prediabetes,TREATED_BY,Vamana,37738856
+Prediabetes,TREATED_BY,Samsarjana Karma,37738856
+,,,
+Diabetic Foot Ulcer,TREATED_BY,Vrana Shodhana,37678108
+Diabetic Foot Ulcer,TREATED_BY,Prakshalana,37678108
+Diabetic Foot Ulcer,TREATED_BY,Vimlapana,37678108
+,,,
+Trigeminal Neuralgia,TREATED_BY,Shirodhara,39926949
+Trigeminal Neuralgia,TREATED_BY,Nasya,39926949
+Trigeminal Neuralgia,TREATED_BY,Trisnehadharana,39926949
+,,,
+Psoriasis,TREATED_BY,Vamana,39926829
+Psoriasis,TREATED_BY,Samsarjana Karma,39926829
+,,,
+Female Infertility,TREATED_BY,Snehapana,38237453
+Female Infertility,TREATED_BY,Abhyanga,38237453
+Female Infertility,TREATED_BY,Virechana,38237453
+Female Infertility,TREATED_BY,Ksheera Basti,38237453
+Female Infertility,TREATED_BY,Uttarabasti,38237453
+,,,
+Rheumatoid Arthritis,TREATED_BY,Oral Medication,22131737
+Rheumatoid Arthritis,TREATED_BY,Abhyanga,22131737
+Rheumatoid Arthritis,TREATED_BY,Mridu Swedana,22131737
+Rheumatoid Arthritis,TREATED_BY,Matra Basti,22131737
+,,,
+Diabetes Mellitus,TREATED_BY,Virechana,22131730
+,,,
+Avascular Necrosis,TREATED_BY,Basti,27143802
+Avascular Necrosis,TREATED_BY,Swedana,27143802
+,,,
+Uterine Fibroids,TREATED_BY,Virechana,28867860
+Uterine Fibroids,TREATED_BY,Niruha Basti,28867860
+Uterine Fibroids,TREATED_BY,Matra Basti,28867860
+,,,
+Chemotherapy-Induced Peripheral Neuropathy,TREATED_BY,Nasya,39244869
+Chemotherapy-Induced Peripheral Neuropathy,TREATED_BY,Sarvanga Churna Pinda Sweda,39244869
+Chemotherapy-Induced Peripheral Neuropathy,TREATED_BY,Greeva Pichu,39244869
+Chemotherapy-Induced Peripheral Neuropathy,TREATED_BY,Ardhangam Dashamoola Ksheera Dhara,39244869
+Chemotherapy-Induced Peripheral Neuropathy,TREATED_BY,Virechana,39244869
+Chemotherapy-Induced Peripheral Neuropathy,TREATED_BY,Shirodhara,39244869
+Chemotherapy-Induced Peripheral Neuropathy,TREATED_BY,Matra Basti,39244869
+,,,
+Chronic Lymphocytic Leukemia,TREATED_BY,Snehapana,39673829
+Chronic Lymphocytic Leukemia,TREATED_BY,Sarvanga Abhyanga,39673829
+Chronic Lymphocytic Leukemia,TREATED_BY,Sarvanga Bashpa Swedana,39673829
+Chronic Lymphocytic Leukemia,TREATED_BY,Virechana,39673829
+,,,
+Psychogenic Pseudomyasthenic Ptosis,TREATED_BY,Snehapana,33962505
+Psychogenic Pseudomyasthenic Ptosis,TREATED_BY,Abhyanga,33962505
+Psychogenic Pseudomyasthenic Ptosis,TREATED_BY,Swedana,33962505
+Psychogenic Pseudomyasthenic Ptosis,TREATED_BY,Vamana,33962505
+,,,
+Huntington’S Chorea,TREATED_BY,Snehana,40662609
+Huntington’S Chorea,TREATED_BY,Pinda Swedana,40662609
+Huntington’S Chorea,TREATED_BY,Matra Basti,40662609
+Huntington’S Chorea,TREATED_BY,Niruha Basti,40662609
+Huntington’S Chorea,TREATED_BY,Nasya,40662609
+Huntington’S Chorea,TREATED_BY,Shirodhara,40662609
+Huntington’S Chorea,TREATED_BY,Shirotalam,40662609
+,,,
+Spinocerebellar Ataxia Type 2,TREATED_BY,Pinda Swedana,27143801
+Spinocerebellar Ataxia Type 2,TREATED_BY,Shiro Basti,27143801
+Spinocerebellar Ataxia Type 2,TREATED_BY,Baladi Ksheera Basti,27143801
+Spinocerebellar Ataxia Type 2,TREATED_BY,Anuvasana Basti,27143801
+,,,
+Guillain-Barre Syndrome,TREATED_BY,Koshtha Shodhana,30661945
+Guillain-Barre Syndrome,TREATED_BY,Sarvanga Abhyanga,30661945
+Guillain-Barre Syndrome,TREATED_BY,Swedana,30661945
+Guillain-Barre Syndrome,TREATED_BY,Sarvanga Parisheka,30661945
+Guillain-Barre Syndrome,TREATED_BY,Mastishkya,30661945
+Guillain-Barre Syndrome,TREATED_BY,Anuvasana Basti,30661945
+Guillain-Barre Syndrome,TREATED_BY,Kashaya Basti,30661945
+Guillain-Barre Syndrome,TREATED_BY,Ksheera Basti,30661945
+,,,
+Migraine,TREATED_BY,Virechana,31000965
+Migraine,TREATED_BY,Deepana,31000965
+Migraine,TREATED_BY,Snehapana,31000965
+Migraine,TREATED_BY,Sarvanga Abhyanga,31000965
+Migraine,TREATED_BY,Swedana,31000965
+,,,
+Prediabetes,TREATED_BY,Deepana Pachana,36743277
+Prediabetes,TREATED_BY,Snehapana,36743277
+Prediabetes,TREATED_BY,Abhyanga,36743277
+Prediabetes,TREATED_BY,Bashpa Swedana,36743277
+Prediabetes,TREATED_BY,Vamana,36743277
+Prediabetes,TREATED_BY,Samsarjana Karma,36743277
+,,,
+Obesity,TREATED_BY,Virechana,33281395
+,,,
+Dyslipidemia,TREATED_BY,Virechana,28827953
+Dyslipidemia,TREATED_BY,Basti,28827953
+,,,
+Lumbar Spondylosis,TREATED_BY,Raktamokshana,32398907
+,,,
+Sciatica,TREATED_BY,Siravedha,26664236
+,,,
+Psoriasis,TREATED_BY,Deepana Pachana,22661842
+Psoriasis,TREATED_BY,Snehapana,22661842
+Psoriasis,TREATED_BY,Abhyanga,22661842
+Psoriasis,TREATED_BY,Swedana,22661842
+Psoriasis,TREATED_BY,Vamana,22661842
+Psoriasis,TREATED_BY,Samsarjana Karma,22661842
+,,,
+Depression,TREATED_BY,Snehapana,22131711
+Depression,TREATED_BY,Abhyanga,22131711
+Depression,TREATED_BY,Swedana,22131711
+Depression,TREATED_BY,Vamana,22131711
+,,,
+Amyotrophic Lateral Sclerosis,TREATED_BY,Basti,35240461
+Amyotrophic Lateral Sclerosis,TREATED_BY,Virechana,35240461
+,,,
+Psoriasis,TREATED_BY,Vamana,27114687
+,,,
+Covid-19,TREATED_BY,Vamana,34611387
+Covid-19,TREATED_BY,Samsarjana Karma,34611387
+,,,
+Oligomenorrhea,TREATED_BY,Deepana Pachana,30254392
+Oligomenorrhea,TREATED_BY,Snehapana,30254392
+Oligomenorrhea,TREATED_BY,Abhyanga,30254392
+Oligomenorrhea,TREATED_BY,Vamana,30254392
+,,,
+Bronchial Asthma,TREATED_BY,Snehapana,23559796
+Bronchial Asthma,TREATED_BY,Snehana,23559796
+Bronchial Asthma,TREATED_BY,Swedana,23559796
+Bronchial Asthma,TREATED_BY,Virechana,23559796
+Bronchial Asthma,TREATED_BY,Samsarjana Karma,23559796
+,,,
+Urethral Stricture,TREATED_BY,Virechana,40101438
+Urethral Stricture,TREATED_BY,Uttarabasti,40101438
+,,,
+Non-Alcoholic Fatty Liver Disease,TREATED_BY,Virechana,34908794
+,,,
+Hepatitis B,TREATED_BY,Deepana Pachana,37554413
+Hepatitis B,TREATED_BY,Snehapana,37554413
+Hepatitis B,TREATED_BY,Abhyanga,37554413
+Hepatitis B,TREATED_BY,Swedana,37554413
+Hepatitis B,TREATED_BY,Virechana,37554413
+Hepatitis B,TREATED_BY,Samsarjana Karma,37554413
+,,,
+Ulcerative Keratitis,TREATED_BY,Jalaukavacharana Karma,30683497
+Ulcerative Keratitis,TREATED_BY,Snehapana,30683497
+Ulcerative Keratitis,TREATED_BY,Virechana,30683497
+Ulcerative Keratitis,TREATED_BY,Nasya,30683497
+Ulcerative Keratitis,TREATED_BY,Anjana Karma,30683497
+Ulcerative Keratitis,TREATED_BY,Tarpana,30683497
+Ulcerative Keratitis,TREATED_BY,Pudapaka,30683497
+,,,
+Autoimmune Pancreatitis,TREATED_BY,Deepana Pachana,33935442
+Autoimmune Pancreatitis,TREATED_BY,Snehapana,33935442
+Autoimmune Pancreatitis,TREATED_BY,Abhyanga,33935442
+Autoimmune Pancreatitis,TREATED_BY,Swedana,33935442
+Autoimmune Pancreatitis,TREATED_BY,Virechana,33935442
+Autoimmune Pancreatitis,TREATED_BY,Samsarjana Karma,33935442
+Autoimmune Pancreatitis,TREATED_BY,Basti,33935442
+,,,
+Ovarian Cyst,TREATED_BY,Deepana Pachana,35370374
+Ovarian Cyst,TREATED_BY,Snehapana,35370374
+Ovarian Cyst,TREATED_BY,Abhyanga,35370374
+Ovarian Cyst,TREATED_BY,Swedana,35370374
+Ovarian Cyst,TREATED_BY,Virechana,35370374
+Ovarian Cyst,TREATED_BY,Samsarjana Karma,35370374
+,,,
+Eczema,TREATED_BY,Deepana Pachana,21455456
+Eczema,TREATED_BY,Snehapana,21455456
+Eczema,TREATED_BY,Abhyanga,21455456
+Eczema,TREATED_BY,Swedana,21455456
+Eczema,TREATED_BY,Virechana,21455456
+Eczema,TREATED_BY,Samsarjana Karma,21455456
+,,,
+Hypertension,TREATED_BY,Deepana Pachana,24049408
+Hypertension,TREATED_BY,Snehapana,24049408
+Hypertension,TREATED_BY,Snehana,24049408
+Hypertension,TREATED_BY,Swedana,24049408
+Hypertension,TREATED_BY,Virechana,24049408
+Hypertension,TREATED_BY,Samsarjana Karma,24049408
+,,,
+Liver Cirrhosis With Ascites,TREATED_BY,Virechana,34996679
+,,,
+Antiphospholipid Antibody Syndrome,TREATED_BY,Virechana,29861595
+,,,
+Vasculitis,TREATED_BY,Snehapana,32165016
+Vasculitis,TREATED_BY,Abhyanga,32165016
+Vasculitis,TREATED_BY,Virechana,32165016
+Vasculitis,TREATED_BY,Samsarjana Karma,32165016
+Vasculitis,TREATED_BY,Basti,32165016
+,,,
+Major Depressive Disorder,TREATED_BY,Snehapana,34024690
+Major Depressive Disorder,TREATED_BY,Abhyanga,34024690
+Major Depressive Disorder,TREATED_BY,Swedana,34024690
+Major Depressive Disorder,TREATED_BY,Virechana,34024690
+Major Depressive Disorder,TREATED_BY,Shirodhara,34024690
+Major Depressive Disorder,TREATED_BY,Shiropichu,34024690
+Major Depressive Disorder,TREATED_BY,Basti,34024690
+,,,
+Prurigo Nodularis,TREATED_BY,Snehapana,36455368
+Prurigo Nodularis,TREATED_BY,Deepana Pachana,36455368
+Prurigo Nodularis,TREATED_BY,Abhyanga,36455368
+Prurigo Nodularis,TREATED_BY,Swedana,36455368
+Prurigo Nodularis,TREATED_BY,Virechana,36455368
+,,,
+Eczema,TREATED_BY,Virechana,30595628
+,,,
+Obesity,TREATED_BY,Abhyanga,31143747
+Obesity,TREATED_BY,Patra Pottali Swedana,31143747
+Obesity,TREATED_BY,Kati Basti,31143747
+Obesity,TREATED_BY,Snehapana,31143747
+Obesity,TREATED_BY,Udvartana,31143747
+Obesity,TREATED_BY,Nasya,31143747
+Obesity,TREATED_BY,Anuvasana Basti,31143747
+Obesity,TREATED_BY,Swedana,31143747
+Obesity,TREATED_BY,Shirodhara,31143747
+Obesity,TREATED_BY,Virechana,31143747
+Obesity,TREATED_BY,Netra Basti,31143747
+Obesity,TREATED_BY,Hridaya Basti,31143747
+Obesity,TREATED_BY,Karna Puran,31143747
+,,,
+Venous Ulcer,TREATED_BY,Virechana,24501445
+Venous Ulcer,TREATED_BY,Anuvasana Basti,24501445
+Venous Ulcer,TREATED_BY,Kshara Basti,24501445
+,,,
+Post-Traumatic Trigeminal Neuropathy,TREATED_BY,Pachana,40614618
+Post-Traumatic Trigeminal Neuropathy,TREATED_BY,Snehapana,40614618
+Post-Traumatic Trigeminal Neuropathy,TREATED_BY,Abhyanga,40614618
+Post-Traumatic Trigeminal Neuropathy,TREATED_BY,Swedana,40614618
+Post-Traumatic Trigeminal Neuropathy,TREATED_BY,Virechana,40614618
+Post-Traumatic Trigeminal Neuropathy,TREATED_BY,Samsarjana Karma,40614618
+Post-Traumatic Trigeminal Neuropathy,TREATED_BY,Shirodhara,40614618
+Post-Traumatic Trigeminal Neuropathy,TREATED_BY,Matra Basti,40614618
+Post-Traumatic Trigeminal Neuropathy,TREATED_BY,Nasya,40614618
+,,,
+Chronic Non-Healing Ulcer,TREATED_BY,Jalaukavacharana Karma,41747605
+Chronic Non-Healing Ulcer,TREATED_BY,Virechana,41747605
+Chronic Non-Healing Ulcer,TREATED_BY,Vrana Shodhana,41747605
+Chronic Non-Healing Ulcer,TREATED_BY,Vrana Ropana,41747605
+,,,
+Venous Ulcer,TREATED_BY,Vrana Prakshalana,37244010
+Venous Ulcer,TREATED_BY,Vrana Lepa,37244010
+,,,
+Takayasu Arteritis,TREATED_BY,Swedana,34908792
+Takayasu Arteritis,TREATED_BY,Anuvasana Basti,34908792
+Takayasu Arteritis,TREATED_BY,Niruha Basti,34908792
+Takayasu Arteritis,TREATED_BY,Dhumpana,34908792
+,,,
+Acute Upper Limb Ischemia,TREATED_BY,Mustadi Yapana Basti,38537487
+Acute Upper Limb Ischemia,TREATED_BY,Swedana,38537487
+Acute Upper Limb Ischemia,TREATED_BY,Nasya,38537487
+,,,
+Esophageal Squamous Cell Carcinoma,TREATED_BY,Nasya,39926936
+Esophageal Squamous Cell Carcinoma,TREATED_BY,Matra Basti,39926936
+Esophageal Squamous Cell Carcinoma,TREATED_BY,Nabhivaran,39926936
+Esophageal Squamous Cell Carcinoma,TREATED_BY,Kavala,39926936
+,,,
+Diplopia,TREATED_BY,Pachana,38507966
+Diplopia,TREATED_BY,Snehapana,38507966
+Diplopia,TREATED_BY,Virechana,38507966
+Diplopia,TREATED_BY,Nasya,38507966
+Diplopia,TREATED_BY,Mukha Lepa,38507966
+Diplopia,TREATED_BY,Siro Abhyanga,38507966
+Diplopia,TREATED_BY,Netra Abhyanga,38507966
+Diplopia,TREATED_BY,Swedana,38507966
+Diplopia,TREATED_BY,Ksheera Dhuma,38507966
+Diplopia,TREATED_BY,Shiro Pichu,38507966
+Diplopia,TREATED_BY,Tarpana,38507966
+,,,
+Central Serous Retinopathy,TREATED_BY,Shiro Pichu,41488094
+Central Serous Retinopathy,TREATED_BY,Nasya,41488094
+Central Serous Retinopathy,TREATED_BY,Anjana Karma,41488094
+,,,
+Bell's Palsy,TREATED_BY,Sadyasneha,36403502
+Bell's Palsy,TREATED_BY,Utkleshana,36403502
+Bell's Palsy,TREATED_BY,Abhyanga,36403502
+Bell's Palsy,TREATED_BY,Swedana,36403502
+Bell's Palsy,TREATED_BY,Vamana,36403502
+Bell's Palsy,TREATED_BY,Peyadi Karma,36403502
+,,,
+Migraine,TREATED_BY,Nasya,36384709
+Migraine,TREATED_BY,Abhyanga,36384709
+Migraine,TREATED_BY,Swedana,36384709
+Migraine,TREATED_BY,Dhumpana,36384709
+,,,
+Hemifacial Spasm,TREATED_BY,Nasya,37076181
+Hemifacial Spasm,TREATED_BY,Dhumpana,37076181
+,,,
+Episodic Cluster Headache,TREATED_BY,Jalaukavacharana Karma,39608299
+Episodic Cluster Headache,TREATED_BY,Nasya,39608299
+,,,
+Sinusitis,TREATED_BY,Swedana,22557218
+Sinusitis,TREATED_BY,Nasya,22557218
+,,,
+Trigeminal Neuralgia,TREATED_BY,Swedana,37494834
+Trigeminal Neuralgia,TREATED_BY,Nasya,37494834
+Trigeminal Neuralgia,TREATED_BY,Kavala,37494834
+Trigeminal Neuralgia,TREATED_BY,Gandusha,37494834
+,,,
+Chronic Alchoholism,TREATED_BY,Snehana,38241882
+Chronic Alchoholism,TREATED_BY,Swedana,38241882
+Chronic Alchoholism,TREATED_BY,Nasya,38241882
+Chronic Alchoholism,TREATED_BY,Shirodhara,38241882
+Chronic Alchoholism,TREATED_BY,Matra Basti,38241882
+Chronic Alchoholism,TREATED_BY,Nabhipuran,38241882
+,,,
+Meibomian Gland Dysfunction,TREATED_BY,Nasya,41647025
+Meibomian Gland Dysfunction,TREATED_BY,Anuvasana Basti,41647025
+Meibomian Gland Dysfunction,TREATED_BY,Avagundana,41647025
+,,,
+Ankylosing Spondylitis,TREATED_BY,Swedana,27297511
+Ankylosing Spondylitis,TREATED_BY,Anuvasana Basti,27297511
+Ankylosing Spondylitis,TREATED_BY,Mustadi Yapana Basti,27297511
+Ankylosing Spondylitis,TREATED_BY,Nasya,27297511
+,,,
+Chronic Sinusitis,TREATED_BY,Nasya,22131734
+Chronic Sinusitis,TREATED_BY,Abhyanga,22131734
+,,,
+Primary Insomnia,TREATED_BY,Nasya,35370376
+,,,
+Cervical Spondylosis,TREATED_BY,Nasya,23049188
+,,,
+Coma,TREATED_BY,Nasya,27621522
+Coma,TREATED_BY,Dhumpana,27621522
+,,,
+Traumatic Optic Neuropathy,TREATED_BY,Abhyanga,34844840
+Traumatic Optic Neuropathy,TREATED_BY,Swedana,34844840
+Traumatic Optic Neuropathy,TREATED_BY,Yapana Basti,34844840
+Traumatic Optic Neuropathy,TREATED_BY,Anuvasana Basti,34844840
+Traumatic Optic Neuropathy,TREATED_BY,Netra Tarpana,34844840
+Traumatic Optic Neuropathy,TREATED_BY,Nasya,34844840
+,,,
+Myopia,TREATED_BY,Nasya,22048542
+Myopia,TREATED_BY,Tarpana,22048542
+,,,
+Migraine,TREATED_BY,Raktamokshana,39454285
+Migraine,TREATED_BY,Nasya,39454285
+Migraine,TREATED_BY,Abhyanga,39454285
+,,,
+Papilledema,TREATED_BY,Deepana Pachana,27011720
+Papilledema,TREATED_BY,Koshtha Shodhana,27011720
+Papilledema,TREATED_BY,Takra Dhara,27011720
+Papilledema,TREATED_BY,Nasya,27011720
+,,,
+Sciatica,TREATED_BY,Raktamokshana,28827952
+,,,
+Eczema,TREATED_BY,Virechana,23723667
+,,,
+Obesity,TREATED_BY,Abhyanga,32278669
+Obesity,TREATED_BY,Swedana,32278669
+Obesity,TREATED_BY,Basti,32278669
+Obesity,TREATED_BY,Basti,32278669
+Obesity,TREATED_BY,Nasya,32278669
+Obesity,TREATED_BY,Dhumpana,32278669
+Obesity,TREATED_BY,Gandusha,32278669
+,,,
+Diabetes Mellitus,TREATED_BY,Deepana Pachana,24501520
+Diabetes Mellitus,TREATED_BY,Snehapana,24501520
+Diabetes Mellitus,TREATED_BY,Abhyanga,24501520
+Diabetes Mellitus,TREATED_BY,Swedana,24501520
+Diabetes Mellitus,TREATED_BY,Vamana,24501520
+Diabetes Mellitus,TREATED_BY,Virechana,24501520
+Diabetes Mellitus,TREATED_BY,Samsarjana Karma,24501520
+,,,
+Bronchial Asthma,TREATED_BY,Deepana Pachana,29861586
+Bronchial Asthma,TREATED_BY,Snehapana,29861586
+Bronchial Asthma,TREATED_BY,Abhyanga,29861586
+Bronchial Asthma,TREATED_BY,Swedana,29861586
+Bronchial Asthma,TREATED_BY,Vamana,29861586
+,,,
+Rheumatoid Arthritis,TREATED_BY,Basti,29200748
+,,,
+Cerebral Palsy,TREATED_BY,Abhyanga,26664239
+Cerebral Palsy,TREATED_BY,Swedana,26664239
+Cerebral Palsy,TREATED_BY,Basti,26664239
+,,,
+Sciatica,TREATED_BY,Matra Basti,22048539
+,,,
+Benign Prostatic Hyperplasia,TREATED_BY,Matra Basti,30783359
+,,,
+Endometrial Calcification,TREATED_BY,Deepana Pachana,38070240
+Endometrial Calcification,TREATED_BY,Virechana,38070240
+Endometrial Calcification,TREATED_BY,Anuvasana Basti,38070240
+Endometrial Calcification,TREATED_BY,Anuvasana Basti,38070240
+Endometrial Calcification,TREATED_BY,Uttarabasti,38070240
+,,,
+Female Infertility,TREATED_BY,Deepana Pachana,33935438
+Female Infertility,TREATED_BY,Abhyanga,33935438
+Female Infertility,TREATED_BY,Swedana,33935438
+Female Infertility,TREATED_BY,Basti,33935438
+,,,
+Hypertension,TREATED_BY,Anuvasana Basti,31367149
+Hypertension,TREATED_BY,Niruha Basti,31367149
+,,,
+Non-Progess Of Labor,TREATED_BY,Matra Basti,37651756
+,,,
+Benign Prostatic Hyperplasia,TREATED_BY,Matra Basti,27011713
+,,,
+Rheumatoid Arthritis,TREATED_BY,Deepana Pachana,23049184
+Rheumatoid Arthritis,TREATED_BY,Kshara Basti,23049184
+Rheumatoid Arthritis,TREATED_BY,Anuvasana Basti,23049184
+Rheumatoid Arthritis,TREATED_BY,Swedana,23049184
+,,,
+Rheumatoid Arthritis,TREATED_BY,Anuvasana Basti,22131764
+Rheumatoid Arthritis,TREATED_BY,Anuvasana Basti,22131764
+Rheumatoid Arthritis,TREATED_BY,Deepana Pachana,22131764
+Rheumatoid Arthritis,TREATED_BY,Abhyanga,22131764
+,,,
+Obesity,TREATED_BY,Anuvasana Basti,26261167
+Obesity,TREATED_BY,Anuvasana Basti,26261167
+,,,
+Hyperlipidemia,TREATED_BY,Anuvasana Basti,24696569
+Hyperlipidemia,TREATED_BY,Lekhana Basti,24696569
+,,,
+Lumbar Spondylosis,TREATED_BY,Yapana Basti,24049403
+Lumbar Spondylosis,TREATED_BY,Anuvasana Basti,24049403
+,,,
+Diabetes Mellitus,TREATED_BY,Anuvasana Basti,23723672
+Diabetes Mellitus,TREATED_BY,Anuvasana Basti,23723672
+,,,
+Urethral Stricture,TREATED_BY,Uttarabasti,22557426
+,,,
+Sclerosis,TREATED_BY,Virechana,39303382
+Sclerosis,TREATED_BY,Niruha Basti,39303382
+Sclerosis,TREATED_BY,Abhyanga,39303382
+Sclerosis,TREATED_BY,Matra Basti,39303382
+Sclerosis,TREATED_BY,Swedana,39303382
+,,,
+Cerebral Palsy,TREATED_BY,Abhyanga,24872933
+Cerebral Palsy,TREATED_BY,Swedana,24872933
+Cerebral Palsy,TREATED_BY,Yapana Basti,24872933
+,,,
+Spondyloepiphyseal Dysplasia Tarda,TREATED_BY,Mridu Virechana,27890699
+Spondyloepiphyseal Dysplasia Tarda,TREATED_BY,Yapana Basti,27890699
+Spondyloepiphyseal Dysplasia Tarda,TREATED_BY,Pinda Swedana,27890699
+Spondyloepiphyseal Dysplasia Tarda,TREATED_BY,Abhyanga,27890699
+,,,
+Endometrioma,TREATED_BY,Matra Basti,36604296
+Endometrioma,TREATED_BY,Yoga Basti,36604296
+,,,
+Hirschsprung'S Disease,TREATED_BY,Abhyanga,29853328
+Hirschsprung'S Disease,TREATED_BY,Swedana,29853328
+Hirschsprung'S Disease,TREATED_BY,Matra Basti,29853328
+Hirschsprung'S Disease,TREATED_BY,Yapana Basti,29853328
+,,,
+Osteoporosis,TREATED_BY,Matra Basti,23049194
+,,,
+Guillain-Barre Syndrome,TREATED_BY,Snehana,26600668
+Guillain-Barre Syndrome,TREATED_BY,Nadi Swedana,26600668
+Guillain-Barre Syndrome,TREATED_BY,Shirodhara,26600668
+Guillain-Barre Syndrome,TREATED_BY,Basti,26600668
+,,,
+Cervical Spondylotic Myelopathy,TREATED_BY,Pinda Swedana,28285113
+Cervical Spondylotic Myelopathy,TREATED_BY,Mridu Virechana,28285113
+Cervical Spondylotic Myelopathy,TREATED_BY,Yapana Basti,28285113
+,,,
+Bronchial Asthma,TREATED_BY,Basti,38262328
+Bronchial Asthma,TREATED_BY,Anuvasana Basti,38262328
+Bronchial Asthma,TREATED_BY,Niruha Basti,38262328
+Bronchial Asthma,TREATED_BY,Dhumpana,38262328
+Bronchial Asthma,TREATED_BY,Prushthavansha Basti,38262328
+Bronchial Asthma,TREATED_BY,Nasya,38262328
+Bronchial Asthma,TREATED_BY,Matra Basti,38262328
+,,,
+Urinary Incontinence,TREATED_BY,Matra Basti,39332103
+Urinary Incontinence,TREATED_BY,Basti,39332103
+Urinary Incontinence,TREATED_BY,Niruha Basti,39332103
+Urinary Incontinence,TREATED_BY,Anuvasana Basti,39332103
+,,,
+Cerebral Palsy,TREATED_BY,Udvartana,26195914
+Cerebral Palsy,TREATED_BY,Abhyanga,26195914
+Cerebral Palsy,TREATED_BY,Swedana,26195914
+Cerebral Palsy,TREATED_BY,Anuvasana Basti,26195914
+Cerebral Palsy,TREATED_BY,Anuvasana Basti,26195914
+,,,
+Progressive Supranuclear Palsy,TREATED_BY,Deepana Pachana,23929996
+Progressive Supranuclear Palsy,TREATED_BY,Snehapana,23929996
+Progressive Supranuclear Palsy,TREATED_BY,Abhyanga,23929996
+Progressive Supranuclear Palsy,TREATED_BY,Swedana,23929996
+Progressive Supranuclear Palsy,TREATED_BY,Virechana,23929996
+Progressive Supranuclear Palsy,TREATED_BY,Samsarjana Karma,23929996
+Progressive Supranuclear Palsy,TREATED_BY,Matra Basti,23929996
+Progressive Supranuclear Palsy,TREATED_BY,Siro Basti,23929996
+,,,
+Avascular Necrosis,TREATED_BY,Pinda Swedana,37741160
+Avascular Necrosis,TREATED_BY,Basti,37741160
+,,,
+Poly Cystic Ovarian Disease,TREATED_BY,Matra Basti,23559797
+,,,
+Dysmenorrhea,TREATED_BY,Matra Basti,22131731
+,,,
+Benign Prostatic Hyperplasia,TREATED_BY,Matra Basti,23723674
+,,,
+Female Infertility,TREATED_BY,Matra Basti,24049410
+,,,
+Fracture,TREATED_BY,Abhyanga,40412271
+Fracture,TREATED_BY,Swedana,40412271
+Fracture,TREATED_BY,Basti,40412271
+,,,
+Rheumatoid Arthritis,TREATED_BY,Abhyanga,28302414
+Rheumatoid Arthritis,TREATED_BY,Swedana,28302414
+Rheumatoid Arthritis,TREATED_BY,Anuvasana Basti,28302414
+Rheumatoid Arthritis,TREATED_BY,Niruha Basti,28302414
+,,,
+Spinal Cord Injury,TREATED_BY,Swedana,26283809
+Spinal Cord Injury,TREATED_BY,Matra Basti,26283809
+Spinal Cord Injury,TREATED_BY,Yapana Basti,26283809
+,,,
+Juvenile Spondyloarthritis,TREATED_BY,Swedana,32768345
+Juvenile Spondyloarthritis,TREATED_BY,Basti,32768345
+,,,
+Lumbar Disc Herniation,TREATED_BY,Anuvasana Basti,38006747
+Lumbar Disc Herniation,TREATED_BY,Niruha Basti,38006747
+Lumbar Disc Herniation,TREATED_BY,Kati Basti,38006747
+,,,
+Limb-Girdle Muscular Dystrophy,TREATED_BY,Pinda Swedana,34961685
+Limb-Girdle Muscular Dystrophy,TREATED_BY,Abhyanga,34961685
+Limb-Girdle Muscular Dystrophy,TREATED_BY,Mustadi Yapana Basti,34961685
+,,,
+Acute Prolapsed Inter-Vertebral Disc,TREATED_BY,Abhyanga,35661935
+Acute Prolapsed Inter-Vertebral Disc,TREATED_BY,Swedana,35661935
+Acute Prolapsed Inter-Vertebral Disc,TREATED_BY,Anuvasana Basti,35661935
+Acute Prolapsed Inter-Vertebral Disc,TREATED_BY,Niruha Basti,35661935
+,,,
+Chronic Low Back Pain,TREATED_BY,Kati Basti,39182253
+,,,
+Tubal Blockage,TREATED_BY,Uttarabasti,22048533
+Tubal Blockage,TREATED_BY,Snehana,22048533
+Tubal Blockage,TREATED_BY,Yoni Prakshalana,22048533
+,,,
+Osteoarthritis,TREATED_BY,Anuvasana Basti,25558159
+,,,
+Bleeding Piles,TREATED_BY,Matra Basti,22408301
+,,,
+Lumbar Myelomeningocele,TREATED_BY,Koshtha Shodhana,25737612
+Lumbar Myelomeningocele,TREATED_BY,Abhyanga,25737612
+Lumbar Myelomeningocele,TREATED_BY,Swedana,25737612
+Lumbar Myelomeningocele,TREATED_BY,Matra Basti,25737612
+,,,
+Ulcerative Colitis,TREATED_BY,Basti,22048543
+,,,
+Cerebral Palsy,TREATED_BY,Udvartana,26120232
+Cerebral Palsy,TREATED_BY,Abhyanga,26120232
+Cerebral Palsy,TREATED_BY,Anuvasana Basti,26120232
+Cerebral Palsy,TREATED_BY,Anuvasana Basti,26120232
+,,,
+Dysuria,TREATED_BY,External Application,41637849
+Dysuria,TREATED_BY,Utsadana,41637849
+Dysuria,TREATED_BY,Matra Basti,41637849
+Dysuria,TREATED_BY,Yapana Basti,41637849
+Dysuria,TREATED_BY,Lepa,41637849
+Dysuria,TREATED_BY,Shiro Pichu,41637849
+,,,
+Urethral Stricture,TREATED_BY,Uttarabasti,24250127
+,,,
+Oligozoospermia,TREATED_BY,Anuvasana Basti,22408309
+Oligozoospermia,TREATED_BY,Asthapana Basti,22408309

@@ -1,108 +1,247 @@
-# 🚀 Deployment Guide - ShodhanaKG
+# Deployment Guide
 
-> For the current institutional subdirectory release, use [the verified package procedure](./RELEASE_PACKAGE.md). The historical instructions below contain older file/schema counts and do not replace the explicit subdirectory build or preservation of production configuration and RID-bound references.
+`APP_BASE_PATH`: the URL subpath where the portal is served; set it as VITE_API_BASE at build time and in the web server rules.
 
-This guide provides step-by-step instructions for deploying the **ShodhanaKG Explorer Suite** to a production environment.
+## Table of Contents
 
-## 🏗 System Architecture
-The suite consists of three main components:
-1.  **Frontend**: A React application (built with Vite).
-2.  **Backend**: A lightweight PHP API service.
-3.  **Database**: An ArcadeDB graph database instance.
-
----
-
-## 1. Database Setup (ArcadeDB)
-1.  **Install ArcadeDB**: Download and run ArcadeDB on your server (default port `2480`).
-2.  **Import Data**: Ensure your database (e.g., `shodhana`) is created and the vertex/edge data is imported.
-3.  **Create User**: Create a read-only user for the API to use.
-    ```bash
-    # Example ArcadeDB console command
-    CREATE USER username IDENTIFIED BY 'password'
-    GRANT DATABASE.READ TO username
-    ```
+1. [Architecture Overview](#1-architecture-overview)
+2. [Prerequisites](#2-prerequisites)
+3. [Database Deployment (ArcadeDB)](#3-database-deployment-arcadedb)
+4. [Backend API Deployment](#4-backend-api-deployment)
+5. [Frontend Build and Deployment](#5-frontend-build-and-deployment)
+6. [Web Server Configuration](#6-web-server-configuration)
+7. [Chatbot Service Setup](#7-chatbot-service-setup)
+8. [Post-Deployment Verification](#8-post-deployment-verification)
+9. [Operational Maintenance](#9-operational-maintenance)
 
 ---
 
-## 2. Backend Deployment (PHP)
-The backend is located in the `webservice/api/` directory (17 PHP files).
+## 1. Architecture Overview
 
-1.  **Server Requirements**:
-    *   PHP 5.6.40 or higher.
-    *   `php-curl` extension (recommended, but has fallback to `file_get_contents` → `fsockopen` if disabled).
-    *   Web server (Apache or Nginx) with PHP support.
-2.  **Configuration**:
-    Set the following environment variables on your server (or via your web server configuration):
-    *   `ARCADE_URL`: `http://localhost:2480`
-    *   `ARCADE_DB`: `shodhana`
-    *   `ARCADE_USER`: `username`
-    *   `ARCADE_PASS`: `password`
-    *   `ALLOWED_ORIGINS`: `https://your-frontend-domain.com` (for CORS security)
-3.  **Upload Checklist**:
-    Upload the contents of the `webservice/api/` directory to your web server. Ensure the following critical files are updated:
-    *   `db.php`: 3-tier connectivity handler (cURL → `file_get_contents` → `fsockopen` with manual chunked decoding).
-    *   `graph_service.php`: Shared schema mapping (17 vertex types, 22 edge types), type normalization, field resolution.
-    *   `config.php`: ArcadeDB connection details and allowed origins.
-    *   All 11 endpoint files (`search.php`, `graph.php`, `category-stats.php`, `kg-stats.php`, `counts.php`, `bridge-stats.php`, `node.php`, `provenance-subgraph.php`, `compound-provenance.php`, `health.php`, `chat.php`).
+A production ShodhanaKG deployment consists of three main tiers:
+- Frontend: Single-page React application compiled to static assets (HTML, JavaScript, CSS).
+- Backend API: PHP service layer deployed to an HTTP web server (Apache or Nginx) communicating with the database.
+- Database: ArcadeDB server storing the graph database.
+- Chatbot LLM: Local Ollama daemon providing natural language phrasing assistance.
+
+```mermaid
+flowchart TD
+    A["ArcadeDB Deployment<br/>Import JSON & Verify Schema"]
+    B["Backend API Deployment<br/>Deploy PHP Files & Configure .env"]
+    C["Frontend Bundle Build<br/>Compile React SPA with Vite"]
+    D["Web Server Setup<br/>Apache / Nginx VirtualHost & Rewrites"]
+    E["Deployment Validation<br/>API Health Checks & UI Verification"]
+
+    A --> B --> C --> D --> E
+```
 
 ---
 
-## 3. AI Chatbot Setup (Ollama)
-The chatbot relies on a local LLM hosted via Ollama to ensure data privacy and avoid API costs.
+## 2. Prerequisites
 
-1.  **Install Ollama**: Follow instructions at [ollama.com](https://ollama.com/download) for your OS.
-    ```bash
-    # Linux installation
-    curl -fsSL https://ollama.com/install.sh | sh
-    ```
-2.  **Pull the Model**: The system defaults to `llama3.2` for its balance of speed and reasoning.
-    ```bash
-    ollama pull llama3.2
-    ```
-3.  **Start the Service**: Ensure Ollama is running on the default port `11434`.
-    *   Set `OLLAMA_URL="http://localhost:11434"` in your Apache/PHP environment configuration.
-    *   If you choose a different model, set `OLLAMA_MODEL="your-model-name"`.
+Verify that the target production environment meets the following requirements:
+- Operating System: Linux or Unix-like server environment (Windows Server also supported).
+- Web Server: Apache HTTP Server with `mod_rewrite` and `mod_php` or `mod_proxy_fcgi`, or Nginx with PHP-FPM.
+- PHP: Version 5.6.40+. Required extensions: `json`, `mbstring` (or bundled polyfill), and `curl` (recommended).
+- Database: ArcadeDB running with Java 11 or Java 17.
+- Neo4j: Neo4j latest (Desktop or Server) (for source graph population and export).
+- Build Environment: Node.js (`^22.12.0 || ^24.0.0 || >=26.0.0`) and npm for compiling the frontend bundle.
+- Ollama: Ollama daemon for conversational chatbot capabilities.
 
 ---
 
-## 3. Frontend Deployment (React)
-The frontend must be built before deployment to generate optimized static files.
+## 3. Database Deployment (ArcadeDB)
 
-1.  **Configure API URL**:
-    Create a file named `.env.production` in the project root:
-    ```env
-    VITE_API_BASE=/APP_BASE_PATH
-    ```
-2.  **Build the Project**:
-    ```bash
-    npm install
-    npm run build
-    ```
-3.  **Upload Static Files**:
-    Upload the contents of the `dist/` directory to your web server (e.g., `./` or `dist/`).
-4.  **SPA Routing**:
-    Ensure your web server redirects all non-file requests to `index.html`.
-    *   **Apache**: Use the provided `.htaccess` file.
-    *   **Nginx**: Add the following to your site configuration:
-        ```nginx
-        location /APP_BASE_PATH/ {
-            try_files $uri $uri/ /APP_BASE_PATH/index.html;
-        }
-        ```
+The graph is rebuilt from `data/graph_export/neo4j-export.json`.
+
+1. Source Graph Population in Neo4j:
+   If rebuilding the graph from raw CSV files, the source CSV files are provided in `data/csv/nodes/` and `data/csv/relations/`. Copy node CSV files and relationship CSV files to the Neo4j latest (Desktop or Server) `import` directory, then load the dataset into Neo4j latest (Desktop or Server) using [`Create_graph.Cypher`](../../arcadedb/Create_graph.Cypher):
+   ```bash
+   cat arcadedb/Create_graph.Cypher | cypher-shell -u username -p password -d neo4j
+   ```
+   This creates schema constraints, loads 17 vertex types, and builds 21 edge types with PubMed, AYUSH, and DOI reference annotations.
+
+2. Export Graph to JSON:
+   Enable APOC file exports (`apoc.export.file.enabled=true` in `conf/apoc.conf`) and run [`Export.Cypher`](../../arcadedb/Export.Cypher):
+   ```cypher
+   CALL apoc.export.json.all("neo4j-export.json", {});
+   ```
+   The export writes `neo4j-export.json` in JSON Lines format.
+
+3. Install and Start ArcadeDB:
+   Download and unpack ArcadeDB on the database host. Start the ArcadeDB server:
+   ```bash
+   bin/server.sh
+   ```
+
+4. Database Creation, Import, and Sanity Checks:
+   Execute [`Migrate_to_ArcadeDB.sql`](../../arcadedb/Migrate_to_ArcadeDB.sql) using the ArcadeDB console:
+   ```bash
+   bin/console.sh arcadedb/Migrate_to_ArcadeDB.sql
+   ```
+   Or run the commands interactively:
+   ```sql
+   CONNECT remote:localhost username password;
+   CREATE DATABASE shodhana;
+   DISCONNECT;
+   CONNECT remote:localhost/shodhana username password;
+   IMPORT DATABASE file:///data/graph_export/neo4j-export.json;
+   ```
+   The ArcadeDB server reads this path. Adjust it if the repository is at a different location on the server.
+
+   Run post-migration sanity checks to verify 2,532 total nodes, 10,123 total relationships, 17 vertex types, 21 edge types, 0 edges missing `ref`, and 0 vertices missing `name`.
+
+5. Configure Database User:
+   Create a dedicated user with read-only permissions for the API:
+   ```sql
+   CREATE USER username IDENTIFIED BY 'password'
+   GRANT DATABASE.READ TO username
+   ```
+
+6. Verify Database Service:
+   Confirm that ArcadeDB is reachable:
+   ```bash
+   curl http://localhost:2480/api/v1/ready
+   ```
 
 ---
 
-## 📄 Documentation
-- **[Frontend Documentation](./FRONTEND_DOCUMENTATION.md)** — Component tree, state management, graph visualization, page reference.
-- **[Backend Documentation](./BACKEND_DOCUMENTATION.md)** — All endpoints, ArcadeDB schema, connection details, field mappings.
+## 4. Backend API Deployment
 
-## 🛠 Troubleshooting
-*   **CORS Issues**: Ensure `ALLOWED_ORIGINS` in the backend matches your frontend URL exactly.
-*   **Graph Not Loading**: Check if the PHP backend can reach ArcadeDB via `ARCADE_URL`. Hit `/api/health.php` to verify.
-*   **Search Returning Empty**: Check PHP error logs. If ArcadeDB throws "Error on transaction commit", a vertex type name might be mismatched (see `graph_service.php` normalization functions).
-*   **404 on Refresh**: Ensure the web server is correctly configured for SPA routing (Step 3.4).
+1. Code Placement:
+   Copy the contents of `webservice/api/` into the web server directory.
+2. Storage and Cache Setup:
+   Ensure the storage directories exist and are writable by the web server process:
+   ```bash
+   mkdir -p webservice/api/storage/cache
+   chmod -R 775 webservice/api/storage
+   ```
+3. Environment Configuration:
+   Configure environment variables on the web server or create a `.env` file in the application directory:
+   - `ARCADE_URL`: `http://localhost:2480`
+   - `ARCADE_DB`: `shodhana`
+   - `ARCADE_USER`: `username`
+   - `ARCADE_PASS`: `password`
+   - `ALLOWED_ORIGINS`: Permitted frontend origin URL
+   - `API_STORAGE_DIR`: Relative or absolute path to the storage folder
+   - `API_CACHE_DIR`: Relative or absolute path to the cache folder
+   - `API_VERSION`: `v1`
+   - `OLLAMA_URL`: `http://localhost:11434` (if chatbot is enabled)
+   - `OLLAMA_MODEL`: `llama3.2`
 
-## 📋 Maintenance
-*   **Logs**: Monitor PHP error logs and ArcadeDB logs for connectivity issues.
-*   **Backups**: Regularly backup your ArcadeDB data using the ArcadeDB backup utility.
-*   **Updates**: After backend changes, run `php webservice/api/tests/provenance-subgraph.test.php` to verify core logic.
+---
+
+## 5. Frontend Build and Deployment
+
+1. Configure Build Environment:
+   In `.env.production` (or `.env`), set the API base path and chatbot status:
+   ```ini
+   VITE_API_BASE=/APP_BASE_PATH
+   VITE_CHAT_ENABLED=true
+   ```
+   If deploying to the server root, leave `VITE_API_BASE=` empty to use relative paths.
+2. Compile Production Bundle:
+   Run the build script from `webservice/frontend/`:
+   ```bash
+   npm install
+   npm run build
+   ```
+   The build artifacts are emitted to `webservice/frontend/dist/`.
+3. Deploy Static Files:
+   Copy the contents of `dist/` to the web server document root or target application directory.
+
+---
+
+## 6. Web Server Configuration
+
+### Apache HTTP Server
+
+Ensure `mod_rewrite` is enabled. A reference configuration is provided in `apache.conf.example`.
+
+Example configuration snippet for subdirectory deployments:
+
+```apache
+<Directory "/path/to/webroot">
+    Options -Indexes +FollowSymLinks
+    AllowOverride None
+    Require all granted
+
+    RewriteEngine On
+    RewriteBase /APP_BASE_PATH/
+
+    # Forward API requests to the PHP backend
+    RewriteRule ^api/(.*)$ webservice/api/$1 [L,QSA]
+
+    # Route all other non-file requests to index.html
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.html [L]
+</Directory>
+```
+
+### Nginx
+
+Example configuration snippet for single-page application routing and PHP-FPM:
+
+```nginx
+location /APP_BASE_PATH/ {
+    try_files $uri $uri/ /APP_BASE_PATH/index.html;
+}
+
+location ~ \.php$ {
+    include fastcgi_params;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    fastcgi_pass unix:/run/php/php-fpm.sock;
+}
+```
+
+---
+
+## 7. Chatbot Service Setup
+
+If the conversational assistant is enabled:
+
+1. Install Ollama on the server.
+2. Start the service daemon:
+   ```bash
+   ollama serve
+   ```
+3. Download the model:
+   ```bash
+   ollama pull llama3.2
+   ```
+4. Verify the Ollama port (11434) is accessible to the PHP backend.
+5. Set `OLLAMA_URL` in the backend environment.
+
+---
+
+## 8. Post-Deployment Verification
+
+Execute smoke checks to confirm production health:
+
+1. Backend Health Check:
+   ```bash
+   curl http://localhost:8081/api/health.php
+   ```
+   Expected response: `{"ok":true,"service":"shodhana-api","version":"v1","arcade":{"connected":true,...}}`.
+2. Chatbot Health Check:
+   ```bash
+   curl http://localhost:8081/api/chatbot_health.php
+   ```
+   Expected response: `{"ok":true,"service":"graph-answer","status":"online",...}`.
+3. Test Search Endpoint:
+   ```bash
+   curl "http://localhost:8081/api/search.php?domain=disease&q=Eczema&limit=1"
+   ```
+   Expected response: JSON object containing matched nodes array.
+4. Browser Validation:
+   Open the deployed URL in a browser. Verify navigation across the Disease, Compound, and Integrated Explorer views.
+
+---
+
+## 9. Operational Maintenance
+
+- Log Monitoring: Regularly monitor PHP error logs and ArcadeDB server logs for connection or query errors.
+- Cache Management: If graph data or schemas are re-imported, clear `webservice/api/storage/cache/` to ensure fresh entity resolution.
+- Database Backups: Use ArcadeDB backup utilities to create scheduled database backups.
+- Security Headers: Verify that `ALLOWED_ORIGINS` restricts cross-origin API requests to trusted domains in production.

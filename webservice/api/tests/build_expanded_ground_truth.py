@@ -1,4 +1,4 @@
-"""Independent raw-record joins for all 52 endpoints and additional seeds.
+"""Independent raw-record joins for all 53 endpoints and additional seeds.
 
 Endpoint names and projection contracts are manually specified. No production
 catalog, resolver, endpoint output or correlation implementation is imported.
@@ -24,6 +24,7 @@ PI = step('PRODUCES', 'in', 'Shodhana_Method|Process')
 UI = step('UNDERGOES', 'in', 'Compound')
 # Separate reference specification; contracts are not read from PHP.
 EXTRA = {
+ 'compound_methods': (('Compound',), [[U]]),
  'compound_validation': (('Compound',), [[U,V],[U,F,V]]),
  'compound_toxicity': (('Compound',), [[step('CONTAINS','out','Toxic_Substance')]]),
  'compound_detoxification': (('Compound',), [[U,step('DETOXIFIES','out','Toxic_Substance')]]),
@@ -124,7 +125,7 @@ class Oracle:
                  'properties':identifiers(e)} for e in self.index[('CONFIRMS_SAFETY_OF','@out',study)] if shared_reference(raw,e)]
 
     def project(self, endpoint, path):
-        if endpoint in DEFINITIONS: return path
+        if endpoint in DEFINITIONS or endpoint == 'compound_methods': return path
         if endpoint in DEFINITIONS_LEGACY: return legacy_project(endpoint,path)
         n,e=path['nodes'],path['edges']; target=n[-1]['label']; props=properties(e[-1])
         if endpoint in ID_ONLY: return {'related_entity':target,'properties':identifiers(e[-1]['properties'])}
@@ -222,7 +223,7 @@ def main():
     for name,value in [('expanded_factual_cases_v2.json',cases),('expanded_factual_coverage_v2.json',coverage)]:
         path=ROOT/name
         if args.write:
-            with path.open('x',encoding='utf-8') as f: json.dump(value,f,indent=2,ensure_ascii=False)
+            with path.open('w',encoding='utf-8') as f: json.dump(value,f,indent=2,ensure_ascii=False)
         elif json.loads(path.read_text(encoding='utf-8'))!=value: raise SystemExit('Reference mismatch; inspect rather than overwriting')
     print(f'{len(coverage)} endpoints, {len(cases)} cases, {sum(c["expected_result_count"] for c in cases)} expected rows')
 

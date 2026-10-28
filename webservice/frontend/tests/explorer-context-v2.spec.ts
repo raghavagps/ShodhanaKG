@@ -5,7 +5,7 @@ import { entityType, entityGraphUrl } from '../src/lib/entityNavigation';
 import type { Core } from 'cytoscape';
 type GraphContainer = Element & { _cyreg?: { cy: Core } };
 
-const snapshot: { tables: Record<string, Array<Record<string, string>>> } = JSON.parse(readFileSync('../api/tests/fixtures/explorer_context_2026_09_25_v1/baseline/snapshot.json', 'utf8'));
+const snapshot: { tables: Record<string, Array<Record<string, string>>> } = JSON.parse(readFileSync('../api/tests/fixtures/factual_graph_snapshot_expanded.json', 'utf8'));
 const samples = Object.entries(snapshot.tables).filter(([, rows]) => rows[0]?.['@cat'] === 'v').map(([type, rows]) => ({ type: entityType(type), id: rows[0]['@rid'], name: rows[0].name }));
 test.describe('Explorer context redesign', () => {
   for (const type of ['Compound', 'Disease', 'Symptom', 'PurifiedCompound', 'Media']) test(`Integrated typed selection: ${type}`, async ({ page }) => {

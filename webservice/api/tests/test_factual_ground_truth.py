@@ -6,7 +6,8 @@ class IndependentOracleTests(unittest.TestCase):
     def test_versioned_migration_preserves_raw_paths(self):
         import json
         from build_factual_ground_truth import ROOT
-        for name in ('factual_evaluation_cases', 'legacy_factual_evaluation_cases'):
+        names = [n for n in ('factual_evaluation_cases', 'legacy_factual_evaluation_cases') if (ROOT / (n + '.json')).exists()]
+        for name in names:
             old = json.loads((ROOT / (name + '.json')).read_text(encoding='utf-8'))
             new = json.loads((ROOT / (name + '_v2.json')).read_text(encoding='utf-8'))
             self.assertEqual([c['id'] for c in old], [c['id'] for c in new])

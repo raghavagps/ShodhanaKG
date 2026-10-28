@@ -31,7 +31,7 @@ termCheck($stale->resolve('Listed term',[],false)['outcome']==='unmatched','Chan
 $nodes[3]['@type']='Indication';$stale=new EntityResolution($nodes,$catalog);
 termCheck($stale->resolve('Trusted synonym',[],false)['outcome']==='unmatched','Cannot convert node type');
 
-$snapshot=json_decode(file_get_contents(__DIR__.'/fixtures/node_properties_2026_09_25_v1/benchmark_final/snapshot.json'),true);
+$snapshot=json_decode(file_get_contents(__DIR__.'/fixtures/base_snapshot.json'),true);
 $raw=[];foreach($snapshot['tables'] as $table) foreach($table as $n) if(($n['@cat']??'')==='v')$raw[]=$n;
 $live=new EntityResolution($raw);
 $expected=[];foreach($raw as $n)$expected[EntityResolution::normalize(vertex_label($n))][]=$n['@rid'];

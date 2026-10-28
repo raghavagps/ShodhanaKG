@@ -1,0 +1,71 @@
+﻿Disease,Relationship,Therapy,Ayush_ID
+Ankylosing Spondylitis,POST_TREATED_BY,Oral Medication,257223
+,,,
+Amyotrophic Lateral Sclerosis,POST_TREATED_BY,Oral Medication,240707
+,,,
+Neurogenic Bladder,POST_TREATED_BY,Sitz Bath,22455
+Neurogenic Bladder,POST_TREATED_BY,Oral Medication,22455
+,,,
+Knee Osteoarthritis,POST_TREATED_BY,Shamana,257229
+,,,
+Migraine,POST_TREATED_BY,Oral Medication,238386
+,,,
+Osteoarthritis,POST_TREATED_BY,Oral Medication,257895
+,,,
+Cerebral Palsy,POST_TREATED_BY,Internal Medication,96638
+,,,
+Sciatica,POST_TREATED_BY,Sphiktadana,165226
+,,,
+Piles,POST_TREATED_BY,Oral Medication,9859
+,,,
+Obesity,POST_TREATED_BY,Oral Medication,16030
+,,,
+Obesity,POST_TREATED_BY,Oral Medication,121605
+,,,
+Cervical Spondylosis,POST_TREATED_BY,Oral Medication,237901
+,,,
+Chronic Low Back Pain,POST_TREATED_BY,Oral Medication,121551
+,,,
+Vasculitis,POST_TREATED_BY,Oral Medication,227062
+,,,
+Chronic Non-Healing Ulcer,POST_TREATED_BY,Shamana,254906
+,,,
+Haemorrhoids,POST_TREATED_BY,Oral Medication,164096
+Haemorrhoids,POST_TREATED_BY,Sitz Bath,164096
+Haemorrhoids,POST_TREATED_BY,Matra Basti,164096
+,,,
+Ankylosing Spondylitis,POST_TREATED_BY,Oral Medication,196064
+,,,
+Post-Thrombotic Syndrome,POST_TREATED_BY,Shamana,239160
+,,,
+Rheumatoid Arthritis,POST_TREATED_BY,Oral Medication,240689
+,,,
+Endometrioma,POST_TREATED_BY,Oral Medication,254496
+,,,
+Ankylosing Spondylitis,POST_TREATED_BY,Oral Medication,257918
+,,,
+Fibromyalgia,POST_TREATED_BY,Internal Medication,239364
+,,,
+Cervical Spondylosis,POST_TREATED_BY,Oral Medication,143330
+,,,
+Irritable Bowel Syndrome,POST_TREATED_BY,Shamana,237978
+,,,
+Knee Osteoarthritis,POST_TREATED_BY,Oral Medication,121537
+,,,
+Vipadika,POST_TREATED_BY,Shamana,253965
+,,,
+Poly Cystic Ovarian Syndrome,POST_TREATED_BY,Shamana,238414
+,,,
+Lumbar Disc Disease,POST_TREATED_BY,Oral Medication,242766
+,,,
+Guillain-Barre Syndrome,POST_TREATED_BY,Internal Medication,132876
+,,,
+Tubal Blockage,POST_TREATED_BY,Oral Medication,241639
+,,,
+Infertility,POST_TREATED_BY,Oral Medication,196083
+,,,
+Infertility,POST_TREATED_BY,Oral Medication,164540
+,,,
+Sciatica,POST_TREATED_BY,Oral Medication,238755
+,,,
+Spinocerebellar Ataxia,POST_TREATED_BY,Internal Medication,239448

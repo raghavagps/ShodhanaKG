@@ -9,7 +9,7 @@ class EvidenceTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.cases = json.loads((ROOT / 'expanded_factual_cases_v3.json').read_text(encoding='utf-8'))
-        report = json.loads((ROOT / 'benchmark_reference_classification_v3/factual.json').read_text(encoding='utf-8'))
+        report = json.loads((ROOT / 'legacy_evidence_benchmark.json').read_text(encoding='utf-8'))
         cls.actual = {r['id']: r['actual'] for r in report['cases']}
         raw = json.loads((ROOT / 'factual_graph_snapshot_expanded.json').read_text(encoding='utf-8'))
         cls.records = {r['@rid']: r for rows in raw['tables'].values() for r in rows}

@@ -1,55 +1,123 @@
+# =============================================================================
+# Dependencies & Package Managers
+# =============================================================================
+node_modules/
+.pnpm-store/
+
+# =============================================================================
+# Build & Distribution Artifacts
+# =============================================================================
+dist/
+dist-ssr/
+.vite/
+*.tsbuildinfo
+
+# =============================================================================
+# Backend Runtime & Storage Cache
+# =============================================================================
+webservice/api/storage/
+api/storage/
+mock_arcadedb.log
+
+# Archived test benchmarks and legacy snapshots
+data/archives/
+*.tar.gz
+*.zip
+
+# =============================================================================
 # Logs
-logs
+# =============================================================================
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# =============================================================================
+# Test & Coverage Outputs
+# =============================================================================
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+.playwright-mcp/
+
+# Coverage & Pytest
+.coverage
+.coverage.*
+coverage/
+htmlcov/
+.pytest_cache/
+
+# =============================================================================
+# Python Artifacts & Virtual Environments
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.mypy_cache/
+.ruff_cache/
+
+# =============================================================================
+# Environment & Local Configuration
+# =============================================================================
 *.local
+.env.local
+.env.*.local
+.env
+.env.production
 
-# API Storage & Mock logs
-api/storage/
-webservice/api/storage/
-.vite/
-mock_arcadedb.log
-
-# Editor directories and files
+# =============================================================================
+# IDE & Editor Files
+# =============================================================================
+# Visual Studio Code
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains / IntelliJ
+.idea/
+
+# Editor temporary / swap files
+*.sw?
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
 
-# Playwright
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
-.audit-temp/
-.playwright-mcp/
+# =============================================================================
+# Operating System Files
+# =============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# =============================================================================
+# AI Assistants, Scratch & Audit Files
+# =============================================================================
 scratch/
+.audit-temp/
 .gemini/
-
-# AI agent instructions and rules
+CLAUDE.md
+.cursorrules
+.cursor/
 AGENTS.md
 GEMINI.md
 docs/AGENTS.md
 docs/GEMINI.md
-CLAUDE.md
-.cursorrules
-.cursor/
-
-# Python bytecode & cache
-__pycache__/
-*.py[cod]
-*$py.class

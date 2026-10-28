@@ -3,7 +3,7 @@ import json, sys
 from pathlib import Path
 from evaluate_entity_resolution import request
 from stored_node_contract import node_issues
-snapshot=json.loads((Path(__file__).resolve().parent / 'fixtures/resolution_baseline_2026_09_25_v1/snapshot.json').read_text(encoding='utf-8'))
+snapshot=json.loads((Path(__file__).resolve().parent / 'fixtures/factual_graph_snapshot_expanded.json').read_text(encoding='utf-8'))
 nodes={r['@rid']:r for rows in snapshot['tables'].values() for r in rows}
 rows=[]
 def check(name,ok):

@@ -1,0 +1,603 @@
+﻿Disease,Relationship,Symptom,Ayush_ID
+Ankylosing Spondylitis,HAS_SYMPTOM,Back Pain,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Difficulty in Swallowing,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Inability To Stand,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Anorexia,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Abdominal Pain,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Decreased Metabolism,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Heaviness,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Constipation,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Fatigue,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Coated Tongue,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Stiffness,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Swelling,257223
+Ankylosing Spondylitis,HAS_SYMPTOM,Breathlessness,257223
+,,,
+Ankylosing Spondylitis,HAS_SYMPTOM,Joint Pain,163783
+Ankylosing Spondylitis,HAS_SYMPTOM,Stiffness,163783
+Ankylosing Spondylitis,HAS_SYMPTOM,Swelling,163783
+Ankylosing Spondylitis,HAS_SYMPTOM,Tenderness,163783
+Ankylosing Spondylitis,HAS_SYMPTOM,Fever,163783
+Ankylosing Spondylitis,HAS_SYMPTOM,Loss Of Appetite,163783
+Ankylosing Spondylitis,HAS_SYMPTOM,Constipation,163783
+Ankylosing Spondylitis,HAS_SYMPTOM,Disturbed Sleep,163783
+,,,
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Muscle Weakness,240707
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Slurred Speech,240707
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Inability To Walk,240707
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Heaviness,240707
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Stiffness,240707
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Poor Appetite,240707
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Memory Loss,240707
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Fatigue,240707
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Postural Instability,240707
+,,,
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Redness,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Scaling,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Dryness,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Pruritus,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Erythematous Plaques,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Burning Sensation,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Papular Erythema,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Palmoplantar Keratoderma,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Lesions,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Swelling,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Bleeding,254481
+Pityriasis Rubra Pilaris,HAS_SYMPTOM,Fissure,254481
+,,,
+Acute Renal Calculus,HAS_SYMPTOM,Abdominal Pain,164098
+Acute Renal Calculus,HAS_SYMPTOM,Coated Tongue,164098
+Acute Renal Calculus,HAS_SYMPTOM,Muscle Stiffness,164098
+Acute Renal Calculus,HAS_SYMPTOM,Disturbed Sleep,164098
+Acute Renal Calculus,HAS_SYMPTOM,Pain,164098
+Acute Renal Calculus,HAS_SYMPTOM,Tenderness,164098
+Acute Renal Calculus,HAS_SYMPTOM,Nausea,164098
+Acute Renal Calculus,HAS_SYMPTOM,Vomiting,164098
+,,,
+Rett Syndrome,HAS_SYMPTOM,Drooling of saliva,216770
+Rett Syndrome,HAS_SYMPTOM,Slurred Speech,216770
+Rett Syndrome,HAS_SYMPTOM,Inability To Sit,216770
+Rett Syndrome,HAS_SYMPTOM,Inability To Stand,216770
+Rett Syndrome,HAS_SYMPTOM,Inability To Walk,216770
+Rett Syndrome,HAS_SYMPTOM,Loss Of Appetite,216770
+Rett Syndrome,HAS_SYMPTOM,Irritable Bowel,216770
+Rett Syndrome,HAS_SYMPTOM,Hard Stools,216770
+Rett Syndrome,HAS_SYMPTOM,Eye Misalignment,216770
+Rett Syndrome,HAS_SYMPTOM,Disturbed Sleep,216770
+Rett Syndrome,HAS_SYMPTOM,Constipation,216770
+,,,
+Neurogenic Bladder,HAS_SYMPTOM,Straining,22455
+Neurogenic Bladder,HAS_SYMPTOM,Incomplete Void,22455
+Neurogenic Bladder,HAS_SYMPTOM,Weak Stream,22455
+Neurogenic Bladder,HAS_SYMPTOM,Urgency,22455
+Neurogenic Bladder,HAS_SYMPTOM,Dysuria,22455
+,,,
+Sciatica,HAS_SYMPTOM,Pain,17779
+Sciatica,HAS_SYMPTOM,Stiffness,17779
+Sciatica,HAS_SYMPTOM,Pricking,17779
+Sciatica,HAS_SYMPTOM,Tenderness,17779
+,,,
+Knee Osteoarthritis,HAS_SYMPTOM,Pain,257229
+Knee Osteoarthritis,HAS_SYMPTOM,Swelling,257229
+Knee Osteoarthritis,HAS_SYMPTOM,Stiffness,257229
+Knee Osteoarthritis,HAS_SYMPTOM,Discomfort,257229
+Knee Osteoarthritis,HAS_SYMPTOM,Loss Of Mobility,257229
+Knee Osteoarthritis,HAS_SYMPTOM,Crepitus,257229
+,,,
+Female Infertility,HAS_SYMPTOM,Dyspareunia,143266
+Female Infertility,HAS_SYMPTOM,Dysmenorrhea,143266
+,,,
+Migraine,HAS_SYMPTOM,Vomiting,238386
+Migraine,HAS_SYMPTOM,Nausea,238386
+Migraine,HAS_SYMPTOM,Headache,238386
+Migraine,HAS_SYMPTOM,Photophobia,238386
+Migraine,HAS_SYMPTOM,Vertigo,238386
+Migraine,HAS_SYMPTOM,Weakness,238386
+Migraine,HAS_SYMPTOM,Fatigue,238386
+Migraine,HAS_SYMPTOM,Loss Of Appetite,238386
+Migraine,HAS_SYMPTOM,Stress,238386
+Migraine,HAS_SYMPTOM,Anger,238386
+Migraine,HAS_SYMPTOM,Sensitivity To Light,238386
+,,,
+Osteoarthritis,HAS_SYMPTOM,Swelling,257895
+Osteoarthritis,HAS_SYMPTOM,Pain,257895
+Osteoarthritis,HAS_SYMPTOM,Joint Pain,257895
+Osteoarthritis,HAS_SYMPTOM,Dysfunction,257895
+Osteoarthritis,HAS_SYMPTOM,Tenderness,257895
+Osteoarthritis,HAS_SYMPTOM,Inflammation,257895
+,,,
+Cervical Spondylosis,HAS_SYMPTOM,Neck Pain,216736
+Cervical Spondylosis,HAS_SYMPTOM,Stiffness,216736
+Cervical Spondylosis,HAS_SYMPTOM,Disturbed Sleep,216736
+Cervical Spondylosis,HAS_SYMPTOM,Irritable Bowel,216736
+,,,
+Irritable Bowel Syndrome,HAS_SYMPTOM,Abdominal Pain,254505
+Irritable Bowel Syndrome,HAS_SYMPTOM,Incomplete Void,254505
+Irritable Bowel Syndrome,HAS_SYMPTOM,Irritable Bowel,254505
+Irritable Bowel Syndrome,HAS_SYMPTOM,Hard Stools,254505
+Irritable Bowel Syndrome,HAS_SYMPTOM,Loose Stools,254505
+,,,
+Osteoarthritis,HAS_SYMPTOM,Joint Pain,257238
+Osteoarthritis,HAS_SYMPTOM,Stiffness,257238
+Osteoarthritis,HAS_SYMPTOM,Reduced Mobility,257238
+Osteoarthritis,HAS_SYMPTOM,Inflammation,257238
+Osteoarthritis,HAS_SYMPTOM,Swelling,257238
+Osteoarthritis,HAS_SYMPTOM,Tenderness,257238
+Osteoarthritis,HAS_SYMPTOM,Crepitus,257238
+,,,
+Cerebral Palsy,HAS_SYMPTOM,Stiffness,96638
+Cerebral Palsy,HAS_SYMPTOM,Restricted Neck Movements,96638
+Cerebral Palsy,HAS_SYMPTOM,Inability To Sit,96638
+Cerebral Palsy,HAS_SYMPTOM,Speech Impairment,96638
+Cerebral Palsy,HAS_SYMPTOM,Inability To Stand,96638
+Cerebral Palsy,HAS_SYMPTOM,Cognitive Impairment,96638
+Cerebral Palsy,HAS_SYMPTOM,Constipation,96638
+Cerebral Palsy,HAS_SYMPTOM,Drooling of saliva,96638
+Cerebral Palsy,HAS_SYMPTOM,Respiratory Insufficiency,96638
+Cerebral Palsy,HAS_SYMPTOM,Coated Tongue,96638
+Cerebral Palsy,HAS_SYMPTOM,Indigestion,96638
+Cerebral Palsy,HAS_SYMPTOM,Hyperreflexia,96638
+,,,
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Pain,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Stiffness,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Restricted Movement,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Muscle Cramps,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Paraparesis,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Numbness,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Tingling,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Burning Sensation,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Fasciculation,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Paraplegia,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Anorexia,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Fatigue,2885
+Lumbo-Sacral Disorder,HAS_SYMPTOM,Indigestion,2885
+,,,
+Sciatica,HAS_SYMPTOM,Pain,165226
+Sciatica,HAS_SYMPTOM,Stiffness,165226
+Sciatica,HAS_SYMPTOM,Pricking,165226
+Sciatica,HAS_SYMPTOM,Anorexia,165226
+Sciatica,HAS_SYMPTOM,Heaviness,165226
+Sciatica,HAS_SYMPTOM,Weakness,165226
+,,,
+Piles,HAS_SYMPTOM,Pain,9859
+Piles,HAS_SYMPTOM,Painful Defecation,9859
+Piles,HAS_SYMPTOM,Constipation,9859
+Piles,HAS_SYMPTOM,Prolapsed Pile Mass,9859
+Piles,HAS_SYMPTOM,Discharge,9859
+Piles,HAS_SYMPTOM,Itching,9859
+Piles,HAS_SYMPTOM,Anemia,9859
+,,,
+Lumbar Disc Herniation,HAS_SYMPTOM,Lower Back Pain,22827
+Lumbar Disc Herniation,HAS_SYMPTOM,Weakness,22827
+Lumbar Disc Herniation,HAS_SYMPTOM,Numbness,22827
+Lumbar Disc Herniation,HAS_SYMPTOM,Urinary Incontinence,22827
+Lumbar Disc Herniation,HAS_SYMPTOM,Stiffness,22827
+Lumbar Disc Herniation,HAS_SYMPTOM,Pricking,22827
+Lumbar Disc Herniation,HAS_SYMPTOM,Restricted Movement,22827
+Lumbar Disc Herniation,HAS_SYMPTOM,Anorexia,22827
+Lumbar Disc Herniation,HAS_SYMPTOM,Paraesthesia,22827
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Joint Pain,238662
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,238662
+Rheumatoid Arthritis,HAS_SYMPTOM,Tenderness,238662
+Rheumatoid Arthritis,HAS_SYMPTOM,Loss Of Strength,238662
+Rheumatoid Arthritis,HAS_SYMPTOM,Weakened Grip,238662
+Rheumatoid Arthritis,HAS_SYMPTOM,Inability To Walk,238662
+Rheumatoid Arthritis,HAS_SYMPTOM,Dysfunction,238662
+,,,
+Obesity,HAS_SYMPTOM,Weakness,16030
+Obesity,HAS_SYMPTOM,Foul Smell,16030
+Obesity,HAS_SYMPTOM,Sweating,16030
+Obesity,HAS_SYMPTOM,Dyspnea,16030
+Obesity,HAS_SYMPTOM,Polydipsia,16030
+Obesity,HAS_SYMPTOM,Drowsiness,16030
+Obesity,HAS_SYMPTOM,Polyphagia,16030
+Obesity,HAS_SYMPTOM,Lethargy,16030
+Obesity,HAS_SYMPTOM,Oily Body Luster,16030
+,,,
+Obesity,HAS_SYMPTOM,Flaccidity of gluteum,121605
+Obesity,HAS_SYMPTOM,Polydipsia,121605
+Obesity,HAS_SYMPTOM,Foul Smell,121605
+Obesity,HAS_SYMPTOM,Hypersomnia,121605
+Obesity,HAS_SYMPTOM,Fatigue,121605
+Obesity,HAS_SYMPTOM,Polyphagia,121605
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Pain,96745
+Rheumatoid Arthritis,HAS_SYMPTOM,Stiffness,96745
+Rheumatoid Arthritis,HAS_SYMPTOM,Restricted Movement,96745
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,96745
+Rheumatoid Arthritis,HAS_SYMPTOM,Discoloration,96745
+,,,
+Tubal Blockage,HAS_SYMPTOM,Infertility,96628
+Tubal Blockage,HAS_SYMPTOM,Abdominal Pain,96628
+Tubal Blockage,HAS_SYMPTOM,Irregular Menstruation,96628
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Pain,227025
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,227025
+Rheumatoid Arthritis,HAS_SYMPTOM,Tenderness,227025
+,,,
+Cervical Spondylosis,HAS_SYMPTOM,Neck Pain,237901
+Cervical Spondylosis,HAS_SYMPTOM,Neck Stiffness,237901
+Cervical Spondylosis,HAS_SYMPTOM,Weakness,237901
+Cervical Spondylosis,HAS_SYMPTOM,Burning Sensation,237901
+Cervical Spondylosis,HAS_SYMPTOM,Vertigo,237901
+Cervical Spondylosis,HAS_SYMPTOM,Headache,237901
+Cervical Spondylosis,HAS_SYMPTOM,Tenderness,237901
+Cervical Spondylosis,HAS_SYMPTOM,Restricted Neck Movements,237901
+Cervical Spondylosis,HAS_SYMPTOM,Loss Of Sensation,237901
+Cervical Spondylosis,HAS_SYMPTOM,Sleeplessness,237901
+,,,
+Dysmenorrhea,HAS_SYMPTOM,Nausea,164111
+Dysmenorrhea,HAS_SYMPTOM,Vomiting,164111
+Dysmenorrhea,HAS_SYMPTOM,Fatigue,164111
+Dysmenorrhea,HAS_SYMPTOM,Headache,164111
+Dysmenorrhea,HAS_SYMPTOM,Sweating,164111
+Dysmenorrhea,HAS_SYMPTOM,Diarrhea,164111
+Dysmenorrhea,HAS_SYMPTOM,Constipation,164111
+Dysmenorrhea,HAS_SYMPTOM,Vaginal Discharge,164111
+Dysmenorrhea,HAS_SYMPTOM,Constipation,164111
+Dysmenorrhea,HAS_SYMPTOM,Breast Tenderness,164111
+,,,
+Chronic Kidney Disease,HAS_SYMPTOM,Edema,121566
+Chronic Kidney Disease,HAS_SYMPTOM,Loss Of Appetite,121566
+Chronic Kidney Disease,HAS_SYMPTOM,Anemia,121566
+Chronic Kidney Disease,HAS_SYMPTOM,Weakness,121566
+Chronic Kidney Disease,HAS_SYMPTOM,Oliguria,121566
+,,,
+Sciatica,HAS_SYMPTOM,Lower Back Pain,107295
+Sciatica,HAS_SYMPTOM,Numbness,107295
+Sciatica,HAS_SYMPTOM,Stiffness,107295
+Sciatica,HAS_SYMPTOM,Pricking,107295
+Sciatica,HAS_SYMPTOM,Fasciculation,107295
+,,,
+Lumbar Spinal Stenosis,HAS_SYMPTOM,Pain,121753
+Lumbar Spinal Stenosis,HAS_SYMPTOM,Stiffness,121753
+Lumbar Spinal Stenosis,HAS_SYMPTOM,Pricking,121753
+Lumbar Spinal Stenosis,HAS_SYMPTOM,Muscle Twitching,121753
+Lumbar Spinal Stenosis,HAS_SYMPTOM,Heaviness,121753
+,,,
+Chronic Low Back Pain,HAS_SYMPTOM,Stiffness,121551
+Chronic Low Back Pain,HAS_SYMPTOM,Inability To Sit,121551
+Chronic Low Back Pain,HAS_SYMPTOM,Postural Instability,121551
+Chronic Low Back Pain,HAS_SYMPTOM,Inability To Walk,121551
+Chronic Low Back Pain,HAS_SYMPTOM,Flatulence,121551
+Chronic Low Back Pain,HAS_SYMPTOM,Lower Back Pain,121551
+,,,
+Diabetes Mellitus,HAS_SYMPTOM,Polyuria,239363
+Diabetes Mellitus,HAS_SYMPTOM,Polyphagia,239363
+Diabetes Mellitus,HAS_SYMPTOM,Burning Sensation,239363
+Diabetes Mellitus,HAS_SYMPTOM,Cloudy Urine,239363
+Diabetes Mellitus,HAS_SYMPTOM,Loss of Libido,239363
+Diabetes Mellitus,HAS_SYMPTOM,Weakness,239363
+,,,
+Vasculitis,HAS_SYMPTOM,Ulcer,227062
+Vasculitis,HAS_SYMPTOM,Discharge,227062
+Vasculitis,HAS_SYMPTOM,Abdominal Pain,227062
+Vasculitis,HAS_SYMPTOM,Lethargy,227062
+Vasculitis,HAS_SYMPTOM,Lean Body,227062
+Vasculitis,HAS_SYMPTOM,Erythematous Macule,227062
+Vasculitis,HAS_SYMPTOM,Lesions,227062
+,,,
+Ankylosing Spondylitis,HAS_SYMPTOM,Lower Back Pain,239277
+Ankylosing Spondylitis,HAS_SYMPTOM,Neck Stiffness,239277
+Ankylosing Spondylitis,HAS_SYMPTOM,Restricted Neck Movements,239277
+,,,
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Edema,254906
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Stiffness,254906
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Pain,254906
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Blackish Discoloration,254906
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Ulcer,254906
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Burning Sensation,254906
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Pricking,254906
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Muscle Twitching,254906
+,,,
+Alopecia,HAS_SYMPTOM,Itching,238408
+Alopecia,HAS_SYMPTOM,Bald Patches,238408
+Alopecia,HAS_SYMPTOM,Stress,238408
+Alopecia,HAS_SYMPTOM,Disturbed Sleep,238408
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Body Ache,216742
+Rheumatoid Arthritis,HAS_SYMPTOM,Anorexia,216742
+Rheumatoid Arthritis,HAS_SYMPTOM,Thirst,216742
+Rheumatoid Arthritis,HAS_SYMPTOM,Lethargy,216742
+Rheumatoid Arthritis,HAS_SYMPTOM,Heaviness,216742
+Rheumatoid Arthritis,HAS_SYMPTOM,Fever,216742
+Rheumatoid Arthritis,HAS_SYMPTOM,Indigestion,216742
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,216742
+Rheumatoid Arthritis,HAS_SYMPTOM,Pain,216742
+Rheumatoid Arthritis,HAS_SYMPTOM,Stiffness,216742
+Rheumatoid Arthritis,HAS_SYMPTOM,Tenderness,216742
+,,,
+Venous Ulcer,HAS_SYMPTOM,Pricking,21942
+Venous Ulcer,HAS_SYMPTOM,Burning Sensation,21942
+Venous Ulcer,HAS_SYMPTOM,Ulcer,21942
+Venous Ulcer,HAS_SYMPTOM,Edema,21942
+Venous Ulcer,HAS_SYMPTOM,Blackish Discoloration,21942
+Venous Ulcer,HAS_SYMPTOM,Secretion,21942
+Venous Ulcer,HAS_SYMPTOM,Swelling,21942
+Venous Ulcer,HAS_SYMPTOM,Elevated Margin,21942
+,,,
+Osteoarthritis,HAS_SYMPTOM,Pain,237938
+Osteoarthritis,HAS_SYMPTOM,Swelling,237938
+Osteoarthritis,HAS_SYMPTOM,Crepitus,237938
+Osteoarthritis,HAS_SYMPTOM,Joint Pain,237938
+Osteoarthritis,HAS_SYMPTOM,Stiffness,237938
+Osteoarthritis,HAS_SYMPTOM,Inflammation,237938
+,,,
+Female Infertility,HAS_SYMPTOM,Irregular Menstruation,240293
+Female Infertility,HAS_SYMPTOM,Painful Menstruation,240293
+Female Infertility,HAS_SYMPTOM,Primary Infertility,240293
+Female Infertility,HAS_SYMPTOM,Anovulation,240293
+Female Infertility,HAS_SYMPTOM,Dyspareunia,240293
+,,,
+Sciatica,HAS_SYMPTOM,Stiffness,226987
+Sciatica,HAS_SYMPTOM,Pain,226987
+Sciatica,HAS_SYMPTOM,Pricking,226987
+Sciatica,HAS_SYMPTOM,Numbness,226987
+Sciatica,HAS_SYMPTOM,Back Pain,226987
+Sciatica,HAS_SYMPTOM,Lower Back Pain,226987
+Sciatica,HAS_SYMPTOM,Joint Pain,226987
+Sciatica,HAS_SYMPTOM,Loss Of Appetite,226987
+Sciatica,HAS_SYMPTOM,Stupor,226987
+Sciatica,HAS_SYMPTOM,Heaviness,226987
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Joint Pain,164937
+Rheumatoid Arthritis,HAS_SYMPTOM,Stiffness,164937
+Rheumatoid Arthritis,HAS_SYMPTOM,Loss Of Appetite,164937
+Rheumatoid Arthritis,HAS_SYMPTOM,Body Ache,164937
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,164937
+,,,
+Diabetic Neuropathy,HAS_SYMPTOM,Numbness,256285
+Diabetic Neuropathy,HAS_SYMPTOM,Burning Sensation,256285
+Diabetic Neuropathy,HAS_SYMPTOM,Pain,256285
+Diabetic Neuropathy,HAS_SYMPTOM,Tingling,256285
+Diabetic Neuropathy,HAS_SYMPTOM,Weakness,256285
+Diabetic Neuropathy,HAS_SYMPTOM,Constipation,256285
+,,,
+Global Developmental Delay,HAS_SYMPTOM,Inability To Stand,256281
+Global Developmental Delay,HAS_SYMPTOM,Inability To Walk,256281
+Global Developmental Delay,HAS_SYMPTOM,Impaired Speech,256281
+Global Developmental Delay,HAS_SYMPTOM,Nystagmus,256281
+Global Developmental Delay,HAS_SYMPTOM,Ataxia,256281
+Global Developmental Delay,HAS_SYMPTOM,Inability To Sit,256281
+Global Developmental Delay,HAS_SYMPTOM,Seizures,256281
+,,,
+Avascular Necrosis,HAS_SYMPTOM,Pelvic Pain,7494
+Avascular Necrosis,HAS_SYMPTOM,Cough,7494
+Avascular Necrosis,HAS_SYMPTOM,Weakness,7494
+Avascular Necrosis,HAS_SYMPTOM,Inability To Climb Stairs,7494
+Avascular Necrosis,HAS_SYMPTOM,Inability To Sit,7494
+Avascular Necrosis,HAS_SYMPTOM,Depression,7494
+Avascular Necrosis,HAS_SYMPTOM,Anxiety,7494
+Avascular Necrosis,HAS_SYMPTOM,Stress,7494
+,,,
+Haemorrhoids,HAS_SYMPTOM,Prolapsed Pile Mass,164096
+Haemorrhoids,HAS_SYMPTOM,Constipation,164096
+Haemorrhoids,HAS_SYMPTOM,Bleeding rectum,164096
+Haemorrhoids,HAS_SYMPTOM,Pain,164096
+,,,
+Ankylosing Spondylitis,HAS_SYMPTOM,Postural Instability,196064
+Ankylosing Spondylitis,HAS_SYMPTOM,Stiffness,196064
+Ankylosing Spondylitis,HAS_SYMPTOM,Lower Back Pain,196064
+Ankylosing Spondylitis,HAS_SYMPTOM,Disturbed Sleep,196064
+Ankylosing Spondylitis,HAS_SYMPTOM,Loss Of Appetite,196064
+Ankylosing Spondylitis,HAS_SYMPTOM,Tenderness,196064
+Ankylosing Spondylitis,HAS_SYMPTOM,Restricted Neck Movements,196064
+Ankylosing Spondylitis,HAS_SYMPTOM,Pain,196064
+,,,
+Post-Thrombotic Syndrome,HAS_SYMPTOM,Swelling,239160
+Post-Thrombotic Syndrome,HAS_SYMPTOM,Pain,239160
+Post-Thrombotic Syndrome,HAS_SYMPTOM,Blackish Discoloration,239160
+Post-Thrombotic Syndrome,HAS_SYMPTOM,Itching,239160
+Post-Thrombotic Syndrome,HAS_SYMPTOM,Heaviness,239160
+Post-Thrombotic Syndrome,HAS_SYMPTOM,Ulceration,239160
+,,,
+Spinocerebellar Ataxia,HAS_SYMPTOM,Reduced Sleep,239448
+Spinocerebellar Ataxia,HAS_SYMPTOM,Constipation,239448
+Spinocerebellar Ataxia,HAS_SYMPTOM,Irritable Bowel,239448
+Spinocerebellar Ataxia,HAS_SYMPTOM,Indigestion,239448
+Spinocerebellar Ataxia,HAS_SYMPTOM,Painful Micturition,239448
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Joint Pain,240689
+Rheumatoid Arthritis,HAS_SYMPTOM,Stiffness,240689
+Rheumatoid Arthritis,HAS_SYMPTOM,Tenderness,240689
+Rheumatoid Arthritis,HAS_SYMPTOM,Loss Of Appetite,240689
+Rheumatoid Arthritis,HAS_SYMPTOM,Mild Constipation,240689
+Rheumatoid Arthritis,HAS_SYMPTOM,Inability To Walk,240689
+,,,
+Endometrioma,HAS_SYMPTOM,Painful Defecation,254496
+Endometrioma,HAS_SYMPTOM,Dysmenorrhea,254496
+Endometrioma,HAS_SYMPTOM,Breast Tenderness,254496
+Endometrioma,HAS_SYMPTOM,Breast Pain,254496
+Endometrioma,HAS_SYMPTOM,Abdominal Pain,254496
+,,,
+Cerebral Palsy,HAS_SYMPTOM,Muscle Stiffness,121746
+Cerebral Palsy,HAS_SYMPTOM,Restricted Movement,121746
+Cerebral Palsy,HAS_SYMPTOM,Postural Instability,121746
+Cerebral Palsy,HAS_SYMPTOM,Lack Of Motor Activity,121746
+Cerebral Palsy,HAS_SYMPTOM,Muscle Weakness,121746
+Cerebral Palsy,HAS_SYMPTOM,Imbalance,121746
+Cerebral Palsy,HAS_SYMPTOM,Speech Impairment,121746
+Cerebral Palsy,HAS_SYMPTOM,Difficulty in Swallowing,121746
+,,,
+Ankylosing Spondylitis,HAS_SYMPTOM,Back Pain,257918
+Ankylosing Spondylitis,HAS_SYMPTOM,Stiffness,257918
+Ankylosing Spondylitis,HAS_SYMPTOM,Heaviness,257918
+Ankylosing Spondylitis,HAS_SYMPTOM,Poor Appetite,257918
+Ankylosing Spondylitis,HAS_SYMPTOM,Disrupted Sleep,257918
+Ankylosing Spondylitis,HAS_SYMPTOM,Kyphosis,257918
+Ankylosing Spondylitis,HAS_SYMPTOM,Tenderness,257918
+,,,
+Fibromyalgia,HAS_SYMPTOM,Swelling,239364
+Fibromyalgia,HAS_SYMPTOM,Fatigue,239364
+Fibromyalgia,HAS_SYMPTOM,Constipation,239364
+Fibromyalgia,HAS_SYMPTOM,Depression,239364
+Fibromyalgia,HAS_SYMPTOM,Sleeplessness,239364
+Fibromyalgia,HAS_SYMPTOM,Memory Loss,239364
+,,,
+Cervical Spondylosis,HAS_SYMPTOM,Neck Pain,143330
+Cervical Spondylosis,HAS_SYMPTOM,Restricted Neck Movements,143330
+Cervical Spondylosis,HAS_SYMPTOM,Neck Stiffness,143330
+Cervical Spondylosis,HAS_SYMPTOM,Arm Pain,143330
+,,,
+Bipolar Affective Disorder,HAS_SYMPTOM,Elevated mood,256894
+Bipolar Affective Disorder,HAS_SYMPTOM,Constant Wandering,256894
+Bipolar Affective Disorder,HAS_SYMPTOM,Frustation,256894
+Bipolar Affective Disorder,HAS_SYMPTOM,Anger,256894
+Bipolar Affective Disorder,HAS_SYMPTOM,Frequent Smiling,256894
+,,,
+Avascular Necrosis,HAS_SYMPTOM,Joint Pain,256282
+Avascular Necrosis,HAS_SYMPTOM,Weakness,256282
+Avascular Necrosis,HAS_SYMPTOM,Sleeplessness,256282
+Avascular Necrosis,HAS_SYMPTOM,Stiffness,256282
+Avascular Necrosis,HAS_SYMPTOM,Inability To Walk,256282
+,,,
+Irritable Bowel Syndrome,HAS_SYMPTOM,Irritable Bowel,237978
+Irritable Bowel Syndrome,HAS_SYMPTOM,Abdominal Pain,237978
+Irritable Bowel Syndrome,HAS_SYMPTOM,Loss Of Appetite,237978
+Irritable Bowel Syndrome,HAS_SYMPTOM,Abdominal Heaviness,237978
+Irritable Bowel Syndrome,HAS_SYMPTOM,Lethargy,237978
+Irritable Bowel Syndrome,HAS_SYMPTOM,Indigestion,237978
+Irritable Bowel Syndrome,HAS_SYMPTOM,Bloating,237978
+Irritable Bowel Syndrome,HAS_SYMPTOM,Weakness,237978
+Irritable Bowel Syndrome,HAS_SYMPTOM,Bowel Sounds,237978
+,,,
+Adhesive Capsulitis Stage 2,HAS_SYMPTOM,Shoulder Pain,196121
+Adhesive Capsulitis Stage 2,HAS_SYMPTOM,Pricking,196121
+Adhesive Capsulitis Stage 2,HAS_SYMPTOM,Disturbed Sleep,196121
+Adhesive Capsulitis Stage 2,HAS_SYMPTOM,Stiffness,196121
+Adhesive Capsulitis Stage 2,HAS_SYMPTOM,Restricted Movement,196121
+Adhesive Capsulitis Stage 2,HAS_SYMPTOM,Muscle Weakness,196121
+Adhesive Capsulitis Stage 2,HAS_SYMPTOM,Burning Sensation,196121
+,,,
+Knee Osteoarthritis,HAS_SYMPTOM,Joint Pain,121537
+Knee Osteoarthritis,HAS_SYMPTOM,Stiffness,121537
+Knee Osteoarthritis,HAS_SYMPTOM,Restricted Movement,121537
+Knee Osteoarthritis,HAS_SYMPTOM,Swelling,121537
+Knee Osteoarthritis,HAS_SYMPTOM,Crepitus,121537
+,,,
+Necrozoospermia,HAS_SYMPTOM,Infertility,165423
+,,,
+Vipadika,HAS_SYMPTOM,Cracked heels,253965
+Vipadika,HAS_SYMPTOM,Cracked palms,253965
+Vipadika,HAS_SYMPTOM,Pain,253965
+Vipadika,HAS_SYMPTOM,Auspitz Sign,253965
+Vipadika,HAS_SYMPTOM,Blackish Discoloration,253965
+Vipadika,HAS_SYMPTOM,Itching,253965
+Vipadika,HAS_SYMPTOM,Bleeding,253965
+Vipadika,HAS_SYMPTOM,Stress,253965
+,,,
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Acanthosis Nigricans,238414
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Bulky Uterus,238414
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Polycystic Ovaries,238414
+,,,
+Hemiplegia,HAS_SYMPTOM,Inability To Walk,239324
+Hemiplegia,HAS_SYMPTOM,Hemiplegia,239324
+Hemiplegia,HAS_SYMPTOM,Muscle Weakness,239324
+Hemiplegia,HAS_SYMPTOM,Absence Of Voluntary Actions,239324
+Hemiplegia,HAS_SYMPTOM,Diminished Reflexes,239324
+Hemiplegia,HAS_SYMPTOM,Imbalance,239324
+Hemiplegia,HAS_SYMPTOM,Impaired Speech,239324
+Hemiplegia,HAS_SYMPTOM,Coated Tongue,239324
+,,,
+Lumbar Disc Disease,HAS_SYMPTOM,Joint Pain,242766
+Lumbar Disc Disease,HAS_SYMPTOM,Lower Back Pain,242766
+Lumbar Disc Disease,HAS_SYMPTOM,Muscle Weakness,242766
+Lumbar Disc Disease,HAS_SYMPTOM,Disturbed Sleep,242766
+,,,
+Guillain-Barre Syndrome,HAS_SYMPTOM,Reduced Sensation,132876
+Guillain-Barre Syndrome,HAS_SYMPTOM,Inability To Walk,132876
+Guillain-Barre Syndrome,HAS_SYMPTOM,Inability To Sit,132876
+Guillain-Barre Syndrome,HAS_SYMPTOM,Inability To Stand,132876
+Guillain-Barre Syndrome,HAS_SYMPTOM,Lower Back Pain,132876
+Guillain-Barre Syndrome,HAS_SYMPTOM,Tingling,132876
+Guillain-Barre Syndrome,HAS_SYMPTOM,Muscle Weakness,132876
+,,,
+Tubal Blockage,HAS_SYMPTOM,Infertility,241639
+Tubal Blockage,HAS_SYMPTOM,Dyspareunia,241639
+Tubal Blockage,HAS_SYMPTOM,Anovulation,241639
+Tubal Blockage,HAS_SYMPTOM,Vaginal Discharge,241639
+,,,
+Hirayama Disease,HAS_SYMPTOM,Atrophy,242776
+Hirayama Disease,HAS_SYMPTOM,Weakness,242776
+Hirayama Disease,HAS_SYMPTOM,Tremor,242776
+Hirayama Disease,HAS_SYMPTOM,Neck Pain,242776
+Hirayama Disease,HAS_SYMPTOM,Weakened Grip,242776
+,,,
+Uterine Fibroids,HAS_SYMPTOM,Inter Menstrual Bleeding,206587
+Uterine Fibroids,HAS_SYMPTOM,Painful Menstruation,206587
+Uterine Fibroids,HAS_SYMPTOM,Abdominal Pain,206587
+Uterine Fibroids,HAS_SYMPTOM,Constipation,206587
+Uterine Fibroids,HAS_SYMPTOM,Menorrhagia,206587
+Uterine Fibroids,HAS_SYMPTOM,Weakness,206587
+Uterine Fibroids,HAS_SYMPTOM,Fatigue,206587
+Uterine Fibroids,HAS_SYMPTOM,Back Pain,206587
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Pain,238831
+Rheumatoid Arthritis,HAS_SYMPTOM,Loss of taste,238831
+Rheumatoid Arthritis,HAS_SYMPTOM,Thirst,238831
+Rheumatoid Arthritis,HAS_SYMPTOM,Fatigue,238831
+Rheumatoid Arthritis,HAS_SYMPTOM,Heaviness,238831
+Rheumatoid Arthritis,HAS_SYMPTOM,Indigestion,238831
+Rheumatoid Arthritis,HAS_SYMPTOM,Fever,238831
+Rheumatoid Arthritis,HAS_SYMPTOM,Lethargy,238831
+,,,
+Sciatica,HAS_SYMPTOM,Pain,18660
+Sciatica,HAS_SYMPTOM,Pricking,18660
+Sciatica,HAS_SYMPTOM,Stiffness,18660
+Sciatica,HAS_SYMPTOM,Muscle Twitching,18660
+Sciatica,HAS_SYMPTOM,Restricted Movement,18660
+,,,
+Infertility,HAS_SYMPTOM,Painful Menstruation,196083
+Infertility,HAS_SYMPTOM,Excessive Menstrual Bleeding,196083
+Infertility,HAS_SYMPTOM,Discomfort,196083
+Infertility,HAS_SYMPTOM,Vaginal Discharge,196083
+Infertility,HAS_SYMPTOM,Stress,196083
+Infertility,HAS_SYMPTOM,Anxiety,196083
+,,,
+Eczema,HAS_SYMPTOM,Itching,242778
+Eczema,HAS_SYMPTOM,Discharge,242778
+Eczema,HAS_SYMPTOM,Dryness,242778
+Eczema,HAS_SYMPTOM,Round Patches,242778
+Eczema,HAS_SYMPTOM,Redness,242778
+Eczema,HAS_SYMPTOM,Edema,242778
+Eczema,HAS_SYMPTOM,Thickness,242778
+,,,
+Infertility,HAS_SYMPTOM,Irregular Menstruation,164540
+Infertility,HAS_SYMPTOM,Dysmenorrhea,164540
+Infertility,HAS_SYMPTOM,Painful Intercourse,164540
+Infertility,HAS_SYMPTOM,Anovulation,164540
+,,,
+Irritable Bowel Syndrome,HAS_SYMPTOM,Abdominal Pain,13169
+Irritable Bowel Syndrome,HAS_SYMPTOM,Constipation,13169
+Irritable Bowel Syndrome,HAS_SYMPTOM,Diarrhea,13169
+Irritable Bowel Syndrome,HAS_SYMPTOM,Tenesmus,13169
+Irritable Bowel Syndrome,HAS_SYMPTOM,Bleeding Stool,13169
+Irritable Bowel Syndrome,HAS_SYMPTOM,Insomnia,13169
+Irritable Bowel Syndrome,HAS_SYMPTOM,Depression,13169
+,,,
+Sciatica,HAS_SYMPTOM,Pain,238755
+Sciatica,HAS_SYMPTOM,Pricking,238755
+Sciatica,HAS_SYMPTOM,Stiffness,238755
+Sciatica,HAS_SYMPTOM,Muscle Twitching,238755
+Sciatica,HAS_SYMPTOM,Restricted Movement,238755
+Sciatica,HAS_SYMPTOM,Heaviness,238755
+Sciatica,HAS_SYMPTOM,Abnormal Gait,238755
+Sciatica,HAS_SYMPTOM,Numbness,238755
+Sciatica,HAS_SYMPTOM,Tingling,238755
+,,,
+Cerebral Palsy,HAS_SYMPTOM,Mental Derangement,20599
+Cerebral Palsy,HAS_SYMPTOM,Speech Impairment,20599
+,,,
+Senile Dementia,HAS_SYMPTOM,Forgetfulness,20598
+Senile Dementia,HAS_SYMPTOM,Impaired Attention,20598
+Senile Dementia,HAS_SYMPTOM,Object mislaid,20598
+Senile Dementia,HAS_SYMPTOM,Delusion,20598
+Senile Dementia,HAS_SYMPTOM,Irritation,20598
+Senile Dementia,HAS_SYMPTOM,Disturbed Sleep,20598
+Senile Dementia,HAS_SYMPTOM,Tremor,20598
+Senile Dementia,HAS_SYMPTOM,Abnormal Gait,20598
+Senile Dementia,HAS_SYMPTOM,Anxiety,20598
+Senile Dementia,HAS_SYMPTOM,Sadness,20598
+Senile Dementia,HAS_SYMPTOM,Weakness,20598
+Senile Dementia,HAS_SYMPTOM,Impaired Speech,20598

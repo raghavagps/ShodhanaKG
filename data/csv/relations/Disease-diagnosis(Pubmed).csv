@@ -1,0 +1,286 @@
+﻿Disease,Relationship,Ayurvedic_Diagnosis,Pubmed_ID
+Erythrodermic Psoriasis,HAS_AYURVEDIC_DIAGNOSIS,Kitibha Kushta,35348057
+,,,
+Alopecia,HAS_AYURVEDIC_DIAGNOSIS,Indralupta,35868136
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,27833370
+,,,
+Psoriasis,HAS_AYURVEDIC_DIAGNOSIS,Mandala Kushtha,23559794
+,,,
+Chronic Urticaria,HAS_AYURVEDIC_DIAGNOSIS,Sheethapitta,35255270
+,,,
+Eczema,HAS_AYURVEDIC_DIAGNOSIS,Vicharchika,23049187
+,,,
+Psoriasis,HAS_AYURVEDIC_DIAGNOSIS,Mandala Kushtha,39826302
+,,,
+Psoriasis Vulgaris,HAS_AYURVEDIC_DIAGNOSIS,Kitibha Kushta,30606464
+,,,
+Psoriasis,HAS_AYURVEDIC_DIAGNOSIS,Kitibha Kushta,34758243
+,,,
+Scalp Psoriasis,HAS_AYURVEDIC_DIAGNOSIS,Ekakushtha,40492749
+,,,
+Epidermolysis Bullosa,HAS_AYURVEDIC_DIAGNOSIS,Maha Kushta,41223582
+,,,
+Poly Cystic Ovarian Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Vandhyatva,34980524
+,,,
+Oligo-Teratozoospermia,HAS_AYURVEDIC_DIAGNOSIS,Ksheena Shukra,40780056
+,,,
+Poly Cystic Ovarian Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Artava Kshaya,22131680
+,,,
+Diabetic Foot Ulcer,HAS_AYURVEDIC_DIAGNOSIS,Madhumehajanaya Dushta Vrana,40896900
+,,,
+Epidermolysis Bullosa,HAS_AYURVEDIC_DIAGNOSIS,Kapha-Pitta Dominant Tridoshaja Visphota,40570575
+,,,
+Diabetic Retinopathy,HAS_AYURVEDIC_DIAGNOSIS,Madhumehajanya Timira,37303857
+,,,
+Type 2 Diabetes,HAS_AYURVEDIC_DIAGNOSIS,Sthula Prameha,22661850
+,,,
+Oligomenorrhea,HAS_AYURVEDIC_DIAGNOSIS,Artava Kshaya,22131689
+,,,
+Bronchial Asthma,HAS_AYURVEDIC_DIAGNOSIS,Tamaka Shwasa,22131729
+,,,
+Type 2 Diabetes Mellitus,HAS_AYURVEDIC_DIAGNOSIS,Prameha,37738857
+,,,
+Oligozoospermia,HAS_AYURVEDIC_DIAGNOSIS,Ksheena Shukra,31831966
+,,,
+Progressive Bulbar Palsy,HAS_AYURVEDIC_DIAGNOSIS,Kaphavruta Vata,40913874
+,,,
+Low Anti-Mullerian Hormone (Amh) Level,HAS_AYURVEDIC_DIAGNOSIS,Dhatukshayajanya Vandhyata,29861596
+,,,
+Oligozoospermia,HAS_AYURVEDIC_DIAGNOSIS,Ksheena Shukra,29200749
+,,,
+Obesity,HAS_AYURVEDIC_DIAGNOSIS,Sthaulya,40446462
+,,,
+Bronchial Asthma,HAS_AYURVEDIC_DIAGNOSIS,Tamaka Shwasa,27473604
+,,,
+Wounds,HAS_AYURVEDIC_DIAGNOSIS,Dushta Vrana,25558157
+,,,
+Oral Submucous Fibrosis,HAS_AYURVEDIC_DIAGNOSIS,Sarvasara Mukharoga,26730136
+,,,
+Oligoasthenozoospermia,HAS_AYURVEDIC_DIAGNOSIS,Ksheena Shukra,32741654
+,,,
+Nicolau Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Kotha,32896437
+,,,
+Small Fibre Neuropathy,HAS_AYURVEDIC_DIAGNOSIS,Vata Vyadhi,37141832
+,,,
+Spinocerebellar Ataxia,HAS_AYURVEDIC_DIAGNOSIS,Prana Avrutta Vyana,39926966
+,,,
+Guillain-Barre Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Sarvangavata,30661945
+,,,
+Prediabetes,HAS_AYURVEDIC_DIAGNOSIS,Prameha,37738856
+,,,
+Diabetic Foot Ulcer,HAS_AYURVEDIC_DIAGNOSIS,Dushta Vrana,37678108
+,,,
+Trigeminal Neuralgia,HAS_AYURVEDIC_DIAGNOSIS,Anantavata,39926949
+,,,
+Psoriasis,HAS_AYURVEDIC_DIAGNOSIS,Kitibha Kushta,39926829
+,,,
+Female Infertility,HAS_AYURVEDIC_DIAGNOSIS,Vandhyatva,38237453
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,22131737
+,,,
+Diabetes Mellitus,HAS_AYURVEDIC_DIAGNOSIS,Madhumeha,22131730
+,,,
+Avascular Necrosis,HAS_AYURVEDIC_DIAGNOSIS,Asthivaha Srotodushti,27143802
+,,,
+Uterine Fibroids,HAS_AYURVEDIC_DIAGNOSIS,Garbhasravi Vandhyatva,28867860
+,,,
+Chemotherapy-Induced Peripheral Neuropathy,HAS_AYURVEDIC_DIAGNOSIS,Raktavrita Vata,39244869
+,,,
+Chronic Lymphocytic Leukemia,HAS_AYURVEDIC_DIAGNOSIS,Rajayakshma,39673829
+,,,
+Psychogenic Pseudomyasthenic Ptosis,,,33962505
+,,,
+Huntington’S Chorea,HAS_AYURVEDIC_DIAGNOSIS,Tandava Roga,40662609
+,,,
+Spinocerebellar Ataxia Type 2,HAS_AYURVEDIC_DIAGNOSIS,Vata Vyadhi,27143801
+,,,
+Prediabetes,HAS_AYURVEDIC_DIAGNOSIS,Prameha,36743277
+,,,
+Obesity,HAS_AYURVEDIC_DIAGNOSIS,Sthaulya,33281395
+,,,
+Dyslipidemia,HAS_AYURVEDIC_DIAGNOSIS,Medoroga,28827953
+,,,
+Lumbar Spondylosis,HAS_AYURVEDIC_DIAGNOSIS,Kati Sandhigata Vata,32398907
+,,,
+Sciatica,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,26664236
+,,,
+Psoriasis,HAS_AYURVEDIC_DIAGNOSIS,Ekakushtha,22661842
+,,,
+Depression,HAS_AYURVEDIC_DIAGNOSIS,Kaphaja Unmada,22131711
+,,,
+Amyotrophic Lateral Sclerosis,HAS_AYURVEDIC_DIAGNOSIS,Kaphavruta Udanavata,35240461
+,,,
+Oligomenorrhea,HAS_AYURVEDIC_DIAGNOSIS,Artava Kshaya,30254392
+,,,
+Bronchial Asthma,HAS_AYURVEDIC_DIAGNOSIS,Tamaka Shwasa,23559796
+,,,
+Urethral Stricture,HAS_AYURVEDIC_DIAGNOSIS,Mutrasanga,40101438
+,,,
+Non-Alcoholic Fatty Liver Disease,HAS_AYURVEDIC_DIAGNOSIS,Santarpanajanya Vyadhi,34908794
+,,,
+Hepatitis B,HAS_AYURVEDIC_DIAGNOSIS,Ubhayapatha Ashrita Swatantra Kamala,37554413
+,,,
+,,,
+,,,
+Ulcerative Keratitis,HAS_AYURVEDIC_DIAGNOSIS,Savrinashukla,30683497
+,,,
+Autoimmune Pancreatitis,HAS_AYURVEDIC_DIAGNOSIS,Grahani Dosha,33935442
+,,,
+Ovarian Cyst,HAS_AYURVEDIC_DIAGNOSIS,Beejakosha Granthi,35370374
+,,,
+Eczema,HAS_AYURVEDIC_DIAGNOSIS,Vicharchika,21455456
+,,,
+Hypertension,HAS_AYURVEDIC_DIAGNOSIS,Vata Pitta Pradhana Rakta Pradoshaja Vikara,24049408
+,,,
+Liver Cirrhosis With Ascites,HAS_AYURVEDIC_DIAGNOSIS,Jalodara,34996679
+,,,
+Antiphospholipid Antibody Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Kaphaja Shotha,29861595
+,,,
+Vasculitis,HAS_AYURVEDIC_DIAGNOSIS,Siragata Vata,32165016
+,,,
+Major Depressive Disorder,HAS_AYURVEDIC_DIAGNOSIS,Kaphaja Unmada,34024690
+,,,
+Prurigo Nodularis,HAS_AYURVEDIC_DIAGNOSIS,Alasaka,36455368
+,,,
+Eczema,HAS_AYURVEDIC_DIAGNOSIS,Vicharchika,30595628
+,,,
+Obesity,HAS_AYURVEDIC_DIAGNOSIS,Sthaulya,31143747
+,,,
+Venous Ulcer,HAS_AYURVEDIC_DIAGNOSIS,Dushta Vrana,24501445
+,,,
+Post-Traumatic Trigeminal Neuropathy,HAS_AYURVEDIC_DIAGNOSIS,Anantavata,40614618
+,,,
+Chronic Non-Healing Ulcer,HAS_AYURVEDIC_DIAGNOSIS,Dushta Vrana,41747605
+,,,
+Venous Ulcer,HAS_AYURVEDIC_DIAGNOSIS,Dushta Vrana,37244010
+,,,
+Takayasu Arteritis,HAS_AYURVEDIC_DIAGNOSIS,Siragata Vata,34908792
+,,,
+Acute Upper Limb Ischemia,HAS_AYURVEDIC_DIAGNOSIS,Vatarakta,38537487
+,,,
+Esophageal Squamous Cell Carcinoma,HAS_AYURVEDIC_DIAGNOSIS,Vamaparshwa Arbuda,39926936
+,,,
+Central Serous Retinopathy,HAS_AYURVEDIC_DIAGNOSIS,Vataja Shopha,41488094
+,,,
+Bell's Palsy,HAS_AYURVEDIC_DIAGNOSIS,Ardita,36403502
+,,,
+Migraine,HAS_AYURVEDIC_DIAGNOSIS,Ardhavabhedaka,36384709
+,,,
+Hemifacial Spasm,HAS_AYURVEDIC_DIAGNOSIS,Vartma Sankocha,37076181
+,,,
+Episodic Cluster Headache,HAS_AYURVEDIC_DIAGNOSIS,Ardhavabhedaka,39608299
+,,,
+Sinusitis,HAS_AYURVEDIC_DIAGNOSIS,Suryavarta,22557218
+,,,
+Trigeminal Neuralgia,HAS_AYURVEDIC_DIAGNOSIS,Anantavata,37494834
+,,,
+Chronic Alchoholism,HAS_AYURVEDIC_DIAGNOSIS,Vikshay,38241882
+,,,
+Ankylosing Spondylitis,HAS_AYURVEDIC_DIAGNOSIS,Asthimajjagata-Vata,27297511
+,,,
+Chronic Sinusitis,HAS_AYURVEDIC_DIAGNOSIS,Dushta Pratishyaya,22131734
+,,,
+Primary Insomnia,HAS_AYURVEDIC_DIAGNOSIS,Anidra,35370376
+,,,
+Coma,HAS_AYURVEDIC_DIAGNOSIS,Sanyasa,27621522
+,,,
+Traumatic Optic Neuropathy,HAS_AYURVEDIC_DIAGNOSIS,Abhighatajanya Vataprakopaj Drishtinash,34844840
+,,,
+Myopia,HAS_AYURVEDIC_DIAGNOSIS,Timira,22048542
+,,,
+Migraine,HAS_AYURVEDIC_DIAGNOSIS,Ardhavabhedaka,39454285
+,,,
+Papilledema,HAS_AYURVEDIC_DIAGNOSIS,Shotha,27011720
+,,,
+Sciatica,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,28827952
+,,,
+Eczema,HAS_AYURVEDIC_DIAGNOSIS,Vicharchika,23723667
+,,,
+Obesity,HAS_AYURVEDIC_DIAGNOSIS,Sthaulya,32278669
+,,,
+Diabetes Mellitus,HAS_AYURVEDIC_DIAGNOSIS,Prameha,24501520
+,,,
+Bronchial Asthma,HAS_AYURVEDIC_DIAGNOSIS,Tamaka Shwasa,29861586
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,29200748
+,,,
+Cerebral Palsy,HAS_AYURVEDIC_DIAGNOSIS,Shiromarmabhighata,26664239
+,,,
+Sciatica,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,22048539
+,,,
+Benign Prostatic Hyperplasia,HAS_AYURVEDIC_DIAGNOSIS,Mutraghata,30783359
+,,,
+Female Infertility,HAS_AYURVEDIC_DIAGNOSIS,Vandhyatva,33935438
+,,,
+Benign Prostatic Hyperplasia,HAS_AYURVEDIC_DIAGNOSIS,Mutraghata,27011713
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,23049184
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,22131764
+,,,
+Hyperlipidemia,HAS_AYURVEDIC_DIAGNOSIS,Medoroga,24696569
+,,,
+Lumbar Spondylosis,HAS_AYURVEDIC_DIAGNOSIS,Kati Graha,24049403
+,,,
+Diabetes Mellitus,HAS_AYURVEDIC_DIAGNOSIS,Madhumeha,23723672
+,,,
+Urethral Stricture,HAS_AYURVEDIC_DIAGNOSIS,Mutraghata,22557426
+,,,
+Sclerosis,HAS_AYURVEDIC_DIAGNOSIS,Vatarakta,39303382
+,,,
+Cerebral Palsy,HAS_AYURVEDIC_DIAGNOSIS,Shiromarmabhighata,24872933
+,,,
+Spondyloepiphyseal Dysplasia Tarda,HAS_AYURVEDIC_DIAGNOSIS,Vata Vyadhi,27890699
+,,,
+Endometrioma,HAS_AYURVEDIC_DIAGNOSIS,Udavarta Yonivyapada,36604296
+,,,
+Hirschsprung'S Disease,HAS_AYURVEDIC_DIAGNOSIS,Pakvashayagata Vata,29853328
+,,,
+Osteoporosis,HAS_AYURVEDIC_DIAGNOSIS,Asthi-Majja Kshaya,23049194
+,,,
+Guillain-Barre Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Sarvanga Gatavata Vyadhi,26600668
+,,,
+Cervical Spondylotic Myelopathy,HAS_AYURVEDIC_DIAGNOSIS,Greevastambha,28285113
+,,,
+Bronchial Asthma,HAS_AYURVEDIC_DIAGNOSIS,Tamaka Shwasa,38262328
+,,,
+Urinary Incontinence,HAS_AYURVEDIC_DIAGNOSIS,Bastimarm Abhighataja Vatavyadhi,39332103
+,,,
+Cerebral Palsy,HAS_AYURVEDIC_DIAGNOSIS,Avarana Janya Vata Vyadhi,26195914
+,,,
+Avascular Necrosis,HAS_AYURVEDIC_DIAGNOSIS,Asthimajjagata-Vata,37741160
+,,,
+Dysmenorrhea,HAS_AYURVEDIC_DIAGNOSIS,Kashtartava,22131731
+,,,
+Benign Prostatic Hyperplasia,HAS_AYURVEDIC_DIAGNOSIS,Mutraghata,23723674
+,,,
+Female Infertility,HAS_AYURVEDIC_DIAGNOSIS,Vandhyatva,24049410
+,,,
+Fracture,HAS_AYURVEDIC_DIAGNOSIS,Bhagna,40412271
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,28302414
+,,,
+Spinal Cord Injury,HAS_AYURVEDIC_DIAGNOSIS,Aghataja Sarvangaroga,26283809
+,,,
+Juvenile Spondyloarthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,32768345
+,,,
+Lumbar Disc Herniation,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,38006747
+,,,
+Limb-Girdle Muscular Dystrophy,HAS_AYURVEDIC_DIAGNOSIS,Mansagata Vata,34961685
+,,,
+Acute Prolapsed Inter-Vertebral Disc,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,35661935
+,,,
+Osteoarthritis,HAS_AYURVEDIC_DIAGNOSIS,Sandhigata Vata,25558159
+,,,
+Bleeding Piles,HAS_AYURVEDIC_DIAGNOSIS,Shonitarsha,22408301
+,,,
+Lumbar Myelomeningocele,HAS_AYURVEDIC_DIAGNOSIS,Apanavrita Vyanavata,25737612
+,,,
+Ulcerative Colitis,HAS_AYURVEDIC_DIAGNOSIS,Raktatisara,22048543
+,,,
+Dysuria,HAS_AYURVEDIC_DIAGNOSIS,Mootrakruchchhra,41637849
+,,,
+Urethral Stricture,HAS_AYURVEDIC_DIAGNOSIS,Mutramarga Sankocha,24250127
+,,,
+Oligozoospermia,HAS_AYURVEDIC_DIAGNOSIS,Ksheena Shukra,22408309

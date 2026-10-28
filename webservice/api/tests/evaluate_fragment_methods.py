@@ -4,7 +4,7 @@ from pathlib import Path
 from evaluate_entity_resolution import request
 root=Path(__file__).resolve().parents[3]
 parser=argparse.ArgumentParser();parser.add_argument('--output',type=Path,required=True);args=parser.parse_args()
-tables=json.loads((root/'webservice/api/tests/fixtures/ui_result_contract_2026_09_25_v1/baseline/snapshot.json').read_bytes())['tables']
+tables=json.loads((root/'webservice/api/tests/fixtures/factual_graph_snapshot_expanded.json').read_bytes())['tables']
 rows=[]
 for name in ['Lead','Copper','Sulphur']:
  seed=next(n for n in tables['Compound'] if n['name']==name)

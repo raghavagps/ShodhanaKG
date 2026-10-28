@@ -27,8 +27,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -81,8 +81,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -122,8 +122,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -163,8 +163,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -698,8 +698,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -1223,8 +1223,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -1302,8 +1302,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -1653,8 +1653,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -1679,8 +1679,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -1758,8 +1758,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -2092,8 +2092,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -3344,8 +3344,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -3404,8 +3404,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -3483,8 +3483,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -3698,8 +3698,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -4049,8 +4049,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -4109,8 +4109,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -4150,8 +4150,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -4295,8 +4295,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -4374,8 +4374,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -4708,8 +4708,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -5960,8 +5960,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -6020,8 +6020,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -6142,8 +6142,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -9393,8 +9393,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -9456,8 +9456,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -9499,8 +9499,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -9827,8 +9827,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -9853,8 +9853,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -9999,8 +9999,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -10537,8 +10537,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -11159,8 +11159,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -11664,8 +11664,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -11719,8 +11719,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -11760,38 +11760,12 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
       "accepted_path_count": 1,
-      "rejected_candidate_count": 0
-    },
-    "namespace_audit": {
-      "path": "docs\\chatbot\\audits\\identifier_rules_2026_09_24_v1\\audit.json",
-      "sha256": "878267215d57f241c45b3222719110436b7ba3ed19da0e708afc75a3527d4324"
-    }
-  },
-  {
-    "id": "expanded_confirmation_study_method_3",
-    "question": "Endpoint factual check: confirmation_study_method / Toxicity Study",
-    "expected_endpoint": "confirmation_study_method",
-    "expected_entity": "Toxicity Study",
-    "expected_entity_type": "Confirmation_Study",
-    "expected_status": "no_data",
-    "expected_results": [],
-    "expected_result_count": 0,
-    "forbidden_results": [],
-    "expected_result_source_paths": [],
-    "ground_truth_source": {
-      "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
-      "basis": "independent raw-record joins and explicit projection contracts",
-      "identifier_version": 2,
-      "review_status": "graph_verified_expert_review_pending",
-      "accepted_path_count": 0,
       "rejected_candidate_count": 0
     },
     "namespace_audit": {
@@ -11840,8 +11814,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -11881,38 +11855,12 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
       "accepted_path_count": 1,
-      "rejected_candidate_count": 0
-    },
-    "namespace_audit": {
-      "path": "docs\\chatbot\\audits\\identifier_rules_2026_09_24_v1\\audit.json",
-      "sha256": "878267215d57f241c45b3222719110436b7ba3ed19da0e708afc75a3527d4324"
-    }
-  },
-  {
-    "id": "expanded_confirmation_study_purified_compound_3",
-    "question": "Endpoint factual check: confirmation_study_purified_compound / Toxicity Study",
-    "expected_endpoint": "confirmation_study_purified_compound",
-    "expected_entity": "Toxicity Study",
-    "expected_entity_type": "Confirmation_Study",
-    "expected_status": "no_data",
-    "expected_results": [],
-    "expected_result_count": 0,
-    "forbidden_results": [],
-    "expected_result_source_paths": [],
-    "ground_truth_source": {
-      "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
-      "basis": "independent raw-record joins and explicit projection contracts",
-      "identifier_version": 2,
-      "review_status": "graph_verified_expert_review_pending",
-      "accepted_path_count": 0,
       "rejected_candidate_count": 0
     },
     "namespace_audit": {
@@ -11995,8 +11943,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -12068,8 +12016,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -12111,8 +12059,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -12154,8 +12102,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -12180,8 +12128,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -12223,8 +12171,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -12281,8 +12229,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -12307,8 +12255,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -12804,8 +12752,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -12995,8 +12943,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -13708,8 +13656,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -13811,8 +13759,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -13959,8 +13907,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -13985,8 +13933,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -14093,8 +14041,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -14217,8 +14165,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -14661,8 +14609,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -16099,8 +16047,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17087,8 +17035,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17128,8 +17076,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17169,8 +17117,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17195,8 +17143,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17278,8 +17226,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17361,8 +17309,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17480,8 +17428,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17581,8 +17529,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17632,8 +17580,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17673,8 +17621,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17714,8 +17662,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17768,8 +17716,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -17875,8 +17823,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -18078,8 +18026,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -18144,8 +18092,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -18263,8 +18211,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "Independent bounded raw-record joins, five hops; separate references only at purified-product/treatment boundary",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -27121,8 +27069,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "Independent bounded raw-record joins, five hops; separate references only at purified-product/treatment boundary",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -27545,8 +27493,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "Independent bounded raw-record joins, five hops; separate references only at purified-product/treatment boundary",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -33053,8 +33001,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "Independent bounded raw-record joins, five hops; separate references only at purified-product/treatment boundary",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -40704,8 +40652,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "Independent bounded raw-record joins, five hops; separate references only at purified-product/treatment boundary",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -40730,8 +40678,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "Independent bounded raw-record joins, five hops; separate references only at purified-product/treatment boundary",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -40843,8 +40791,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -40922,8 +40870,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -41868,8 +41816,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -41894,8 +41842,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -41960,8 +41908,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -43204,8 +43152,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -45094,38 +45042,12 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
       "accepted_path_count": 49,
-      "rejected_candidate_count": 0
-    },
-    "namespace_audit": {
-      "path": "docs\\chatbot\\audits\\identifier_rules_2026_09_24_v1\\audit.json",
-      "sha256": "878267215d57f241c45b3222719110436b7ba3ed19da0e708afc75a3527d4324"
-    }
-  },
-  {
-    "id": "expanded_media_process_4",
-    "question": "Endpoint factual check: media_process / Trikshara:",
-    "expected_endpoint": "media_process",
-    "expected_entity": "Trikshara:",
-    "expected_entity_type": "Media",
-    "expected_status": "no_data",
-    "expected_results": [],
-    "expected_result_count": 0,
-    "forbidden_results": [],
-    "expected_result_source_paths": [],
-    "ground_truth_source": {
-      "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
-      "basis": "independent raw-record joins and explicit projection contracts",
-      "identifier_version": 2,
-      "review_status": "graph_verified_expert_review_pending",
-      "accepted_path_count": 0,
       "rejected_candidate_count": 0
     },
     "namespace_audit": {
@@ -45407,8 +45329,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -45768,8 +45690,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -48423,8 +48345,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -48449,8 +48371,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -48884,8 +48806,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -48986,8 +48908,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -50346,8 +50268,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -50372,8 +50294,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -50855,8 +50777,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -51328,8 +51250,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -51354,8 +51276,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -51592,8 +51514,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -51815,8 +51737,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -53028,8 +52950,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -53232,8 +53154,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -53500,8 +53422,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -55304,8 +55226,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -55591,8 +55513,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -55878,8 +55800,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -56313,8 +56235,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -56339,8 +56261,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -56549,8 +56471,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -56733,8 +56655,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -57671,8 +57593,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -57697,8 +57619,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -57947,8 +57869,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -58049,8 +57971,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -60334,8 +60256,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -60360,8 +60282,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -60610,8 +60532,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -61790,8 +61712,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -66318,8 +66240,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -66507,8 +66429,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -68244,8 +68166,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -68887,8 +68809,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -71375,8 +71297,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -71629,8 +71551,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -71887,8 +71809,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -72277,8 +72199,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -72599,8 +72521,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -72734,8 +72656,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -73108,8 +73030,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -73358,8 +73280,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -76770,8 +76692,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -76796,8 +76718,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -77055,8 +76977,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -77128,8 +77050,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -77154,8 +77076,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -77227,8 +77149,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -77285,8 +77207,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -77311,8 +77233,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -77524,8 +77446,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -77589,8 +77511,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -77913,8 +77835,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -77992,8 +77914,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -78156,8 +78078,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -78182,8 +78104,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -78532,8 +78454,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -78658,8 +78580,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -78684,8 +78606,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -78934,8 +78856,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -79147,8 +79069,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -79212,8 +79134,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -79238,8 +79160,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -80001,8 +79923,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -80440,8 +80362,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -80466,8 +80388,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -80554,8 +80476,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -80612,8 +80534,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -82000,8 +81922,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -82060,8 +81982,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -82104,8 +82026,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -85364,8 +85286,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -85468,8 +85390,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -85574,8 +85496,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -85600,8 +85522,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -85643,8 +85565,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -85761,8 +85683,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -85802,8 +85724,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -85895,8 +85817,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -85988,8 +85910,8 @@
     ],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -86014,8 +85936,8 @@
     "expected_result_source_paths": [],
     "ground_truth_source": {
       "snapshot": "factual_graph_snapshot_expanded.json",
-      "sha256": "f41f094c341364456e0530bdf3b5fe26d57e715f0ce49e7b3e169aeac2f56255",
-      "captured_at": "2026-09-23T21:02:21+00:00",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
       "basis": "independent raw-record joins and explicit projection contracts",
       "identifier_version": 2,
       "review_status": "graph_verified_expert_review_pending",
@@ -86025,6 +85947,554 @@
     "namespace_audit": {
       "path": "docs\\chatbot\\audits\\identifier_rules_2026_09_24_v1\\audit.json",
       "sha256": "878267215d57f241c45b3222719110436b7ba3ed19da0e708afc75a3527d4324"
+    }
+  },
+  {
+    "id": "expanded_compound_methods_1",
+    "question": "Endpoint factual check: compound_methods / Abrus Precatorious(Red variety)",
+    "expected_endpoint": "compound_methods",
+    "expected_entity": "Abrus Precatorious(Red variety)",
+    "expected_entity_type": "Compound",
+    "expected_status": "success",
+    "expected_results": [
+      {
+        "nodes": [
+          {
+            "id": "#5:49",
+            "type": "Compound",
+            "label": "Abrus Precatorious(Red variety)"
+          },
+          {
+            "id": "#13:1",
+            "type": "Shodhana_Method",
+            "label": "Swedana"
+          }
+        ],
+        "edges": [
+          {
+            "id": "#73:235",
+            "type": "UNDERGOES",
+            "source": "#5:49",
+            "target": "#13:1",
+            "properties": {
+              "ref": "76448"
+            },
+            "evidence": {
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "76448"
+            }
+          }
+        ],
+        "related_entity": "Swedana",
+        "related_type": "Shodhana_Method",
+        "evidence_policy": "separate_treatment",
+        "evidence_groups": [
+          {
+            "edge_ids": [
+              "#73:235"
+            ],
+            "reference": {
+              "type": "ayush_id",
+              "value": "76448"
+            }
+          }
+        ]
+      }
+    ],
+    "expected_result_count": 1,
+    "forbidden_results": [],
+    "expected_result_source_paths": [
+      [
+        [
+          "#73:235"
+        ]
+      ]
+    ],
+    "ground_truth_source": {
+      "snapshot": "factual_graph_snapshot_expanded.json",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
+      "basis": "Independent raw UNDERGOES edges; requested result type is Shodhana_Method",
+      "identifier_version": 2,
+      "review_status": "graph_verified_expert_review_pending",
+      "accepted_path_count": 1,
+      "rejected_candidate_count": 0
+    },
+    "namespace_audit": {
+      "audited_rows": 1,
+      "overridden_pmids": [
+        "76448"
+      ]
+    }
+  },
+  {
+    "id": "expanded_compound_methods_2",
+    "question": "Endpoint factual check: compound_methods / Abrus precatorius Linn.",
+    "expected_endpoint": "compound_methods",
+    "expected_entity": "Abrus precatorius Linn.",
+    "expected_entity_type": "Compound",
+    "expected_status": "success",
+    "expected_results": [
+      {
+        "nodes": [
+          {
+            "id": "#5:3",
+            "type": "Compound",
+            "label": "Abrus precatorius Linn."
+          },
+          {
+            "id": "#13:1",
+            "type": "Shodhana_Method",
+            "label": "Swedana"
+          }
+        ],
+        "edges": [
+          {
+            "id": "#73:16",
+            "type": "UNDERGOES",
+            "source": "#5:3",
+            "target": "#13:1",
+            "properties": {
+              "ref": "25336846"
+            },
+            "evidence": {
+              "pubmed_id": "25336846",
+              "doi": "",
+              "ayush_id": ""
+            }
+          }
+        ],
+        "related_entity": "Swedana",
+        "related_type": "Shodhana_Method",
+        "evidence_policy": "separate_treatment",
+        "evidence_groups": [
+          {
+            "edge_ids": [
+              "#73:16"
+            ],
+            "reference": {
+              "type": "pubmed_id",
+              "value": "25336846"
+            }
+          }
+        ]
+      },
+      {
+        "nodes": [
+          {
+            "id": "#5:3",
+            "type": "Compound",
+            "label": "Abrus precatorius Linn."
+          },
+          {
+            "id": "#13:1",
+            "type": "Shodhana_Method",
+            "label": "Swedana"
+          }
+        ],
+        "edges": [
+          {
+            "id": "#73:17",
+            "type": "UNDERGOES",
+            "source": "#5:3",
+            "target": "#13:1",
+            "properties": {
+              "ref": "22556879"
+            },
+            "evidence": {
+              "pubmed_id": "22556879",
+              "doi": "",
+              "ayush_id": ""
+            }
+          }
+        ],
+        "related_entity": "Swedana",
+        "related_type": "Shodhana_Method",
+        "evidence_policy": "separate_treatment",
+        "evidence_groups": [
+          {
+            "edge_ids": [
+              "#73:17"
+            ],
+            "reference": {
+              "type": "pubmed_id",
+              "value": "22556879"
+            }
+          }
+        ]
+      },
+      {
+        "nodes": [
+          {
+            "id": "#5:3",
+            "type": "Compound",
+            "label": "Abrus precatorius Linn."
+          },
+          {
+            "id": "#13:1",
+            "type": "Shodhana_Method",
+            "label": "Swedana"
+          }
+        ],
+        "edges": [
+          {
+            "id": "#73:18",
+            "type": "UNDERGOES",
+            "source": "#5:3",
+            "target": "#13:1",
+            "properties": {
+              "ref": "23930039"
+            },
+            "evidence": {
+              "pubmed_id": "23930039",
+              "doi": "",
+              "ayush_id": ""
+            }
+          }
+        ],
+        "related_entity": "Swedana",
+        "related_type": "Shodhana_Method",
+        "evidence_policy": "separate_treatment",
+        "evidence_groups": [
+          {
+            "edge_ids": [
+              "#73:18"
+            ],
+            "reference": {
+              "type": "pubmed_id",
+              "value": "23930039"
+            }
+          }
+        ]
+      },
+      {
+        "nodes": [
+          {
+            "id": "#5:3",
+            "type": "Compound",
+            "label": "Abrus precatorius Linn."
+          },
+          {
+            "id": "#13:1",
+            "type": "Shodhana_Method",
+            "label": "Swedana"
+          }
+        ],
+        "edges": [
+          {
+            "id": "#73:19",
+            "type": "UNDERGOES",
+            "source": "#5:3",
+            "target": "#13:1",
+            "properties": {
+              "ref": "24696580"
+            },
+            "evidence": {
+              "pubmed_id": "24696580",
+              "doi": "",
+              "ayush_id": ""
+            }
+          }
+        ],
+        "related_entity": "Swedana",
+        "related_type": "Shodhana_Method",
+        "evidence_policy": "separate_treatment",
+        "evidence_groups": [
+          {
+            "edge_ids": [
+              "#73:19"
+            ],
+            "reference": {
+              "type": "pubmed_id",
+              "value": "24696580"
+            }
+          }
+        ]
+      },
+      {
+        "nodes": [
+          {
+            "id": "#5:3",
+            "type": "Compound",
+            "label": "Abrus precatorius Linn."
+          },
+          {
+            "id": "#13:1",
+            "type": "Shodhana_Method",
+            "label": "Swedana"
+          }
+        ],
+        "edges": [
+          {
+            "id": "#73:20",
+            "type": "UNDERGOES",
+            "source": "#5:3",
+            "target": "#13:1",
+            "properties": {
+              "ref": "23929989"
+            },
+            "evidence": {
+              "pubmed_id": "23929989",
+              "doi": "",
+              "ayush_id": ""
+            }
+          }
+        ],
+        "related_entity": "Swedana",
+        "related_type": "Shodhana_Method",
+        "evidence_policy": "separate_treatment",
+        "evidence_groups": [
+          {
+            "edge_ids": [
+              "#73:20"
+            ],
+            "reference": {
+              "type": "pubmed_id",
+              "value": "23929989"
+            }
+          }
+        ]
+      },
+      {
+        "nodes": [
+          {
+            "id": "#5:3",
+            "type": "Compound",
+            "label": "Abrus precatorius Linn."
+          },
+          {
+            "id": "#13:1",
+            "type": "Shodhana_Method",
+            "label": "Swedana"
+          }
+        ],
+        "edges": [
+          {
+            "id": "#73:21",
+            "type": "UNDERGOES",
+            "source": "#5:3",
+            "target": "#13:1",
+            "properties": {
+              "ref": "10.4103/jdras.jdras_10_21"
+            },
+            "evidence": {
+              "pubmed_id": "",
+              "doi": "10.4103/jdras.jdras_10_21",
+              "ayush_id": ""
+            }
+          }
+        ],
+        "related_entity": "Swedana",
+        "related_type": "Shodhana_Method",
+        "evidence_policy": "separate_treatment",
+        "evidence_groups": [
+          {
+            "edge_ids": [
+              "#73:21"
+            ],
+            "reference": {
+              "type": "doi",
+              "value": "10.4103/jdras.jdras_10_21"
+            }
+          }
+        ]
+      },
+      {
+        "nodes": [
+          {
+            "id": "#5:3",
+            "type": "Compound",
+            "label": "Abrus precatorius Linn."
+          },
+          {
+            "id": "#13:1",
+            "type": "Shodhana_Method",
+            "label": "Swedana"
+          }
+        ],
+        "edges": [
+          {
+            "id": "#73:22",
+            "type": "UNDERGOES",
+            "source": "#5:3",
+            "target": "#13:1",
+            "properties": {
+              "ref": "108950"
+            },
+            "evidence": {
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "108950"
+            }
+          }
+        ],
+        "related_entity": "Swedana",
+        "related_type": "Shodhana_Method",
+        "evidence_policy": "separate_treatment",
+        "evidence_groups": [
+          {
+            "edge_ids": [
+              "#73:22"
+            ],
+            "reference": {
+              "type": "ayush_id",
+              "value": "108950"
+            }
+          }
+        ]
+      },
+      {
+        "nodes": [
+          {
+            "id": "#5:3",
+            "type": "Compound",
+            "label": "Abrus precatorius Linn."
+          },
+          {
+            "id": "#13:1",
+            "type": "Shodhana_Method",
+            "label": "Swedana"
+          }
+        ],
+        "edges": [
+          {
+            "id": "#73:23",
+            "type": "UNDERGOES",
+            "source": "#5:3",
+            "target": "#13:1",
+            "properties": {
+              "ref": "15670"
+            },
+            "evidence": {
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "15670"
+            }
+          }
+        ],
+        "related_entity": "Swedana",
+        "related_type": "Shodhana_Method",
+        "evidence_policy": "separate_treatment",
+        "evidence_groups": [
+          {
+            "edge_ids": [
+              "#73:23"
+            ],
+            "reference": {
+              "type": "ayush_id",
+              "value": "15670"
+            }
+          }
+        ]
+      },
+      {
+        "nodes": [
+          {
+            "id": "#5:3",
+            "type": "Compound",
+            "label": "Abrus precatorius Linn."
+          },
+          {
+            "id": "#13:1",
+            "type": "Shodhana_Method",
+            "label": "Swedana"
+          }
+        ],
+        "edges": [
+          {
+            "id": "#73:24",
+            "type": "UNDERGOES",
+            "source": "#5:3",
+            "target": "#13:1",
+            "properties": {
+              "ref": "132446"
+            },
+            "evidence": {
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "132446"
+            }
+          }
+        ],
+        "related_entity": "Swedana",
+        "related_type": "Shodhana_Method",
+        "evidence_policy": "separate_treatment",
+        "evidence_groups": [
+          {
+            "edge_ids": [
+              "#73:24"
+            ],
+            "reference": {
+              "type": "ayush_id",
+              "value": "132446"
+            }
+          }
+        ]
+      }
+    ],
+    "expected_result_count": 9,
+    "forbidden_results": [],
+    "expected_result_source_paths": [
+      [
+        [
+          "#73:16"
+        ]
+      ],
+      [
+        [
+          "#73:17"
+        ]
+      ],
+      [
+        [
+          "#73:18"
+        ]
+      ],
+      [
+        [
+          "#73:19"
+        ]
+      ],
+      [
+        [
+          "#73:20"
+        ]
+      ],
+      [
+        [
+          "#73:21"
+        ]
+      ],
+      [
+        [
+          "#73:22"
+        ]
+      ],
+      [
+        [
+          "#73:23"
+        ]
+      ],
+      [
+        [
+          "#73:24"
+        ]
+      ]
+    ],
+    "ground_truth_source": {
+      "snapshot": "factual_graph_snapshot_expanded.json",
+      "sha256": "5680299524878adc047a705ced7fffd1de3038885f5aee8268e6e82e55c251d2",
+      "captured_at": "2026-10-27T12:31:52+00:00",
+      "basis": "Independent raw UNDERGOES edges; requested result type is Shodhana_Method",
+      "identifier_version": 2,
+      "review_status": "graph_verified_expert_review_pending",
+      "accepted_path_count": 9,
+      "rejected_candidate_count": 0
+    },
+    "namespace_audit": {
+      "audited_rows": 9,
+      "overridden_pmids": []
     }
   }
 ]

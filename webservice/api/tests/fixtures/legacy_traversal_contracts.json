@@ -1,4 +1,27 @@
 {
+  "compound_methods": {
+    "patterns": [
+      {
+        "input": [
+          "Compound"
+        ],
+        "steps": [
+          {
+            "edges": [
+              "UNDERGOES"
+            ],
+            "direction": "out",
+            "types": [
+              "Shodhana_Method"
+            ]
+          }
+        ]
+      }
+    ],
+    "canonical_implementation": "api/compound_methods.php",
+    "evidence_correlation": false,
+    "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+  },
   "compound_media": {
     "patterns": [
       {

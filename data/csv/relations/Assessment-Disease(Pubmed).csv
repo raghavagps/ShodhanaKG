@@ -1,0 +1,628 @@
+﻿Assessment_Parameter,Relationship,Disease,Outcome Measure,Pubmed_ID
+Dermatological Life Quality Index (Dlqi),ASSESS,Erythrodermic Psoriasis,11 to 00,35348057
+Vas Score,ASSESS,Erythrodermic Psoriasis,07 to 00,35348057
+Psoriasis Area And Severity Index (Pasi) Score,ASSESS,Erythrodermic Psoriasis,37.4 to 00,35348057
+,,,,
+Rheumatoid Arthritis Factor (Ra Factor),ASSESS,Rheumatoid Arthritis,94.0 IU/ml reduced to 50.0 IU/ml,27833370
+C-Reactive Protein (Crp) Levels,ASSESS,Rheumatoid Arthritis,22.7 mg/L reduced to 1.8 mg/L,27833370
+Ige Estimation,ASSESS,Rheumatoid Arthritis,680 kU/L to normal range 53.7 kU/L,27833370
+,,,,
+Psoriasis Area And Severity Index (Pasi) Score,ASSESS,Psoriasis,Marked improvement in total PASI was 82.70%,23559794
+,,,,
+Urticaria Activity Score (Uas7) Score,ASSESS,Chronic Urticaria,42 to 00,35255270
+Chronic Urticaria Quality Of Life Questionnaire (Cu-Q2Ol) Score,ASSESS,Chronic Urticaria,103 to 31,35255270
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Eczema,Boil was improved by  60% in Siravedhana Karma and 66.67% in Jalaukavacharan karma; Itching was relieved by 23.26% in Jalaukavacharan karma; Burning80% relief was observed in Jalaukavacharan karma and 67% in Siravedhana Karma,23049187
+,,,,
+Psoriasis Area And Severity Index (Pasi) Score,ASSESS,Psoriasis,19.4 to 5.8,39826302
+Dermatological Life Quality Index (Dlqi),ASSESS,Psoriasis,18  to 4,39826302
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Visphota Kushta,The blister completely resolved and the skin was normal as before,30660453
+,,,,
+Histopathological Study,ASSESS,Psoriasis Vulgaris,,30606464
+Psoriasis Area And Severity Index (Pasi) Score,ASSESS,Psoriasis Vulgaris,42 to 3.8,30606464
+,,,,
+Psoriasis Area And Severity Index (Pasi) Score,ASSESS,Psoriasis,30.4 to 00,34758243
+Dermatological Life Quality Index (Dlqi),ASSESS,Psoriasis,25 to 00,34758243
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Scalp Psoriasis,"reduced Itching, minimal discomfort, and better sleep quality",40492749
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Epidermolysis Bullosa,"the episodes of new blister formations drastically reduced, and the Ulcer formed from occasional Blisters healed quickly without crusting",41223582
+Dermatological Life Quality Index (Dlqi),ASSESS,Epidermolysis Bullosa,26 to 00,41223582
+C-Reactive Protein (Crp) Levels,ASSESS,Epidermolysis Bullosa,49 mg/L and 68.6 mg/L to 9.5 mg/L,41223582
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Epidermolysis Bullosa,69 mm/1hr to  29 mm/1hr,41223582
+,,,,
+Conception,ASSESS,Poly Cystic Ovarian Syndrome,The patient conceived after 8 months of treatment,34980524
+Body Weight,ASSESS,Poly Cystic Ovarian Syndrome,95 kg to 75 kg,34980524
+Body Mass Index (Bmi),ASSESS,Poly Cystic Ovarian Syndrome,34.89 to 27.43,34980524
+,,,,
+Semen Analysis,ASSESS,Oligo-Teratozoospermia,"The macroscopic parameters of colour turned to normal and pH reduced from 9 to 7.6; sperm count increased from 6 million/ml to 48 million/ml, and normal sperm morphology increased, while pus cells decreased from 6-7/hpf to 1-2/hpf signifying improvement. ",40780056
+Conception,ASSESS,Oligo-Teratozoospermia,The couple was advised for natural intercourse and the female conceived towards the end of second course of medications.,40780056
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Poly Cystic Ovarian Syndrome,"At the end of the treatment irregularity showed only 25% of the patients. At the end of the treatment 57.5% of patients had normal duration of menstrual bleeding, 75% of patients were relieved from Dysmenorrhea and majority of patients (70%) had average quantity of menstrual blood. When considering Skin Discolouration, 87.5% of patients were relieved from the symptom.",22131680
+Ultrasonography (Usg),ASSESS,Poly Cystic Ovarian Syndrome,"USG reports revealed, that reduce of polycystic appearance of ovaries and improvement of follicular maturity.",22131680
+Follicle Stimulating Hormone (Fsh) Levels,ASSESS,Poly Cystic Ovarian Syndrome,FSH hormone reports revealed that the ratio came to the normal level.,22131680
+Luteinizing Hormone (Lh) Levels,ASSESS,Poly Cystic Ovarian Syndrome,LH hormone reports revealed that the ratio came to the normal level.,22131680
+Conception,ASSESS,Poly Cystic Ovarian Syndrome,75% of the patients get conceived,22131680
+,,,,
+Dmist Score,ASSESS,Diabetic Foot Ulcer,"depth: 2 to 0, maceration: 2 to 0, infection: 2 to 0, size: 7 to 0, and tunneling: 2 to 0; total DMIST score: 14 to 0",40896900
+,,,,
+Blood Parameters,ASSESS,Diabetic Foot Ulcer,Hemoglobin:8.3 gm/dl to 9.1 gm/dl; RBCs: 3.41 to 3.52; Wbcs: 36.55 to 16,40896900
+,,,,
+,,,,
+Ebdasi Score,ASSESS,Epidermolysis Bullosa,Patient 1: 174 to 45; Patient 2: 176 to 39,40570575
+Pas Score,ASSESS,Epidermolysis Bullosa,Patient 1: 10 to 3; Patient 2: 10 to 3,40570575
+Physician Global Assessment (Phga) Score,ASSESS,Epidermolysis Bullosa,Patient 1: 10 to 4; Patient 2: 10 to 3,40570575
+Relief In The Signs And Symptoms,ASSESS,Epidermolysis Bullosa,"No Blisters were there, No Pain, Itching, Discharge",40570575
+,,,,
+Best Corrected Visual Acuity (Bcva),ASSESS,Glaucoma,right:1.50 to 0.58; left: 1.83 to 0.91,29861590
+Glaucoma Hemifield Test,ASSESS,Glaucoma,right:1.50 to 0.58; left: 1.83 to 0.91,29861590
+Intraocular Pressure (Iop),ASSESS,Glaucoma,right:4.00 to 2.07; left: 4.2 to 2.1,29861590
+Visual Field Evaluation,ASSESS,Glaucoma,right:1.00 to 0.14; left: 0.85 to 0.25,29861590
+Relief In The Signs And Symptoms,ASSESS,Glaucoma,"57.14% patients showed moderate relief, 28.57% showed mild relief, 7.14% showed no relief, 7.14% showed marked relief and no patient was completely cured, i.e., 0%.",29861590
+,,,,
+,,,,
+Ophthalmoscopic Examination,ASSESS,Diabetic Retinopathy,"Reduces dot-blot hemorrhages (P < 0.05), superficial hemorrhages (P < 0.001), hard exudates (P < 0.05), and change in BCVA (P < 0.001) ",37303857
+Kellegren Lawrance Scale (Kl Scale),ASSESS,Diabetic Retinopathy,Reduction in FBS (P < 0.05) and S. Cholesterol (P < 0.05),37303857
+,,,,
+Fasting Blood Sugar (Fbs) Level,ASSESS,Type 2 Diabetes,FBS showed highly significant result both after Samsarjana and Shamana (P<0.001).,22661850
+Postprandial Blood Sugar (Ppbs) Level,ASSESS,Type 2 Diabetes,PPBS showed significant role both after Samsarjana and Shamana (P<0.02).,22661850
+,,,,
+Cardinal Symptoms,ASSESS,Oligomenorrhea,"the interval between two cycles concerned, 100% reduction; the amount of menstrual blood is concerned, 95.83% increment; the Pain during Menstruation decreased 87.87% in Group-U",22131689
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Bronchial Asthma,The symptom Breathlessness was reduced from 2.20 to 0.65; mean Sputum score has shown a reduction by 1.10; Noticeable remission in severity of Cough was observed in patients; speech showed high-quality improvement.,22131729
+Physical Analysis,ASSESS,Bronchial Asthma,The expansion of the chest increased by 1.42 cm; mean score of labored breathing has reduced from 1.15 to 0.15; heart rate has shown a definite reduction after the treatment; peak expiratory flow value shows marked improvement from  265 (L/min) to 475 (L/min).,22131729
+,,,,
+Blood Sugar Level,ASSESS,Type 2 Diabetes Mellitus,Mean BSLF before and after treatment were 166.20 ± 78.39 mg/dL and 125.00 ± 58.77 mg/dL in Vamana; 163.60 ± 59.34 mg/dL and 127.73 ± 37.94 mg/dL in Varadi,37738857
+Postprandial Blood Sugar (Ppbs) Level,ASSESS,Type 2 Diabetes Mellitus,PP values before and after treatment were 254.47 ± 99.59 mg/dL and 178.47 ± 68.45 mg/dL in Vamana; 233.93 ± 68.95 mg/dL and 185.20 ± 56.73 mg/dL in Varadi,37738857
+Glycosylated Haemoglobin,ASSESS,Type 2 Diabetes Mellitus,mean values before and after treatment were 8.23 ± 1.71% and 7.18 ± 1.96% in Vamana;  7.83 ± 1.21% and 6.75 ± 1.13% in Varadi,37738857
+Body Mass Index (Bmi),ASSESS,Type 2 Diabetes Mellitus,significant reduction (p < 0.001) in BMI in Vamana,37738857
+,,,,
+Semen Analysis,ASSESS,Oligozoospermia,"increase of 80.92%, on total sperm count, 41.78% increase in sperm motility, 12.58% increase in normal form of total sperm, 41.69% decrease in abnormal forms, and increase in semen volume by 45.22%.",31831966
+Hormone Analysis,ASSESS,Oligozoospermia,"17.38% increase in serum FSH, 26.63% increase in serum LH value and 25.84% increase in serum testosterone value.",31831966
+Relief In The Signs And Symptoms,ASSESS,Oligozoospermia,"statistically highly significant (P < 0.001) result on generalized Debility (83.33%), Sexual Weakness (16.66%), sexual desire (78.02%), Erectile Dysfunction (75.71%), Erectile Dysfunction (65.15%)",31831966
+,,,,
+Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (Alsfrs-R),ASSESS,Progressive Bulbar Palsy,The score before and after the treatment was 35 and 45 respectively out of 48.,40913874
+,,,,
+Anti-Mullerian Hormone (Amh) Value,ASSESS,Low Anti-Mullerian Hormone (Amh) Level,There was a marked improvement in the AMH value  from 0.07ng/ml to 2.11ng/ml.,29861596
+,,,,
+Semen Analysis,ASSESS,Oligozoospermia,"increase in sperm count (59.78%), statistically significant result in abnormal form of sperm (16.18%), and statistically highly significant (P < 0.001) result in increasing semen volume (36.81%)",29200749
+Hormone Analysis,ASSESS,Oligozoospermia,"Serum testosterone and serum FSH were decreased by 13.58% and 8.27%, respectively, whereas serum LH was increased by 6.57%",29200749
+Relief In The Signs And Symptoms,ASSESS,Oligozoospermia,"highly significant (P < 0.001) result on Daurbalya (75%), Sandhi Shula (81.81%), Shrama (64.29%), Sexual Weakness(60%), Alpa Shukra Pravriti (72.22%), sexual desire (53%), Erectile Dysfunction (62.50%), Erectile Dysfunction (60%)",29200749
+,,,,
+Gene Expression Analysis,ASSESS,Obesity,increased expression in UCP2 and PPAR genes; significant reduction in FTO gene,40446462
+Lipid Profile,ASSESS,Obesity,showed significant decrease in serum total cholesterol immediately after therapy,40446462
+Iwqol Score,ASSESS,Obesity,significant improvement in the Quality of Life scores immediately after therapy,40446462
+Anthropometric Measurements,ASSESS,Obesity,reduction in mean body mass index and  WHR immediately after the therapy.,40446462
+,,,,
+Asthma Control Questionnaire (Acq),ASSESS,Bronchial Asthma,The mean Asthma control questionnaire (ACQ) score before treatment (baseline) was 16.73±0·26 and after treatment it gradually reduced to 7.6±0·2 with p<0·0001,27473604
+Ige And Cytokine Level,ASSESS,Bronchial Asthma,The circulating levels of IgE (p<0.01) and eosinophil numbers (p=0.01) reduced significantly in the asthmatic patients after ayurvedic treatment,27473604
+Lung Functiontest,ASSESS,Bronchial Asthma,Mean FVC (% predicted) and FEV1 (% predicted) significantly improved after the treatment.,27473604
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Wounds,"efficiently decreases the Microbial Load, clinically controls infection, hastens Wound debridement",25558157
+,,,,
+Iid Score,ASSESS,Oral Submucous Fibrosis,Statistically highly significant (P < 0.001) improvement in IID (39.85%) was noted.,26730136
+Relief In The Signs And Symptoms,ASSESS,Oral Submucous Fibrosis,"Statistically highly significant relief (P < 0.001) in overall blanching of the mucosa, leathery consistency of mucosa shows that to some extent Fibrosis is reversed.",26730136
+,,,,
+Semen Analysis,ASSESS,Oligoasthenozoospermia,"The progressive motility was increased from 5% to 56%, non-progressive motility was reduced from 6% to 3%, immomotile sperm was reduced from 89% to 31%. Sperm concentration was increased from 3 million/ml to 32 million/ml. Normal morphology was attained in 80%. Head defects were reduced from 6% to 4%, tail defects were reduced from 5% to 2%. ",32741654
+Hamilton Anxiety Rating Scale,ASSESS,Oligoasthenozoospermia,Rating scale showed reduction in the Anxiety rating from 23 (moderate severity) before treatment to 4(mild severity) after treatment.,32741654
+,,,,
+Wound Assessment,ASSESS,Nicolau Syndrome,Size: 20 × 20 cm to 3.5 × 3.5 cm; Shape: Spherical to Transversally oval; Depth: 3.8 cm to 0.5 cm;,32896437
+,,,,
+Vas Score,ASSESS,Small Fibre Neuropathy,VAS Score reduced from 10 to 00.,37141832
+Neuropathic Pain Scale (Nps),ASSESS,Small Fibre Neuropathy,NPS score which was 39 before the treatment reduced to 5 after the 3rd course of treatment.,37141832
+,,,,
+Scale For Assessment And Rating Of Ataxia (Sara) Score,ASSESS,Spinocerebellar Ataxia,the patient’s SARA score improved from 31 to 13 after treatment.,39926966
+Relief In The Signs And Symptoms,ASSESS,Spinocerebellar Ataxia,"He gained the ability to rise, stand, and walk without support, with improved, understandable speech.",39926966
+,,,,
+Barthel Index,ASSESS,Guillain-Barre Syndrome,gradual improvement from baseline scores 10 to a complete recovery of BI on 165th day,30661945
+Modified Ranking Scale,ASSESS,Guillain-Barre Syndrome,gradual improvement from baseline scores 5 to a complete recovery of MRS on 283rd day,30661945
+Nih Stroke Scale,ASSESS,Guillain-Barre Syndrome,gradual improvement from baseline scores 13 to a complete recovery of NIHSS on 283rd day,30661945
+Vas Score,ASSESS,Guillain-Barre Syndrome,Tingling and Pricking sensation showed a reduction from score 8 to 5 by 10th day and to complete recovery by 165th day. Numbness reduced from score of 10 to 3 by 10th day and complete recovery by 113th day.,30661945
+Muscle Power Grading,ASSESS,Guillain-Barre Syndrome,"Muscle strength of all extremities showed a steady increase from grade 1 (base line), 3 (10th day), 4 (96th day) and complete recovery by 165th day.",30661945
+,,,,
+Fasting Blood Sugar (Fbs) Level,ASSESS,Prediabetes,,37738856
+Postprandial Blood Sugar (Ppbs) Level,ASSESS,Prediabetes,,37738856
+Hba1C Test (Hemoglobin A1C),ASSESS,Prediabetes,,37738856
+Sf-36 Score,ASSESS,Prediabetes,,37738856
+,,,,
+Bates-Jensen Wound Assessment Tool (Bwat),ASSESS,Diabetic Foot Ulcer,Case 1: 46 to 13; Case 2: 39 to 13; Case 3: 50 to 15; Case 4: 52 to 13; Case 5: 56 to 13; Case 6: 38 to 13,37678108
+Blood Parameters,ASSESS,Diabetic Foot Ulcer,"Blood parameters like complete blood count, ESR, blood urea, serum creatinine and HbA1c of all the six cases were found normal in the post treatment phase",37678108
+,,,,
+Barrow Neurological Institute Pain Scale,ASSESS,Trigeminal Neuralgia,Facial Pain: +++ to 00; Pain: 2 to 00,39926949
+Barrow Neurological Institute Facial Hypesthesia Scale,ASSESS,Trigeminal Neuralgia,Numbness: +++ to 00,39926949
+,,,,
+Psoriasis Area And Severity Index (Pasi) Score,ASSESS,Psoriasis,PASI Score reduced from 5.6 to 00; Erythema: 3 to 0; Induration : 3 to 0; Desquamation: 3 to 0,39926829
+,,,,
+Ultrasonography (Usg),ASSESS,Female Infertility,Right ovary: No dominant follicle to Normal follicle after treatment; Left ovary: 6 × 10mm follicle to 20 × 17 mm after treatment; Endometrial thickness: 5.1 mm to 9 mm(trilaminar),38237453
+Vas Score,ASSESS,Female Infertility,Dysmenorrhoea: 06 to 00; Dyspareunia: 07 to 00; Mastalgia: 08 to 00,38237453
+Conception,ASSESS,Female Infertility,She delivered a female baby weighing 2.8 kg on11/07/2017 through LSCS,38237453
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,Pain relief: Shoulder 77.6 % and Wrist 71.7 %; Sandhishotha relief: Hip 86.7 % and Knee 80.3 %; Stiffness relief: Metatarsals 85.2 % and Knee 80.3 %; Tenderness relief: Metatarsals 81.8 % and Knee 80.3 %,22131737
+,,,,
+Fasting Blood Sugar (Fbs) Level,ASSESS,Diabetes Mellitus,Mean FBS: 176.05 to 173.11,22131730
+Postprandial Blood Sugar (Ppbs) Level,ASSESS,Diabetes Mellitus,Mean PPBS: 232.22 to 245.72,22131730
+Cholestrol Level,ASSESS,Diabetes Mellitus,Mean: 196.27 to 188.27,22131730
+Relief In The Signs And Symptoms,ASSESS,Diabetes Mellitus,Mean Polyuria: 2.37 to 0.50; Mean polyphagia: 2.73 to 0.73; Mean Polydipsia: 2.33 to 0.53; Mean Burning: 2.40 to 0.40,22131730
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Avascular Necrosis,"Significant improvement was observed with Stiffness, Tenderness, and Pain reduced to nil, muscle power improved from Grade 4 to Grade 1, straight leg raising increased from 10° to 70°, and gait normalized.",27143802
+,,,,
+Urine Pregnancy Test (Upt),ASSESS,Uterine Fibroids,Pregnancy was confirmed by a positive Urine Pregnancy Test (UPT).,28867860
+Ultrasonography (Usg),ASSESS,Uterine Fibroids,Pregnancy was confirmed on ultrasonography (USG),28867860
+Conception,ASSESS,Uterine Fibroids,"Full term male child of weight 2.90 kg, APGAR good, all reflexes were positive with no visible external congenital anomaly.",28867860
+,,,,
+Ctcae Scale,ASSESS,Chemotherapy-Induced Peripheral Neuropathy,"CTCAE showed improvement in paresthesia (Grade 2 to grade 1), Headache (Grade 2 to Absent), back Pain (Grade 1 to Absent), Fatigue (Grade 2 to Absent), arthralgia (Grade 2 to Grade 1) and Numbness from grade 2 to 1 at the end of the 18th day.",39244869
+Eortc -Qlq- Cipn20,ASSESS,Chemotherapy-Induced Peripheral Neuropathy,Eortc -Qlq- Cipn20,39244869
+Fact-Taxane Score,ASSESS,Chemotherapy-Induced Peripheral Neuropathy,FACT-Taxane Scoring improved from 117.5 to 147.6 indicating the improved QOL,39244869
+,,,,
+Ecog Ps,ASSESS,Chronic Lymphocytic Leukemia,The performance score of the patient has improved from ECOG PS 3 to 1.,39673829
+Total Leucocyte Count (Tlc),ASSESS,Chronic Lymphocytic Leukemia,TLC dropped from 282 thousand/cu. mm to 168 thousand/cu. mm.,39673829
+Relief In The Signs And Symptoms,ASSESS,Chronic Lymphocytic Leukemia,"In the first-follow up after 30 days, the pedal Edema and Muscle Cramps were completely relieved. Low grade Fever had resolved, however, febrile episodes accompanied by productive Cough recurs every three months, none requiring hospitalization.",39673829
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Psychogenic Pseudomyasthenic Ptosis,The patient reported for three follow up visits with a gap of 3 weeks between each and was symptom-free during this period.,33962505
+,,,,
+Abnormal Involuntary Movement Scale (Aims),ASSESS,Huntington’S Chorea,"AIMS score before starting treatment was 33, which reduced to 26 after the first sitting, to 22 after the second followup, and, upon completion of the treatment after the third sitting, the score was markedly reduced to 11.",40662609
+,,,,
+Scale For Assessment And Rating Of Ataxia (Sara) Score,ASSESS,Spinocerebellar Ataxia Type 2,"Before treatment, mean SARA score was 35. This reduced to 15 after treatment.",27143801
+Relief In The Signs And Symptoms,ASSESS,Spinocerebellar Ataxia Type 2,"After 2 months of treatment, the patient could stand from sitting, walk without support, and turn while walking. Speech improved and became clear. Autonomic symptoms improved, and Heaviness of eyes, Insomnia, and Constipation were relieved.",27143801
+,,,,
+Migraine Disability Assessment Test (Midas),ASSESS,Migraine,25.73±22.07 to 5.48±7.97,31000965
+Perceived Stress Score (Pss),ASSESS,Migraine,21.20±4.83 to 11.96±4.85,31000965
+Integral Emg,ASSESS,Migraine,11.80±8.49 to 6.52±2.77,31000965
+Rms Emg,ASSESS,Migraine,133.43±58.25 to 75.44±35.19,31000965
+,,,,
+Hba1C Test (Hemoglobin A1C),ASSESS,Prediabetes,BT [day 0] Mean score 6.25 and AT [day 120] 5.63,36743277
+Fasting Blood Sugar (Fbs) Level,ASSESS,Prediabetes,BT [day 0] mean score 120.05 and AT [day 120] 93.31,36743277
+Postprandial Blood Sugar (Ppbs) Level,ASSESS,Prediabetes,BT [day 0] mean score 165.26 and AT [day 120] 112.84,36743277
+Sf-36 Score,ASSESS,Prediabetes,"Physical functioning: 50.79 to 90.53, Role limitation due to physical health: 42.11 to 81.58, Role limitation due to emotional problem: 42.09 to 85.97, Energy/fatigue: 54.74 to 89.21, Emotional well-being: 60.63 to 87.16, Social functioning: 62.50 to 77.63, Pain: 60.13 to 84.07, General health: 51.58 to 87.11",36743277
+Relief In The Signs And Symptoms,ASSESS,Prediabetes,"Polyuria: 0.526 to 0.00, Turbid urine: 0.21 to 0.00, Polydipsia: 0.42 to 0.00, Polyphagia: 0.26 to 0.00, Burning sensation in palm and feet: 0.37 to 0.00, Arthritis: 1.32 to 0.32, Appetite (digestive strength): 1.26 to 0.26, Proper excretion of urine, feces and semen (digestive strength): 0.53 to 0.11, Physical strength: 1.00 to 0.16, Proper sleep: 1.47 to 0.21, Pleasant awakening: 1.11 to 0.26",36743277
+,,,,
+Body Weight,ASSESS,Obesity,There was a decrease in the body weight by 9.70%.,33281395
+Body Mass Index (Bmi),ASSESS,Obesity,There was a decrease in the BMI by 6.64%,33281395
+Biochemical Parameters,ASSESS,Obesity,"Triglyceride was reduced by 22.45%, and fasting blood sugar was reduced by 14.95%",33281395
+,,,,
+Serum Cholesterol,ASSESS,Dyslipidemia,"After Virechana, BT: 240.84 and AT: 199.87. After Basti, BT: 267.57 and AT: 167.17",28827953
+Serum Vldl,ASSESS,Dyslipidemia,"After Virechana, BT: 51.39 and AT: 30.47. After Basti, BT: 43.79 and AT: 33.35",28827953
+Serum Triglycerides,ASSESS,Dyslipidemia,"After Virechana, BT: 256.89 and AT: 152.78. After Basti, BT: 218.83 and AT: 166.77",28827953
+Serum Hdl,ASSESS,Dyslipidemia,"After Virechana, BT: 51.71 and AT: 56.87. After Basti, BT: 56.40 and AT: 56.50",28827953
+Serum Ldl,ASSESS,Dyslipidemia,"After Virechana, BT: 131.07 and AT: 113.28. After Basti, BT: 167.70 and AT: 77.27",28827953
+,,,,
+Vas Score,ASSESS,Lumbar Spondylosis,"BT: 2, AT: 1",32398907
+Straight Leg Raise (Slr) Test,ASSESS,Lumbar Spondylosis,"BT: 2.5, AT: 1.31",32398907
+Oswestry Disability Index (Odi) Scale,ASSESS,Lumbar Spondylosis,"BT: 1.25, AT: 0.31",32398907
+Lasegue’s Sign,ASSESS,Lumbar Spondylosis,"BT: 0.56, AT: 0.25",32398907
+Schober's Test,ASSESS,Lumbar Spondylosis,"BT: 2.25, AT: 1.18",32398907
+Relief In The Signs And Symptoms,ASSESS,Lumbar Spondylosis,"Low back pain, BT: 2.31, AT: 1.06; Low back stiffness, BT: 2.30, AT: 0.80; Low back numbness, BT: 1.67, AT: 0.67; Painful joint movements, BT: 1.75, AT: 0.93",32398907
+,,,,
+Vas Score,ASSESS,Sciatica,"Pain, BT: 6.545, AT: 4.364; Stiffness, BT: 2.667, AT: 1.444; Numbness, BT: 2.900, AT: 1.200; pulsation, BT: 2.333, AT: 1.000; Drowsiness, BT: 1.333, AT: 1.000; Heaviness, BT: 2.000, AT: 0.857; Loss of appetite, BT: 2.000, AT: 1.000; ",26664236
+Straight Leg Raise (Slr) Test,ASSESS,Sciatica,"BT: 3.545, AT: 1.909",26664236
+,,,,
+Lipid Profile,ASSESS,Psoriasis,HDL: Increased by 10.01%; Triglycerides: Decreased by 12.68%,22661842
+Relief In The Signs And Symptoms,ASSESS,Psoriasis,Lack of Perspiration: BT: 2.15 AT: 2.07; Lesions: BT: 2.43 AT: 2.21; Scaling: BT: 1.93 AT: 1.14; Discoloration: BT: 2.07 AT: 1.64; Itching: BT: 3.00 AT: 1.50; Dryness: BT: 2.36 AT: 1.64,22661842
+,,,,
+Hamilton Depression Rating Scale (Hdrs),ASSESS,Depression,"BT: 20.20, AT: 14.5",22131711
+,,,,
+Functional Rating Scale For Als (Alsfrs-R),ASSESS,Amyotrophic Lateral Sclerosis,"BT: 29, AT: 38 ",35240461
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Psoriasis,There was 41.48% relief in Scaling and 73.44% relief in itching.,27114687
+Psoriasis Area And Severity Index (Pasi) Score,ASSESS,Psoriasis,PASI score was changed by 20.47% BT and after Samsajana Krama was 29.01%,27114687
+Candle Grease Test,ASSESS,Psoriasis,86.96% relief in the parameter of Candle grease sign.,27114687
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Covid-19,The patient reported improvement in nasal congestion and heaviness in the head. There was a feeling of general well-being and lightness in the abdomen after Vamana. Fever was not reported the next day. The appetite also improved significantly after Samsarjana Krama.,34611387
+,,,,
+,,,,
+Body Mass Index (Bmi),ASSESS,Oligomenorrhea,statistically ES result was found in body weight (5.54%) and BMI (5.55%).,30254392
+Ultrasonography (Usg),ASSESS,Oligomenorrhea,Statistically significant changes were observed in mean NDF of right (26.39%) and left (21.42%) side of the ovary,30254392
+Fasting Blood Sugar (Fbs) Level,ASSESS,Oligomenorrhea,significant change in FBS was noted in 8.33% patients,30254392
+Postprandial Blood Sugar (Ppbs) Level,ASSESS,Oligomenorrhea,Not Significant results were observed in PPBS in 5.56% patients,30254392
+,,,,
+Breath Holding Time (Bht),ASSESS,Bronchial Asthma,"Highly significant increase (p < 0.001, t = 7.719)",23559796
+Peak Expiratory Flow Rate (Pefr),ASSESS,Bronchial Asthma,Marked improvement (p < 0.001),23559796
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Bronchial Asthma,"Significant reduction (p < 0.001), indicating reduced inflammation.",23559796
+Relief In The Signs And Symptoms,ASSESS,Bronchial Asthma,"Prolonged expiration, cough, rhinitis, wheeze, dyspnoea, restlessness, and orthopnoea were significantly reduced.",23559796
+,,,,
+Ascending Urethrogram (Aug),ASSESS,Urethral Stricture,"BT: 2 strictures, AT: Both strictures were resolved",40101438
+Relief In The Signs And Symptoms,ASSESS,Urethral Stricture,"Burning Micturition, Weak stream of urine, Dribbling of Urine, Stricture Urethra resolved after treatment. Urine frequency decreased from 12-14 times a day to 7-8 times a day.",40101438
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Non-Alcoholic Fatty Liver Disease,"Significant improvement in fatty liver grade (39.25%, P < 0.001), impaired digestion (72.1%), fatigue (77.48%), nausea (74.11%), belching (76.19%), itching (74.94%), abdominal pain (73.64%), burning sensation in abdomen (56.34%), abdominal heaviness (80.82%), abdominal distension (78.89%), flatulence (71.45%), diarrhea (68.75%), constipation (67.69%), and vomiting (73.33%)",34908794
+Ultrasonography (Usg),ASSESS,Non-Alcoholic Fatty Liver Disease,"BT: 1.07, AT: 0.65",34908794
+,,,,
+Dna Pcr,ASSESS,Hepatitis B,decreased from 3705.71 IU/ml to <50.0 IU/ml,37554413
+Ast,ASSESS,Hepatitis B,decreased from 140 IU/ml to 19.0 IU/ml,37554413
+Alt,ASSESS,Hepatitis B,decreased from 173 IU/ml to 28 IU/ml,37554413
+Relief In The Signs And Symptoms,ASSESS,Hepatitis B,"Yellowish discoloration of eyes, yellowish discoloration of skin, nails and face, indigestion, generalized weakness, and anorexia showed progressive reduction from baseline to complete remission at follow-up.",37554413
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Ulcerative Keratitis,"There was no pain, redness, photophobia nor discharge",30683497
+Best Corrected Visual Acuity (Bcva),ASSESS,Ulcerative Keratitis,The patient best corrected visual acuity was 6/24 in right eye,30683497
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Autoimmune Pancreatitis,"There was weight loss, improvement in digestion, no pedal oedema and skin became radiant",33935442
+Body Mass Index (Bmi),ASSESS,Autoimmune Pancreatitis,Body mass index decreased from 32.8 to 31.22 kg/m,33935442
+Laboratory Investigations,ASSESS,Autoimmune Pancreatitis,"glycosylated hemoglobin: 6.4 to 5.98, IgG4: 4.65 to 4.19, Lipid levels also showed a significant decrease within 3 weeks of Ayurveda treatment.",33935442
+Sf-12 Scale,ASSESS,Autoimmune Pancreatitis,Physical health: 32 to 60; Psychological: 38 to 70; Social relationship: 29 to 72; Environment: 40 to 65,33935442
+,,,,
+Size Of Cyst,ASSESS,Ovarian Cyst,BT: 2.33 to AT: 0.93,35370374
+Vascularity,ASSESS,Ovarian Cyst,BT: 1.66 to AT: 0.66,35370374
+Cyst Size,ASSESS,Ovarian Cyst,BT: 29.86 to AT: 10.80,35370374
+Body Mass Index (Bmi),ASSESS,Ovarian Cyst,BMI was statistically significant by reduced 4.22%.,35370374
+Ca 125 Test,ASSESS,Ovarian Cyst,CA 125 was found elevated in 18.75% of the patients which was reduced to normal level after the treatment in all patients.,35370374
+Serum Prolactin Level,ASSESS,Ovarian Cyst,Serum prolactin level was found above the normal range before treatment in 12.5% of the patients which became normal after the treatment.,35370374
+Relief In The Signs And Symptoms,ASSESS,Ovarian Cyst,"93.11% patients had relief in lower abdominal pain, 81.81% in backache, 90.90% in dysmenorrhea, and 100% in breast tenderness; delayed menses improved in 50%, scanty menses normalized in 25%, excessive bleeding reduced in 75%, and intermenstrual bleeding stopped in 33% of patients.",35370374
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Eczema,The features of cellulites improved by 5 days and eczematous changes improved by 1 month leaving some amount of hyper pigmentation over the feet.,21455456
+,,,,
+Systolic Blood Pressure,ASSESS,Hypertension,13.12% relief was recorded after Shamana,24049408
+Diastolic Blood Pressure,ASSESS,Hypertension,14.48% relief was recorded after Shamana,24049408
+Relief In The Signs And Symptoms,ASSESS,Hypertension,"Relief in redness of eyes 54.54%, bleeding disorder 80%, burning sensation/mental distress 66.67%, excess anger 44.44%, giddiness 56.25%, headache 66.67%, fatigue 75%, restlessness 72.72%, insomnia/reduced sleep 65.62%, drowsiness 50%, intoxication-like feeling 80%, confusion 46.15%, darkness before eyes 80%",24049408
+,,,,
+Blood Parameters,ASSESS,Liver Cirrhosis With Ascites,"Systolic blood pressure from 131.4 ± 8.91 to 130.53 ± 8.39, Diastolic blood pressure from 78.40 ± 6.2 to 77.06 ± 6.71, Pulse rate from 75.46 ± 6.12 to 74.93 ± 5.48",34996679
+Abdominal Measurements,ASSESS,Liver Cirrhosis With Ascites,"Abdominal girth (1 cm above umbilicus) from 91.93 ± 10.42 to 86.46 ± 9.16, abdominal girth (at umbilicus) from 91.93 ± 10.42 to 86.46 ± 9.16, abdominal girth (1 cm below umbilicus) from 90.36 ± 9.84 to 85.1 ± 9.49, xiphisternum to umbilicus distance from 22.11 ± 4.03 to 18.53 ± 4.06, umbilicus to pubic symphysis distance from 14.64 ± 3.47 to 13.35 ± 1.54",34996679
+Body Weight,ASSESS,Liver Cirrhosis With Ascites,Body weight from 63.99 ± 10.78 to 59.03 ± 8.73,34996679
+Clinical Global Impression (Cgi) Scale,ASSESS,Liver Cirrhosis With Ascites,"CGI-Severity from 5.56 ± 1.04 to 3.00 ± 0.74, CGI-Global Improvement from 3.0 ± 0.20 to 2.05 ± 0.40, CGI-Efficacy Index from 5.51 ± 1.79 to 2.68 ± 2.02",34996679
+,,,,
+Hematological Parameters,ASSESS,Antiphospholipid Antibody Syndrome,"cardiolipin IgG changed from positive to negative, cardiolipin IgM became negative, APC normalized, homocysteine remained negative, ANA remained negative, ESR increased from 9 mm/h to 42 mm/h at later stage",29861595
+Prothrombin Time (Pt/Inr),ASSESS,Antiphospholipid Antibody Syndrome,"PT/INR showed fluctuations with overall stabilization (PT ~15.8 to 14, INR ~1.01 to 1.3)",29861595
+Radiological Findings,ASSESS,Antiphospholipid Antibody Syndrome,Doppler findings showed progression from extensive deep vein thrombosis to partial and then near-complete recanalization with no residual thrombosis,29861595
+Relief In The Signs And Symptoms,ASSESS,Antiphospholipid Antibody Syndrome,"Pain and stiffness in multiple joints improved from Grade 3 to Grade 1, tenderness in multiple joints reduced from Grade 4 to Grade 1, swelling: moving from all over the body to absent, and both Homan’s and Moses signs transitioning from positive to negative. Seizure episodes moved from 2 episodes before admission to being absent after treatment",29861595
+,,,,
+Birmingham Vasculitis Activity Score (Bvas-2010),ASSESS,Vasculitis,Score was 22 at the time of initiation of treatment and it changed to 08 at the end of a month. It further reduced to 06 following Panchakarma procedures.,32165016
+Body Weight,ASSESS,Vasculitis,There was 4 Kg increase in weight during the treatment.,32165016
+Relief In The Signs And Symptoms,ASSESS,Vasculitis,"Skin lesions healed after a month of treatment and there was no relapse in more than 18months follow up. There were no complaints of paresthesia, pain and fatigue after 18 months of treatment. No bluish discoloration was noted during this period.",32165016
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Major Depressive Disorder,Self-assessment of worry showed reduction from 16 hours/day to 5 hours/day. Self-assessment of relaxed state of mind improved from 0.5 hours/day to 8 hours/day,34024690
+Hamilton Depression Rating Scale (Hdrs),ASSESS,Major Depressive Disorder,HDRS total score reduced to 24 from 31,34024690
+,,,,
+Dynamic Pruritus (Dps) Score,ASSESS,Prurigo Nodularis,Dynamic Pruritus Score reduced from 8 to 4 (100%),36455368
+Numerical Pain Rating (Npr) Scale,ASSESS,Prurigo Nodularis,Numerical Rating Scale from 8 to 1 (87.5%),36455368
+Vas Score,ASSESS,Prurigo Nodularis,Visual Analogue Scale from 8 to 1 (87.5%),36455368
+Verbal Rating Scale (Vrs),ASSESS,Prurigo Nodularis,Verbal Rating Scale from 4 to 1 (75%),36455368
+Pruritus Severity Scale (Pss),ASSESS,Prurigo Nodularis,Pruritus Severity Scale from 16 to 5 (68.7%),36455368
+Hamilton Depression Rating Scale (Hdrs),ASSESS,Prurigo Nodularis,Hamilton Depression Rating Scale remained unchanged at 6 (no improvement),36455368
+Dermatological Life Quality Index (Dlqi),ASSESS,Prurigo Nodularis,Dermatology Life Quality Index reduced from 9 to 1 (88.89%),36455368
+Relief In The Signs And Symptoms,ASSESS,Prurigo Nodularis,"Itching from severe to mild/no, macular nodules from severe to mild/no, oozing from mild to no, bleeding from mild to no",36455368
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Eczema,"Itching – extremely significant improvement (P < 0.0001), Oozing – extremely significant improvement (P < 0.0001), Eruption – extremely significant improvement (P < 0.0001), Burning sensation – very significant improvement (P = 0.0078), Discoloration – significant improvement (P = 0.0156), Pain – significant improvement (P = 0.0156), Shotha (inflammation) – significant improvement (P = 0.0313), Dryness – no significant improvement (P = 0.0625), Raji (skin thickening) – no significant improvement (P = 0.0625)",30595628
+Hematological Parameters,ASSESS,Eczema,no significant differences were found after treatment,30595628
+Biochemical Parameters,ASSESS,Eczema,no significant differences were found after treatment,30595628
+,,,,
+Pulmonary Function Tests (Pft),ASSESS,Obesity,"FVC (Forced Vital Capacity): from 1.5, to 1.6; FEV1 (Forced Expiratory Volume): from 1.5, to 1.56; FEV1/FVC%: from 96.08, to 100; PEF (Peak Expiratory Flow): from 4.79, to 5.1; V max 75%: from 1.99, to 2.79; MVV (Maximal Voluntary Ventilation): from 51.34, to 75.72; Jeevan yantra: from 70, to 120",31143747
+Who-Quality Of Life Questionnaire,ASSESS,Obesity,"Physical health: from 63, to 75; Psychological health: from 56, to 69; Social relationships: from 44, to 56; Environment: from 81, to 94; Musculoskeletal pain: from 98, to 71",31143747
+Orebro Musculoskeletal Pain Questionnaire,ASSESS,Obesity,Musculoskeletal pain: from 98 to 71,31143747
+,,,,
+Ulcerated Wound,ASSESS,Venous Ulcer,ulcer size reduced from 3 × 2 × 1.75 cm to 2 × 1 × 0.5 cm and further to 0.5 × 0.5 × 0.2 cm,24501445
+Vas Score,ASSESS,Venous Ulcer,Pain: BT: 09 to AT: 03,24501445
+Edema,ASSESS,Venous Ulcer,edema reduced from 26 cm to 24.7 cm and further to 21.4 cm,24501445
+Relief In The Signs And Symptoms,ASSESS,Venous Ulcer,"edema reduced by 60% and 95%, burning sensation reduced by 40% and 70%, pricking sensation reduced by 30% and 80%, ulcer healing improved up to 90%",24501445
+,,,,
+Barrow Neurological Institute Pain Scale,ASSESS,Post-Traumatic Trigeminal Neuropathy,from a baseline score of V to III after the combined interventions,40614618
+Beck Depression Inventory (Bdi),ASSESS,Post-Traumatic Trigeminal Neuropathy,decreasing from 17 to 0,40614618
+Penn-Fps-Revised Score,ASSESS,Post-Traumatic Trigeminal Neuropathy,decreasing from 27 to 0,40614618
+,,,,
+Bates-Jensen Wound Assessment Tool (Bwat),ASSESS,Chronic Non-Healing Ulcer,"The Bates-Jensen Wound Assessment Tool (BWAT) score improved from 44 to 13, indicating significant wound healing and reduction in severity.",41747605
+Abdominal Distension,ASSESS,Chronic Non-Healing Ulcer,Reduction of 29 cm in abdominal girth from 95 cm to 66cm,41747605
+Ulcer Size,ASSESS,Chronic Non-Healing Ulcer,"From 11.5 cm in length, 6.2 cm in width, 5mm in depth before treatment, to Only white patches remain at the ulcer site after treatment.nt",41747605
+Relief In The Signs And Symptoms,ASSESS,Chronic Non-Healing Ulcer,"Abdominal tightness, generalized weakness, pedal edema, dribbling of urine, pain, discharge, pus, burning sensation, discoloration and foul smell reduced from severe to absent, urine output improved from oliguria to normal, appetite improved from severe loss to normal",41747605
+Laboratory Investigations,ASSESS,Chronic Non-Healing Ulcer,"Improvement in Hb from 9.9 to 11.3; Leucocytes (mm3) from 15180 to 7750; Neutrophils: 90 to 64; Lymphocytes: 07 to 26; Eosinophils: 01 to 06; Monocytes: 02 to 04; Plate late count: 2,11,000 to 1,91,000; Urine albumin: Trace to absent ",41747605
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Venous Ulcer,"Pain and discharge were reduced, and the ulcer healed completely.",37244010
+,,,,
+Itas-2010 Score,ASSESS,Takayasu Arteritis,"Systemic symptoms reduced from 2 to 0, nervous system involvement reduced from 1 to 0, cardiovascular involvement markedly reduced from 14 to 5 and further to 3 with slight rise to 4 on long-term follow-up, abdominal, genitourinary and renal domains remained 0 throughout, overall ITAS score reduced from 17 to 5 to 3 and remained stable at 4 indicating significant reduction in disease activity and sustained stability.",34908792
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Acute Upper Limb Ischemia,"Pain and pallor improved within 2 days, left hand weakness improved by 24 days with restoration of brachial, radial and ulnar pulses; muscle strength returned to normal",38537487
+Blood Pressure,ASSESS,Acute Upper Limb Ischemia,blood pressure normalized to 124/80 mmHg in both hands,38537487
+Ct Angiography (Cta),ASSESS,Acute Upper Limb Ischemia,changed from complete occlusion to partial recanalization with non-occlusive thrombus,38537487
+Laboratory Investigations,ASSESS,Acute Upper Limb Ischemia,"laboratory parameters (CBC, LFT, RFT) remained within normal limits",38537487
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Esophageal Squamous Cell Carcinoma,"Difficulty in swallowing (dysphagia/odynophagia) reduced from daily to absent, difficulty in swallowing water reduced from frequent to improved, nausea reduced from daily to occasional, indigestion reduced from frequent to minimal, vomiting reduced from weekly to absent, constipation showed mild improvement, frequent choking reduced from daily to occasional",39926936
+Vas Score,ASSESS,Esophageal Squamous Cell Carcinoma,retrosternal/throat pain (VAS) reduced from 2+ to 0,39926936
+Weight Loss,ASSESS,Esophageal Squamous Cell Carcinoma,weight loss improved from severe (20 kg loss) to normal,39926936
+Dehydration,ASSESS,Esophageal Squamous Cell Carcinoma,dehydration reduced fom Score 5-8 - C.D.S. to Score 0 - C.D.S. after treatment,39926936
+,,,,
+Worth Four Dot Light Test (W4Lt),ASSESS,Diplopia,Diplopia (W4LT score) markedly reduced from 21 to 3,38507966
+Diplopia Questionnaire (Dq),ASSESS,Diplopia,"Straight-ahead gaze improved from severe (6) to absent (0), upward gaze improved from 2 to 1, downward gaze improved from 2 to 0, right gaze improved from 4 to 2, left gaze improved from 2 to 0, reading-related diplopia improved from 4 to 0",38507966
+,,,,
+Central Macular Thick (Cmt),ASSESS,Central Serous Retinopathy,"CMT reduced from 488 to 231 in Case 1, 457 to 243 in Case 2, and 339 to 227 in case 3 after treatment.",41488094
+Visual Acuity,ASSESS,Central Serous Retinopathy,"visual acuity improved from 6/36 to 6/9, 6/60 to 6/6, and 6/12 to 6/6 in Case 1, 2 nad 3 respectively after treatment.",41488094
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Bell's Palsy,"Heaviness and facial swelling relieved early after treatment, eye closure and facial deviation completely resolved within 14 days, all examinations normalized, and no recurrence observed during 3-year follow-up",36403502
+,,,,
+Migraine Disability Assessment Test (Midas),ASSESS,Migraine,Improvement of Score from 33.11 to 14.42,36384709
+Migraine Specific Quality Of Life Assessment Scale,ASSESS,Migraine,Improvement of Score from 53.44 to 16.24,36384709
+Laboratory Investigations,ASSESS,Migraine,"Hemoglobin improved from 12.98 to 13.23, TLC reduced from 7322.22 to 7126.67, neutrophils reduced from 55.52 to 53.69, monocytes reduced from 7.22 to 6.41, SGOT reduced from 29.03 to 28.30, SGPT reduced from 29.48 to 28.27, serum creatinine showed slight increase but remained within normal limits (0.81 to 0.86)",36384709
+,,,,
+Hfs Score,ASSESS,Hemifacial Spasm,Score improved from 9 to 4 after treatment,37076181
+Quality Of Life Scale For Hfs,ASSESS,Hemifacial Spasm,Acore improved from 20 to 10 after treatment,37076181
+,,,,
+Hit -6,ASSESS,Episodic Cluster Headache,Improved from 69 (Severe impact) to 36 (no impact),39608299
+Dass-21,ASSESS,Episodic Cluster Headache,Depression: 8 (Moderate) to 0; Anxiety: 5 (Mild) to 0; Stress: 11 (Moderate) to 0,39608299
+Vas Score,ASSESS,Episodic Cluster Headache,Improved from 10 to 0,39608299
+Chiq,ASSESS,Episodic Cluster Headache,Improved from 34 to 0,39608299
+,,,,
+Radiological Findings,ASSESS,Sinusitis,Improvement in Haziness in Sinus from 30 to 0; Mucosal thickening from 27 to 0; Air-Fluid level from 30 to 0.,22557218
+Relief In The Signs And Symptoms,ASSESS,Sinusitis,"Pain over sinus: 27 to 0, tenderness over sinus: 24 to 0, purulent nasal discharge: 29 to 0, frontal headache: 27 to 0, post nasal drip: 25 to 0, nasal congestion: 28 to 0, facial pain: 24 to 0",22557218
+,,,,
+Vas Score,ASSESS,Trigeminal Neuralgia,Improved from 9 to 2,37494834
+Frequency Of Acute Episodes,ASSESS,Trigeminal Neuralgia,frequency of acute episodes reduced from every 1–2 hours to no episodes,37494834
+Duration Of Acute Episodes,ASSESS,Trigeminal Neuralgia,duration of acute episodes reduced from 1–2 minutes to no acute pain episodes,37494834
+Sf-36 Score,ASSESS,Trigeminal Neuralgia,"The total quality of life score percentage was 10.7 % at day 0; after three months, it improved to 83.2%. ",37494834
+Hospital Anxiety And Depression Scale (Hads),ASSESS,Trigeminal Neuralgia,"Depression score reduced from 12 to 4, anxiety score reduced from 14 to 6 indicating significant improvement in psychological status",37494834
+,,,,
+Vas Score,ASSESS,Chronic Alchoholism,Body pain (VAS) reduced from 6 to 0; headache (VAS) reduced from 3 to 0,38241882
+Mini-Mental State Examination (Mmse),ASSESS,Chronic Alchoholism,cognitive function (MMSE) improved from 18–23 (mild impairment) to 28 (normal),38241882
+Fever,ASSESS,Chronic Alchoholism,fever reduced from 100.5–102.2°F to absent,38241882
+Penn Alcohol Craving Scale (Pacs),ASSESS,Chronic Alchoholism,"alcohol craving (PACS) reduced from 15–20 to 1,",38241882
+Relief In The Signs And Symptoms,ASSESS,Chronic Alchoholism,"speech (aphasia) improved from impaired to normal, excessive thirst reduced from persistent to normal, cough reduced from frequent to absent, numbness reduced from occasional to absent",38241882
+Glasgow Coma Scale (Gcs) Score,ASSESS,Chronic Alchoholism,GCS score improved from 13 to 15.,38241882
+,,,,
+Ocular Surface Disease Index (Osdi),ASSESS,Meibomian Gland Dysfunction,OSDI score reduced from 65.85 to 4.16 indicating marked reduction in dry eye symptoms,41647025
+Tear Film Break-Up Time (Tbut),ASSESS,Meibomian Gland Dysfunction,TBUT improved from 2–3 seconds to 11–12 seconds in both eyes indicating improved tear film stability,41647025
+Schirmer's Test,ASSESS,Meibomian Gland Dysfunction,Schirmer’s test increased from 2–3 mm to 15 mm indicating improved tear secretion,41647025
+Fluorescein Staining,ASSESS,Meibomian Gland Dysfunction,fluorescein staining reduced from grade 2 to 0 indicating complete epithelial healing,41647025
+Meibomian Gland Expressibility,ASSESS,Meibomian Gland Dysfunction,meibomian gland expressibility improved from grade 2 to 3 indicating restored gland function and sustained ocular surface improvement,41647025
+,,,,
+Bath Ankylosing Spondylitis Functional Index (Basfi),ASSESS,Ankylosing Spondylitis,Functional ability (BASFI): 9.4 to 4.8,27297511
+Numerical Pain Rating (Npr) Scale,ASSESS,Ankylosing Spondylitis,"stiffness (NRS): 10 to 4, patient global assessment (NRS): 9 to 3, pain (NRS): 10 to 3",27297511
+Bath Ankylosing Spondylitis Functional Index (Basfi),ASSESS,Ankylosing Spondylitis,spinal mobility (BASMI): 8.7 to 5.4,27297511
+Peripheral Joint Count,ASSESS,Ankylosing Spondylitis,peripheral joint involvement: 14 to 0,27297511
+Maastricht Ankylosing Spondylitis Enthesis Score (Mases),ASSESS,Ankylosing Spondylitis,enthesitis (MASES): 9 to 3,27297511
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Ankylosing Spondylitis,ESR: 75 to 20 mm/h,27297511
+Bath Ankylosing Spondylitis Disease Activity Index (Basdai),ASSESS,Ankylosing Spondylitis,fatigue (BASDAI): 8.7 to 3.5,27297511
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Chronic Sinusitis,"Nasal discharge: 90% relief (P < 0.001), Sneezing: 82.35% relief (P < 0.05), Nasal obstruction: 88.23% relief (P < 0.001), Headache: 91.66% relief (P < 0.001), Voice change/hoarseness: 94.44% relief (P < 0.001), Loss of smell: 72.22% relief (P < 0.05), Postnasal drip: 85.71% relief (P < 0.001), Heaviness in head: 94.73% relief (P < 0.001), Fever: 100% relief (P < 0.05), Cough: 90% relief (P > 0.05), Loss of appetite: 100% relief (P < 0.01), Bad breath: 100% relief (P < 0.05)",22131734
+X-Ray Findings,ASSESS,Chronic Sinusitis,"Frontal sinus (Right): 50% to 100% relief, Frontal sinus (Left): 54.54% to 100% relief, Maxillary sinus (Right): 46.66% to 100% relief, Maxillary sinus (Left): 44.44% to 100% relief, Ethmoid sinus (Right): 75% to 100% relief, Ethmoid sinus (Left): 25% to 100% relief",22131734
+Hematological Parameters,ASSESS,Chronic Sinusitis,"TLC: decreased by 12.44% (P > 0.05), Absolute eosinophil count: decreased by 12.69% (P > 0.05), ESR: decreased by 35.02% (P > 0.05), CRP: decreased by 71.25% (P > 0.05), Lymphocytes: increased by 13.55% (P > 0.05), Neutrophils: decreased by 8.52% (P > 0.05), Hb: increased by 2.52% (P > 0.05)",22131734
+,,,,
+Pittsburgh Sleep Quality Index (Psqi),ASSESS,Primary Insomnia,"PSQI global score: 14.321 to 3.357 (77.64% relief, P<0.0001)",35370376
+Relief In The Signs And Symptoms,ASSESS,Primary Insomnia,"Subjective sleep quality: 2.143 to 0.2857 (86.66% relief, P<0.0001), Sleep latency: 2.679 to 1.071 (60.02% relief, P<0.0001), Sleep duration: 2.964 to 0.3214 (89.15% relief, P<0.0001), Habitual sleep efficiency: 2.536 to 0.2500 (90.14% relief, P<0.0001), Sleep disturbances: 1.964 to 1.071 (45.62% relief, P<0.0001), Use of sleeping medication: 0 to 0 (no change), Daytime dysfunction: 2.036 to 0.3571 (82.46% relief, P<0.0001)",35370376
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Cervical Spondylosis,"Pain: decreased significantly (mean decrease 3.5; P<0.001), Tenderness: decreased significantly (mean decrease 1.7; P<0.001), Vertigo: no improvement (no change), Radiation of pain: decreased significantly (mean decrease 0.9; P<0.001), Numbness: decreased (40% patients relieved; P<0.001)",23049188
+Cervical Movements,ASSESS,Cervical Spondylosis,"Extension: increased by 7.2 (P<0.001), Forward flexion: increased by 5.5 (significant), Right lateral flexion: increased by 6.9 (P<0.001), Left lateral flexion: increased by 5 (significant), Right rotation: increased by 6.2 (P<0.001), Left rotation: increased by 5 (P<0.01)",23049188
+,,,,
+Glasgow Coma Scale (Gcs) Score,ASSESS,Coma,"Total GGCS score: 3/15, 6/15, 11/15",27621522
+Relief In The Signs And Symptoms,ASSESS,Coma,"Eye opening: 1, 2, 4 (improved from no response to spontaneous opening), Verbal response: 1, 2, 3 (improved from no response to inappropriate words), Motor response: 1, 2, 4 (improved from no movement to withdrawal from pain)",27621522
+,,,,
+Visual Evoked Potential (Vep),ASSESS,Traumatic Optic Neuropathy,VEP showed improvement with delayed P100 latency in right eye,34844840
+Pupillary Reaction (Rapd),ASSESS,Traumatic Optic Neuropathy,No improvement in pupillary reaction (RAPD remained same),34844840
+Quality Of Life,ASSESS,Traumatic Optic Neuropathy,Overall quality of life improved,34844840
+Relief In The Signs And Symptoms,ASSESS,Traumatic Optic Neuropathy,Vision improved from no perception of light to light perception in right eye. Further improvement to perception of rays and object identification in bright light (right eye),34844840
+,,,,
+Visual Acuity,ASSESS,Myopia,Right Eye (RE): from 33.13 to 38.7; Left Eye (LE): from 36.93 to 42.0,22048542
+Clinical Refraction,ASSESS,Myopia,Improvement of 41.67 and 33.33% was observed for both the eyes in Group B,22048542
+Dioptric Power,ASSESS,Myopia,Right Eye (RE): from 02.48 to 1.88; Left Eye (LE): from 02.18 to 1.62,22048542
+Relief In The Signs And Symptoms,ASSESS,Myopia,Blurred distant vision: 45.45% relief; Distorted vision:  45.45% relief; Headache: 47.83% relief; Lacrimation (Tearing): 55.56% relief; Burning sensation in eyes: 66.67% relief; Eye strain: 62.5% relief,22048542
+,,,,
+Migraine Disability Assessment Test (Midas),ASSESS,Migraine,MIDAS score decreased from 19 to 14,39454285
+Numerical Pain Rating (Npr) Scale,ASSESS,Migraine,NPR scale decreased from 8 to 5,39454285
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Papilledema,"Vision improved, eye heaviness decreased, papilledema reduced and resolved, blood sugar normal, patient asymptomatic on follow-up",27011720
+,,,,
+Straight Leg Raise (Slr) Test,ASSESS,Sciatica,from 36.25° to 80° (80–90% improvement by day 15),28827952
+Relief In The Signs And Symptoms,ASSESS,Sciatica,"Pain: from 2.55, to 0.75; Pricking Sensation: from 2.35, to 0.35; Stiffness: from 2.35, to 0.75; Twitching: from 1.55, to 0.30",28827952
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Eczema,"Itching 100% relief, discharge 100% relief, hyperpigmentation 95.2% relief, skin thickening 95.2% relief, burning sensation 100% relief, irritation 100% relief, sleep disturbance 100% relief, dry skin 100% relief, anorexia 100% relief, eruption 97.9% relief, bleeding 94.6% relief, constipation 93.6% relief, general debility 88.7% relief, cracking 88.0% relief, giddiness 88.0% relief, indigestion 84.9% relief, blackouts 78.6% relief",23723667
+,,,,
+Anthropometric Measurements,ASSESS,Obesity,"Weight decreased more in Basti group (3.867) compared to Nasya group (0.800), chest circumference decreased more in Basti group (3.200) than Nasya group (0.703), mid-arm circumference decreased in both groups (Basti 1.867, Nasya 1.600),mid-thigh circumference decreased more in Basti group (3.133) than Nasya group (0.800), waist-hip ratio decreased in both groups (Basti 0.040, Nasya 0.012)",32278669
+Lipid Profile,ASSESS,Obesity,"HDL showed slight decrease in both groups, LDL decreased in both groups (Basti 9.467, Nasya 6.680), VLDL decreased more in Nasya group (4.600) than Basti group (1.049), serum cholesterol decreased more in Basti group, serum triglycerides decreased in both groups with slightly higher reduction in Nasya group",32278669
+Skinfold Thickness Parameters,ASSESS,Obesity,"triceps skinfold thickness decreased in both groups (Basti 0.473, Nasya 0.580), subscapular skinfold thickness decreased more in Basti group (0.753) than Nasya group (0.213), abdominal skinfold thickness decreased more in Basti group (1.027) than Nasya group (0.373)",32278669
+,,,,
+Fasting Blood Sugar (Fbs) Level,ASSESS,Diabetes Mellitus,42.3% relief (after Vamana); 51.5% relief (after Virechana),24501520
+Postprandial Blood Sugar (Ppbs) Level,ASSESS,Diabetes Mellitus,"44.1% (after Vamana), 81.6% (after Virechana)",24501520
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Bronchial Asthma,"There was significant improvement in breathlessness (79.98%). Symptoms such as cough showed improvement (79.98%), expectoration reduced (57.7%), and wheezing decreased (85.04%). Additionally, there was considerable relief in throat irritation (83.32%), rhonchi (75.84%), and crepitations (83.98%).",29861586
+Biochemical Parameters,ASSESS,Bronchial Asthma,Hb slightly increased (insignificant); ESR and AEC decreased (insignificant); PEFR increased by 26.33% (highly significant); FEV1 increased by 6.35% (significant),29861586
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"Joint pain relieved by 77.927%, joint stiffness relieved by 66.67%, joint swelling relieved by 73.11%, restriction of movement relieved by 81.80%, joint tenderness relieved by 76.92%, body ache relieved by 81.80%, loss of appetite relieved by 80%, excessive thirst relieved by 57.88%, fatigue relieved by 79.96%, heaviness of body relieved by 74.06%, fever relieved by 78.57%, indigestion relieved by 81.50%, excessive urination relieved by 80%",29200748
+Biochemical Parameters,ASSESS,Rheumatoid Arthritis,Hb%: Increased by 3.49% (non-significant); TLC: Reduced by 13.41% (significant); ESR: Reduced by 43.21% (highly significant),29200748
+,,,,
+Language And Performance,ASSESS,Cerebral Palsy,"Language and performance skills showed improvement in understanding (13.43%), speech (10%), and overall performance skills (11.11%).",26664239
+Fine Motor Functions,ASSESS,Cerebral Palsy,"Fine motor functions improved with better ability to put small objects in a container (14.3%), throw a ball in different directions (21.8%), use thumb and index finger (10.93%), retain objects in hand (19.04%), and fold paper and insert it into an envelope (10.30%).",26664239
+Gross Motor Functions,ASSESS,Cerebral Palsy,"Gross motor functions also showed marked improvement, including crawling (26.7%), sitting (31.7%), standing (13.75%), walking (9.5%), and clapping hands (13.9%).",26664239
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Sciatica,"Pain relieved by 62.20%, pricking pain relieved by 63%, stiffness relieved by 71%",22048539
+Straight Leg Raise (Slr) Test,ASSESS,Sciatica,SLR test improved by 56%,22048539
+,,,,
+Post Voidal Residual Urine (Pvru) Volume,ASSESS,Benign Prostatic Hyperplasia,Highly significant reduction in PVRU: 90% (P < 0.001),30783359
+Average Urine Flow Rate (Aufr),ASSESS,Benign Prostatic Hyperplasia,Highly significant improvement in urine flow rate: 74.07% (P < 0.001),30783359
+Ultrasonography (Usg),ASSESS,Benign Prostatic Hyperplasia,Significant reduction in prostate size: 16.67% (P < 0.05),30783359
+International Prostate Symptom Score (Ipss),ASSESS,Benign Prostatic Hyperplasia,"There was significant improvement in subjective symptoms, with relief observed in incomplete emptying (71.74%), increased frequency of micturition (75%), intermittency (79.17%), urgency (80.65%), weak urinary stream (82.86%), straining (85%), nocturia (79.63%), and quality of life (54.10%).",30783359
+,,,,
+Ultrasonography (Usg),ASSESS,Endometrial Calcification,USG pelvis revealed a reduction in endometrial calcifications.,38070240
+Relief In The Signs And Symptoms,ASSESS,Endometrial Calcification,the patient showed significant improvement with regular menstrual cycles lasting 3–4 days and adequate flow (1–2 fully soaked pads).,38070240
+,,,,
+Follicular Growth,ASSESS,Female Infertility,"Before treatment, 60% of patients had follicles of 0–12 mm, 33.33% had 12–19 mm, and 6.66% had 19–23 mm. After treatment, no patients remained in the 0–12 mm category, while 6.66% each had 12–19 mm and 19–23 mm follicles, and ovulation was achieved in 86.66% of patients.",33935438
+Ovulation,ASSESS,Female Infertility,"Ovulation: before treatment (0%), after treatment 86.66%",33935438
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Hypertension,"Palpitation showed 68.41% relief, giddiness 60.68%, fatigue 50.01%, headache 65.01%, insomnia 72.73%, and excessive sweating 68.40%. All these changes were statistically highly significant (P < 0.001).",31367149
+Blood Pressure,ASSESS,Hypertension,Systolic blood pressure: 154 mmHg reduced to 132.14 mmHg; Diastolic blood pressure: 102 mmHg to 85.33 mmHg,31367149
+,,,,
+Ctg Findings,ASSESS,Non-Progess Of Labor,"CTG showed normal pattern with baseline FHR 110–150 bpm, normal variability (5–25 bpm), presence of accelerations, and absence of decelerations.",37651756
+Fetal Heart Rate (Fhr),ASSESS,Non-Progess Of Labor,FHR remained within normal limits (124–136 bpm) throughout labor.,37651756
+Blood Pressure,ASSESS,Non-Progess Of Labor,Blood pressure remained stable within normal range (110/80 to 130/90 mmHg) throughout labor.,37651756
+Pulse Rate,ASSESS,Non-Progess Of Labor,"Pulse rate remained stable between 72–80/min, indicating no maternal distress.",37651756
+Cervical Dilatation,ASSESS,Non-Progess Of Labor,Cervical dilatation progressed from 2.5–3 cm (40–50% effaced) at 8 am to full dilatation (9.5–10 cm),37651756
+Fetal Parameters,ASSESS,Non-Progess Of Labor,"All findings within normal limits (immediate cry, APGAR 8 & 9, birth weight 2.9 kg, HR 138 bpm, RR 60/min, normal cord anatomy, normal cord blood investigations).",37651756
+,,,,
+International Prostate Symptom Score (Ipss),ASSESS,Benign Prostatic Hyperplasia,"Maximum relief was observed in urgency (95.45%) and incomplete emptying (93.33%), followed by straining (86.66%), intermittency (81.81%), quality of life (80.85%), nocturia (75.75%), weak stream (69.04%), and frequency (60.71%).",27011713
+Prostate Size,ASSESS,Benign Prostatic Hyperplasia,Mean Score BT: 34.55 to AT: 31.22 with 9.63% relief,27011713
+Post Voidal Residual Urine (Pvru) Volume,ASSESS,Benign Prostatic Hyperplasia,Mean Score BT: 49.89 to AT: 13.89 with 72.16% relief,27011713
+Average Urine Flow Rate (Aufr),ASSESS,Benign Prostatic Hyperplasia,Mean Score BT: 1.75 to AT: 3.65 with 50.81% relief,27011713
+,,,,
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Rheumatoid Arthritis,Mean Score BT: 61.28 to AT: 44.86; 28.42% relief,23049184
+Rheumatoid Arthritis Factor (Ra Factor),ASSESS,Rheumatoid Arthritis,Mean Score BT: 268.71 to AT: 209.51; 21.46% relief,23049184
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"Among general symptoms, maximum relief was observed in fever (100%), followed by nausea (96.15%), indigestion (96.34%), loss of appetite (92.22%), body ache (88.88%), heaviness in body (82.95%), and excessive thirst (81.08%).",23049184
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"Joint pain (42.08%), Swelling (73.3%), Stiffness (70.09%), Warmth (95%), Tenderness (100%), Heaviness (75%), Body ache (70%), Indigestion (66.5%), Numbness of body (66.5%), Fatigue/Lethargy (41.5%), Excess thirst (70%), Loss of appetite (25%), Fever (100%)",22131764
+,,,,
+Anthropometric Measurements,ASSESS,Obesity,Weight: 83.50kg reduced to 80.50; BMI: 34.40 reduced to 33.22; upper arm circumference: 34 cm to 32.75 cm; Abdominal circumference: 109.12 cm reduced to 102.51,26261167
+Pro-Inflammatory Cytokines,ASSESS,Obesity,IFN-γ: 3.771  to 1.54 pg/ml; IL-6: 111.2 to 52.85  pg/ml,26261167
+Immunoglobulins,ASSESS,Obesity,IgM: 1.06 to 1.67 mg/ml; IgG: significant decrease at S3,26261167
+Biochemical Parameters,ASSESS,Obesity,"Serum insulin: 119.80 to 109.38 pmol/l, Serum calcium: 2.17 to 2.22 mmol/l, Serum ferritin: 80.89 to 67.41 pmol/l, Serum cortisol: 389.02 to 293.28 nmol/l",26261167
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Hyperlipidemia,"Flabbiness of abdomen (25%), Lethargy/lack of enthusiasm (92.31%), Dyspnea on exertion (80.36%), Weakness (57.14%), Excess sleep (74.07%), Excess sweating (52.94%), Body odor (57.14%), Excess thirst (100%), Excess hunger (50%), Heaviness in body (75%), Joint pain (59.09%), Fatigue (66.18%)",24696569
+Biochemical Parameters,ASSESS,Hyperlipidemia,"Serum cholesterol (4.99%), Serum LDL (9.13%), Apolipoprotein B (0.36%), Serum triglycerides (15.48% increase), Serum VLDL (17.16% increase), Serum HDL (4.15% decrease)",24696569
+Body Parameters,ASSESS,Hyperlipidemia,"Weight (3.34%), BMI (3.36%), Body fat % (2.80%)",24696569
+Body Circumferences,ASSESS,Hyperlipidemia,"Abdominal girth (1.54%), Chest (0.93%), Hip (1.28%), Mid-thigh (2.35%), Pelvis girth (0.92%), Leg circumference (0.52%)",24696569
+Skinfold Thickness Parameters,ASSESS,Hyperlipidemia,"Abdominal (3.80%), Right triceps (2.66%), Left triceps (2.69%), Right biceps (4.65%), Left biceps (4.67%), Right mid-arm (1.6%), Left mid-arm (1.64%)",24696569
+,,,,
+Oswestry Disability Index (Odi) Scale,ASSESS,Lumbar Spondylosis,"Overall ODI score reduction (>20 points in many patients, P < 0.001)",24049403
+Kellegren Lawrance Scale (Kl Scale),ASSESS,Lumbar Spondylosis,Disc improvement observed in few patients (no significant statistical change),24049403
+Vas Score,ASSESS,Lumbar Spondylosis,"Pain score reduction (>5 points in many patients, P < 0.001)",24049403
+Relief In The Signs And Symptoms,ASSESS,Lumbar Spondylosis,"Back stiffness (P < 0.001), Low back pain (P < 0.001), Tenderness (P < 0.001), Sciatic pain (P < 0.001), Straight leg raise test (P < 0.001), Tingling in feet (P < 0.001), Heaviness in feet (P < 0.001), Reduced muscle strength (P < 0.001), Difficulty in walking (P < 0.001), Numbness in feet (P > 0.05), Burning sensation in feet (P > 0.05), Muscle wasting (P > 0.05), Painkiller use (significantly reduced, P < 0.05)",24049403
+,,,,
+Urine Microalbumin Level,ASSESS,Diabetes Mellitus,"Urine microalbumin (61.50%, P < 0.001)",23723672
+Creatinine Level,ASSESS,Diabetes Mellitus,Urine creatinine (insignificant decrease),23723672
+Blood Pressure,ASSESS,Diabetes Mellitus,"Systolic BP (15.04%, P < 0.001), Diastolic BP (15.49%, P < 0.001)",23723672
+Relief In The Signs And Symptoms,ASSESS,Diabetes Mellitus,"Frequency of urination (P < 0.001), Turbidity of urine (P < 0.001), Weakness (P < 0.001), Excess thirst (P < 0.01), Burning sensation in palms and soles (P < 0.01), Excess sweating (P < 0.01)",23723672
+Blood Sugar Level,ASSESS,Diabetes Mellitus,"Fasting blood sugar (13.50%, P < 0.01), Post-prandial blood sugar (15.21%, P < 0.001)",23723672
+,,,,
+Hematological Parameters,ASSESS,Urethral Stricture,Total leukocyte count: 5600/cu mm reduced to 5300/cu mm AT Haemoglobin: 10.5 gm% reduced to 10.5 gm% AT,22557426
+Biochemical Parameters,ASSESS,Urethral Stricture,Blood urea: unaltered (27 mg/dl); Serum creatinine: unaltered (0.8 mg/dl),22557426
+Urine Examination,ASSESS,Urethral Stricture,"Urine sugar: unaltered (Nil), Pus cells: 6–10/hpf reduced to Nil AT.",22557426
+Urethrogram,ASSESS,Urethral Stricture,BT: Stricture at prostatic urethra (narrowed lumen) AT: Lumen increased,22557426
+Ultrasonography (Usg),ASSESS,Urethral Stricture,"BT: Irregular bladder wall with cystitis, AT: Normal bladder wall with no cystitis",22557426
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Sclerosis,"Skin hardenin: Severe to Decreased in upper arm/thigh/face/flank, Depigmentation: Severe to Moderate to severe, Dryness of skin: Severe to Moderate, Hair growth: Less/none to New hair growth, Ulcers on joints: Moderate to Mild, Itching: Moderate to absent, Anorexia: Moderate to Absent, Constipation: Once in 1–2 days to 1–2 times/day, Burning in chest/sour belching: Present in evening to Absent",39303382
+Hematological Parameters,ASSESS,Sclerosis,"Hemoglobin: 11.5g/dl to 11.6 g/dL, RBC count: 4.06 to 4.18 million/cumm, Platelet count: 375000 to 438000 /cumm",39303382
+Thyroid Profile,ASSESS,Sclerosis,"TSH: 7.744 to 3.51 μIU/ml, T3: 95.81 to 136 ng/dL, T4: 9.01 to 11.08 μg/dL",39303382
+Inflammatory Markers,ASSESS,Sclerosis,"CRP: 14.9 to nil, ESR: 42 to 26 mm/hr",39303382
+Autoimmune Markers,ASSESS,Sclerosis,"RA factor: nil after treatment, ANA profile: +2 mildly positive to nil after treatment",39303382
+,,,,
+Gross Motor Functions,ASSESS,Cerebral Palsy,"Improvement in Sitting: 30.85%, Crawling: 28.00%, Clapping hands: 15.46%, Standing: 15.00%, Walking: 09.52%",24872933
+Activities Of Daily Living,ASSESS,Cerebral Palsy,"Improvement in Eating: 10.76%, Drinking: 10.60%, Brushing: 9.15%, Bathing: 7.23%, Toileting: 6.25%",24872933
+Fine Motor Functions,ASSESS,Cerebral Palsy,"Improvement in Throwing ball in all directions: 21.05%, Retaining two 1-inch cubes in one hand: 17.78%, Putting small objects in a container: 14.60%, Using thumb and index finger: 11.36%, Folding paper and inserting into envelope: 10.48%",24872933
+Cognitive & Behavioral Parameters,ASSESS,Cerebral Palsy,"Improvement in Happiness: 21.05%, Understanding verbal commands/intellect: 13.27%, Performance: 11.11%, Speech: 10.43%, Memory: 8.74%",24872933
+,,,,
+Physical Functioning,ASSESS,Spondyloepiphyseal Dysplasia Tarda,Physical Functioning improved from 5.55 to 77.77 after treatment.,27890699
+Pain,ASSESS,Spondyloepiphyseal Dysplasia Tarda,Pain scores improved from 20 to 87.5 after treatment,27890699
+Emotional Wellbeing,ASSESS,Spondyloepiphyseal Dysplasia Tarda,Emotional Wellbeing improved from 16 to 72 after treatment.,27890699
+Social Functioning,ASSESS,Spondyloepiphyseal Dysplasia Tarda,Social Functioning improved from 12.5 to 75 after treatment,27890699
+Energy Level,ASSESS,Spondyloepiphyseal Dysplasia Tarda,Energy levels increased from 5 to 65 after treatment.,27890699
+General Health,ASSESS,Spondyloepiphyseal Dysplasia Tarda,General Health improved from 5 to 60 after treatment.,27890699
+,,,,
+Cyst Size,ASSESS,Endometrioma,Cyst Size reduced from 5.5 × 3.9 cm to 4.7 cm after delivery,36604296
+,,,,
+Physical Functioning,ASSESS,Hirschsprung'S Disease,Score improved from 5.55 to 100,29853328
+Pain,ASSESS,Hirschsprung'S Disease,Pain Score improved from 20 to 100,29853328
+Emotional Wellbeing,ASSESS,Hirschsprung'S Disease,Emotional well-being improved from 22 to 100,29853328
+Social Functioning,ASSESS,Hirschsprung'S Disease,Social Functioning improved from 12.5 to 100,29853328
+Energy Level,ASSESS,Hirschsprung'S Disease,Energy Level improved from 7 to 100,29853328
+General Health,ASSESS,Hirschsprung'S Disease,General Health improved from 10 to 100,29853328
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Osteoporosis,"Pain: 76.19%, Tenderness: 75%, General debility: 72.72%, ",23049194
+Bone Mineral Density (Bmd),ASSESS,Osteoporosis,"BMD (T-score): 30.98%, P < 0.001",23049194
+,,,,
+Muscle Power Grading,ASSESS,Guillain-Barre Syndrome,Right upper limb improved from 0/5 to 5/5; Left upper limb improved from 0/5 to 5/5; Right lower limb improved from 0/5 to 5/5; Left lower limb improved from 0/5 to 5/5,26600668
+Functional Ability,ASSESS,Guillain-Barre Syndrome,Initially patient unable to walk sit or stand; Then able to sit with full support; Then able to sit with minimal support; Then able to walk with support and walker; Finally able to walk independently without support,26600668
+Reflexes,ASSESS,Guillain-Barre Syndrome,Before treatment all reflexes were absent after treatment deep tendon reflexes became present and plantar reflex became flexor,26600668
+Nerve Conduction Velocity (Ncv),ASSESS,Guillain-Barre Syndrome,"Peroneal nerve improved in both limbs; Posterior tibial nerve, right side, slight improvement, left side not recordable; Median nerve improved in both limbs; Ulnar nerve improved in both limbs",26600668
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Cervical Spondylotic Myelopathy,Pain completely subsided; No giddiness present; Neck stiffness significantly reduced; Neck movements became normal; Muscle power improved to 5 by 5 in both upper and lower limbs; Reflexes improved to normal grade 2 plus,28285113
+Modified Japanese Orthopaedic Association (Mjoa) Score,ASSESS,Cervical Spondylotic Myelopathy,mJOA score improved from 8 to 14,28285113
+Magnetic Resonance Imaging (Mri),ASSESS,Cervical Spondylotic Myelopathy,MRI showed improvement with no evidence of compressive myelopathy,28285113
+Hoffman Babinski And Lhermitte Sign,ASSESS,Cervical Spondylotic Myelopathy,Hoffman Babinski and Lhermitte sign became negative,28285113
+Straight Leg Raise (Slr) Test,ASSESS,Cervical Spondylotic Myelopathy,Straight leg raising test improved to 90 degree bilaterally,28285113
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Urinary Incontinence,Diaper use: reduced from 5 per day to no use after 80 Days; incontinence and dribbling: completely stopped; Sleep: Improved,39332103
+,,,,
+Anthropometric Measurements,ASSESS,Cerebral Palsy,"Length: 1.50, Weight: 1.12, Chest Circumference (CC): 1.33, Head Circumference (HC): 0.66, Mid-arm Circumference (MAC): 0.50",26195914
+Developmental Milestone,ASSESS,Cerebral Palsy,"Head holding: 0.83, Sitting: 0.66, Personal and social: 0.67, Standing: 0.50, Fine motor: 0.33, Language: 0.33",26195914
+Modified Ashworth Scale (Mas),ASSESS,Cerebral Palsy,"MAS-Left upper: 0.66, MAS-Left lower: 0.50, MAS-Right lower: 0.50, MAS-Right upper: 0.33",26195914
+Spasm Scale,ASSESS,Cerebral Palsy,"All Limbs (Upper & Lower, Left & Right): 1.00 reduction",26195914
+Muscle Power Grading,ASSESS,Cerebral Palsy,"Left upper: 0.33, Right upper: 0.16, Left lower: 0.16, Right lower: 0.00 (No change)",26195914
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Progressive Supranuclear Palsy,"Eye movements improved, episodes of involuntary laughing reduced, difficulty in swallowing improved, speech difficulty improved, sleep improved, double vision reduced, neck rigidity reduced, tendency to fall backwards reduced, facial relaxation improved",23929996
+Progressive Supranuclear Palsy Rating Scale (Psprs),ASSESS,Progressive Supranuclear Palsy,"Daily activity score improved from 12 to 9, mentation score improved from 6 to 3, bulbar score improved from 4 to 2, ocular motor score improved from 9 to 4, gait score improved from 16 to 12, limb motor score showed no improvement",23929996
+Postural And Balance Assessment,ASSESS,Progressive Supranuclear Palsy,"Postural sway reduced significantly, Weight distribution improved, Fall risk reduced considerably",23929996
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Avascular Necrosis,"No pain during rest and walking, Tenderness absent after treatment, Able to walk without pain.",37741160
+Weight,ASSESS,Avascular Necrosis,Weight reduced from 90 kg to 86 kg.,37741160
+Radiological Findings,ASSESS,Avascular Necrosis,"Left hip improved from grade 3B to grade 2, Right hip improved from grade 4A to grade 3",37741160
+Magnetic Resonance Imaging (Mri),ASSESS,Avascular Necrosis,MRI showed improvement in AVN grade,37741160
+Range Of Motion,ASSESS,Avascular Necrosis,"Left Hip Joint: Flexion improved from 100 to 120, Extension improved from 20 to 30, Adduction improved from 20 to 30 and maintained, Abduction improved from 30 to 40, Internal rotation no change remained 40, External rotation improved from 30 to 40. Right Hip Joint: Flexion improved from 90 to 110, Extension improved from 20 to 25 and maintained, Adduction improved from 20 to 25 and maintained, Abduction improved from 20 to 40, Internal rotation improved from 30 to 35 and maintained, External rotation improved from 5 to 35.",37741160
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Poly Cystic Ovarian Disease,"Follicular size and ovulation: 100.0%, Pain during menses: 62.50%, Interval of menses: 32.43%, Obesity (weight loss): 4.31%, Obesity (BMI): 10.00%",23559797
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Dysmenorrhea,"Oligomenorrhea: 37.14%, Hypomenorrhea: 22.85%, Fatigue: 74.28%, Constipation: 54.28%, Loss of appetite: 54.28%, Headache: 45.71%",22131731
+,,,,
+Prostate Size,ASSESS,Benign Prostatic Hyperplasia,Prostate size reduced by 24.89%,23723674
+Post Voidal Residual Urine (Pvru) Volume,ASSESS,Benign Prostatic Hyperplasia,PRUV reduced by 25.17%,23723674
+Average Urine Flow Rate (Aufr),ASSESS,Benign Prostatic Hyperplasia,AUFR improved by 55.68%,23723674
+Relief In The Signs And Symptoms,ASSESS,Benign Prostatic Hyperplasia,Subjective improvement: 56.33%,23723674
+,,,,
+Follicular Size,ASSESS,Female Infertility,Mean follicular score improved from 0-12 mm to 19-23 mm.,24049410
+Ovulation,ASSESS,Female Infertility,Ovulation in 63.64% patients.,24049410
+Conception,ASSESS,Female Infertility,Conception achieved in 9.09% patients.,24049410
+,,,,
+Radiological Findings,ASSESS,Fracture,"Initial non union of fracture, Post treatment progressive callus formation, Final X ray showed complete union",40412271
+Fracture Healing,ASSESS,Fracture,Complete healing with full recovery after plate removal.,40412271
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"Joint Pain: Severe to Absent, Morning stiffness: 90 minutes to Absent, Anorexia: Present to Absent, Bodyache: Present to Absent",28302414
+Rheumatoid Arthritis Factor (Ra Factor),ASSESS,Rheumatoid Arthritis,Reduced from 160 IU/ml to 6.1 IU/ml,28302414
+,,,,
+Spinal Cord Independence Measure (Scim) Iii,ASSESS,Spinal Cord Injury,SCIM III score improved from 10 to 88,26283809
+Neurological Finding,ASSESS,Spinal Cord Injury,"Regained the ability to walk up to 500m and more than 30 minutes, turn in bed, sit or stand, and muscle coordination.",26283809
+,,,,
+Bath Ankylosing Spondylitis Disease Activity Index (Basdai),ASSESS,Juvenile Spondyloarthritis,Ability to perform daily activities: improved from 8.1 to 1.2,32768345
+Numerical Pain Rating (Npr) Scale,ASSESS,Juvenile Spondyloarthritis,"Joint Pain improved from 9 to 0, Joint Swelling improved from 10 to 1, Joint redness improved from 5 to 0, Joint temperature improved from 9 to 0, tenderness improved from 9 to 0",32768345
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Juvenile Spondyloarthritis,ESR improved from 128 mm/hr to 42 mm/hr,32768345
+C-Reactive Protein (Crp) Levels,ASSESS,Juvenile Spondyloarthritis,positive to negative after treatment,32768345
+,,,,
+Straight Leg Raise (Slr) Test,ASSESS,Lumbar Disc Herniation,Straight leg raising improved from 60 degree to more than 90 degree without pain,38006747
+Schober's Test,ASSESS,Lumbar Disc Herniation,Schober test improved from less than 2 cm to 6 cm and became normal,38006747
+Oswestry Disability Index (Odi) Scale,ASSESS,Lumbar Disc Herniation,ODI improved from 90 percent to 6 percent,38006747
+Magnetic Resonance Imaging (Mri),ASSESS,Lumbar Disc Herniation,MRI showed complete resolution of disc herniation and no nerve compression,38006747
+Relief In The Signs And Symptoms,ASSESS,Lumbar Disc Herniation,"Low back pain and radiculopathy gradually reduced and completely resolved, Numbness and tingling completely disappeared, Walking improved from unable to walk to normal walking without difficulty",38006747
+,,,,
+6 Min Walk Test (6Mwt),ASSESS,Limb-Girdle Muscular Dystrophy,Walking distance improved from 10 meter to 800 meter,34961685
+Vas Score,ASSESS,Limb-Girdle Muscular Dystrophy,Pain reduced from grade 5 to 0,34961685
+Medical Research Council (Mrc) Scale,ASSESS,Limb-Girdle Muscular Dystrophy,Muscle power improved from grade 4 to grade 5,34961685
+Serum Cpk,ASSESS,Limb-Girdle Muscular Dystrophy,Serum CPK reduced from 1450 to 909 IU per liter,34961685
+Relief In The Signs And Symptoms,ASSESS,Limb-Girdle Muscular Dystrophy,"Reflexes improved to normal 2 plus, Gait showed mild improvement, Patient able to perform daily activities easily with only mild difficulty in heavy work",34961685
+,,,,
+Straight Leg Raise (Slr) Test,ASSESS,Acute Prolapsed Inter-Vertebral Disc,Straight leg raising improved from 70 degree to 90 degree bilaterally,35661935
+Oswestry Disability Index (Odi) Scale,ASSESS,Acute Prolapsed Inter-Vertebral Disc,ODI improved from 94 percent to 9 percent,35661935
+Magnetic Resonance Imaging (Mri),ASSESS,Acute Prolapsed Inter-Vertebral Disc,MRI showed reduction in disc extrusion size from 8 into 5 mm to 4 into 3 mm and no significant nerve compression,35661935
+Relief In The Signs And Symptoms,ASSESS,Acute Prolapsed Inter-Vertebral Disc,"Low back pain and stiffness completely reduced, Walking ability improved from unable to walk to normal daily activities, Paraesthesia reduced and became absent",35661935
+,,,,
+Vas Score,ASSESS,Chronic Low Back Pain,VAS reduced from 5.89 to 4.17 with significant improvement,39182253
+Oswestry Disability Index (Odi) Scale,ASSESS,Chronic Low Back Pain,ODI reduced from 35.33 to 24.78 with significant improvement,39182253
+Physical Health,ASSESS,Chronic Low Back Pain,Physical domain improved from 57.39 to 64.44 with significant improvement,39182253
+Psychological Health,ASSESS,Chronic Low Back Pain,Psychological domain improved from 63.67 to 68.50 but not statistically significant,39182253
+Social Health,ASSESS,Chronic Low Back Pain,Social domain improved from 66.06 to 71.56 with significant improvement,39182253
+Beck Depression Inventory (Bdi),ASSESS,Chronic Low Back Pain,BDI reduced from 9.00 to 6.61 with significant improvement,39182253
+Whoqol-Bref,ASSESS,Chronic Low Back Pain,Environmental domain improved from 70.56 to 74.00 with significant improvement,39182253
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Tubal Blockage,"Oligomenorrhea: 82%, Hypomenorrhea: 78%, Dysmenorrhea: 80%, Vaginal Bleeding: 80%, Abdominal Pain: 73.33%, Tubal Block Removal: 80%",22048533
+Conception,ASSESS,Tubal Blockage,Conception Rate: 40%,22048533
+,,,,
+Peak Expiratory Flow Rate (Pefr),ASSESS,Bronchial Asthma,PEFR improved from 60 to 90 L per minute,38262328
+Sustained Minimal Inspiration (Smi) Test,ASSESS,Bronchial Asthma,SMI showed overall improvement during treatment,38262328
+Spo2,ASSESS,Bronchial Asthma,SpO2 improved from 90 percent to 99 percent,38262328
+Pulse Rate,ASSESS,Bronchial Asthma,Pulse rate stabilized from 92 to around 70 per minute,38262328
+Mmrc Dyspnea Scale,ASSESS,Bronchial Asthma,mMRC dyspnea scale improved from grade 4 to grade 2,38262328
+Relief In The Signs And Symptoms,ASSESS,Bronchial Asthma,"Breath holding time improved from 1 second to 12 seconds, Inspiration time showed slight improvement, Expiration time showed mild improvement, Respiratory rate reduced from 34 to 18 per minute",38262328
+,,,,
+Vas Score,ASSESS,Osteoarthritis,Pain reduced from 1.20 to 0.52 and further to 0.32.,25558159
+Radiological Findings,ASSESS,Osteoarthritis,Radiological findings showed minimal improvement from 2.93 to 2.83 and 2.80.,25558159
+Relief In The Signs And Symptoms,ASSESS,Osteoarthritis,"Swelling reduced from 1.18 to 0.66 and further to 0.34, Tenderness reduced from 1.06 to 0.54 and further to 0.42, Crepitus reduced from 1.28 to 1.04 and slightly to 1.00, Walking velocity improved from 0.08 to 1.44 with slight decline at follow up 1.18.",25558159
+,,,,
+Hemoglobin Level,ASSESS,Bleeding Piles,Hemoglobin improved from 11.7 g % to 12.7 g %,22408301
+Relief In The Signs And Symptoms,ASSESS,Bleeding Piles,"Complete relief: 25 patients, Marked relief: 55 patients, Moderate relief: 28 patients, Mild relief:  20 patients, No relief: none",22408301
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Lumbar Myelomeningocele,"Bladder control improved, sensation of bladder fullness regained, urge to void urine restored, urinary incontinence reduced, frequency of voiding decreased, degree of wetness reduced, constipation improved, ankle range of motion increased, and overall functional improvement observed.",25737612
+,,,,
+Kellegren Lawrance Scale (Kl Scale),ASSESS,Ulcerative Colitis,"RBC in Stool: 93.02% reduction, Pus Cells in Stool: 80.76% reduction, ESR (Inflammation): 44.16% reduction, Hemoglobin: 16.76% increase",22048543
+Relief In The Signs And Symptoms,ASSESS,Ulcerative Colitis,"Bleeding in Stool: 91.58% reduction, Abdominal Pain: 86.76% reduction, Bowel Frequency: 81.81% reduction, Weakness: 65.97% reduction, Body Weight: 2.31% increase",22048543
+,,,,
+Manual Ability Classification System (Macs),ASSESS,Cerebral Palsy,Manual Ability Classification System (MACS): 20% Improvement,26120232
+Range Of Motion,ASSESS,Cerebral Palsy,"Height/Growth: Improved, Elbow Flexion: 10° Improvement, Knee Flexion: 10° Improvement, Ankle Plantar Flexion: 10° Decrease",26120232
+Ashworth Scale,ASSESS,Cerebral Palsy,Spasticity: 20% Improvement.,26120232
+Spasm Scale,ASSESS,Cerebral Palsy,Spasm Intensity: 25% Improvement,26120232
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Dysuria,"The child was able to stand with support and grasp objects. By one month, appetite and bowel habits improved.",41637849
+Muscle Power Grading,ASSESS,Dysuria,Muscle power in upper limbs increased from 3/5 to 4/5.,41637849
+Creatine Phosphokinase,ASSESS,Dysuria,"Creatine phosphokinase level reduced from 23,706 U/L to 1018.19 U/L.",41637849
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Urethral Stricture,"Incomplete emptying improved by 71.87%, while frequency improved by 70.37%. Weak stream showed 69.23% improvement, and 71.11% of patients reported absence of dribbling after treatment. Similarly, straining was absent in 73.17% of patients following treatment.",24250127
+,,,,
+Semen Analysis,ASSESS,Oligozoospermia,"Sperm count increased by 70.75%, while motility increased by 18.14% and rapid linear progressive (RLP) sperm increased by 12.82%. Conversely, slow linear progressive (SLP) sperm decreased by 7.14%, non-progressive (NP) sperm decreased by 5.16%, and immotile (IMM) sperm decreased by 15.99%. Semen viscosity showed a marked decrease of 71.42%. Semen volume decreased by 1.06%, while liquefaction time decreased by 18.5%.",22408309
+Sexual Parameters,ASSESS,Oligozoospermia,"Sexual desire improved by 73.33%, followed by erection (75.00%), ejaculation (72.20%), duration (35.00%), and frequency (60.00%).",22408309

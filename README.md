@@ -2,13 +2,22 @@
 
 ## Overview
 
-ShodhanaKG stores the curated knowledge in an ArcadeDB graph and exposes it through a web portal and a graph-grounded chatbot. The graph has 2,532 nodes and 10,123 relationships, extracted from 410 articles from PubMed and the AYUSH Research Portal, with 17 vertex types and 21 edge types. Browse it at [https://webs.iiitd.edu.in/raghava/shodhanakg/](https://webs.iiitd.edu.in/raghava/shodhanakg/).
+ShodhanaKG stores the curated knowledge in an ArcadeDB graph and exposes it through a web portal and a graph-grounded chatbot. The graph has 2,532 total nodes, 10,123 total relationships, 17 vertex types, 21 edge types, extracted from 410 articles from PubMed and the AYUSH Research Portal. Browse it at [https://webs.iiitd.edu.in/raghava/shodhanakg/](https://webs.iiitd.edu.in/raghava/shodhanakg/).
 
 ## Pipeline
 
-The end-to-end data processing and application pipeline consists of the following stages:
+```mermaid
+flowchart LR
+    A["CSV Files<br/>Nodes + Relations Files"]
+    B["Neo4j<br/>Schema + Load CSVs"]
+    C["JSON Export"]
+    D["ArcadeDB<br/>Import + Sanity Check"]
+    E["PHP REST API"]
+    F["React Frontend"]
+    G["User"]
 
-CSVs (2 node files, 17 relation files) -> Neo4j (Cypher schema and load) -> JSON export -> ArcadeDB (create database, import JSON, sanity check, config) -> PHP API -> React frontend.
+    A --> B --> C --> D --> E --> F --> G
+```
 
 ## Features
 
@@ -24,59 +33,94 @@ CSVs (2 node files, 17 relation files) -> Neo4j (Cypher schema and load) -> JSON
 ## Technology
 
 ### Frontend
-- Framework: React 18 (`react` ^18.3.1, `react-dom` ^18.3.1) with Vite 7 (`vite` ^7.3.7)
-- Language: TypeScript (`typescript` ^5.8.3)
-- Styling: Tailwind CSS 4 (`tailwindcss` ^4.3.3) and Radix UI primitives (`@radix-ui/*`)
-- Graph Visualization: Cytoscape.js (`cytoscape` ^3.33.2)
-- State and Data Fetching: TanStack React Query (`@tanstack/react-query` ^5.83.0)
-- Routing: React Router (`react-router-dom` ^7.18.4)
-- Charts: Recharts (`recharts` ^2.15.4)
-- Icons: Lucide React (`lucide-react` ^0.462.0)
-- Forms and Validation: React Hook Form (`react-hook-form` ^7.61.1) and Zod (`zod` ^3.25.76)
-- Unit Testing: Vitest (`vitest` ^5.0.3)
-- Browser Testing: Playwright (`@playwright/test` ^1.60.0)
-- Node.js Engine Requirement: ^22.12.0 || ^24.0.0 || >=26.0.0
+- Framework: React 18 (`react` `^18.3.1`, `react-dom` `^18.3.1`) with Vite 7 (`vite` `^7.3.7`)
+- Language: TypeScript (`typescript` `^5.8.3`)
+- Styling: Tailwind CSS 4 (`tailwindcss` `^4.3.3`) and Radix UI primitives (`@radix-ui/*`)
+- Graph Visualization: Cytoscape.js (`cytoscape` `^3.33.2`)
+- State and Data Fetching: TanStack React Query (`@tanstack/react-query` `^5.83.0`)
+- Routing: React Router (`react-router-dom` `^7.18.4`)
+- Charts: Recharts (`recharts` `^2.15.4`)
+- Icons: Lucide React (`lucide-react` `^0.462.0`)
+- Forms and Validation: React Hook Form (`react-hook-form` `^7.61.1`) and Zod (`zod` `^3.25.76`)
+- Unit Testing: Vitest (`vitest` `^5.0.3`)
+- Browser Testing: Playwright (`@playwright/test` `^1.60.0`)
+- Node.js Engine Requirement: `^22.12.0` || `^24.0.0` || `>=26.0.0`
 
 ### Backend
-- Language: PHP (production compatibility target PHP 5.6.40+; testing and evaluation runtime PHP 8.1+ / PHP 8.2+)
-- Database: ArcadeDB 26.4.2 (multi-model graph database)
-- Optional LLM: Llama 3.2 3B (default model `llama3.2` via Ollama)
-- Testing and Evaluation: Python 3.8+ (standard library with optional `pandas>=2.0.0`)
+- Language: PHP 5.6.40+
+- Database: ArcadeDB (multi-model graph database)
+- LLM: Llama 3.2 3B (default model `llama3.2` via Ollama)
+- Testing and Evaluation: Python 3.8+ (standard library with `pandas>=2.0.0`)
 
 ## Chatbot
 
-The chatbot uses a deterministic graph-retrieval pipeline across 53 allowlisted ArcadeDB traversal endpoints to retrieve factual subgraphs and correlate citations (PubMed ID, DOI, AYUSH ID) across edges without cross-join hallucinations. Answers are constructed deterministically directly from retrieved graph facts. An optional local Ollama instance running Llama 3.2 (3B parameter model, default tag `llama3.2`) can be enabled for conversational phrasing and language assistance without generating ungrounded facts.
+The chatbot uses a deterministic graph-retrieval pipeline across 53 allowlisted ArcadeDB traversal endpoints to retrieve factual subgraphs and correlate citations (PubMed ID, DOI, AYUSH ID) across edges without cross-join hallucinations. Answers are constructed deterministically directly from retrieved graph facts. A local Ollama instance running Llama 3.2 (3B parameter model, default tag `llama3.2`) can be enabled for conversational phrasing and language assistance without generating ungrounded facts.
 
 ## Setup
 
 ### Prerequisites
 
-- Node.js (version 22+ recommended; package.json requires ^22.12.0 || ^24.0.0 || >=26.0.0)
-- PHP (PHP 5.6.40+ or PHP 8.x)
-- ArcadeDB server (v26.4.2) running locally or accessible via network
-- Optional: Ollama with Llama 3.2 3B (for conversational chatbot assistance)
+- Node.js (version 22+ recommended; package.json requires `^22.12.0` || `^24.0.0` || `>=26.0.0`)
+- PHP 5.6.40+
+- ArcadeDB running locally or accessible via network
+- Neo4j latest (Desktop or Server)
+- Ollama with Llama 3.2 3B (for conversational chatbot assistance)
 
 ### 1. Database Setup
 
-Start the ArcadeDB server. Default connection settings can be configured in webservice/api/config.php or via environment variables:
+Populate and verify the knowledge graph in Neo4j latest (Desktop or Server) and ArcadeDB:
 
-- ARCADE_URL: http://localhost:2480
-- ARCADE_DB: IntegratedKG
-- ARCADE_USER: username
-- ARCADE_PASS: password
+1. **Load CSVs into Neo4j**: The source CSV files are provided in `data/csv/nodes/` and `data/csv/relations/`. Copy node CSV files and relationship CSV files into the Neo4j latest (Desktop or Server) `import` directory, then execute [`Create_graph.Cypher`](arcadedb/Create_graph.Cypher) to create constraints, 17 vertex types, and 21 edge types:
+   ```bash
+   cat arcadedb/Create_graph.Cypher | cypher-shell -u username -p password -d neo4j
+   ```
+2. **Export Graph to JSON**: Ensure `apoc.export.file.enabled=true` in Neo4j's `conf/apoc.conf` and execute [`Export.Cypher`](arcadedb/Export.Cypher):
+   ```cypher
+   CALL apoc.export.json.all("neo4j-export.json", {});
+   ```
+3. **Start ArcadeDB Server**:
+   ```bash
+   bin/server.sh
+   ```
+4. **Import JSON into ArcadeDB & Run Sanity Checks**:
+   Execute [`Migrate_to_ArcadeDB.sql`](arcadedb/Migrate_to_ArcadeDB.sql) via the ArcadeDB console:
+   ```bash
+   bin/console.sh arcadedb/Migrate_to_ArcadeDB.sql
+   ```
+   Or run the commands interactively:
+   ```sql
+   CONNECT remote:localhost username password;
+   CREATE DATABASE shodhana;
+   DISCONNECT;
+   CONNECT remote:localhost/shodhana username password;
+   IMPORT DATABASE file:///data/graph_export/neo4j-export.json;
+   ```
+   The ArcadeDB server reads this path. Adjust it if the repository is at a different location on the server.
 
-Verify database connectivity:
+   Run sanity checks to verify 2,532 total nodes, 10,123 total relationships, 17 vertex types, 21 edge types, 0 edges missing `ref`, and 0 vertices missing `name`.
+5. **Verify Database Connectivity**:
+   Configure database connection variables in `webservice/api/config.php` or `.env`:
+   - ARCADE_URL: `http://localhost:2480`
+   - ARCADE_DB: `shodhana`
+   - ARCADE_USER: `username`
+   - ARCADE_PASS: `password`
 
-```bash
-php webservice/api/test_db.php
-```
+   Verify that ArcadeDB is listening:
+   ```bash
+   curl http://localhost:2480/api/v1/ready
+   ```
 
 ### 2. Backend Setup
 
-Start the built-in PHP server pointing to the webservice directory so /api/ endpoints resolve:
+Start the built-in PHP server pointing to the webservice directory so `/api/` endpoints resolve:
 
 ```bash
 php -S 127.0.0.1:8081 -t webservice
+```
+
+Verify backend connectivity:
+```bash
+curl http://localhost:8081/api/health.php
 ```
 
 ### 3. Frontend Setup
@@ -89,9 +133,9 @@ npm install
 npm run dev
 ```
 
-The application will be available at http://localhost:8080.
+The application will be available at `http://localhost:8080`.
 
-### 4. Optional Chatbot Setup
+### 4. Chatbot Setup
 
 If using conversational narrative mode via Ollama:
 
@@ -144,7 +188,7 @@ Run backend Python unit tests:
 python -m unittest discover -s webservice/api/tests -p "test_*.py"
 ```
 
-Run backend evaluation cases:
+Run backend evaluation cases (covering all 53 allowlisted endpoints):
 
 ```bash
 php webservice/api/tests/run_evaluation_cases.php
@@ -156,41 +200,19 @@ Run complete release verification suite:
 python -B webservice/api/tests/run_release_checks.py
 ```
 
-## Reproducibility
-
-### Reproduction Steps
-
-1. Load CSVs in `data/csv/` (`data/csv/nodes/` and `data/csv/relations/`) into Neo4j using the loading scripts in `neo4j/`.
-2. Export JSON from Neo4j to `data/graph_export/`.
-3. Create the ArcadeDB database and import the JSON from `data/graph_export/`.
-4. Run sanity checks to verify graph schema, vertex counts, and edge integrity in ArcadeDB.
-5. Set database and server configuration in `webservice/api/config.php` or environment variables (`ARCADE_URL`, `ARCADE_DB`, `ARCADE_USER`, `ARCADE_PASS`).
-6. Start the backend PHP API (`php -S 127.0.0.1:8081 -t webservice`).
-7. Start the frontend application (`cd webservice/frontend && npm install && npm run dev`).
-
-### Facts Confirmed in Code
-
-The following facts are confirmed in repository code, tests, and frozen fixtures:
-
-- The graph database contains 2,532 nodes across 17 vertex types and 10,123 relationships across 21 edge types, verified in webservice/api/tests/fixtures/system_consistency_baseline_v1/snapshot.json.
-- The reference catalog (webservice/api/core/reference_catalog_v1.json) indexes 410 distinct curated literature publications across PubMed, DOI, and AYUSH Research Portal identifiers.
-- Benchmark ground truth fixtures (factual_evaluation_cases_v2.json, legacy_factual_evaluation_cases_v2.json, expanded_factual_cases_v4.json) record exact SHA-256 hashes of database snapshots (factual_graph_snapshot.json).
-- Traversal query coverage asserts 53 allowlisted ArcadeDB traversal endpoints (52 evaluated in chatbot_evaluation_cases.json).
-- The frontend test suite contains 35 test files and 119 unit and component tests passing under Vitest.
-- The backend test suite contains 84 unit tests passing under Python unittest.
-- Production API code maintains backwards runtime compatibility with PHP 5.6.40+ syntax via webservice/api/core/PhpCompatibility.php and a bundled mbstring polyfill.
-
 ## Project Structure
 
 ```text
 ShodhanaKG/
 ├── data/                 Raw datasets and graph exports
-│   ├── csv/              Curated CSV tables
-│   │   ├── nodes/        Node CSV files (2 node files)
-│   │   └── relations/    Relationship CSV files (17 relation files)
+│   ├── csv/              Curated CSV files
+│   │   ├── nodes/        Node CSV files
+│   │   └── relations/    Relationship CSV files
 │   └── graph_export/     JSON graph exports for database import
-├── neo4j/                Neo4j Cypher schema definitions and load scripts
-├── arcadedb/             ArcadeDB schema, database creation, and import scripts
+├── arcadedb/             Database schema, import, and migration scripts
+│   ├── Create_graph.Cypher
+│   ├── Export.Cypher
+│   └── Migrate_to_ArcadeDB.sql
 ├── webservice/           Application source code
 │   ├── frontend/         React single-page application (Vite, TypeScript, Tailwind)
 │   │   ├── src/          Application UI components, pages, hooks, and lib
@@ -203,47 +225,53 @@ ShodhanaKG/
 │       │   └── fixtures/  Frozen ground truth datasets and snapshots
 │       └── storage/      Runtime cache and logs
 ├── docs/                 Documentation and technical reports
-│   ├── webservice/       Frontend, backend API, chatbot, and deployment guides
-│   ├── arcadedb/         ArcadeDB schema, query, and data documentation
-│   ├── evaluation/       Benchmark and test evaluation reports
-│   └── general/          Project structure specification and changelog
-├── results/              Benchmark latency raw data
+│   ├── webservice/       Frontend, backend API, and deployment guides
+│   ├── chatbot/          Chatbot architecture and usage guides
+│   │   └── dev_docs/     Chatbot developer documentation
+│   ├── evaluation/       Evaluation guide and test suites
+│   ├── arcadedb/         ArcadeDB migration and Neo4j schema guides
+│   └── general/          Project changelog
 ├── scripts/              Packaging and release utilities
 ├── LICENSE               MIT License
+├── QUICK_START.md        Quick start and local setup guide
 └── README.md             Project overview and setup guide
 ```
 
-## Documentation
+## Detailed Documentation
 
-### Web Service Guides
+- [Quick Start Guide](QUICK_START.md)
+
+### Web Service Guides (`docs/webservice/`)
 - [Frontend Documentation](docs/webservice/FRONTEND_DOCUMENTATION.md)
 - [Backend Documentation](docs/webservice/BACKEND_DOCUMENTATION.md)
-- [API Endpoints Reference Specification](docs/webservice/api_endpoints_table.md)
-- [Chatbot Documentation](docs/webservice/CHATBOT.md)
 - [Deployment Guide](docs/webservice/DEPLOYMENT.md)
-- [Quick Start Guide](docs/webservice/QUICK_START.md)
-- [PHP 5.6 Compatibility](docs/webservice/PHP56_COMPATIBILITY.md)
 - [Release Package](docs/webservice/RELEASE_PACKAGE.md)
 
-### Evaluation & Audit Reports
+### Chatbot Documentation (`docs/chatbot/`)
+- [Chatbot Documentation](docs/chatbot/CHATBOT.md)
+- [Chatbot Usage Guide](docs/chatbot/chatbot_usage_guide.md)
+
+#### Developer Documentation (`docs/chatbot/dev_docs/`)
+- [Answer Construction](docs/chatbot/dev_docs/ANSWER_CONSTRUCTION.md)
+- [Conversational Answers](docs/chatbot/dev_docs/CONVERSATIONAL_ANSWERS.md)
+- [System Status](docs/chatbot/dev_docs/CURRENT_SYSTEM_STATUS.md)
+- [Orchestration Layer](docs/chatbot/dev_docs/ORCHESTRATION_LAYER.md)
+- [Retrieval Core](docs/chatbot/dev_docs/RETRIEVAL_CORE.md)
+
+### Database Documentation (`docs/arcadedb/`)
+- [ArcadeDB Migration & Sanity Checks Guide](docs/arcadedb/README_ArcadeDB.md)
+- [Neo4j Schema & Loading Guide](docs/arcadedb/README_Neo4j.md)
+
+### Evaluation Documentation (`docs/evaluation/`)
 - [Evaluation Guide](docs/evaluation/EVALUATION_GUIDE.md)
-- [Chatbot Query Coverage Report](docs/evaluation/CHATBOT_QUERY_COVERAGE_REPORT.md)
-- [Chatbot Validation Report](docs/evaluation/CHATBOT_VALIDATION_REPORT.md)
 
-### General Documentation
-- [Project Structure](docs/general/PROJECT_STRUCTURE.md)
+### General Documentation (`docs/general/`)
 - [Changelog](docs/general/CHANGELOG.md)
-
-### Database Documentation
-- [ArcadeDB Documentation Directory](docs/arcadedb/)
 
 ## Citation
 
-Citation details will be added with the forthcoming manuscript.
-
-## Team
-
-[Raghava Lab](http://webs.iiitd.edu.in/raghava/), Department of Computational Biology, Indraprastha Institute of Information Technology (IIIT-Delhi), New Delhi, India.
+Nagarkoti S, Sood R, Gahlot PS, Raghava GPS.
+ShodhanaKG: An Ayurvedic Knowledge Graph for Disease and Compound Shodhana.
 
 ## License
 

@@ -10,8 +10,7 @@ class ConversationEvaluationTests(unittest.TestCase):
         cls.refs = {c['id']: c for c in json.loads((FIXTURES / 'expanded_factual_cases_v4.json').read_text(encoding='utf-8'))}
         tables = json.loads((FIXTURES / 'factual_graph_snapshot_expanded.json').read_text(encoding='utf-8'))['tables']
         cls.records = {r['@rid']: r for rows in tables.values() for r in rows}
-        report = json.loads((FIXTURES / 'fragment_graph_2026_09_26_v1/benchmark/conversation.json').read_text(encoding='utf-8'))
-        cls.sample = next(r for r in report['runs'] if r['scenario'] == 'symptom_wording_1' and r['transport'] == 'json')
+        cls.sample = json.loads((FIXTURES / 'conversation_sample.json').read_text(encoding='utf-8'))
 
     def evaluate(self, response):
         return score(self.sample['expectation'], response, self.refs, self.records)

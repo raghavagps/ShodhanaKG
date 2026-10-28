@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-09-23T13:03:55+00:00",
-    "public_endpoints": 52,
+    "generated_at": "2026-10-27T14:51:14+00:00",
+    "public_endpoints": 53,
     "new_endpoints": 12,
     "aliases": 0,
     "shared_traversal_pairs": {
@@ -11,92 +11,50 @@
     },
     "coverage_missing": [],
     "schema_failures": [],
-    "schema_snapshot": {
-        "USES_FORMULATION": [
-            {
-                "sourceType": "Therapy",
-                "targetType": "Formulation",
-                "total": 1898
-            }
-        ],
-        "USES_MEDIA": [
-            {
-                "sourceType": "Shodhana_Method",
-                "targetType": "Media",
-                "total": 519
-            },
-            {
-                "sourceType": "Process",
-                "targetType": "Media",
-                "total": 269
-            }
-        ],
-        "FOLLOWED_BY": [
-            {
-                "sourceType": "Shodhana_Method",
-                "targetType": "Process",
-                "total": 98
-            },
-            {
-                "sourceType": "Process",
-                "targetType": "Process",
-                "total": 58
-            }
-        ],
-        "PRODUCES": [
-            {
-                "sourceType": "Shodhana_Method",
-                "targetType": "Purified_Compound",
-                "total": 212
-            },
-            {
-                "sourceType": "Process",
-                "targetType": "Purified_Compound",
-                "total": 111
-            }
-        ],
-        "DETOXIFIES": [
-            {
-                "sourceType": "Shodhana_Method",
-                "targetType": "Toxic_Substance",
-                "total": 123
-            }
-        ],
-        "UNDERGOES": [
-            {
-                "sourceType": "Compound",
-                "targetType": "Shodhana_Method",
-                "total": 239
-            }
-        ],
-        "TREATED_BY": [
-            {
-                "sourceType": "Disease",
-                "targetType": "Therapy",
-                "total": 852
-            }
-        ],
-        "PRE_TREATED_BY": [
-            {
-                "sourceType": "Disease",
-                "targetType": "Therapy",
-                "total": 144
-            }
-        ],
-        "POST_TREATED_BY": [
-            {
-                "sourceType": "Disease",
-                "targetType": "Therapy",
-                "total": 159
-            }
-        ]
-    },
+    "schema_snapshot": [],
     "entries": [
+        {
+            "endpoint": "compound_methods",
+            "function": "execute_compound_methods",
+            "callable": true,
+            "implementation": "webservice/api/compound_methods.php",
+            "alias_of": null,
+            "routing_cases": [
+                "eval_coverage_compound_methods"
+            ],
+            "contract": {
+                "patterns": [
+                    {
+                        "input": [
+                            "Compound"
+                        ],
+                        "steps": [
+                            {
+                                "edges": [
+                                    "UNDERGOES"
+                                ],
+                                "direction": "out",
+                                "types": [
+                                    "Shodhana_Method"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "canonical_implementation": "api/compound_methods.php",
+                "evidence_correlation": false,
+                "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
+            },
+            "input_types_from_source": [],
+            "declared_paths_from_source": [],
+            "retrieval_tests": [],
+            "schema_verification": "Existing contract; source extraction is not independent schema verification"
+        },
         {
             "endpoint": "compound_shodhana_process",
             "function": "execute_compound_shodhana_process",
             "callable": true,
-            "implementation": "api/compound_shodhana_process.php",
+            "implementation": "webservice/api/compound_shodhana_process.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_035"
@@ -128,14 +86,14 @@
             },
             "evidence_correlation": true,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "compound_media",
             "function": "execute_compound_media",
             "callable": true,
-            "implementation": "api/compound_media.php",
+            "implementation": "webservice/api/compound_media.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_001",
@@ -181,7 +139,7 @@
                 "['Compound', 'UNDERGOES', 'Shodhana_Method', 'USES_MEDIA', 'Media']"
             ],
             "retrieval_tests": [
-                "api/tests/test_compound_media.php"
+                "webservice/api/tests/test_compound_media.php"
             ],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -189,7 +147,7 @@
             "endpoint": "compound_validation",
             "function": "execute_compound_validation",
             "callable": true,
-            "implementation": "api/compound_validation.php",
+            "implementation": "webservice/api/compound_validation.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_024"
@@ -282,7 +240,7 @@
             ],
             "declared_paths_from_source": [],
             "retrieval_tests": [
-                "api/tests/test_compound_validation.php"
+                "webservice/api/tests/test_compound_validation.php"
             ],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -290,7 +248,7 @@
             "endpoint": "compound_toxicity",
             "function": "execute_compound_toxicity",
             "callable": true,
-            "implementation": "api/compound_toxicity.php",
+            "implementation": "webservice/api/compound_toxicity.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_002",
@@ -326,7 +284,7 @@
                 "['Compound', 'CONTAINS', 'Toxic_Substance']"
             ],
             "retrieval_tests": [
-                "api/tests/test_compound_toxicity.php"
+                "webservice/api/tests/test_compound_toxicity.php"
             ],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -334,7 +292,7 @@
             "endpoint": "compound_detoxification",
             "function": "execute_compound_detoxification",
             "callable": true,
-            "implementation": "api/compound_detoxification.php",
+            "implementation": "webservice/api/compound_detoxification.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_010",
@@ -379,7 +337,7 @@
                 "['Compound', 'UNDERGOES', 'Shodhana_Method', 'DETOXIFIES', 'Toxic_Substance']"
             ],
             "retrieval_tests": [
-                "api/tests/test_compound_detoxification.php"
+                "webservice/api/tests/test_compound_detoxification.php"
             ],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -387,7 +345,7 @@
             "endpoint": "compound_purification",
             "function": "execute_compound_purification",
             "callable": true,
-            "implementation": "api/compound_purification.php",
+            "implementation": "webservice/api/compound_purification.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_007",
@@ -432,7 +390,7 @@
                 "['Compound', 'UNDERGOES', 'Shodhana_Method', 'PRODUCES', 'Purified_Compound']"
             ],
             "retrieval_tests": [
-                "api/tests/test_compound_purification.php"
+                "webservice/api/tests/test_compound_purification.php"
             ],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -440,7 +398,7 @@
             "endpoint": "compound_therapeutic_use",
             "function": "execute_compound_therapeutic_use",
             "callable": true,
-            "implementation": "api/compound_therapeutic_use.php",
+            "implementation": "webservice/api/compound_therapeutic_use.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_027"
@@ -493,7 +451,7 @@
                 "['Compound', 'UNDERGOES', 'Shodhana_Method', 'PRODUCES', 'Purified_Compound', 'TREATS', 'Indication']"
             ],
             "retrieval_tests": [
-                "api/tests/test_compound_therapeutic_use.php"
+                "webservice/api/tests/test_compound_therapeutic_use.php"
             ],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -501,7 +459,7 @@
             "endpoint": "disease_symptoms",
             "function": "execute_disease_symptoms",
             "callable": true,
-            "implementation": "api/disease_symptoms.php",
+            "implementation": "webservice/api/disease_symptoms.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_003",
@@ -539,7 +497,7 @@
                 "['Disease', 'HAS_SYMPTOM', 'Symptom']"
             ],
             "retrieval_tests": [
-                "api/tests/test_disease_symptoms.php"
+                "webservice/api/tests/test_disease_symptoms.php"
             ],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -547,7 +505,7 @@
             "endpoint": "disease_therapy",
             "function": "execute_disease_therapy",
             "callable": true,
-            "implementation": "api/disease_therapy.php",
+            "implementation": "webservice/api/disease_therapy.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_028"
@@ -584,7 +542,7 @@
                 "['Disease', '[PRE/POST]_TREATED_BY', 'Therapy']"
             ],
             "retrieval_tests": [
-                "api/tests/test_disease_therapy.php"
+                "webservice/api/tests/test_disease_therapy.php"
             ],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -592,7 +550,7 @@
             "endpoint": "disease_formulation",
             "function": "execute_disease_formulation",
             "callable": true,
-            "implementation": "api/disease_formulation.php",
+            "implementation": "webservice/api/disease_formulation.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_013",
@@ -627,14 +585,14 @@
             },
             "evidence_correlation": true,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "integrated_compound_disease",
             "function": "execute_integrated_compound_disease",
             "callable": true,
-            "implementation": "api/integrated_compound_disease.php",
+            "implementation": "webservice/api/integrated_compound_disease.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_029"
@@ -680,14 +638,10 @@
                 "evidence_correlation": true,
                 "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
             },
-            "input_types_from_source": [
-                "Compound"
-            ],
-            "declared_paths_from_source": [
-                "['Compound', 'UNDERGOES', 'Shodhana_Method', 'PRODUCES', 'Purified_Compound', 'USED_FOR_TREATMENT', 'Disease']"
-            ],
+            "input_types_from_source": [],
+            "declared_paths_from_source": [],
             "retrieval_tests": [
-                "api/tests/test_integrated_compound_disease.php"
+                "webservice/api/tests/test_integrated_compound_disease.php"
             ],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -695,7 +649,7 @@
             "endpoint": "process_media",
             "function": "execute_process_media",
             "callable": true,
-            "implementation": "api/process_media.php",
+            "implementation": "webservice/api/process_media.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_021"
@@ -736,7 +690,7 @@
             "endpoint": "shodhana_method_validation",
             "function": "execute_shodhana_method_validation",
             "callable": true,
-            "implementation": "api/shodhana_method_validation.php",
+            "implementation": "webservice/api/shodhana_method_validation.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_shodhana_method_validation"
@@ -798,7 +752,7 @@
             "endpoint": "indication_compound",
             "function": "execute_indication_compound",
             "callable": true,
-            "implementation": "api/indication_compound.php",
+            "implementation": "webservice/api/indication_compound.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_030"
@@ -857,7 +811,7 @@
             "endpoint": "toxic_substance_compound",
             "function": "execute_toxic_substance_compound",
             "callable": true,
-            "implementation": "api/toxic_substance_compound.php",
+            "implementation": "webservice/api/toxic_substance_compound.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_toxic_substance_compound"
@@ -898,7 +852,7 @@
             "endpoint": "process_purified_compound",
             "function": "execute_process_purified_compound",
             "callable": true,
-            "implementation": "api/process_purified_compound.php",
+            "implementation": "webservice/api/process_purified_compound.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_process_purified_compound"
@@ -939,7 +893,7 @@
             "endpoint": "confirmation_study_method",
             "function": "execute_confirmation_study_method",
             "callable": true,
-            "implementation": "api/confirmation_study_method.php",
+            "implementation": "webservice/api/confirmation_study_method.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_confirmation_study_method"
@@ -981,7 +935,7 @@
             "endpoint": "confirmation_study_purified_compound",
             "function": "execute_confirmation_study_purified_compound",
             "callable": true,
-            "implementation": "api/confirmation_study_purified_compound.php",
+            "implementation": "webservice/api/confirmation_study_purified_compound.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_confirmation_study_purified_compound"
@@ -1022,7 +976,7 @@
             "endpoint": "compound_purified_forms",
             "function": "execute_compound_purified_forms",
             "callable": true,
-            "implementation": "api/compound_purified_forms.php",
+            "implementation": "webservice/api/compound_purified_forms.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_compound_purified_forms"
@@ -1063,7 +1017,7 @@
             "endpoint": "formulation_compound",
             "function": "execute_formulation_compound",
             "callable": true,
-            "implementation": "api/formulation_compound.php",
+            "implementation": "webservice/api/formulation_compound.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_formulation_compound"
@@ -1106,7 +1060,7 @@
             "endpoint": "ayurvedic_diagnosis_disease",
             "function": "execute_ayurvedic_diagnosis_disease",
             "callable": true,
-            "implementation": "api/ayurvedic_diagnosis_disease.php",
+            "implementation": "webservice/api/ayurvedic_diagnosis_disease.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_ayurvedic_diagnosis_disease"
@@ -1147,7 +1101,7 @@
             "endpoint": "formulation_therapy",
             "function": "execute_formulation_therapy",
             "callable": true,
-            "implementation": "api/formulation_therapy.php",
+            "implementation": "webservice/api/formulation_therapy.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_formulation_therapy"
@@ -1179,7 +1133,7 @@
                 "Formulation"
             ],
             "declared_paths_from_source": [
-                "['Formulation', 'USES_FORMULATION', 'Therapy']"
+                "['Formulation', '<- USES_FORMULATION', 'Therapy']"
             ],
             "retrieval_tests": [],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
@@ -1188,7 +1142,7 @@
             "endpoint": "assessment_disease",
             "function": "execute_assessment_disease",
             "callable": true,
-            "implementation": "api/assessment_disease.php",
+            "implementation": "webservice/api/assessment_disease.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_assessment_disease"
@@ -1229,7 +1183,7 @@
             "endpoint": "toxic_substance_method",
             "function": "execute_toxic_substance_method",
             "callable": true,
-            "implementation": "api/toxic_substance_method.php",
+            "implementation": "webservice/api/toxic_substance_method.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_toxic_substance_method"
@@ -1261,7 +1215,7 @@
                 "Toxic_Substance"
             ],
             "declared_paths_from_source": [
-                "['Toxic_Substance', 'DETOXIFIES', 'Shodhana_Method']"
+                "['Toxic_Substance', '<- DETOXIFIES', 'Shodhana_Method']"
             ],
             "retrieval_tests": [],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
@@ -1270,7 +1224,7 @@
             "endpoint": "process_classification",
             "function": "execute_process_classification",
             "callable": true,
-            "implementation": "api/process_classification.php",
+            "implementation": "webservice/api/process_classification.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_process_classification"
@@ -1311,7 +1265,7 @@
             "endpoint": "classification_process",
             "function": "execute_classification_process",
             "callable": true,
-            "implementation": "api/classification_process.php",
+            "implementation": "webservice/api/classification_process.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_classification_process"
@@ -1352,7 +1306,7 @@
             "endpoint": "purified_compound_disease",
             "function": "execute_purified_compound_disease",
             "callable": true,
-            "implementation": "api/purified_compound_disease.php",
+            "implementation": "webservice/api/purified_compound_disease.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_009",
@@ -1410,7 +1364,7 @@
             "endpoint": "purified_compound_formulation",
             "function": "execute_purified_compound_formulation",
             "callable": true,
-            "implementation": "api/purified_compound_formulation.php",
+            "implementation": "webservice/api/purified_compound_formulation.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_022"
@@ -1452,7 +1406,7 @@
             "endpoint": "purified_compound_source",
             "function": "execute_purified_compound_source",
             "callable": true,
-            "implementation": "api/purified_compound_source.php",
+            "implementation": "webservice/api/purified_compound_source.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_023"
@@ -1502,7 +1456,7 @@
             "endpoint": "purified_compound_validation",
             "function": "execute_purified_compound_validation",
             "callable": true,
-            "implementation": "api/purified_compound_validation.php",
+            "implementation": "webservice/api/purified_compound_validation.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_coverage_purified_compound_validation"
@@ -1543,7 +1497,7 @@
             "endpoint": "integrated_disease_compound",
             "function": "execute_integrated_disease_compound",
             "callable": true,
-            "implementation": "api/integrated_disease_compound.php",
+            "implementation": "webservice/api/integrated_disease_compound.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_018"
@@ -1590,12 +1544,8 @@
                 "evidence_correlation": true,
                 "verification": "Source-reviewed contract; not a claim that all legacy branches have live records"
             },
-            "input_types_from_source": [
-                "Disease"
-            ],
-            "declared_paths_from_source": [
-                "['Disease', '<- USED_FOR_TREATMENT/TREATS', 'Purified_Compound', '<- PRODUCES', 'Shodhana_Method', '<- UNDERGOES', 'Compound']"
-            ],
+            "input_types_from_source": [],
+            "declared_paths_from_source": [],
             "retrieval_tests": [],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -1603,7 +1553,7 @@
             "endpoint": "disease_dosha",
             "function": "execute_disease_dosha",
             "callable": true,
-            "implementation": "api/disease_dosha.php",
+            "implementation": "webservice/api/disease_dosha.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_015"
@@ -1644,7 +1594,7 @@
             "endpoint": "disease_diagnosis",
             "function": "execute_disease_diagnosis",
             "callable": true,
-            "implementation": "api/disease_diagnosis.php",
+            "implementation": "webservice/api/disease_diagnosis.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_016"
@@ -1685,7 +1635,7 @@
             "endpoint": "disease_assessment",
             "function": "execute_disease_assessment",
             "callable": true,
-            "implementation": "api/disease_assessment.php",
+            "implementation": "webservice/api/disease_assessment.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_017"
@@ -1726,7 +1676,7 @@
             "endpoint": "symptoms_disease",
             "function": "execute_symptoms_disease",
             "callable": true,
-            "implementation": "api/symptoms_disease.php",
+            "implementation": "webservice/api/symptoms_disease.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_019"
@@ -1767,7 +1717,7 @@
             "endpoint": "therapy_disease",
             "function": "execute_therapy_disease",
             "callable": true,
-            "implementation": "api/therapy_disease.php",
+            "implementation": "webservice/api/therapy_disease.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_004"
@@ -1804,7 +1754,7 @@
                 "['Therapy', '<- TREATED_BY', 'Disease']"
             ],
             "retrieval_tests": [
-                "api/tests/test_therapy_disease.php"
+                "webservice/api/tests/test_therapy_disease.php"
             ],
             "schema_verification": "Existing contract; source extraction is not independent schema verification"
         },
@@ -1812,7 +1762,7 @@
             "endpoint": "formulation_disease",
             "function": "execute_formulation_disease",
             "callable": true,
-            "implementation": "api/formulation_disease.php",
+            "implementation": "webservice/api/formulation_disease.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_005"
@@ -1846,14 +1796,14 @@
             },
             "evidence_correlation": true,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "dosha_disease",
             "function": "execute_dosha_disease",
             "callable": true,
-            "implementation": "api/dosha_disease.php",
+            "implementation": "webservice/api/dosha_disease.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_020"
@@ -1894,7 +1844,7 @@
             "endpoint": "process_compound",
             "function": "execute_process_compound",
             "callable": true,
-            "implementation": "api/process_compound.php",
+            "implementation": "webservice/api/process_compound.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_008"
@@ -1935,7 +1885,7 @@
             "endpoint": "media_compound",
             "function": "execute_media_compound",
             "callable": true,
-            "implementation": "api/media_compound.php",
+            "implementation": "webservice/api/media_compound.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_006",
@@ -1968,14 +1918,14 @@
             },
             "evidence_correlation": true,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "therapy_formulation",
             "function": "execute_therapy_formulation",
             "callable": true,
-            "implementation": "api/therapy_formulation.php",
+            "implementation": "webservice/api/therapy_formulation.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_therapy_formulation"
@@ -1998,14 +1948,14 @@
             },
             "evidence_correlation": false,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "media_process",
             "function": "execute_media_process",
             "callable": true,
-            "implementation": "api/media_process.php",
+            "implementation": "webservice/api/media_process.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_media_process"
@@ -2029,14 +1979,14 @@
             },
             "evidence_correlation": false,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "shodhana_method_process",
             "function": "execute_shodhana_method_process",
             "callable": true,
-            "implementation": "api/shodhana_method_process.php",
+            "implementation": "webservice/api/shodhana_method_process.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_shodhana_method_process"
@@ -2059,14 +2009,14 @@
             },
             "evidence_correlation": false,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "process_shodhana_method",
             "function": "execute_process_shodhana_method",
             "callable": true,
-            "implementation": "api/process_shodhana_method.php",
+            "implementation": "webservice/api/process_shodhana_method.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_process_shodhana_method"
@@ -2089,14 +2039,14 @@
             },
             "evidence_correlation": false,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "purified_compound_process",
             "function": "execute_purified_compound_process",
             "callable": true,
-            "implementation": "api/purified_compound_process.php",
+            "implementation": "webservice/api/purified_compound_process.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_purified_compound_process"
@@ -2120,14 +2070,14 @@
             },
             "evidence_correlation": false,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "method_toxic_substance",
             "function": "execute_method_toxic_substance",
             "callable": true,
-            "implementation": "api/method_toxic_substance.php",
+            "implementation": "webservice/api/method_toxic_substance.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_method_toxic_substance"
@@ -2150,14 +2100,14 @@
             },
             "evidence_correlation": false,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "process_next_process",
             "function": "execute_process_next_process",
             "callable": true,
-            "implementation": "api/process_next_process.php",
+            "implementation": "webservice/api/process_next_process.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_process_next_process"
@@ -2180,14 +2130,14 @@
             },
             "evidence_correlation": false,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "next_process_process",
             "function": "execute_next_process_process",
             "callable": true,
-            "implementation": "api/next_process_process.php",
+            "implementation": "webservice/api/next_process_process.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_next_process_process"
@@ -2210,14 +2160,14 @@
             },
             "evidence_correlation": false,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ]
         },
         {
             "endpoint": "provenance_compound_method_media",
             "function": "execute_provenance_compound_method_media",
             "callable": true,
-            "implementation": "api/provenance_compound_method_media.php",
+            "implementation": "webservice/api/provenance_compound_method_media.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_provenance_compound_method_media"
@@ -2249,7 +2199,7 @@
             },
             "evidence_correlation": true,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ],
             "shares_traversal_with": "compound_shodhana_process"
         },
@@ -2257,7 +2207,7 @@
             "endpoint": "provenance_media_method_compound",
             "function": "execute_provenance_media_method_compound",
             "callable": true,
-            "implementation": "api/provenance_media_method_compound.php",
+            "implementation": "webservice/api/provenance_media_method_compound.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_provenance_media_method_compound"
@@ -2289,7 +2239,7 @@
             },
             "evidence_correlation": true,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ],
             "shares_traversal_with": "media_compound"
         },
@@ -2297,7 +2247,7 @@
             "endpoint": "provenance_disease_therapy_formulation",
             "function": "execute_provenance_disease_therapy_formulation",
             "callable": true,
-            "implementation": "api/provenance_disease_therapy_formulation.php",
+            "implementation": "webservice/api/provenance_disease_therapy_formulation.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_provenance_disease_therapy_formulation"
@@ -2331,7 +2281,7 @@
             },
             "evidence_correlation": true,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ],
             "shares_traversal_with": "disease_formulation"
         },
@@ -2339,7 +2289,7 @@
             "endpoint": "provenance_formulation_therapy_disease",
             "function": "execute_provenance_formulation_therapy_disease",
             "callable": true,
-            "implementation": "api/provenance_formulation_therapy_disease.php",
+            "implementation": "webservice/api/provenance_formulation_therapy_disease.php",
             "alias_of": null,
             "routing_cases": [
                 "eval_traversal_provenance_formulation_therapy_disease"
@@ -2373,7 +2323,7 @@
             },
             "evidence_correlation": true,
             "retrieval_tests": [
-                "api/tests/test_traversal_expansion.php"
+                "webservice/api/tests/test_traversal_expansion.php"
             ],
             "shares_traversal_with": "formulation_disease"
         }

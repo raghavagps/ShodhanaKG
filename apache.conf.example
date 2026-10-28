@@ -1,17 +1,17 @@
 <VirtualHost *:80>
     ServerName yourdomain.com
-    DocumentRoot ./webservice/frontend/dist
+    DocumentRoot /path/to/ShodhanaKG/webservice/frontend/dist
 
     # Backend API Alias (if needed, otherwise accessed via /api subdirectory)
-    # Alias /APP_BASE_PATH/api ./webservice/api
+    # Alias /APP_BASE_PATH/api /path/to/ShodhanaKG/webservice/api
 
-    <Directory ./webservice/frontend/dist>
+    <Directory /path/to/ShodhanaKG/webservice/frontend/dist>
         Options -Indexes +FollowSymLinks
         AllowOverride All
         Require all granted
     </Directory>
 
-    <Directory ./webservice/api>
+    <Directory /path/to/ShodhanaKG/webservice/api>
         Options -Indexes +FollowSymLinks
         AllowOverride All
         Require all granted
@@ -23,14 +23,14 @@
     </IfModule>
 
     # Environment Variables for Backend
-    SetEnv ARCADE_URL http://localhost:2480
+    SetEnv ARCADE_URL http://your-arcadedb-host:2480
     SetEnv ARCADE_DB shodhana
     SetEnv ARCADE_USER "username"
     SetEnv ARCADE_PASS "password"
-    SetEnv ALLOWED_ORIGINS "*"
+    SetEnv ALLOWED_ORIGINS "https://your-domain.example"
 
-    # LLM Settings for Chatbot (Optional)
-    SetEnv OLLAMA_URL "http://localhost:11434"
+    # LLM Settings for Chatbot (language assistance)
+    SetEnv OLLAMA_URL "http://your-ollama-host:11434"
     SetEnv OLLAMA_MODEL "llama3.2"
 
     ErrorLog ${APACHE_LOG_DIR}/shodhanakg_error.log
@@ -38,6 +38,6 @@
 
     # SSL (Managed by Certbot)
     # SSLEngine on
-    # SSLCertificateFile ./ssl/fullchain.pem
-    # SSLCertificateKeyFile ./ssl/privkey.pem
+    # SSLCertificateFile /path/to/ssl/fullchain.pem
+    # SSLCertificateKeyFile /path/to/ssl/privkey.pem
 </VirtualHost>

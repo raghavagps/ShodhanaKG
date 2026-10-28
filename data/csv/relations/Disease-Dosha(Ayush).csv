@@ -1,0 +1,185 @@
+﻿Disease,Relationship,Dosha,Ayush_ID
+Ankylosing Spondylitis,HAS_DOSHA_IMBALANCE,Vata,257223
+,,,
+Ankylosing Spondylitis,HAS_DOSHA_IMBALANCE,Vata,163783
+,,,
+Amyotrophic Lateral Sclerosis,HAS_DOSHA_IMBALANCE,Vata,240707
+Amyotrophic Lateral Sclerosis,HAS_DOSHA_IMBALANCE,Kapha,240707
+,,,
+Pityriasis Rubra Pilaris,HAS_DOSHA_IMBALANCE,Pitta,254481
+Pityriasis Rubra Pilaris,HAS_DOSHA_IMBALANCE,Kapha,254481
+,,,
+Acute Renal Calculus,HAS_DOSHA_IMBALANCE,Vata,164098
+Acute Renal Calculus,HAS_DOSHA_IMBALANCE,Kapha,164098
+,,,
+Rett Syndrome,HAS_DOSHA_IMBALANCE,Vata,216770
+Rett Syndrome,HAS_DOSHA_IMBALANCE,Kapha,216770
+,,,
+Neurogenic Bladder,HAS_DOSHA_IMBALANCE,Vata,22455
+Neurogenic Bladder,HAS_DOSHA_IMBALANCE,Kapha,22455
+,,,
+Sciatica,HAS_DOSHA_IMBALANCE,Vata,17779
+Sciatica,HAS_DOSHA_IMBALANCE,Kapha,17779
+,,,
+Knee Osteoarthritis,HAS_DOSHA_IMBALANCE,Vata,257229
+,,,
+Female Infertility,HAS_DOSHA_IMBALANCE,Vata,143266
+,,,
+Migraine,HAS_DOSHA_IMBALANCE,Vata,238386
+Migraine,HAS_DOSHA_IMBALANCE,Pitta,238386
+,,,
+Osteoarthritis,HAS_DOSHA_IMBALANCE,Vata,257895
+,,,
+Cervical Spondylosis,HAS_DOSHA_IMBALANCE,Vata,216736
+Cervical Spondylosis,HAS_DOSHA_IMBALANCE,Kapha,216736
+,,,
+Irritable Bowel Syndrome,HAS_DOSHA_IMBALANCE,Vata,254505
+,,,
+Osteoarthritis,HAS_DOSHA_IMBALANCE,Vata,257238
+,,,
+Cerebral Palsy,HAS_DOSHA_IMBALANCE,Vata,96638
+,,,
+Lumbo-Sacral Disorder,HAS_DOSHA_IMBALANCE,Vata,2885
+,,,
+Sciatica,HAS_DOSHA_IMBALANCE,Vata,165226
+,,,
+Piles,HAS_DOSHA_IMBALANCE,Vata,9859
+Piles,HAS_DOSHA_IMBALANCE,Pitta,9859
+,,,
+Lumbar Disc Herniation,HAS_DOSHA_IMBALANCE,Vata,22827
+,,,
+Rheumatoid Arthritis,HAS_DOSHA_IMBALANCE,Vata,238662
+,,,
+Obesity,HAS_DOSHA_IMBALANCE,Vata,16030
+Obesity,HAS_DOSHA_IMBALANCE,Kapha,16030
+,,,
+Obesity,HAS_DOSHA_IMBALANCE,Vata,121605
+Obesity,HAS_DOSHA_IMBALANCE,Kapha,121605
+Obesity,HAS_DOSHA_IMBALANCE,Pitta,121605
+,,,
+Rheumatoid Arthritis,HAS_DOSHA_IMBALANCE,Vata,96745
+,,,
+Tubal Blockage,HAS_DOSHA_IMBALANCE,Vata,96628
+Tubal Blockage,HAS_DOSHA_IMBALANCE,Kapha,96628
+,,,
+Rheumatoid Arthritis,HAS_DOSHA_IMBALANCE,Vata,227025
+,,,
+Cervical Spondylosis,HAS_DOSHA_IMBALANCE,Vata,237901
+,,,
+Dysmenorrhea,HAS_DOSHA_IMBALANCE,Vata,164111
+,,,
+Chronic Kidney Disease,HAS_DOSHA_IMBALANCE,Vata,121566
+,,,
+Sciatica,HAS_DOSHA_IMBALANCE,Vata,107295
+,,,
+Lumbar Spinal Stenosis,HAS_DOSHA_IMBALANCE,Vata,121753
+Lumbar Spinal Stenosis,HAS_DOSHA_IMBALANCE,Kapha,121753
+,,,
+Chronic Low Back Pain,HAS_DOSHA_IMBALANCE,Vata,121551
+,,,
+Diabetes Mellitus,HAS_DOSHA_IMBALANCE,Pitta,239363
+Diabetes Mellitus,HAS_DOSHA_IMBALANCE,Kapha,239363
+,,,
+Vasculitis,HAS_DOSHA_IMBALANCE,Vata,227062
+,,,
+Ankylosing Spondylitis,HAS_DOSHA_IMBALANCE,Vata,239277
+,,,
+Chronic Non-Healing Ulcer,HAS_DOSHA_IMBALANCE,Vata,254906
+,,,
+Alopecia,HAS_DOSHA_IMBALANCE,Vata,238408
+Alopecia,HAS_DOSHA_IMBALANCE,Pitta,238408
+Alopecia,HAS_DOSHA_IMBALANCE,Kapha,238408
+,,,
+Rheumatoid Arthritis,HAS_DOSHA_IMBALANCE,Vata,216742
+,,,
+Venous Ulcer,HAS_DOSHA_IMBALANCE,Vata,21942
+Venous Ulcer,HAS_DOSHA_IMBALANCE,Kapha,21942
+Venous Ulcer,HAS_DOSHA_IMBALANCE,Pitta,21942
+,,,
+Osteoarthritis,HAS_DOSHA_IMBALANCE,Vata,237938
+,,,
+Female Infertility,HAS_DOSHA_IMBALANCE,Vata,240293
+Female Infertility,HAS_DOSHA_IMBALANCE,Pitta,240293
+,,,
+Sciatica,HAS_DOSHA_IMBALANCE,Vata,226987
+,,,
+Rheumatoid Arthritis,HAS_DOSHA_IMBALANCE,Vata,164937
+,,,
+Diabetic Neuropathy,HAS_DOSHA_IMBALANCE,Vata,256285
+Diabetic Neuropathy,HAS_DOSHA_IMBALANCE,Pitta,256285
+,,,
+Global Developmental Delay,HAS_DOSHA_IMBALANCE,Vata,256281
+Global Developmental Delay,HAS_DOSHA_IMBALANCE,Kapha,256281
+Global Developmental Delay,HAS_DOSHA_IMBALANCE,Pitta,256281
+,,,
+Avascular Necrosis,HAS_DOSHA_IMBALANCE,Vata,7494
+,,,
+Ankylosing Spondylitis,HAS_DOSHA_IMBALANCE,Vata,196064
+Ankylosing Spondylitis,HAS_DOSHA_IMBALANCE,Kapha,196064
+,,,
+Post-Thrombotic Syndrome,HAS_DOSHA_IMBALANCE,Vata,239160
+,,,
+Spinocerebellar Ataxia,HAS_DOSHA_IMBALANCE,Vata,239448
+,,,
+Rheumatoid Arthritis,HAS_DOSHA_IMBALANCE,Vata,240689
+,,,
+Endometrioma,HAS_DOSHA_IMBALANCE,Vata,254496
+,,,
+Cerebral Palsy,HAS_DOSHA_IMBALANCE,Vata,121746
+,,,
+Ankylosing Spondylitis,HAS_DOSHA_IMBALANCE,Vata,257918
+,,,
+Fibromyalgia,HAS_DOSHA_IMBALANCE,Vata,239364
+,,,
+Cervical Spondylosis,HAS_DOSHA_IMBALANCE,Vata,143330
+,,,
+Avascular Necrosis,HAS_DOSHA_IMBALANCE,Vata,256282
+,,,
+Irritable Bowel Syndrome,HAS_DOSHA_IMBALANCE,Vata,237978
+,,,
+Adhesive Capsulitis Stage 2,HAS_DOSHA_IMBALANCE,Vata,196121
+,,,
+Knee Osteoarthritis,HAS_DOSHA_IMBALANCE,Vata,121537
+,,,
+Necrozoospermia,HAS_DOSHA_IMBALANCE,Vata,165423
+Necrozoospermia,HAS_DOSHA_IMBALANCE,Pitta,165423
+,,,
+Vipadika,HAS_DOSHA_IMBALANCE,Vata,253965
+Vipadika,HAS_DOSHA_IMBALANCE,Kapha,253965
+Vipadika,HAS_DOSHA_IMBALANCE,Pitta,253965
+,,,
+Poly Cystic Ovarian Syndrome,HAS_DOSHA_IMBALANCE,Vata,238414
+Poly Cystic Ovarian Syndrome,HAS_DOSHA_IMBALANCE,Kapha,238414
+,,,
+Hemiplegia,HAS_DOSHA_IMBALANCE,Vata,239324
+,,,
+Lumbar Disc Disease,HAS_DOSHA_IMBALANCE,Vata,242766
+,,,
+Guillain-Barre Syndrome,HAS_DOSHA_IMBALANCE,Vata,132876
+Guillain-Barre Syndrome,HAS_DOSHA_IMBALANCE,Kapha,132876
+,,,
+Tubal Blockage,HAS_DOSHA_IMBALANCE,Vata,241639
+Tubal Blockage,HAS_DOSHA_IMBALANCE,Kapha,241639
+,,,
+Hirayama Disease,HAS_DOSHA_IMBALANCE,Vata,242776
+,,,
+Uterine Fibroids,HAS_DOSHA_IMBALANCE,Vata,206587
+Uterine Fibroids,HAS_DOSHA_IMBALANCE,Kapha,206587
+,,,
+Rheumatoid Arthritis,HAS_DOSHA_IMBALANCE,Vata,238831
+,,,
+Infertility,HAS_DOSHA_IMBALANCE,Vata,196083
+,,,
+Sciatica,HAS_DOSHA_IMBALANCE,Vata,18660
+,,,
+Eczema,HAS_DOSHA_IMBALANCE,Vata,242778
+,,,
+Infertility,HAS_DOSHA_IMBALANCE,Vata,164540
+,,,
+Irritable Bowel Syndrome,HAS_DOSHA_IMBALANCE,Vata,13169
+,,,
+Sciatica,HAS_DOSHA_IMBALANCE,Vata,238755
+,,,
+Cerebral Palsy,HAS_DOSHA_IMBALANCE,Vata,20599
+,,,
+Senile Dementia,HAS_DOSHA_IMBALANCE,Vata,20598

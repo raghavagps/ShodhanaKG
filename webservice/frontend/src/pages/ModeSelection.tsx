@@ -221,7 +221,7 @@ const ModeSelection = () => {
       accent: "text-bark",
       bg: "bg-bark/10",
       border: "border-bark/20",
-      description: "Evidence-backed relationships with source references",
+      description: "unique studies count",
     },
   ];
 
@@ -488,7 +488,7 @@ const ModeSelection = () => {
                   {value == null ? "Unavailable" : <AnimatedCounter value={value} />}
                 </span>
                 <span className="mt-1 text-sm font-semibold text-foreground">{translatedLabel}</span>
-                <span className="mt-0.5 text-[11px] text-muted-foreground leading-snug">{translatedDesc}</span>
+                {translatedDesc ? <span className="mt-0.5 text-[11px] text-muted-foreground leading-snug">{translatedDesc}</span> : null}
               </div>
             );
           })}

@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../core/ResultsPresentation.php';
 function requireEvidence($condition, $message) { if (!$condition) throw new RuntimeException($message); }
-$report = json_decode(file_get_contents(__DIR__ . '/fixtures/benchmark_reference_classification_v3/factual.json'), true, 512, JSON_THROW_ON_ERROR);
+$report = json_decode(file_get_contents(__DIR__ . '/fixtures/legacy_evidence_benchmark.json'), true, 512, JSON_THROW_ON_ERROR);
 $count = 0; $scopes = 0;
 foreach ($report['cases'] as $sample) {
     $retrieval = $sample['actual'];

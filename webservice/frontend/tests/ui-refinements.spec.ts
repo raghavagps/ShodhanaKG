@@ -57,7 +57,7 @@ test('Graph selector and mode-specific diagnosis colour',async({page})=>{
 
 test('Statistics retain distinct metric labels and search restores its current page',async({page})=>{
  await page.goto('/', { waitUntil: 'domcontentloaded' });
- for(const name of ['Total Nodes','Total Relations','Distinct References']) await expect(page.getByText(name,{exact:true})).toBeVisible();
+ for(const name of ['Total Nodes','Total Relations','Total Studies']) await expect(page.getByText(name,{exact:true})).toBeVisible();
  await page.getByRole('link',{name:'Advanced Search',exact:true}).click();
  await page.getByRole('button',{name:'Next',exact:true}).click();
  await expect(page.getByRole('button',{name:'Page 2',exact:true})).toHaveAttribute('aria-current','page');

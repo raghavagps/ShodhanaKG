@@ -84,6 +84,22 @@
     ]
   },
   {
+    "endpoint": "compound_methods",
+    "positive_entities_available": 52,
+    "positive_entities_tested": 2,
+    "empty_entity_tested": false,
+    "observed_branches": [
+      [
+        "UNDERGOES"
+      ]
+    ],
+    "tested_branches": [
+      [
+        "UNDERGOES"
+      ]
+    ]
+  },
+  {
     "endpoint": "compound_purification",
     "positive_entities_available": 48,
     "positive_entities_tested": 3,
@@ -203,7 +219,7 @@
     "endpoint": "confirmation_study_method",
     "positive_entities_available": 162,
     "positive_entities_tested": 2,
-    "empty_entity_tested": true,
+    "empty_entity_tested": false,
     "observed_branches": [
       [
         "VALIDATED_BY"
@@ -219,7 +235,7 @@
     "endpoint": "confirmation_study_purified_compound",
     "positive_entities_available": 162,
     "positive_entities_tested": 2,
-    "empty_entity_tested": true,
+    "empty_entity_tested": false,
     "observed_branches": [
       [
         "CONFIRMS_SAFETY_OF"
@@ -537,7 +553,7 @@
     "endpoint": "media_process",
     "positive_entities_available": 90,
     "positive_entities_tested": 3,
-    "empty_entity_tested": true,
+    "empty_entity_tested": false,
     "observed_branches": [
       [
         "USES_MEDIA"

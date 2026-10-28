@@ -3,7 +3,7 @@ import argparse,json
 from pathlib import Path
 from evaluate_entity_resolution import request
 p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);a=p.parse_args()
-tables=json.loads((Path(__file__).parent/'fixtures/ui_result_contract_2026_09_25_v1/baseline/snapshot.json').read_bytes())['tables']
+tables=json.loads((Path(__file__).parent/'fixtures/factual_graph_snapshot_expanded.json').read_bytes())['tables']
 nodes={n['@rid']:n for rows in tables.values() for n in rows if n.get('@cat')=='v'}
 rows=[]
 for entity in ['Copper','Lead','Sulphur']:

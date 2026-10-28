@@ -1,0 +1,1253 @@
+﻿Disease,Relationship,Symptom,Pubmed_ID
+Erythrodermic Psoriasis,HAS_SYMPTOM,Itching,35348057
+Erythrodermic Psoriasis,HAS_SYMPTOM,Pain,35348057
+Erythrodermic Psoriasis,HAS_SYMPTOM,Scaling,35348057
+Erythrodermic Psoriasis,HAS_SYMPTOM,Dryness,35348057
+Erythrodermic Psoriasis,HAS_SYMPTOM,Erythema,35348057
+,,,
+Alopecia,HAS_SYMPTOM,Bald Patches,35868136
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,27833370
+Rheumatoid Arthritis,HAS_SYMPTOM,Stiffness,27833370
+Rheumatoid Arthritis,HAS_SYMPTOM,Malaise,27833370
+Rheumatoid Arthritis,HAS_SYMPTOM,Joint Pain,27833370
+,,,
+Psoriasis,HAS_SYMPTOM,Anxiety,23559794
+Psoriasis,HAS_SYMPTOM,Itching,23559794
+Psoriasis,HAS_SYMPTOM,Erythema,23559794
+Psoriasis,HAS_SYMPTOM,Round Patches,23559794
+Psoriasis,HAS_SYMPTOM,Anger,23559794
+Psoriasis,HAS_SYMPTOM,Scaling,23559794
+Psoriasis,HAS_SYMPTOM,Induration,23559794
+,,,
+Chronic Urticaria,HAS_SYMPTOM,Hives,35255270
+Chronic Urticaria,HAS_SYMPTOM,Itching,35255270
+Chronic Urticaria,HAS_SYMPTOM,Rashes,35255270
+Chronic Urticaria,HAS_SYMPTOM,Wheals,35255270
+,,,
+Eczema,HAS_SYMPTOM,Discoloration,23049187
+Eczema,HAS_SYMPTOM,Erythema,23049187
+Eczema,HAS_SYMPTOM,Dryness,23049187
+Eczema,HAS_SYMPTOM,Burning Sensation,23049187
+Eczema,HAS_SYMPTOM,Inflammation,23049187
+Eczema,HAS_SYMPTOM,Discharge,23049187
+Eczema,HAS_SYMPTOM,Pain,23049187
+Eczema,HAS_SYMPTOM,Itching,23049187
+Eczema,HAS_SYMPTOM,Boil,23049187
+,,,
+Psoriasis,HAS_SYMPTOM,Itching,39826302
+Psoriasis,HAS_SYMPTOM,Discoloration,39826302
+Psoriasis,HAS_SYMPTOM,Lesions,39826302
+Psoriasis,HAS_SYMPTOM,Scaling,39826302
+Psoriasis,HAS_SYMPTOM,Auspitz Sign,39826302
+,,,
+Visphota Kushta,HAS_SYMPTOM,Blisters,30660453
+Visphota Kushta,HAS_SYMPTOM,Burning Sensation,30660453
+Visphota Kushta,HAS_SYMPTOM,Itching,30660453
+Visphota Kushta,HAS_SYMPTOM,Pain,30660453
+Visphota Kushta,HAS_SYMPTOM,Discharge,30660453
+Visphota Kushta,HAS_SYMPTOM,Edema,30660453
+Visphota Kushta,HAS_SYMPTOM,Lesions,30660453
+,,,
+Psoriasis Vulgaris,HAS_SYMPTOM,Exacerbation,30606464
+Psoriasis Vulgaris,HAS_SYMPTOM,Itching,30606464
+Psoriasis Vulgaris,HAS_SYMPTOM,Scaling,30606464
+Psoriasis Vulgaris,HAS_SYMPTOM,Constipation,30606464
+Psoriasis Vulgaris,HAS_SYMPTOM,Gastritis,30606464
+Psoriasis Vulgaris,HAS_SYMPTOM,Hairfall,30606464
+Psoriasis Vulgaris,HAS_SYMPTOM,Auspitz Sign,30606464
+Psoriasis Vulgaris,HAS_SYMPTOM,Erythema,30606464
+Psoriasis Vulgaris,HAS_SYMPTOM,Dryness,30606464
+,,,
+Psoriasis,HAS_SYMPTOM,Itching,34758243
+Psoriasis,HAS_SYMPTOM,Scaling,34758243
+Psoriasis,HAS_SYMPTOM,Lesions,34758243
+Psoriasis,HAS_SYMPTOM,Rashes,34758243
+Psoriasis,HAS_SYMPTOM,Pain,34758243
+Psoriasis,HAS_SYMPTOM,Hypersomnia,34758243
+Psoriasis,HAS_SYMPTOM,Erythema,34758243
+Psoriasis,HAS_SYMPTOM,Thickness,34758243
+Psoriasis,HAS_SYMPTOM,Burning Sensation,34758243
+Psoriasis,HAS_SYMPTOM,Dryness,34758243
+,,,
+Scalp Psoriasis,HAS_SYMPTOM,Erythematous Plaques,40492749
+Scalp Psoriasis,HAS_SYMPTOM,Itching,40492749
+Scalp Psoriasis,HAS_SYMPTOM,Scaling,40492749
+,,,
+Epidermolysis Bullosa,HAS_SYMPTOM,Ulcer,41223582
+Epidermolysis Bullosa,HAS_SYMPTOM,Scars,41223582
+Epidermolysis Bullosa,HAS_SYMPTOM,Lesions,41223582
+Epidermolysis Bullosa,HAS_SYMPTOM,Blisters,41223582
+Epidermolysis Bullosa,HAS_SYMPTOM,Pain,41223582
+Epidermolysis Bullosa,HAS_SYMPTOM,Itching,41223582
+Epidermolysis Bullosa,HAS_SYMPTOM,Discharge,41223582
+Epidermolysis Bullosa,HAS_SYMPTOM,Erythema,41223582
+Epidermolysis Bullosa,HAS_SYMPTOM,Fragile Skin,41223582
+Epidermolysis Bullosa,HAS_SYMPTOM,Wound,41223582
+,,,
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Painful Intercourse,34980524
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Hirsutism,34980524
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Vaginal Discharge,34980524
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Acanthosis Nigricans,34980524
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Hirsutism,34980524
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Irregular Mentruation,34980524
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Clitoromegaly,34980524
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Bulky Uterus,34980524
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Eroded Cervix,34980524
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Polycystic Ovaries,34980524
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Primary Infertility,34980524
+,,,
+Oligo-Teratozoospermia,HAS_SYMPTOM,Mild Varicocele,40780056
+Oligo-Teratozoospermia,HAS_SYMPTOM,Primary Infertility,40780056
+Oligo-Teratozoospermia,HAS_SYMPTOM,Phenilata,40780056
+Oligo-Teratozoospermia,HAS_SYMPTOM,Discoloured Semen,40780056
+Oligo-Teratozoospermia,HAS_SYMPTOM,Low Sperm Count,40780056
+Oligo-Teratozoospermia,HAS_SYMPTOM,Abnormal Sperm Morphgology,40780056
+,,,
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Irregular Mentruation,22131680
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Amenorrhea,22131680
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Obesity,22131680
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Skin Discoloration,22131680
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Hirsutism,22131680
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Dysmenorrhea,22131680
+Poly Cystic Ovarian Syndrome,HAS_SYMPTOM,Polycystic Ovaries,22131680
+,,,
+Diabetic Foot Ulcer,HAS_SYMPTOM,Diabetes,40896900
+Diabetic Foot Ulcer,HAS_SYMPTOM,Ulcer,40896900
+Diabetic Foot Ulcer,HAS_SYMPTOM,Inflammation,40896900
+Diabetic Foot Ulcer,HAS_SYMPTOM,Wound,40896900
+,,,
+Epidermolysis Bullosa,HAS_SYMPTOM,Discharge,40570575
+Epidermolysis Bullosa,HAS_SYMPTOM,Blisters,40570575
+Epidermolysis Bullosa,HAS_SYMPTOM,Itching,40570575
+Epidermolysis Bullosa,HAS_SYMPTOM,Pain,40570575
+Epidermolysis Bullosa,HAS_SYMPTOM,Eroded Nails,40570575
+Epidermolysis Bullosa,HAS_SYMPTOM,Fibroids,40570575
+Epidermolysis Bullosa,HAS_SYMPTOM,Scars,40570575
+,,,
+Glaucoma,HAS_SYMPTOM,Blurred Vision,29861590
+Glaucoma,HAS_SYMPTOM,Delayed Dark Adaptation,29861590
+Glaucoma,HAS_SYMPTOM,Visual Field Defect,29861590
+Glaucoma,HAS_SYMPTOM,Headache,29861590
+Glaucoma,HAS_SYMPTOM,Presbyopia,29861590
+,,,
+Diabetic Retinopathy,HAS_SYMPTOM,Blurred Vision,37303857
+Diabetic Retinopathy,HAS_SYMPTOM,Presbyopia,37303857
+Diabetic Retinopathy,HAS_SYMPTOM,Delayed Dark Adaptation,37303857
+Diabetic Retinopathy,HAS_SYMPTOM,Floaters,37303857
+Diabetic Retinopathy,HAS_SYMPTOM,Diminished Vision,37303857
+Diabetic Retinopathy,HAS_SYMPTOM,High Blood Sugar,37303857
+,,,
+Type 2 Diabetes,HAS_SYMPTOM,Polyuria,22661850
+Type 2 Diabetes,HAS_SYMPTOM,Polydipsia,22661850
+Type 2 Diabetes,HAS_SYMPTOM,Polyphagia,22661850
+Type 2 Diabetes,HAS_SYMPTOM,Numbness,22661850
+Type 2 Diabetes,HAS_SYMPTOM,Muscle Cramps,22661850
+Type 2 Diabetes,HAS_SYMPTOM,Cloudy Urine,22661850
+Type 2 Diabetes,HAS_SYMPTOM,Sexual Weakness,22661850
+Type 2 Diabetes,HAS_SYMPTOM,Hypersomnia,22661850
+Type 2 Diabetes,HAS_SYMPTOM,Lethargy,22661850
+Type 2 Diabetes,HAS_SYMPTOM,Excess Sweating,22661850
+Type 2 Diabetes,HAS_SYMPTOM,Preference For Cold,22661850
+,,,
+Oligomenorrhea,HAS_SYMPTOM,Hypomenorrhea,22131689
+Oligomenorrhea,HAS_SYMPTOM,Oligomenorrhea,22131689
+Oligomenorrhea,HAS_SYMPTOM,Dysmenorrhea,22131689
+,,,
+Bronchial Asthma,HAS_SYMPTOM,Dyspnea,22131729
+Bronchial Asthma,HAS_SYMPTOM,Cough,22131729
+Bronchial Asthma,HAS_SYMPTOM,Sputum,22131729
+,,,
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Weakness,37738857
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Polyphagia,37738857
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Polydipsia,37738857
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Polyuria,37738857
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Nocturia,37738857
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Muscle Cramps,37738857
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Excess Sweating,37738857
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Burning Sensation,37738857
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Dyspnea,37738857
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Tingling,37738857
+Type 2 Diabetes Mellitus,HAS_SYMPTOM,Sexual Weakness,37738857
+,,,
+Oligozoospermia,HAS_SYMPTOM,Indigestion,31831966
+Oligozoospermia,HAS_SYMPTOM,Debility,31831966
+Oligozoospermia,HAS_SYMPTOM,Sexual Weakness,31831966
+Oligozoospermia,HAS_SYMPTOM,Erectile Dysfunction,31831966
+Oligozoospermia,HAS_SYMPTOM,Erectile Dysfunction,31831966
+Oligozoospermia,HAS_SYMPTOM,Low Sperm Count,31831966
+Oligozoospermia,HAS_SYMPTOM,Abnormal Sperm Morphgology,31831966
+Oligozoospermia,HAS_SYMPTOM,Hormonal Imbalance,31831966
+Oligozoospermia,HAS_SYMPTOM,Infertility,31831966
+,,,
+Progressive Bulbar Palsy,HAS_SYMPTOM,Slurred Speech,40913874
+Progressive Bulbar Palsy,HAS_SYMPTOM,Hearing Impairment,40913874
+Progressive Bulbar Palsy,HAS_SYMPTOM,Weakness,40913874
+Progressive Bulbar Palsy,HAS_SYMPTOM,Weakened Grip,40913874
+Progressive Bulbar Palsy,HAS_SYMPTOM,Abnormal Gait,40913874
+Progressive Bulbar Palsy,HAS_SYMPTOM,Dizziness,40913874
+Progressive Bulbar Palsy,HAS_SYMPTOM,Memory Loss,40913874
+Progressive Bulbar Palsy,HAS_SYMPTOM,Anxiety,40913874
+Progressive Bulbar Palsy,HAS_SYMPTOM,Headache,40913874
+Progressive Bulbar Palsy,HAS_SYMPTOM,Dyspnea,40913874
+Progressive Bulbar Palsy,HAS_SYMPTOM,Orthopnea,40913874
+,,,
+Low Anti-Mullerian Hormone (Amh) Level,HAS_SYMPTOM,Primary Infertility,29861596
+Low Anti-Mullerian Hormone (Amh) Level,HAS_SYMPTOM,Hypomenorrhea,29861596
+Low Anti-Mullerian Hormone (Amh) Level,HAS_SYMPTOM,Vaginal Dryness,29861596
+,,,
+Oligozoospermia,HAS_SYMPTOM,Sexual Weakness,29200749
+Oligozoospermia,HAS_SYMPTOM,Low Sperm Count,29200749
+Oligozoospermia,HAS_SYMPTOM,Infertility,29200749
+Oligozoospermia,HAS_SYMPTOM,Hormonal Imbalance,29200749
+Oligozoospermia,HAS_SYMPTOM,Anemia,29200749
+Oligozoospermia,HAS_SYMPTOM,Debility,29200749
+Oligozoospermia,HAS_SYMPTOM,Premature Ejaculation,29200749
+Oligozoospermia,HAS_SYMPTOM,Abnormal Sperm Morphgology,29200749
+Oligozoospermia,HAS_SYMPTOM,Erectile Dysfunction,29200749
+Oligozoospermia,HAS_SYMPTOM,Erectile Dysfunction,29200749
+,,,
+Obesity,HAS_SYMPTOM,Lethargy,40446462
+Obesity,HAS_SYMPTOM,Hypersomnia,40446462
+Obesity,HAS_SYMPTOM,Excess Sweating,40446462
+Obesity,HAS_SYMPTOM,Body Odor,40446462
+Obesity,HAS_SYMPTOM,Oily Body Luster,40446462
+Obesity,HAS_SYMPTOM,Heaviness,40446462
+Obesity,HAS_SYMPTOM,Fatigue,40446462
+Obesity,HAS_SYMPTOM,Increased Bmi,40446462
+Obesity,HAS_SYMPTOM,Increased Bmi,40446462
+,,,
+Bronchial Asthma,HAS_SYMPTOM,Chest Tightness,27473604
+Bronchial Asthma,HAS_SYMPTOM,Cough,27473604
+Bronchial Asthma,HAS_SYMPTOM,Dyspnea,27473604
+Bronchial Asthma,HAS_SYMPTOM,Wheezing,27473604
+,,,
+Wounds,HAS_SYMPTOM,Slough,25558157
+Wounds,HAS_SYMPTOM,Swelling,25558157
+Wounds,HAS_SYMPTOM,Erythema,25558157
+Wounds,HAS_SYMPTOM,Pain,25558157
+Wounds,HAS_SYMPTOM,Discharge,25558157
+Wounds,HAS_SYMPTOM,Tenderness,25558157
+Wounds,HAS_SYMPTOM,Foul Smell,25558157
+Wounds,HAS_SYMPTOM,Microbial Load,25558157
+,,,
+Oral Submucous Fibrosis,HAS_SYMPTOM,Difficulty In Opening Mouth,26730136
+Oral Submucous Fibrosis,HAS_SYMPTOM,Burning Sensation,26730136
+Oral Submucous Fibrosis,HAS_SYMPTOM,Intolerance To Spicy Food,26730136
+Oral Submucous Fibrosis,HAS_SYMPTOM,Dryness,26730136
+Oral Submucous Fibrosis,HAS_SYMPTOM,Defective Gustatory Sensation,26730136
+Oral Submucous Fibrosis,HAS_SYMPTOM,Ulcer,26730136
+Oral Submucous Fibrosis,HAS_SYMPTOM,Fibroids,26730136
+,,,
+Oligoasthenozoospermia,HAS_SYMPTOM,Anxiety,32741654
+Oligoasthenozoospermia,HAS_SYMPTOM,Low Sperm Count,32741654
+Oligoasthenozoospermia,HAS_SYMPTOM,Insomnia,32741654
+Oligoasthenozoospermia,HAS_SYMPTOM,Abnormal Sperm Morphgology,32741654
+Oligoasthenozoospermia,HAS_SYMPTOM,Hormonal Imbalance,32741654
+,,,
+Nicolau Syndrome,HAS_SYMPTOM,Pain,32896437
+Nicolau Syndrome,HAS_SYMPTOM,Swelling,32896437
+Nicolau Syndrome,HAS_SYMPTOM,Blackish Discoloration,32896437
+Nicolau Syndrome,HAS_SYMPTOM,Discharge,32896437
+Nicolau Syndrome,HAS_SYMPTOM,Foul Smell,32896437
+Nicolau Syndrome,HAS_SYMPTOM,Fever,32896437
+Nicolau Syndrome,HAS_SYMPTOM,Necrosis,32896437
+Nicolau Syndrome,HAS_SYMPTOM,Burning Sensation,32896437
+Nicolau Syndrome,HAS_SYMPTOM,Wound,32896437
+Nicolau Syndrome,HAS_SYMPTOM,Loss Of Appetite,32896437
+,,,
+Small Fibre Neuropathy,HAS_SYMPTOM,Pain,37141832
+Small Fibre Neuropathy,HAS_SYMPTOM,Burning Sensation,37141832
+Small Fibre Neuropathy,HAS_SYMPTOM,Tingling,37141832
+Small Fibre Neuropathy,HAS_SYMPTOM,Disrupted Sleep,37141832
+Small Fibre Neuropathy,HAS_SYMPTOM,Restlessness,37141832
+Small Fibre Neuropathy,HAS_SYMPTOM,Loss Of Appetite,37141832
+Small Fibre Neuropathy,HAS_SYMPTOM,Constipation,37141832
+,,,
+Spinocerebellar Ataxia,HAS_SYMPTOM,Inability To Walk,39926966
+Spinocerebellar Ataxia,HAS_SYMPTOM,Inability To Stand,39926966
+Spinocerebellar Ataxia,HAS_SYMPTOM,Slurred Speech,39926966
+Spinocerebellar Ataxia,HAS_SYMPTOM,Weakness,39926966
+Spinocerebellar Ataxia,HAS_SYMPTOM,Swaying,39926966
+Spinocerebellar Ataxia,HAS_SYMPTOM,Imbalance,39926966
+,,,
+Guillain-Barre Syndrome,HAS_SYMPTOM,Numbness,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Urinary Dysfunction,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Deranged Sensation,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Fever,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Heaviness,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Stiffness,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Loss Of Power,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Muscle Weakness,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Pain,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Pricking,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Tingling,30661945
+Guillain-Barre Syndrome,HAS_SYMPTOM,Loss Of Sensation,30661945
+,,,
+,,,
+Prediabetes,HAS_SYMPTOM,Hyperglycemia,37738856
+,,,
+Diabetic Foot Ulcer,HAS_SYMPTOM,Pain,37678108
+Diabetic Foot Ulcer,HAS_SYMPTOM,Burning Sensation,37678108
+Diabetic Foot Ulcer,HAS_SYMPTOM,Foul Smell,37678108
+Diabetic Foot Ulcer,HAS_SYMPTOM,Discharge,37678108
+Diabetic Foot Ulcer,HAS_SYMPTOM,Redness,37678108
+Diabetic Foot Ulcer,HAS_SYMPTOM,Ulcer,37678108
+Diabetic Foot Ulcer,HAS_SYMPTOM,Blackish Discoloration,37678108
+Diabetic Foot Ulcer,HAS_SYMPTOM,Fever,37678108
+Diabetic Foot Ulcer,HAS_SYMPTOM,Swelling,37678108
+Diabetic Foot Ulcer,HAS_SYMPTOM,Edema,37678108
+Diabetic Foot Ulcer,HAS_SYMPTOM,Loss Of Sensation,37678108
+,,,
+Trigeminal Neuralgia,HAS_SYMPTOM,Facial Pain,39926949
+Trigeminal Neuralgia,HAS_SYMPTOM,Tingling,39926949
+Trigeminal Neuralgia,HAS_SYMPTOM,Anxiety,39926949
+Trigeminal Neuralgia,HAS_SYMPTOM,Numbness,39926949
+Trigeminal Neuralgia,HAS_SYMPTOM,Nausea,39926949
+Trigeminal Neuralgia,HAS_SYMPTOM,Stress,39926949
+Trigeminal Neuralgia,HAS_SYMPTOM,Fatigue,39926949
+,,,
+Psoriasis,HAS_SYMPTOM,Lesions,39926829
+Psoriasis,HAS_SYMPTOM,Itching,39926829
+Psoriasis,HAS_SYMPTOM,Dryness,39926829
+Psoriasis,HAS_SYMPTOM,Erythema,39926829
+Psoriasis,HAS_SYMPTOM,Induration,39926829
+Psoriasis,HAS_SYMPTOM,Desquamation,39926829
+,,,
+Female Infertility,HAS_SYMPTOM,Primary Infertility,38237453
+Female Infertility,HAS_SYMPTOM,Abdominal Pain,38237453
+Female Infertility,HAS_SYMPTOM,Breast Pain,38237453
+Female Infertility,HAS_SYMPTOM,Increased Body Heat,38237453
+Female Infertility,HAS_SYMPTOM,Painful Intercourse,38237453
+Female Infertility,HAS_SYMPTOM,Anxiety,38237453
+Female Infertility,HAS_SYMPTOM,Stress,38237453
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Pain,22131737
+Rheumatoid Arthritis,HAS_SYMPTOM,Stiffness,22131737
+Rheumatoid Arthritis,HAS_SYMPTOM,Body Ache,22131737
+Rheumatoid Arthritis,HAS_SYMPTOM,Anorexia,22131737
+Rheumatoid Arthritis,HAS_SYMPTOM,Thirst,22131737
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,22131737
+Rheumatoid Arthritis,HAS_SYMPTOM,Fever,22131737
+Rheumatoid Arthritis,HAS_SYMPTOM,Debility,22131737
+,,,
+Diabetes Mellitus,HAS_SYMPTOM,Hyperglycemia,22131730
+Diabetes Mellitus,HAS_SYMPTOM,Polyuria,22131730
+Diabetes Mellitus,HAS_SYMPTOM,Polyphagia,22131730
+Diabetes Mellitus,HAS_SYMPTOM,Polydipsia,22131730
+Diabetes Mellitus,HAS_SYMPTOM,Burning Sensation,22131730
+Diabetes Mellitus,HAS_SYMPTOM,Cloudy Urine,22131730
+Diabetes Mellitus,HAS_SYMPTOM,Fatigue,22131730
+Diabetes Mellitus,HAS_SYMPTOM,Weakness,22131730
+Diabetes Mellitus,HAS_SYMPTOM,Excess Sweating,22131730
+Diabetes Mellitus,HAS_SYMPTOM,Numbness,22131730
+Diabetes Mellitus,HAS_SYMPTOM,Tingling,22131730
+,,,
+Avascular Necrosis,HAS_SYMPTOM,Pain,27143802
+Avascular Necrosis,HAS_SYMPTOM,Stiffness,27143802
+Avascular Necrosis,HAS_SYMPTOM,Heaviness,27143802
+Avascular Necrosis,HAS_SYMPTOM,Tenderness,27143802
+Avascular Necrosis,HAS_SYMPTOM,Positive Trendelenburg Sign,27143802
+,,,
+Uterine Fibroids,HAS_SYMPTOM,Miscarriage,28867860
+Uterine Fibroids,HAS_SYMPTOM,Fibroids,28867860
+Uterine Fibroids,HAS_SYMPTOM,Altered Uterine Receptivity,28867860
+Uterine Fibroids,HAS_SYMPTOM,Bulky Uterus,28867860
+Uterine Fibroids,HAS_SYMPTOM,Secondary Infertility,28867860
+,,,
+Chemotherapy-Induced Peripheral Neuropathy,HAS_SYMPTOM,Numbness,39244869
+Chemotherapy-Induced Peripheral Neuropathy,HAS_SYMPTOM,Pain,39244869
+Chemotherapy-Induced Peripheral Neuropathy,HAS_SYMPTOM,Headache,39244869
+Chemotherapy-Induced Peripheral Neuropathy,HAS_SYMPTOM,Photophobia,39244869
+Chemotherapy-Induced Peripheral Neuropathy,HAS_SYMPTOM,Erythema,39244869
+Chemotherapy-Induced Peripheral Neuropathy,HAS_SYMPTOM,Back Pain,39244869
+Chemotherapy-Induced Peripheral Neuropathy,HAS_SYMPTOM,Fatigue,39244869
+Chemotherapy-Induced Peripheral Neuropathy,HAS_SYMPTOM,Joint Pain,39244869
+Chemotherapy-Induced Peripheral Neuropathy,HAS_SYMPTOM,Paraesthesia,39244869
+,,,
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Fever,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Cough,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Throat Irritation,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Edema,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Weakness,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Fatigue,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Pain,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Swelling,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Hemoptysis,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Heaviness,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Loss Of Appetite,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Bloating,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Constipation,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Lethargy,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Emaciation,39673829
+Chronic Lymphocytic Leukemia,HAS_SYMPTOM,Muscle Cramps,39673829
+,,,
+Psychogenic Pseudomyasthenic Ptosis,HAS_SYMPTOM,Seizures,33962505
+Psychogenic Pseudomyasthenic Ptosis,HAS_SYMPTOM,Weakness,33962505
+Psychogenic Pseudomyasthenic Ptosis,HAS_SYMPTOM,Drooping Of Eyelids,33962505
+Psychogenic Pseudomyasthenic Ptosis,HAS_SYMPTOM,Weak Mental Strength,33962505
+Psychogenic Pseudomyasthenic Ptosis,HAS_SYMPTOM,Indigestion,33962505
+Psychogenic Pseudomyasthenic Ptosis,HAS_SYMPTOM,Obesity,33962505
+,,,
+Huntington’S Chorea,HAS_SYMPTOM,Loss Of Appetite,40662609
+Huntington’S Chorea,HAS_SYMPTOM,Disrupted Sleep,40662609
+Huntington’S Chorea,HAS_SYMPTOM,Irritable Bowel,40662609
+Huntington’S Chorea,HAS_SYMPTOM,Constipation,40662609
+Huntington’S Chorea,HAS_SYMPTOM,Trembling Voice,40662609
+Huntington’S Chorea,HAS_SYMPTOM,Coated Tongue,40662609
+,,,
+Spinocerebellar Ataxia Type 2,HAS_SYMPTOM,Impaired Speech,27143801
+Spinocerebellar Ataxia Type 2,HAS_SYMPTOM,Tremor,27143801
+Spinocerebellar Ataxia Type 2,HAS_SYMPTOM,Insomnia,27143801
+Spinocerebellar Ataxia Type 2,HAS_SYMPTOM,Urinary Dysfunction,27143801
+Spinocerebellar Ataxia Type 2,HAS_SYMPTOM,Constipation,27143801
+Spinocerebellar Ataxia Type 2,HAS_SYMPTOM,Vertigo,27143801
+Spinocerebellar Ataxia Type 2,HAS_SYMPTOM,Imbalance,27143801
+Spinocerebellar Ataxia Type 2,HAS_SYMPTOM,Fasciculation,27143801
+,,,
+Migraine,HAS_SYMPTOM,Stress,31000965
+Migraine,HAS_SYMPTOM,Pain,31000965
+Migraine,HAS_SYMPTOM,Headache,31000965
+,,,
+Prediabetes,HAS_SYMPTOM,Polyuria,36743277
+Prediabetes,HAS_SYMPTOM,Cloudy Urine,36743277
+Prediabetes,HAS_SYMPTOM,Polydipsia,36743277
+Prediabetes,HAS_SYMPTOM,Polyphagia,36743277
+Prediabetes,HAS_SYMPTOM,Burning Sensation,36743277
+Prediabetes,HAS_SYMPTOM,Arthritis,36743277
+,,,
+Obesity,HAS_SYMPTOM,Excess Fat,33281395
+Obesity,HAS_SYMPTOM,Flabbiness,33281395
+Obesity,HAS_SYMPTOM,Fatigue,33281395
+,,,
+Lumbar Spondylosis,HAS_SYMPTOM,Lower Back Pain,32398907
+Lumbar Spondylosis,HAS_SYMPTOM,Stiffness,32398907
+Lumbar Spondylosis,HAS_SYMPTOM,Numbness,32398907
+Lumbar Spondylosis,HAS_SYMPTOM,Restricted Movement,32398907
+Lumbar Spondylosis,HAS_SYMPTOM,Joint Pain,32398907
+,,,
+Sciatica,HAS_SYMPTOM,Stiffness,26664236
+Sciatica,HAS_SYMPTOM,Numbness,26664236
+Sciatica,HAS_SYMPTOM,Throbbing,26664236
+Sciatica,HAS_SYMPTOM,Anorexia,26664236
+Sciatica,HAS_SYMPTOM,Drowsiness,26664236
+Sciatica,HAS_SYMPTOM,Heaviness,26664236
+Sciatica,HAS_SYMPTOM,Pain,26664236
+Sciatica,HAS_SYMPTOM,Tingling,26664236
+Sciatica,HAS_SYMPTOM,Loss Of Appetite,26664236
+,,,
+Psoriasis,HAS_SYMPTOM,Scaling,22661842
+Psoriasis,HAS_SYMPTOM,Lesions,22661842
+Psoriasis,HAS_SYMPTOM,Sweating,22661842
+Psoriasis,HAS_SYMPTOM,Discoloration,22661842
+Psoriasis,HAS_SYMPTOM,Itching,22661842
+Psoriasis,HAS_SYMPTOM,Dryness,22661842
+Psoriasis,HAS_SYMPTOM,Lack Of Perspiration,22661842
+,,,
+Depression,HAS_SYMPTOM,Disrupted Sleep,22131711
+Depression,HAS_SYMPTOM,Body Ache,22131711
+Depression,HAS_SYMPTOM,Fatigue,22131711
+Depression,HAS_SYMPTOM,Loss Of Interest In Activities,22131711
+Depression,HAS_SYMPTOM,Lack Of Confidence,22131711
+Depression,HAS_SYMPTOM,Lack Of Concentrartion,22131711
+Depression,HAS_SYMPTOM,Memory Loss,22131711
+Depression,HAS_SYMPTOM,Suicidal Ideation,22131711
+Depression,HAS_SYMPTOM,Anorexia,22131711
+Depression,HAS_SYMPTOM,Weight Loss,22131711
+Depression,HAS_SYMPTOM,Fear,22131711
+Depression,HAS_SYMPTOM,Sadness,22131711
+Depression,HAS_SYMPTOM,Psychomotor Retardation,22131711
+,,,
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Muscle Stiffness,35240461
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Muscle Weakness,35240461
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Muscle Twitching,35240461
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Atrophy,35240461
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Falling,35240461
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Slurred Speech,35240461
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Dysphagia,35240461
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Loss Of Dexterity,35240461
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Dyspnea,35240461
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Orthopnea,35240461
+Amyotrophic Lateral Sclerosis,HAS_SYMPTOM,Respiratory Insufficiency,35240461
+,,,
+Psoriasis,HAS_SYMPTOM,Auspitz Sign,27114687
+Psoriasis,HAS_SYMPTOM,Itching,27114687
+Psoriasis,HAS_SYMPTOM,Scaling,27114687
+,,,
+Covid-19,HAS_SYMPTOM,Loss Of Smell,34611387
+Covid-19,HAS_SYMPTOM,Body Ache,34611387
+Covid-19,HAS_SYMPTOM,Malaise,34611387
+Covid-19,HAS_SYMPTOM,Fever,34611387
+Covid-19,HAS_SYMPTOM,Nasal Congestion,34611387
+Covid-19,HAS_SYMPTOM,Sore Throat,34611387
+Covid-19,HAS_SYMPTOM,Heaviness,34611387
+,,,
+Oligomenorrhea,HAS_SYMPTOM,Irregular Mentruation,30254392
+Oligomenorrhea,HAS_SYMPTOM,Acne,30254392
+Oligomenorrhea,HAS_SYMPTOM,Hirsutism,30254392
+Oligomenorrhea,HAS_SYMPTOM,Painful Menstruation,30254392
+,,,
+Bronchial Asthma,HAS_SYMPTOM,Prolonged Expiration,23559796
+Bronchial Asthma,HAS_SYMPTOM,Wheezing,23559796
+Bronchial Asthma,HAS_SYMPTOM,Dyspnea,23559796
+Bronchial Asthma,HAS_SYMPTOM,Choked Throat,23559796
+Bronchial Asthma,HAS_SYMPTOM,Restlessness,23559796
+Bronchial Asthma,HAS_SYMPTOM,Rhinitis,23559796
+Bronchial Asthma,HAS_SYMPTOM,Orthopnea,23559796
+Bronchial Asthma,HAS_SYMPTOM,Hoarseness Of Voice,23559796
+,,,
+Urethral Stricture,HAS_SYMPTOM,Painful Micturition,40101438
+Urethral Stricture,HAS_SYMPTOM,Haematuria,40101438
+Urethral Stricture,HAS_SYMPTOM,Urinary Dysfunction,40101438
+Urethral Stricture,HAS_SYMPTOM,Frequent Micrturition,40101438
+Urethral Stricture,HAS_SYMPTOM,Dribbling Of Urine,40101438
+Urethral Stricture,HAS_SYMPTOM,Dysuria,40101438
+Urethral Stricture,HAS_SYMPTOM,Urinary Dysfunction,40101438
+,,,
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Indigestion,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Fatigue,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Nausea,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Belching,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Itching,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Abdominal Pain,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Burning Sensation,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Abdominal Heaviness,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Abdominal Distension,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Flatulence,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Diarrhea,34908794
+Non-Alcoholic Fatty Liver Disease,HAS_SYMPTOM,Constipation,34908794
+,,,
+Hepatitis B,HAS_SYMPTOM,Yellowish Discoloration Of Urine,37554413
+Hepatitis B,HAS_SYMPTOM,Yellowish Discoloration Of Eyes,37554413
+Hepatitis B,HAS_SYMPTOM,Yellowish Discoloration Of Skin,37554413
+Hepatitis B,HAS_SYMPTOM,Fatigue,37554413
+Hepatitis B,HAS_SYMPTOM,Irritation,37554413
+Hepatitis B,HAS_SYMPTOM,Abdominal Pain,37554413
+Hepatitis B,HAS_SYMPTOM,Anorexia,37554413
+Hepatitis B,HAS_SYMPTOM,Weakness,37554413
+,,,
+Ulcerative Keratitis,HAS_SYMPTOM,Redness,30683497
+Ulcerative Keratitis,HAS_SYMPTOM,Discharge,30683497
+Ulcerative Keratitis,HAS_SYMPTOM,Photophobia,30683497
+Ulcerative Keratitis,HAS_SYMPTOM,Visual Impairment,30683497
+Ulcerative Keratitis,HAS_SYMPTOM,Pain,30683497
+Ulcerative Keratitis,HAS_SYMPTOM,Inflammation,30683497
+Ulcerative Keratitis,HAS_SYMPTOM,Discharge,30683497
+Ulcerative Keratitis,HAS_SYMPTOM,Ulcer,30683497
+,,,
+Autoimmune Pancreatitis,HAS_SYMPTOM,Coated Tongue,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Nausea,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Pain,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Burning Sensation,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Indigestion,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Heaviness,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Anorexia,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Obesity,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Coated Tongue,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Pedal Oedema,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Vomiting,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Weakness,33935442
+Autoimmune Pancreatitis,HAS_SYMPTOM,Fatigue,33935442
+,,,
+Ovarian Cyst,HAS_SYMPTOM,Abdominal Pain,35370374
+Ovarian Cyst,HAS_SYMPTOM,Back Pain,35370374
+Ovarian Cyst,HAS_SYMPTOM,Dysmenorrhea,35370374
+Ovarian Cyst,HAS_SYMPTOM,Breast Tenderness,35370374
+Ovarian Cyst,HAS_SYMPTOM,Dyspareunia,35370374
+Ovarian Cyst,HAS_SYMPTOM,Irregular Menstruation,35370374
+Ovarian Cyst,HAS_SYMPTOM,Scanty Menses,35370374
+Ovarian Cyst,HAS_SYMPTOM,Excessive Menstrual Bleeding,35370374
+Ovarian Cyst,HAS_SYMPTOM,Inter Menstrual Bleeding,35370374
+,,,
+Eczema,HAS_SYMPTOM,Itching,21455456
+Eczema,HAS_SYMPTOM,Burning Sensation,21455456
+Eczema,HAS_SYMPTOM,Oozing,21455456
+Eczema,HAS_SYMPTOM,Dryness,21455456
+Eczema,HAS_SYMPTOM,Scaling,21455456
+Eczema,HAS_SYMPTOM,Lesions,21455456
+Eczema,HAS_SYMPTOM,Discharge,21455456
+Eczema,HAS_SYMPTOM,Edema,21455456
+,,,
+Hypertension,HAS_SYMPTOM,Stress,24049408
+Hypertension,HAS_SYMPTOM,Grief,24049408
+Hypertension,HAS_SYMPTOM,Anxiety,24049408
+Hypertension,HAS_SYMPTOM,Anger,24049408
+Hypertension,HAS_SYMPTOM,Depression,24049408
+Hypertension,HAS_SYMPTOM,Lethargy,24049408
+Hypertension,HAS_SYMPTOM,Reduced Sleep,24049408
+Hypertension,HAS_SYMPTOM,Headache,24049408
+Hypertension,HAS_SYMPTOM,Giddiness,24049408
+Hypertension,HAS_SYMPTOM,Burning Sensation,24049408
+Hypertension,HAS_SYMPTOM,Confusion,24049408
+Hypertension,HAS_SYMPTOM,Fatigue,24049408
+Hypertension,HAS_SYMPTOM,Blackouts,24049408
+Hypertension,HAS_SYMPTOM,Restlessness,24049408
+Hypertension,HAS_SYMPTOM,Redness Of Eyes,24049408
+,,,
+Antiphospholipid Antibody Syndrome,HAS_SYMPTOM,Pain,29861595
+Antiphospholipid Antibody Syndrome,HAS_SYMPTOM,Stiffness,29861595
+Antiphospholipid Antibody Syndrome,HAS_SYMPTOM,Tenderness,29861595
+Antiphospholipid Antibody Syndrome,HAS_SYMPTOM,Swelling,29861595
+Antiphospholipid Antibody Syndrome,HAS_SYMPTOM,Deformity,29861595
+Antiphospholipid Antibody Syndrome,HAS_SYMPTOM,Seizures,29861595
+Antiphospholipid Antibody Syndrome,HAS_SYMPTOM,Edema,29861595
+,,,
+Vasculitis,HAS_SYMPTOM,Abdominal Pain,32165016
+Vasculitis,HAS_SYMPTOM,Dysuria,32165016
+Vasculitis,HAS_SYMPTOM,Ulcer,32165016
+Vasculitis,HAS_SYMPTOM,Discoloration Of Toes,32165016
+Vasculitis,HAS_SYMPTOM,Numbness,32165016
+Vasculitis,HAS_SYMPTOM,Lesions,32165016
+Vasculitis,HAS_SYMPTOM,Hyperpigmentation,32165016
+Vasculitis,HAS_SYMPTOM,Scars,32165016
+Vasculitis,HAS_SYMPTOM,Erythematous Macule,32165016
+Vasculitis,HAS_SYMPTOM,Discharge,32165016
+,,,
+Major Depressive Disorder,HAS_SYMPTOM,Disrupted Sleep,34024690
+Major Depressive Disorder,HAS_SYMPTOM,Sadness,34024690
+Major Depressive Disorder,HAS_SYMPTOM,Wothlessness,34024690
+Major Depressive Disorder,HAS_SYMPTOM,Helplessness,34024690
+Major Depressive Disorder,HAS_SYMPTOM,Headache,34024690
+Major Depressive Disorder,HAS_SYMPTOM,Fatigue,34024690
+Major Depressive Disorder,HAS_SYMPTOM,Bilateral Tinnitus,34024690
+,,,
+Prurigo Nodularis,HAS_SYMPTOM,Itching,36455368
+Prurigo Nodularis,HAS_SYMPTOM,Pain,36455368
+Prurigo Nodularis,HAS_SYMPTOM,Discharge,36455368
+Prurigo Nodularis,HAS_SYMPTOM,Itchy Papules,36455368
+Prurigo Nodularis,HAS_SYMPTOM,Lesions,36455368
+Prurigo Nodularis,HAS_SYMPTOM,Oozing,36455368
+Prurigo Nodularis,HAS_SYMPTOM,Burning Sensation,36455368
+Prurigo Nodularis,HAS_SYMPTOM,Foul Smell,36455368
+,,,
+Eczema,HAS_SYMPTOM,Itching,30595628
+Eczema,HAS_SYMPTOM,Discharge,30595628
+Eczema,HAS_SYMPTOM,Burning Sensation,30595628
+Eczema,HAS_SYMPTOM,Eruption,30595628
+Eczema,HAS_SYMPTOM,Discoloration,30595628
+Eczema,HAS_SYMPTOM,Pain,30595628
+Eczema,HAS_SYMPTOM,Edema,30595628
+Eczema,HAS_SYMPTOM,Lesions,30595628
+Eczema,HAS_SYMPTOM,Scaling,30595628
+Eczema,HAS_SYMPTOM,Dryness,30595628
+Eczema,HAS_SYMPTOM,Oozing,30595628
+Eczema,HAS_SYMPTOM,Thickness,30595628
+,,,
+Obesity,HAS_SYMPTOM,Joint Pain,31143747
+Obesity,HAS_SYMPTOM,Dyspnea,31143747
+Obesity,HAS_SYMPTOM,Inability To Climb Stairs,31143747
+Obesity,HAS_SYMPTOM,Abnormal Gait,31143747
+Obesity,HAS_SYMPTOM,Disturbed Sleep,31143747
+Obesity,HAS_SYMPTOM,Indigestion,31143747
+,,,
+Venous Ulcer,HAS_SYMPTOM,Pain,24501445
+Venous Ulcer,HAS_SYMPTOM,Burning Sensation,24501445
+Venous Ulcer,HAS_SYMPTOM,Edema,24501445
+Venous Ulcer,HAS_SYMPTOM,Discoloration,24501445
+Venous Ulcer,HAS_SYMPTOM,Secretion,24501445
+Venous Ulcer,HAS_SYMPTOM,Redness,24501445
+Venous Ulcer,HAS_SYMPTOM,Elevated Margin,24501445
+Venous Ulcer,HAS_SYMPTOM,Swelling,24501445
+,,,
+Post-Traumatic Trigeminal Neuropathy,HAS_SYMPTOM,Disrupted Sleep,40614618
+Post-Traumatic Trigeminal Neuropathy,HAS_SYMPTOM,Pain,40614618
+,,,
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Pain,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Discharge,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Discharge,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Burning Sensation,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Blackish Discoloration,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Foul Smell,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Excess Sweating,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Dribbling Of Urine,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Anorexia,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Oliguria,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Pedal Oedema,41747605
+Chronic Non-Healing Ulcer,HAS_SYMPTOM,Abdominal Distension,41747605
+,,,
+Venous Ulcer,HAS_SYMPTOM,Pain,37244010
+Venous Ulcer,HAS_SYMPTOM,Foul Smell,37244010
+Venous Ulcer,HAS_SYMPTOM,Disrupted Sleep,37244010
+Venous Ulcer,HAS_SYMPTOM,Ulcer,37244010
+Venous Ulcer,HAS_SYMPTOM,Inflammation,37244010
+Venous Ulcer,HAS_SYMPTOM,Redness,37244010
+Venous Ulcer,HAS_SYMPTOM,Reduced Mobility,37244010
+,,,
+Takayasu Arteritis,HAS_SYMPTOM,Tingling,34908792
+Takayasu Arteritis,HAS_SYMPTOM,Numbness,34908792
+Takayasu Arteritis,HAS_SYMPTOM,Fatigue,34908792
+Takayasu Arteritis,HAS_SYMPTOM,Headache,34908792
+Takayasu Arteritis,HAS_SYMPTOM,Dizziness,34908792
+Takayasu Arteritis,HAS_SYMPTOM,Chest Pain,34908792
+,,,
+Acute Upper Limb Ischemia,HAS_SYMPTOM,Numbness,38537487
+Acute Upper Limb Ischemia,HAS_SYMPTOM,Pain,38537487
+Acute Upper Limb Ischemia,HAS_SYMPTOM,Headache,38537487
+Acute Upper Limb Ischemia,HAS_SYMPTOM,Discoloration,38537487
+Acute Upper Limb Ischemia,HAS_SYMPTOM,Weakness,38537487
+Acute Upper Limb Ischemia,HAS_SYMPTOM,Dizziness,38537487
+,,,
+Esophageal Squamous Cell Carcinoma,HAS_SYMPTOM,Dysphagia,39926936
+Esophageal Squamous Cell Carcinoma,HAS_SYMPTOM,Inability To Burp,39926936
+Esophageal Squamous Cell Carcinoma,HAS_SYMPTOM,Nausea,39926936
+Esophageal Squamous Cell Carcinoma,HAS_SYMPTOM,Indigestion,39926936
+Esophageal Squamous Cell Carcinoma,HAS_SYMPTOM,Heartburn,39926936
+Esophageal Squamous Cell Carcinoma,HAS_SYMPTOM,Hoarseness Of Voice,39926936
+Esophageal Squamous Cell Carcinoma,HAS_SYMPTOM,Pain,39926936
+Esophageal Squamous Cell Carcinoma,HAS_SYMPTOM,Vomiting,39926936
+Esophageal Squamous Cell Carcinoma,HAS_SYMPTOM,Gagging,39926936
+Esophageal Squamous Cell Carcinoma,HAS_SYMPTOM,Mild Constipation,39926936
+,,,
+Diplopia,HAS_SYMPTOM,Eye Misalignment,38507966
+Diplopia,HAS_SYMPTOM,Stupor,38507966
+Diplopia,HAS_SYMPTOM,Exotropia,38507966
+Diplopia,HAS_SYMPTOM,Hypotropia,38507966
+Diplopia,HAS_SYMPTOM,Restricted Eye Movement,38507966
+Diplopia,HAS_SYMPTOM,Diplopia,38507966
+Diplopia,HAS_SYMPTOM,Difficulty In Upward Gaze,38507966
+,,,
+Central Serous Retinopathy,HAS_SYMPTOM,Blurred Vision,41488094
+Central Serous Retinopathy,HAS_SYMPTOM,Reduced Visual Acuity,41488094
+Central Serous Retinopathy,HAS_SYMPTOM,Macular Edema,41488094
+Central Serous Retinopathy,HAS_SYMPTOM,Dry Skin,41488094
+Central Serous Retinopathy,HAS_SYMPTOM,Disturbed Sleep,41488094
+Central Serous Retinopathy,HAS_SYMPTOM,Constipation,41488094
+Central Serous Retinopathy,HAS_SYMPTOM,Stress,41488094
+Central Serous Retinopathy,HAS_SYMPTOM,Distortion,41488094
+Central Serous Retinopathy,HAS_SYMPTOM,Loss Of Vision,41488094
+Central Serous Retinopathy,HAS_SYMPTOM,Mental Restlessness,41488094
+,,,
+Bell's Palsy,HAS_SYMPTOM,Heaviness,36403502
+Bell's Palsy,HAS_SYMPTOM,Swelling,36403502
+Bell's Palsy,HAS_SYMPTOM,Face Deviation,36403502
+Bell's Palsy,HAS_SYMPTOM,Difficulty In Closing Eyes,36403502
+Bell's Palsy,HAS_SYMPTOM,Dysphagia,36403502
+Bell's Palsy,HAS_SYMPTOM,Mouth Deviation,36403502
+Bell's Palsy,HAS_SYMPTOM,Dribbling Of Urine,36403502
+Bell's Palsy,HAS_SYMPTOM,Spilling Of Food From Mouth,36403502
+Bell's Palsy,HAS_SYMPTOM,Slurred Speech,36403502
+,,,
+Migraine,HAS_SYMPTOM,Pain,36384709
+Migraine,HAS_SYMPTOM,Sensitivity To Light,36384709
+Migraine,HAS_SYMPTOM,Nausea,36384709
+Migraine,HAS_SYMPTOM,Headache,36384709
+Migraine,HAS_SYMPTOM,Sensitivity To Sound,36384709
+Migraine,HAS_SYMPTOM,Anxiety,36384709
+Migraine,HAS_SYMPTOM,Anger,36384709
+,,,
+Hemifacial Spasm,HAS_SYMPTOM,Eye Twitching,37076181
+Hemifacial Spasm,HAS_SYMPTOM,Face Twitching,37076181
+Hemifacial Spasm,HAS_SYMPTOM,Contraction Of Facial Muscles,37076181
+Hemifacial Spasm,HAS_SYMPTOM,Face Deviation,37076181
+Hemifacial Spasm,HAS_SYMPTOM,Eybrows Twitching,37076181
+Hemifacial Spasm,HAS_SYMPTOM,Disrupted Sleep,37076181
+Hemifacial Spasm,HAS_SYMPTOM,Watery Eyes,37076181
+,,,
+Episodic Cluster Headache,HAS_SYMPTOM,Headache,39608299
+Episodic Cluster Headache,HAS_SYMPTOM,Pain,39608299
+Episodic Cluster Headache,HAS_SYMPTOM,Nocturia,39608299
+Episodic Cluster Headache,HAS_SYMPTOM,Lacrimation,39608299
+Episodic Cluster Headache,HAS_SYMPTOM,Nausea,39608299
+Episodic Cluster Headache,HAS_SYMPTOM,Vomiting,39608299
+Episodic Cluster Headache,HAS_SYMPTOM,Sensitivity To Light,39608299
+Episodic Cluster Headache,HAS_SYMPTOM,Sensitivity To Sound,39608299
+Episodic Cluster Headache,HAS_SYMPTOM,Visual Disturbance,39608299
+Episodic Cluster Headache,HAS_SYMPTOM,Disrupted Sleep,39608299
+Episodic Cluster Headache,HAS_SYMPTOM,Restlessness,39608299
+,,,
+Sinusitis,HAS_SYMPTOM,Nasal Discharge,22557218
+Sinusitis,HAS_SYMPTOM,Nasal Congestion,22557218
+Sinusitis,HAS_SYMPTOM,Tenderness,22557218
+Sinusitis,HAS_SYMPTOM,Facial Pain,22557218
+Sinusitis,HAS_SYMPTOM,Sinus Pain,22557218
+Sinusitis,HAS_SYMPTOM,Postnasal Drip,22557218
+Sinusitis,HAS_SYMPTOM,Headache,22557218
+,,,
+Trigeminal Neuralgia,HAS_SYMPTOM,Pain,37494834
+Trigeminal Neuralgia,HAS_SYMPTOM,Anxiety,37494834
+Trigeminal Neuralgia,HAS_SYMPTOM,Depression,37494834
+Trigeminal Neuralgia,HAS_SYMPTOM,Facial Pain,37494834
+Trigeminal Neuralgia,HAS_SYMPTOM,Paroxysmal Pain,37494834
+,,,
+Chronic Alchoholism,HAS_SYMPTOM,Weakness,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Body Ache,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Aphasia,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Confusion,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Fever,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Thirst,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Cough,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Headache,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Numbness,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Slurred Speech,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Coated Tongue,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Dry Skin,38241882
+Chronic Alchoholism,HAS_SYMPTOM,Constipation,38241882
+,,,
+Meibomian Gland Dysfunction,HAS_SYMPTOM,Dryness,41647025
+Meibomian Gland Dysfunction,HAS_SYMPTOM,Irritation,41647025
+Meibomian Gland Dysfunction,HAS_SYMPTOM,Fatigue,41647025
+Meibomian Gland Dysfunction,HAS_SYMPTOM,Inflammation,41647025
+,,,
+Ankylosing Spondylitis,HAS_SYMPTOM,Lower Back Pain,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Deformity Of Spine,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Deformity Of Hip,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Disrupted Sleep,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Indigestion,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Stiffness,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Pain,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Restricted Neck Movements,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Anxiety,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Sleeplessness,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Decreased Vitality,27297511
+Ankylosing Spondylitis,HAS_SYMPTOM,Muscle Weakness,27297511
+,,,
+Chronic Sinusitis,HAS_SYMPTOM,Nasal Congestion,22131734
+Chronic Sinusitis,HAS_SYMPTOM,Nasal Discharge,22131734
+Chronic Sinusitis,HAS_SYMPTOM,Headache,22131734
+Chronic Sinusitis,HAS_SYMPTOM,Anosmia,22131734
+Chronic Sinusitis,HAS_SYMPTOM,Heaviness,22131734
+Chronic Sinusitis,HAS_SYMPTOM,Inflammation,22131734
+,,,
+Primary Insomnia,HAS_SYMPTOM,Disrupted Sleep,35370376
+Primary Insomnia,HAS_SYMPTOM,Stress,35370376
+Primary Insomnia,HAS_SYMPTOM,Anxiety,35370376
+Primary Insomnia,HAS_SYMPTOM,Daytime Dysfunction,35370376
+,,,
+Cervical Spondylosis,HAS_SYMPTOM,Neck Stiffness,23049188
+Cervical Spondylosis,HAS_SYMPTOM,Neck Pain,23049188
+Cervical Spondylosis,HAS_SYMPTOM,Numbness,23049188
+Cervical Spondylosis,HAS_SYMPTOM,Vertigo,23049188
+Cervical Spondylosis,HAS_SYMPTOM,Restricted Neck Movements,23049188
+Cervical Spondylosis,HAS_SYMPTOM,Weakness,23049188
+,,,
+Coma,HAS_SYMPTOM,Fatigue,27621522
+Coma,HAS_SYMPTOM,No Response To Verbal Stimuli,27621522
+Coma,HAS_SYMPTOM,No Response To Painful Stimuli,27621522
+Coma,HAS_SYMPTOM,Inability To Open Eyes,27621522
+Coma,HAS_SYMPTOM,Absence Of Voluntary Actions,27621522
+Coma,HAS_SYMPTOM,Lack Of Motor Activity,27621522
+,,,
+Traumatic Optic Neuropathy,HAS_SYMPTOM,Diminished Vision,34844840
+Traumatic Optic Neuropathy,HAS_SYMPTOM,Loss Of Vision,34844840
+Traumatic Optic Neuropathy,HAS_SYMPTOM,Visual Impairment,34844840
+Traumatic Optic Neuropathy,HAS_SYMPTOM,Blurred Vision,34844840
+Traumatic Optic Neuropathy,HAS_SYMPTOM,Visual Impairment,34844840
+,,,
+Myopia,HAS_SYMPTOM,Blurred Vision,22048542
+Myopia,HAS_SYMPTOM,Difficulty In Night Vision,22048542
+Myopia,HAS_SYMPTOM,Headache,22048542
+Myopia,HAS_SYMPTOM,Visual Fatigue,22048542
+Myopia,HAS_SYMPTOM,Discomfort,22048542
+Myopia,HAS_SYMPTOM,Reduced Clarity,22048542
+Myopia,HAS_SYMPTOM,Visual Impairment,22048542
+Myopia,HAS_SYMPTOM,Diplopia,22048542
+Myopia,HAS_SYMPTOM,Burning Sensation,22048542
+Myopia,HAS_SYMPTOM,Watery Eyes,22048542
+,,,
+Migraine,HAS_SYMPTOM,Pain,39454285
+Migraine,HAS_SYMPTOM,Nausea,39454285
+Migraine,HAS_SYMPTOM,Vomiting,39454285
+Migraine,HAS_SYMPTOM,Burning Sensation,39454285
+Migraine,HAS_SYMPTOM,Sour Belching,39454285
+Migraine,HAS_SYMPTOM,Anxiety,39454285
+Migraine,HAS_SYMPTOM,Insomnia,39454285
+Migraine,HAS_SYMPTOM,Headache,39454285
+Migraine,HAS_SYMPTOM,Hyperacidity,39454285
+,,,
+Papilledema,HAS_SYMPTOM,Blurred Vision,27011720
+Papilledema,HAS_SYMPTOM,Heaviness,27011720
+Papilledema,HAS_SYMPTOM,Pain,27011720
+Papilledema,HAS_SYMPTOM,Weakness,27011720
+Papilledema,HAS_SYMPTOM,Swelling,27011720
+Papilledema,HAS_SYMPTOM,Inflammation,27011720
+,,,
+Sciatica,HAS_SYMPTOM,Pain,28827952
+Sciatica,HAS_SYMPTOM,Pricking,28827952
+Sciatica,HAS_SYMPTOM,Stiffness,28827952
+Sciatica,HAS_SYMPTOM,Fasciculation,28827952
+Sciatica,HAS_SYMPTOM,Tingling,28827952
+Sciatica,HAS_SYMPTOM,Numbness,28827952
+Sciatica,HAS_SYMPTOM,Abnormal Gait,28827952
+,,,
+Eczema,HAS_SYMPTOM,Itching,23723667
+Eczema,HAS_SYMPTOM,Discharge,23723667
+Eczema,HAS_SYMPTOM,Hyperpigmentation,23723667
+Eczema,HAS_SYMPTOM,Thickness,23723667
+Eczema,HAS_SYMPTOM,Irritation,23723667
+Eczema,HAS_SYMPTOM,Disrupted Sleep,23723667
+Eczema,HAS_SYMPTOM,Dry Skin,23723667
+Eczema,HAS_SYMPTOM,Anorexia,23723667
+Eczema,HAS_SYMPTOM,Eruption,23723667
+Eczema,HAS_SYMPTOM,Bleeding,23723667
+Eczema,HAS_SYMPTOM,Constipation,23723667
+Eczema,HAS_SYMPTOM,General Debility,23723667
+Eczema,HAS_SYMPTOM,Crepitus,23723667
+Eczema,HAS_SYMPTOM,Giddiness,23723667
+Eczema,HAS_SYMPTOM,Indigestion,23723667
+Eczema,HAS_SYMPTOM,Blackouts,23723667
+,,,
+Bronchial Asthma,HAS_SYMPTOM,Dyspnea,29861586
+Bronchial Asthma,HAS_SYMPTOM,Cough,29861586
+Bronchial Asthma,HAS_SYMPTOM,Wheezing,29861586
+Bronchial Asthma,HAS_SYMPTOM,Chest Tightness,29861586
+Bronchial Asthma,HAS_SYMPTOM,Throat Irritation,29861586
+Bronchial Asthma,HAS_SYMPTOM,Expectoration,29861586
+Bronchial Asthma,HAS_SYMPTOM,Thirst,29861586
+Bronchial Asthma,HAS_SYMPTOM,Rhonchi,29861586
+Bronchial Asthma,HAS_SYMPTOM,Crepitus,29861586
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Stiffness,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Tenderness,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Body Ache,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Anorexia,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Polydipsia,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Lethargy,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Heaviness,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Fever,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Indigestion,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Polyuria,29200748
+Rheumatoid Arthritis,HAS_SYMPTOM,Pain,29200748
+,,,
+Sciatica,HAS_SYMPTOM,Pain,22048539
+Sciatica,HAS_SYMPTOM,Weakness,22048539
+Sciatica,HAS_SYMPTOM,Numbness,22048539
+Sciatica,HAS_SYMPTOM,Joint Pain,22048539
+Sciatica,HAS_SYMPTOM,Loss Of Appetite,22048539
+Sciatica,HAS_SYMPTOM,Heaviness,22048539
+Sciatica,HAS_SYMPTOM,Muscle Twitching,22048539
+Sciatica,HAS_SYMPTOM,Drowsiness,22048539
+Sciatica,HAS_SYMPTOM,Spinal Deformity,22048539
+,,,
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Retention,30783359
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Incomplete Void,30783359
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Dribbling Of Urine,30783359
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Hesitancy,30783359
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Urinary Dysfunction,30783359
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Nocturia,30783359
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Haematuria,30783359
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Dysuria,30783359
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Dysuria,30783359
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Urinary Dysfunction,30783359
+,,,
+Endometrial Calcification,HAS_SYMPTOM,Scanty Menses,38070240
+Endometrial Calcification,HAS_SYMPTOM,White Discharge,38070240
+Endometrial Calcification,HAS_SYMPTOM,Irregular Menstruation,38070240
+Endometrial Calcification,HAS_SYMPTOM,Secondary Infertility,38070240
+Endometrial Calcification,HAS_SYMPTOM,Dysmenorrhea,38070240
+Endometrial Calcification,HAS_SYMPTOM,Pelvic Pain,38070240
+,,,
+Female Infertility,HAS_SYMPTOM,Secondary Infertility,33935438
+Female Infertility,HAS_SYMPTOM,Dysmenorrhea,33935438
+Female Infertility,HAS_SYMPTOM,Irregular Menstruation,33935438
+,,,
+Hypertension,HAS_SYMPTOM,Headache,31367149
+Hypertension,HAS_SYMPTOM,Giddiness,31367149
+Hypertension,HAS_SYMPTOM,Fatigue,31367149
+Hypertension,HAS_SYMPTOM,Palpitation,31367149
+Hypertension,HAS_SYMPTOM,Excess Sweating,31367149
+Hypertension,HAS_SYMPTOM,Insomnia,31367149
+,,,
+Non-Progess Of Labor,HAS_SYMPTOM,Abdominal Pain,37651756
+Non-Progess Of Labor,HAS_SYMPTOM,Abdominal Distension,37651756
+,,,
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Incomplete Void,27011713
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Intermittency,27011713
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Urinary Dysfunction,27011713
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Straining,27011713
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Nocturia,27011713
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Urgency,27011713
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Dysuria,27011713
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Dysuria,27011713
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Dribbling Of Urine,27011713
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Joint Pain,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Stiffness,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Tenderness,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Inflammation,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Fever,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Nausea,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Indigestion,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Loss Of Appetite,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Body Ache,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Heaviness,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Polydipsia,23049184
+Rheumatoid Arthritis,HAS_SYMPTOM,Weakness,23049184
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Joint Pain,22131764
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,22131764
+Rheumatoid Arthritis,HAS_SYMPTOM,Stiffness,22131764
+Rheumatoid Arthritis,HAS_SYMPTOM,Tenderness,22131764
+,,,
+Hyperlipidemia,HAS_SYMPTOM,Flabbiness,24696569
+Hyperlipidemia,HAS_SYMPTOM,Lethargy,24696569
+Hyperlipidemia,HAS_SYMPTOM,Dyspnea,24696569
+Hyperlipidemia,HAS_SYMPTOM,Weakness,24696569
+Hyperlipidemia,HAS_SYMPTOM,Hypersomnia,24696569
+Hyperlipidemia,HAS_SYMPTOM,Excess Sweating,24696569
+Hyperlipidemia,HAS_SYMPTOM,Body Odor,24696569
+Hyperlipidemia,HAS_SYMPTOM,Oily Body Luster,24696569
+Hyperlipidemia,HAS_SYMPTOM,Polydipsia,24696569
+Hyperlipidemia,HAS_SYMPTOM,Polyphagia,24696569
+Hyperlipidemia,HAS_SYMPTOM,Heaviness,24696569
+Hyperlipidemia,HAS_SYMPTOM,Joint Pain,24696569
+Hyperlipidemia,HAS_SYMPTOM,Fatigue,24696569
+,,,
+Lumbar Spondylosis,HAS_SYMPTOM,Degeneration,24049403
+Lumbar Spondylosis,HAS_SYMPTOM,Stiffness,24049403
+Lumbar Spondylosis,HAS_SYMPTOM,Pain,24049403
+Lumbar Spondylosis,HAS_SYMPTOM,Numbness,24049403
+,,,
+Diabetes Mellitus,HAS_SYMPTOM,Cloudy Urine,23723672
+Diabetes Mellitus,HAS_SYMPTOM,Polyphagia,23723672
+Diabetes Mellitus,HAS_SYMPTOM,Polydipsia,23723672
+Diabetes Mellitus,HAS_SYMPTOM,Burning Sensation,23723672
+Diabetes Mellitus,HAS_SYMPTOM,Excess Sweating,23723672
+Diabetes Mellitus,HAS_SYMPTOM,Weakness,23723672
+,,,
+Urethral Stricture,HAS_SYMPTOM,Dysuria,22557426
+Urethral Stricture,HAS_SYMPTOM,Dribbling Of Urine,22557426
+Urethral Stricture,HAS_SYMPTOM,Urinary Dysfunction,22557426
+Urethral Stricture,HAS_SYMPTOM,Pain,22557426
+Urethral Stricture,HAS_SYMPTOM,Stricture,22557426
+Urethral Stricture,HAS_SYMPTOM,Dryness,22557426
+Urethral Stricture,HAS_SYMPTOM,Heaviness,22557426
+,,,
+Sclerosis,HAS_SYMPTOM,Skin Hardening,39303382
+Sclerosis,HAS_SYMPTOM,Depigmentation,39303382
+Sclerosis,HAS_SYMPTOM,Stiffness,39303382
+Sclerosis,HAS_SYMPTOM,Weakness,39303382
+Sclerosis,HAS_SYMPTOM,Joint Pain,39303382
+Sclerosis,HAS_SYMPTOM,Anorexia,39303382
+Sclerosis,HAS_SYMPTOM,Constipation,39303382
+Sclerosis,HAS_SYMPTOM,Burning Sensation,39303382
+Sclerosis,HAS_SYMPTOM,Vomiting,39303382
+Sclerosis,HAS_SYMPTOM,Diarrhea,39303382
+Sclerosis,HAS_SYMPTOM,Sour Belching,39303382
+Sclerosis,HAS_SYMPTOM,Weight Loss,39303382
+Sclerosis,HAS_SYMPTOM,Joint Pain,39303382
+Sclerosis,HAS_SYMPTOM,Sleeplessness,39303382
+,,,
+Cerebral Palsy,HAS_SYMPTOM,Loss Of Interest In Activities,24872933
+Cerebral Palsy,HAS_SYMPTOM,Stammering,24872933
+Cerebral Palsy,HAS_SYMPTOM,Dubmness,24872933
+Cerebral Palsy,HAS_SYMPTOM,Weakness,24872933
+Cerebral Palsy,HAS_SYMPTOM,Mental Derangement,24872933
+,,,
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Short Stature,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Deformity Of Hands,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Deformity Of Elbows,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Deformity Of Knees,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Lower Back Pain,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Pain,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Stiffness,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Dyspnea,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Abnormal Gait,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Anxiety,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Disrupted Sleep,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Constipation,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Dysuria,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Rough Skin,27890699
+Spondyloepiphyseal Dysplasia Tarda,HAS_SYMPTOM,Lean Body,27890699
+,,,
+Endometrioma,HAS_SYMPTOM,Painful Defecation,36604296
+Endometrioma,HAS_SYMPTOM,Dysmenorrhea,36604296
+Endometrioma,HAS_SYMPTOM,Breast Tenderness,36604296
+Endometrioma,HAS_SYMPTOM,Breast Pain,36604296
+Endometrioma,HAS_SYMPTOM,Increased Urine Frequency,36604296
+,,,
+Hirschsprung'S Disease,HAS_SYMPTOM,Constipation,29853328
+Hirschsprung'S Disease,HAS_SYMPTOM,Flatulence,29853328
+Hirschsprung'S Disease,HAS_SYMPTOM,Abdominal Distension,29853328
+Hirschsprung'S Disease,HAS_SYMPTOM,Abdominal Pain,29853328
+Hirschsprung'S Disease,HAS_SYMPTOM,Bowel Sounds,29853328
+,,,
+Osteoporosis,HAS_SYMPTOM,Pain,23049194
+Osteoporosis,HAS_SYMPTOM,Tenderness,23049194
+Osteoporosis,HAS_SYMPTOM,General Debility,23049194
+,,,
+Guillain-Barre Syndrome,HAS_SYMPTOM,Paralysis,26600668
+Guillain-Barre Syndrome,HAS_SYMPTOM,Quadriplegia,26600668
+Guillain-Barre Syndrome,HAS_SYMPTOM,Inability To Walk,26600668
+Guillain-Barre Syndrome,HAS_SYMPTOM,Inability To Stand,26600668
+Guillain-Barre Syndrome,HAS_SYMPTOM,Inability To Sit,26600668
+Guillain-Barre Syndrome,HAS_SYMPTOM,Dysphagia,26600668
+Guillain-Barre Syndrome,HAS_SYMPTOM,Dysarthia,26600668
+,,,
+Cervical Spondylotic Myelopathy,HAS_SYMPTOM,Neck Stiffness,28285113
+Cervical Spondylotic Myelopathy,HAS_SYMPTOM,Neck Pain,28285113
+Cervical Spondylotic Myelopathy,HAS_SYMPTOM,Arm Pain,28285113
+Cervical Spondylotic Myelopathy,HAS_SYMPTOM,Shoulder Pain,28285113
+Cervical Spondylotic Myelopathy,HAS_SYMPTOM,Abnormal Gait,28285113
+Cervical Spondylotic Myelopathy,HAS_SYMPTOM,Weakness,28285113
+Cervical Spondylotic Myelopathy,HAS_SYMPTOM,Giddiness,28285113
+Cervical Spondylotic Myelopathy,HAS_SYMPTOM,Numbness,28285113
+Cervical Spondylotic Myelopathy,HAS_SYMPTOM,Tingling,28285113
+Cervical Spondylotic Myelopathy,HAS_SYMPTOM,Anxiety,28285113
+,,,
+Bronchial Asthma,HAS_SYMPTOM,Dyspnea,38262328
+Bronchial Asthma,HAS_SYMPTOM,Cough,38262328
+Bronchial Asthma,HAS_SYMPTOM,Urgency,38262328
+Bronchial Asthma,HAS_SYMPTOM,Constipation,38262328
+Bronchial Asthma,HAS_SYMPTOM,Fever,38262328
+Bronchial Asthma,HAS_SYMPTOM,Coated Tongue,38262328
+,,,
+Urinary Incontinence,HAS_SYMPTOM,Urinary Dysfunction,39332103
+Urinary Incontinence,HAS_SYMPTOM,Disrupted Sleep,39332103
+Urinary Incontinence,HAS_SYMPTOM,Stress,39332103
+Urinary Incontinence,HAS_SYMPTOM,Anxiety,39332103
+Urinary Incontinence,HAS_SYMPTOM,Frustation,39332103
+,,,
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Inability To Walk,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Imbalance,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Memory Loss,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Episodes Of Spontaneous Laughing,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Anxiety,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Insomnia,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Mood Dysregulation,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Speech Impairment,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Visual Disturbance,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Abnormal Gait,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Postural Instability,23929996
+Progressive Supranuclear Palsy,HAS_SYMPTOM,Writing Difficulty,23929996
+,,,
+Avascular Necrosis,HAS_SYMPTOM,Pain,37741160
+Avascular Necrosis,HAS_SYMPTOM,Joint Pain,37741160
+Avascular Necrosis,HAS_SYMPTOM,Muscle Weakness,37741160
+Avascular Necrosis,HAS_SYMPTOM,Loss Of Strength,37741160
+Avascular Necrosis,HAS_SYMPTOM,Disrupted Sleep,37741160
+Avascular Necrosis,HAS_SYMPTOM,Abnormal Gait,37741160
+Avascular Necrosis,HAS_SYMPTOM,Anxiety,37741160
+Avascular Necrosis,HAS_SYMPTOM,Restricted Movement,37741160
+Avascular Necrosis,HAS_SYMPTOM,Tenderness,37741160
+,,,
+Poly Cystic Ovarian Disease,HAS_SYMPTOM,Irregular Menstruation,23559797
+Poly Cystic Ovarian Disease,HAS_SYMPTOM,Hyperandrogenism,23559797
+Poly Cystic Ovarian Disease,HAS_SYMPTOM,Obesity,23559797
+Poly Cystic Ovarian Disease,HAS_SYMPTOM,Infertility,23559797
+Poly Cystic Ovarian Disease,HAS_SYMPTOM,Painful Menstruation,23559797
+Poly Cystic Ovarian Disease,HAS_SYMPTOM,Worry,23559797
+Poly Cystic Ovarian Disease,HAS_SYMPTOM,Stress,23559797
+Poly Cystic Ovarian Disease,HAS_SYMPTOM,Hirsutism,23559797
+Poly Cystic Ovarian Disease,HAS_SYMPTOM,Dyspareunia,23559797
+,,,
+Dysmenorrhea,HAS_SYMPTOM,Pain,22131731
+Dysmenorrhea,HAS_SYMPTOM,Nausea,22131731
+Dysmenorrhea,HAS_SYMPTOM,Vomiting,22131731
+Dysmenorrhea,HAS_SYMPTOM,Constipation,22131731
+Dysmenorrhea,HAS_SYMPTOM,Diarrhea,22131731
+Dysmenorrhea,HAS_SYMPTOM,Fatigue,22131731
+Dysmenorrhea,HAS_SYMPTOM,Loss Of Appetite,22131731
+Dysmenorrhea,HAS_SYMPTOM,Headache,22131731
+Dysmenorrhea,HAS_SYMPTOM,Excess Sweating,22131731
+Dysmenorrhea,HAS_SYMPTOM,Fatigue,22131731
+,,,
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Increased Urine Frequency,23723674
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Incomplete Void,23723674
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Urinary Dysfunction,23723674
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Hesitancy,23723674
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Nocturia,23723674
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Urgency,23723674
+Benign Prostatic Hyperplasia,HAS_SYMPTOM,Dribbling Of Urine,23723674
+,,,
+Female Infertility,HAS_SYMPTOM,Secondary Infertility,24049410
+Female Infertility,HAS_SYMPTOM,White Discharge,24049410
+Female Infertility,HAS_SYMPTOM,Anovulation,24049410
+Female Infertility,HAS_SYMPTOM,Stress,24049410
+Female Infertility,HAS_SYMPTOM,Fear,24049410
+Female Infertility,HAS_SYMPTOM,Anger,24049410
+,,,
+Rheumatoid Arthritis,HAS_SYMPTOM,Pain,28302414
+Rheumatoid Arthritis,HAS_SYMPTOM,Swelling,28302414
+Rheumatoid Arthritis,HAS_SYMPTOM,Stiffness,28302414
+Rheumatoid Arthritis,HAS_SYMPTOM,Anorexia,28302414
+Rheumatoid Arthritis,HAS_SYMPTOM,Body Ache,28302414
+Rheumatoid Arthritis,HAS_SYMPTOM,Tenderness,28302414
+,,,
+Juvenile Spondyloarthritis,HAS_SYMPTOM,Inability To Stand,32768345
+Juvenile Spondyloarthritis,HAS_SYMPTOM,Inability To Walk,32768345
+Juvenile Spondyloarthritis,HAS_SYMPTOM,Joint Pain,32768345
+Juvenile Spondyloarthritis,HAS_SYMPTOM,Swelling,32768345
+Juvenile Spondyloarthritis,HAS_SYMPTOM,Abdominal Pain,32768345
+Juvenile Spondyloarthritis,HAS_SYMPTOM,Loss Of Appetite,32768345
+Juvenile Spondyloarthritis,HAS_SYMPTOM,Fever,32768345
+,,,
+Lumbar Disc Herniation,HAS_SYMPTOM,Lower Back Pain,38006747
+Lumbar Disc Herniation,HAS_SYMPTOM,Disability,38006747
+Lumbar Disc Herniation,HAS_SYMPTOM,Numbness,38006747
+,,,
+Limb-Girdle Muscular Dystrophy,HAS_SYMPTOM,Lower Back Pain,34961685
+Limb-Girdle Muscular Dystrophy,HAS_SYMPTOM,Abnormal Gait,34961685
+Limb-Girdle Muscular Dystrophy,HAS_SYMPTOM,Weakness,34961685
+Limb-Girdle Muscular Dystrophy,HAS_SYMPTOM,Heaviness,34961685
+Limb-Girdle Muscular Dystrophy,HAS_SYMPTOM,Diminished Reflexes,34961685
+,,,
+Acute Prolapsed Inter-Vertebral Disc,HAS_SYMPTOM,Lower Back Pain,35661935
+Acute Prolapsed Inter-Vertebral Disc,HAS_SYMPTOM,Disability,35661935
+Acute Prolapsed Inter-Vertebral Disc,HAS_SYMPTOM,Pain,35661935
+Acute Prolapsed Inter-Vertebral Disc,HAS_SYMPTOM,Stiffness,35661935
+Acute Prolapsed Inter-Vertebral Disc,HAS_SYMPTOM,Paraesthesia,35661935
+,,,
+Chronic Low Back Pain,HAS_SYMPTOM,Lower Back Pain,39182253
+Chronic Low Back Pain,HAS_SYMPTOM,Pain,39182253
+Chronic Low Back Pain,HAS_SYMPTOM,Disability,39182253
+Chronic Low Back Pain,HAS_SYMPTOM,Depression,39182253
+Chronic Low Back Pain,HAS_SYMPTOM,Stress,39182253
+,,,
+Tubal Blockage,HAS_SYMPTOM,Anovulation,22048533
+Tubal Blockage,HAS_SYMPTOM,Abdominal Pain,22048533
+Tubal Blockage,HAS_SYMPTOM,Oligomenorrhea,22048533
+Tubal Blockage,HAS_SYMPTOM,Hypomenorrhea,22048533
+Tubal Blockage,HAS_SYMPTOM,Dysmenorrhea,22048533
+Tubal Blockage,HAS_SYMPTOM,Hypomenorrhea,22048533
+,,,
+Osteoarthritis,HAS_SYMPTOM,Crepitus,25558159
+Osteoarthritis,HAS_SYMPTOM,Tenderness,25558159
+Osteoarthritis,HAS_SYMPTOM,Swelling,25558159
+Osteoarthritis,HAS_SYMPTOM,Pain,25558159
+Osteoarthritis,HAS_SYMPTOM,Dysfunction,25558159
+Osteoarthritis,HAS_SYMPTOM,Loss Of Mobility,25558159
+Osteoarthritis,HAS_SYMPTOM,Disability,25558159
+,,,
+Bleeding Piles,HAS_SYMPTOM,Hemorrhage,22408301
+Bleeding Piles,HAS_SYMPTOM,Pain,22408301
+Bleeding Piles,HAS_SYMPTOM,Prolapsed Pile Mass,22408301
+Bleeding Piles,HAS_SYMPTOM,Constipation,22408301
+Bleeding Piles,HAS_SYMPTOM,Discharge,22408301
+Bleeding Piles,HAS_SYMPTOM,Itching,22408301
+Bleeding Piles,HAS_SYMPTOM,Anemia,22408301
+,,,
+Lumbar Myelomeningocele,HAS_SYMPTOM,Urinary Dysfunction,25737612
+Lumbar Myelomeningocele,HAS_SYMPTOM,Hard Stools,25737612
+Lumbar Myelomeningocele,HAS_SYMPTOM,Weakness,25737612
+Lumbar Myelomeningocele,HAS_SYMPTOM,Deformity,25737612
+Lumbar Myelomeningocele,HAS_SYMPTOM,Reduced Sensation,25737612
+,,,
+Ulcerative Colitis,HAS_SYMPTOM,Bleeding Stool,22048543
+Ulcerative Colitis,HAS_SYMPTOM,Abdominal Pain,22048543
+Ulcerative Colitis,HAS_SYMPTOM,Weakness,22048543
+,,,
+Cerebral Palsy,HAS_SYMPTOM,Dubmness,26120232
+Cerebral Palsy,HAS_SYMPTOM,Monoplegia,26120232
+Cerebral Palsy,HAS_SYMPTOM,Quadriplegia,26120232
+Cerebral Palsy,HAS_SYMPTOM,Hemiparesis,26120232
+Cerebral Palsy,HAS_SYMPTOM,Hemiplegia,26120232
+Cerebral Palsy,HAS_SYMPTOM,Stress,26120232
+,,,
+Dysuria,HAS_SYMPTOM,Weakness,41637849
+Dysuria,HAS_SYMPTOM,Poor Appetite,41637849
+Dysuria,HAS_SYMPTOM,Irritable Bowel,41637849
+Dysuria,HAS_SYMPTOM,Irritation,41637849
+Dysuria,HAS_SYMPTOM,Inability To Stand,41637849
+Dysuria,HAS_SYMPTOM,Abnormal Gait,41637849
+,,,
+Urethral Stricture,HAS_SYMPTOM,Incomplete Void,24250127
+Urethral Stricture,HAS_SYMPTOM,Dribbling Of Urine,24250127
+Urethral Stricture,HAS_SYMPTOM,Urinary Dysfunction,24250127
+Urethral Stricture,HAS_SYMPTOM,Frequent Micrturition,24250127
+Urethral Stricture,HAS_SYMPTOM,Increased Urine Frequency,24250127
+Urethral Stricture,HAS_SYMPTOM,Straining,24250127
+Urethral Stricture,HAS_SYMPTOM,Weak Stream,24250127
+,,,
+Oligozoospermia,HAS_SYMPTOM,Infertility,22408309

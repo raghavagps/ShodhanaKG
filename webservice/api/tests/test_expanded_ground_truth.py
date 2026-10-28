@@ -62,7 +62,7 @@ class ExpandedReferenceTests(unittest.TestCase):
         inventory=json.loads((ROOT/'traversal_inventory.json').read_text(encoding='utf-8'))
         entries=next(v for v in inventory.values() if isinstance(v,list) and v and isinstance(v[0],dict) and 'endpoint' in v[0])
         self.assertEqual(set(CONTRACTS),{e['endpoint'] for e in entries})
-        self.assertEqual(len(CONTRACTS),52)
+        self.assertEqual(len(CONTRACTS),53)
 
     def test_original_snapshot_and_references_are_preserved(self):
         original=json.loads((ROOT/'factual_graph_snapshot.json').read_text(encoding='utf-8'))
@@ -96,6 +96,19 @@ class ExpandedReferenceTests(unittest.TestCase):
             self.assertEqual(ref['audit'],case['expected_result_source_paths'],case['id'])
             self.assertEqual(ref['forbidden'],case['forbidden_results'],case['id'])
             self.assertEqual(len(ref['rows']),case['expected_result_count'])
+
+
+    def test_all_allowlisted_endpoints_have_evaluation_cases(self):
+        import re
+        orchestrator_path = ROOT.parent.parent / 'core' / 'ChatbotOrchestrator.php'
+        orchestrator_text = orchestrator_path.read_text(encoding='utf-8')
+        allowlist = set(re.findall(r"'([a-z_]+)'\s*=>\s*'execute_\w+'", orchestrator_text))
+        self.assertEqual(len(allowlist), 53)
+        self.assertEqual(set(CONTRACTS), allowlist)
+        cases = json.loads((ROOT / 'expanded_factual_cases_v2.json').read_text(encoding='utf-8'))
+        covered_endpoints = {c['expected_endpoint'] for c in cases}
+        missing = allowlist - covered_endpoints
+        self.assertEqual(missing, set(), f"Allowlisted endpoints missing evaluation cases: {missing}")
 
 
 if __name__=='__main__':unittest.main()

@@ -511,5 +511,12 @@
     "expected_status": "success",
     "expected_endpoint": "toxic_substance_method",
     "expected_entity_type": "Toxic_Substance"
+  },
+  {
+    "id": "eval_coverage_compound_methods",
+    "question": "What methods are used to purify Copper?",
+    "expected_status": "success",
+    "expected_endpoint": "compound_methods",
+    "expected_entity_type": "Compound"
   }
 ]

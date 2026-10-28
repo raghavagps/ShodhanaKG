@@ -1,0 +1,367 @@
+﻿Disease,Relationship,Therapy,Ayush_ID
+Ankylosing Spondylitis,TREATED_BY,Deepana Pachana,257223
+Ankylosing Spondylitis,TREATED_BY,Virechana,257223
+Ankylosing Spondylitis,TREATED_BY,Ardhamatrika Basti,257223
+Ankylosing Spondylitis,TREATED_BY,Anuvasana Basti,257223
+Ankylosing Spondylitis,TREATED_BY,Dashamooladi Basti,257223
+,,,
+Ankylosing Spondylitis,TREATED_BY,Basti,163783
+Ankylosing Spondylitis,TREATED_BY,Swedana,163783
+,,,
+Amyotrophic Lateral Sclerosis,TREATED_BY,Pachana,240707
+Amyotrophic Lateral Sclerosis,TREATED_BY,Udvartana,240707
+Amyotrophic Lateral Sclerosis,TREATED_BY,Pradeha,240707
+Amyotrophic Lateral Sclerosis,TREATED_BY,Niruha Basti,240707
+Amyotrophic Lateral Sclerosis,TREATED_BY,Anuvasana Basti,240707
+Amyotrophic Lateral Sclerosis,TREATED_BY,Virechana,240707
+,,,
+Pityriasis Rubra Pilaris,TREATED_BY,Abhyanga,254481
+Pityriasis Rubra Pilaris,TREATED_BY,Swedana,254481
+Pityriasis Rubra Pilaris,TREATED_BY,Shirodhara,254481
+Pityriasis Rubra Pilaris,TREATED_BY,Basti,254481
+Pityriasis Rubra Pilaris,TREATED_BY,Raktamokshana,254481
+Pityriasis Rubra Pilaris,TREATED_BY,Nadi Swedana,254481
+,,,
+Acute Renal Calculus,TREATED_BY,Snehana,164098
+Acute Renal Calculus,TREATED_BY,Swedana,164098
+Acute Renal Calculus,TREATED_BY,Matra Basti,164098
+Acute Renal Calculus,TREATED_BY,Anuvasana Basti,164098
+Acute Renal Calculus,TREATED_BY,Niruha Basti,164098
+,,,
+Rett Syndrome,TREATED_BY,Nasya,216770
+Rett Syndrome,TREATED_BY,Shirodhara,216770
+Rett Syndrome,TREATED_BY,Utsadana,216770
+Rett Syndrome,TREATED_BY,Udvartana,216770
+Rett Syndrome,TREATED_BY,Taila Dhara,216770
+Rett Syndrome,TREATED_BY,Swedana,216770
+Rett Syndrome,TREATED_BY,Matra Basti,216770
+Rett Syndrome,TREATED_BY,Niruha Basti,216770
+,,,
+Neurogenic Bladder,TREATED_BY,Deepana Pachana,22455
+Neurogenic Bladder,TREATED_BY,Snehapana,22455
+Neurogenic Bladder,TREATED_BY,Abhyanga,22455
+Neurogenic Bladder,TREATED_BY,Swedana,22455
+Neurogenic Bladder,TREATED_BY,Virechana,22455
+Neurogenic Bladder,TREATED_BY,Samsarjana Karma,22455
+,,,
+Sciatica,TREATED_BY,Matra Basti,17779
+Sciatica,TREATED_BY,Kati Basti,17779
+,,,
+Knee Osteoarthritis,TREATED_BY,Abhyanga,257229
+Knee Osteoarthritis,TREATED_BY,Swedana,257229
+Knee Osteoarthritis,TREATED_BY,Ubhayapada,257229
+Knee Osteoarthritis,TREATED_BY,Anuvasana Basti,257229
+Knee Osteoarthritis,TREATED_BY,Basti,257229
+Knee Osteoarthritis,TREATED_BY,Niruha Basti,257229
+,,,
+Female Infertility,TREATED_BY,Uttarabasti,143266
+Female Infertility,TREATED_BY,Anuvasana Basti,143266
+Female Infertility,TREATED_BY,Niruha Basti,143266
+,,,
+Migraine,TREATED_BY,Pachana,238386
+Migraine,TREATED_BY,Nasya,238386
+Migraine,TREATED_BY,Anuvasana Basti,238386
+Migraine,TREATED_BY,Asthapana Basti,238386
+,,,
+Osteoarthritis,TREATED_BY,Matra Basti,257895
+Osteoarthritis,TREATED_BY,Janu Basti,257895
+,,,
+Cervical Spondylosis,TREATED_BY,Matra Basti,216736
+Cervical Spondylosis,TREATED_BY,Marsha Nasya,216736
+,,,
+Irritable Bowel Syndrome,TREATED_BY,Anuvasana Basti,254505
+Irritable Bowel Syndrome,TREATED_BY,Takra Basti,254505
+Irritable Bowel Syndrome,TREATED_BY,Niruha Basti,254505
+,,,
+Osteoarthritis,TREATED_BY,Matra Basti,257238
+,,,
+Cerebral Palsy,TREATED_BY,Deepana Pachana,96638
+Cerebral Palsy,TREATED_BY,Udvartana,96638
+Cerebral Palsy,TREATED_BY,Abhyanga,96638
+Cerebral Palsy,TREATED_BY,Nadi Swedana,96638
+Cerebral Palsy,TREATED_BY,Anuvasana Basti,96638
+Cerebral Palsy,TREATED_BY,Asthapana Basti,96638
+,,,
+Lumbo-Sacral Disorder,TREATED_BY,Kati Basti,2885
+,,,
+Sciatica,TREATED_BY,Matra Basti,165226
+,,,
+Piles,TREATED_BY,Takra Basti,9859
+,,,
+Lumbar Disc Herniation,TREATED_BY,Kati Basti,22827
+,,,
+Obesity,TREATED_BY,Lekhana Basti,16030
+,,,
+Obesity,TREATED_BY,Niruha Basti,121605
+Obesity,TREATED_BY,Anuvasana Basti,121605
+,,,
+Rheumatoid Arthritis,TREATED_BY,Niruha Basti,96745
+Rheumatoid Arthritis,TREATED_BY,Anuvasana Basti,96745
+,,,
+Tubal Blockage,TREATED_BY,Uttarabasti,96628
+,,,
+Rheumatoid Arthritis,TREATED_BY,Deepana Pachana,227025
+Rheumatoid Arthritis,TREATED_BY,Snehapana,227025
+Rheumatoid Arthritis,TREATED_BY,Abhyanga,227025
+Rheumatoid Arthritis,TREATED_BY,Swedana,227025
+Rheumatoid Arthritis,TREATED_BY,Samsarjana Karma,227025
+Rheumatoid Arthritis,TREATED_BY,Virechana,227025
+Rheumatoid Arthritis,TREATED_BY,Vaitarana Basti,227025
+,,,
+Cervical Spondylosis,TREATED_BY,Greeva Basti,237901
+Cervical Spondylosis,TREATED_BY,Nasya,237901
+,,,
+Dysmenorrhea,TREATED_BY,Matra Basti,164111
+,,,
+Chronic Kidney Disease,TREATED_BY,Basti,121566
+,,,
+Sciatica,TREATED_BY,Basti,107295
+,,,
+Lumbar Spinal Stenosis,TREATED_BY,Snehana,121753
+Lumbar Spinal Stenosis,TREATED_BY,Swedana,121753
+Lumbar Spinal Stenosis,TREATED_BY,Basti,121753
+,,,
+Chronic Low Back Pain,TREATED_BY,Swedana,121551
+Chronic Low Back Pain,TREATED_BY,Kati Basti,121551
+,,,
+Diabetes Mellitus,TREATED_BY,Niruha Basti,239363
+Diabetes Mellitus,TREATED_BY,Matra Basti,239363
+,,,
+Vasculitis,TREATED_BY,Virechana,227062
+Vasculitis,TREATED_BY,Anuvasana Basti,227062
+Vasculitis,TREATED_BY,Niruha Basti,227062
+Vasculitis,TREATED_BY,Vrana Prakshalana,227062
+Vasculitis,TREATED_BY,Snehana,227062
+Vasculitis,TREATED_BY,Abhyanga,227062
+Vasculitis,TREATED_BY,Samsarjana Karma,227062
+,,,
+Ankylosing Spondylitis,TREATED_BY,Sarvanga Parisheka,239277
+Ankylosing Spondylitis,TREATED_BY,Sarvanga Abhyanga,239277
+Ankylosing Spondylitis,TREATED_BY,Jalaukavacharana Karma,239277
+Ankylosing Spondylitis,TREATED_BY,Anuvasana Basti,239277
+Ankylosing Spondylitis,TREATED_BY,Niruha Basti,239277
+,,,
+Chronic Non-Healing Ulcer,TREATED_BY,Koshtha Shodhana,254906
+Chronic Non-Healing Ulcer,TREATED_BY,Anuvasana Basti,254906
+Chronic Non-Healing Ulcer,TREATED_BY,Kshara Basti,254906
+Chronic Non-Healing Ulcer,TREATED_BY,Sarvanga Abhyanga,254906
+Chronic Non-Healing Ulcer,TREATED_BY,Parisheka,254906
+Chronic Non-Healing Ulcer,TREATED_BY,Raktamokshana,254906
+,,,
+Alopecia,TREATED_BY,Deepana Pachana,238408
+Alopecia,TREATED_BY,Snehapana,238408
+Alopecia,TREATED_BY,Sarvanga Abhyanga,238408
+Alopecia,TREATED_BY,Bashpa Swedana,238408
+Alopecia,TREATED_BY,Vamana,238408
+Alopecia,TREATED_BY,Virechana,238408
+Alopecia,TREATED_BY,Basti,238408
+Alopecia,TREATED_BY,Mukha Abhyanga,238408
+Alopecia,TREATED_BY,Mukha Swedana,238408
+Alopecia,TREATED_BY,Nasya,238408
+,,,
+Rheumatoid Arthritis,TREATED_BY,Churna Basti,216742
+Rheumatoid Arthritis,TREATED_BY,Anuvasana Basti,216742
+,,,
+Venous Ulcer,TREATED_BY,Virechana,21942
+Venous Ulcer,TREATED_BY,Basti,21942
+Venous Ulcer,TREATED_BY,Anuvasana Basti,21942
+,,,
+Osteoarthritis,TREATED_BY,Anuvasana Basti,237938
+Osteoarthritis,TREATED_BY,Niruha Basti,237938
+,,,
+Female Infertility,TREATED_BY,Virechana,240293
+Female Infertility,TREATED_BY,Niruha Basti,240293
+Female Infertility,TREATED_BY,Anuvasana Basti,240293
+Female Infertility,TREATED_BY,Uttarabasti,240293
+,,,
+Sciatica,TREATED_BY,Niruha Basti,226987
+Sciatica,TREATED_BY,Anuvasana Basti,226987
+,,,
+Rheumatoid Arthritis,TREATED_BY,Niruha Basti,164937
+Rheumatoid Arthritis,TREATED_BY,Sneha Basti,164937
+,,,
+Diabetic Neuropathy,TREATED_BY,Snehana,256285
+Diabetic Neuropathy,TREATED_BY,Swedana,256285
+Diabetic Neuropathy,TREATED_BY,Matra Basti,256285
+Diabetic Neuropathy,TREATED_BY,Niruha Basti,256285
+Diabetic Neuropathy,TREATED_BY,Ksheera Basti,256285
+,,,
+Global Developmental Delay,TREATED_BY,Pratimarsha Nasya,256281
+Global Developmental Delay,TREATED_BY,Shirodhara,256281
+Global Developmental Delay,TREATED_BY,Sarvanga Abhyanga,256281
+Global Developmental Delay,TREATED_BY,Pinda Swedana,256281
+Global Developmental Delay,TREATED_BY,Matra Basti,256281
+,,,
+Avascular Necrosis,TREATED_BY,Sarvanga Abhyanga,7494
+Avascular Necrosis,TREATED_BY,Sarvanga Bashpa Swedana,7494
+Avascular Necrosis,TREATED_BY,Niruha Basti,7494
+Avascular Necrosis,TREATED_BY,Anuvasana Basti,7494
+,,,
+Haemorrhoids,TREATED_BY,Basti,164096
+,,,
+Ankylosing Spondylitis,TREATED_BY,Sarvanga Abhyanga,196064
+Ankylosing Spondylitis,TREATED_BY,Anuvasana Basti,196064
+Ankylosing Spondylitis,TREATED_BY,Patra Pottali Swedana,196064
+Ankylosing Spondylitis,TREATED_BY,Niruha Basti,196064
+,,,
+Post-Thrombotic Syndrome,TREATED_BY,Jalaukavacharana Karma,239160
+Post-Thrombotic Syndrome,TREATED_BY,Virechana,239160
+Post-Thrombotic Syndrome,TREATED_BY,Vrana Shodhana,239160
+Post-Thrombotic Syndrome,TREATED_BY,Vrana Ropana,239160
+Post-Thrombotic Syndrome,TREATED_BY,Snehapana,239160
+Post-Thrombotic Syndrome,TREATED_BY,Abhyanga,239160
+Post-Thrombotic Syndrome,TREATED_BY,Swedana,239160
+,,,
+Rheumatoid Arthritis,TREATED_BY,Patra Pottali Swedana,240689
+Rheumatoid Arthritis,TREATED_BY,Basti,240689
+Rheumatoid Arthritis,TREATED_BY,Jalaukavacharana Karma,240689
+,,,
+Endometrioma,TREATED_BY,Matra Basti,254496
+Endometrioma,TREATED_BY,Yoga Basti,254496
+,,,
+Cerebral Palsy,TREATED_BY,Abhyanga,121746
+Cerebral Palsy,TREATED_BY,Pinda Swedana,121746
+,,,
+Ankylosing Spondylitis,TREATED_BY,Pinda Swedana,257918
+Ankylosing Spondylitis,TREATED_BY,Snehapana,257918
+Ankylosing Spondylitis,TREATED_BY,Sarvanga Abhyanga,257918
+Ankylosing Spondylitis,TREATED_BY,Sarvanga Bashpa Swedana,257918
+Ankylosing Spondylitis,TREATED_BY,Virechana,257918
+Ankylosing Spondylitis,TREATED_BY,Samsarjana Karma,257918
+Ankylosing Spondylitis,TREATED_BY,Greeva Basti,257918
+Ankylosing Spondylitis,TREATED_BY,Anuvasana Basti,257918
+Ankylosing Spondylitis,TREATED_BY,Niruha Basti,257918
+,,,
+Fibromyalgia,TREATED_BY,Shirodhara,239364
+Fibromyalgia,TREATED_BY,Koshtha Shodhana,239364
+Fibromyalgia,TREATED_BY,Sarvanga Abhyanga,239364
+Fibromyalgia,TREATED_BY,Sarvanga Bashpa Swedana,239364
+Fibromyalgia,TREATED_BY,Anuvasana Basti,239364
+Fibromyalgia,TREATED_BY,Niruha Basti,239364
+,,,
+Cervical Spondylosis,TREATED_BY,Manya Basti,143330
+Cervical Spondylosis,TREATED_BY,Nasya,143330
+Cervical Spondylosis,TREATED_BY,Yoga Basti,143330
+,,,
+Bipolar Affective Disorder,TREATED_BY,Virechana,256894
+Bipolar Affective Disorder,TREATED_BY,Kashaya Dhara,256894
+Bipolar Affective Disorder,TREATED_BY,Rukshana,256894
+Bipolar Affective Disorder,TREATED_BY,Snehapana,256894
+Bipolar Affective Disorder,TREATED_BY,Abhyanga,256894
+Bipolar Affective Disorder,TREATED_BY,Vamana,256894
+Bipolar Affective Disorder,TREATED_BY,Yoga Basti,256894
+Bipolar Affective Disorder,TREATED_BY,Nasya,256894
+,,,
+Avascular Necrosis,TREATED_BY,Udvartana,256282
+Avascular Necrosis,TREATED_BY,Parisheka,256282
+Avascular Necrosis,TREATED_BY,Sarvanga Abhyanga,256282
+Avascular Necrosis,TREATED_BY,Pinda Swedana,256282
+Avascular Necrosis,TREATED_BY,Shamana,256282
+Avascular Necrosis,TREATED_BY,Udvartana,256282
+,,,
+Avascular Necrosis,TREATED_BY,Ksheera Basti,256282
+,,,
+Irritable Bowel Syndrome,TREATED_BY,Pichha Basti,237978
+Irritable Bowel Syndrome,TREATED_BY,Anuvasana Basti,237978
+Irritable Bowel Syndrome,TREATED_BY,Shirodhara,237978
+,,,
+Adhesive Capsulitis Stage 2,TREATED_BY,Pancha Prasrutika Basti,196121
+,,,
+Knee Osteoarthritis,TREATED_BY,Matra Basti,121537
+Knee Osteoarthritis,TREATED_BY,Snehana,121537
+Knee Osteoarthritis,TREATED_BY,Swedana,121537
+,,,
+Necrozoospermia,TREATED_BY,Virechana,165423
+Necrozoospermia,TREATED_BY,Abhyanga,165423
+Necrozoospermia,TREATED_BY,Bashpa Swedana,165423
+Necrozoospermia,TREATED_BY,Basti,165423
+,,,
+Vipadika,TREATED_BY,Udvartana,253965
+Vipadika,TREATED_BY,Swedana,253965
+Vipadika,TREATED_BY,Oral Medication,253965
+Vipadika,TREATED_BY,Snehapana,253965
+Vipadika,TREATED_BY,Sarvanga Abhyanga,253965
+Vipadika,TREATED_BY,Virechana,253965
+,,,
+Poly Cystic Ovarian Syndrome,TREATED_BY,Deepana Pachana,238414
+Poly Cystic Ovarian Syndrome,TREATED_BY,Koshtha Shodhana,238414
+Poly Cystic Ovarian Syndrome,TREATED_BY,Yoga Basti,238414
+,,,
+Hemiplegia,TREATED_BY,Sarvanga Abhyanga,239324
+Hemiplegia,TREATED_BY,Shirodhara,239324
+Hemiplegia,TREATED_BY,Yoga Basti,239324
+Hemiplegia,TREATED_BY,Matra Basti,239324
+Hemiplegia,TREATED_BY,Shiropichu,239324
+Hemiplegia,TREATED_BY,Jihwa nirlekhana,239324
+,,,
+Lumbar Disc Disease,TREATED_BY,Mridu Virechana,242766
+Lumbar Disc Disease,TREATED_BY,Niruha Basti,242766
+Lumbar Disc Disease,TREATED_BY,Anuvasana Basti,242766
+Lumbar Disc Disease,TREATED_BY,Pinda Swedana,242766
+Lumbar Disc Disease,TREATED_BY,Kati Basti,242766
+,,,
+Guillain-Barre Syndrome,TREATED_BY,Parisheka,132876
+Guillain-Barre Syndrome,TREATED_BY,Sarvanga Abhyanga,132876
+Guillain-Barre Syndrome,TREATED_BY,Yapana Basti,132876
+,,,
+Tubal Blockage,TREATED_BY,Pachana,241639
+Tubal Blockage,TREATED_BY,Snehapana,241639
+Tubal Blockage,TREATED_BY,Sarvanga Abhyanga,241639
+Tubal Blockage,TREATED_BY,Virechana,241639
+Tubal Blockage,TREATED_BY,Vamana,241639
+Tubal Blockage,TREATED_BY,Lekhana Basti,241639
+Tubal Blockage,TREATED_BY,Uttarabasti,241639
+,,,
+Hirayama Disease,TREATED_BY,Deepana Pachana,242776
+Hirayama Disease,TREATED_BY,Snehapana,242776
+Hirayama Disease,TREATED_BY,Abhyanga,242776
+Hirayama Disease,TREATED_BY,Nadi Swedana,242776
+Hirayama Disease,TREATED_BY,Virechana,242776
+Hirayama Disease,TREATED_BY,Pinda Swedana,242776
+Hirayama Disease,TREATED_BY,Anuvasana Basti,242776
+Hirayama Disease,TREATED_BY,Ksheera Basti,242776
+,,,
+Uterine Fibroids,TREATED_BY,Snehapana,206587
+Uterine Fibroids,TREATED_BY,Abhyanga,206587
+Uterine Fibroids,TREATED_BY,Swedana,206587
+Uterine Fibroids,TREATED_BY,Virechana,206587
+Uterine Fibroids,TREATED_BY,Deepana Pachana,206587
+,,,
+Rheumatoid Arthritis,TREATED_BY,Deepana,238831
+Rheumatoid Arthritis,TREATED_BY,Basti,238831
+,,,
+Sciatica,TREATED_BY,Niruha Basti,18660
+Sciatica,TREATED_BY,Anuvasana Basti,18660
+,,,
+Infertility,TREATED_BY,Uttarabasti,196083
+,,,
+Eczema,TREATED_BY,Sarvanga Abhyanga,242778
+Eczema,TREATED_BY,Anuvasana Basti,242778
+Eczema,TREATED_BY,Niruha Basti,242778
+,,,
+Irritable Bowel Syndrome,TREATED_BY,Kukshi Basti,13169
+Irritable Bowel Syndrome,TREATED_BY,Shirodhara,13169
+,,,
+Sciatica,TREATED_BY,Sarvanga Abhyanga,238755
+Sciatica,TREATED_BY,Swedana,238755
+Sciatica,TREATED_BY,Niruha Basti,238755
+Sciatica,TREATED_BY,Anuvasana Basti,238755
+,,,
+Cerebral Palsy,TREATED_BY,Matra Basti,20599
+Cerebral Palsy,TREATED_BY,Abhyanga,20599
+Cerebral Palsy,TREATED_BY,Swedana,20599
+,,,
+Senile Dementia,TREATED_BY,Shiro Basti,20598
+Senile Dementia,TREATED_BY,Oral Medication,20598
+,,,
+Spinocerebellar Ataxia,TREATED_BY,Udvartana,239448
+Spinocerebellar Ataxia,TREATED_BY,Abhyanga,239448
+Spinocerebellar Ataxia,TREATED_BY,Dhanyamla Dhara,239448
+Spinocerebellar Ataxia,TREATED_BY,Yoga Basti,239448
+,,,
+Spinocerebellar Ataxia,TREATED_BY,Panchatikta Ksheera Basti,239448
+Spinocerebellar Ataxia,TREATED_BY,Pinda Swedana,239448
+Spinocerebellar Ataxia,TREATED_BY,Virechana,239448
+Spinocerebellar Ataxia,TREATED_BY,Pratimarsha Nasya,239448
+Spinocerebellar Ataxia,TREATED_BY,Kayaseka,239448
+Spinocerebellar Ataxia,TREATED_BY,Rasayana,239448

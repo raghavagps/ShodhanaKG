@@ -1,0 +1,1541 @@
+{
+  "scenario": "symptom_wording_1",
+  "turn": 1,
+  "transport": "json",
+  "category": "paraphrase",
+  "question": "What symptoms are associated with Acute Renal Calculus?",
+  "expectation": {
+    "question": "What symptoms are associated with Acute Renal Calculus?",
+    "reference_id": "expanded_disease_symptoms_2",
+    "category": "paraphrase"
+  },
+  "history_sent": [],
+  "preceding_turn_failed": false,
+  "response": {
+    "status": "success",
+    "answer": "Symptoms associated with Acute Renal Calculus\n\nThe available records associate Acute Renal Calculus with the following symptoms:\n\n1. Muscle Stiffness [1]\n2. Nausea [2]\n3. Pain [3]\n4. Tenderness [4]\n5. Vomiting [5]\n6. Abdominal Pain [6]\n7. Coated Tongue [7]\n8. Disturbed Sleep [8]",
+    "pagination": null,
+    "query_plan": null,
+    "answer_heading": "Symptoms associated with Acute Renal Calculus",
+    "answer_intro": "The available records associate Acute Renal Calculus with the following symptoms:",
+    "answer_results": [
+      {
+        "id": "f1",
+        "label": "Muscle Stiffness",
+        "fact_ids": [
+          "f1"
+        ],
+        "citation_ids": [
+          "1"
+        ],
+        "record_indices": [
+          0
+        ]
+      },
+      {
+        "id": "f2",
+        "label": "Nausea",
+        "fact_ids": [
+          "f2"
+        ],
+        "citation_ids": [
+          "2"
+        ],
+        "record_indices": [
+          1
+        ]
+      },
+      {
+        "id": "f3",
+        "label": "Pain",
+        "fact_ids": [
+          "f3"
+        ],
+        "citation_ids": [
+          "3"
+        ],
+        "record_indices": [
+          2
+        ]
+      },
+      {
+        "id": "f4",
+        "label": "Tenderness",
+        "fact_ids": [
+          "f4"
+        ],
+        "citation_ids": [
+          "4"
+        ],
+        "record_indices": [
+          3
+        ]
+      },
+      {
+        "id": "f5",
+        "label": "Vomiting",
+        "fact_ids": [
+          "f5"
+        ],
+        "citation_ids": [
+          "5"
+        ],
+        "record_indices": [
+          4
+        ]
+      },
+      {
+        "id": "f6",
+        "label": "Abdominal Pain",
+        "fact_ids": [
+          "f6"
+        ],
+        "citation_ids": [
+          "6"
+        ],
+        "record_indices": [
+          5
+        ]
+      },
+      {
+        "id": "f7",
+        "label": "Coated Tongue",
+        "fact_ids": [
+          "f7"
+        ],
+        "citation_ids": [
+          "7"
+        ],
+        "record_indices": [
+          6
+        ]
+      },
+      {
+        "id": "f8",
+        "label": "Disturbed Sleep",
+        "fact_ids": [
+          "f8"
+        ],
+        "citation_ids": [
+          "8"
+        ],
+        "record_indices": [
+          7
+        ]
+      }
+    ],
+    "answer_blocks": [],
+    "citations": [
+      {
+        "id": "1",
+        "fact_ids": [
+          "f1"
+        ],
+        "record_indices": [
+          0
+        ],
+        "statement": "For Acute Renal Calculus, the available record lists Muscle Stiffness (symptom).",
+        "scopes": [
+          {
+            "description": "Acute Renal Calculus \u2192 Muscle Stiffness",
+            "relationship": "Disease \u2192 Symptom",
+            "edge_id": "#88:1410",
+            "edge_type": "HAS_SYMPTOM",
+            "source_id": "#45:107",
+            "target_id": "#57:26",
+            "identifiers": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "properties": {
+              "ref": "164098"
+            },
+            "display_properties": [],
+            "treatment_phase": null,
+            "entities": [
+              {
+                "type": "Disease",
+                "label": "Acute Renal Calculus"
+              },
+              {
+                "type": "Symptom",
+                "label": "Muscle Stiffness"
+              }
+            ]
+          }
+        ],
+        "entities": [
+          {
+            "type": "Symptom",
+            "label": "Muscle Stiffness"
+          }
+        ],
+        "attribution": "per_edge",
+        "relationships": [
+          "Disease \u2192 Symptom"
+        ]
+      },
+      {
+        "id": "2",
+        "fact_ids": [
+          "f2"
+        ],
+        "record_indices": [
+          1
+        ],
+        "statement": "For Acute Renal Calculus, the available record lists Nausea (symptom).",
+        "scopes": [
+          {
+            "description": "Acute Renal Calculus \u2192 Nausea",
+            "relationship": "Disease \u2192 Symptom",
+            "edge_id": "#88:1411",
+            "edge_type": "HAS_SYMPTOM",
+            "source_id": "#45:107",
+            "target_id": "#57:31",
+            "identifiers": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "properties": {
+              "ref": "164098"
+            },
+            "display_properties": [],
+            "treatment_phase": null,
+            "entities": [
+              {
+                "type": "Disease",
+                "label": "Acute Renal Calculus"
+              },
+              {
+                "type": "Symptom",
+                "label": "Nausea"
+              }
+            ]
+          }
+        ],
+        "entities": [
+          {
+            "type": "Symptom",
+            "label": "Nausea"
+          }
+        ],
+        "attribution": "per_edge",
+        "relationships": [
+          "Disease \u2192 Symptom"
+        ]
+      },
+      {
+        "id": "3",
+        "fact_ids": [
+          "f3"
+        ],
+        "record_indices": [
+          2
+        ],
+        "statement": "For Acute Renal Calculus, the available record lists Pain (symptom).",
+        "scopes": [
+          {
+            "description": "Acute Renal Calculus \u2192 Pain",
+            "relationship": "Disease \u2192 Symptom",
+            "edge_id": "#88:1412",
+            "edge_type": "HAS_SYMPTOM",
+            "source_id": "#45:107",
+            "target_id": "#57:45",
+            "identifiers": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "properties": {
+              "ref": "164098"
+            },
+            "display_properties": [],
+            "treatment_phase": null,
+            "entities": [
+              {
+                "type": "Disease",
+                "label": "Acute Renal Calculus"
+              },
+              {
+                "type": "Symptom",
+                "label": "Pain"
+              }
+            ]
+          }
+        ],
+        "entities": [
+          {
+            "type": "Symptom",
+            "label": "Pain"
+          }
+        ],
+        "attribution": "per_edge",
+        "relationships": [
+          "Disease \u2192 Symptom"
+        ]
+      },
+      {
+        "id": "4",
+        "fact_ids": [
+          "f4"
+        ],
+        "record_indices": [
+          3
+        ],
+        "statement": "For Acute Renal Calculus, the available record lists Tenderness (symptom).",
+        "scopes": [
+          {
+            "description": "Acute Renal Calculus \u2192 Tenderness",
+            "relationship": "Disease \u2192 Symptom",
+            "edge_id": "#88:1413",
+            "edge_type": "HAS_SYMPTOM",
+            "source_id": "#45:107",
+            "target_id": "#57:128",
+            "identifiers": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "properties": {
+              "ref": "164098"
+            },
+            "display_properties": [],
+            "treatment_phase": null,
+            "entities": [
+              {
+                "type": "Disease",
+                "label": "Acute Renal Calculus"
+              },
+              {
+                "type": "Symptom",
+                "label": "Tenderness"
+              }
+            ]
+          }
+        ],
+        "entities": [
+          {
+            "type": "Symptom",
+            "label": "Tenderness"
+          }
+        ],
+        "attribution": "per_edge",
+        "relationships": [
+          "Disease \u2192 Symptom"
+        ]
+      },
+      {
+        "id": "5",
+        "fact_ids": [
+          "f5"
+        ],
+        "record_indices": [
+          4
+        ],
+        "statement": "For Acute Renal Calculus, the available record lists Vomiting (symptom).",
+        "scopes": [
+          {
+            "description": "Acute Renal Calculus \u2192 Vomiting",
+            "relationship": "Disease \u2192 Symptom",
+            "edge_id": "#88:1414",
+            "edge_type": "HAS_SYMPTOM",
+            "source_id": "#45:107",
+            "target_id": "#57:145",
+            "identifiers": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "properties": {
+              "ref": "164098"
+            },
+            "display_properties": [],
+            "treatment_phase": null,
+            "entities": [
+              {
+                "type": "Disease",
+                "label": "Acute Renal Calculus"
+              },
+              {
+                "type": "Symptom",
+                "label": "Vomiting"
+              }
+            ]
+          }
+        ],
+        "entities": [
+          {
+            "type": "Symptom",
+            "label": "Vomiting"
+          }
+        ],
+        "attribution": "per_edge",
+        "relationships": [
+          "Disease \u2192 Symptom"
+        ]
+      },
+      {
+        "id": "6",
+        "fact_ids": [
+          "f6"
+        ],
+        "record_indices": [
+          5
+        ],
+        "statement": "For Acute Renal Calculus, the available record lists Abdominal Pain (symptom).",
+        "scopes": [
+          {
+            "description": "Acute Renal Calculus \u2192 Abdominal Pain",
+            "relationship": "Disease \u2192 Symptom",
+            "edge_id": "#88:1415",
+            "edge_type": "HAS_SYMPTOM",
+            "source_id": "#45:107",
+            "target_id": "#57:196",
+            "identifiers": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "properties": {
+              "ref": "164098"
+            },
+            "display_properties": [],
+            "treatment_phase": null,
+            "entities": [
+              {
+                "type": "Disease",
+                "label": "Acute Renal Calculus"
+              },
+              {
+                "type": "Symptom",
+                "label": "Abdominal Pain"
+              }
+            ]
+          }
+        ],
+        "entities": [
+          {
+            "type": "Symptom",
+            "label": "Abdominal Pain"
+          }
+        ],
+        "attribution": "per_edge",
+        "relationships": [
+          "Disease \u2192 Symptom"
+        ]
+      },
+      {
+        "id": "7",
+        "fact_ids": [
+          "f7"
+        ],
+        "record_indices": [
+          6
+        ],
+        "statement": "For Acute Renal Calculus, the available record lists Coated Tongue (symptom).",
+        "scopes": [
+          {
+            "description": "Acute Renal Calculus \u2192 Coated Tongue",
+            "relationship": "Disease \u2192 Symptom",
+            "edge_id": "#88:1416",
+            "edge_type": "HAS_SYMPTOM",
+            "source_id": "#45:107",
+            "target_id": "#57:238",
+            "identifiers": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "properties": {
+              "ref": "164098"
+            },
+            "display_properties": [],
+            "treatment_phase": null,
+            "entities": [
+              {
+                "type": "Disease",
+                "label": "Acute Renal Calculus"
+              },
+              {
+                "type": "Symptom",
+                "label": "Coated Tongue"
+              }
+            ]
+          }
+        ],
+        "entities": [
+          {
+            "type": "Symptom",
+            "label": "Coated Tongue"
+          }
+        ],
+        "attribution": "per_edge",
+        "relationships": [
+          "Disease \u2192 Symptom"
+        ]
+      },
+      {
+        "id": "8",
+        "fact_ids": [
+          "f8"
+        ],
+        "record_indices": [
+          7
+        ],
+        "statement": "For Acute Renal Calculus, the available record lists Disturbed Sleep (symptom).",
+        "scopes": [
+          {
+            "description": "Acute Renal Calculus \u2192 Disturbed Sleep",
+            "relationship": "Disease \u2192 Symptom",
+            "edge_id": "#88:1417",
+            "edge_type": "HAS_SYMPTOM",
+            "source_id": "#45:107",
+            "target_id": "#57:277",
+            "identifiers": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "properties": {
+              "ref": "164098"
+            },
+            "display_properties": [],
+            "treatment_phase": null,
+            "entities": [
+              {
+                "type": "Disease",
+                "label": "Acute Renal Calculus"
+              },
+              {
+                "type": "Symptom",
+                "label": "Disturbed Sleep"
+              }
+            ]
+          }
+        ],
+        "entities": [
+          {
+            "type": "Symptom",
+            "label": "Disturbed Sleep"
+          }
+        ],
+        "attribution": "per_edge",
+        "relationships": [
+          "Disease \u2192 Symptom"
+        ]
+      }
+    ],
+    "generation": {
+      "mode": "deterministic",
+      "fallback_reason": null,
+      "latency_ms": 0
+    },
+    "conversation_context": {
+      "version": 2,
+      "subject": {
+        "id": "#45:107",
+        "name": "Acute Renal Calculus",
+        "type": "Disease"
+      },
+      "last_question": "What symptoms are associated with Acute Renal Calculus?",
+      "constraints": [],
+      "result_type": "Symptom",
+      "intent": "disease_symptoms",
+      "resolved_entities": [
+        {
+          "id": "#45:107",
+          "name": "Acute Renal Calculus",
+          "type": "Disease"
+        }
+      ]
+    },
+    "resolution": [
+      {
+        "mention": "acute renal calculus",
+        "normalized": "acute renal calculus",
+        "outcome": "resolved",
+        "candidates": [
+          {
+            "id": "#45:107",
+            "label": "Acute Renal Calculus",
+            "type": "Disease",
+            "mention": "acute renal calculus",
+            "match_method": "exact",
+            "source": "KG canonical label",
+            "distance": 0
+          }
+        ],
+        "suggestions": []
+      }
+    ],
+    "understanding": {
+      "mode": "deterministic"
+    },
+    "question": "What symptoms are associated with Acute Renal Calculus?",
+    "context": {
+      "status": "success",
+      "question": "What symptoms are associated with Acute Renal Calculus?",
+      "routing": {
+        "domain": "disease",
+        "intent": "disease_symptoms",
+        "entity": "Acute Renal Calculus",
+        "entity_id": "#45:107",
+        "entity_type": "Disease",
+        "endpoint": "disease_symptoms",
+        "confidence": 0.9,
+        "needs_clarification": false
+      },
+      "retrieval": {
+        "status": "success",
+        "entity": {
+          "name": "Acute Renal Calculus",
+          "type": "Disease"
+        },
+        "path": [
+          "Disease",
+          "HAS_SYMPTOM",
+          "Symptom"
+        ],
+        "results": [
+          {
+            "symptom": "Muscle Stiffness",
+            "properties": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "edge_properties": {
+              "#88:1410": {
+                "edge_id": "#88:1410",
+                "type": "HAS_SYMPTOM",
+                "source": "#45:107",
+                "target": "#57:26",
+                "properties": {
+                  "ref": "164098"
+                },
+                "display_properties": [],
+                "treatment_phase": null
+              }
+            }
+          },
+          {
+            "symptom": "Nausea",
+            "properties": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "edge_properties": {
+              "#88:1411": {
+                "edge_id": "#88:1411",
+                "type": "HAS_SYMPTOM",
+                "source": "#45:107",
+                "target": "#57:31",
+                "properties": {
+                  "ref": "164098"
+                },
+                "display_properties": [],
+                "treatment_phase": null
+              }
+            }
+          },
+          {
+            "symptom": "Pain",
+            "properties": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "edge_properties": {
+              "#88:1412": {
+                "edge_id": "#88:1412",
+                "type": "HAS_SYMPTOM",
+                "source": "#45:107",
+                "target": "#57:45",
+                "properties": {
+                  "ref": "164098"
+                },
+                "display_properties": [],
+                "treatment_phase": null
+              }
+            }
+          },
+          {
+            "symptom": "Tenderness",
+            "properties": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "edge_properties": {
+              "#88:1413": {
+                "edge_id": "#88:1413",
+                "type": "HAS_SYMPTOM",
+                "source": "#45:107",
+                "target": "#57:128",
+                "properties": {
+                  "ref": "164098"
+                },
+                "display_properties": [],
+                "treatment_phase": null
+              }
+            }
+          },
+          {
+            "symptom": "Vomiting",
+            "properties": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "edge_properties": {
+              "#88:1414": {
+                "edge_id": "#88:1414",
+                "type": "HAS_SYMPTOM",
+                "source": "#45:107",
+                "target": "#57:145",
+                "properties": {
+                  "ref": "164098"
+                },
+                "display_properties": [],
+                "treatment_phase": null
+              }
+            }
+          },
+          {
+            "symptom": "Abdominal Pain",
+            "properties": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "edge_properties": {
+              "#88:1415": {
+                "edge_id": "#88:1415",
+                "type": "HAS_SYMPTOM",
+                "source": "#45:107",
+                "target": "#57:196",
+                "properties": {
+                  "ref": "164098"
+                },
+                "display_properties": [],
+                "treatment_phase": null
+              }
+            }
+          },
+          {
+            "symptom": "Coated Tongue",
+            "properties": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "edge_properties": {
+              "#88:1416": {
+                "edge_id": "#88:1416",
+                "type": "HAS_SYMPTOM",
+                "source": "#45:107",
+                "target": "#57:238",
+                "properties": {
+                  "ref": "164098"
+                },
+                "display_properties": [],
+                "treatment_phase": null
+              }
+            }
+          },
+          {
+            "symptom": "Disturbed Sleep",
+            "properties": {
+              "procedure": "",
+              "result": "",
+              "pubmed_id": "",
+              "doi": "",
+              "ayush_id": "164098",
+              "references": [
+                {
+                  "raw": "164098",
+                  "identifier": "164098",
+                  "namespace": "AYUSH",
+                  "status": "verified",
+                  "resolution_status": "confirmed",
+                  "catalog_version": "2026-09-24.v1",
+                  "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                  "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                  "aliases": {
+                    "artid": "164098(Ay)",
+                    "arp_id": "ARP_AYU023628"
+                  }
+                }
+              ]
+            },
+            "edge_properties": {
+              "#88:1417": {
+                "edge_id": "#88:1417",
+                "type": "HAS_SYMPTOM",
+                "source": "#45:107",
+                "target": "#57:277",
+                "properties": {
+                  "ref": "164098"
+                },
+                "display_properties": [],
+                "treatment_phase": null
+              }
+            }
+          }
+        ],
+        "evidence_paths": [
+          {
+            "result_index": 0,
+            "paths": [
+              {
+                "nodes": [
+                  {
+                    "id": "#45:107",
+                    "type": "Disease",
+                    "label": "Acute Renal Calculus"
+                  },
+                  {
+                    "id": "#57:26",
+                    "type": "Symptom",
+                    "label": "Muscle Stiffness"
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "#88:1410",
+                    "type": "HAS_SYMPTOM",
+                    "source": "#45:107",
+                    "target": "#57:26",
+                    "properties": {
+                      "ref": "164098"
+                    },
+                    "evidence": {
+                      "procedure": "",
+                      "result": "",
+                      "pubmed_id": "",
+                      "doi": "",
+                      "ayush_id": "164098",
+                      "references": [
+                        {
+                          "raw": "164098",
+                          "identifier": "164098",
+                          "namespace": "AYUSH",
+                          "status": "verified",
+                          "resolution_status": "confirmed",
+                          "catalog_version": "2026-09-24.v1",
+                          "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                          "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                          "aliases": {
+                            "artid": "164098(Ay)",
+                            "arp_id": "ARP_AYU023628"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "correlation": "shared_study"
+              }
+            ]
+          },
+          {
+            "result_index": 1,
+            "paths": [
+              {
+                "nodes": [
+                  {
+                    "id": "#45:107",
+                    "type": "Disease",
+                    "label": "Acute Renal Calculus"
+                  },
+                  {
+                    "id": "#57:31",
+                    "type": "Symptom",
+                    "label": "Nausea"
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "#88:1411",
+                    "type": "HAS_SYMPTOM",
+                    "source": "#45:107",
+                    "target": "#57:31",
+                    "properties": {
+                      "ref": "164098"
+                    },
+                    "evidence": {
+                      "procedure": "",
+                      "result": "",
+                      "pubmed_id": "",
+                      "doi": "",
+                      "ayush_id": "164098",
+                      "references": [
+                        {
+                          "raw": "164098",
+                          "identifier": "164098",
+                          "namespace": "AYUSH",
+                          "status": "verified",
+                          "resolution_status": "confirmed",
+                          "catalog_version": "2026-09-24.v1",
+                          "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                          "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                          "aliases": {
+                            "artid": "164098(Ay)",
+                            "arp_id": "ARP_AYU023628"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "correlation": "shared_study"
+              }
+            ]
+          },
+          {
+            "result_index": 2,
+            "paths": [
+              {
+                "nodes": [
+                  {
+                    "id": "#45:107",
+                    "type": "Disease",
+                    "label": "Acute Renal Calculus"
+                  },
+                  {
+                    "id": "#57:45",
+                    "type": "Symptom",
+                    "label": "Pain"
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "#88:1412",
+                    "type": "HAS_SYMPTOM",
+                    "source": "#45:107",
+                    "target": "#57:45",
+                    "properties": {
+                      "ref": "164098"
+                    },
+                    "evidence": {
+                      "procedure": "",
+                      "result": "",
+                      "pubmed_id": "",
+                      "doi": "",
+                      "ayush_id": "164098",
+                      "references": [
+                        {
+                          "raw": "164098",
+                          "identifier": "164098",
+                          "namespace": "AYUSH",
+                          "status": "verified",
+                          "resolution_status": "confirmed",
+                          "catalog_version": "2026-09-24.v1",
+                          "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                          "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                          "aliases": {
+                            "artid": "164098(Ay)",
+                            "arp_id": "ARP_AYU023628"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "correlation": "shared_study"
+              }
+            ]
+          },
+          {
+            "result_index": 3,
+            "paths": [
+              {
+                "nodes": [
+                  {
+                    "id": "#45:107",
+                    "type": "Disease",
+                    "label": "Acute Renal Calculus"
+                  },
+                  {
+                    "id": "#57:128",
+                    "type": "Symptom",
+                    "label": "Tenderness"
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "#88:1413",
+                    "type": "HAS_SYMPTOM",
+                    "source": "#45:107",
+                    "target": "#57:128",
+                    "properties": {
+                      "ref": "164098"
+                    },
+                    "evidence": {
+                      "procedure": "",
+                      "result": "",
+                      "pubmed_id": "",
+                      "doi": "",
+                      "ayush_id": "164098",
+                      "references": [
+                        {
+                          "raw": "164098",
+                          "identifier": "164098",
+                          "namespace": "AYUSH",
+                          "status": "verified",
+                          "resolution_status": "confirmed",
+                          "catalog_version": "2026-09-24.v1",
+                          "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                          "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                          "aliases": {
+                            "artid": "164098(Ay)",
+                            "arp_id": "ARP_AYU023628"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "correlation": "shared_study"
+              }
+            ]
+          },
+          {
+            "result_index": 4,
+            "paths": [
+              {
+                "nodes": [
+                  {
+                    "id": "#45:107",
+                    "type": "Disease",
+                    "label": "Acute Renal Calculus"
+                  },
+                  {
+                    "id": "#57:145",
+                    "type": "Symptom",
+                    "label": "Vomiting"
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "#88:1414",
+                    "type": "HAS_SYMPTOM",
+                    "source": "#45:107",
+                    "target": "#57:145",
+                    "properties": {
+                      "ref": "164098"
+                    },
+                    "evidence": {
+                      "procedure": "",
+                      "result": "",
+                      "pubmed_id": "",
+                      "doi": "",
+                      "ayush_id": "164098",
+                      "references": [
+                        {
+                          "raw": "164098",
+                          "identifier": "164098",
+                          "namespace": "AYUSH",
+                          "status": "verified",
+                          "resolution_status": "confirmed",
+                          "catalog_version": "2026-09-24.v1",
+                          "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                          "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                          "aliases": {
+                            "artid": "164098(Ay)",
+                            "arp_id": "ARP_AYU023628"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "correlation": "shared_study"
+              }
+            ]
+          },
+          {
+            "result_index": 5,
+            "paths": [
+              {
+                "nodes": [
+                  {
+                    "id": "#45:107",
+                    "type": "Disease",
+                    "label": "Acute Renal Calculus"
+                  },
+                  {
+                    "id": "#57:196",
+                    "type": "Symptom",
+                    "label": "Abdominal Pain"
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "#88:1415",
+                    "type": "HAS_SYMPTOM",
+                    "source": "#45:107",
+                    "target": "#57:196",
+                    "properties": {
+                      "ref": "164098"
+                    },
+                    "evidence": {
+                      "procedure": "",
+                      "result": "",
+                      "pubmed_id": "",
+                      "doi": "",
+                      "ayush_id": "164098",
+                      "references": [
+                        {
+                          "raw": "164098",
+                          "identifier": "164098",
+                          "namespace": "AYUSH",
+                          "status": "verified",
+                          "resolution_status": "confirmed",
+                          "catalog_version": "2026-09-24.v1",
+                          "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                          "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                          "aliases": {
+                            "artid": "164098(Ay)",
+                            "arp_id": "ARP_AYU023628"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "correlation": "shared_study"
+              }
+            ]
+          },
+          {
+            "result_index": 6,
+            "paths": [
+              {
+                "nodes": [
+                  {
+                    "id": "#45:107",
+                    "type": "Disease",
+                    "label": "Acute Renal Calculus"
+                  },
+                  {
+                    "id": "#57:238",
+                    "type": "Symptom",
+                    "label": "Coated Tongue"
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "#88:1416",
+                    "type": "HAS_SYMPTOM",
+                    "source": "#45:107",
+                    "target": "#57:238",
+                    "properties": {
+                      "ref": "164098"
+                    },
+                    "evidence": {
+                      "procedure": "",
+                      "result": "",
+                      "pubmed_id": "",
+                      "doi": "",
+                      "ayush_id": "164098",
+                      "references": [
+                        {
+                          "raw": "164098",
+                          "identifier": "164098",
+                          "namespace": "AYUSH",
+                          "status": "verified",
+                          "resolution_status": "confirmed",
+                          "catalog_version": "2026-09-24.v1",
+                          "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                          "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                          "aliases": {
+                            "artid": "164098(Ay)",
+                            "arp_id": "ARP_AYU023628"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "correlation": "shared_study"
+              }
+            ]
+          },
+          {
+            "result_index": 7,
+            "paths": [
+              {
+                "nodes": [
+                  {
+                    "id": "#45:107",
+                    "type": "Disease",
+                    "label": "Acute Renal Calculus"
+                  },
+                  {
+                    "id": "#57:277",
+                    "type": "Symptom",
+                    "label": "Disturbed Sleep"
+                  }
+                ],
+                "edges": [
+                  {
+                    "id": "#88:1417",
+                    "type": "HAS_SYMPTOM",
+                    "source": "#45:107",
+                    "target": "#57:277",
+                    "properties": {
+                      "ref": "164098"
+                    },
+                    "evidence": {
+                      "procedure": "",
+                      "result": "",
+                      "pubmed_id": "",
+                      "doi": "",
+                      "ayush_id": "164098",
+                      "references": [
+                        {
+                          "raw": "164098",
+                          "identifier": "164098",
+                          "namespace": "AYUSH",
+                          "status": "verified",
+                          "resolution_status": "confirmed",
+                          "catalog_version": "2026-09-24.v1",
+                          "verified_at": "2026-09-24T13:17:55.895234+00:00",
+                          "source": "AYUSH 164098(Ay) / ARP_AYU023628; A CASE REPORT ON AYURVEDIC MANAGEMENT OF ACUTE RENAL COLIC.; https://arp.ayush.gov.in/View_Res_Landing_Url?rp6=23628&rptypeReport=0&rpreportname=0",
+                          "aliases": {
+                            "artid": "164098(Ay)",
+                            "arp_id": "ARP_AYU023628"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "correlation": "shared_study"
+              }
+            ]
+          }
+        ]
+      },
+      "reason": null,
+      "resolution": [
+        {
+          "mention": "acute renal calculus",
+          "normalized": "acute renal calculus",
+          "outcome": "resolved",
+          "candidates": [
+            {
+              "id": "#45:107",
+              "label": "Acute Renal Calculus",
+              "type": "Disease",
+              "mention": "acute renal calculus",
+              "match_method": "exact",
+              "source": "KG canonical label",
+              "distance": 0
+            }
+          ],
+          "suggestions": []
+        }
+      ],
+      "understanding": {
+        "mode": "deterministic"
+      },
+      "conversation_context": {
+        "version": 2,
+        "subject": {
+          "id": "#45:107",
+          "name": "Acute Renal Calculus",
+          "type": "Disease"
+        },
+        "last_question": "What symptoms are associated with Acute Renal Calculus?",
+        "constraints": [],
+        "result_type": "Symptom",
+        "intent": "disease_symptoms",
+        "resolved_entities": [
+          {
+            "id": "#45:107",
+            "name": "Acute Renal Calculus",
+            "type": "Disease"
+          }
+        ]
+      }
+    }
+  },
+  "passed": true,
+  "issues": [],
+  "latency_ms": 375
+}

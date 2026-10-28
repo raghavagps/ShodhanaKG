@@ -1,0 +1,160 @@
+﻿Disease,Relationship,Ayurvedic_Diagnosis,Ayush_ID
+Ankylosing Spondylitis,HAS_AYURVEDIC_DIAGNOSIS,Gambhira Vatarakta,257223
+,,,
+Ankylosing Spondylitis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,163783
+,,,
+Amyotrophic Lateral Sclerosis,HAS_AYURVEDIC_DIAGNOSIS,Kaphavruta Udanavata,240707
+,,,
+Pityriasis Rubra Pilaris,HAS_AYURVEDIC_DIAGNOSIS,Pundarik Kushtha,254481
+,,,
+Acute Renal Calculus,HAS_AYURVEDIC_DIAGNOSIS,Mutrasmari,164098
+,,,
+Rett Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Kaphaja Unmada,216770
+,,,
+Neurogenic Bladder,HAS_AYURVEDIC_DIAGNOSIS,Basti Kundalika,22455
+,,,
+Sciatica,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,17779
+,,,
+Knee Osteoarthritis,HAS_AYURVEDIC_DIAGNOSIS,Janu Sandhigata Vata,257229
+,,,
+Female Infertility,HAS_AYURVEDIC_DIAGNOSIS,Vandhyatva,143266
+,,,
+Migraine,HAS_AYURVEDIC_DIAGNOSIS,Ardhavabhedaka,238386
+,,,
+Osteoarthritis,HAS_AYURVEDIC_DIAGNOSIS,Sandhigata Vata,257895
+,,,
+Cervical Spondylosis,HAS_AYURVEDIC_DIAGNOSIS,Manyasthambha,216736
+,,,
+Irritable Bowel Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Grahani Dosha,254505
+,,,
+Osteoarthritis,HAS_AYURVEDIC_DIAGNOSIS,Sandhigata Vata,257238
+,,,
+Cerebral Palsy,HAS_AYURVEDIC_DIAGNOSIS,Vata Vyadhi,96638
+,,,
+Lumbo-Sacral Disorder,HAS_AYURVEDIC_DIAGNOSIS,Katishool,2885
+,,,
+Sciatica,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,165226
+,,,
+Piles,HAS_AYURVEDIC_DIAGNOSIS,Arsha,9859
+,,,
+Lumbar Disc Herniation,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,22827
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,238662
+,,,
+Obesity,HAS_AYURVEDIC_DIAGNOSIS,Sthaulya,16030
+,,,
+Obesity,HAS_AYURVEDIC_DIAGNOSIS,Sthaulya,121605
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,96745
+,,,
+Tubal Blockage,,,96628
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,227025
+,,,
+Cervical Spondylosis,HAS_AYURVEDIC_DIAGNOSIS,Greeva Asthigatavata,237901
+,,,
+Dysmenorrhea,HAS_AYURVEDIC_DIAGNOSIS,Udavarta Yonivyapada,164111
+,,,
+Chronic Kidney Disease,HAS_AYURVEDIC_DIAGNOSIS,Mootra Dosha Vikar,121566
+,,,
+Sciatica,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,107295
+,,,
+Lumbar Spinal Stenosis,HAS_AYURVEDIC_DIAGNOSIS,Trikagraha,121753
+,,,
+Chronic Low Back Pain,HAS_AYURVEDIC_DIAGNOSIS,Kati Graha,121551
+,,,
+Diabetes Mellitus,HAS_AYURVEDIC_DIAGNOSIS,Prameha,239363
+,,,
+Vasculitis,HAS_AYURVEDIC_DIAGNOSIS,Siragata Vata,227062
+,,,
+Ankylosing Spondylitis,HAS_AYURVEDIC_DIAGNOSIS,Gambhira Vatarakta,239277
+,,,
+Chronic Non-Healing Ulcer,HAS_AYURVEDIC_DIAGNOSIS,Gambhira Vatarakta,254906
+,,,
+Alopecia,HAS_AYURVEDIC_DIAGNOSIS,Khalitya,238408
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,216742
+,,,
+Venous Ulcer,HAS_AYURVEDIC_DIAGNOSIS,Dushta Vrana,21942
+,,,
+Osteoarthritis,HAS_AYURVEDIC_DIAGNOSIS,Sandhigata Vata,237938
+,,,
+Female Infertility,HAS_AYURVEDIC_DIAGNOSIS,Vandhyatva,240293
+,,,
+Sciatica,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,226987
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,164937
+,,,
+Diabetic Neuropathy,HAS_AYURVEDIC_DIAGNOSIS,Prameha,256285
+,,,
+Global Developmental Delay,HAS_AYURVEDIC_DIAGNOSIS,Bala Samvardhana Janya Vata Vikruti,256281
+,,,
+Avascular Necrosis,HAS_AYURVEDIC_DIAGNOSIS,Asthimajjagata-Vata,7494
+,,,
+,,,
+,,,
+Haemorrhoids,HAS_AYURVEDIC_DIAGNOSIS,Arsha,164096
+,,,
+Ankylosing Spondylitis,HAS_AYURVEDIC_DIAGNOSIS,Trikagraha,196064
+,,,
+Post-Thrombotic Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Gambhira Vatarakta,239160
+,,,
+Spinocerebellar Ataxia,HAS_AYURVEDIC_DIAGNOSIS,Mastulunga Kshaya Janya Vatavyadhi,239448
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,240689
+,,,
+Endometrioma,HAS_AYURVEDIC_DIAGNOSIS,Udavarta Yonivyapada,254496
+,,,
+Cerebral Palsy,HAS_AYURVEDIC_DIAGNOSIS,Dhatukshayajanya Vatavyadhi,121746
+,,,
+Ankylosing Spondylitis,HAS_AYURVEDIC_DIAGNOSIS,Trikagraha,257918
+,,,
+Fibromyalgia,HAS_AYURVEDIC_DIAGNOSIS,Mamsagata Vata,239364
+,,,
+Cervical Spondylosis,HAS_AYURVEDIC_DIAGNOSIS,Greevastambha,143330
+,,,
+Bipolar Affective Disorder,HAS_AYURVEDIC_DIAGNOSIS,Vatika Unmada,256894
+,,,
+Avascular Necrosis,HAS_AYURVEDIC_DIAGNOSIS,Asthimajjagata-Vata,256282
+,,,
+Irritable Bowel Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Grahani Dosha,237978
+,,,
+Adhesive Capsulitis Stage 2,HAS_AYURVEDIC_DIAGNOSIS,Avabahuka,196121
+,,,
+Knee Osteoarthritis,HAS_AYURVEDIC_DIAGNOSIS,Sandhigata Vata,121537
+,,,
+Necrozoospermia,HAS_AYURVEDIC_DIAGNOSIS,Ksheena Shukra,165423
+,,,
+Vipadika,,,253965
+,,,
+Poly Cystic Ovarian Syndrome,,,238414
+,,,
+Hemiplegia,HAS_AYURVEDIC_DIAGNOSIS,Pakshagata,239324
+,,,
+Lumbar Disc Disease,HAS_AYURVEDIC_DIAGNOSIS,Kati Sandhigata Vata,242766
+,,,
+Guillain-Barre Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Kaphavrutavyana Vata,132876
+,,,
+Tubal Blockage,HAS_AYURVEDIC_DIAGNOSIS,Artavavaha Srotodushti,241639
+,,,
+Hirayama Disease,HAS_AYURVEDIC_DIAGNOSIS,Asthimajjagata-Vata,242776
+,,,
+Uterine Fibroids,HAS_AYURVEDIC_DIAGNOSIS,Garbhashaya Arbuda,206587
+,,,
+Rheumatoid Arthritis,HAS_AYURVEDIC_DIAGNOSIS,Amavata,238831
+,,,
+Infertility,HAS_AYURVEDIC_DIAGNOSIS,Vandhyatva,196083
+,,,
+Sciatica,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,18660
+,,,
+Eczema,HAS_AYURVEDIC_DIAGNOSIS,Vicharchika,242778
+,,,
+Infertility,HAS_AYURVEDIC_DIAGNOSIS,Vandhyatva,164540
+,,,
+Irritable Bowel Syndrome,HAS_AYURVEDIC_DIAGNOSIS,Grahani Dosha,13169
+,,,
+Sciatica,HAS_AYURVEDIC_DIAGNOSIS,Gridhrasi,238755
+,,,
+Cerebral Palsy,HAS_AYURVEDIC_DIAGNOSIS,Bala Samvardhana Vikara,20599
+,,,
+Senile Dementia,,,20598

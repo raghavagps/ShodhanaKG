@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import type { Core } from 'cytoscape';
 type Container = Element & { _cyreg?: { cy: Core } };
-const snapshot = JSON.parse(readFileSync('../api/tests/fixtures/ui_result_contract_2026_09_25_v1/baseline/snapshot.json', 'utf8'));
+const snapshot = JSON.parse(readFileSync('../api/tests/fixtures/factual_graph_snapshot_expanded.json', 'utf8'));
 
 test.describe('UI result contract', () => {
   for (const reduced of [false, true]) test(`greeting once without opening panel; reduced motion=${reduced}`, async ({ page }) => {

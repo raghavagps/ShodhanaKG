@@ -1,0 +1,303 @@
+﻿Assessment_Parameter,Relationship,Disease,Outcome Measure,Ayush_ID
+Bath Ankylosing Spondylitis Metrology Index (Basmi),ASSESS,Ankylosing Spondylitis,Spine mobility was 8.5 BT and 6.2 AT with 27.5% relief.,257223
+Bath Ankylosing Spondylitis Disease Activity Index (Basdai),ASSESS,Ankylosing Spondylitis,Fatigue was 9.2 BT and 4.1 AT with 55.4% relief.,257223
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Ankylosing Spondylitis,Acute phase reactants (ESR) was 120 mm/h BT and 10 mm/h AT with 91% relief,257223
+Numerical Pain Rating (Npr) Scale,ASSESS,Ankylosing Spondylitis,"Stiffness was 10 BT and 3 AT with 70% relief, Pain was 10 BT and 4 AT with 60% relief.",257223
+Chest Expiration,ASSESS,Ankylosing Spondylitis,"Chest (expiration) was 30 cm BT and 29 cm AT with 0% relief, Chest (expiration) was 31 cm BT and 35 cm AT with 12.3% relief",257223
+,,,,
+Schober's Test,ASSESS,Ankylosing Spondylitis,Schober’s test was 18 cm BT and 20.1 cm AT.,163783
+Straight Leg Raise (Slr) Test,ASSESS,Ankylosing Spondylitis,"SLRT (Right) was 300 BT and 800 AT, SLRT (Left) was 200 BT and 700 AT.",163783
+Vas Score,ASSESS,Ankylosing Spondylitis,"Pain (VAS) was 9 BT and 3 AT, Stiffness (VAS) was 8 BT and 1 AT.",163783
+Walking Time,ASSESS,Ankylosing Spondylitis,Walking time (10 m) was 30 sec BT and 12 sec AT,163783
+Knee Joint Swelling Measurement,ASSESS,Ankylosing Spondylitis,"Right knee was 36 BT and 33 AT with 8.3% relief, Left knee was 32 BT and 33 AT",163783
+Ankle Joint Swelling Measurement,ASSESS,Ankylosing Spondylitis,"Right ankle was 31 BT and 25 AT, Left ankle was 23 BT and 30 AT",163783
+,,,,
+Amyotrophic Lateral Sclerosis Functional Rating Scale-Revised (Alsfrs-R),ASSESS,Amyotrophic Lateral Sclerosis,"Score improved from 29 BT to 38 AT with improvement seen in speech, swallowing, cutting food, walking, climbing stairs, and orthopnea; salivation normalized and no improvement in fine motor skills like handwriting, buttoning, and dressing hygiene.",240707
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Pityriasis Rubra Pilaris,"Skin scaling relieved; bleeding/swelling cured, complete relief in scaling and pigmented patches subsided.",254481
+Psoriasis Area And Severity Index (Pasi) Score,ASSESS,Pityriasis Rubra Pilaris,Reduced from 67.3 (Day 19) to 6.8 (Day 58) to 0 (Day 89).,254481
+Dermatological Life Quality Index (Dlqi),ASSESS,Pityriasis Rubra Pilaris,Reduced from 30 (Day 19) to 4 (Day 58) to 2 (Day 89).,254481
+,,,,
+Vas Score,ASSESS,Acute Renal Calculus,Score reduced from 10+ to 0 after treatment.,164098
+Ultrasonography (Usg),ASSESS,Acute Renal Calculus,"After treatment, USG showed absence of one ureteric calculus and decrease in the size of the other stone.",164098
+Urine Examination,ASSESS,Acute Renal Calculus,"Urine output was increased from 250ml (first day of admission) to 500, 1200, 1700 ml and maintained thereafter.",164098
+,,,,
+Anthropometric Measurements,ASSESS,Rett Syndrome,"Weight improved from 9.5 kg to 10.7 kg, Height improved from 87 cm to 90 cm, Head circumference increased from 44.5 cm to 45.1 cm, Mid arm circumference improved from 14 cm to 15 cm, Chest circumference improved from 47 cm to 48 cm, BMI increased from 12.55 to 12.85, PEM grade changed from Grade I to Grade II (likely recording error; overall nutritional status improved).",216770
+DSM-V and CARS,ASSESS,Rett Syndrome,"Social relationship (verbal) improved from 4 to 3, further reduced to 2 on follow-up. Communication impairment improved from 4 to 3, Attachment to objects improved from 4 to 3, Visual response improved from 4 to 2, Fear/Nervousness improved from 4 to 2, Total score reduced from 20 to 12, with further decrease on follow-up, indicating significant improvement.",216770
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Neurogenic Bladder,"Burning micturition improved from B3 (severe burning) to B0 (no burning), Straining improved from S3 (almost always) to S0 (no straining), Urgency improved from U2 (less than half the time) to U0 (no urgency), Incomplete emptying improved from E3 (almost always) to E0 (no incomplete emptying).",22455
+Urine Examination,ASSESS,Neurogenic Bladder,Quantity of Urine improved from 50-70 ml to 150 ml after treatment.,22455
+Urine Microscopy,ASSESS,Neurogenic Bladder,"Pus Cells were plenty before, reduced to none after treatment.",22455
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Sciatica,"Severity of pain: Matra Basti showed 66.6% improvement, while Kati Basti showed 100% improvement, Stiffness: Matra Basti showed 80% improvement, while Kati Basti showed 80.95% improvement, Pricking pain: Matra Basti showed 80% improvement, while Kati Basti showed 66.6% improvement, Tenderness: Matra Basti showed 70% improvement, while Kati Basti showed 62.5% improvement",17779
+Radiological Findings,ASSESS,Sciatica,L4–L5 IVD bulge: Both Matra Basti and Kati Basti showed improvement from moderate bulge to mild bulge.,17779
+Hematological Parameters,ASSESS,Sciatica,"Hemoglobin (Hb%): Hb%: Matra Basti showed improvement from 11.2% to 13.2%, while Kati Basti showed improvement from 11% to 12%, FBR: Matra Basti showed reduction from 20 to 7, while Kati Basti showed reduction from 19 to 15.",17779
+Straight Leg Raise (Slr) Test,ASSESS,Sciatica,"SLR test: Matra Basti showed 73.3% improvement, while Kati Basti showed 86.6% improvement",17779
+,,,,
+Vas Score,ASSESS,Knee Osteoarthritis,VAS Score reduced from 8 to 0 after treatment.,257229
+Relief In The Signs And Symptoms,ASSESS,Knee Osteoarthritis,"Pain: Moderate to No Pain after treatment, Crepitation: Moderate to No Crepitation after treatment.",257229
+,,,,
+Follicular Growth,ASSESS,Female Infertility,"Ovulated cases: increased from 0% to 26.66%, 12–20 mm follicles: increased from 40% to 46.66%, <12 mm unruptured cases: reduced from 33.33% to 0%",143266
+Radiological Findings,ASSESS,Female Infertility,"Endometrial thickness: ≥8 mm increased from 20% to 66.66%, 4–5.9 mm reduced from 40% to 0%, <4 mm remained 0%",143266
+Spinnbarkeit Test,ASSESS,Female Infertility,"No crystallisation: increased 26.66% to 73.33%, Tertiary stem reduced from 46.66% to 20%.",143266
+Fern Test,ASSESS,Female Infertility,"8 cm increased from 13.33% to 53.33%, 1–4 cm reduced from 53.33% to 13.33%",143266
+Conception,ASSESS,Female Infertility,"Anovulation (including PCOD): 20% conception, Unexplained causes: 12.5% conception, Cervical factor: 0%",143266
+,,,,
+Vas Score,ASSESS,Migraine,Score 5-9 improved from Score 0-5.,238386
+Relief In The Signs And Symptoms,ASSESS,Migraine,Complete Relief: 66.6% and Marked Relief in 34.4%,238386
+,,,,
+Western Ontario and McMaster Universities (Womac) Index,ASSESS,Osteoarthritis,"WOMAC total mean score before treatment was 49.60, which decreased to 29.60 after Janu Basti; WOMAC total mean score before treatment was 50.267, which decreased to 25.000 after Matra Basti.",257895
+Vas Score,ASSESS,Osteoarthritis,VAS mean score before treatment was 5.40 which decreased to 2.66 after Janu Basti; VAS mean score before treatment was 5.267 which decreased to 1.933 after Matra Basti.,257895
+Tenderness Score,ASSESS,Osteoarthritis,"Tenderness before treatment was 1.40, which decreased to 0.733 after Janu Basti; Tenderness before treatment was 1.333, which decreased to 0.333 after Matra Basti.",257895
+X-Ray Findings,ASSESS,Osteoarthritis,Mean X-ray grading score before treatment was 2.20 which decreased to 1.800 after Janu Basti; Mean X-ray grading score before treatment was 2.067 which decreased to 1.600 after Matra Basti.,257895
+,,,,
+Neck Disability Index (NDI),ASSESS,Cervical Spondylosis,The mean score of NDI improved from 46.26 to 23.06 after Matra Basti. The mean score of NDI improved from 45.03 to  13.06 after Marsha Nasya.,216736
+Hemoglobin Level,ASSESS,Cervical Spondylosis,1.43% reduction after Matra Basti and no improvement after Nasya,216736
+Neutrophils,ASSESS,Cervical Spondylosis,3.86% reduction after Matra Basti and 9.59% reduction after Nasya,216736
+Lymphocytes,ASSESS,Cervical Spondylosis,3.56% reduction after Matra Basti and 4.82% reduction after Nasya,216736
+Red Blood Cell (RBC) count,ASSESS,Cervical Spondylosis,1.05% improvement after Matra Basti and 0.30% improvement after Nasya,216736
+MCV (Mean Corpuscular Volume),ASSESS,Cervical Spondylosis,no significant change after Matra Basti and ~0.86% improvement after Nasya,216736
+MCH (Mean Corpuscular Hemoglobin),ASSESS,Cervical Spondylosis,slight reduction after Matra Basti and 0.55% improvement after Nasya,216736
+MCHC (Mean Corpuscular Hemoglobin Concentration),ASSESS,Cervical Spondylosis,2.06% improvement after Matra Basti and slight reduction after Nasya,216736
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Cervical Spondylosis,no significant improvement after Matra Basti and ~67% reduction after Nasya,216736
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Osteoarthritis,"Joint pain improved from 3.18 to 0.92 (Kshirabala Basti) and from 3.47 to 0.72 (Ketakadya Basti). Pain during flexion and extension improved from 2.13 to 0.48 and 2.36 to 0.55, respectively. Tenderness improved from 1.86 to 0.31 and 2.03 to 0.58, while crepitus improved from 1.34 to 0.42 and 1.26 to 0.73. Joint swelling showed improvement from 1.78 to 1.06 and 1.57 to 1.25, and range of motion of the knee joint improved from 2.58 to 1.65 and 2.23 to 1.73, respectively.",257238
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Cerebral Palsy,"Social smile acquired, contractures in all joints relieved, there is no salivation, no presence of constipation, weight gain by 4 kg, neck holding developed, sitting with support acquired, scissoring of limbs absent, general health condition of the child improved.",96638
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Lumbo-Sacral Disorder,The mean relief in the severity of the symptoms is 81.8% after treatment.,2885
+Hematological Parameters,ASSESS,Lumbo-Sacral Disorder,There was marked decrease in the ESR level and an increase in the Hb% level.,2885
+Radiological Findings,ASSESS,Lumbo-Sacral Disorder,Intervertebral spacing was found to be increased in cases of reduced IV space.,2885
+,,,,
+Straight Leg Raise (Slr) Test,ASSESS,Sciatica,The percentage of improvement in SLR test is 68.75%.,165226
+50 Min Walk Test,ASSESS,Sciatica,The percentage of improvement in 50-foot walk test is 64%.,165226
+One Min Walk Test,ASSESS,Sciatica,The percentage of improvement in One minute walk test is 40.6%.,165226
+Sciatica Frequency Index (SFI),ASSESS,Sciatica,"The percentage of improvement in SFI-Leg pain is 54%, numbness is 54.6%, weakness is 85.7%, back pain or leg pain while sitting is 87.5% and health status is 79.4%.",165226
+Relief In The Signs And Symptoms,ASSESS,Sciatica,"The percentage of improvement on Pain is 50%, Stiffness is 51.2%, Pricking is 44.4%, Heaviness is 40%, Weakness is 66.66%, Anorexia is 66.66%.",165226
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Piles,Markedly Relief in 448 out of total 859 patients.,9859
+Hemoglobin Level,ASSESS,Piles,0.4 gm % rise in Haemoglobin was noticed.,9859
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Lumbar Disc Herniation,"Pain (Ruk) and movement restriction (Gruhnati) affected all 30 patients across both groups. Stiffness (Stambha) was seen in 11 patients in Group I and 9 in Group II, while heaviness (Gaurava) affected 8 and 9 patients, respectively. Pricking sensations (Toda) occurred in 7 Group I patients and 10 Group II patients, and tastelessness (Arochaka) was equally split with 7 patients in each group.",22827
+,,,,
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Rheumatoid Arthritis,Improvement in Group A: 12.91% and Group B: 25.93%. ,238662
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"Improvement in Pain: Group A: 12.91% and Group B: 25.93%, Swelling: Group A: 72.00% and Group B: 64.00%, Siffness: Group A: 32.00 and Group B: 44.00%, Tenderness: Group A: 26.00% and  Group B: 43.00%, Grip Strength: Group A: 02.70 and Group B: 06.84%, Walking Time: Group A: 09.16% and Group B: 14.63%, Functional Capacity: Group A: 29.28% and Group B:29.68.",238662
+,,,,
+Body Weight,ASSESS,Obesity,The percentage of improvement in Body Weight is 10.07%.,16030
+Body Mass Index (Bmi),ASSESS,Obesity,The percentage of improvement in BMI is 9.74%.,16030
+Body Circumferences,ASSESS,Obesity,"The percentage of change in the chest is 5.49%, the abdomen is 6.16%, the buttocks is 4.76%, the mid arm is 4.54%, the mid thigh is 5.80%, and the mid calf muscle is 3.79%.",16030
+Skinfold Thickness Parameters,ASSESS,Obesity,"The percentage of change in the biceps is 4.54%, the triceps is 4.33%, and the subscapular is 5.08%.",16030
+Relief In The Signs And Symptoms,ASSESS,Obesity,"Improvement in Weakness: 77.31%, Foul Smell: 75%, Sweating: 58.50%, Dyspnea: 80.66%, Polydipsia: 56.44%, Drowsiness: 55.66%, Polyphagia: 71.29%, Lethargy: 87.56%, Oily Body Luster: 63.11%.",16030
+,,,,
+Body Weight,ASSESS,Obesity,The percentage of change in the Weight is 26%.,121605
+Body Mass Index (Bmi),ASSESS,Obesity,The percentage of change in the BMI is 29.5%.,121605
+Body Circumferences,ASSESS,Obesity,The percentage of change in the Waist Circumference is 3.17%.,121605
+Relief In The Signs And Symptoms,ASSESS,Obesity,"Flaccidity of gluteum: 45.5%, Polydipsia: 43.5%, Foul Smell: 33.3%, Hypersomnia: 37.5%, Fatigue: 58.3%, Polyphagia: 47.6%.",121605
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"Pain: 77.27%, Stiffness: 80%, Restricted Movement: 79.17%, Swelling: 79.41%, Discoloration: 77.42%.",96745
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Rheumatoid Arthritis,The change in ESR value is 33.09%.,96745
+ASO (Anti-Streptolysin O) titre,ASSESS,Rheumatoid Arthritis,The change in ASO titre is 11.86%.,96745
+,,,,
+Conception,ASSESS,Tubal Blockage,The rate of conception was 11.11%.,96628
+,,,,
+DAS28 Score,ASSESS,Rheumatoid Arthritis,The percentage of relief in the Basti Group: DAS 28: 0.550 and the Virechana Group: DAS 28: 1.206.,227025
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"The percentage of relief in the Basti Group: Pain: 0.833, Tenderness: 4.222, Swelling: 2.444, and the Virechana Group: Pain: 1.333, Tenderness: 7.778, Swelling: 7.500.",227025
+Vas Score,ASSESS,Rheumatoid Arthritis,The percentage of relief in the Basti Group: VAS: 1.333 and the Virechana Group: VAS: 2.444. ,227025
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Rheumatoid Arthritis,The percentage of relief in the Basti Group: ESR: -3.556 and the Virechana Group: ESR: 0.888.,227025
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Cervical Spondylosis,"Pain is mild (2.0%), stiffness is absent (100.0%), pain radiation is R1 (14.0%), there is no weakness (100.0%), there is presence of paraesthesia (8.0%), vertigo is present (4.0%), there is grade H1 (2.0%), sleep is slightly disturbed (18.0).",237901
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Dysmenorrhea,"Before and after treatment, mean symptom scores improved across all parameters: nausea: 0.96 to 0.32, vomiting: 0.24 to 0.06, fatigue: 1.38 to 0.60, headache: 0.54 to 0.08, fainting: 0.80 to 0.10, sweating: 0.14 to 0.02, diarrhoea: 0.04 to 0.02, constipation: 0.62 to 0.06, vaginal discharge: 0.16 to 0.06, and breast tenderness: 0.04 to 0.02.",164111
+Vas Score,ASSESS,Dysmenorrhea,The mean improvement: BT: 2.42 and AT: 0.90.,164111
+"The FLACC (Face, Legs, Activity, Cry, Consolability) scale",ASSESS,Dysmenorrhea,The mean improvement: BT: 2.48 and AT: 0.92.,164111
+Wong Baker Facial Grimace Scale,ASSESS,Dysmenorrhea,The mean improvement: BT: 2.56 and AT: 0.92.,164111
+,,,,
+Blood Parameters,ASSESS,Chronic Kidney Disease,"Sr.creatinine: 8.2 mg/dl to 2.80 mg/dl, Blood urea: 96.05 mg/dl to 50.36 mg/dl.",121566
+Urine Examination,ASSESS,Chronic Kidney Disease,"Urine analysis Protein: Present to Absent, Pus cells: 20-30/hpf to 1-5/hpf.",121566
+,,,,
+Straight Leg Raise (Slr) Test,ASSESS,Sciatica,The average percentage of improvement in SLR Test is 38.89%.,107295
+Lumbar spine mobility (LSM) test,ASSESS,Sciatica,The average percentage of improvement in LSM Test is 55.55%.,107295
+Oswestry Disability Index (Odi) Scale,ASSESS,Sciatica,The average percentage of improvement in ODI is 49.99%.,107295
+Low Back Outcome Score (LBOS),ASSESS,Sciatica,The average percentage of improvement in LBOS Test is 44.44%.,107295
+Relief In The Signs And Symptoms,ASSESS,Sciatica,"The average percentage of improvement: radiation of pain is 63.33%, Stiffness is 55.55%, Pricking Sensation is 49.99%, and fasciculation is 52.22%.",107295
+,,,,
+Straight Leg Raise (Slr) Test,ASSESS,Lumbar Spinal Stenosis,The percentage of relief is 42.75%.,121753
+Oswestry Disability Index (Odi) Scale,ASSESS,Lumbar Spinal Stenosis,The percentage of relief is 43.19%.,121753
+Tenderness Score,ASSESS,Lumbar Spinal Stenosis,The percentage of relief is 48.00%.,121753
+Relief In The Signs And Symptoms,ASSESS,Lumbar Spinal Stenosis,"The percentage of relief in Pain: 56.66%, Stiffness: 50.00%, Pricking: 52.17%, Twitching: 55.55%, Heaviness: 33.33%.",121753
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Chronic Low Back Pain,"The percentage of relief in pain intensity: 80%, personal care: 60%, lifting: 100%, walking: 100%, sitting: 100%, standing: 100%, sleeping: 100%",121551
+,,,,
+Blood Sugar Level,ASSESS,Diabetes Mellitus,FBS reduced from 232 mg/dl to 110 mg/dl; PPBS reduced from 121 mg/dl to 95 mg/dl.,239363
+Blood Parameters,ASSESS,Diabetes Mellitus,Hb1Ac level reduced from 11.5 to 6.9.,239363
+,,,,
+Birmingham Vasculitis Activity Score (Bvas-2010),ASSESS,Vasculitis,"The score was 22 at the time of initiation of treatment, and it changed to 06 after the treatment.",227062
+Relief In The Signs And Symptoms,ASSESS,Vasculitis,Patient lesions were healed within the first 15 days of treatment. The total 04 kg weight of the patient was increased during the entire treatment duration.,227062
+,,,,
+Bath Ankylosing Spondylitis Functional Index (Basfi),ASSESS,Ankylosing Spondylitis,The score BT was 8.1 and AT was 4.9 with 39.5% relief.,239277
+Numerical Rating Scale (NRS),ASSESS,Ankylosing Spondylitis,"The pain score BT was 10 and AT was 3 with 70% relief, the patient's global score BT was 9 and AT was 3 with 66.66% relief, the stiffness score BT was 10 and AT was 4 with 60% relief.",239277
+Bath Ankylosing Spondylitis Metrology Index (Basmi),ASSESS,Ankylosing Spondylitis,The score BT was 7.1 and AT was 4.6 with 35.21% relief.,239277
+Erythrocyte Sedimentation Rate (Esr) Level,ASSESS,Ankylosing Spondylitis,The score BT was 70 and AT was 40 with 42.85% relief.,239277
+Bath Ankylosing Spondylitis Disease Activity Index (Basdai),ASSESS,Ankylosing Spondylitis,The score BT was 7.3 and AT was 3.5 with 52.05% relief.,239277
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Chronic Non-Healing Ulcer,"The Pain score reduced from 6 to 0, and Sleep improved from disturbed sleep to improved sleep.",254906
+Ulcer Size,ASSESS,Chronic Non-Healing Ulcer,The ulcer size reduced from 3 cm into 4 cm to Normal Scar.,254906
+Ulcerated Wound,ASSESS,Chronic Non-Healing Ulcer,The wound improved from unhealthy with slough to a normal scar.,254906
+Edema,ASSESS,Chronic Non-Healing Ulcer,The Edema improved from Moderate to Reduced.,254906
+Burger's Test,ASSESS,Chronic Non-Healing Ulcer,The Burger's test improved from 30 degrees to 80 degrees.,254906
+,,,,
+Severity of Alopecia Tool (SALT) score,ASSESS,Alopecia,The Score BT was 97.76 and AT was 20.02.,238408
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"Body aches BT: 2.95, AT: 1.84; Anorexia or Loss of appetite BT: 2.73, AT: 1.75; Excessive thirst BT: 2.06, AT: 1.97; Lethargy or Laziness BT: 3.00, AT: 1.81; Heaviness of the body BT: 2.99, AT: 1.76; Fever BT: 2.28, AT: 1.86; Indigestion BT: 2.72, AT: 1.77; Joint swelling BT: 2.96, AT: 1.89; Joint pain BT: 2.99, AT: 1.98; Body stiffness BT: 3.00, AT: 1.78; Tenderness or Intolerance to touch BT: 2.78, AT: 1.89.",216742
+,,,,
+Vas Score,ASSESS,Venous Ulcer,The VAS Score for Pain reduced from 9 to 3.,21942
+Edema,ASSESS,Venous Ulcer,The edema reduced from 26 cm to 21.4 cm.,21942
+Ulcer Size,ASSESS,Venous Ulcer,The Ulcer size was reduced from  3× 2× 1.75 cm to 0.5 × 0.5 × 0.2 cm.,21942
+Relief In The Signs And Symptoms,ASSESS,Venous Ulcer,"Nitya Virechana: Swelling reduced up to 60%, burning sensation reduced up to 40%, pricking sensation reduced up to 30%; Basti Karma: Swelling reduced to 95%, burning sensation reduced to 70%, pricking sensation reduced to 80%.",21942
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Osteoarthritis,"Joint pain relief 70%, joint stiffness relief 60%, joint swelling/inflammation relief 60%, feeling of air-filled bladder touch sensation relief 70%, and improvement in the angle of knee joint flexion and extension 60%.",237938
+,,,,
+Conception,ASSESS,Female Infertility,"Conception in Virechana group BT: 0.0, AT: 0.07; Uttarabasti group BT: 0.0, AT: 0.07.",240293
+Fern Test,ASSESS,Female Infertility,"Fern test in Virechana group BT: 2.2, AT: 1.2; Uttarabasti group BT: 2.06, AT: 1.06.",240293
+Spinnbarkeit Test,ASSESS,Female Infertility,"S.B test in Virechana group BT: 2.2, AT: 1.4; Uttarabasti group BT: 2.46, AT: 1.60.",240293
+Radiological Findings,ASSESS,Female Infertility,"Follicular study in Virechana group BT: 2.36, AT: 1.18; Uttarabasti group BT: 1.83, AT: 1.00. Endometrial thickness in Virechana group BT: 1.18, AT: 0.73; Uttarabasti group BT: 0.92, AT: 0.416.",240293
+Relief In The Signs And Symptoms,ASSESS,Female Infertility,"Menstrual Cycle Interval: Virechana (BT: 1.13, AT: 0.2), Uttarabasti (BT: 0.33, AT: 0.067); Menstrual Cycle Duration: Virechana (BT: 1.33, AT: 0.20), Uttarabasti (BT: 1.33, AT: 0.53); Menstrual Blood Amount: Virechana (BT: 1.13, AT: 0.197), Uttarabasti (BT: 1.26, AT: 0.44); Dysmenorrhea: Virechana (BT: 1.73, AT: 0.53), Uttarabasti (BT: 2.26, AT: 1.52); Dyspareunia: Virechana (BT: 1.13, AT: 0.533), Uttarabasti (BT: 0.73, AT: 0.266).",240293
+,,,,
+Straight Leg Raise (Slr) Test,ASSESS,Sciatica,The percentage of relief in SLR Test was 33.9%.,226987
+Oswestry Disability Index (Odi) Scale,ASSESS,Sciatica,The percentage of relief in ODI Test was 43.3%.,226987
+Lasegue’s Sign,ASSESS,Sciatica,The percentage of relief was 45%.,226987
+Schober's Test,ASSESS,Sciatica,The percentage of relief was 60%.,226987
+Gaenslen's Test,ASSESS,Sciatica,The percentage of relief was 72%.,226987
+Relief In The Signs And Symptoms,ASSESS,Sciatica,"The percentage of relief in pain was 62%, Pricking sensation relief 81%, Stiffness relief 73.07%, and Twitching relief 82%.",226987
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"The change in Joint Pain: 3.9, Stiffness: 1.93, Loss Of Appetite: 1.66, Body Ache: 1.6, Swelling: 1.8.",164937
+,,,,
+Diabetic Neuropathy Examination (DNE) ,ASSESS,Diabetic Neuropathy,The Score BT: 8 and AT: 2.,256285
+Michigan Neuropathy Screening Instrument (MNSI),ASSESS,Diabetic Neuropathy,The Score BT: 4 and AT: 1.,256285
+Toronto Clinical Neuropathy Score (TCNS),ASSESS,Diabetic Neuropathy,The Score BT: 1 and AT: 0.5.,256285
+Diabetic Neuropathy Symptom Score (DNS),ASSESS,Diabetic Neuropathy,The Score BT: 14 and AT: 6.,256285
+,,,,
+Modified Ashworth Scale (Mas),ASSESS,Global Developmental Delay,"The Score improved fro Grade 1( slight increase in muscle tone, minimal resistance through out the remainder ( less than half) of the range of motion) to Grade 3 (Increase in muscle tone, but passive movement is difficult.)",256281
+Gross Motor Function Classification Scale (GMFCS),ASSESS,Global Developmental Delay,"Sitting improved from Grade 2 (sit for 30s & more lean forward) to Grade 4( while sitting can manipulate a toy), Standing improved from Grade 0 (Does not stand at all) to Grade 2 (Take a few steps both hands hold), Fine Motor improved from Grade 1 (Child try to reach and holds things with crude methods) to Grade 3 (From one hand to another hand can transfer object), Language improved from Grade 2 (Monosyllables) to Grade 4 (Two words with meaning), Personal and social improved from Grade 2 ( Recognizing mother) to Garde 5 (Resist when pulling the toy).",256281
+Activity Daily Living (ADL) Scale,ASSESS,Global Developmental Delay,"Transferring: improved from dependent to independent, Feeding also improved from dependent to independent.",256281
+,,,,
+Harris Hip Score,ASSESS,Avascular Necrosis,The Score of Left Hip BT: 39.7 improved to 73.2 after treatment and score of right hip BT: 28.7 improved to 70.5 after treatment.,7494
+Vas Score,ASSESS,Avascular Necrosis,The VAS Score improved from 8 to 4 after treatment.,7494
+Depression Anxiety Stress Scale,ASSESS,Avascular Necrosis,"The Depression score improved from 18 to 12, Anxiety Score improved from 9 to 6, Stress improved from 8 to 6.",7494
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Haemorrhoids,"The percentage of relief in Bleeding rectum: 99.65%, Pain in Anus: 95%, Pile mass: 85.88%, Constipation: 100%",164096
+,,,,
+Hematological Parameters,ASSESS,Ankylosing Spondylitis,CRP was reduced to 6 mg/L,196064
+Bath Ankylosing Spondylitis Disease Activity Index (Basdai),ASSESS,Ankylosing Spondylitis,BASDAI Score reduced from 5.9 to 2.9,196064
+Ankylosing Spondylitis Disease Activity Score with CRP (ASDAS-CRP),ASSESS,Ankylosing Spondylitis,ASDAS-CRP reduced from 3.3 to 1.9,196064
+Relief In The Signs And Symptoms,ASSESS,Ankylosing Spondylitis,"Appetite improved from poor to proper, sleep, pain, stiffness improved markedly",196064
+,,,,
+Verbal Descriptive Scale (VDS),ASSESS,Post-Thrombotic Syndrome,VDS Score for pain reduced from 8 to 3.,239160
+Villalta Score,ASSESS,Post-Thrombotic Syndrome,Villalta Score for Itching reduced from Severe to Mild,239160
+Wound Assessment,ASSESS,Post-Thrombotic Syndrome,"Wound Size: 5.5*4 cm  to 1*0.5 cm, Wound Depth: 8mm to 2mm, Discharge: Serosangenous to none, Floor: Slough to Red Healthy granulation tissue, Odour: Foul smell to none. ",239160
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"Joint Pain: 3 to 1, Joint stiffness: 1 to 0, Joint tenderness: 2 to 1",240689
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Endometrioma,The pain reduced and irregular menstruation improved.,254496
+Conception,ASSESS,Endometrioma,The patient conceived within four months after the marriage and  gave birth to a healthy baby.,254496
+Cyst Size,ASSESS,Endometrioma,The size of the cyst was reduced from 5.5 × 3.9 cm to 4.7cm.,254496
+,,,,
+Modified Ashworth Scale (Mas),ASSESS,Cerebral Palsy,"Effect on spasticity in the right upper limb: 53.33%, left upper limb: 39.28%, right lower limb: 34.21%, left lower limb: 37.84%. ",121746
+,,,,
+Bath Ankylosing Spondylitis Disease Activity Index (Basdai),ASSESS,Ankylosing Spondylitis,"There was a reduction of score for fatigue from 7 to 3, and pain and swelling from 6 to 3.",257918
+Bath Ankylosing Spondylitis Functional Index (Basfi),ASSESS,Ankylosing Spondylitis,There was a significant reduction in the scores of BASFI from 4.9 to 3.6.,257918
+Bath Ankylosing Spondylitis Metrology Index (Basmi),ASSESS,Ankylosing Spondylitis,There was a significant reduction in the scores of BASMI from 6.6 to 5.6.,257918
+Relief In The Signs And Symptoms,ASSESS,Ankylosing Spondylitis,There was an observable reduction in Kyphosis along with improvement in sleep and appetite of the patient.,257918
+,,,,
+FM Impact Questionnaire (FIQ),ASSESS,Fibromyalgia,The FIQ score was reduced from 65.4 to 32.3 after treatment.,239364
+Relief In The Signs And Symptoms,ASSESS,Fibromyalgia,"Improvement was observed in physical impairment, difficulty in doing work, pain, fatigue, and stiffness. Constipation was relieved, and heaviness in the body was also reduced. General condition improved markedly.",239364
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Cervical Spondylosis,"The neck pain: 3 to 0, Stiffness: 3 to 0, Arm Pain: 3 to 0.",143330
+Vas Score,ASSESS,Cervical Spondylosis,The VAS Score reduced from 80 to 10.,143330
+,,,,
+Young Mania Rating Scale (YMRS),ASSESS,Bipolar Affective Disorder,The Score reduced from 22 on the 0th day to 12 on the 36th day after treatment.,256894
+Relief In The Signs And Symptoms,ASSESS,Bipolar Affective Disorder,"There was a marked improvement in speech pressure and circumstantiality. Recurrent negative thoughts were considerably reduced, along with subjective improvement in mood, motor activity, and energy levels.",256894
+,,,,
+Harris Hip Score,ASSESS,Avascular Necrosis,"Right hip improved from 36 (poor) before treatment to 81 (good) after treatment, while the left hip improved from 41 (poor) to 74 (fair)",256282
+Range of movement of Hip Joint,ASSESS,Avascular Necrosis,"Progressive improvement was observed across most movements following treatment. Right hip abduction increased from 15° to 25°, adduction from 15° to 25°, flexion from 100° to 110°, internal rotation from 15° to 25°, and external rotation from 10° to 25°. Left hip showed improvement in abduction (25°→30°), adduction (20°→30°), flexion (105°→115°), extension (5°→15°), and external rotation (15°→30°).",256282
+Vas Score,ASSESS,Avascular Necrosis,Pain intensity decreased from 7 to 3 in the right leg and from 6 to 1 in the left leg following treatment,256282
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Irritable Bowel Syndrome,"Patient reported gradual improvement in altered bowel habits, stool with mucus, pain in abdomen, anorexia, indigestion, heaviness in abdomen.",237978
+Blood Parameters,ASSESS,Irritable Bowel Syndrome,"ESR- 10mm, Hb %- 12.5 gm%, Urine Pus cell – Nil.",237978
+Body Weight,ASSESS,Irritable Bowel Syndrome,After treatment patient got significant relief and he gained weight up to 49 kg. (before treatment wt. 45kg) ,237978
+,,,,
+Fasting Blood Sugar (Fbs) Level,ASSESS,Adhesive Capsulitis Stage 2,FBS improved from 230 mg/dl to 152 mg/dl.,196121
+Postprandial Blood Sugar (Ppbs) Level,ASSESS,Adhesive Capsulitis Stage 2,PPBS improved from 405 mg/dl to 278 mg/dl.,196121
+,,,,
+Western Ontario and McMaster Universities (Womac) Index,ASSESS,Knee Osteoarthritis,"Total WOMAC score reduced from 66.82 to 40.08, Pain score: 13.53 to 7.90, Stiffness: 5.77 to 2.60, Physical functioning:47.55 to 29.65.",121537
+Vas Score,ASSESS,Knee Osteoarthritis,VAS Score reduced from 8.05 to 5.37.,121537
+Pas Score,ASSESS,Knee Osteoarthritis,PAS Score reduced from 80.17 to 49.00.,121537
+Physician Global Assessment (Phga) Score,ASSESS,Knee Osteoarthritis,PhGA score reduced from 78.17 to 47.17.,121537
+,,,,
+Semen Analysis,ASSESS,Necrozoospermia,"A significant increase in total spermatozoa concentration, motility, morphology, and vitality of the spermatozoa was found after Virechana",165423
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Vipadika,Cracked heels and palms: Grade 3 to Grade 1; Pain: Grade 3 to Grade 0; Dryness: Grade 3 to Grade 0; Itching: Grade 2 to Grade 0; Blackish Discolouration: grade 2 to grade 0. ,253965
+,,,,
+Hematological Parameters,ASSESS,Poly Cystic Ovarian Syndrome,"WBC (5400 to 4800/cu.mm), Hb (13.4 to13.1 g%), RBC (4.30 to 4.04 million/cumm) and platelets (412 to 334 ×10³/µL) decreased slightly, while ESR remained unchanged (46 mm/hr). Neutrophils increased (54% to 64%) and lymphocytes decreased (40% to 30%).",238414
+Ultrasonography (Usg),ASSESS,Poly Cystic Ovarian Syndrome,"Ovarian volume decreased from 25.3 to 23 cc (right) and 24 to 19 cc (left), with PCOD improving from ++ to +; endometrial thickness changed from 4 to 4.6 mm.",238414
+Conception,ASSESS,Poly Cystic Ovarian Syndrome,The patient delivered a female baby with a birth weight of 2.75 kg vaginally at 39th week of pregnancy.,238414
+,,,,
+Neurological Finding,ASSESS,Hemiplegia,"On day 1, limb power was 1/5 with hypotonia, involuntary movements, reduced reflexes, and slurred speech. By day 12, power improved to 2/5, with reduced involuntary movements and improved speech. At discharge, power reached 5/5, with hypertonia, absent involuntary movements, brisk/normal reflexes, and normal speech.",239324
+,,,,
+Fukushima lumbar spinal stenosis scale (FLS‑25) questionnaire,ASSESS,Lumbar Disc Disease,The FLS-25 score reduced from 40 to 34.,242766
+Vas Score,ASSESS,Lumbar Disc Disease,The VAS Score rediced from 10 to 3.,242766
+Straight Leg Raise (Slr) Test,ASSESS,Lumbar Disc Disease,"Right remained positive at 80°, while the left improved from 30° to 60°, indicating improved left lower-limb mobility.",242766
+6 Min Walk Test (6Mwt),ASSESS,Lumbar Disc Disease,The 6MWT increases from 150m to 324 m.,242766
+,,,,
+Muscle Power Grading,ASSESS,Guillain-Barre Syndrome,Increased from 2/5 to 4/5 (active movement against gravity and some resistance); Improved from hypotonic to normal.,132876
+Reflexes,ASSESS,Guillain-Barre Syndrome,Knee and ankle reflexes improved from reduced (+) to normal (++).,132876
+Relief In The Signs And Symptoms,ASSESS,Guillain-Barre Syndrome,"Weakness, tingling, and difficulty in walking reduced.",132876
+,,,,
+Ultrasonography (Usg),ASSESS,Tubal Blockage,USG confirmed a single viable intrauterine pregnancy of 8 weeks 3 days.,241639
+Follicular Growth,ASSESS,Tubal Blockage,Follicular study showed normal ovulation from the left ovary.,241639
+Hysterosapingography  (HSG),ASSESS,Tubal Blockage,Free spill of contrast is seen on fimbrial end of both fallopian tube s/o Patent B/L fallopian tubes.,241639
+Conception,ASSESS,Tubal Blockage,The patient successfully conceived in the same cycle.,241639
+,,,,
+Anthropometric Measurements,ASSESS,Hirayama Disease,Arm circumference: from 10.5 to 8.5 inches (right) and 11 to 9 inches (left) after treatment. Forearm circumference: from 12 to 9.5 inches (right) and 12 to 10 inches (left) after treatment. ,242776
+Muscle Power Grading,ASSESS,Hirayama Disease,"Muscle power showed improvement in biceps flexion and extension, increasing from R3 to R4 after treatment and R5 at follow-up, while the remaining muscle groups maintained R5/L5 strength.",242776
+Magnetic Resonance Imaging (Mri),ASSESS,Hirayama Disease,MRI showed mild posterior disc bulges from C3–C4 to C6–C7 without significant neural compression.,242776
+,,,,
+Lipid Profile,ASSESS,Uterine Fibroids,"Lipid Profile showed 40.54% marked, 51.35% moderate, and 8.11% mild improvement.",206587
+Relief In The Signs And Symptoms,ASSESS,Uterine Fibroids,"Improvement was observed in menstrual quantity (48.48%), intermenstrual bleeding (100%), dysmenorrhoea (83.72%), irregular menstruation (90.32%), duration of blood loss (93.75%), lower abdominal pain (92.68%), backache (95.24%), weakness (78.13%), and constipation (100%).",206587
+Fibroid Size,ASSESS,Uterine Fibroids,"Fibroid Size showed reductions of 43.05% (vertical), 39.81% (horizontal), and 39.27% (AP) diameters.",206587
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Rheumatoid Arthritis,"Significant improvement was observed in all parameters: pain decreased by 74.07%, swelling by 83.72%, stiffness by 88.8%, and tenderness by 71% (p < 0.001 for all).",238831
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Sciatica,"Pain improved by 58.3%, stiffness by 65.3%, fatigue/drowsiness by 47.8%, heaviness by 60.8%, standing ability by 59.0%, and walking distance by 61.0%, with statistically significant improvements. Painful sensation showed 60.0% relief, while loss of appetite improved by 66.6%. Muscle twitching showed 50% relief, but the improvement was not statistically significant (p > 0.05).",18660
+Straight Leg Raise (Slr) Test,ASSESS,Sciatica,The SLR test improved by 44.0% and was statistically significant (p < 0.001).,18660
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Infertility,"Amount of menses improved by 66.66% (NS), pain during menstruation by 77.77% (p < 0.01, highly significant), and leucorrhoea by 100% (p < 0.05, significant).",196083
+Spinnbarkeit Test,ASSESS,Infertility,"Spinnbarkeit test improved by 50% (p < 0.01, highly significant).",196083
+Fern Test,ASSESS,Infertility,Fern test (16.66%) showed non-significant changes.,196083
+Post-coital Test,ASSESS,Infertility,Post-coital test (50%) showed non-significant changes.,196083
+Follicular Study,ASSESS,Infertility,"Follicular study improved by 84.61% (p < 0.05, significant).",196083
+Endometrial Thickness,ASSESS,Infertility,"Endometrial thickness improved by 61.11% (p < 0.01, highly significant)",196083
+,,,,
+Eczema Area and Severity Index (EASI),ASSESS,Eczema,"A significant progressive improvement was observed from baseline (mean rank 3) to after treatment (2) and follow-up (1), with χ² = 56.0, p < 0.001, indicating a statistically significant improvement.",242778
+Friedman’s test,ASSESS,Eczema,"Itching (Atikandu) showed 3.00, 1.91, and 1.09 with χ² = 53.850; excessive vaginal discharge (Bahusraav) showed 2.29, 1.98, and 1.73 with χ² = 15.548; dryness (Rukshata) showed 2.95, 2.00, and 1.05 with χ² = 51.541; and blackish discoloration/hyperpigmentation (Shyavapidika) showed 3.00, 1.96, and 1.04 with χ² = 55.055.",242778
+Wilcoxon signed-rank test,ASSESS,Eczema,"Itching (Atikandu) improved significantly across all comparisons (Z = −4.705 to −4.755, p < 0.001), while excessive vaginal discharge (Bahusraav) showed significant improvement (Z = −2.530 to −2.636, p = 0.008–0.011). Dryness (Rukshata) showed highly significant improvement (Z = −4.575 to −5.014, p < 0.001), as did hyperpigmentation (Shyavapidika) (Z = −4.755 to −5.014, p < 0.001).",242778
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Infertility,"Amount of menses improved by 66.66%, duration of menses by 50%, and dysmenorrhoea by 80.81%, though these changes were not statistically significant (p > 0.05). Dyspareunia showed 81.69% improvement (p < 0.001), while stress improved by 75.47% (p < 0.01), indicating statistically significant improvement.",164540
+Follicular Study,ASSESS,Infertility,"36.65% improvement (p < 0.01, very significant).",164540
+Endometrial Thickness,ASSESS,Infertility,"63.01% improvement (p < 0.05, significant).",164540
+Spinnbarkeit Test,ASSESS,Infertility,"42.06% improvement (p < 0.01, very significant).",164540
+Fern Test,ASSESS,Infertility,"38.49% improvement (p < 0.01, very significant).",164540
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Irritable Bowel Syndrome,"Constipation showed significant improvement (χ² = 12.00, p < 0.01), along with diarrhoea (χ² = 4.47, p < 0.05), mucoid stool (χ² = 11.00, p < 0.05), depressive features (χ² = 10.90, p < 0.04), and insomnia (χ² = 8.00, p < 0.01). Abdominal pain (χ² = 5.58, p > 0.05) and tenesmus (χ² = 4.80, p > 0.05) showed non-significant improvement.",13169
+,,,,
+Relief In The Signs And Symptoms,ASSESS,Sciatica,"Pain decreased from 5 to 1, stiffness from 3 to 1, pricking sensation from 2 to 1, fasciculation, anorexia, and torpor from 1 to 0, and heaviness from 3 to 1. Walking distance and standing ability improved from 3 to 1.",238755
+Straight Leg Raise (Slr) Test,ASSESS,Sciatica,The Straight Leg Raise improved from 4° to 3° in the right leg and from 3° to 2° in the left leg.,238755
+,,,,
+Language And Performance,ASSESS,Cerebral Palsy,"Improvement was observed in language and performance (46.15%), speech (56.25%), and performance of skills (76.45%).",20599
+Fine Motor Functions,ASSESS,Cerebral Palsy,"Fine motor function showed improvement in putting a small object in a container (66.66%), throwing a ball in all directions (60.00%), using the thumb and index finger (68.75%), retaining a 2-inch cube in the fist (55.58%), and folding paper in all directions (38.88%).",20599
+Gross Motor Functions,ASSESS,Cerebral Palsy,"Gross motor function improved in crawling (48.00%), sitting (57.89%), standing (61.90%), walking (60.00%), and clapping hands (63.41%).",20599
+,,,,
+ADAS-cog,ASSESS,Senile Dementia,"The total ADAS-cog score decreased from 46.28 ± 11.17 before treatment to 34.48 ± 13.69 after treatment, showing 25.5% relief.",20598
+Relief In The Signs And Symptoms,ASSESS,Senile Dementia,"The highest percentage of relief was observed in anxiety (61.7%), followed by irritability (59.7%), disturbed sleep (53.5%), sad mood (32%), name forgetting (32.5%), making mistakes in accounts (31%), impaired attention (28%), and difficulty in recognising family members and surroundings (27.5%). Improvement was also noted in forgetfulness (12%), object mislaid (24.7%), number forgotten (20.4%), disturbed speech (20.8%), assistance in personal care (14%), delusional thoughts (22.5%), tremors (9.8%), disturbed gait (22.4%), and feeling of weakness (35.6%).",20598
+,,,,
+Scale For Assessment And Rating Of Ataxia (Sara) Score,ASSESS,Spinocerebellar Ataxia,"SARA score decreased from 30 at baseline to 11.5 after treatment, indicating marked improvement in ataxia severity and functional performance.",239448
