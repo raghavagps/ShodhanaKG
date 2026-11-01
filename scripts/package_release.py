@@ -10,7 +10,7 @@ import subprocess
 import tarfile
 
 ROOT = Path(__file__).resolve().parents[1]
-PRESERVE = {'webservice/api/config.php', 'webservice/api/core/reference_catalog_v1.json'}
+PRESERVE = {'api/config.php', 'api/core/reference_catalog_v1.json'}
 
 def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
