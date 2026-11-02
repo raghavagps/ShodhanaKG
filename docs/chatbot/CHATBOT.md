@@ -28,25 +28,25 @@ Key characteristics:
 
 The chatbot backend is organized in modular classes under `webservice/api/core/`:
 
-1. Static FAQ and Metadata Interceptor (`FAQMatcher.php`):
+1. Static FAQ and Metadata Interceptor (`webservice/api/core/FAQMatcher.php`):
    - Handles general platform queries, usage help, and navigation questions before graph execution.
    - Resolves known scientific entity definitions using deterministic node property lookups.
 
-2. Entity Resolution and Intent Routing (`QuestionRouter.php`, `EntityResolution.php`):
+2. Entity Resolution and Intent Routing (`webservice/api/core/QuestionRouter.php`, `webservice/api/core/EntityResolution.php`):
    - Normalizes input question text.
    - Extracts candidate entity names against known graph terminology.
    - Maps questions to one of 53 allowlisted traversal endpoints or prompts the user for clarification.
 
 3. Retrieval Core:
    - Dispatches graph traversal commands to ArcadeDB through `arcade_command()` in `webservice/api/db.php`.
-   - Uses `EvidenceCorrelator.php` to match citations across relational paths.
-   - Cross-references study identifiers against `reference_catalog_v1.json`, which indexes 410 curated literature publications.
+   - Uses `webservice/api/core/EvidenceCorrelator.php` to match citations across relational paths.
+   - Cross-references study identifiers against `webservice/api/core/reference_catalog_v1.json`, which indexes 410 curated literature publications.
 
-4. Results Presentation (`ResultsPresentation.php`, `EvidenceAnswerBuilder.php`):
+4. Results Presentation (`webservice/api/core/ResultsPresentation.php`, `webservice/api/core/EvidenceAnswerBuilder.php`):
    - Structures query outputs into entity lists, property tables, and clinical cards.
    - Assembles explicit literature citation lists with source URLs and publication identifiers.
 
-5. Conversational Layer (`ConversationalAnswer.php`, `LLMClient.php`):
+5. Conversational Layer (`webservice/api/core/ConversationalAnswer.php`, `webservice/api/core/LLMClient.php`):
    - Invokes the local Ollama instance via HTTP when enabled.
    - Translates structured evidence into natural language summaries.
    - System prompts constrain the model to the provided evidence payload.
