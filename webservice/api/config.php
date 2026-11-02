@@ -75,9 +75,9 @@ $API_PORT = getenv('API_PORT') ?: '8081';
 $ARCADE_HOST = getenv('ARCADE_HOST') ?: 'localhost';
 $ARCADE_PORT = getenv('ARCADE_PORT') ?: '2480';
 $ARCADE_URL = getenv('ARCADE_URL') ?: ('http://' . $ARCADE_HOST . ':' . $ARCADE_PORT);
-$ARCADE_DB = getenv('ARCADE_DB') ?: 'IntegratedKG';
-$ARCADE_USER = getenv('ARCADE_USER') ?: 'username';
-$ARCADE_PASS = getenv('ARCADE_PASS') ?: 'password';
+$ARCADE_DB = getenv('ARCADE_DB') ?: (isset($_ENV['ARCADE_DB']) ? $_ENV['ARCADE_DB'] : 'shodhana');
+$ARCADE_USER = getenv('ARCADE_USER') ?: (isset($_ENV['ARCADE_USER']) ? $_ENV['ARCADE_USER'] : 'username');
+$ARCADE_PASS = getenv('ARCADE_PASS') ?: (isset($_ENV['ARCADE_PASS']) ? $_ENV['ARCADE_PASS'] : 'password');
 
 if (getenv('ARCADE_URL') === false) { putenv('ARCADE_URL=' . $ARCADE_URL); $_ENV['ARCADE_URL'] = $ARCADE_URL; }
 if (getenv('ARCADE_DB') === false) { putenv('ARCADE_DB=' . $ARCADE_DB); $_ENV['ARCADE_DB'] = $ARCADE_DB; }

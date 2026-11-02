@@ -11,7 +11,7 @@ Ensure the following runtime environments and services are available before runn
 - **PHP**: PHP 8.2 (required for running evaluation test suites; the API runtime supports PHP 5.6.40+).
 - **Python**: Python 3.8 or higher with the standard library (optional `pandas>=2.0.0` for CSV tabular results).
 - **Node.js and npm**: Engine requirement `^22.12.0 || ^24.0.0 || >=26.0.0` with npm (required for Playwright browser automation tests).
-- **ArcadeDB**: ArcadeDB running on port 2480 (required for live schema and direct database retrieval suites; see the [Quick Start Guide](../../QUICK_START.md) for database setup).
+- **ArcadeDB**: ArcadeDB running on port 2480 (required for live schema and direct database retrieval suites; see the [Quick Start Guide](../../QUICKSTART.md) for database setup).
 - **PHP Web Server**: Built-in PHP server or web server running on port 8081 (required for HTTP runner and Playwright tests).
 - **Ollama**: Local Ollama daemon running on port 11434 with the `llama3.2` model (needed when evaluating natural-language conversational phrasing).
 - **Offline Tests**: Offline unit and assertion tests require neither ArcadeDB nor Ollama.

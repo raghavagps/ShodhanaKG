@@ -233,13 +233,13 @@ ShodhanaKG/
 │   └── general/          Project changelog
 ├── scripts/              Packaging and release utilities
 ├── LICENSE               MIT License
-├── QUICK_START.md        Quick start and local setup guide
+├── QUICKSTART.md         Quick start and local setup guide
 └── README.md             Project overview and setup guide
 ```
 
 ## Detailed Documentation
 
-- [Quick Start Guide](QUICK_START.md)
+- [Quick Start Guide](QUICKSTART.md)
 
 ### Web Service Guides (`docs/webservice/`)
 - [Frontend Documentation](docs/webservice/FRONTEND_DOCUMENTATION.md)

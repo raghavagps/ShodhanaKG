@@ -7,7 +7,7 @@ This log documents architectural enhancements, module migrations, and system cap
 ## Documentation Architecture
 
 - Consolidated repository documentation across `docs/webservice/`, `docs/chatbot/`, `docs/evaluation/`, and `docs/general/`.
-- Replaced fragmented guides with unified architectural references: `FRONTEND_DOCUMENTATION.md`, `BACKEND_DOCUMENTATION.md`, `CHATBOT.md`, `DEPLOYMENT.md`, `QUICK_START.md`, and `EVALUATION_GUIDE.md`.
+- Replaced fragmented guides with unified architectural references: `FRONTEND_DOCUMENTATION.md`, `BACKEND_DOCUMENTATION.md`, `CHATBOT.md`, `DEPLOYMENT.md`, `QUICKSTART.md`, and `EVALUATION_GUIDE.md`.
 - Synchronized code links, relative file paths, and environment variable references with repository structure.
 - Documented database population and migration procedures across `Create_graph.Cypher`, `Export.Cypher`, and `Migrate_to_ArcadeDB.sql` using Neo4j latest (Desktop or Server) and ArcadeDB.
 

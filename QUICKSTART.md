@@ -80,7 +80,7 @@ The graph is rebuilt from `data/graph_export/neo4j-export.json`. To populate or 
 Create your local `.env` file from the provided example:
 
 ```bash
-cp .env.production.example .env
+cp .env.example .env
 ```
 
 Review the values in `.env`:

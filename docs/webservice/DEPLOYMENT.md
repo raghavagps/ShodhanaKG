@@ -156,7 +156,7 @@ The graph is rebuilt from `data/graph_export/neo4j-export.json`.
 
 ### Apache HTTP Server
 
-Ensure `mod_rewrite` is enabled. A reference configuration is provided in `apache.conf.example`.
+Ensure `mod_rewrite` is enabled. A reference configuration is provided in [`apache.conf.example`](../../apache.conf.example).
 
 Example configuration snippet for subdirectory deployments:
 

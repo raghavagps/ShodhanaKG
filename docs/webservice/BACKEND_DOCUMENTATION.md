@@ -254,13 +254,13 @@ Core backend files in `webservice/api/`:
 - `cors.php`: CORS headers and preflight handling.
 - `response.php`: JSON response helpers.
 - `serve.php`: Local development server runner.
-- `core/ModelConfig.php`: Ollama connection resolver.
-- `core/PhpCompatibility.php`: Backward compatibility functions.
-- `core/QuestionRouter.php`: Query intent classifier and candidate matcher.
-- `core/EntityResolution.php`: Entity identifier extractor.
-- `core/ResultsPresentation.php`: Structured answer and citation formatter.
-- `core/EvidenceCorrelator.php`: Citation matching across traversal edges.
-- `core/EvidenceAnswerBuilder.php`: Deterministic answer generator.
-- `core/ConversationalAnswer.php`: LLM phrasing assistant.
-- `core/LLMClient.php`: HTTP client for local Ollama service.
-- `core/reference_catalog_v1.json`: Curated reference publication index.
+- `webservice/api/core/ModelConfig.php`: Ollama connection resolver.
+- `webservice/api/core/PhpCompatibility.php`: Backward compatibility functions.
+- `webservice/api/core/QuestionRouter.php`: Query intent classifier and candidate matcher.
+- `webservice/api/core/EntityResolution.php`: Entity identifier extractor.
+- `webservice/api/core/ResultsPresentation.php`: Structured answer and citation formatter.
+- `webservice/api/core/EvidenceCorrelator.php`: Citation matching across traversal edges.
+- `webservice/api/core/EvidenceAnswerBuilder.php`: Deterministic answer generator.
+- `webservice/api/core/ConversationalAnswer.php`: LLM phrasing assistant.
+- `webservice/api/core/LLMClient.php`: HTTP client for local Ollama service.
+- `webservice/api/core/reference_catalog_v1.json`: Curated reference publication index.

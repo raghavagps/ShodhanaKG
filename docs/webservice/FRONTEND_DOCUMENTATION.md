@@ -63,22 +63,22 @@ Directory structure:
 - `webservice/frontend/tsconfig.json`: TypeScript configuration files.
 - `webservice/frontend/public/`: Static assets, embedded fonts, and open-source font licenses.
 - `webservice/frontend/src/`: Application source code.
-  - `src/main.tsx`: Entry point rendering the root component.
-  - `src/App.tsx`: Root component with application providers, router setup, and lazy route definitions.
-  - `src/index.css`: Global styles, design tokens, and colorblind mode CSS variables.
-  - `src/lib/`: API clients, Cytoscape styling, TypeScript types, and export utilities.
-  - `src/hooks/`: React hooks for colorblind theme context, toast alerts, and mobile viewport detection.
-  - `src/data/`: Graph schemas, entity types, domain mappings, and color token definitions.
-  - `src/components/`: React components organized by feature (layout, explorer, chatbot, UI primitives).
-  - `src/pages/`: Page-level components and explorer views.
-  - `src/test/`: Testing setup and unit test specifications.
+  - `webservice/frontend/src/main.tsx`: Entry point rendering the root component.
+  - `webservice/frontend/src/App.tsx`: Root component with application providers, router setup, and lazy route definitions.
+  - `webservice/frontend/src/index.css`: Global styles, design tokens, and colorblind mode CSS variables.
+  - `webservice/frontend/src/lib/`: API clients, Cytoscape styling, TypeScript types, and export utilities.
+  - `webservice/frontend/src/hooks/`: React hooks for colorblind theme context, toast alerts, and mobile viewport detection.
+  - `webservice/frontend/src/data/`: Graph schemas, entity types, domain mappings, and color token definitions.
+  - `webservice/frontend/src/components/`: React components organized by feature (layout, explorer, chatbot, UI primitives).
+  - `webservice/frontend/src/pages/`: Page-level components and explorer views.
+  - `webservice/frontend/src/test/`: Testing setup and unit test specifications.
 - `webservice/frontend/tests/`: Playwright browser automation and end-to-end test suites.
 
 ---
 
 ## 4. Component Tree
 
-The top-level provider hierarchy in `src/App.tsx`:
+The top-level provider hierarchy in `webservice/frontend/src/App.tsx`:
 
 ```
 <App>
@@ -118,7 +118,7 @@ A focus mode toggle collapses both sidebars for full-screen graph exploration.
 
 ## 5. Routing
 
-Routes are defined in `src/App.tsx` using `react-router-dom`:
+Routes are defined in `webservice/frontend/src/App.tsx` using `react-router-dom`:
 
 | Route Path | Component | Loading Strategy |
 |---|---|---|
@@ -169,7 +169,7 @@ The application does not use external global state stores like Redux or Zustand.
 
 ### HTTP Client
 
-API calls are handled in `src/lib/api.ts` using the native browser `fetch` function:
+API calls are handled in `webservice/frontend/src/lib/api.ts` using the native browser `fetch` function:
 - Base URL is read from `VITE_API_BASE` or falls back to `BASE_URL`.
 - Endpoints return JSON conforming to standard response envelopes with an `ok` boolean flag.
 - Errors throw JavaScript exceptions containing server error messages.
@@ -190,7 +190,7 @@ Cross-domain bridge records are retrieved directly in `IntegratedTableView.tsx` 
 
 ### Core Data Models
 
-TypeScript interfaces are declared in `src/lib/types.ts`:
+TypeScript interfaces are declared in `webservice/frontend/src/lib/types.ts`:
 - `ApiNode`: Generic graph node with `id`, `label`, `type`, and optional description.
 - `ApiEdge`: Graph relationship with `id`, `source`, `target`, `type`, and optional literature citation attributes (`pubmedId`, `reference`).
 - `ProvenancePath`: Multi-hop path linking disease, therapy, and formulation with matched literature citation metadata.
@@ -202,7 +202,7 @@ TypeScript interfaces are declared in `src/lib/types.ts`:
 
 ### GraphCanvas Component
 
-The `GraphCanvas` component (`src/components/explorer/GraphCanvas.tsx`) wraps Cytoscape.js directly.
+The `GraphCanvas` component (`webservice/frontend/src/components/explorer/GraphCanvas.tsx`) wraps Cytoscape.js directly.
 
 Key characteristics:
 - Mounts a Cytoscape instance inside a container reference.
@@ -231,40 +231,40 @@ Users can switch layouts using the canvas controls:
 
 ## 9. Page Breakdown
 
-- ModeSelection (`src/pages/ModeSelection.tsx`): Landing page with global search, overall graph statistics, and entry cards for the three explorer modes.
-- DiseaseExplorer (`src/pages/explorers/DiseaseExplorer.tsx`): Disease domain landing page with autocomplete search and category count cards.
-- DiseaseGraphView (`src/pages/explorers/DiseaseGraphView.tsx`): Interactive graph canvas, filter sidebars, category autocompletes, details inspector, and disease provenance viewer.
-- DiseaseTableView (`src/pages/explorers/DiseaseTableView.tsx`): Paginated tabular view of disease domain entities and relationships.
-- CompoundExplorer (`src/pages/explorers/CompoundExplorer.tsx`): Compound domain landing page with category cards.
-- CompoundGraphView (`src/pages/explorers/CompoundGraphView.tsx`): Interactive graph canvas for botanical and mineral compounds, Shodhana methods, media, and purified products.
-- CompoundTableView (`src/pages/explorers/CompoundTableView.tsx`): Paginated tabular view of compound domain entities.
-- IntegratedExplorer (`src/pages/explorers/IntegratedExplorer.tsx`): Navigation redirect to the integrated table view.
-- IntegratedGraphView (`src/pages/explorers/IntegratedGraphView.tsx`): Cross-domain graph canvas supporting bridge exploration and single-hop expansions.
-- IntegratedTableView (`src/pages/explorers/IntegratedTableView.tsx`): Tabular view of verified bridge connections linking purified compounds to formulations and clinical indications.
-- SearchResults (`src/pages/SearchResults.tsx`): Global multi-domain search results with tabbed filtering and direct navigation to graph views.
-- AdvancedSearch (`src/pages/AdvancedSearch.tsx`): Multi-field property search interface.
-- Static Information Pages: FAQ (`src/pages/FAQ.tsx`), HowToUse (`src/pages/HowToUse.tsx`), Contact (`src/pages/Contact.tsx`), Team (`src/pages/Team.tsx`), and NotFound (`src/pages/NotFound.tsx`).
+- ModeSelection (`webservice/frontend/src/pages/ModeSelection.tsx`): Landing page with global search, overall graph statistics, and entry cards for the three explorer modes.
+- DiseaseExplorer (`webservice/frontend/src/pages/explorers/DiseaseExplorer.tsx`): Disease domain landing page with autocomplete search and category count cards.
+- DiseaseGraphView (`webservice/frontend/src/pages/explorers/DiseaseGraphView.tsx`): Interactive graph canvas, filter sidebars, category autocompletes, details inspector, and disease provenance viewer.
+- DiseaseTableView (`webservice/frontend/src/pages/explorers/DiseaseTableView.tsx`): Paginated tabular view of disease domain entities and relationships.
+- CompoundExplorer (`webservice/frontend/src/pages/explorers/CompoundExplorer.tsx`): Compound domain landing page with category cards.
+- CompoundGraphView (`webservice/frontend/src/pages/explorers/CompoundGraphView.tsx`): Interactive graph canvas for botanical and mineral compounds, Shodhana methods, media, and purified products.
+- CompoundTableView (`webservice/frontend/src/pages/explorers/CompoundTableView.tsx`): Paginated tabular view of compound domain entities.
+- IntegratedExplorer (`webservice/frontend/src/pages/explorers/IntegratedExplorer.tsx`): Navigation redirect to the integrated table view.
+- IntegratedGraphView (`webservice/frontend/src/pages/explorers/IntegratedGraphView.tsx`): Cross-domain graph canvas supporting bridge exploration and single-hop expansions.
+- IntegratedTableView (`webservice/frontend/src/pages/explorers/IntegratedTableView.tsx`): Tabular view of verified bridge connections linking purified compounds to formulations and clinical indications.
+- SearchResults (`webservice/frontend/src/pages/SearchResults.tsx`): Global multi-domain search results with tabbed filtering and direct navigation to graph views.
+- AdvancedSearch (`webservice/frontend/src/pages/AdvancedSearch.tsx`): Multi-field property search interface.
+- Static Information Pages: FAQ (`webservice/frontend/src/pages/FAQ.tsx`), HowToUse (`webservice/frontend/src/pages/HowToUse.tsx`), Contact (`webservice/frontend/src/pages/Contact.tsx`), Team (`webservice/frontend/src/pages/Team.tsx`), and NotFound (`webservice/frontend/src/pages/NotFound.tsx`).
 
 ---
 
 ## 10. Shared Components
 
-- `AppLayout` (`src/components/layout/AppLayout.tsx`): Application layout shell with sticky navigation, main view container, footer, and chatbot launcher.
-- `TopNav` (`src/components/layout/TopNav.tsx`): Header navigation bar with dropdown menus, external links, and colorblind mode toggle.
-- `DetailsPanel` (`src/components/explorer/DetailsPanel.tsx`): Inspector panel displaying attributes of selected nodes and relationships.
-- `MultiAutocomplete` (`src/components/explorer/MultiAutocomplete.tsx`): Filter component with debounced asynchronous search, removable tag chips, and keyboard navigation.
-- `Legend` (`src/components/explorer/Legend.tsx`): Color-coded legend displaying active vertex and edge types.
-- `ExportMenu` (`src/components/explorer/ExportMenu.tsx`): Dropdown exporting active graph data to CSV, JSON, or PNG image format.
-- `ProvenancePanel` (`src/components/explorer/ProvenancePanel.tsx`): Displays verified disease-therapy-formulation pathways with PubMed identifiers and clinical parameters.
-- `CompoundProvenancePanel` (`src/components/explorer/CompoundProvenancePanel.tsx`): Displays compound-method-media processing pathways.
-- `ChatbotWidget` (`src/components/chatbot/ChatbotWidget.tsx`): Floating chatbot interface connecting to the backend conversational API.
-- UI Primitives (`src/components/ui/`): Radix UI components styled with Tailwind CSS.
+- `AppLayout` (`webservice/frontend/src/components/layout/AppLayout.tsx`): Application layout shell with sticky navigation, main view container, footer, and chatbot launcher.
+- `TopNav` (`webservice/frontend/src/components/layout/TopNav.tsx`): Header navigation bar with dropdown menus, external links, and colorblind mode toggle.
+- `DetailsPanel` (`webservice/frontend/src/components/explorer/DetailsPanel.tsx`): Inspector panel displaying attributes of selected nodes and relationships.
+- `MultiAutocomplete` (`webservice/frontend/src/components/explorer/MultiAutocomplete.tsx`): Filter component with debounced asynchronous search, removable tag chips, and keyboard navigation.
+- `Legend` (`webservice/frontend/src/components/explorer/Legend.tsx`): Color-coded legend displaying active vertex and edge types.
+- `ExportMenu` (`webservice/frontend/src/components/explorer/ExportMenu.tsx`): Dropdown exporting active graph data to CSV, JSON, or PNG image format.
+- `ProvenancePanel` (`webservice/frontend/src/components/explorer/ProvenancePanel.tsx`): Displays verified disease-therapy-formulation pathways with PubMed identifiers and clinical parameters.
+- `CompoundProvenancePanel` (`webservice/frontend/src/components/explorer/CompoundProvenancePanel.tsx`): Displays compound-method-media processing pathways.
+- `ChatbotWidget` (`webservice/frontend/src/components/chatbot/ChatbotWidget.tsx`): Floating chatbot interface connecting to the backend conversational API.
+- UI Primitives (`webservice/frontend/src/components/ui/`): Radix UI components styled with Tailwind CSS.
 
 ---
 
 ## 11. Styling and Design System
 
-- Design Tokens: Defined in `src/index.css` using HSL CSS custom properties (`--background`, `--foreground`, `--primary`, `--secondary`, `--accent`, `--herbal`, `--terracotta`, `--bark`).
+- Design Tokens: Defined in `webservice/frontend/src/index.css` using HSL CSS custom properties (`--background`, `--foreground`, `--primary`, `--secondary`, `--accent`, `--herbal`, `--terracotta`, `--bark`).
 - Typography: Headings use the Fraunces display serif font. Body text uses the Inter sans-serif font.
 - Colorblind Palette: Toggling colorblind mode applies the `.colorblind` CSS class to the root element. This remaps entity colors to the accessible Okabe-Ito palette.
 
